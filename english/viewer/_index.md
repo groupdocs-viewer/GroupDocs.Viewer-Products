@@ -28,7 +28,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
           product: "GroupDocs.Viewer for"
           platform: ".NET"
-          content: "Multi-format document viewer API for .NET and Mono frameworks to render 97+ popular file formats from within your applications."
+          content: "Multi-format document viewer API for .NET and Mono frameworks to render 170+ popular file formats from within your applications."
 
         # api_product loop
         - link: "/viewer/java"
