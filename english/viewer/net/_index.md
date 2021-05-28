@@ -298,7 +298,7 @@ features:
       # more_feature_loop
       - title: "View Documents Efficiently & Reliably"
         content: |
-          Using GroupDocs.Viewer API you can display more than 90 document formats efficiently and reliably ‎with content and document structure integrity intact. Following sample code shows that how easy it is ‎to view HTML representation of a DOCX document:‎
+          Using GroupDocs.Viewer API you can display more than 170 document formats efficiently and reliably ‎with content and document structure integrity intact. Following sample code shows that how easy it is ‎to view HTML representation of a DOCX document:‎
 
           ```cs
           // Set output directory for saving rendered pages
