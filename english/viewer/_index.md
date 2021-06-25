@@ -4,6 +4,9 @@ layout: "product"
 date: 2021-04-27T09:31:06+03:00
 draft: false
 
+product: "Viewer"
+product_tag: "viewer"
+
 ############################# Head ############################
 head_title: ".NET, Java, Cloud APIs & Online Document Viewer Apps by GroupDocs"
 head_description: "Get all-in-one document viewer solution for .NET, Java and cloud applications. View common document formats online using simple drag and drop feature."
