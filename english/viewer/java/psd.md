@@ -121,312 +121,312 @@ more_formats:
     format: 
         # format loop
         - name: "DOC Viewer"
-          link: "https://products.groupdocs.com/viewer/java/doc"
+          link: "https://products.groupdocs.com/viewer/java/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DOCM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/docm"
+          link: "https://products.groupdocs.com/viewer/java/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOCX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/docx"
+          link: "https://products.groupdocs.com/viewer/java/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/dot"
+          link: "https://products.groupdocs.com/viewer/java/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DOTM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/dotm"
+          link: "https://products.groupdocs.com/viewer/java/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DOTX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/dotx"
+          link: "https://products.groupdocs.com/viewer/java/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "RTF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/rtf"
+          link: "https://products.groupdocs.com/viewer/java/rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "TXT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/txt"
+          link: "https://products.groupdocs.com/viewer/java/txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "XLS Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xls"
+          link: "https://products.groupdocs.com/viewer/java/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "XLSX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xlsx"
+          link: "https://products.groupdocs.com/viewer/java/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "XLSM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xlsm"
+          link: "https://products.groupdocs.com/viewer/java/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "XLSB Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xlsb"
+          link: "https://products.groupdocs.com/viewer/java/xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "XLTX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xltx"
+          link: "https://products.groupdocs.com/viewer/java/xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "TSV Viewer"
-          link: "https://products.groupdocs.com/viewer/java/tsv"
+          link: "https://products.groupdocs.com/viewer/java/tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "XLAM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xlam"
+          link: "https://products.groupdocs.com/viewer/java/xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "CSV Viewer"
-          link: "https://products.groupdocs.com/viewer/java/csv"
+          link: "https://products.groupdocs.com/viewer/java/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PPT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/ppt"
+          link: "https://products.groupdocs.com/viewer/java/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPS Viewer"
-          link: "https://products.groupdocs.com/viewer/java/pps"
+          link: "https://products.groupdocs.com/viewer/java/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPTX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/pptx"
+          link: "https://products.groupdocs.com/viewer/java/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPSX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/ppsx"
+          link: "https://products.groupdocs.com/viewer/java/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "POTX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/potx"
+          link: "https://products.groupdocs.com/viewer/java/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "POTM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/potm"
+          link: "https://products.groupdocs.com/viewer/java/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPTM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/pptm"
+          link: "https://products.groupdocs.com/viewer/java/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPSM Viewer"
-          link: "https://products.groupdocs.com/viewer/java/ppsm"
+          link: "https://products.groupdocs.com/viewer/java/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PDF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/pdf"
+          link: "https://products.groupdocs.com/viewer/java/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "XPS Viewer"
-          link: "https://products.groupdocs.com/viewer/java/xps"
+          link: "https://products.groupdocs.com/viewer/java/xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "TEX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/tex"
+          link: "https://products.groupdocs.com/viewer/java/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "ODS Viewer"
-          link: "https://products.groupdocs.com/viewer/java/ods"
+          link: "https://products.groupdocs.com/viewer/java/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "ODP Viewer"
-          link: "https://products.groupdocs.com/viewer/java/odp"
+          link: "https://products.groupdocs.com/viewer/java/odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OTP Viewer"
-          link: "https://products.groupdocs.com/viewer/java/otp"
+          link: "https://products.groupdocs.com/viewer/java/otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "ODT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/odt"
+          link: "https://products.groupdocs.com/viewer/java/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "OTT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/ott"
+          link: "https://products.groupdocs.com/viewer/java/ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VST Viewer"
-          link: "https://products.groupdocs.com/viewer/java/vst"
+          link: "https://products.groupdocs.com/viewer/java/vst/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "TIFF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/tiff"
+          link: "https://products.groupdocs.com/viewer/java/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "JPEG Viewer"
-          link: "https://products.groupdocs.com/viewer/java/jpeg"
+          link: "https://products.groupdocs.com/viewer/java/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PNG Viewer"
-          link: "https://products.groupdocs.com/viewer/java/png"
+          link: "https://products.groupdocs.com/viewer/java/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "GIF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/gif"
+          link: "https://products.groupdocs.com/viewer/java/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "BMP Viewer"
-          link: "https://products.groupdocs.com/viewer/java/bmp"
+          link: "https://products.groupdocs.com/viewer/java/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "ICO Viewer"
-          link: "https://products.groupdocs.com/viewer/java/ico"
+          link: "https://products.groupdocs.com/viewer/java/ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/java/psd"
+          link: "https://products.groupdocs.com/viewer/java/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/wmf"
+          link: "https://products.groupdocs.com/viewer/java/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/emf"
+          link: "https://products.groupdocs.com/viewer/java/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "WEBP Viewer"
-          link: "https://products.groupdocs.com/viewer/java/webp"
+          link: "https://products.groupdocs.com/viewer/java/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "SVG Viewer"
-          link: "https://products.groupdocs.com/viewer/java/svg"
+          link: "https://products.groupdocs.com/viewer/java/svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "JP2 Viewer"
-          link: "https://products.groupdocs.com/viewer/java/jp2"
+          link: "https://products.groupdocs.com/viewer/java/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MPP Viewer"
-          link: "https://products.groupdocs.com/viewer/java/emz"
+          link: "https://products.groupdocs.com/viewer/java/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "MPT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/wmz"
+          link: "https://products.groupdocs.com/viewer/java/wmz/"
           description: "Microsoft Project Template"
 
         # format loop
         - name: "HTML Viewer"
-          link: "https://products.groupdocs.com/viewer/java/html"
+          link: "https://products.groupdocs.com/viewer/java/html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MHT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/mht"
+          link: "https://products.groupdocs.com/viewer/java/mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MHTML Viewer"
-          link: "https://products.groupdocs.com/viewer/java/mhtml"
+          link: "https://products.groupdocs.com/viewer/java/mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MSG Viewer"
-          link: "https://products.groupdocs.com/viewer/java/msg"
+          link: "https://products.groupdocs.com/viewer/java/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "EML Viewer"
-          link: "https://products.groupdocs.com/viewer/java/eml"
+          link: "https://products.groupdocs.com/viewer/java/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "ONE Viewer"
-          link: "https://products.groupdocs.com/viewer/java/one"
+          link: "https://products.groupdocs.com/viewer/java/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/wmf"
+          link: "https://products.groupdocs.com/viewer/java/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/emf"
+          link: "https://products.groupdocs.com/viewer/java/emf/"
           description: "Windows Enhanced Metafile"
 
         # format loop
         - name: "PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/java/psd"
+          link: "https://products.groupdocs.com/viewer/java/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VSD Viewer"
-          link: "https://products.groupdocs.com/viewer/java/vsd"
+          link: "https://products.groupdocs.com/viewer/java/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "VSDX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/vsdx"
+          link: "https://products.groupdocs.com/viewer/java/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "VSS Viewer"
-          link: "https://products.groupdocs.com/viewer/java/vss"
+          link: "https://products.groupdocs.com/viewer/java/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "VDX Viewer"
-          link: "https://products.groupdocs.com/viewer/java/vdx"
+          link: "https://products.groupdocs.com/viewer/java/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "VDW Viewer"
-          link: "https://products.groupdocs.com/viewer/java/vdw"
+          link: "https://products.groupdocs.com/viewer/java/vdw/"
           description: "Microsoft Visio 2010 Web Drawing"
 
         # format loop
         - name: "EPUB Viewer"
-          link: "https://products.groupdocs.com/viewer/java/epub"
+          link: "https://products.groupdocs.com/viewer/java/epub/"
           description: "Digital E-Book File Format"
 
 

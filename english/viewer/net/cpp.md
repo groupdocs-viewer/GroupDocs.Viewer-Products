@@ -119,302 +119,302 @@ more_formats:
     format: 
         # format loop
         - name: "DOC Viewer"
-          link: "https://products.groupdocs.com/viewer/net/doc"
+          link: "https://products.groupdocs.com/viewer/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DOCM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/docm"
+          link: "https://products.groupdocs.com/viewer/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOCX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/docx"
+          link: "https://products.groupdocs.com/viewer/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/dot"
+          link: "https://products.groupdocs.com/viewer/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DOTM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/dotm"
+          link: "https://products.groupdocs.com/viewer/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DOTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/dotx"
+          link: "https://products.groupdocs.com/viewer/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "RTF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/rtf"
+          link: "https://products.groupdocs.com/viewer/net/rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "TXT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/txt"
+          link: "https://products.groupdocs.com/viewer/net/txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "XLS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xls"
+          link: "https://products.groupdocs.com/viewer/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "XLSX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlsx"
+          link: "https://products.groupdocs.com/viewer/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "XLSM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlsm"
+          link: "https://products.groupdocs.com/viewer/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "XLSB Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlsb"
+          link: "https://products.groupdocs.com/viewer/net/xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "XLTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xltx"
+          link: "https://products.groupdocs.com/viewer/net/xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "TSV Viewer"
-          link: "https://products.groupdocs.com/viewer/net/tsv"
+          link: "https://products.groupdocs.com/viewer/net/tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "XLAM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlam"
+          link: "https://products.groupdocs.com/viewer/net/xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "CSV Viewer"
-          link: "https://products.groupdocs.com/viewer/net/csv"
+          link: "https://products.groupdocs.com/viewer/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PPT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ppt"
+          link: "https://products.groupdocs.com/viewer/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pps"
+          link: "https://products.groupdocs.com/viewer/net/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pptx"
+          link: "https://products.groupdocs.com/viewer/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPSX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ppsx"
+          link: "https://products.groupdocs.com/viewer/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "POTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/potx"
+          link: "https://products.groupdocs.com/viewer/net/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "POTM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/potm"
+          link: "https://products.groupdocs.com/viewer/net/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPTM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pptm"
+          link: "https://products.groupdocs.com/viewer/net/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPSM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ppsm"
+          link: "https://products.groupdocs.com/viewer/net/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PDF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pdf"
+          link: "https://products.groupdocs.com/viewer/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "XPS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xps"
+          link: "https://products.groupdocs.com/viewer/net/xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "TEX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/tex"
+          link: "https://products.groupdocs.com/viewer/net/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "ODS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ods"
+          link: "https://products.groupdocs.com/viewer/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "ODP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/odp"
+          link: "https://products.groupdocs.com/viewer/net/odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OTP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/otp"
+          link: "https://products.groupdocs.com/viewer/net/otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "ODT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/odt"
+          link: "https://products.groupdocs.com/viewer/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "OTT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ott"
+          link: "https://products.groupdocs.com/viewer/net/ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VST Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vst"
+          link: "https://products.groupdocs.com/viewer/net/vst/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "TIFF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/tiff"
+          link: "https://products.groupdocs.com/viewer/net/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "JPEG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/jpeg"
+          link: "https://products.groupdocs.com/viewer/net/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PNG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/png"
+          link: "https://products.groupdocs.com/viewer/net/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "GIF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/gif"
+          link: "https://products.groupdocs.com/viewer/net/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "BMP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/bmp"
+          link: "https://products.groupdocs.com/viewer/net/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "ICO Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ico"
+          link: "https://products.groupdocs.com/viewer/net/ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/psd"
+          link: "https://products.groupdocs.com/viewer/net/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/wmf"
+          link: "https://products.groupdocs.com/viewer/net/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/emf"
+          link: "https://products.groupdocs.com/viewer/net/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "WEBP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/webp"
+          link: "https://products.groupdocs.com/viewer/net/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "SVG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/svg"
+          link: "https://products.groupdocs.com/viewer/net/svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "JP2 Viewer"
-          link: "https://products.groupdocs.com/viewer/net/jp2"
+          link: "https://products.groupdocs.com/viewer/net/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MPP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/emz"
+          link: "https://products.groupdocs.com/viewer/net/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "MPT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/wmz"
+          link: "https://products.groupdocs.com/viewer/net/wmz/"
           description: "Microsoft Project Template"
 
         # format loop
         - name: "HTML Viewer"
-          link: "https://products.groupdocs.com/viewer/net/html"
+          link: "https://products.groupdocs.com/viewer/net/html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MHT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/mht"
+          link: "https://products.groupdocs.com/viewer/net/mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MHTML Viewer"
-          link: "https://products.groupdocs.com/viewer/net/mhtml"
+          link: "https://products.groupdocs.com/viewer/net/mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MSG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/msg"
+          link: "https://products.groupdocs.com/viewer/net/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "EML Viewer"
-          link: "https://products.groupdocs.com/viewer/net/eml"
+          link: "https://products.groupdocs.com/viewer/net/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "ONE Viewer"
-          link: "https://products.groupdocs.com/viewer/net/one"
+          link: "https://products.groupdocs.com/viewer/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/wmf"
+          link: "https://products.groupdocs.com/viewer/net/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/emf"
+          link: "https://products.groupdocs.com/viewer/net/emf/"
           description: "Windows Enhanced Metafile"
 
         # format loop
         - name: "PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/psd"
+          link: "https://products.groupdocs.com/viewer/net/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vsd"
+          link: "https://products.groupdocs.com/viewer/net/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "VSDX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vsdx"
+          link: "https://products.groupdocs.com/viewer/net/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "VSS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vss"
+          link: "https://products.groupdocs.com/viewer/net/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "VDX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vdx"
+          link: "https://products.groupdocs.com/viewer/net/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
@@ -424,7 +424,7 @@ more_formats:
 
         # format loop
         - name: "EPUB Viewer"
-          link: "https://products.groupdocs.com/viewer/net/epub"
+          link: "https://products.groupdocs.com/viewer/net/epub/"
           description: "Digital E-Book File Format"
 
 
