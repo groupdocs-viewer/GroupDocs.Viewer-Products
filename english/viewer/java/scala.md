@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{scala}}
 
-          link: "/{{scala_url}}"
+          link: "/{{scala_url}}/"
 
 ############################# More Formats ############################
 more_formats:

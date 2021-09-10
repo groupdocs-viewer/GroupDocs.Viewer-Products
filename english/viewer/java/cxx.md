@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{cxx}}
 
-          link: "/{{cxx_url}}"
+          link: "/{{cxx_url}}/"
 
 ############################# More Formats ############################
 more_formats:

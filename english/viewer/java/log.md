@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{log}}
 
-          link: "/{{log_url}}"
+          link: "/{{log_url}}/"
 
 ############################# More Formats ############################
 more_formats:

@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:

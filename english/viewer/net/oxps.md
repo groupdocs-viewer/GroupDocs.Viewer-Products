@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{oxps}}
 
-          link: "/{{oxps_url}}"
+          link: "/{{oxps_url}}/"
 
 ############################# More Formats ############################
 more_formats:

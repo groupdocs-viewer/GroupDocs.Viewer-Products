@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{less}}
 
-          link: "/{{less_url}}"
+          link: "/{{less_url}}/"
 
 ############################# More Formats ############################
 more_formats:

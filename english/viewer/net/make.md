@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{make}}
 
-          link: "/{{make_url}}"
+          link: "/{{make_url}}/"
 
 ############################# More Formats ############################
 more_formats:

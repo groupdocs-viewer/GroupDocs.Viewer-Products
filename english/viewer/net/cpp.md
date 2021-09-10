@@ -419,7 +419,7 @@ more_formats:
 
         # format loop
         - name: "VDW Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vdw"
+          link: "https://products.groupdocs.com/viewer/net/vdw/"
           description: "Microsoft Visio 2010 Web Drawing"
 
         # format loop

@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{cmake}}
 
-          link: "/{{cmake_url}}"
+          link: "/{{cmake_url}}/"
 
 ############################# More Formats ############################
 more_formats:

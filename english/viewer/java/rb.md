@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{rb}}
 
-          link: "/{{rb_url}}"
+          link: "/{{rb_url}}/"
 
 ############################# More Formats ############################
 more_formats:

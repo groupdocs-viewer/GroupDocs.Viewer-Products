@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{diff}}
 
-          link: "/{{diff_url}}"
+          link: "/{{diff_url}}/"
 
 ############################# More Formats ############################
 more_formats:

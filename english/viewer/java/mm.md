@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{mm}}
 
-          link: "/{{mm_url}}"
+          link: "/{{mm_url}}/"
 
 ############################# More Formats ############################
 more_formats:

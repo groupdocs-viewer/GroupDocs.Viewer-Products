@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{hpg}}
 
-          link: "/{{hpg_url}}"
+          link: "/{{hpg_url}}/"
 
 ############################# More Formats ############################
 more_formats:

@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{rst}}
 
-          link: "/{{rst_url}}"
+          link: "/{{rst_url}}/"
 
 ############################# More Formats ############################
 more_formats:

@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{m}}
 
-          link: "/{{m_url}}"
+          link: "/{{m_url}}/"
 
 ############################# More Formats ############################
 more_formats:

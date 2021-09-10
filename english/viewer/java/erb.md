@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{erb}}
 
-          link: "/{{erb_url}}"
+          link: "/{{erb_url}}/"
 
 ############################# More Formats ############################
 more_formats:

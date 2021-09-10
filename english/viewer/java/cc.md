@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{cc}}
 
-          link: "/{{cc_url}}"
+          link: "/{{cc_url}}/"
 
 ############################# More Formats ############################
 more_formats:

@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{sass}}
 
-          link: "/{{sass_url}}"
+          link: "/{{sass_url}}/"
 
 ############################# More Formats ############################
 more_formats:

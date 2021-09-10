@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{as3}}
 
-          link: "/{{as3_url}}"
+          link: "/{{as3_url}}/"
 
 ############################# More Formats ############################
 more_formats:

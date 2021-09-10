@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{haml}}
 
-          link: "/{{haml_url}}"
+          link: "/{{haml_url}}/"
 
 ############################# More Formats ############################
 more_formats:

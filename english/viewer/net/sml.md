@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{sml}}
 
-          link: "/{{sml_url}}"
+          link: "/{{sml_url}}/"
 
 ############################# More Formats ############################
 more_formats:

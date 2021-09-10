@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{asm}}
 
-          link: "/{{asm_url}}"
+          link: "/{{asm_url}}/"
 
 ############################# More Formats ############################
 more_formats:

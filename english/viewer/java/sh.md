@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{sh}}
 
-          link: "/{{sh_url}}"
+          link: "/{{sh_url}}/"
 
 ############################# More Formats ############################
 more_formats:

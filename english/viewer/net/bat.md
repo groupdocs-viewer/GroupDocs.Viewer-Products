@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{bat}}
 
-          link: "/{{bat_url}}"
+          link: "/{{bat_url}}/"
 
 ############################# More Formats ############################
 more_formats:

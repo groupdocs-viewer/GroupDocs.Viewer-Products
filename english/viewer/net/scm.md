@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{scm}}
 
-          link: "/{{scm_url}}"
+          link: "/{{scm_url}}/"
 
 ############################# More Formats ############################
 more_formats:

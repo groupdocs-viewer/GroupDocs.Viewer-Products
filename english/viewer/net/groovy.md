@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{groovy}}
 
-          link: "/{{groovy_url}}"
+          link: "/{{groovy_url}}/"
 
 ############################# More Formats ############################
 more_formats:

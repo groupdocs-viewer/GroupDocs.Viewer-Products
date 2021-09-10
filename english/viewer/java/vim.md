@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{vim}}
 
-          link: "/{{vim_url}}"
+          link: "/{{vim_url}}/"
 
 ############################# More Formats ############################
 more_formats:

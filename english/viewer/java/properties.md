@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{properties}}
 
-          link: "/{{properties_url}}"
+          link: "/{{properties_url}}/"
 
 ############################# More Formats ############################
 more_formats:

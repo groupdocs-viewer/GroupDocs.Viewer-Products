@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{script}}
 
-          link: "/{{script_url}}"
+          link: "/{{script_url}}/"
 
 ############################# More Formats ############################
 more_formats:

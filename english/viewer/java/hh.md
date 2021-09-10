@@ -110,7 +110,7 @@ about_formats:
           content: |
             {{hh}}
 
-          link: "/{{hh_url}}"
+          link: "/{{hh_url}}/"
 
 ############################# More Formats ############################
 more_formats:

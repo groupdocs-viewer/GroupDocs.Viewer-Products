@@ -327,7 +327,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
           product: "GroupDocs.Viewer"
           platform: ".NET"
-          link: "/viewer/net"
+          link: "/viewer/net/"
 
 ############################# Back to top ###############################
 back_to_top:
