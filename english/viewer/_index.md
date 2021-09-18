@@ -22,11 +22,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Viewer On Premise APIs Include"
-      link: "/viewer"
+      link: "/viewer/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/viewer/net"
+        - link: "/viewer/net/"
           img_alt: "GroupDocs.Viewer for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
           product: "GroupDocs.Viewer for"
@@ -34,7 +34,7 @@ apis:
           content: "Multi-format document viewer API for .NET and Mono frameworks to render 170+ popular file formats from within your applications."
 
         # api_product loop
-        - link: "/viewer/java"
+        - link: "/viewer/java/"
           img_alt: "GroupDocs.Viewer for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
           product: "GroupDocs.Viewer for"

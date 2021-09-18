@@ -353,7 +353,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
           product: "GroupDocs.Viewer"
           platform: "Java"
-          link: "/viewer/java"
+          link: "/viewer/java/"
 
 ############################# Back to top ###############################
 back_to_top:
