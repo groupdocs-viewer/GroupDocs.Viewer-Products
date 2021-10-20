@@ -9,7 +9,7 @@ product_tag: "viewer"
 
 ############################# Head ############################
 head_title: ".NET, Java, Cloud APIs & Online Document Viewer Apps by GroupDocs"
-head_description: "Get all-in-one document viewer solution for .NET, Java and cloud applications. View common document formats online using simple drag and drop feature."
+head_description: "Get all-in-one Document Viewer Solution for .NET, Java and Cloud applications. View common document formats online using simple drag and drop feature."
 
 ############################# Header ############################
 title: "Document Rendering and Viewing Solution"
