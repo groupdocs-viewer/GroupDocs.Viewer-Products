@@ -37,7 +37,7 @@ submenu:
               text: "API Reference"
 
             # button loop
-            - link: "https://github.com/groupdocs-viewer"
+            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
               text: "Code Examples"
 
             # button loop
@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer"
+        link_download: "https://downloads.groupdocs.com/viewer/net"
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
@@ -73,11 +73,11 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Viewer for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Viewer for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        *   Development Environments: Microsoft Visual Studio, Visual Studio Code, .NET CLI
+        *   Frameworks: .NET Framework, .NET Standard, .NET Core, .NET
         *   Get the latest version of GroupDocs.Viewer for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-image-o"
           title: "About AI File Format"
           content: |
-            A file with an .ai extension is an Adobe Illustrator Artwork file that contains vector graphics in a single page. it uses points to create paths for displaying the image data, thus making it safe from losing image quality if it is enlarged. AI file format is base don the PGF file format which are similar to AI files. AI format finds its major usage for logos and print media, and its initial versions were considered similar to that of EPS files. AI files can be opened with Adobe Illustrator, Adobe Acrobat DC, PaintShop Pro, and CorelDraw Graphics tools.
+            A file with an .ai extension is an Adobe Illustrator Artwork file that contains vector graphics in a single page. it uses points to create paths for displaying the image data, thus making it safe from losing image quality if it is enlarged. AI file format is base don the PGF file format which are similar to AI files. AI format finds its major usage for logos and print media, and its initial versions were considered similar to that of EPS files. AI files can be opened with Adobe Illustrator, Adobe Acrobat DC, PaintShop Pro, and CorelDRAW Graphics tools.
 
           link: "https://docs.fileformat.com/image/ai/"
 

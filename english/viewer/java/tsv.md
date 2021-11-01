@@ -37,7 +37,7 @@ submenu:
               text: "API Reference"
 
             # button loop
-            - link: "https://github.com/groupdocs-viewer"
+            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
               text: "Code Examples"
 
             # button loop
@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer"
+        link_download: "https://downloads.groupdocs.com/viewer/java"
         link_learn: "https://docs.groupdocs.com/viewer/java"
         link_buy: "https://purchase.groupdocs.com"
 
@@ -73,10 +73,10 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Viewer for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Viewer for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
+        *   Development Environment: NetBeans, IntelliJ IDEA, Eclipse etc
         *   Java Runtime Environment: J2SE 6.0 and above
         *   Get the latest version of GroupDocs.Viewer for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-viewer)
         
@@ -88,7 +88,7 @@ steps:
         	// Set options to view rendered file
         	PngViewOptions viewOptions = new PngViewOptions();
         	// Render file
-            viewer.view(viewOptions);
+        	viewer.view(viewOptions);
         }
         ```
         

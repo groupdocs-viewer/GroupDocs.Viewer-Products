@@ -52,7 +52,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer"
+        link_download: "https://downloads.groupdocs.com/viewer/net"
         link_learn: "https://docs.groupdocs.com/viewer/net/"
         link_buy: "https://purchase.groupdocs.com"
 

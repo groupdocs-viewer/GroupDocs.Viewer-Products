@@ -37,7 +37,7 @@ submenu:
               text: "API Reference"
 
             # button loop
-            - link: "https://github.com/groupdocs-viewer"
+            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
               text: "Code Examples"
 
             # button loop
@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer"
+        link_download: "https://downloads.groupdocs.com/viewer/net"
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
@@ -73,11 +73,11 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Viewer for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Viewer for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        *   Development Environments: Microsoft Visual Studio, Visual Studio Code, .NET CLI
+        *   Frameworks: .NET Framework, .NET Standard, .NET Core, .NET
         *   Get the latest version of GroupDocs.Viewer for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-jpf"
           title: "About JPF File Format"
           content: |
-            A file with .jpf extension is an extension to the JPEG 2000 image coding system ISO/IEC 15444 and is referred to as its Part 2 ISO/IEC 15444-2. It defines and specifies a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital still images, or multi-component images. The first part of ISO/IEC 15444-1 is referred to the JP2 that uses the wavelet technology to code lossless content and is the base for JPEG 2000 image file formats. The JPF file format didn’t receive a warm reception due to the extensive usage of JPEG format. JPG files can be opened with popular imaging applications such as Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            A file with .jpf extension is an extension to the JPEG 2000 image coding system ISO/IEC 15444 and is referred to as its Part 2 ISO/IEC 15444-2. It defines and specifies a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital still images, or multi-component images. The first part of ISO/IEC 15444-1 is referred to the JP2 that uses the wavelet technology to code lossless content and is the base for JPEG 2000 image file formats. The JPF file format didn’t receive a warm reception due to the extensive usage of JPEG format. JPG files can be opened with popular imaging applications such as Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDRAW Graphics Suite 2020.
 
           link: "https://docs.fileformat.com/image/jpf/"
 
