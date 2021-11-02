@@ -301,7 +301,7 @@ features:
           Viewer viewer = new Viewer("sample.docx");
           // Create view options
           PdfViewOptions viewOptions = new PdfViewOptions();
-          // Render file to PDF
+          // Convert file to PDF and check the output in the current directory
           viewer.view(viewOptions);
           ```
       # more_feature_loop

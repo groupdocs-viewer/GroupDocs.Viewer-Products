@@ -68,26 +68,26 @@ steps:
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) makes it easy for Java developers to add Word file viewing feature in their applications using a few lines of code.
 
         *   Create an instance of Viewer class and load the DOCX file with full path.
-        *   Set options for rendering DOCX file into PNG format.
-        *   Create view for rendered output file.
+        *   Set view options to convert DOCX file into PNG format.
+        *   Convert file and check the output in the current directory.
         
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Viewer for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, IntelliJ IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Viewer for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-viewer)
+        *   Development Environment: NetBeans, IntelliJ IDEA, Eclipse etc.
+        *   Java Runtime Environment: Java 7 (1.7) and above
+        *   Get the latest version of GroupDocs.Viewer for Java from [GroupDocs Artifact Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-viewer)
         
     code: |
         ```java
         // Instantiate viewer
         try (Viewer viewer = new Viewer("sample.docx"))
         {
-        	// Set options to view rendered file
+        	// Set view options
         	PngViewOptions viewOptions = new PngViewOptions();
-        	// Render file
+        	// Convert file to PNG and check the output in the current directory
         	viewer.view(viewOptions);
         }
         ```

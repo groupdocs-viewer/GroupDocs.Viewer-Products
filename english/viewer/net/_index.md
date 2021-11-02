@@ -160,7 +160,7 @@ overview:
               content: |
                 * Windows Desktop
                 * Windows Server
-                * Windows Azure
+                * Microsoft Azure
                 * Linux
 
             # table loop
@@ -168,10 +168,8 @@ overview:
               title: "Supported Frameworks"
               content: |
                 * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
+                * .NET Core 3.1
+                * .NET 5 or higher
 
         right:
           enable: true
@@ -187,10 +185,8 @@ overview:
               title: "Development Environments"
               content: |
                 * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+                * Visual Studio Code
+                * .NET CLI
 
 ############################# Features ############################
 features:
@@ -301,13 +297,12 @@ features:
           Using GroupDocs.Viewer API you can display more than 170 document formats efficiently and reliably ‎with content and document structure integrity intact. Following sample code shows that how easy it is ‎to view HTML representation of a DOCX document:‎
 
           ```cs
-          // Set output directory for saving rendered pages
-          string  pageFilePathFormat = Path.Combine("D:\\output", "page_{0}.html");
-          using  (Viewer viewer = new Viewer("D:\\storage\\sample.docx"))
+          // Instantiate viewer
+          using (Viewer viewer = new Viewer("sample.docx")
           {
-              // Set options to get HTML with embedded resources
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources(pageFilePathFormat);
-              // Render document
+              // Set view options
+              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+              // Convert file to HTML with embedded resources
               viewer.View(options);
           }
           ```

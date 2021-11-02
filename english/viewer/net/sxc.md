@@ -68,8 +68,8 @@ steps:
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) makes it easy for .NET developers to add SXC file viewing feature in their applications by implementing a few easy steps.
 
         *   Create an instance of Viewer class and load the SXC file with full path.
-        *   Set options for rendering SXC file into PNG format.
-        *   Create view for rendered output file.
+        *   Set options to convert SXC file into PNG format.
+        *   Convert file and check output in the current directory.
         
     title_right: "System Requirements"
     content_right: |
@@ -78,14 +78,16 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Visual Studio Code, .NET CLI
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, .NET
-        *   Get the latest version of GroupDocs.Viewer for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.viewer)
+        *   Get the latest version of GroupDocs.Viewer for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.sxc"))
         {
+        	// Set view options 
         	ViewOptions viewOptions = new PngViewOptions();
+        	// Convert file to PNG and check the output in the current directory 
         	viewer.View(viewOptions);
         }
         ```
