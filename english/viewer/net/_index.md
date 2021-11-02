@@ -18,6 +18,9 @@ title: "Render & Display Documents via .NET API"
 description: "‎.NET Document Viewer API to Render 170+ document formats into PDF, HTML and Image with Powerful ‎Configuration Options.‎"
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/viewer/net"
 
 ############################# SubMenu ############################
 submenu:

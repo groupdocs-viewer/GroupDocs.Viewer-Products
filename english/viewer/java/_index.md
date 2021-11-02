@@ -18,6 +18,9 @@ title: "Java API to Render & Display Documents"
 description: "‎Document Viewer Library to Develop Java Applications that Natively Render, View and Manipulate, Multi-Format ‎Documents Supporting 150+ File Formats.‎"
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/viewer/java"
 
 ############################# SubMenu ############################
 submenu:
