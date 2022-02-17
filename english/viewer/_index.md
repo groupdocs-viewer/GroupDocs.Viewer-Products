@@ -21,9 +21,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Viewer On Premise APIs Include"
+    - title: "GroupDocs.Viewer High Code APIs Include"
       link: "/viewer/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/viewer/net/"
@@ -42,9 +42,9 @@ apis:
           content: "Empower Java applications with document viewing and rendering capabilities to display a wide range of documents, images & diagrams."
 
     # api loop
-    - title: "GroupDocs.Viewer Cloud APIs Include"
+    - title: "GroupDocs.Viewer Low Code APIs Include"
       link: "https://products.groupdocs.cloud/viewer"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/viewer/curl"
@@ -71,9 +71,9 @@ apis:
           content: "Add high fidelity document rendering features to your java applications with specially designed document viewer SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Viewer Cross Platform Apps Include"
+    - title: "GroupDocs.Viewer No Code Apps Include"
       link: "https://products.groupdocs.app/viewer"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/total"
