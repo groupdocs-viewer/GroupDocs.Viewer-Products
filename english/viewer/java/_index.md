@@ -297,7 +297,7 @@ features:
       # more_feature_loop
       - title: "Efficient & Reliable API for Viewing Documents"
         content: |
-          GroupDocs.Viewer for Java API can be used to view, render and display documents of more than 1‎‎50 different file formats. It is done reliably and efficiently while keeping the content as well as the ‎structure of the document intact. The following example shows the level of ease with which ‎GroupDocs.Viewer for Java API renders a DOCX file as an image file using Java:‎
+          GroupDocs.Viewer for Java API can be used to view, render and display documents of more than 150 different file formats. It is done reliably and efficiently while keeping the content as well as the ‎structure of the document intact. The following example shows the level of ease with which ‎GroupDocs.Viewer for Java API renders a DOCX file as an image file using Java:‎
           
           ```java
           // Initialize Viewer
@@ -309,7 +309,7 @@ features:
           ```
       # more_feature_loop
       - title: "Perform Transformations While Rendering Documents"
-        content: "GroupDocs.Viewer for Java API offers you various transformation options to be applied on ‎the rendered document for a more customized view and display. You can rotate pages by ‎providing the angle. You can the order of the rendered pages. Apply specific text as a watermark to ‎rendered pages or images. Through GroupDocs.Viewer for Java API, you also have the ability to ‎add custom fonts to the document being rendered.‎‎"
+        content: "GroupDocs.Viewer for Java API offers you various transformation options to be applied on ‎the rendered document for a more customized view and display. You can rotate pages by ‎providing the angle. You can the order of the rendered pages. Apply specific text as a watermark to ‎rendered pages or images. Through GroupDocs.Viewer for Java API, you also have the ability to ‎add custom fonts to the document being rendered."
 
       # more_feature_loop
       - title: "Working with Email Attachments"

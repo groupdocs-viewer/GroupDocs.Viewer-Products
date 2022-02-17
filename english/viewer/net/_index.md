@@ -315,7 +315,7 @@ features:
 
       # more_feature_loop
       - title: "Working with Outlook Data Files"
-        content: "GroupDocs.Viewer for .NET API can render the items in Outlook Data Files (OST/PST) as PDF, HTML and Image Files. Our ‎Viewer API also has the ability to obtain the list of folders contained in Outlook Data Files. Using ‎GroupDocs.Viewer for .NET API, you can specify the folder to render from Outlook Data Files. Likewise, ‎‎you can also obtain email messages contained in OST/PST formats as attachments. GroupDocs.Viewer for .NET also enables you to filter messages from OST/PST formats based on subject, content or sender."
+        content: "GroupDocs.Viewer for .NET API can render the items in Outlook Data Files (OST/PST) as PDF, HTML and Image Files. Our ‎Viewer API also has the ability to obtain the list of folders contained in Outlook Data Files. Using ‎GroupDocs.Viewer for .NET API, you can specify the folder to render from Outlook Data Files. Likewise, you can also obtain email messages contained in OST/PST formats as attachments. GroupDocs.Viewer for .NET also enables you to filter messages from OST/PST formats based on subject, content or sender."
 
       # more_feature_loop
       - title: "Working with CAD Documents"
