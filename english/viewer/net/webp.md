@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-12T12:19:17+03:00
+date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
@@ -11,7 +11,7 @@ head_description: ".NET document viewer API to read, render and display WEBP in 
 ############################# Header ############################
 title: "WEBP File Viewer for C# .NET Applications"
 description: ".NET document viewer API to read, render and display WEBP file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+
 bg_overlay: false
 button:
     enable: true
@@ -63,7 +63,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Viewing WEBP File in C#"
+    title_left: "Steps for View WEBP File in C#"
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) makes it easy for .NET developers to add WEBP file viewing feature in their applications by implementing a few easy steps.
 
@@ -315,24 +315,9 @@ more_formats:
           description: "Microsoft Icon File"
 
         # format loop
-        - name: ".NET PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
         - name: ".NET WMF Viewer"
           link: "https://products.groupdocs.com/viewer/net/wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: ".NET EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: ".NET WEBP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: ".NET SVG Viewer"
@@ -383,11 +368,6 @@ more_formats:
         - name: ".NET ONE Viewer"
           link: "https://products.groupdocs.com/viewer/net/one/"
           description: "Microsoft OneNote"
-
-        # format loop
-        - name: ".NET WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: ".NET EMF Viewer"

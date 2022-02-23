@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-02-23T12:00:00+02:00
 draft: false
 
 product: "Viewer"
@@ -15,7 +15,7 @@ head_description: "C# ASP.NET file viewer & rendering API. Add PDF viewer, Word 
 
 ############################# Header ############################
 title: "Render & Display Documents via .NET API"
-description: "‎.NET Document Viewer API to Render 170+ document formats into PDF, HTML and Image with Powerful ‎Configuration Options.‎"
+description: ".NET Document Viewer API to Render 170+ document formats into PDF, HTML and Image with Powerful Configuration Options."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -63,7 +63,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Viewer for .NET APIs help you create powerful applications in C#, ASP.NET ‎and other .NET-based technologies, which can render and display documents and images of 170+ file ‎formats without installing any external software. The file viewer library rasterizes the documents and then converts them into SVG+HTML+CSS to optimize the overall document rendering experience for viewing business documents, images, ‎text files, diagrams, graphics, email attachments and PDF files with speed, true-text and high-fidelity inside your applications. You have the option to add document viewing and reading functionalities in your applications to display ‎whole document, partial document, specific page/cell range, individual document layer, with or ‎without annotations and comments for the supported file formats.‎  
+      GroupDocs.Viewer for .NET APIs help you create powerful applications in C#, ASP.NET and other .NET-based technologies, which can render and display documents and images of 170+ file formats without installing any external software. The file viewer library rasterizes the documents and then converts them into SVG+HTML+CSS to optimize the overall document rendering experience for viewing business documents, images, text files, diagrams, graphics, email attachments and PDF files with speed, true-text and high-fidelity inside your applications. You have the option to add document viewing and reading functionalities in your applications to display whole document, partial document, specific page/cell range, individual document layer, with or without annotations and comments for the supported file formats.  
 
       GroupDocs.Viewer for .NET caches the rendered documents output to the local disk by default. Any type of external cache storage is also supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Redis or any other.
     tabs:
@@ -102,12 +102,12 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
                 * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST‎
+                * **Outlook:** MSG, EML, EMLX, PST, OST
                 * **OneNote:** ONE
 
             # table loop
@@ -117,7 +117,7 @@ overview:
                 * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
                 * **Delimiter-Separated Values:** CSV, TSV
                 * **Web:** HTML, MHT, MHTML
-                * **Metafile‎:** WMF, EMF, CGM‎, WMZ, EMZ
+                * **Metafile:** WMF, EMF, CGM, WMZ, EMZ
                 * **PostScript:** PS, EPS
                 * **Archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
                 * **Various:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBER, NSF
@@ -134,7 +134,7 @@ overview:
                 * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
                 * **Adobe Photoshop:** PSD, PSB
                 * **Printer Command Language:** PCL
-                * **Stereo Lithography (3D Printing)‎:** STL
+                * **Stereo Lithography (3D Printing):** STL
                 * **Industry Foundation Classes:** IFC
                 * **Medical Imaging:** DICOM
                 * **Plotter Documents:** PLT, HPG
@@ -152,7 +152,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Viewer for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -227,7 +227,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Minify CSS & HTML Output by Removing Comments, Extra White-Spaces etc.‎"
+        content: "Minify CSS & HTML Output by Removing Comments, Extra White-Spaces etc."
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -251,7 +251,7 @@ features:
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Render Email Attachments as Original Files, Images or in ‎HTML representation"
+        content: "Render Email Attachments as Original Files, Images or in HTML representation"
 
       # feature loop
       - icon: "fas fa-print"
@@ -297,7 +297,7 @@ features:
       # more_feature_loop
       - title: "View Documents Efficiently & Reliably"
         content: |
-          Using GroupDocs.Viewer API you can display more than 170 document formats efficiently and reliably ‎with content and document structure integrity intact. Following sample code shows that how easy it is ‎to view HTML representation of a DOCX document:‎
+          Using GroupDocs.Viewer API you can display more than 170 document formats efficiently and reliably with content and document structure integrity intact. Following sample code shows that how easy it is to view HTML representation of a DOCX document:
 
           ```cs
           // Instantiate viewer
@@ -311,11 +311,11 @@ features:
           ```
       # more_feature_loop
       - title: "Apply Transformation to Rendered Output"
-        content: "You can perform various transformations to the rendered output document using GroupDocs.Viewer ‎for .NET API. These transformation options give you control on the way you present the rendered ‎output for display. The available transformations are, page rotation option, page reorder option and ‎applying text watermark.‎"
+        content: "You can perform various transformations to the rendered output document using GroupDocs.Viewer for .NET API. These transformation options give you control on the way you present the rendered output for display. The available transformations are, page rotation option, page reorder option and applying text watermark."
 
       # more_feature_loop
       - title: "Working with Outlook Data Files"
-        content: "GroupDocs.Viewer for .NET API can render the items in Outlook Data Files (OST/PST) as PDF, HTML and Image Files. Our ‎Viewer API also has the ability to obtain the list of folders contained in Outlook Data Files. Using ‎GroupDocs.Viewer for .NET API, you can specify the folder to render from Outlook Data Files. Likewise, you can also obtain email messages contained in OST/PST formats as attachments. GroupDocs.Viewer for .NET also enables you to filter messages from OST/PST formats based on subject, content or sender."
+        content: "GroupDocs.Viewer for .NET API can render the items in Outlook Data Files (OST/PST) as PDF, HTML and Image Files. Our Viewer API also has the ability to obtain the list of folders contained in Outlook Data Files. Using GroupDocs.Viewer for .NET API, you can specify the folder to render from Outlook Data Files. Likewise, you can also obtain email messages contained in OST/PST formats as attachments. GroupDocs.Viewer for .NET also enables you to filter messages from OST/PST formats based on subject, content or sender."
 
       # more_feature_loop
       - title: "Working with CAD Documents"

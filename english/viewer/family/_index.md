@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
-head_title: "Document Rendering Library for .NET & Java | View 90+ File Formats"
-head_description: "Document Viewer APIs native to C# .NET & Java. Most complete set of API for documents & images viewing. Render 100+ file formats for high-fidelity output."
+head_title: "Document Rendering Library for .NET & Java | View 170+ File Formats"
+head_description: "Document Viewer APIs native to C# .NET & Java. Most complete set of API for documents & images viewing. Render 170+ file formats for high-fidelity output."
 
 ############################# Header ############################
-title: "Document Viewer APIs for 100+ File Formats"
-description: "Develop .NET & Java applications having the ability to View & Render documents of over 100 file formats - no external dependencies."
+title: "Document Viewer APIs for 170+ File Formats"
+description: "Develop .NET & Java applications having the ability to View & Render documents of over 170 file formats - no external dependencies."
 
 ############################# APIs ###############################
 apis:

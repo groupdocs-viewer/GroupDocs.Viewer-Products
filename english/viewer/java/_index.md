@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-02-23T12:00:00+02:00
 draft: false
 
 product: "Viewer"
@@ -15,7 +15,7 @@ head_description: "Java document viewer & files rendering API. Add PDF viewer, W
 
 ############################# Header ############################
 title: "Java API to Render & Display Documents"
-description: "‎Document Viewer Library to Develop Java Applications that Natively Render, View and Manipulate, Multi-Format ‎Documents Supporting 150+ File Formats.‎"
+description: "Document Viewer Library to Develop Java Applications that Natively Render, View and Manipulate, Multi-Format Documents Supporting 170+ File Formats."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -63,9 +63,9 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Viewer for Java combines a powerful set of document viewer APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, Microsoft Office Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file viewer library is quite customizable, as it allows you to display the whole ‎document, or render it partially to speed up the process. Through GroupDocs.Viewer for Java ‎API, you can view pages, specific cell range in a spreadsheet or even render an individual ‎document layer in formats, such as, PDF and CAD.  
+      GroupDocs.Viewer for Java combines a powerful set of document viewer APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, Microsoft Office Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file viewer library is quite customizable, as it allows you to display the whole document, or render it partially to speed up the process. Through GroupDocs.Viewer for Java API, you can view pages, specific cell range in a spreadsheet or even render an individual document layer in formats, such as, PDF and CAD.  
         
-      GroupDocs.Viewer for Java API allows you to ‎render documents with/without annotation or comments for supported file formats.‎ It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc.‎  
+      GroupDocs.Viewer for Java API allows you to render documents with/without annotation or comments for supported file formats. It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc. 
         
       GroupDocs.Viewer for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, macOS) that are capable to run Java runtime.
     tabs:
@@ -105,12 +105,12 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
                 * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST‎
+                * **Outlook:** MSG, EML, EMLX, PST, OST
                 * **OneNote:** ONE
 
             # table loop
@@ -120,7 +120,7 @@ overview:
                 * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
                 * **Delimiter-Separated Values:** CSV, TSV
                 * **Web:** HTML, MHT, MHTML
-                * **Metafile‎:** WMF, EMF, CGM‎, WMZ, EMZ
+                * **Metafile:** WMF, EMF, CGM, WMZ, EMZ
                 * **PostScript:** PS, EPS
                 * **Archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
                 * **Various:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBER, NSF
@@ -137,7 +137,7 @@ overview:
                 * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
                 * **Adobe Photoshop:** PSD, PSB
                 * **Printer Command Language:** PCL
-                * **Stereo Lithography (3D Printing)‎:** STL
+                * **Stereo Lithography (3D Printing):** STL
                 * **Industry Foundation Classes:** IFC
                 * **Medical Imaging:** DICOM
                 * **Plotter Documents:** PLT, HPG
@@ -155,7 +155,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Viewer for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -227,7 +227,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Apply Encoding Standards to Word, Excel and Email Documents‎"
+        content: "Apply Encoding Standards to Word, Excel and Email Documents"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -297,7 +297,7 @@ features:
       # more_feature_loop
       - title: "Efficient & Reliable API for Viewing Documents"
         content: |
-          GroupDocs.Viewer for Java API can be used to view, render and display documents of more than 150 different file formats. It is done reliably and efficiently while keeping the content as well as the ‎structure of the document intact. The following example shows the level of ease with which ‎GroupDocs.Viewer for Java API renders a DOCX file as an image file using Java:‎
+          GroupDocs.Viewer for Java API can be used to view, render and display documents of more than 150 different file formats. It is done reliably and efficiently while keeping the content as well as the structure of the document intact. The following example shows the level of ease with which GroupDocs.Viewer for Java API renders a DOCX file as an image file using Java:
           
           ```java
           // Initialize Viewer
@@ -309,11 +309,11 @@ features:
           ```
       # more_feature_loop
       - title: "Perform Transformations While Rendering Documents"
-        content: "GroupDocs.Viewer for Java API offers you various transformation options to be applied on ‎the rendered document for a more customized view and display. You can rotate pages by ‎providing the angle. You can the order of the rendered pages. Apply specific text as a watermark to ‎rendered pages or images. Through GroupDocs.Viewer for Java API, you also have the ability to ‎add custom fonts to the document being rendered."
+        content: "GroupDocs.Viewer for Java API offers you various transformation options to be applied on the rendered document for a more customized view and display. You can rotate pages by providing the angle. You can the order of the rendered pages. Apply specific text as a watermark to rendered pages or images. Through GroupDocs.Viewer for Java API, you also have the ability to add custom fonts to the document being rendered."
 
       # more_feature_loop
       - title: "Working with Email Attachments"
-        content: "GroupDocs.Viewer for Java API lets you fetch specific or all attachments of an email. Once you get ‎the required email attachments, you can render these attached files to images or HTML.‎"
+        content: "GroupDocs.Viewer for Java API lets you fetch specific or all attachments of an email. Once you get the required email attachments, you can render these attached files to images or HTML."
 
 ############################# Support ############################
 support:

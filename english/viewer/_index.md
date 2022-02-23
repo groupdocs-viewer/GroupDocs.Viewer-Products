@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-02-23T12:00:00+02:00
 draft: false
 
 product: "Viewer"
@@ -13,7 +13,7 @@ head_description: "Get all-in-one Document Viewer Solution for .NET, Java and Cl
 
 ############################# Header ############################
 title: "Document Rendering and Viewing Solution"
-description: "‎Flexible document viewing solution for programmers and professionals to render and display widely used file formats anywhere.‎"
+description: "Flexible document viewing solution for programmers and professionals to render and display widely used file formats anywhere."
 
 ############################# APIs ###############################
 apis:
@@ -81,7 +81,7 @@ apis:
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
           product: "GroupDocs.Viewer"
           platform: "Total"
-          content: "Free online app to view more than 90 file formats from any browser of your choice."
+          content: "Free online app to view more than 170 file formats from any browser of your choice."
 
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/docx"

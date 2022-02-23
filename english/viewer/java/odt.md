@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-12T12:50:31+03:00
+date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
@@ -11,7 +11,7 @@ head_description: "View ODT files in Java, J2EE, J2SE applications. Supports vie
 ############################# Header ############################
 title: "Render & View ODT File in Java"
 description: "Native and high performance ODT file viewer API for Java, J2EE and J2SE based applications, supporting a wide range of additional features to customize the appearance of the output document format."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+
 bg_overlay: false
 button:
     enable: true
@@ -63,7 +63,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Viewing ODT File in Java"
+    title_left: "Steps for View ODT File in Java"
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) makes it easy for Java developers to add ODT file viewing feature in their applications using a few lines of code.
 
@@ -270,11 +270,6 @@ more_formats:
           description: "Origin Graph Template"
 
         # format loop
-        - name: "Java ODT Viewer"
-          link: "https://products.groupdocs.com/viewer/java/odt/"
-          description: "Open Document Text"
-
-        # format loop
         - name: "Java OTT Viewer"
           link: "https://products.groupdocs.com/viewer/java/ott/"
           description: "Open Document Template"
@@ -319,15 +314,7 @@ more_formats:
           link: "https://products.groupdocs.com/viewer/java/psd/"
           description: "Adobe Photoshop Document"
 
-        # format loop
-        - name: "Java WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/wmf/"
-          description: "Windows Metafile"
 
-        # format loop
-        - name: "Java EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/java/emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Java WEBP Viewer"
@@ -384,6 +371,7 @@ more_formats:
           link: "https://products.groupdocs.com/viewer/java/one/"
           description: "Microsoft OneNote"
 
+
         # format loop
         - name: "Java WMF Viewer"
           link: "https://products.groupdocs.com/viewer/java/wmf/"
@@ -392,7 +380,7 @@ more_formats:
         # format loop
         - name: "Java EMF Viewer"
           link: "https://products.groupdocs.com/viewer/java/emf/"
-          description: "Windows Enhanced Metafile"
+          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Java PSD Viewer"
