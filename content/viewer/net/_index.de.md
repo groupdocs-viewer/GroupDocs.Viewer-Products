@@ -152,7 +152,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer for .NET supports following Betriebssysteme, Frameworks & Paket-Managers:
+          GroupDocs.Viewer for .NET unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Managers:
         
         left:
           enable: true
