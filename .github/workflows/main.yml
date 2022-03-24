@@ -20,7 +20,7 @@ jobs:
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
         src_path: ./content/
-        dst_path: /content/
+        dst_path: /
         dst_owner: groupdocs
         dst_repo_name: products.groupdocs.com
         dst_branch: main
