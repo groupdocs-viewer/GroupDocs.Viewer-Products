@@ -78,7 +78,7 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Visual Studio Code, .NET CLI
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, .NET
-        *   Get the latest version of GroupDocs.Viewer for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.viewer)
+        *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
         ```cs
@@ -121,298 +121,298 @@ more_formats:
     format: 
         # format loop
         - name: ".NET DOC Viewer"
-          link: "https://products.groupdocs.com/viewer/net/doc/"
+          link: "/viewer/net/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: ".NET DOCM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/docm/"
+          link: "/viewer/net/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: ".NET DOCX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/docx/"
+          link: "/viewer/net/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: ".NET DOT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/dot/"
+          link: "/viewer/net/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: ".NET DOTM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/dotm/"
+          link: "/viewer/net/dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: ".NET DOTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/dotx/"
+          link: "/viewer/net/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: ".NET RTF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/rtf/"
+          link: "/viewer/net/rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: ".NET TXT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/txt/"
+          link: "/viewer/net/txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: ".NET XLS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xls/"
+          link: "/viewer/net/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: ".NET XLSX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlsx/"
+          link: "/viewer/net/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: ".NET XLSM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlsm/"
+          link: "/viewer/net/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: ".NET XLSB Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlsb/"
+          link: "/viewer/net/xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: ".NET XLTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xltx/"
+          link: "/viewer/net/xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: ".NET TSV Viewer"
-          link: "https://products.groupdocs.com/viewer/net/tsv/"
+          link: "/viewer/net/tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: ".NET XLAM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xlam/"
+          link: "/viewer/net/xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: ".NET CSV Viewer"
-          link: "https://products.groupdocs.com/viewer/net/csv/"
+          link: "/viewer/net/csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: ".NET PPT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ppt/"
+          link: "/viewer/net/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: ".NET PPS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pps/"
+          link: "/viewer/net/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: ".NET PPTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pptx/"
+          link: "/viewer/net/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: ".NET PPSX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ppsx/"
+          link: "/viewer/net/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: ".NET POTX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/potx/"
+          link: "/viewer/net/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: ".NET POTM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/potm/"
+          link: "/viewer/net/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: ".NET PPTM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pptm/"
+          link: "/viewer/net/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: ".NET PPSM Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ppsm/"
+          link: "/viewer/net/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: ".NET PDF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/pdf/"
+          link: "/viewer/net/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: ".NET XPS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/xps/"
+          link: "/viewer/net/xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: ".NET TEX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/tex/"
+          link: "/viewer/net/tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: ".NET ODS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ods/"
+          link: "/viewer/net/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: ".NET ODP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/odp/"
+          link: "/viewer/net/odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: ".NET OTP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/otp/"
+          link: "/viewer/net/otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: ".NET ODT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/odt/"
+          link: "/viewer/net/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: ".NET OTT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ott/"
+          link: "/viewer/net/ott/"
           description: "Open Document Template"
 
         # format loop
         - name: ".NET VST Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vst/"
+          link: "/viewer/net/vst/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: ".NET TIFF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/tiff/"
+          link: "/viewer/net/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: ".NET JPEG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/jpeg/"
+          link: "/viewer/net/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: ".NET PNG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/png/"
+          link: "/viewer/net/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: ".NET GIF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/gif/"
+          link: "/viewer/net/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: ".NET BMP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/bmp/"
+          link: "/viewer/net/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: ".NET ICO Viewer"
-          link: "https://products.groupdocs.com/viewer/net/ico/"
+          link: "/viewer/net/ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: ".NET PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/psd/"
+          link: "/viewer/net/psd/"
           description: "Adobe Photoshop Document"
 
 
         # format loop
         - name: ".NET WEBP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/webp/"
+          link: "/viewer/net/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: ".NET SVG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/svg/"
+          link: "/viewer/net/svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: ".NET JP2 Viewer"
-          link: "https://products.groupdocs.com/viewer/net/jp2/"
+          link: "/viewer/net/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: ".NET MPP Viewer"
-          link: "https://products.groupdocs.com/viewer/net/emz/"
+          link: "/viewer/net/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: ".NET MPT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/wmz/"
+          link: "/viewer/net/wmz/"
           description: "Microsoft Project Template"
 
         # format loop
         - name: ".NET HTML Viewer"
-          link: "https://products.groupdocs.com/viewer/net/html/"
+          link: "/viewer/net/html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: ".NET MHT Viewer"
-          link: "https://products.groupdocs.com/viewer/net/mht/"
+          link: "/viewer/net/mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: ".NET MSG Viewer"
-          link: "https://products.groupdocs.com/viewer/net/msg/"
+          link: "/viewer/net/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: ".NET EML Viewer"
-          link: "https://products.groupdocs.com/viewer/net/eml/"
+          link: "/viewer/net/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: ".NET ONE Viewer"
-          link: "https://products.groupdocs.com/viewer/net/one/"
+          link: "/viewer/net/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: ".NET WMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/wmf/"
+          link: "/viewer/net/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: ".NET EMF Viewer"
-          link: "https://products.groupdocs.com/viewer/net/emf/"
+          link: "/viewer/net/emf/"
           description: "Windows Enhanced Metafile"
 
         # format loop
         - name: ".NET PSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/psd/"
+          link: "/viewer/net/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: ".NET VSD Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vsd/"
+          link: "/viewer/net/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: ".NET VSDX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vsdx/"
+          link: "/viewer/net/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: ".NET VSS Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vss/"
+          link: "/viewer/net/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: ".NET VDX Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vdx/"
+          link: "/viewer/net/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: ".NET VDW Viewer"
-          link: "https://products.groupdocs.com/viewer/net/vdw/"
+          link: "/viewer/net/vdw/"
           description: "Microsoft Visio 2010 Web Drawing"
 
         # format loop
         - name: ".NET EPUB Viewer"
-          link: "https://products.groupdocs.com/viewer/net/epub/"
+          link: "/viewer/net/epub/"
           description: "Digital E-Book File Format"
 
 
