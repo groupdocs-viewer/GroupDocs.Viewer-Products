@@ -73,7 +73,7 @@ overview:
             *回転＆amp;再注文
             *透かしを適用する
             *高速プロセスのためのキャッシュ
-            *カスタムフォントを追加する
+            * カスタムフォントを追加する
             *エンコーディング標準を適用する
             *カスタム入力データハンドラー
             *トラックの変更を伴うレンダリング
@@ -103,7 +103,7 @@ overview:
                 * ** OpenDocument：** ODT、OTT、ODS、ODP、OTP、OTS、ODG、OTG、FODP、FODG
                 * **区切り文字-区切り値：** CSV、TSV
                 * ** Web：** HTML、MHT、MHTML
-                * **メタファイル：** WMF、EMF、CGM、WMZ、EMZ
+                *  **メタファイル：** WMF、EMF、CGM、WMZ、EMZ
                 * ** PostScript：** PS、EPS
                 * **アーカイブ：** ZIP、TAR、BZ2、GZ、RAR、RAR5
                 * **さまざま：** OBJ、EPUB、MOBI、DjVu、XML、VCF、VCARD、NUMBER、NSF
@@ -115,22 +115,22 @@ overview:
               content: |
                 * **画像：** BMP、GIF、JPG、PNG、TIFF、マルチページTIFF、WebP、DNG、DIB、DCM
                 * ** Windowsアイコン：** ICO
-                * **スケーラブルベクターグラフィックス：** SVG、CDR、CMX、IGS、SVGZ
+                *  **スケーラブルベクターグラフィックス：** SVG、CDR、CMX、IGS、SVGZ
                 * ** Jpeg2000：** JP2、J2C、J2K、JPC、JPF、JPX、JPM
                 * ** Adobe Photoshop：** PSD、PSB
                 * **プリンタコマンド言語：** PCL
-                * **ステレオリソグラフィー（3D印刷）：** STL
+                *  **ステレオリソグラフィー（3D印刷）：** STL
                 * ** Industry Foundation Classes：** IFC
                 * **医用画像：** DICOM
                 * **プロッタドキュメント：** PLT、HPG
-                * ** Autodesk Design Webフォーマット：** DWF、DWG
+                *  ** Autodesk Design Webフォーマット：** DWF、DWG
                 * ** AutoCADの描画：** DGN、DWT、IFC、STL、CF2
                 * ** ISFFベースのDGN（V7）：** DGN
 
             - title: "プログラミング言語フォーマット"
               content: |
-                * ** C / C ++ / C＃ファイル：** C、CC、CS、CPP、CXX、C＃、H、HH、M、MM
-                * ** Java / JavaScriptファイル：** JAVA、JS、JSON、PROPERTIES
+                *  ** C / C ++ / C＃ファイル：** C、CC、CS、CPP、CXX、C＃、H、HH、M、MM
+                *  ** Java / JavaScriptファイル：** JAVA、JS、JSON、PROPERTIES
                 * **さまざま：** VB、PHP、SQL、PL、PY、PV、RB、RST、SASS、SCALA、SCM、SCRIPT、AS、AS3、ASM、BAT、CMAKE、CSS、DIFF、ERB、GROOVY、HAML 、LESS、LOG、M、MAKE、MD、ML、MM、SH、SML、VIM、YAML
 
       tab_three:

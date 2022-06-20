@@ -57,8 +57,8 @@ steps:
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションにMBOXファイル表示機能を簡単に追加できます。
 
-        * Viewerクラスのインスタンスを作成し、フルパスでMBOXファイルをロードします。
-        * BOXファイルをPNG形式に変換するオプションを設定します。
+        *  Viewerクラスのインスタンスを作成し、フルパスでMBOXファイルをロードします。
+        *  BOXファイルをPNG形式に変換するオプションを設定します。
         * ァイルを変換し、現在のディレクトリの出力を確認します。
         
     title_right: "システム要求"
@@ -86,7 +86,7 @@ demos:
     enable: true
     title: "MBOXビューアのライブデモ"
     content: |
-        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/mbox)Webサイトにアクセスして、MBOXファイルを今すぐ表示します。  
+        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/mbox)サイトにアクセスして、MBOXファイルを今すぐ表示します。  
         ライブデモには次の利点があります
         
 about_formats:

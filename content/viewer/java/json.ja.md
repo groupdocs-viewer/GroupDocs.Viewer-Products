@@ -57,16 +57,16 @@ steps:
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/)を使用すると、Java開発者は、数行のコードを使用して、アプリケーションにJSONファイル表示機能を簡単に追加できます。
 
-        * Viewerクラスのインスタンスを作成し、フルパスでJSONファイルをロードします。
-        *JSONファイルをPNG形式に変換するための表示オプションを設定します。
-        *ファイルを変換し、現在のディレクトリの出力を確認します。
+        *  Viewerクラスのインスタンスを作成し、フルパスでJSONファイルをロードします。
+        * JSONファイルをPNG形式に変換するための表示オプションを設定します。
+        * ファイルを変換し、現在のディレクトリの出力を確認します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Viewer for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: NetBeans、IntelliJ IDEA、Eclipseなど。
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: NetBeans、IntelliJ IDEA、Eclipseなど。
         * Javaランタイム環境: Java 7（1.7）以降
         * [GroupDocs Artifactリポジトリ](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-viewer)からJava用のGroupDocs.Viewerの最新バージョンを入手してください。
         
@@ -86,7 +86,7 @@ demos:
     enable: true
     title: "JSONビューアのライブデモ"
     content: |
-        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/)Webサイトにアクセスして、JSONファイルを今すぐ表示します。  
+        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/)サイトにアクセスして、JSONファイルを今すぐ表示します。  
         ライブデモには次の利点があります
         
 about_formats:

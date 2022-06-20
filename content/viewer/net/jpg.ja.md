@@ -57,8 +57,8 @@ steps:
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションにJPGファイル表示機能を簡単に追加できます。
 
-        * Viewerクラスのインスタンスを作成し、フルパスでJPGファイルをロードします。
-        * PGファイルをPNG形式に変換するオプションを設定します。
+        *  Viewerクラスのインスタンスを作成し、フルパスでJPGファイルをロードします。
+        *  PGファイルをPNG形式に変換するオプションを設定します。
         * ァイルを変換し、現在のディレクトリの出力を確認します。
         
     title_right: "システム要求"
@@ -86,7 +86,7 @@ demos:
     enable: true
     title: "JPGビューアのライブデモ"
     content: |
-        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/jpg)Webサイトにアクセスして、JPGファイルを今すぐ表示します。  
+        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/jpg)サイトにアクセスして、JPGファイルを今すぐ表示します。  
         ライブデモには次の利点があります
         
 about_formats:

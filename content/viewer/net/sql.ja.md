@@ -57,17 +57,17 @@ steps:
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションにSQLファイル表示機能を簡単に追加できます。
 
-        * Viewerクラスのインスタンスを作成し、フルパスでSQLファイルをロードします。
-        *SQLファイルをPNG形式に変換するオプションを設定します。
-        *ファイルを変換し、現在のディレクトリの出力を確認します。
+        *  Viewerクラスのインスタンスを作成し、フルパスでSQLファイルをロードします。
+        * SQLファイルをPNG形式に変換するオプションを設定します。
+        * ファイルを変換し、現在のディレクトリの出力を確認します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Viewer for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        *開発環境: Microsoft Visual Studio、Visual Studio Code、.NET CLI
-        *フレームワーク: .NET Framework、.NET Standard、.NET Core、.NET
+        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 開発環境: Microsoft Visual Studio、Visual Studio Code、.NET CLI
+        * フレームワーク: .NET Framework、.NET Standard、.NET Core、.NET
         * [NuGet](https://www.nuget.org/packages/groupdocs.viewer)からGroupDocs.Viewerfor.NETの最新バージョンを取得します
         
     code: |
@@ -86,7 +86,7 @@ demos:
     enable: true
     title: "SQLビューアのライブデモ"
     content: |
-        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/sql)Webサイトにアクセスして、SQLファイルを今すぐ表示します。  
+        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/sql)サイトにアクセスして、SQLファイルを今すぐ表示します。  
         ライブデモには次の利点があります
         
 about_formats:

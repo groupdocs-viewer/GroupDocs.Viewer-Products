@@ -57,8 +57,8 @@ steps:
     content_left: |
         [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションにJPCファイル表示機能を簡単に追加できます。
 
-        * Viewerクラスのインスタンスを作成し、フルパスでJPCファイルをロードします。
-        * PCファイルをPNG形式に変換するオプションを設定します。
+        *  Viewerクラスのインスタンスを作成し、フルパスでJPCファイルをロードします。
+        *  PCファイルをPNG形式に変換するオプションを設定します。
         * ァイルを変換し、現在のディレクトリの出力を確認します。
         
     title_right: "システム要求"
@@ -86,7 +86,7 @@ demos:
     enable: true
     title: "JPCビューアライブデモ"
     content: |
-        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/jpc)Webサイトにアクセスして、今すぐJPCファイルを表示してください。  
+        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/jpc)サイトにアクセスして、今すぐJPCファイルを表示してください。  
         ライブデモには次の利点があります
         
 about_formats:
