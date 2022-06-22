@@ -89,49 +89,49 @@ overview:
           table:
             - title: "マイクロソフトオフィス"
               content: |
-                * **ワード：** DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT
-                * ** Excel：** XLS、XLSX、XLSM、XLSB、XLTM、XLT、XLTM、XLTX、XLAM、SXC、SpreadsheetML
-                * ** PowerPoint：** PPT、PPTX、PPS、PPSX、PPSM、POT、POTM、POTX、PPTM
-                * ** Visio：** VSD、VDX、VSS、VSSX、VSX、VST、VSTX、VTX、VSDX、VDW、VSTM、VSSM、VSDM
-                * **プロジェクト：** MPP、MPT、MPX
-                * ** Outlook：** MSG、EML、EMLX、PST、OST
-                * ** OneNote：** ONE
+                * **ワード：** [DOC](https://products.groupdocs.com/ja/viewer/net/doc/)、[DOCX](https://products.groupdocs.com/ja/viewer/net/docx/)、[DOCM](https://products.groupdocs.com/ja/viewer/net/docm/)、[DOT](https://products.groupdocs.com/ja/viewer/net/dot/)、[DOTX](https://products.groupdocs.com/ja/viewer/net/dotx/)、[DOTM](https://products.groupdocs.com/ja/viewer/net/dotm/)、[RTF](https://products.groupdocs.com/ja/viewer/net/rtf/)、[TXT](https://products.groupdocs.com/ja/viewer/net/txt/)
+                * ** Excel：** [XLS](https://products.groupdocs.com/ja/viewer/net/xls/)、[XLSX](https://products.groupdocs.com/ja/viewer/net/xlsx/)、[XLSM](https://products.groupdocs.com/ja/viewer/net/xlsm/)、[XLSB](https://products.groupdocs.com/ja/viewer/net/xlsb/)、[XLTM](https://products.groupdocs.com/ja/viewer/net/xltm/)、[XLT](https://products.groupdocs.com/ja/viewer/net/xlt/)、[XLTM](https://products.groupdocs.com/ja/viewer/net/xltm/)、[XLTX](https://products.groupdocs.com/ja/viewer/net/xltx/)、[XLAM](https://products.groupdocs.com/ja/viewer/net/xlam/)、[SXC](https://products.groupdocs.com/ja/viewer/net/sxc/)、[SpreadsheetML](https://products.groupdocs.com/ja/viewer/net/xml/)
+                * ** PowerPoint：** [PPT](https://products.groupdocs.com/ja/viewer/net/ppt/)、[PPTX](https://products.groupdocs.com/ja/viewer/net/pptx/)、[PPS](https://products.groupdocs.com/ja/viewer/net/pps/)、[PPSX](https://products.groupdocs.com/ja/viewer/net/ppsx/)、[PPSM](https://products.groupdocs.com/ja/viewer/net/ppsm/)、[POT](https://products.groupdocs.com/ja/viewer/net/pot/)、[POTM](https://products.groupdocs.com/ja/viewer/net/potm/)、[POTX](https://products.groupdocs.com/ja/viewer/net/potx/)、[PPTM](https://products.groupdocs.com/ja/viewer/net/pptm/)
+                * ** Visio：** [VSD](https://products.groupdocs.com/ja/viewer/net/vsd/)、[VDX](https://products.groupdocs.com/ja/viewer/net/vdx/)、[VSS](https://products.groupdocs.com/ja/viewer/net/vss/)、[VSSX](https://products.groupdocs.com/ja/viewer/net/vssx/)、[VSX](https://products.groupdocs.com/ja/viewer/net/vsx/)、[VST](https://products.groupdocs.com/ja/viewer/net/vst/)、[VSTX](https://products.groupdocs.com/ja/viewer/net/vstx/)、[VTX](https://products.groupdocs.com/ja/viewer/net/vtx/)、[VSDX](https://products.groupdocs.com/ja/viewer/net/vsdx/)、[VDW](https://products.groupdocs.com/ja/viewer/net/vdw/)、[VSTM](https://products.groupdocs.com/ja/viewer/net/vstm/)、[VSSM](https://products.groupdocs.com/ja/viewer/net/vssm/)、[VSDM](https://products.groupdocs.com/ja/viewer/net/vsdm/)
+                * **プロジェクト：** [MPP](https://products.groupdocs.com/ja/viewer/net/mpp/)、[MPT](https://products.groupdocs.com/ja/viewer/net/mpt/)、[MPX](https://products.groupdocs.com/ja/viewer/net/mpx/)
+                * ** Outlook：** [MSG](https://products.groupdocs.com/ja/viewer/net/msg/)、[EML](https://products.groupdocs.com/ja/viewer/net/eml/)、[EMLX](https://products.groupdocs.com/ja/viewer/net/emlx/)、[PST](https://products.groupdocs.com/ja/viewer/net/pst/)、[OST](https://products.groupdocs.com/ja/viewer/net/ost/)
+                * ** OneNote：** [ONE](https://products.groupdocs.com/ja/viewer/net/one/)
 
             - title: "その他のフォーマット"
               content: |
-                * ** PDF形式：** PDF、TEX、XPS、OXPS
-                * ** OpenDocument：** ODT、OTT、ODS、ODP、OTP、OTS、ODG、OTG、FODP、FODG
-                * **区切り文字-区切り値：** CSV、TSV
-                * ** Web：** HTML、MHT、MHTML
-                *  **メタファイル：** WMF、EMF、CGM、WMZ、EMZ
-                * ** PostScript：** PS、EPS
-                * **アーカイブ：** ZIP、TAR、BZ2、GZ、RAR、RAR5
-                * **さまざま：** OBJ、EPUB、MOBI、DjVu、XML、VCF、VCARD、NUMBER、NSF
+                * ** PDF形式：** [PDF](https://products.groupdocs.com/ja/viewer/net/pdf/)、[TEX](https://products.groupdocs.com/ja/viewer/net/tex/)、[XPS](https://products.groupdocs.com/ja/viewer/net/xps/)、[OXPS](https://products.groupdocs.com/ja/viewer/net/oxps/)
+                * ** OpenDocument：** [ODT](https://products.groupdocs.com/ja/viewer/net/odt/)、[OTT](https://products.groupdocs.com/ja/viewer/net/ott/)、[ODS](https://products.groupdocs.com/ja/viewer/net/ods/)、[ODP](https://products.groupdocs.com/ja/viewer/net/odp/)、[OTP](https://products.groupdocs.com/ja/viewer/net/otp/)、[OTS](https://products.groupdocs.com/ja/viewer/net/ots/)、[ODG](https://products.groupdocs.com/ja/viewer/net/odg/)、[OTG](https://products.groupdocs.com/ja/viewer/net/otg/)、[FODP](https://products.groupdocs.com/ja/viewer/net/fodp/)、[FODG](https://products.groupdocs.com/ja/viewer/net/fodg/)
+                * **区切り文字-区切り値：** [CSV](https://products.groupdocs.com/ja/viewer/net/csv/)、[TSV](https://products.groupdocs.com/ja/viewer/net/tsv/)
+                * ** Web：** [HTML](https://products.groupdocs.com/ja/viewer/net/html/)、[MHT](https://products.groupdocs.com/ja/viewer/net/mht/)、[MHTML](https://products.groupdocs.com/ja/viewer/net/mhtml/)
+                *  **メタファイル：** [WMF](https://products.groupdocs.com/ja/viewer/net/wmf/)、[EMF](https://products.groupdocs.com/ja/viewer/net/emf/)、[CGM](https://products.groupdocs.com/ja/viewer/net/cgm/)、[EMZ](https://products.groupdocs.com/ja/viewer/net/emz/)、WMZ
+                * ** PostScript：** [PS](https://products.groupdocs.com/ja/viewer/net/ps/)、[EPS](https://products.groupdocs.com/ja/viewer/net/eps/)
+                * **アーカイブ：** [ZIP](https://products.groupdocs.com/ja/viewer/net/zip/)、[TAR](https://products.groupdocs.com/ja/viewer/net/tar/)、[BZ2](https://products.groupdocs.com/ja/viewer/net/bz2/)、[GZ](https://products.groupdocs.com/ja/viewer/net/gz/)、[RAR](https://products.groupdocs.com/ja/viewer/net/rar/)、[RAR5](https://products.groupdocs.com/ja/viewer/net/rar/)
+                * **さまざま：** [OBJ](https://products.groupdocs.com/ja/viewer/net/obj/)、[EPUB](https://products.groupdocs.com/ja/viewer/net/epub/)、[MOBI](https://products.groupdocs.com/ja/viewer/net/mobi/)、[DjVu](https://products.groupdocs.com/ja/viewer/net/djvu/)、[XML](https://products.groupdocs.com/ja/viewer/net/xml/)、[VCF](https://products.groupdocs.com/ja/viewer/net/vcf/)、[VCARD](https://products.groupdocs.com/ja/viewer/net/vcard/)、[NUMBERS](https://products.groupdocs.com/ja/viewer/net/numbers/)、[NSF](https://products.groupdocs.com/ja/viewer/net/nsf/)
 
         right:
           enable: true
           table:
             - title: "画像、グラフィックス、図"
               content: |
-                * **画像：** BMP、GIF、JPG、PNG、TIFF、マルチページTIFF、WebP、DNG、DIB、DCM
-                * ** Windowsアイコン：** ICO
-                *  **スケーラブルベクターグラフィックス：** SVG、CDR、CMX、IGS、SVGZ
-                * ** Jpeg2000：** JP2、J2C、J2K、JPC、JPF、JPX、JPM
-                * ** Adobe Photoshop：** PSD、PSB
-                * **プリンタコマンド言語：** PCL
-                *  **ステレオリソグラフィー（3D印刷）：** STL
-                * ** Industry Foundation Classes：** IFC
-                * **医用画像：** DICOM
-                * **プロッタドキュメント：** PLT、HPG
-                *  ** Autodesk Design Webフォーマット：** DWF、DWG
-                * ** AutoCADの描画：** DGN、DWT、IFC、STL、CF2
-                * ** ISFFベースのDGN（V7）：** DGN
+                * **画像：** [BMP](https://products.groupdocs.com/ja/viewer/net/bmp/)、[GIF](https://products.groupdocs.com/ja/viewer/net/gif/)、[JPG](https://products.groupdocs.com/ja/viewer/net/jpg/)、[PNG](https://products.groupdocs.com/ja/viewer/net/png/)、[TIFF](https://products.groupdocs.com/ja/viewer/net/tiff/)、[WebP](https://products.groupdocs.com/ja/viewer/net/webp/)、[DNG](https://products.groupdocs.com/ja/viewer/net/dng/)、[DIB](https://products.groupdocs.com/ja/viewer/net/dib/)
+                * ** Windowsアイコン：** [ICO](https://products.groupdocs.com/ja/viewer/net/ico/)
+                *  **スケーラブルベクターグラフィックス：** [SVG](https://products.groupdocs.com/ja/viewer/net/svg/)、[CDR](https://products.groupdocs.com/ja/viewer/net/cdr/)、[CMX](https://products.groupdocs.com/ja/viewer/net/cmx/)、[IGS](https://products.groupdocs.com/ja/viewer/net/igs/)、[SVGZ](https://products.groupdocs.com/ja/viewer/net/svgz/)
+                * ** Jpeg2000：** [JP2](https://products.groupdocs.com/ja/viewer/net/jp2/)、[J2C](https://products.groupdocs.com/ja/viewer/net/j2c/)、[J2K](https://products.groupdocs.com/ja/viewer/net/j2k/)、[JPC](https://products.groupdocs.com/ja/viewer/net/jpc/)、[JPF](https://products.groupdocs.com/ja/viewer/net/jpf/)、[JPX](https://products.groupdocs.com/ja/viewer/net/jpx/)、[JPM](https://products.groupdocs.com/ja/viewer/net/jpm/)
+                * ** Adobe Photoshop：** [PSD](https://products.groupdocs.com/ja/viewer/net/psd/)、[PSB](https://products.groupdocs.com/ja/viewer/net/psb/)
+                * **プリンタコマンド言語：** [PCL](https://products.groupdocs.com/ja/viewer/net/pcl/)
+                *  **ステレオリソグラフィー（3D印刷）：** [STL](https://products.groupdocs.com/ja/viewer/net/stl/)
+                * ** Industry Foundation Classes：** [IFC](https://products.groupdocs.com/ja/viewer/net/ifc/)
+                * **医用画像：** [DICOM](https://products.groupdocs.com/ja/viewer/net/dcm/)
+                * **プロッタドキュメント：** [PLT](https://products.groupdocs.com/ja/viewer/net/plt/)、[HPG](https://products.groupdocs.com/ja/viewer/net/hpg/)
+                *  ** Autodesk Design Webフォーマット：** [DWF](https://products.groupdocs.com/ja/viewer/net/plt/)、[DWG](https://products.groupdocs.com/ja/viewer/net/dwg/)
+                * ** AutoCADの描画：** [DGN](https://products.groupdocs.com/ja/viewer/net/dgn/)、[DWT](https://products.groupdocs.com/ja/viewer/net/dwt/)、[IFC](https://products.groupdocs.com/ja/viewer/net/ifc/)、[STL](https://products.groupdocs.com/ja/viewer/net/stl/)、[CF2](https://products.groupdocs.com/ja/viewer/net/cf2/)
+                * ** ISFFベースのDGN（V7）：** [DGN](https://products.groupdocs.com/ja/viewer/net/dgn/)
 
             - title: "プログラミング言語フォーマット"
               content: |
-                *  ** C / C ++ / C＃ファイル：** C、CC、CS、CPP、CXX、C＃、H、HH、M、MM
-                *  ** Java / JavaScriptファイル：** JAVA、JS、JSON、PROPERTIES
-                * **さまざま：** VB、PHP、SQL、PL、PY、PV、RB、RST、SASS、SCALA、SCM、SCRIPT、AS、AS3、ASM、BAT、CMAKE、CSS、DIFF、ERB、GROOVY、HAML 、LESS、LOG、M、MAKE、MD、ML、MM、SH、SML、VIM、YAML
+                *  ** C / C ++ / C＃ファイル：** [C](https://products.groupdocs.com/ja/viewer/net/c/)、[CC](https://products.groupdocs.com/ja/viewer/net/cc/)、[C# ](https://products.groupdocs.com/ja/viewer/net/cs/)、[CPP](https://products.groupdocs.com/ja/viewer/net/cpp/)、[CXX](https://products.groupdocs.com/ja/viewer/net/cxx/)、[CS](https://products.groupdocs.com/ja/viewer/net/cs/)、[H](https://products.groupdocs.com/ja/viewer/net/h/)、[HH](https://products.groupdocs.com/ja/viewer/net/hh/)、[M](https://products.groupdocs.com/ja/viewer/net/m/)、[MM](https://products.groupdocs.com/ja/viewer/net/mm/)
+                *  ** Java / JavaScriptファイル：** [JAVA](https://products.groupdocs.com/ja/viewer/net/java/)、[JS](https://products.groupdocs.com/ja/viewer/net/js/)、[JSON](https://products.groupdocs.com/ja/viewer/net/json/)、[PROPERTIES](https://products.groupdocs.com/ja/viewer/net/properties/)
+                * **さまざま：** [VB](https://products.groupdocs.com/ja/viewer/net/vb/)、[PHP](https://products.groupdocs.com/ja/viewer/net/php/)、[SQL](https://products.groupdocs.com/ja/viewer/net/sql/)、[PL](https://products.groupdocs.com/ja/viewer/net/pl/)、[PY](https://products.groupdocs.com/ja/viewer/net/py/)、[PV](https://products.groupdocs.com/ja/viewer/net/pv/)、[RB](https://products.groupdocs.com/ja/viewer/net/rb/)、[RST](https://products.groupdocs.com/ja/viewer/net/rst/)、[SASS](https://products.groupdocs.com/ja/viewer/net/sass/)、[SCALA](https://products.groupdocs.com/ja/viewer/net/scala/)、[SCM](https://products.groupdocs.com/ja/viewer/net/scm/)、[SCRIPT](https://products.groupdocs.com/ja/viewer/net/script/)、[AS](https://products.groupdocs.com/ja/viewer/net/as/)、[AS3](https://products.groupdocs.com/ja/viewer/net/as3/)、[ASM](https://products.groupdocs.com/ja/viewer/net/asm/)、[BAT](https://products.groupdocs.com/ja/viewer/net/bat/)、[CMAKE](https://products.groupdocs.com/ja/viewer/net/cmake/)、[CSS](https://products.groupdocs.com/ja/viewer/net/css/)、[DIFF](https://products.groupdocs.com/ja/viewer/net/diff/)、[ERB](https://products.groupdocs.com/ja/viewer/net/erb/)、[GROOVY](https://products.groupdocs.com/ja/viewer/net/groovy/)、[HAML](https://products.groupdocs.com/ja/viewer/net/haml/)、[LESS](https://products.groupdocs.com/ja/viewer/net/less/)、[LOG](https://products.groupdocs.com/ja/viewer/net/log/)、[M](https://products.groupdocs.com/ja/viewer/net/m/)、[MAKE](https://products.groupdocs.com/ja/viewer/net/make/)、[MD](https://products.groupdocs.com/ja/viewer/net/md/)、[ML](https://products.groupdocs.com/ja/viewer/net/ml/)、[MM](https://products.groupdocs.com/ja/viewer/net/mm/)、[SH](https://products.groupdocs.com/ja/viewer/net/sh/)、[SML](https://products.groupdocs.com/ja/viewer/net/sml/)、[VIM](https://products.groupdocs.com/ja/viewer/net/vim/)、[YAML](https://products.groupdocs.com/ja/viewer/net/yaml/)
 
       tab_three:
         description: |
