@@ -86,7 +86,7 @@ steps:
      {{< viewer/code-viewer title="View IFC file using C# example code">}}
       ```cs
         // Instantiate viewer
-        using (Viewer viewer = new Viewer("sample.json"))
+        using (Viewer viewer = new Viewer("sample.ifc"))
         {
         	// Set view options 
         	ViewOptions viewOptions = new PngViewOptions();
