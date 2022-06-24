@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET JSON Viewer API - Read, View, Render in C# VB.NET"
-head_description: ".NET document viewer API to read, render and display JSON in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "View JSON File Formats via .NET | products.groupdocs.com"
+head_description: "Load, render and display JSON documents using server side GroupDocs.Viewer .NET library.."
 
 ############################# Header ############################
-title: "JSON File Viewer for C# .NET Applications"
-description: ".NET document viewer API to read, render and display JSON file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
+title: "JSON File Viewer for .NET"
+description: "View JSON in a browser with colored definitions."
 
 bg_overlay: false
 button:
@@ -53,12 +53,13 @@ submenu:
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# About ############################
-about:
+############################# HowTo ############################
+howto:
     enable: true
-    title: "About GroupDocs.Viewer for .NET API"
+    title: "How to View JSON File Using C#"
     content: |
-        Start viewing 170+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
+      To view JSON file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
+      {{% viewer/pm-viewer %}}
 
 ############################# Steps ############################
 steps:
@@ -81,7 +82,9 @@ steps:
         *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
-        ```cs
+     {{% viewer/additional-styles %}}
+     {{< viewer/code-viewer title="View JSON file using C# example code">}}
+      ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.json"))
         {
@@ -91,7 +94,19 @@ steps:
         	viewer.View(viewOptions);
         }
         ```
-        
+      {{< /viewer/code-viewer >}}
+
+############################# API-DESC #########################        
+apiDesc:
+    enable: false
+    content: |
+        With GroupDocs.Viewer .NET API you can view 170+ popular document formats in your .NET applications by adding a few lines of code. You can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
+    format: "JSON"
+
+############################# FREE-APP #########################
+freeApp:
+    enable: true
+    app-name: Viewer
 ############################# Demos ############################
 demos:
     enable: true
@@ -99,18 +114,6 @@ demos:
     content: |
         Display JSON file right now by visiting [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/json) website.  
         The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-json"
-          title: "About JSON File Format"
-          content: |
-            JSON (JavaScript Object Notation) is an open standard file format for sharing data that uses human-readable text to store and transmit data. JSON files are stored with the .json extension. JSON requires less formatting and is a good alternative for XML. JSON is derived from JavaScript but is a language-independent data format. The generation and parsing of JSON is supported by many modern programming languages. application/json is the media type used for JSON.
-
-          link: "https://docs.fileformat.com/web/json/"
 
 ############################# More Formats ############################
 more_formats:
