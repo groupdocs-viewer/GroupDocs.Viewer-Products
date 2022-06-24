@@ -6,7 +6,7 @@ draft: false
 
 ############################# Head ############################
 head_title: "View JSON File Formats via .NET | products.groupdocs.com"
-head_description: "Load, render and display JSON documents using server side GroupDocs.Viewer .NET library.."
+head_description: "Load, render and display JSON documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
 title: "JSON File Viewer for .NET"

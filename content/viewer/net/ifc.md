@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET IFC Viewer API - Read, View, Render in C# VB.NET"
-head_description: ".NET document viewer API to read, render and display IFC in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "View IFC File Formats via .NET | products.groupdocs.com"
+head_description: "Load, render and display IFC documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
 title: "IFC File Viewer for C# .NET Applications"
-description: ".NET document viewer API to read, render and display IFC file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
+description: "View IFC in a browser."
 
 bg_overlay: false
 button:
@@ -53,12 +53,13 @@ submenu:
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# About ############################
-about:
+############################# HowTo ############################
+howto:
     enable: true
-    title: "About GroupDocs.Viewer for .NET API"
+    title: "How to View IFC File Using C#"
     content: |
-        Start viewing 170+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
+      To view IFC file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
+      {{% viewer/pm-viewer %}}
 
 ############################# Steps ############################
 steps:
@@ -81,9 +82,11 @@ steps:
         *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
-        ```cs
+     {{% viewer/additional-styles %}}
+     {{< viewer/code-viewer title="View IFC file using C# example code">}}
+      ```cs
         // Instantiate viewer
-        using (Viewer viewer = new Viewer("sample.ifc"))
+        using (Viewer viewer = new Viewer("sample.json"))
         {
         	// Set view options 
         	ViewOptions viewOptions = new PngViewOptions();
@@ -91,7 +94,20 @@ steps:
         	viewer.View(viewOptions);
         }
         ```
-        
+      {{< /viewer/code-viewer >}}
+
+############################# API-DESC #########################        
+apiDesc:
+    enable: false
+    content: |
+        With GroupDocs.Viewer .NET API you can view 170+ popular document formats in your .NET applications by adding a few lines of code. You can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
+    format: "IFC"
+
+############################# FREE-APP #########################
+freeApp:
+    enable: true
+    app-name: Viewer
+
 ############################# Demos ############################
 demos:
     enable: true
@@ -100,18 +116,6 @@ demos:
         Display IFC file right now by visiting [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/ifc) website.  
         The live demo has the following benefits
         
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-ifc"
-          title: "About IFC File Format"
-          content: |
-            Files with IFC extension refer to Industry Foundation Classes (IFC) file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Specifications for this file format are developed and maintained by buildingSMART International as its Data Standard. The ultimate objective of IFC file format is to improve communication, productivity, delivery time and quality throughout the life cycle of a building. Due to the established standards for common objects in the building industry, it reduces the loss of information during transmission from one application to another. IFC can hold data for geometry, calculation, quantities, facility management, pricing etc. for many different professions (architect, electrical, HVAC, structural, terrain etc.).
-
-          link: "https://docs.fileformat.com/cad/ifc/"
-
 ############################# More Formats ############################
 more_formats:
     enable: true
