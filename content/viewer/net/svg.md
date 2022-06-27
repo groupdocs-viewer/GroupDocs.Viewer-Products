@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET SVG Viewer API - Read, View, Render in C# VB.NET"
-head_description: ".NET document viewer API to read, render and display SVG in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "View SVG File Formats via .NET | products.groupdocs.com"
+head_description: "Load, render and display SVG documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "SVG File Viewer for C# .NET Applications"
-description: ".NET document viewer API to read, render and display SVG file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
+title: "SVG File Viewer for .NET"
+description: "View SVG in a browser."
 
 bg_overlay: false
 button:
@@ -53,13 +53,6 @@ submenu:
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# About ############################
-about:
-    enable: true
-    title: "About GroupDocs.Viewer for .NET API"
-    content: |
-        Start viewing 170+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
-
 ############################# Steps ############################
 steps:
     enable: true
@@ -81,6 +74,8 @@ steps:
         *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
+     {{% viewer/additional-styles %}}
+     {{< viewer/code-viewer title="View SVG file using C# example code">}}
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.svg"))
@@ -91,7 +86,11 @@ steps:
         	viewer.View(viewOptions);
         }
         ```
-        
+     {{< /viewer/code-viewer >}}        
+############################# FREE-APP #########################
+freeApp:
+    enable: true
+    app-name: Viewer
 ############################# Demos ############################
 demos:
     enable: true
@@ -102,7 +101,7 @@ demos:
         
 ############################# About Formats ############################
 about_formats:
-    enable: true
+    enable: false
     format:
         # format loop
         - icon: "far fa-file-svg"
