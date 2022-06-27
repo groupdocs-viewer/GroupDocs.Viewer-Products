@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET PLT Viewer API - Read, View, Render in C# VB.NET"
-head_description: ".NET document viewer API to read, render and display PLT in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "View PLT File Formats via .NET | products.groupdocs.com"
+head_description: "Load, render and display PLT documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "PLT File Viewer for C# .NET Applications"
-description: ".NET document viewer API to read, render and display PLT file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
+title: "PLT File Viewer for .NET"
+description: "View PLT in a browser."
 
 bg_overlay: false
 button:
@@ -53,13 +53,6 @@ submenu:
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# About ############################
-about:
-    enable: true
-    title: "About GroupDocs.Viewer for .NET API"
-    content: |
-        Start viewing 170+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
-
 ############################# Steps ############################
 steps:
     enable: true
@@ -81,6 +74,9 @@ steps:
         *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
+     {{% viewer/additional-styles %}}
+     {{< viewer/code-viewer title="View PLT file using C# example code">}}
+
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.plt"))
@@ -91,7 +87,11 @@ steps:
         	viewer.View(viewOptions);
         }
         ```
-        
+     {{< /viewer/code-viewer >}}
+############################# FREE-APP #########################
+freeApp:
+    enable: true
+    app-name: Viewer
 ############################# Demos ############################
 demos:
     enable: true
@@ -99,19 +99,6 @@ demos:
     content: |
         Display PLT file right now by visiting [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/plt) website.  
         The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-plt"
-          title: "About PLT File Format"
-          content: |
-            The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. The format is based on the HPGL file format which is used for sending information to plotter printers. PLT files can be viewed with its original applications i.e. Autodesk's AutoCAD, but there are other applications as well that can be used to manipulate these files such as CorelDRAW Graphics Suite. A number of applications and APIs support conversion of PLT file format to DXF, PDF, JPEG, TIFF, PNG, BMP, CGM, SVG, PS and PCL.
-
-          link: "https://docs.fileformat.com/cad/plt/"
-
 ############################# More Formats ############################
 more_formats:
     enable: true
