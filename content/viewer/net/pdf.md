@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
-############################# Head ############################
-head_title: ".NET PDF Viewer API - Read, View, Render in C# VB.NET"
-head_description: ".NET document viewer API to read, render and display PDF in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+############################### Head ############################
+head_title: "View PDF File Formats via .NET | products.groupdocs.com"
+head_description: "Load, render and display PDF documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "PDF File Viewer for C# .NET Applications"
-description: ".NET document viewer API to read, render and display PDF file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
+title: "PDF File Viewer for .NET"
+description: "View PDF in a browser."
 
 bg_overlay: false
 button:
@@ -53,12 +53,20 @@ submenu:
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# HowTo ############################
+howto:
+    enable: true
+    title: "How to View PDF File Using C#"
+    content: |
+      To view PDF file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
+      {{% viewer/pm-viewer %}}
+
 ############################# About ############################
 about:
-    enable: true
+    enable: false
     title: "About GroupDocs.Viewer for .NET API"
     content: |
-        Start viewing 170+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
+        Start viewing 170+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Adobe software or any other external libraries.
 
 ############################# Steps ############################
 steps:
@@ -81,6 +89,9 @@ steps:
         *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
+     {{% viewer/additional-styles %}}
+     {{< viewer/code-viewer title="View JSON file using C# example code">}}
+
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.pdf"))
@@ -91,7 +102,11 @@ steps:
         	viewer.View(viewOptions);
         }
         ```
-        
+     {{< /viewer/code-viewer >}}
+############################# FREE-APP #########################
+freeApp:
+    enable: true
+    app-name: Viewer
 ############################# Demos ############################
 demos:
     enable: true
@@ -102,7 +117,7 @@ demos:
         
 ############################# About Formats ############################
 about_formats:
-    enable: true
+    enable: false
     format:
         # format loop
         - icon: "far fa-file-pdf"
