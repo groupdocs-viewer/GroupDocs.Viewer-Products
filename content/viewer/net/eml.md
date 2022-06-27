@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
 ############################# Head ############################
-head_title: ".NET EML Viewer API - Read, View, Render in C# VB.NET"
-head_description: ".NET document viewer API to read, render and display EML in any type of C#, ASP.NET, VB.NET & .NET Core applications."
+head_title: "View EML File Format via .NET | products.groupdocs.com"
+head_description: "Load, render and display EML documents using server side GroupDocs.Viewer .NET library."
 
-############################# Header ############################
-title: "EML File Viewer for C# .NET Applications"
-description: ".NET document viewer API to read, render and display EML file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code."
+############################# Header ##########################
+title: "EML File Viewer for .NET"
+description: "View EML in a browser."
 
 bg_overlay: false
 button:
@@ -81,6 +81,8 @@ steps:
         *   Get the latest version of GroupDocs.Viewer for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
         
     code: |
+        {{% viewer/additional-styles %}}
+        {{< viewer/code-viewer title="View JSON file using C# example code">}}
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.eml"))
@@ -91,7 +93,11 @@ steps:
         	viewer.View(viewOptions);
         }
         ```
-        
+        {{< /viewer/code-viewer >}}
+############################# FREE-APP #########################
+freeApp:
+    enable: true
+    app-name: Viewer
 ############################# Demos ############################
 demos:
     enable: true
