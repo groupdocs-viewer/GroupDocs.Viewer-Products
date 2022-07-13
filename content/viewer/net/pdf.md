@@ -61,12 +61,6 @@ howto:
       To view PDF file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
       {{% viewer/pm-viewer %}}
 
-####################Steps structured data ######################
-stepsStructuredData:
-	          enable: true
-    content: |
-	eeee123
-
 ############################# About ############################
 about:
     enable: false
