@@ -9,7 +9,7 @@ head_title: "View IFC File Formats via .NET | products.groupdocs.com"
 head_description: "Load, render and display IFC documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "IFC File Viewer for C# .NET Applications"
+title: "IFC Viewer for C# .NET Applications"
 description: "View IFC in a browser."
 
 bg_overlay: false
@@ -102,11 +102,16 @@ apiDesc:
     content: |
         With GroupDocs.Viewer .NET API you can view 170+ popular document formats in your .NET applications by adding a few lines of code. You can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.
     format: "IFC"
-
 ############################# FREE-APP #########################
 freeApp:
-    enable: true
+    enable: false
     app-name: Viewer
+############################# FREE-APP CUSTOM #########################
+freeAppCustom:
+    enable: true
+    free-app-text: |
+               With GroupDocs.Viewer .NET API you can view 170+ popular document formats in your .NET applications by adding a few lines of code. You can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.  
+               Below is an example of a free IFC viewer online application built on the GroupDocs.Viewer
 
 ############################# Demos ############################
 demos:

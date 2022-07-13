@@ -9,7 +9,7 @@ head_title: "View STL File Formats via .NET | products.groupdocs.com"
 head_description: "Load, render and display STL documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "STL File Viewer for .NET"
+title: "STL Viewer for .NET"
 description: "View STL document in a browser."
 
 bg_overlay: false
@@ -122,8 +122,14 @@ about_formats:
           link: "https://docs.fileformat.com/cad/stl/"
 ############################# FREE-APP #########################
 freeApp:
-    enable: true
+    enable: false
     app-name: Viewer
+############################# FREE-APP CUSTOM #########################
+freeAppCustom:
+    enable: true
+    free-app-text: |
+               With GroupDocs.Viewer .NET API you can view 170+ popular document formats in your .NET applications by adding a few lines of code. You can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.  
+               Below is an example of a free STL viewer online application built on the GroupDocs.Viewer
 ############################# More Formats ############################
 more_formats:
     enable: true

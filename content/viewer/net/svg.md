@@ -9,7 +9,7 @@ head_title: "View SVG File Formats via .NET | products.groupdocs.com"
 head_description: "Load, render and display SVG documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "SVG File Viewer for .NET"
+title: "SVG Viewer for .NET"
 description: "View SVG in a browser."
 
 bg_overlay: false
@@ -75,7 +75,7 @@ steps:
         
     code: |
      {{% viewer/additional-styles %}}
-     {{< viewer/code-viewer title="View SVG file using C# example code">}}
+     {{< viewer/code-viewer title="Convert SVG to PNG using C# example code">}}
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.svg"))
@@ -83,6 +83,18 @@ steps:
         	// Set view options 
         	ViewOptions viewOptions = new PngViewOptions();
         	// Convert file to PNG and check the output in the current directory 
+        	viewer.View(viewOptions);
+        }
+        ```
+     {{< /viewer/code-viewer >}}        
+     {{< viewer/code-viewer title="Convert SVG to JPEG using C# example code">}}
+        ```cs
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("sample.svg"))
+        {
+        	// Set view options 
+        	ViewOptions viewOptions = new JpgViewOptions();
+        	// Convert SVG to JPEG and check the output in the current directory 
         	viewer.View(viewOptions);
         }
         ```

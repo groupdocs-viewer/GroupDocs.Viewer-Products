@@ -56,7 +56,7 @@ submenu:
 ############################# HowTo ############################
 howto:
     enable: true
-    title: "How to View EPUB File Using C#"
+    title: "How to open EPUB files Using C#"
     content: |
       To view EPUB file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
       {{% viewer/pm-viewer %}}
@@ -95,6 +95,20 @@ steps:
         }
         ```
       {{< /viewer/code-viewer >}}
+
+     {{< viewer/code-viewer title="How to convert EPUB to PDF using C# example code">}}
+      ```cs
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("sample.epub"))
+        {
+        	// Set view options 
+        	ViewOptions viewOptions = new PdfViewOptions();
+        	// Convert EPUB to PDF and check the output in the current directory 
+        	viewer.View(viewOptions);
+        }
+        ```
+      {{< /viewer/code-viewer >}}
+
         
 ############################# Demos ############################
 demos:

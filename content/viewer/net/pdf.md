@@ -9,7 +9,7 @@ head_title: "View PDF File Formats via .NET | products.groupdocs.com"
 head_description: "Load, render and display PDF documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "PDF File Viewer for .NET"
+title: "PDF Viewer for .NET"
 description: "View PDF in a browser."
 
 bg_overlay: false
@@ -61,6 +61,12 @@ howto:
       To view PDF file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
       {{% viewer/pm-viewer %}}
 
+####################Steps structured data ######################
+stepsStructuredData:
+	          enable: true
+    content: |
+	eeee123
+
 ############################# About ############################
 about:
     enable: false
@@ -90,19 +96,59 @@ steps:
         
     code: |
      {{% viewer/additional-styles %}}
-     {{< viewer/code-viewer title="View JSON file using C# example code">}}
+     {{< viewer/code-viewer title="How to convert PDF to JPEG using C# example code">}}
 
         ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.pdf"))
         {
         	// Set view options 
-        	ViewOptions viewOptions = new PngViewOptions();
-        	// Convert file to PNG and check the output in the current directory 
+        	ViewOptions viewOptions = new JpgViewOptions();
+        	// Convert PDF to JPEG and check the output in the current directory 
         	viewer.View(viewOptions);
         }
         ```
      {{< /viewer/code-viewer >}}
+     {{< viewer/code-viewer title="How to convert PDF to PNG using C# example code">}}
+
+        ```cs
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("sample.pdf"))
+        {
+        	// Set view options 
+        	ViewOptions viewOptions = new PNGViewOptions();
+        	// Convert PDF to PNG and check the output in the current directory 
+        	viewer.View(viewOptions);
+        }
+        ```
+     {{< /viewer/code-viewer >}}
+     {{< viewer/code-viewer title="How to convert Word to PDF using C# example code">}}
+
+        ```cs
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("sample.doc"))
+        {
+        	// Set view options 
+        	ViewOptions viewOptions = new PdfViewOptions();
+        	// Convert Word formats to PDF and check the output in the current directory 
+        	viewer.View(viewOptions);
+        }
+        ```
+     {{< /viewer/code-viewer >}}
+     {{< viewer/code-viewer title="Convert PNG to PDF using C# example code">}}
+
+        ```cs
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("sample.png"))
+        {
+        	// Set view options 
+        	ViewOptions viewOptions = new PdfViewOptions();
+        	// Convert PNG to PDF and check the output in the current directory 
+        	viewer.View(viewOptions);
+        }
+        ```
+     {{< /viewer/code-viewer >}}
+
 ############################# FREE-APP #########################
 freeApp:
     enable: true

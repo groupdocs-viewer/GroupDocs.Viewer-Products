@@ -9,8 +9,8 @@ head_title: "View JSON File Formats via .NET | products.groupdocs.com"
 head_description: "Load, render and display JSON documents using server side GroupDocs.Viewer .NET library."
 
 ############################# Header ############################
-title: "JSON File Viewer for .NET"
-description: "View JSON in a browser with colored definitions."
+title: "JSON Viewer for .NET"
+description: "View JSON format in a browser with colored definitions."
 
 bg_overlay: false
 button:
@@ -56,7 +56,7 @@ submenu:
 ############################# HowTo ############################
 howto:
     enable: true
-    title: "How to View JSON File Using C#"
+    title: "How to View JSON format Using C#"
     content: |
       To view JSON file, we will use  [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) API which is powerful and easy to start use API for .NET platform. Open [NuGet](https://www.nuget.org/packages/groupdocs.viewer) package manager, search for GroupDocs.Viewer and install. In Package Manager Console use following command:
       {{% viewer/pm-viewer %}}
@@ -64,9 +64,9 @@ howto:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for View JSON File in C#"
+    title_left: "Steps for View JSON format in C#"
     content_left: |
-        [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) makes it easy for .NET developers to add JSON file viewing feature in their applications by implementing a few easy steps.
+        [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) makes it easy for .NET developers to add JSON format viewing feature in their applications by implementing a few easy steps.
 
         *   Create an instance of Viewer class and load the JSON file with full path.
         *   Set options to convert JSON file into PNG format.
@@ -83,7 +83,7 @@ steps:
         
     code: |
      {{% viewer/additional-styles %}}
-     {{< viewer/code-viewer title="View JSON file using C# example code">}}
+     {{< viewer/code-viewer title="View JSON format using C# example code">}}
       ```cs
         // Instantiate viewer
         using (Viewer viewer = new Viewer("sample.json"))
@@ -105,8 +105,14 @@ apiDesc:
 
 ############################# FREE-APP #########################
 freeApp:
-    enable: true
+    enable: false
     app-name: Viewer
+############################# FREE-APP CUSTOM #########################
+freeAppCustom:
+    enable: true
+    free-app-text: |
+               With GroupDocs.Viewer .NET API you can view 170+ popular document formats in your .NET applications by adding a few lines of code. You can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing Microsoft Office or any other external libraries.  
+               Below is an example of a free online JSON viewer application built on the GroupDocs.Viewer
 ############################# Demos ############################
 demos:
     enable: true
