@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File MAKE di Java"
     content_left: |
-        [GroupDocs.Viewer](viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file MAKE di aplikasi mereka menggunakan beberapa baris kode.
+        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file MAKE di aplikasi mereka menggunakan beberapa baris kode.
 
         * Buat instance kelas Viewer dan muat file MAKE dengan path lengkap.
         * Atur opsi tampilan untuk mengonversi file MAKE ke format PNG.

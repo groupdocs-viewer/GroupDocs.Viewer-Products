@@ -8,11 +8,11 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
-head_title: "..NET Document Viewer API, Render PDF Word Excel Gambar HTML Diagram"
+head_title: ".NET Document Viewer API, Render PDF Word Excel Gambar HTML Diagram"
 head_description: "C# ASP.NET file viewer & rendering API. Tambahkan penampil PDF, penampil Word, penampil Excel, Penampil gambar, penampil HTML, fitur penampil Email di aplikasi .NET."
 
 title: "Render & Tampilkan Dokumen melalui .NET API"
-description: "..NET Document Viewer API untuk Merender 170+ format dokumen ke dalam PDF, HTML, dan Gambar dengan Opsi Konfigurasi yang Kuat."
+description: ".NET Document Viewer API untuk Merender 170+ format dokumen ke dalam PDF, HTML, dan Gambar dengan Opsi Konfigurasi yang Kuat."
 button:
     enable: true
     icon: "fas fa-arrow-down"

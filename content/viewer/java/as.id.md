@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File AS di Java"
     content_left: |
-        [GroupDocs.Viewer](viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file AS di aplikasi mereka menggunakan beberapa baris kode.
+        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file AS di aplikasi mereka menggunakan beberapa baris kode.
 
         * Buat instance kelas Viewer dan muat file AS dengan path lengkap.
         * Atur opsi tampilan untuk mengonversi file AS ke format PNG.

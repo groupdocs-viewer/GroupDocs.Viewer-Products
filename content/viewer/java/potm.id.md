@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File POTM di Java"
     content_left: |
-        [GroupDocs.Viewer](viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file POTM di aplikasi mereka menggunakan beberapa baris kode.
+        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file POTM di aplikasi mereka menggunakan beberapa baris kode.
 
         * Buat instance kelas Viewer dan muat file POTM dengan path lengkap.
         * Atur opsi tampilan untuk mengonversi file POTM ke format PNG.

@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File AS3 di Java"
     content_left: |
-        [GroupDocs.Viewer](viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file AS3 di aplikasi mereka menggunakan beberapa baris kode.
+        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file AS3 di aplikasi mereka menggunakan beberapa baris kode.
 
         * Buat instance kelas Viewer dan muat file AS3 dengan path lengkap.
         * Atur opsi tampilan untuk mengonversi file AS3 ke format PNG.

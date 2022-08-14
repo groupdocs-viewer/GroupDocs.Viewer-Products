@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File ASM di Java"
     content_left: |
-        [GroupDocs.Viewer](viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file ASM di aplikasi mereka menggunakan beberapa baris kode.
+        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang Java untuk menambahkan fitur tampilan file ASM di aplikasi mereka menggunakan beberapa baris kode.
 
         * Buat instance kelas Viewer dan muat file ASM dengan path lengkap.
         * Atur opsi tampilan untuk mengonversi file ASM ke format PNG.

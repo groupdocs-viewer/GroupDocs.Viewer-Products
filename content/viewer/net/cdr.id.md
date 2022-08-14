@@ -4,10 +4,10 @@ date: 2022-07-07T12:44:18+03:00
 draft: false
 
 head_title: ".NET CDR Viewer API - Baca, Lihat, Render di C# VB.NET"
-head_description: "..NET document viewer API untuk membaca, merender, dan menampilkan CDR di semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core."
+head_description: ".NET document viewer API untuk membaca, merender, dan menampilkan CDR di semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core."
 
 title: "CDR File Viewer untuk Aplikasi C# .NET"
-description: "..NET document viewer API untuk membaca, merender, dan menampilkan file CDR dalam semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core. Lihat file yang dirender dengan format & tata letak yang benar dalam HTML5, PDF, atau sebagai gambar menggunakan beberapa baris kode."
+description: ".NET document viewer API untuk membaca, merender, dan menampilkan file CDR dalam semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core. Lihat file yang dirender dengan format & tata letak yang benar dalam HTML5, PDF, atau sebagai gambar menggunakan beberapa baris kode."
 
 bg_overlay: false
 button:
@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File CDR di C#"
     content_left: |
-        [GroupDocs.Viewer](viewer/net/) memudahkan pengembang .NET untuk menambahkan fitur tampilan file CDR dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Viewer](/viewer/net/) memudahkan pengembang .NET untuk menambahkan fitur tampilan file CDR dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Buat instance kelas Viewer dan muat file CDR dengan path lengkap.
         * Atur opsi untuk mengonversi file CDR ke format PNG.
@@ -104,39 +104,39 @@ more_formats:
     content: |
         Dokumen multi format dan API penampil gambar untuk .NET. Lihat beberapa format file populer di bawah ini tanpa pemirsa eksternal.
     format: 
-        - name: ".Penampil NET DOC"
+        - name: ".NET DOC Penonton"
           link: "/viewer/net/doc/"
           description: "Dokumen Microsoft Word"
 
-        - name: ".NET DOCM Viewer"
+        - name: ".NET DOCM Penonton"
           link: "/viewer/net/docm/"
           description: "Dokumen Berkemampuan Makro Microsoft Word"
 
-        - name: ".Penampil NET DOCX"
+        - name: ".NET DOCX Penonton"
           link: "/viewer/net/docx/"
           description: "Microsoft Word Buka Dokumen XML"
 
-        - name: ".Penampil DOT BERSIH"
+        - name: ".NET  DOT Penonton"
           link: "/viewer/net/dot/"
           description: "Templat Dokumen Microsoft Word"
 
-        - name: ".Penampil NET DOTM"
+        - name: ".NET DOTM Penonton"
           link: "/viewer/net/dotm/"
           description: "Templat Microsoft Word Macro-Enabled"
 
-        - name: ".Penampil NET DOTX"
+        - name: ".NET DOTX Penonton"
           link: "/viewer/net/dotx/"
           description: "Templat Dokumen XML Word Terbuka"
 
-        - name: ".NET RTF Viewer"
+        - name: ".NET RTF Penonton"
           link: "/viewer/net/rtf/"
           description: "Format File Teks Kaya"
 
-        - name: ".Penampil TXT NET"
+        - name: ".NET TXT Penonton"
           link: "/viewer/net/txt/"
           description: "Format File Teks Biasa"
 
-        - name: ".Penampil NET XLS"
+        - name: ".NET XLS Penonton"
           link: "/viewer/net/xls/"
           description: "Format File Biner Microsoft Excel"
 
@@ -144,132 +144,132 @@ more_formats:
           link: "/viewer/net/xlsx/"
           description: "Microsoft Excel Buka XML Spreadsheet"
 
-        - name: ".NET XLSM Viewer"
+        - name: ".NET XLSM Penonton"
           link: "/viewer/net/xlsm/"
           description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
 
-        - name: ".NET XLSB Viewer"
+        - name: ".NET XLSB Penonton"
           link: "/viewer/net/xlsb/"
           description: "File Spreadsheet Biner Microsoft Excel"
 
-        - name: ".NET XLTX Viewer"
+        - name: ".NET XLTX Penonton"
           link: "/viewer/net/xltx/"
           description: "Templat XML Terbuka Microsoft Excel"
 
-        - name: ".Penampil TSV NET"
+        - name: ".NET TSV Penonton"
           link: "/viewer/net/tsv/"
           description: "File Nilai Terpisah Tab"
 
-        - name: ".NET XLAM Viewer"
+        - name: ".NET XLAM Penonton"
           link: "/viewer/net/xlam/"
           description: "Add-In Microsoft Excel Macro-Enabled"
 
-        - name: ".Penampil CSV NET"
+        - name: ".NET CSV Penonton"
           link: "/viewer/net/csv/"
           description: "File Nilai Dipisahkan Koma"
 
-        - name: ".Penampil PPT NET"
+        - name: ".NET PPT Penonton"
           link: "/viewer/net/ppt/"
           description: "Presentasi powerpoint"
 
-        - name: ".NET PPS Viewer"
+        - name: ".NET PPS Penonton"
           link: "/viewer/net/pps/"
           description: "Pertunjukan Slide Microsoft PowerPoint"
 
-        - name: ".Penampil PPTX NET"
+        - name: ".NET PPTX Penonton"
           link: "/viewer/net/pptx/"
           description: "Presentasi PowerPoint Terbuka XML"
 
-        - name: ".NET PPSX Viewer"
+        - name: ".NET PPSX Penonton"
           link: "/viewer/net/ppsx/"
           description: "PowerPoint Terbuka XML Slide Show"
 
-        - name: ".Penampil NET POTX"
+        - name: ".NET POTX Penonton"
           link: "/viewer/net/potx/"
           description: "Templat XML Terbuka Microsoft PowerPoint"
 
-        - name: ".Penampil NET POTM"
+        - name: ".NET POTM Penonton"
           link: "/viewer/net/potm/"
           description: "Templat Microsoft PowerPoint"
 
-        - name: ".Penampil PPTM NET"
+        - name: ".NET PPTM Penonton"
           link: "/viewer/net/pptm/"
           description: "Presentasi Microsoft PowerPoint"
 
-        - name: ".NET PPSM Viewer"
+        - name: ".NET PPSM Penonton"
           link: "/viewer/net/ppsm/"
           description: "Pertunjukan Slide Microsoft PowerPoint"
 
-        - name: ".NET PDF Viewer"
+        - name: ".NET PDF Penonton"
           link: "/viewer/net/pdf/"
           description: "Format Dokumen Portabel Adobe"
 
-        - name: ".Penampil NET XPS"
+        - name: ".NET XPS Penonton"
           link: "/viewer/net/xps/"
           description: "Buka Spesifikasi Kertas XML"
 
-        - name: ".Penampil NET TEX"
+        - name: ".NET TEX Penonton"
           link: "/viewer/net/tex/"
           description: "Dokumen Sumber LaTeX"
 
-        - name: ".Penampil NET ODS"
+        - name: ".NET ODS Penonton"
           link: "/viewer/net/ods/"
           description: "Buka Spreadsheet Dokumen"
 
-        - name: ".Penampil ODP NET"
+        - name: ".NET ODP Penonton"
           link: "/viewer/net/odp/"
           description: "Format File Presentasi OpenDocument"
 
-        - name: ".Penampil OTP NET"
+        - name: ".NET OTP Penonton"
           link: "/viewer/net/otp/"
           description: "Templat Grafik Asal"
 
-        - name: ".Penampil NET ODT"
+        - name: ".NET ODT Penonton"
           link: "/viewer/net/odt/"
           description: "Buka Teks Dokumen"
 
-        - name: ".Penampil OTT BERSIH"
+        - name: ".NET  OTT Penonton"
           link: "/viewer/net/ott/"
           description: "Buka Templat Dokumen"
 
-        - name: ".Penampil VST NET"
+        - name: ".NET VST Penonton"
           link: "/viewer/net/vst/"
           description: "Gambar XML Microsoft Visio 2003-2010"
 
-        - name: ".Penampil TIFF BERSIH"
+        - name: ".NET  TIFF Penonton"
           link: "/viewer/net/tiff/"
           description: "Format File Gambar yang Ditandai"
 
-        - name: ".NET JPEG Viewer"
+        - name: ".NET JPEG Penonton"
           link: "/viewer/net/jpeg/"
           description: "Gambar JPEG"
 
-        - name: ".Penampil PNG BERSIH"
+        - name: ".NET  PNG Penonton"
           link: "/viewer/net/png/"
           description: "Grafik Jaringan Portabel"
 
-        - name: ".Penampil GIF BERSIH"
+        - name: ".NET  GIF Penonton"
           link: "/viewer/net/gif/"
           description: "File Format Pertukaran Grafis"
 
-        - name: ".NET BMP Viewer"
+        - name: ".NET BMP Penonton"
           link: "/viewer/net/bmp/"
           description: "Format File Bitmap"
 
-        - name: ".Penampil ICO NET"
+        - name: ".NET ICO Penonton"
           link: "/viewer/net/ico/"
           description: "File Ikon Microsoft"
 
-        - name: "..NET PSD Viewer"
+        - name: ".NET PSD Penonton"
           link: "/viewer/net/psd/"
           description: "Dokumen Adobe Photoshop"
 
 
-        - name: ".NET WEBP Viewer"
+        - name: ".NET WEBP Penonton"
           link: "/viewer/net/webp/"
           description: "Format File Gambar Web Raster"
 
-        - name: ".Penampil SVG NET"
+        - name: ".NET SVG Penonton"
           link: "/viewer/net/svg/"
           description: "File Grafik Vektor yang Dapat Diskalakan"
 
@@ -277,31 +277,31 @@ more_formats:
           link: "/viewer/net/jp2/"
           description: "File Gambar Inti JPEG 2000"
 
-        - name: ".Penampil MPP NET"
+        - name: ".NET MPP Penonton"
           link: "/viewer/net/emz/"
           description: "Dokumen Proyek Microsoft"
 
-        - name: ".Penampil MPT NET"
+        - name: ".NET MPT Penonton"
           link: "/viewer/net/wmz/"
           description: "Templat Proyek Microsoft"
 
-        - name: ".Penampil HTML NET"
+        - name: ".NET HTML Penonton"
           link: "/viewer/net/html/"
           description: "Hyper Text Markup Language"
 
-        - name: ".NET MHT Viewer"
+        - name: ".NET MHT Penonton"
           link: "/viewer/net/mht/"
           description: "Enkapsulasi MIME dari HTML Agregat"
 
-        - name: ".NET MHTML Viewer"
+        - name: ".NET MHTML Penonton"
           link: "/viewer/net/mhtml/"
           description: "Enkapsulasi MIME dari HTML Agregat"
 
-        - name: ".NET MSG Viewer"
+        - name: ".NET MSG Penonton"
           link: "/viewer/net/msg/"
           description: "Pesan Email Microsoft Outlook"
 
-        - name: ".NET EML Viewer"
+        - name: ".NET EML Penonton"
           link: "/viewer/net/eml/"
           description: "Pesan email"
 
@@ -309,39 +309,39 @@ more_formats:
           link: "/viewer/net/one/"
           description: "Microsoft OneNote"
 
-        - name: ".NET WMF Viewer"
+        - name: ".NET WMF Penonton"
           link: "/viewer/net/wmf/"
           description: "Metafile Windows"
 
-        - name: ".NET EMF Viewer"
+        - name: ".NET EMF Penonton"
           link: "/viewer/net/emf/"
           description: "Metafile yang Ditingkatkan Windows"
 
-        - name: "..NET PSD Viewer"
+        - name: ".NET PSD Penonton"
           link: "/viewer/net/psd/"
           description: "Dokumen Adobe Photoshop"
 
-        - name: ".NET VSD Viewer"
+        - name: ".NET VSD Penonton"
           link: "/viewer/net/vsd/"
           description: "Gambar Microsoft Visio 2003-2010"
 
-        - name: ".Penampil NET VSDX"
+        - name: ".NET VSDX Penonton"
           link: "/viewer/net/vsdx/"
           description: "Gambar Microsoft Visio"
 
-        - name: ".NET VSS Viewer"
+        - name: ".NET VSS Penonton"
           link: "/viewer/net/vss/"
           description: "Microsoft Visio 2003-2010 Stensil"
 
-        - name: ".Penampil VDX NET"
+        - name: ".NET VDX Penonton"
           link: "/viewer/net/vdx/"
           description: "Gambar XML Microsoft Visio 2003-2010"
 
-        - name: ".NET VDW Viewer"
+        - name: ".NET VDW Penonton"
           link: "/viewer/net/vdw/"
           description: "Gambar Web Microsoft Visio 2010"
 
-        - name: ".NET EPUB Viewer"
+        - name: ".NET EPUB Penonton"
           link: "/viewer/net/epub/"
           description: "Format File E-Book Digital"
 

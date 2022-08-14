@@ -55,7 +55,7 @@ steps:
     enable: true
     title_left: "Langkah-langkah untuk Melihat File JAVA di JAVA"
     content_left: |
-        [GroupDocs.Viewer](viewer/JAVA/) memudahkan pengembang JAVA untuk menambahkan fitur tampilan file JAVA di aplikasi mereka menggunakan beberapa baris kode.
+        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang JAVA untuk menambahkan fitur tampilan file JAVA di aplikasi mereka menggunakan beberapa baris kode.
 
         * Buat instance kelas Viewer dan muat file JAVA dengan path lengkap.
         * Atur opsi tampilan untuk mengonversi file JAVA ke format PNG.
