@@ -1,34 +1,35 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "product"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
+lang: es
 product: "Viewer"
 product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET Document Viewer API, renderizar PDF Word Excel Imagen HTML Diagrama"
+head_title: ".NET Document Viewer API, Renderizar PDF Word Excel Imagen HTML Diagrama"
 head_description: "Visualizador de archivos C# ASP.NET y API de representación. Agregue visor de PDF, visor de Word, visor de Excel, visor de imágenes, visor de HTML, funciones de visor de correo electrónico en aplicaciones .NET."
 
-############################# Header ############################
+############################# Header ##########################
 title: "Renderizar y mostrar documentos a través de la API de .NET"
-description: ".NET Document Viewer API para renderizar más de 170 formatos de documentos en PDF, HTML e imagen con potentes opciones de configuración."
+description: ".NET Document Viewer API para renderizar más de 190 formatos de documentos en PDF, HTML e imagen con potentes opciones de configuración."
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Descargue prueba gratis"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/viewer/net"
 
-############################# SubMenu ############################
+############################# SubMenu #########################
 submenu:
     enable: true
     
     left:
         img_alt: "GroupDocs.Viewer for .NET"
-        image: "/border/groupdocs-viewer-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
         product: "GroupDocs.Viewer"
         platform: ".NET"
 
@@ -36,7 +37,7 @@ submenu:
         button:
             # button loop
             - link: "#overview"
-              text: "Visión de conjunto"
+              text: "Descripción general"
 
             # button loop
             - link: "#features"
@@ -44,28 +45,28 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Apoyo"
 
             # button loop
-            - link: "https://products.groupdocs.app/viewer"
-              text: "Live Demo"
+            - link: "https://products.groupdocs.app/viewer/total"
+              text: "Demo en vivo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/viewer/net"
               text: "Precios"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
+        link_download: "https://releases.groupdocs.com/viewer/net/"
         link_learn: "https://docs.groupdocs.com/viewer/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      Las API de GroupDocs.Viewer para .NET lo ayudan a crear aplicaciones potentes en C#, ASP.NET y otras tecnologías basadas en .NET, que pueden representar y mostrar documentos e imágenes de más de 170 formatos de archivo sin instalar ningún software externo. La biblioteca del visor de archivos rasteriza los documentos y luego los convierte en SVG+HTML+CSS para optimizar la experiencia general de representación de documentos para ver documentos comerciales, imágenes, archivos de texto, diagramas, gráficos, archivos adjuntos de correo electrónico y archivos PDF con velocidad, texto verdadero y alta fidelidad dentro de sus aplicaciones. Tiene la opción de agregar funcionalidades de visualización y lectura de documentos en sus aplicaciones para mostrar un documento completo, un documento parcial, un rango de celdas/página específico, una capa de documento individual, con o sin anotaciones y comentarios para los formatos de archivo admitidos.  
-
-      GroupDocs.Viewer para .NET almacena en caché la salida de documentos renderizados en el disco local de forma predeterminada. También se admite cualquier tipo de almacenamiento en caché externo mediante la implementación de interfaces adecuadas: Amazon S3, Dropbox, Google Drive, Windows Azure, Redis o cualquier otro.
+      Las API de GroupDocs.Viewer para .NET lo ayudan a crear aplicaciones potentes en C#, ASP.NET y otras tecnologías basadas en .NET, que pueden representar y mostrar documentos e imágenes de más de 190 formatos de archivo sin instalar ningún software externo. La biblioteca del visor de archivos rasteriza los documentos y luego los convierte en SVG+HTML+CSS para optimizar la experiencia general de representación de documentos para ver documentos comerciales, imágenes, archivos de texto, diagramas, gráficos, archivos adjuntos de correo electrónico y archivos PDF con velocidad, texto verdadero y alta fidelidad dentro de sus aplicaciones. Tiene la opción de agregar funcionalidades de visualización y lectura de documentos en sus aplicaciones para mostrar un documento completo, un documento parcial, un rango de celdas/página específico, una capa de documento individual, con o sin anotaciones y comentarios para los formatos de archivo compatibles.
+       
+      GroupDocs.Viewer para .NET almacena en caché la salida de documentos renderizados en el disco local de forma predeterminada. Cualquier tipo de almacenamiento en caché externo también es compatible mediante la implementación de interfaces adecuadas: Amazon S3, Dropbox, Google Drive, Windows Azure, Redis o cualquier otro.
     tabs:
       enable: true
       
@@ -77,30 +78,30 @@ overview:
         right:
           enable: true
           icon: "fab fa-html5"
-          title: "Visión de conjunto"
+          title: "Descripción general"
           content: |
-            * Mostrar más de 170 tipos de documentos
-            * Obtener HTML, Imagen, Versión PDF
-            * Rotate &amp; Reorder
-            * Aplicar marca de agua
-            * Caché para proceso rápido
-            * Agregar fuentes personalizadas
-            * Aplicar estándares de codificación
-            * Manejador de datos de entrada personalizado
-            * Renderizar con control de cambios
-            * Renderizar como HTML receptivo
-            * Render PDF &amp; CAD Layers
+            * Mostrar más de 190 tipos de documentos 
+            * Obtener un archivo en formato HTML, Imagen, PDF 
+            * Rotar y reordenar 
+            * Aplicar marca de agua 
+            * Caché para proceso rápido 
+            * Agregar fuentes personalizadas 
+            * Aplicar estándares de codificación 
+            * Manejador de datos de entrada personalizado 
+            * Renderizar con control de cambios 
+            * Renderizar como HTML receptivo 
+            * Renderizar capas de PDF y CAD 
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer para .NET admite la visualización de todos los [formatos de archivo de documentos populares](https://docs.groupdocs.com/viewer/net/supported-document-formats/). Con solo unas pocas líneas de código, agregue el visor de PDF, la oficina de Microsoft Word, la hoja de cálculo de Excel, la imagen, HTML, el correo electrónico de Outlook, OneNote, el proyecto y las capacidades de visualización de gráficos en sus aplicaciones .NET.
+          GroupDocs.Viewer para .NET admite la visualización de todos los formatos de archivo de documentos populares. Con solo unas pocas líneas de código, agregue visor de PDF, Microsoft Office Word, hoja de cálculo de Excel, imagen, HTML, correo electrónico de Outlook, OneNote, capacidades de visualización de proyectos y gráficos en sus aplicaciones .NET.
 
         left:
           enable: true
           table:
             # table loop
-            - title: "oficina de Microsoft"
+            - title: "Microsoft Office"
               content: |
                 * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
@@ -111,16 +112,16 @@ overview:
                 * **OneNote:** ONE
 
             # table loop
-            - title: "Otros formatos"
+            - title: "Other Formats"
               content: |
-                * **PDF Formats:** PDF, TEX, XPS, OXPS
+                * **Archivos de diseño de página:** PDF, TEX, XPS, OXPS
                 * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Delimiter-Separated Values:** CSV, TSV
+                * **Valores separados por delimitadores:** CSV, TSV
                 * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, WMZ, EMZ
+                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
                 * **PostScript:** PS, EPS
-                * **Archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Various:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBER, NSF
+                * **Archivo:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+                * **Varios:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
 
         right:
           enable: true
@@ -128,31 +129,31 @@ overview:
             # table loop
             - title: "Imágenes, gráficos y diagramas"
               content: |
-                * **Images:** BMP, GIF, JPG, PNG, TIFF, multi-page TIFF, WebP, DNG, DIB, DCM
-                * **Windows Icon:** ICO
-                * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
+                * **Imágenes:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
+                * **Icono de ventanas:** ICO
+                * **gráficas vectoriales escalables:** SVG, CDR, CMX, IGS, SVGZ
+                * **jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
                 * **Adobe Photoshop:** PSD, PSB
-                * **Printer Command Language:** PCL
-                * **Stereo Lithography (3D Printing):** STL
-                * **Industry Foundation Classes:** IFC
-                * **Medical Imaging:** DICOM
-                * **Plotter Documents:** PLT, HPG
-                * **Autodesk Design Web Formats:** DWF, DWG
-                * **AutoCAD Drawing:** DGN, DWT, IFC, STL, CF2
-                * **ISFF-based DGN (V7):** DGN
+                * **Lenguaje de comandos de la impresora:** PCL
+                * **Litografía estéreo (impresión 3D):** STL
+                * **Clases básicas de la industria:** IFC
+                * **Imagenes medicas:** DICOM
+                * **Documentos de plotter:** PLT, HPG
+                * **Formatos web de diseño de Autodesk:** DWF, DWG
+                * **dibujo autocad:** DWT, IFC, STL, CF2
+                * **DGN basado en ISFF (V7):** DGN
 
             # table loop
             - title: "Formatos de lenguajes de programación"
               content: |
-                * **C/C++/C# Files:** C, CC, CS, CPP, CXX, C#, H, HH, M, MM
-                * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
-                * **Various:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+                * **Archivos C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+                * **Archivos Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
+                * **Varios:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer for .NET apoya Sistemas operativos, Frameworks & Gerente de empaquetacións:
+          GroupDocs.Viewer para .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes:
         
         left:
           enable: true
@@ -161,18 +162,19 @@ overview:
             - icon: "fab fa-windows"
               title: "Sistemas operativos"
               content: |
-                * Windows Desktop
-                * Windows Server
-                * Microsoft Azure
-                * Linux
+                * Microsoft Windows Server 2003 y posterior 
+                * Microsoft Windows XP y posterior 
+                * Microsoft Windows 10 y 11 
+                * Linux (Ubuntu, OpenSUSE, CentOS y otros) 
+                * Mac OS X 
 
             # table loop
             - icon: "fas fa-code"
               title: "Marcos compatibles"
               content: |
-                * .NET Framework 2.0 o superior
-                * .NET Core 3.1
-                * .NET 5 or higher
+                * .NET Framework 2.0 o superior 
+                * .NET Núcleo 3.1 
+                * .NET 5 o superior 
 
         right:
           enable: true
@@ -191,10 +193,10 @@ overview:
                 * Visual Studio Code
                 * .NET CLI
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Viewer for .NET Características"
+    title: "Características de GroupDocs.Viewer para .NET"
 
     feature:
       # feature loop
@@ -211,7 +213,7 @@ features:
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Convertir presentaciones con Formas y Texto con Efectos 3D"
+        content: "Convierta presentaciones con formas y texto con efectos 3D"
 
       # feature loop
       - icon: "fas fa-code"
@@ -297,15 +299,15 @@ features:
       # more_feature_loop
       - title: "Ver documentos de manera eficiente y confiable"
         content: |
-          Al usar la API GroupDocs.Viewer, puede mostrar más de 170 formatos de documentos de manera eficiente y confiable con la integridad del contenido y la estructura del documento intacta. El siguiente código de ejemplo muestra lo fácil que es ver la representación HTML de un documento DOCX:
+          Con la API de GroupDocs.Viewer, puede mostrar más de 190 formatos de documentos de manera eficiente y confiable con la integridad del contenido y la estructura del documento intacta. El siguiente código de ejemplo muestra lo fácil que es ver la representación HTML de un documento DOCX:
 
           ```cs
-          // Visor de instancias
-          using (Viewer viewer = new Viewer("sample.docx")
+          // Instantiate viewer
+          using (Viewer viewer = new Viewer("invoice.docx"))
           {
-              // Establecer opciones de vista
+              // Set view options
               HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convertir archivo a HTML con recursos incrustados
+              // Convert file to HTML with embedded resources
               viewer.View(options);
           }
           ```
@@ -327,13 +329,18 @@ testimonials:
 
   testimonial:
     # testimonial item loop
+    - name: "Margot Baill"
+      designation: "Director de desarrollo de productos en Hireology"
+      content: "La integración de GroupDocs.Viewer for Cloud API fue simple con su fantástico Ruby SDK. No hay muchas empresas que estén dispuestas a trabajar con nosotros en lo que queremos. Es una gran asociación."
+
+    # testimonial item loop
     - name: "Mats Oustad"
-      designation: "Senior Consultant/Partner at Novanet AS"
+      designation: "Consultor Senior/Socio en Novanet AS"
       content: "Después de implementar y usar GroupDocs.Viewer para .NET en el proyecto, parece estar funcionando muy bien. He probado con una gran cantidad de documentos y hasta ahora todo bien. Todo lo que le he arrojado se ve muy bien y se ve tan bien como lo haría en un visor de PDF o MS Word."
               
     # testimonial item loop
     - name: "Martin Lasarga"
-      designation: "Product Manager at Axentria ECM by G.S.I."
+      designation: "Product Manager en Axentria ECM by G.S.I."
       content: "Excelente servicio y excelentes productos. Fueron extremadamente útiles y receptivos durante el proceso de implementación de GroupDocs.Viewer para .NET, no puedo recomendarlos lo suficiente."
 
 ############################# Support ############################
@@ -348,7 +355,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer for Java"
-          image: "/border/groupdocs-viewer-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
           product: "GroupDocs.Viewer"
           platform: "Java"
           link: "/viewer/java/"

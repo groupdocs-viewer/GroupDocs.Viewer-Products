@@ -4,6 +4,7 @@ layout: "product"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
+lang: fr
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
@@ -11,7 +12,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "API Java Document Viewer pour PDF Word Excel HTML Images et e-mails"
-head_description: "Visualiseur de documents Java et API de rendu de fichiers. Ajouter une visionneuse PDF, une visionneuse Word, une visionneuse Excel, une visionneuse d'images, une visionneuse HTML, une visionneuse d'e-mails dans les applications Java."
+head_description: "Visualiseur de documents Java et API de rendu de fichiers. Ajoutez une visionneuse PDF, une visionneuse Word, une visionneuse Excel, une visionneuse d'images, une visionneuse HTML, une visionneuse d'e-mails dans les applications Java."
 
 ############################# Header ############################
 title: "API Java pour rendre et afficher des documents"
@@ -19,7 +20,7 @@ description: "Bibliothèque de visionneuse de documents pour développer des app
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Télécharger la version d'essai gratuite"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/viewer/java"
 
 ############################# SubMenu ############################
@@ -28,7 +29,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Viewer for Java"
-        image: "/border/groupdocs-viewer-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
         product: "GroupDocs.Viewer"
         platform: "Java"
 
@@ -44,60 +45,60 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Soutien"
 
             # button loop
-            - link: "https://products.groupdocs.app/viewer"
-              text: "Live Demo"
+            - link: "https://products.groupdocs.app/viewer/total"
+              text: "Démo en direct"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Pricing"
+              text: "Tarification"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer/java"
+        link_download: "https://releases.groupdocs.com/viewer/java/"
         link_learn: "https://docs.groupdocs.com/viewer/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Aperçu ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Viewer pour Java combine un ensemble puissant d'API de visualisation de documents pour afficher des images et des formats de documents dans vos applications Java sans avoir à installer de logiciel supplémentaire. Il rastérise nativement les documents et les convertit en SVG + HTML + CSS pour améliorer la qualité de visualisation des documents tout en offrant une sortie haute fidélité en texte vrai. Utilisation de l'API de rendu de documents - visualisez rapidement des PDF, HTML, XML, Microsoft Office Word, des feuilles de calcul Excel, des présentations PowerPoint, des e-mails Outlook, des diagrammes Visio, des projets, des métafichiers, des images et divers autres formats de fichiers avec facilité et moins de risques de programmation. Il peut également afficher des fichiers protégés par mot de passe et permettre d'obtenir une représentation du document sous forme de HTML, d'image ou de PDF après le rendu. Notre bibliothèque de visionneuse de fichiers est assez personnalisable, car elle vous permet d'afficher l'intégralité du document ou de le rendre partiellement pour accélérer le processus. Grâce à l'API GroupDocs.Viewer pour Java, vous pouvez afficher des pages, une plage de cellules spécifique dans une feuille de calcul ou même restituer une couche de document individuelle dans des formats tels que PDF et CAO.  
-        
-      GroupDocs.Viewer pour l'API Java vous permet de rendre des documents avec/sans annotation ou commentaires pour les formats de fichiers pris en charge. Il vous permet également d'ajouter des répertoires de polices personnalisés et d'extraire des informations de base sur le document telles que FileType, Extension, Name, PageCount, etc. 
-        
+      GroupDocs.Viewer pour Java combine un ensemble puissant d'API de visualisation de documents pour afficher des images et des formats de documents dans vos applications Java sans avoir à installer de logiciel supplémentaire. Il pixellise nativement les documents et les convertit en SVG+HTML+CSS pour améliorer la qualité de visualisation des documents tout en offrant une sortie haute fidélité en texte vrai. Utilisation de l'API de rendu de documents - visualisez rapidement des PDF, HTML, XML, Microsoft Office Word, des feuilles de calcul Excel, des présentations PowerPoint, des e-mails Outlook, des diagrammes Visio, des projets, des métafichiers, des images et divers autres formats de fichiers avec facilité et moins de risques de programmation. Il peut également afficher des fichiers protégés par mot de passe et permettre d'obtenir une représentation du document sous forme de HTML, d'image ou de PDF après le rendu. Notre bibliothèque de visionneuse de fichiers est assez personnalisable, car elle vous permet d'afficher l'intégralité du document ou de le rendre partiellement pour accélérer le processus. Grâce à l'API GroupDocs.Viewer pour Java, vous pouvez afficher des pages, une plage de cellules spécifique dans une feuille de calcul ou même restituer une couche de document individuelle dans des formats tels que PDF et CAO.  
+
+      GroupDocs.Viewer pour l'API Java vous permet de rendre des documents avec/sans annotation ou commentaires pour les formats de fichiers pris en charge. Il vous permet également d'ajouter des répertoires de polices personnalisés et d'extraire des informations de base sur le document telles que FileType, Extension, Name, PageCount, etc.  
+
       GroupDocs.Viewer pour Java est compatible avec toutes les versions de Java et prend en charge les systèmes d'exploitation courants (Windows, Linux, macOS) capables d'exécuter l'environnement d'exécution Java.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Voici un aperçu de GroupDocs.Viewer pour Java :
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
           title: "Aperçu"
           content: |
-            * Afficher plus de 50 types de documents
-            * Obtenir HTML, Image, Version PDF
-            * Rotation et réorganisation
-            * Appliquer le filigrane
-            * Cache pour un processus rapide
-            * Ajouter des polices personnalisées
-            * Appliquer les normes d'encodage
-            * Gestionnaire de données d'entrée personnalisé
-            * Rendu avec suivi des modifications
-            * Rendu en HTML réactif
-            * Rendu des couches PDF et CAO
-            * Rendu des fichiers protégés
+            * Afficher plus de 170 types de documents 
+            * Obtenir HTML, Image, Version PDF 
+            * Rotation et réorganisation 
+            * Appliquer le filigrane 
+            * Cache pour un processus rapide 
+            * Ajouter des polices personnalisées 
+            * Appliquer les normes d'encodage 
+            * Gestionnaire de données d'entrée personnalisé 
+            * Rendu avec suivi des modifications 
+            * Rendu en HTML réactif 
+            * Rendu des couches PDF et CAO 
+            * Rendu des fichiers protégés 
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer pour Java prend en charge tous les [formats de fichiers de documents](https://docs.groupdocs.com/viewer/java/supported-document-formats/) courants, y compris : Microsoft Office, les images, les diagrammes et bien d'autres.
+          GroupDocs.Viewer pour Java prend en charge tous les formats de fichiers de documents courants, notamment : Microsoft Office, images, diagrammes et bien d'autres.
 
         left:
           enable: true
@@ -116,14 +117,14 @@ overview:
             # table loop
             - title: "Autres formats"
               content: |
-                * **PDF Formats:** PDF, TEX, XPS, OXPS
+                * **Fichiers de mise en page:** PDF, TEX, XPS, OXPS
                 * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Delimiter-Separated Values:** CSV, TSV
-                * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, WMZ, EMZ
+                * **Valeurs séparées par un délimiteur:** CSV, TSV
+                * **la toile:** HTML, MHT, MHTML
+                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
                 * **PostScript:** PS, EPS
-                * **Archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Divers:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBER, NSF
+                * **Les archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+                * **Divers:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
 
         right:
           enable: true
@@ -131,31 +132,31 @@ overview:
             # table loop
             - title: "Images, graphiques et diagrammes"
               content: |
-                * **Images:** BMP, GIF, JPG, PNG, TIFF, multi-page TIFF, WebP, DNG, DIB, DCM
-                * **Windows Icon:** ICO
-                * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ
+                * **Images:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
+                * **Icône Windows:** ICO
+                * **Image Vectorielle:** SVG, CDR, CMX, IGS, SVGZ
                 * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
                 * **Adobe Photoshop:** PSD, PSB
-                * **Printer Command Language:** PCL
-                * **Stereo Lithography (3D Printing):** STL
-                * **Industry Foundation Classes:** IFC
-                * **Medical Imaging:** DICOM
-                * **Plotter Documents:** PLT, HPG
-                * **Autodesk Design Web Formats:** DWF, DWG
-                * **AutoCAD Drawing:** DGN, DWT, IFC, STL, CF2
-                * **ISFF-based DGN (V7):** DGN
+                * **Langage de commande de l'imprimante:** PCL
+                * **Stéréo Lithographie (Impression 3D):** STL
+                * **Classes de base de l'industrie:** IFC
+                * **L'imagerie médicale:** DICOM
+                * **Documents de traceur:** PLT, HPG
+                * **Formats Web d'Autodesk Design:** DWF, DWG
+                * **Dessin AutoCAD:** DWT, IFC, STL, CF2
+                * **DGN basé sur ISFF (V7):** DGN
 
             # table loop
             - title: "Formats des langages de programmation"
               content: |
-                * **C/C++/C# Files:** C, CC, CS, CPP, CXX, C#, H, HH, M, MM
-                * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
-                * **Various:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+                * **Fichiers C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+                * **Fichiers Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
+                * **Divers:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer for Java prend en charge la suite Systèmes d'exploitation, Frameworks & Directeur chargé d'emballages:
+          GroupDocs.Viewer pour Java prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants :
         
         left:
           enable: true
@@ -164,16 +165,17 @@ overview:
             - icon: "fab fa-windows"
               title: "Systèmes d'exploitation"
               content: |
-                * Bureau Microsoft Windows
-                * Serveur Microsoft Windows
-                * Linux
-                * Mac OS
+                * Microsoft Windows Server 2003 et versions ultérieures 
+                * Microsoft Windows XP et versions ultérieures 
+                * Microsoft Windows 10 et 11 
+                * Linux (Ubuntu, OpenSUSE, CentOS et autres) 
+                * Mac OS X 
 
             # table loop
             - icon: "fas fa-code"
               title: "Cadres pris en charge"
               content: |
-                * Java 7 (1.7) et supérieur
+                * J2SE 8.0 (1.8) ou supérieur (par exemple Java 17) 
 
         right:
           enable: true
@@ -183,18 +185,20 @@ overview:
               title: "Environnements de développement"
               content: |
                 * NetBeans
-                * IDÉE IntelliJ
-                * Éclipse
+                * IntelliJ IDEA
+                * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Outil d'automatisation de construction"
               content: |
                 * Maven
+                * Gradle
 
-############################# Caractéristiques ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Viewer for Java Caractéristiques"
+    title: "GroupDocs.Viewer pour les fonctionnalités Java"
 
     feature:
       # feature loop
@@ -271,7 +275,7 @@ features:
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Afficher/masquer la bordure de cellule dans les feuilles Excel de la sortie rendue"
+        content: "Afficher/Masquer la bordure de cellule dans les feuilles Excel de la sortie rendue"
 
       # feature loop
       - icon: "fas fa-file-excel"
@@ -293,18 +297,18 @@ features:
       - icon: "fab fa-uncharted"
         content: "Définir des restrictions d'impression lors du rendu au format PDF"
 
-    more_feature :
+    more_feature:
       # more_feature_loop
       - title: "API efficace et fiable pour la visualisation de documents"
         content: |
           L'API GroupDocs.Viewer for Java peut être utilisée pour visualiser, restituer et afficher des documents de plus de 150 formats de fichiers différents. Cela se fait de manière fiable et efficace tout en gardant intact le contenu ainsi que la structure du document. L'exemple suivant montre le niveau de facilité avec lequel l'API GroupDocs.Viewer pour Java restitue un fichier DOCX en tant que fichier image à l'aide de Java :
-          
+
           ```java
-          // Initialiser la visionneuse
-          Viewer viewer = new Viewer("sample.docx");
-          // Créer des options d'affichage
+          // Initialize Viewer
+          Viewer viewer = new Viewer("invoice.docx");
+          // Create view options
           PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convertir le fichier en PDF et vérifier la sortie dans le répertoire actuel
+          // Convert file to PDF and check the output in the current directory
           viewer.view(viewOptions);
           ```
       # more_feature_loop
@@ -319,7 +323,7 @@ features:
 support:
     enable: true
 
-############################# Solutions ############################
+############################# Solutions ##########################
 solutions:
     enable: true
     title: "GroupDocs.Viewer propose des API de visualisation de documents pour d'autres environnements de développement populaires"
@@ -327,12 +331,12 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Viewer for .NET"
-          image: "/border/groupdocs-viewer-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
           product: "GroupDocs.Viewer"
           platform: ".NET"
           link: "/viewer/net/"
 
-############################# Back to top ###############################
+############################# Back to top ##########################
 back_to_top:
   enable: true
 ---

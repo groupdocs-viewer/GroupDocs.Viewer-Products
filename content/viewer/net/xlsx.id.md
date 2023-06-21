@@ -1,21 +1,33 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-viewer"
+date: 2022-02-23T12:00:00+02:00
 draft: false
+lang: id
 
-head_title: ".NET XLSX Viewer API - Baca, Lihat, Render di C# VB.NET"
-head_description: ".NET document viewer API untuk membaca, merender, dan menampilkan XLSX di semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core."
+############################# Head #############################
+head_title: ".NET XLSX Viewer API - Baca, Lihat, Render dalam C# VB.NET"
+head_description: "API penampil dokumen .NET untuk membaca, merender, dan menampilkan XLSX dalam semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core."
 
-title: "XLSX File Viewer untuk Aplikasi C# .NET"
-description: ".NET document viewer API untuk membaca, merender, dan menampilkan file XLSX dalam semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core. Lihat file yang dirender dengan format & tata letak yang benar dalam HTML5, PDF, atau sebagai gambar menggunakan beberapa baris kode."
+############################# Header ############################
+title: "XLSX Penampil File Untuk Aplikasi C# .NET" 
+description: "API penampil dokumen .NET untuk membaca, merender, dan menampilkan file XLSX dalam semua jenis aplikasi C#, ASP.NET, VB.NET & .NET Core. Lihat file yang dirender dengan pemformatan & tata letak sebenarnya dalam HTML5, PDF, atau sebagai gambar menggunakan beberapa baris kode." 
 
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "Unduh Uji Coba Gratis"
-    link: "https://downloads.groupdocs.com/viewer/net"
+    link: "https://releases.groupdocs.com/viewer/net"
 
+############################# About ############################
+about:
+    enable: true
+    title: "Tentang GroupDocs.Viewer untuk .NET API" 
+    content: |
+        Mulai melihat 190+ format dokumen populer di aplikasi .NET Anda menggunakan GroupDocs.Viewer untuk .NET API dengan menambahkan beberapa baris kode. Pengembang dapat dengan mudah menampilkan PDF, Pemrosesan Kata, Excel Spreadsheet, Presentasi, Visio, Proyek, Outlook, dan banyak format dokumen populer lainnya dalam mode HTML5, gambar, atau PDF. Perenderan dokumen cepat, identik dengan file sumber asli, dan tidak memerlukan penginstalan perangkat lunak tambahan atau pustaka eksternal lainnya.
+
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,15 +40,19 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/viewer/net"
               text: "Referensi API"
 
+            # button loop
             - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
               text: "Contoh Kode"
 
+            # button loop
             - link: "https://products.groupdocs.app/viewer/family"
               text: "Demo Langsung"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/viewer/net"
               text: "Harga"
 
@@ -45,303 +61,195 @@ submenu:
         link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-about:
-    enable: true
-    title: "Tentang GroupDocs.Viewer untuk .NET API"
-    content: |
-        Mulai lihat 170+ format dokumen populer di aplikasi .NET Anda menggunakan GroupDocs.Viewer untuk .NET API dengan menambahkan beberapa baris kode. Pengembang dapat dengan mudah menampilkan PDF, Pemrosesan Kata, Spreadsheet Excel, Presentasi, Visio, Proyek, Outlook, dan banyak format dokumen populer lainnya dalam mode HTML5, gambar, atau PDF. Render dokumen cepat, identik dengan file sumber asli, dan tidak perlu menginstal Microsoft Office atau pustaka eksternal lainnya.
-
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Melihat File XLSX di C#"
+    title_left: "Langkah-langkah Render file XLSX di C#" 
     content_left: |
-        [GroupDocs.Viewer](/viewer/net/) memudahkan pengembang .NET untuk menambahkan fitur tampilan file XLSX dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        Dengan [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) Anda dapat merender XLSX ke HTML, JPEG, PNG, atau PDF dalam beberapa langkah.
 
-        * Buat instance kelas Viewer dan muat file XLSX dengan path lengkap.
-        * Atur opsi untuk mengonversi file XLSX ke format PNG.
-        * Konversi file dan periksa output di direktori saat ini.
+        * Instal [GroupDocs.Viewer untuk .NET](https://www.nuget.org/packages/groupdocs.viewer) menggunakan pengelola paket favorit Anda. 
+        * Buat instance kelas Viewer dan muat file XLSX dengan path lengkap. 
+        * Setel opsi untuk merender file XLSX ke dalam format HTML, PNG, JPEG, atau PDF. 
+        * Render file dan periksa output di direktori saat ini. 
         
-    title_right: "Persyaratan sistem"
+    title_right: "Persyaratan sistem" 
     content_right: |
-        GroupDocs.Viewer untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Viewer untuk .NET API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: Microsoft Visual Studio, Kode Visual Studio, .NET CLI
-        * Kerangka: .NET Framework, .NET Standard, .NET Core, .NET
-        * Dapatkan GroupDocs.Viewer versi terbaru untuk .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.viewer)
-        
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS 
+        * Lingkungan Pengembangan: Microsoft Visual Studio, Visual Studio Code, .NET CLI 
+        * Kerangka kerja: .NET Framework, .NET Standard, .NET Core, .NET 
     code: |
         ```cs
-        // Buat instance penampil
-        using (Viewer viewer = new Viewer("sample.xlsx"))
-        {
-        	// Setel opsi tampilan 
-        	ViewOptions viewOptions = new PngViewOptions();
-        	// Konversi file ke PNG dan periksa output di direktori saat ini 
-        	viewer.View(viewOptions);
-        }
-        ```
+                        
+            // Set up input XLSX file
+            string filePath = "input.xlsx";
         
+            // Instantiate Viewer
+            using (Viewer viewer = new Viewer(filePath))
+            {
+            	// Set view options 
+            	HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
+                    
+            	// Render XLSX file to HTML with embedded resources
+            	viewer.View(viewOptions);
+            }
+             
+        ```
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung Pemirsa XLSX"
+    title: "XLSX Demo Langsung Pemirsa"
     content: |
-        Tampilkan file XLSX sekarang juga dengan mengunjungi situs web [GroupDocs.Viewer](https://products.groupdocs.app/viewer/XLSX). Demo langsung memiliki manfaat sebagai berikut.
-        
+        Lihat file XLSX sekarang juga dengan mengunjungi situs web [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/xlsx).
+    lang: "id"
+
+############################# About Formats ####################
 about_formats:
-    enable: true
-    format:
-        - icon: "far fa-file-xlsx"
-          title: "Tentang Format Berkas XLSX"
-          content: |
-            XLSX adalah format terkenal untuk dokumen Microsoft Excel yang diperkenalkan oleh Microsoft dengan dirilisnya Microsoft Office 2007. Berdasarkan struktur yang diatur menurut Konvensi Pembungkus Terbuka sebagaimana diuraikan dalam Bagian 2 dari standar OOXML ECMA-376, format barunya adalah paket zip yang berisi sejumlah file XML. Struktur dan file yang mendasarinya dapat diperiksa hanya dengan membuka ritsleting file .XLSX.
+    enable: false
 
-          link: "https://docs.fileformat.com/spreadsheet/xlsx/"
-
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Rendering & Tampilan Format File Lainnya"
+    title: "Rendering & Tampilan Format Berkas Lainnya menggunakan C#"
+    exclude: "XLSX"
     content: |
-        Dokumen multi format dan API penampil gambar untuk .NET. Lihat beberapa format file populer di bawah ini tanpa pemirsa eksternal.
+        Dokumen multi-format dan API penampil gambar untuk .NET. Lihat beberapa format file populer di bawah ini tanpa penampil eksternal.
     format: 
-        - name: ".NET DOC Penonton"
-          link: "/viewer/net/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: ".NET DOCM Penonton"
-          link: "/viewer/net/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: ".NET DOCX Penonton"
+        # format loop 1
+        - name: "Merender DOCX"
+          format: "DOCX"
           link: "/viewer/net/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
+          description: "Dokumen XML Microsoft Word Terbuka" 
 
-        - name: ".NET  DOT Penonton"
-          link: "/viewer/net/dot/"
-          description: "Templat Dokumen Microsoft Word"
+        # format loop 2
+        - name: "Render CDR" 
+          format: "CDR"
+          link: "/viewer/net/cdr/"
+          description: "File CorelDraw" 
 
-        - name: ".NET DOTM Penonton"
-          link: "/viewer/net/dotm/"
-          description: "Templat Microsoft Word Macro-Enabled"
-
-        - name: ".NET DOTX Penonton"
-          link: "/viewer/net/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: ".NET RTF Penonton"
-          link: "/viewer/net/rtf/"
-          description: "Format File Teks Kaya"
-
-        - name: ".NET TXT Penonton"
-          link: "/viewer/net/txt/"
-          description: "Format File Teks Biasa"
-
-        - name: ".NET XLS Penonton"
-          link: "/viewer/net/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: ".NET XLSM Penonton"
-          link: "/viewer/net/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: ".NET XLSB Penonton"
-          link: "/viewer/net/xlsb/"
-          description: "File Spreadsheet Biner Microsoft Excel"
-
-        - name: ".NET XLTX Penonton"
-          link: "/viewer/net/xltx/"
-          description: "Templat XML Terbuka Microsoft Excel"
-
-        - name: ".NET TSV Penonton"
-          link: "/viewer/net/tsv/"
-          description: "File Nilai Terpisah Tab"
-
-        - name: ".NET XLAM Penonton"
-          link: "/viewer/net/xlam/"
-          description: "Add-In Microsoft Excel Macro-Enabled"
-
-        - name: ".NET CSV Penonton"
-          link: "/viewer/net/csv/"
-          description: "File Nilai Dipisahkan Koma"
-
-        - name: ".NET PPT Penonton"
-          link: "/viewer/net/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: ".NET PPS Penonton"
-          link: "/viewer/net/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: ".NET PPTX Penonton"
+        # format loop 3
+        - name: "Render PPTX"
+          format: "PPTX"
           link: "/viewer/net/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
+          description: "Presentasi PowerPoint Terbuka XML" 
 
-        - name: ".NET PPSX Penonton"
-          link: "/viewer/net/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
+        # format loop 4
+        - name: "Render XLSX"
+          format: "XLSX"
+          link: "/viewer/net/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
-        - name: ".NET POTX Penonton"
-          link: "/viewer/net/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
+        # format loop 5
+        - name: "Render DWG"
+          format: "DWG"
+          link: "/viewer/net/dwg/"
+          description: "Menggambar AutoCAD"
 
-        - name: ".NET POTM Penonton"
-          link: "/viewer/net/potm/"
-          description: "Templat Microsoft PowerPoint"
+        # format loop 6
+        - name: "Merender XML"
+          format: "XML"
+          link: "/viewer/net/xml/"
+          description: "Berkas XML"
 
-        - name: ".NET PPTM Penonton"
-          link: "/viewer/net/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: ".NET PPSM Penonton"
-          link: "/viewer/net/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: ".NET PDF Penonton"
-          link: "/viewer/net/pdf/"
-          description: "Format Dokumen Portabel Adobe"
-
-        - name: ".NET XPS Penonton"
-          link: "/viewer/net/xps/"
-          description: "Buka Spesifikasi Kertas XML"
-
-        - name: ".NET TEX Penonton"
-          link: "/viewer/net/tex/"
-          description: "Dokumen Sumber LaTeX"
-
-        - name: ".NET ODS Penonton"
-          link: "/viewer/net/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: ".NET ODP Penonton"
-          link: "/viewer/net/odp/"
-          description: "Format File Presentasi OpenDocument"
-
-        - name: ".NET OTP Penonton"
-          link: "/viewer/net/otp/"
-          description: "Templat Grafik Asal"
-
-        - name: ".NET ODT Penonton"
-          link: "/viewer/net/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: ".NET  OTT Penonton"
-          link: "/viewer/net/ott/"
-          description: "Buka Templat Dokumen"
-
-        - name: ".NET VST Penonton"
-          link: "/viewer/net/vst/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: ".NET  TIFF Penonton"
-          link: "/viewer/net/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: ".NET JPEG Penonton"
-          link: "/viewer/net/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: ".NET  PNG Penonton"
-          link: "/viewer/net/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: ".NET  GIF Penonton"
-          link: "/viewer/net/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: ".NET BMP Penonton"
-          link: "/viewer/net/bmp/"
-          description: "Format File Bitmap"
-
-        - name: ".NET ICO Penonton"
-          link: "/viewer/net/ico/"
-          description: "File Ikon Microsoft"
-
-        - name: ".NET PSD Penonton"
+        # format loop 7
+        - name: "Render PSD"
+          format: "PSD"
           link: "/viewer/net/psd/"
           description: "Dokumen Adobe Photoshop"
 
+        # format loop 8
+        - name: "Render file Adobe Illustrator"
+          format: "AI"
+          link: "/viewer/net/ai/"
+          description: "Karya Seni Adobe Illustrator"
 
-        - name: ".NET WEBP Penonton"
-          link: "/viewer/net/webp/"
-          description: "Format File Gambar Web Raster"
+        # format loop 9
+        - name: "Render DOC"
+          format: "DOC"
+          link: "/viewer/net/doc/"
+          description: "Dokumen Microsoft Word" 
 
-        - name: ".NET SVG Penonton"
+        # format loop 10
+        - name: "Render TXT" 
+          format: "TXT"
+          link: "/viewer/net/txt/"
+          description: "File Teks Biasa" 
+
+        # format loop 11
+        - name: "Render DXF" 
+          format: "DXF"
+          link: "/viewer/net/dxf/"
+          description: "Menggambar File Format Pertukaran"  
+          
+        # format loop 12
+        - name: "Render VCF"
+          format: "VCF"
+          link: "/viewer/net/vcf/"
+          description: "File vCard"  
+              
+        # format loop 13
+        - name: "Render SVG"
+          format: "SVG"
           link: "/viewer/net/svg/"
-          description: "File Grafik Vektor yang Dapat Diskalakan"
-
-        - name: ".NET JP2 Penampil"
-          link: "/viewer/net/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: ".NET MPP Penonton"
-          link: "/viewer/net/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: ".NET MPT Penonton"
-          link: "/viewer/net/wmz/"
-          description: "Templat Proyek Microsoft"
-
-        - name: ".NET HTML Penonton"
+          description: "Grafik Vektor yang Dapat Diskalakan" 
+          
+        # format loop 14
+        - name: "Merender HTML"
+          format: "HTML"
           link: "/viewer/net/html/"
-          description: "Hyper Text Markup Language"
-
-        - name: ".NET MHT Penonton"
-          link: "/viewer/net/mht/"
-          description: "Enkapsulasi MIME dari HTML Agregat"
-
-        - name: ".NET MHTML Penonton"
-          link: "/viewer/net/mhtml/"
-          description: "Enkapsulasi MIME dari HTML Agregat"
-
-        - name: ".NET MSG Penonton"
-          link: "/viewer/net/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: ".NET EML Penonton"
+          description: "File Bahasa Markup Hiperteks" 
+          
+        # format loop 15
+        - name: "Render PDF"
+          format: "PDF"
+          link: "/viewer/net/pdf/"
+          description: "File Format Dokumen Portabel"
+          
+        # format loop 16
+        - name: "Render JPEG"
+          format: "JPG"
+          link: "/viewer/net/jpg/"
+          description: "Gambar JPEG"
+          
+        # format loop 17
+        - name: "Render PNG"
+          format: "PNG"
+          link: "/viewer/net/png/"
+          description: "Grafik Jaringan Portabel" 
+          
+        # format loop 18
+        - name: "Render EML"
+          format: "EML"
           link: "/viewer/net/eml/"
-          description: "Pesan email"
+          description: "Pesan Email" 
+          
+        # format loop 19
+        - name: "Render RTF"
+          format: "RTF"
+          link: "/viewer/net/rtf/"
+          description: "File Format Teks Kaya" 
+          
+        # format loop 20
+        - name: "Render ODT"
+          format: "ODT"
+          link: "/viewer/net/odt/"
+          description: "Dokumen Teks OpenDocument" 
+          
+        # format loop 21
+        - name: "Render CSV"
+          format: "CSV"
+          link: "/viewer/net/csv/"
+          description: "File Nilai yang Dipisahkan Koma" 
+          
+        # format loop 21
+        - name: "{format-content-net.more_formats_name_xps}"
+          format: "XPS"
+          link: "/viewer/net/xps/"
+          description: "{format-content-net.more_formats_description_xps}" 
 
-        - name: ".BERSIH SATU Pemirsa"
-          link: "/viewer/net/one/"
-          description: "Microsoft OneNote"
-
-        - name: ".NET WMF Penonton"
-          link: "/viewer/net/wmf/"
-          description: "Metafile Windows"
-
-        - name: ".NET EMF Penonton"
-          link: "/viewer/net/emf/"
-          description: "Metafile yang Ditingkatkan Windows"
-
-        - name: ".NET PSD Penonton"
-          link: "/viewer/net/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: ".NET VSD Penonton"
-          link: "/viewer/net/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: ".NET VSDX Penonton"
-          link: "/viewer/net/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: ".NET VSS Penonton"
-          link: "/viewer/net/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: ".NET VDX Penonton"
-          link: "/viewer/net/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: ".NET VDW Penonton"
-          link: "/viewer/net/vdw/"
-          description: "Gambar Web Microsoft Visio 2010"
-
-        - name: ".NET EPUB Penonton"
-          link: "/viewer/net/epub/"
-          description: "Format File E-Book Digital"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

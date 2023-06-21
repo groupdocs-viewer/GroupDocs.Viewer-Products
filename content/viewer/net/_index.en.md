@@ -1,9 +1,10 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "product"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
+lang: en
 product: "Viewer"
 product_tag: "viewer"
 platform: ".NET"
@@ -13,16 +14,16 @@ platform_tag: "net"
 head_title: ".NET Document Viewer API, Render PDF Word Excel Image HTML Diagram"
 head_description: "C# ASP.NET file viewer & rendering API. Add PDF viewer, Word viewer, Excel viewer, Image viewer, HTML viewer, Email viewer features in .NET apps."
 
-############################# Header ############################
+############################# Header ##########################
 title: "Render & Display Documents via .NET API"
-description: ".NET Document Viewer API to Render 170+ document formats into PDF, HTML and Image with Powerful Configuration Options."
+description: ".NET Document Viewer API to Render 190+ document formats into PDF, HTML and Image with Powerful Configuration Options."
 button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/viewer/net"
 
-############################# SubMenu ############################
+############################# SubMenu #########################
 submenu:
     enable: true
     
@@ -47,7 +48,7 @@ submenu:
               text: "Support"
 
             # button loop
-            - link: "https://products.groupdocs.app/viewer"
+            - link: "https://products.groupdocs.app/viewer/total"
               text: "Live Demo"
 
             # button loop
@@ -55,7 +56,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
+        link_download: "https://releases.groupdocs.com/viewer/net/"
         link_learn: "https://docs.groupdocs.com/viewer/net/"
         link_buy: "https://purchase.groupdocs.com"
 
@@ -63,8 +64,8 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Viewer for .NET APIs help you create powerful applications in C#, ASP.NET and other .NET-based technologies, which can render and display documents and images of 170+ file formats without installing any external software. The file viewer library rasterizes the documents and then converts them into SVG+HTML+CSS to optimize the overall document rendering experience for viewing business documents, images, text files, diagrams, graphics, email attachments and PDF files with speed, true-text and high-fidelity inside your applications. You have the option to add document viewing and reading functionalities in your applications to display whole document, partial document, specific page/cell range, individual document layer, with or without annotations and comments for the supported file formats.  
-
+      GroupDocs.Viewer for .NET APIs help you create powerful applications in C#, ASP.NET and other .NET-based technologies, which can render and display documents and images of 190+ file formats without installing any external software. The file viewer library rasterizes the documents and then converts them into SVG+HTML+CSS to optimize the overall document rendering experience for viewing business documents, images, text files, diagrams, graphics, email attachments and PDF files with speed, true-text and high-fidelity inside your applications. You have the option to add document viewing and reading functionalities in your applications to display whole document, partial document, specific page/cell range, individual document layer, with or without annotations and comments for the supported file formats.
+       
       GroupDocs.Viewer for .NET caches the rendered documents output to the local disk by default. Any type of external cache storage is also supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Redis or any other.
     tabs:
       enable: true
@@ -79,22 +80,22 @@ overview:
           icon: "fab fa-html5"
           title: "Overview"
           content: |
-            * Display 170+ Document Types
-            * Get HTML, Image, PDF Version
-            * Rotate &amp; Reorder
-            * Apply Watermark
-            * Cache for Fast Process
-            * Add Custom Fonts
-            * Apply Encoding Standards
-            * Custom Input Data Handler
-            * Render with Track Changes
-            * Render as Responsive HTML
-            * Render PDF &amp; CAD Layers
+            * Display 190+ Document Types 
+            * Get a file in HTML, Image, PDF format 
+            * Rotate &amp; Reorder 
+            * Apply Watermark 
+            * Cache for Fast Process 
+            * Add Custom Fonts 
+            * Apply Encoding Standards 
+            * Custom Input Data Handler 
+            * Render with Track Changes 
+            * Render as Responsive HTML 
+            * Render PDF &amp; CAD Layers 
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer for .NET supports viewing all popular [document file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/). With just a few lines of code, add PDF viewer, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics viewing capabilities in your .NET applications.
+          GroupDocs.Viewer for .NET supports viewing all popular document file formats. With just a few lines of code, add PDF viewer, Microsoft Office Word, Excel spreadsheet, Image, HTML, Outlook email, OneNote, Project and graphics viewing capabilities in your .NET applications.
 
         left:
           enable: true
@@ -102,25 +103,25 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** [DOC](https://products.groupdocs.com/viewer/net/doc/), [DOCX](https://products.groupdocs.com/viewer/net/docx/), [DOCM](https://products.groupdocs.com/viewer/net/docm/), [DOT](https://products.groupdocs.com/viewer/net/dot/), [DOTX](https://products.groupdocs.com/viewer/net/dotx/), [DOTM](https://products.groupdocs.com/viewer/net/dotm/), [RTF](https://products.groupdocs.com/viewer/net/rtf/), [TXT](https://products.groupdocs.com/viewer/net/txt/)
-                * **Excel:** [XLS](https://products.groupdocs.com/viewer/net/xls/), [XLSX](https://products.groupdocs.com/viewer/net/xlsx/), [XLSM](https://products.groupdocs.com/viewer/net/xlsm/), [XLSB](https://products.groupdocs.com/viewer/net/xlsb/), [XLTM](https://products.groupdocs.com/viewer/net/xltm/), [XLT](https://products.groupdocs.com/viewer/net/xlt/), [XLTM](https://products.groupdocs.com/viewer/net/xltm/), [XLTX](https://products.groupdocs.com/viewer/net/xltx/), [XLAM](https://products.groupdocs.com/viewer/net/xlam/), [SXC](https://products.groupdocs.com/viewer/net/sxc/), [SpreadsheetML](https://products.groupdocs.com/viewer/net/xml/)
-                * **PowerPoint:** [PPT](https://products.groupdocs.com/viewer/net/ppt/), [PPTX](https://products.groupdocs.com/viewer/net/pptx/), [PPS](https://products.groupdocs.com/viewer/net/pps/), [PPSX](https://products.groupdocs.com/viewer/net/ppsx/), [PPSM](https://products.groupdocs.com/viewer/net/ppsm/), [POT](https://products.groupdocs.com/viewer/net/pot/), [POTM](https://products.groupdocs.com/viewer/net/potm/), [POTX](https://products.groupdocs.com/viewer/net/potx/), [PPTM](https://products.groupdocs.com/viewer/net/pptm/)
-                * **Visio:** [VSD](https://products.groupdocs.com/viewer/net/vsd/), [VDX](https://products.groupdocs.com/viewer/net/vdx/), [VSS](https://products.groupdocs.com/viewer/net/vss/), [VSSX](https://products.groupdocs.com/viewer/net/vssx/), [VSX](https://products.groupdocs.com/viewer/net/vsx/), [VST](https://products.groupdocs.com/viewer/net/vst/), [VSTX](https://products.groupdocs.com/viewer/net/vstx/), [VTX](https://products.groupdocs.com/viewer/net/vtx/), [VSDX](https://products.groupdocs.com/viewer/net/vsdx/), [VDW](https://products.groupdocs.com/viewer/net/vdw/), [VSTM](https://products.groupdocs.com/viewer/net/vstm/), [VSSM](https://products.groupdocs.com/viewer/net/vssm/), [VSDM](https://products.groupdocs.com/viewer/net/vsdm/)
-                * **Project:** [MPP](https://products.groupdocs.com/viewer/net/mpp/), [MPT](https://products.groupdocs.com/viewer/net/mpt/), [MPX](https://products.groupdocs.com/viewer/net/mpx/)
-                * **Outlook:** [MSG](https://products.groupdocs.com/viewer/net/msg/), [EML](https://products.groupdocs.com/viewer/net/eml/), [EMLX](https://products.groupdocs.com/viewer/net/emlx/), [PST](https://products.groupdocs.com/viewer/net/pst/), [OST](https://products.groupdocs.com/viewer/net/ost/)
-                * **OneNote:** [ONE](https://products.groupdocs.com/viewer/net/one/)
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+                * **Project:** MPP, MPT, MPX
+                * **Outlook:** MSG, EML, EMLX, PST, OST
+                * **OneNote:** ONE
 
             # table loop
             - title: "Other Formats"
               content: |
-                * **PDF Formats:** [PDF](https://products.groupdocs.com/viewer/net/pdf/), [TEX](https://products.groupdocs.com/viewer/net/tex/), [XPS](https://products.groupdocs.com/viewer/net/xps/), [OXPS](https://products.groupdocs.com/viewer/net/oxps/)
-                * **OpenDocument:** [ODT](https://products.groupdocs.com/viewer/net/odt/), [OTT](https://products.groupdocs.com/viewer/net/ott/), [ODS](https://products.groupdocs.com/viewer/net/ods/), [ODP](https://products.groupdocs.com/viewer/net/odp/), [OTP](https://products.groupdocs.com/viewer/net/otp/), [OTS](https://products.groupdocs.com/viewer/net/ots/), [ODG](https://products.groupdocs.com/viewer/net/odg/), [OTG](https://products.groupdocs.com/viewer/net/otg/), [FODP](https://products.groupdocs.com/viewer/net/fodp/), [FODG](https://products.groupdocs.com/viewer/net/fodg/)
-                * **Delimiter-Separated Values:** [CSV](https://products.groupdocs.com/viewer/net/csv/), [TSV](https://products.groupdocs.com/viewer/net/tsv/)
-                * **Web:** [HTML](https://products.groupdocs.com/viewer/net/html/), [MHT](https://products.groupdocs.com/viewer/net/mht/), [MHTML](https://products.groupdocs.com/viewer/net/mhtml/)
-                * **Metafile:** [WMF](https://products.groupdocs.com/viewer/net/wmf/), [EMF](https://products.groupdocs.com/viewer/net/emf/), [CGM](https://products.groupdocs.com/viewer/net/cgm/), [EMZ](https://products.groupdocs.com/viewer/net/emz/), WMZ
-                * **PostScript:** [PS](https://products.groupdocs.com/viewer/net/ps/), [EPS](https://products.groupdocs.com/viewer/net/eps/)
-                * **Archives:** [ZIP](https://products.groupdocs.com/viewer/net/zip/), [TAR](https://products.groupdocs.com/viewer/net/tar/), [BZ2](https://products.groupdocs.com/viewer/net/bz2/), [GZ](https://products.groupdocs.com/viewer/net/gz/), [RAR](https://products.groupdocs.com/viewer/net/rar/), [RAR5](https://products.groupdocs.com/viewer/net/rar/)
-                * **Various:** [OBJ](https://products.groupdocs.com/viewer/net/obj/), [EPUB](https://products.groupdocs.com/viewer/net/epub/), [MOBI](https://products.groupdocs.com/viewer/net/mobi/), [DjVu](https://products.groupdocs.com/viewer/net/djvu/), [XML](https://products.groupdocs.com/viewer/net/xml/), [VCF](https://products.groupdocs.com/viewer/net/vcf/), [VCARD](https://products.groupdocs.com/viewer/net/vcard/), [NUMBERS](https://products.groupdocs.com/viewer/net/numbers/), [NSF](https://products.groupdocs.com/viewer/net/nsf/)
+                * **Page Layout Files:** PDF, TEX, XPS, OXPS
+                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
+                * **Delimiter-Separated Values:** CSV, TSV
+                * **Web:** HTML, MHT, MHTML
+                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+                * **PostScript:** PS, EPS
+                * **Archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+                * **Various:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
 
         right:
           enable: true
@@ -128,26 +129,26 @@ overview:
             # table loop
             - title: "Images, Graphics & Diagrams"
               content: |
-                * **Images:** [BMP](https://products.groupdocs.com/viewer/net/bmp/), [GIF](https://products.groupdocs.com/viewer/net/gif/), [JPG](https://products.groupdocs.com/viewer/net/jpg/), [PNG](https://products.groupdocs.com/viewer/net/png/), [TIFF](https://products.groupdocs.com/viewer/net/tiff/), [WebP](https://products.groupdocs.com/viewer/net/webp/), [DNG](https://products.groupdocs.com/viewer/net/dng/), [DIB](https://products.groupdocs.com/viewer/net/dib/)
-                * **Windows Icon:** [ICO](https://products.groupdocs.com/viewer/net/ico/)
-                * **Scalable Vector Graphics:** [SVG](https://products.groupdocs.com/viewer/net/svg/), [CDR](https://products.groupdocs.com/viewer/net/cdr/), [CMX](https://products.groupdocs.com/viewer/net/cmx/), [IGS](https://products.groupdocs.com/viewer/net/igs/), [SVGZ](https://products.groupdocs.com/viewer/net/svgz/)
-                * **Jpeg2000:** [JP2](https://products.groupdocs.com/viewer/net/jp2/), [J2C](https://products.groupdocs.com/viewer/net/j2c/), [J2K](https://products.groupdocs.com/viewer/net/j2k/), [JPC](https://products.groupdocs.com/viewer/net/jpc/), [JPF](https://products.groupdocs.com/viewer/net/jpf/), [JPX](https://products.groupdocs.com/viewer/net/jpx/), [JPM](https://products.groupdocs.com/viewer/net/jpm/)
-                * **Adobe Photoshop:** [PSD](https://products.groupdocs.com/viewer/net/psd/), [PSB](https://products.groupdocs.com/viewer/net/psb/)
-                * **Printer Command Language:** [PCL](https://products.groupdocs.com/viewer/net/pcl/)
-                * **Stereo Lithography (3D Printing):** [STL](https://products.groupdocs.com/viewer/net/stl/)
-                * **Industry Foundation Classes:** [IFC](https://products.groupdocs.com/viewer/net/ifc/)
-                * **Medical Imaging:** [DICOM](https://products.groupdocs.com/viewer/net/dcm/)
-                * **Plotter Documents:** [PLT](https://products.groupdocs.com/viewer/net/plt/), [HPG](https://products.groupdocs.com/viewer/net/hpg/)
-                * **Autodesk Design Web Formats:** [DWF](https://products.groupdocs.com/viewer/net/plt/), [DWG](https://products.groupdocs.com/viewer/net/dwg/)
-                * **AutoCAD Drawing:** [DWT](https://products.groupdocs.com/viewer/net/dwt/), [IFC](https://products.groupdocs.com/viewer/net/ifc/), [STL](https://products.groupdocs.com/viewer/net/stl/), [CF2](https://products.groupdocs.com/viewer/net/cf2/)
-                * **ISFF-based DGN (V7):** [DGN](https://products.groupdocs.com/viewer/net/dgn/)
+                * **Images:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
+                * **Windows Icon:** ICO
+                * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ
+                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
+                * **Adobe Photoshop:** PSD, PSB
+                * **Printer Command Language:** PCL
+                * **Stereo Lithography (3D Printing):** STL
+                * **Industry Foundation Classes:** IFC
+                * **Medical Imaging:** DICOM
+                * **Plotter Documents:** PLT, HPG
+                * **Autodesk Design Web Formats:** DWF, DWG
+                * **AutoCAD Drawing:** DWT, IFC, STL, CF2
+                * **ISFF-based DGN (V7):** DGN
 
             # table loop
             - title: "Programming Languages Formats"
               content: |
-                * **C/C++/C# Files:** [C](https://products.groupdocs.com/viewer/net/c/), [CC](https://products.groupdocs.com/viewer/net/cc/), [C# ](https://products.groupdocs.com/viewer/net/cs/), [CPP](https://products.groupdocs.com/viewer/net/cpp/), [CXX](https://products.groupdocs.com/viewer/net/cxx/), [CS](https://products.groupdocs.com/viewer/net/cs/), [H](https://products.groupdocs.com/viewer/net/h/), [HH](https://products.groupdocs.com/viewer/net/hh/), [M](https://products.groupdocs.com/viewer/net/m/), [MM](https://products.groupdocs.com/viewer/net/mm/)
-                * **Java/JavaScript Files:** [JAVA](https://products.groupdocs.com/viewer/net/java/), [JS](https://products.groupdocs.com/viewer/net/js/), [JSON](https://products.groupdocs.com/viewer/net/json/), [PROPERTIES](https://products.groupdocs.com/viewer/net/properties/)
-                * **Various:** [VB](https://products.groupdocs.com/viewer/net/vb/), [PHP](https://products.groupdocs.com/viewer/net/php/), [SQL](https://products.groupdocs.com/viewer/net/sql/), [PL](https://products.groupdocs.com/viewer/net/pl/), [PY](https://products.groupdocs.com/viewer/net/py/), [PV](https://products.groupdocs.com/viewer/net/pv/), [RB](https://products.groupdocs.com/viewer/net/rb/), [RST](https://products.groupdocs.com/viewer/net/rst/), [SASS](https://products.groupdocs.com/viewer/net/sass/), [SCALA](https://products.groupdocs.com/viewer/net/scala/), [SCM](https://products.groupdocs.com/viewer/net/scm/), [SCRIPT](https://products.groupdocs.com/viewer/net/script/), [AS](https://products.groupdocs.com/viewer/net/as/), [AS3](https://products.groupdocs.com/viewer/net/as3/), [ASM](https://products.groupdocs.com/viewer/net/asm/), [BAT](https://products.groupdocs.com/viewer/net/bat/), [CMAKE](https://products.groupdocs.com/viewer/net/cmake/), [CSS](https://products.groupdocs.com/viewer/net/css/), [DIFF](https://products.groupdocs.com/viewer/net/diff/), [ERB](https://products.groupdocs.com/viewer/net/erb/), [GROOVY](https://products.groupdocs.com/viewer/net/groovy/), [HAML](https://products.groupdocs.com/viewer/net/haml/), [LESS](https://products.groupdocs.com/viewer/net/less/), [LOG](https://products.groupdocs.com/viewer/net/log/), [M](https://products.groupdocs.com/viewer/net/m/), [MAKE](https://products.groupdocs.com/viewer/net/make/), [MD](https://products.groupdocs.com/viewer/net/md/), [ML](https://products.groupdocs.com/viewer/net/ml/), [MM](https://products.groupdocs.com/viewer/net/mm/), [SH](https://products.groupdocs.com/viewer/net/sh/), [SML](https://products.groupdocs.com/viewer/net/sml/), [VIM](https://products.groupdocs.com/viewer/net/vim/), [YAML](https://products.groupdocs.com/viewer/net/yaml/)
+                * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+                * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
+                * **Various:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
 
       ## TAB THREE ##
       tab_three:
@@ -161,18 +162,19 @@ overview:
             - icon: "fab fa-windows"
               title: "Operating Systems"
               content: |
-                * Windows Desktop
-                * Windows Server
-                * Microsoft Azure
-                * Linux
+                * Microsoft Windows Server 2003 and later 
+                * Microsoft Windows XP and later 
+                * Microsoft Windows 10 & 11 
+                * Linux (Ubuntu, OpenSUSE, CentOS and others) 
+                * Mac OS X 
 
             # table loop
             - icon: "fas fa-code"
               title: "Supported Frameworks"
               content: |
-                * .NET Framework 2.0 or higher
-                * .NET Core 3.1
-                * .NET 5 or higher
+                * .NET Framework 2.0 or higher 
+                * .NET Core 3.1 
+                * .NET 5 or higher 
 
         right:
           enable: true
@@ -297,11 +299,11 @@ features:
       # more_feature_loop
       - title: "View Documents Efficiently & Reliably"
         content: |
-          Using GroupDocs.Viewer API you can display more than 170 document formats efficiently and reliably with content and document structure integrity intact. Following sample code shows that how easy it is to view HTML representation of a DOCX document:
+          Using GroupDocs.Viewer API you can display more than 190 document formats efficiently and reliably with content and document structure integrity intact. Following sample code shows that how easy it is to view HTML representation of a DOCX document:
 
           ```cs
           // Instantiate viewer
-          using (Viewer viewer = new Viewer("sample.docx")
+          using (Viewer viewer = new Viewer("invoice.docx"))
           {
               // Set view options
               HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
@@ -326,6 +328,11 @@ testimonials:
   enable: true
 
   testimonial:
+    # testimonial item loop
+    - name: "Margot Baill"
+      designation: "Product Development Director at Hireology"
+      content: "Integrating GroupDocs.Viewer for Cloud API was simple with their fantastic Ruby SDK. There aren't that many companies out there who are willing to work with us on what we want. It's a great partnership."
+
     # testimonial item loop
     - name: "Mats Oustad"
       designation: "Senior Consultant/Partner at Novanet AS"

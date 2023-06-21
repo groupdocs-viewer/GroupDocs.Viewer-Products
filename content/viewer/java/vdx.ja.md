@@ -1,294 +1,249 @@
 ---
-layout: "auto-gen"
+############################# Static ############################
+layout: "auto-gen-viewer"
 date: 2022-02-23T12:00:00+02:00
 draft: false
+lang: ja
 
-head_title: "Java VDXViewerAPI-JavaアプリでのVDXのレンダリングと表示"
-head_description: "Java、J2EE、J2SEアプリケーションでVDXファイルを表示します。ドキュメント表示オプションを管理するための高度な機能を備えた、HTML、PDF、または画像モードでの150以上のドキュメントおよび画像ファイル形式の表示をサポート."
+############################# Head #############################
+head_title: "Java VDX ビューア API - Java アプリでの VDX のレンダリングと表示"
+head_description: "Java、J2EE、J2SE アプリケーションの VDX ファイルを表示します。ドキュメント表示オプションを管理するための高度な機能を備えた HTML、PDF、またはイメージ モードでの 170 以上のドキュメントおよび画像ファイル形式の表示をサポートします。"
 
-title: "JavaでのVDXファイルのレンダリングと表示"
-description: "Java、J2EE、およびJ2SEベースのアプリケーション用のネイティブで高性能なVDXファイルビューアAPI。出力ドキュメント形式の外観をカスタマイズするためのさまざまな追加機能をサポートします。"
+############################# Header ############################
+title: "Java で VDX をレンダリングして表示する" 
+description: "Java、J2EE、および J2SE ベースのアプリケーション用のネイティブで高性能の VDX ファイル ビューア API。出力ドキュメント形式の外観をカスタマイズするための幅広い追加機能をサポートします。" 
 
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "無料トライアルをダウンロード"
-    link: "https://downloads.groupdocs.com/viewer/java"
+    link: "https://releases.groupdocs.com/viewer/net"
 
+############################# About ############################
+about:
+    enable: true
+    title: "Java API 用の GroupDocs.Viewer について" 
+    content: |
+        追加のソフトウェアをインストールしなくても、GroupDocs.Viewer for Java API を使用して、Java アプリケーションで 170 以上のファイル形式を HTML、PDF、または画像モードで表示できるようにします。 Microsoft Office、Apache Open Office、Adobe Acrobat Reader など。開発者は、Microsoft Office、OpenDocument、HTML、PDF、アーカイブ、図、Photoshop、AutoCAD などの一般的な画像やドキュメント タイプ、および Java アプリケーション内のプログラミング言語形式を簡単に表示できます。高速かつ最高品質のレンダリング。
+
+############################# SubMenu ############################
 submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-java.png"
+        img_alt: "GroupDocs.Viewer for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
         product: "GroupDocs.Viewer"
-        platform: "Java"
+        platform: ".NET"
 
     middle:
         button:
 
-            - link: "https://apireference.groupdocs.com/viewer/java"
+            # button loop
+            - link: "https://apireference.groupdocs.com/viewer/net"
               text: "APIリファレンス"
 
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+            # button loop
+            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
               text: "コード例"
 
+            # button loop
             - link: "https://products.groupdocs.app/viewer/family"
               text: "ライブデモ"
 
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
               text: "価格設定"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer/java"
-        link_learn: "https://docs.groupdocs.com/viewer/java"
+        link_download: "https://downloads.groupdocs.com/viewer/net"
+        link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-about:
-    enable: true
-    title: "GroupDocs.Viewer for Java APIについて"
-    content: |
-        追加のソフトウェアをインストールせずに、GroupDocs.Viewer for Java APIを使用して、JavaアプリケーションがHTML、PDF、または画像モードで150を超えるファイル形式を表示できるようにします。 Microsoft Office、Apache Open Office、Adobe Acrobat Readerなど。開発者は、Microsoft Office、OpenDocument、HTML、PDF、アーカイブ、図、Photoshop、AutoCAD、およびJavaアプリケーション内のプログラミング言語形式を含むすべての一般的な画像とドキュメントタイプを簡単に表示できます。高速で最高品質のレンダリング。
-
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでVDXファイルを表示する手順"
+    title_left: "Java で VDX ファイルをレンダリングする手順" 
     content_left: |
-        [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/)を使用すると、Java開発者は、数行のコードを使用して、アプリケーションにVDXファイル表示機能を簡単に追加できます。
+        [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) を使用すると、いくつかの手順で VDX を HTML、JPEG、PNG、または PDF にレンダリングできます。
 
-        *  Viewerクラスのインスタンスを作成し、フルパスでVDXファイルをロードします。
-        * VDXファイルをPNG形式に変換するための表示オプションを設定します。
-        * ファイルを変換し、現在のディレクトリの出力を確認します。
+        * [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) を依存関係としてプロジェクトに追加します。 
+        * Viewer クラスのインスタンスを作成し、VDX ファイルをフルパスでロードします。 
+        * VDX ファイルを HTML、PNG、JPEG、または PDF 形式でレンダリングするオプションを設定します。 
+        * ファイルをレンダリングし、現在のディレクトリで出力を確認します。 
         
-    title_right: "システム要求"
+    title_right: "システム要求" 
     content_right: |
-        GroupDocs.Viewer for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Viewer for Java API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。
 
-        * オペレーティングシステム: Microsoft Windows、Linux、MacOS
-        * 開発環境: NetBeans、IntelliJ IDEA、Eclipseなど。
-        * Javaランタイム環境: Java 7（1.7）以降
-        * [GroupDocs Artifactリポジトリ](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-viewer)からJava用のGroupDocs.Viewerの最新バージョンを入手してください。
-        
+        * オペレーティング システム: Microsoft Windows、Linux、MacOS 
+        * 開発環境: NetBeans、IntelliJ IDEA、Eclipse など。 
+        * フレームワーク: J2SE 8.0 (1.8) 以降 (Java 17 など) 
     code: |
         ```java
-        //ビューアをインスタンス化します
-        try (Viewer viewer = new Viewer("sample.vdx"))
-        {
-        	//表示オプションを設定します
-        	PngViewOptions viewOptions = new PngViewOptions();
-        	//ファイルをPNGに変換し、現在のディレクトリの出力を確認します
-        	viewer.view(viewOptions);
-        }
-        ```
+                        
+            // Set up input VDX file
+            String filePath = "input.vdx";
         
+            // Instantiate Viewer
+            try (Viewer viewer = new Viewer(filePath))
+            {
+            	// Set view options 
+            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                    
+            	// Render VDX file to HTML with embedded resources
+            	viewer.view(viewOptions);
+            }
+             
+        ```
+############################# Demos ############################
 demos:
     enable: true
-    title: "VDXビューアのライブデモ"
+    title: "VDX ビューアのライブデモ"
     content: |
-        [GroupDocs.Viewer Live Demos](https://products.groupdocs.app/viewer/)サイトにアクセスして、VDXファイルを今すぐ表示します。  
-        ライブデモには次の利点があります
-        
+        [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/vdx) ウェブサイトにアクセスして、今すぐ VDX ファイルを表示してください。
+    lang: "ja"
+
+############################# About Formats ####################
 about_formats:
-    enable: true
-    format:
-        - icon: "far fa-file-vdx"
-          title: "VDXファイル形式について"
-          content: |
-            Microsoft Visioで作成され、XML形式で保存された図面またはグラフには、拡張子が.VDXが付いています。 Visio図面XMLファイルは、Microsoftが開発したVisioソフトウェアで作成されます。 Microsoft Visioには、プレゼンテーションやドキュメントで使用できるビジュアルドキュメントを生成する機能があります。 Visio図面XMLファイルには、ビジュアルオブジェクトとビジュアル要素のメタデータの詳細が含まれています。これらの視覚要素のビジョン描画XMLファイルにテキストを追加することもできます。これらのVisio描画XMLファイルは、XMLベースのフォーマット標準および画像データエンコーディング仕様と統合されており、そのコンテンツをMicrosoftVisioソフトウェアでVDXファイル形式でレンダリングおよび保存できます。
-
-          link: "https://docs.fileformat.com/image/vdx/"
-
-more_formats:
     enable: false
-    title: "その他のファイル形式レンダリングと表示"
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Java を使用したその他のファイル形式のレンダリングと表示"
+    exclude: "VDX"
     content: |
-        Java用のマルチフォーマットドキュメントおよび画像ビューアAPI。外部ビューアなしで、以下の一般的なファイル形式のいくつかを表示します。
+        Java 用のマルチフォーマットのドキュメントおよび画像ビューア API。外部ビューアを使用せずに、以下の一般的なファイル形式の一部を表示します。
     format: 
-          link: "/viewer/java/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/viewer/java/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
+        # format loop 1
+        - name: "DOCXをレンダリングする"
+          format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
+          description: "Microsoft WordのオープンXMLドキュメント" 
 
-          link: "/viewer/java/dot/"
-          description: "MicrosoftWord文書テンプレート"
+        # format loop 2
+        - name: "CDR をレンダリングする" 
+          format: "CDR"
+          link: "/viewer/java/cdr/"
+          description: "CorelDRAW ファイル" 
 
-          link: "/viewer/java/dotm/"
-          description: "MicrosoftWordマクロ対応テンプレート"
-
-          link: "/viewer/java/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/viewer/java/rtf/"
-          description: "リッチテキストファイル形式"
-
-          link: "/viewer/java/txt/"
-          description: "プレーンテキストファイル形式"
-
-          link: "/viewer/java/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/viewer/java/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/viewer/java/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/viewer/java/xlsb/"
-          description: "MicrosoftExcelバイナリスプレッドシートファイル"
-
-          link: "/viewer/java/xltx/"
-          description: "Microsoft ExcelOpenXMLテンプレート"
-
-          link: "/viewer/java/tsv/"
-          description: "タブ区切り値ファイル"
-
-          link: "/viewer/java/xlam/"
-          description: "MicrosoftExcelマクロ対応アドイン"
-
-          link: "/viewer/java/csv/"
-          description: "カンマ区切り値ファイル"
-
-          link: "/viewer/java/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/viewer/java/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
+        # format loop 3
+        - name: "PPTXのレンダリング"
+          format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
+          description: "PowerPoint オープン XML プレゼンテーション" 
 
-          link: "/viewer/java/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
+        # format loop 4
+        - name: "XLSX をレンダリングする"
+          format: "XLSX"
+          link: "/viewer/java/xlsx/"
+          description: "Microsoft Excel オープン XML スプレッドシート" 
 
-          link: "/viewer/java/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
+        # format loop 5
+        - name: "DWG をレンダリングする"
+          format: "DWG"
+          link: "/viewer/java/dwg/"
+          description: "AutoCAD 図面"
 
-          link: "/viewer/java/potm/"
-          description: "MicrosoftPowerPointテンプレート"
+        # format loop 6
+        - name: "XMLのレンダリング"
+          format: "XML"
+          link: "/viewer/java/xml/"
+          description: "XMLファイル"
 
-          link: "/viewer/java/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/viewer/java/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/viewer/java/pdf/"
-          description: "AdobePortableドキュメント形式"
-
-          link: "/viewer/java/xps/"
-          description: "XMLPaperSpecificationを開く"
-
-          link: "/viewer/java/tex/"
-          description: "LaTeXソースドキュメント"
-
-          link: "/viewer/java/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/viewer/java/odp/"
-          description: "OpenDocumentプレゼンテーションファイル形式"
-
-          link: "/viewer/java/otp/"
-          description: "原点グラフテンプレート"
-
-          link: "/viewer/java/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/viewer/java/ott/"
-          description: "ドキュメントテンプレートを開く"
-
-          link: "/viewer/java/vst/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/viewer/java/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/viewer/java/jpeg/"
-          description: "JPEG画像"
-
-          link: "/viewer/java/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/viewer/java/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/viewer/java/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/viewer/java/ico/"
-          description: "Microsoftアイコンファイル"
-
+        # format loop 7
+        - name: "PSD をレンダリングする"
+          format: "PSD"
           link: "/viewer/java/psd/"
-          description: "AdobePhotoshopドキュメント"
+          description: "Adobe Photoshop ドキュメント"
 
+        # format loop 8
+        - name: "Adobe Illustrator ファイルをレンダリングする"
+          format: "AI"
+          link: "/viewer/java/ai/"
+          description: "Adobe Illustrator アートワーク"
 
+        # format loop 9
+        - name: "ドキュメントのレンダリング"
+          format: "DOC"
+          link: "/viewer/java/doc/"
+          description: "Microsoft Word文書" 
 
-          link: "/viewer/java/webp/"
-          description: "ラスターWeb画像ファイル形式"
+        # format loop 10
+        - name: "TXTをレンダリングする" 
+          format: "TXT"
+          link: "/viewer/java/txt/"
+          description: "プレーンテキストファイル" 
 
+        # format loop 11
+        - name: "DXFのレンダリング" 
+          format: "DXF"
+          link: "/viewer/java/dxf/"
+          description: "図面交換フォーマットファイル"  
+          
+        # format loop 12
+        - name: "VCF をレンダリングする"
+          format: "VCF"
+          link: "/viewer/java/vcf/"
+          description: "vCard ファイル"  
+              
+        # format loop 13
+        - name: "SVG のレンダリング"
+          format: "SVG"
           link: "/viewer/java/svg/"
-          description: "スケーラブルベクターグラフィックファイル"
-
-          link: "/viewer/java/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/viewer/java/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/viewer/java/wmz/"
-          description: "MicrosoftProjectテンプレート"
-
+          description: "スケーラブルなベクター グラフィック" 
+          
+        # format loop 14
+        - name: "HTMLのレンダリング"
+          format: "HTML"
           link: "/viewer/java/html/"
-          description: "ハイパーテキストマークアップ言語"
-
-          link: "/viewer/java/mht/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "/viewer/java/mhtml/"
-          description: "集約HTMLのMIMEカプセル化"
-
-          link: "/viewer/java/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
+          description: "ハイパーテキスト マークアップ言語ファイル" 
+          
+        # format loop 15
+        - name: "PDF をレンダリングする"
+          format: "PDF"
+          link: "/viewer/java/pdf/"
+          description: "PDF形式ファイル"
+          
+        # format loop 16
+        - name: "JPEGをレンダリングする"
+          format: "JPG"
+          link: "/viewer/java/jpg/"
+          description: "JPEG画像"
+          
+        # format loop 17
+        - name: "PNG をレンダリング"
+          format: "PNG"
+          link: "/viewer/java/png/"
+          description: "ポータブルネットワークグラフィックス" 
+          
+        # format loop 18
+        - name: "EMLをレンダリングする"
+          format: "EML"
           link: "/viewer/java/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/viewer/java/one/"
-          description: "Microsoft OneNote"
-
-
-          link: "/viewer/java/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/viewer/java/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/viewer/java/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/viewer/java/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/viewer/java/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/viewer/java/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/viewer/java/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/viewer/java/vdw/"
-          description: "Microsoft Visio2010Web描画"
-
-          link: "/viewer/java/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-
+          description: "電子メールメッセージ" 
+          
+        # format loop 19
+        - name: "RTFをレンダリングする"
+          format: "RTF"
+          link: "/viewer/java/rtf/"
+          description: "リッチテキスト形式ファイル" 
+          
+        # format loop 20
+        - name: "ODT のレンダリング"
+          format: "ODT"
+          link: "/viewer/java/odt/"
+          description: "OpenDocument テキストドキュメント" 
+          
+        # format loop 21
+        - name: "CSVのレンダリング"
+          format: "CSV"
+          link: "/viewer/java/csv/"
+          description: "カンマ区切り値ファイル" 
+          
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

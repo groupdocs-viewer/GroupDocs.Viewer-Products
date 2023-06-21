@@ -1,353 +1,249 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-viewer"
+date: 2022-02-23T12:00:00+02:00
 draft: false
+lang: id
 
-head_title: "JAVA JAVA Viewer API - Render & Tampilan JAVA di Aplikasi JAVA"
-head_description: "Lihat file JAVA dalam aplikasi JAVA, J2EE, J2SE. Mendukung tampilan 150+ format file dokumen dan gambar dalam mode HTML, PDF, atau gambar dengan fitur-fitur canggih untuk mengelola opsi tampilan dokumen."
+############################# Head #############################
+head_title: "Java JAVA Viewer API - Render & Tampilkan JAVA di Aplikasi Java"
+head_description: "Lihat file JAVA dalam aplikasi Java, J2EE, J2SE. Mendukung tampilan 170+ format file dokumen dan gambar dalam mode HTML, PDF, atau gambar dengan fitur lanjutan untuk mengelola opsi tampilan dokumen."
 
-title: "Render & Lihat File JAVA dalam JAVA"
-description: "API penampil file JAVA asli dan berkinerja tinggi untuk aplikasi berbasis JAVA, J2EE dan J2SE, mendukung berbagai fitur tambahan untuk menyesuaikan tampilan format dokumen keluaran."
+############################# Header ############################
+title: "Render & Lihat JAVA Di Java" 
+description: "API penampil file JAVA asli dan berkinerja tinggi untuk aplikasi berbasis Java, J2EE dan J2SE, mendukung berbagai fitur tambahan untuk menyesuaikan tampilan format dokumen keluaran." 
 
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "Unduh Uji Coba Gratis"
-    link: "https://downloads.groupdocs.com/viewer/java"
+    link: "https://releases.groupdocs.com/viewer/net"
 
+############################# About ############################
+about:
+    enable: true
+    title: "Tentang GroupDocs.Viewer untuk Java API" 
+    content: |
+        Aktifkan aplikasi Java Anda untuk menampilkan lebih dari 170+ format file dalam mode HTML, PDF, atau gambar menggunakan GroupDocs.Viewer untuk API Java tanpa memasang perangkat lunak tambahan apa pun; seperti Microsoft Office, Apache Open Office, Adobe Acrobat Reader dll. Pengembang dapat dengan mudah melihat semua gambar populer dan jenis dokumen termasuk Microsoft Office, OpenDocument, HTML, PDF, Arsip, Diagram, Photoshop, AutoCAD dan format bahasa pemrograman di dalam aplikasi Java dengan rendering cepat dan kualitas tertinggi.
+
+############################# SubMenu ############################
 submenu:
     enable: true
 
     left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-java.png"
+        img_alt: "GroupDocs.Viewer for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
         product: "GroupDocs.Viewer"
-        platform: "Java"
+        platform: ".NET"
 
     middle:
         button:
 
-            - link: "https://apireference.groupdocs.com/viewer/java"
+            # button loop
+            - link: "https://apireference.groupdocs.com/viewer/net"
               text: "Referensi API"
 
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+            # button loop
+            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
               text: "Contoh Kode"
 
+            # button loop
             - link: "https://products.groupdocs.app/viewer/family"
               text: "Demo Langsung"
 
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
               text: "Harga"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer/java"
-        link_learn: "https://docs.groupdocs.com/viewer/java"
+        link_download: "https://downloads.groupdocs.com/viewer/net"
+        link_learn: "https://docs.groupdocs.com/viewer/net"
         link_buy: "https://purchase.groupdocs.com"
 
-about:
-    enable: true
-    title: "Tentang GroupDocs.Viewer untuk JAVA API"
-    content: |
-        Aktifkan aplikasi JAVA Anda untuk menampilkan lebih dari 150+ format file dalam mode HTML, PDF, atau gambar menggunakan GroupDocs.Viewer untuk JAVA API tanpa menginstal perangkat lunak tambahan apa pun; seperti Microsoft Office, Apache Open Office, Adobe Acrobat Reader dll. Pengembang dapat dengan mudah melihat semua gambar populer dan jenis dokumen termasuk Microsoft Office, OpenDocument, HTML, PDF, Arsip, Diagram, Photoshop, AutoCAD, dan format bahasa pemrograman di dalam aplikasi JAVA dengan rendering yang cepat dan berkualitas tinggi.
-
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Melihat File JAVA di JAVA"
+    title_left: "Langkah-langkah untuk Merender file JAVA di Java" 
     content_left: |
-        [GroupDocs.Viewer](/viewer/java/) memudahkan pengembang JAVA untuk menambahkan fitur tampilan file JAVA di aplikasi mereka menggunakan beberapa baris kode.
+        Dengan [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) Anda dapat merender JAVA ke HTML, JPEG, PNG, atau PDF dalam beberapa langkah.
 
-        * Buat instance kelas Viewer dan muat file JAVA dengan path lengkap.
-        * Atur opsi tampilan untuk mengonversi file JAVA ke format PNG.
-        * Konversi file dan periksa output di direktori saat ini.
+        * Tambahkan [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) sebagai dependensi ke project Anda. 
+        * Buat instance kelas Viewer dan muat file JAVA dengan path lengkap. 
+        * Setel opsi untuk merender file JAVA ke dalam format HTML, PNG, JPEG, atau PDF. 
+        * Render file dan periksa output di direktori saat ini. 
         
-    title_right: "Persyaratan sistem"
+    title_right: "Persyaratan sistem" 
     content_right: |
-        GroupDocs.Viewer untuk JAVA API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Viewer untuk API Java didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse dll.
-        * JAVA Runtime Environment: JAVA 7 (1.7) ke atas
-        * Dapatkan versi terbaru GroupDocs.Viewer untuk JAVA dari [GroupDocs Artifact Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-viewer)
-        
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS 
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse dll. 
+        * Kerangka kerja: J2SE 8.0 (1.8) atau lebih tinggi (misalnya Java 17) 
     code: |
         ```java
-        // Buat instance penampil
-        try (Viewer viewer = new Viewer("sample.java"))
-        {
-        	// Setel opsi tampilan
-        	PngViewOptions viewOptions = new PngViewOptions();
-        	// Konversi file ke PNG dan periksa output di direktori saat ini
-        	viewer.view(viewOptions);
-        }
-        ```
+                        
+            // Set up input JAVA file
+            String filePath = "input.java";
         
+            // Instantiate Viewer
+            try (Viewer viewer = new Viewer(filePath))
+            {
+            	// Set view options 
+            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                    
+            	// Render JAVA file to HTML with embedded resources
+            	viewer.view(viewOptions);
+            }
+             
+        ```
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung Pemirsa JAVA"
+    title: "JAVA Demo Langsung Pemirsa"
     content: |
-        Tampilkan file JAVA sekarang dengan mengunjungi situs web [GroupDocs.Viewer](https://products.groupdocs.app/viewer/). Demo langsung memiliki manfaat sebagai berikut.
-        
+        Lihat file JAVA sekarang juga dengan mengunjungi situs web [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/java).
+    lang: "id"
+
+############################# About Formats ####################
 about_formats:
-    enable: true
-    format:
-        - icon: "far fa-file-java"
-          title: "Tentang Format Berkas JAVA"
-          content: |
-            JAVA adalah bahasa berorientasi objek tujuan umum yang dapat berjalan di berbagai platform. Kode sumber JAVA terdapat dalam file dengan ekstensi .JAVA. JAVA digunakan untuk pengembangan aplikasi seluler, aplikasi web, aplikasi desktop, game, dll. JAVA berfungsi di berbagai platform termasuk Windows, Mac, Linux, Raspberry Pi, dll. JAVA sangat mirip dengan C# dan C++ sehingga lebih mudah untuk beralih di antara bahasa-bahasa ini.
+    enable: false
 
-          link: "https://docs.fileformat.com/programming/java/"
-
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Rendering & Tampilan Format File Lainnya"
+    title: "Rendering & Tampilan Format File Lainnya menggunakan Java"
+    exclude: "JAVA"
     content: |
-        Dokumen multi format dan API penampil gambar untuk JAVA. Lihat beberapa format file populer di bawah ini tanpa pemirsa eksternal.
+        Dokumen multi-format dan API penampil gambar untuk Java. Lihat beberapa format file populer di bawah ini tanpa penampil eksternal.
     format: 
-        - name: "JAVA Penampil DOC"
-          link: "/viewer/java/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Penampil DOCM JAVA"
-          link: "/viewer/java/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "JAVA Penampil DOCX"
+        # format loop 1
+        - name: "Merender DOCX"
+          format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
+          description: "Dokumen XML Microsoft Word Terbuka" 
 
-        - name: "JAVA DOT Penampil"
-          link: "/viewer/java/dot/"
-          description: "Templat Dokumen Microsoft Word"
+        # format loop 2
+        - name: "Render CDR" 
+          format: "CDR"
+          link: "/viewer/java/cdr/"
+          description: "File CorelDraw" 
 
-        - name: "Penampil DOTM JAVA"
-          link: "/viewer/java/dotm/"
-          description: "Templat Microsoft Word Macro-Enabled"
-
-        - name: "Penampil DOTX JAVA"
-          link: "/viewer/java/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Penampil RTF JAVA"
-          link: "/viewer/java/rtf/"
-          description: "Format File Teks Kaya"
-
-        - name: "JAVA TXT Penampil"
-          link: "/viewer/java/txt/"
-          description: "Format File Teks Biasa"
-
-        - name: "Penampil JAVA XLS"
-          link: "/viewer/java/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Penampil JAVA XLSX"
-          link: "/viewer/java/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "JAVA XLSM Penampil"
-          link: "/viewer/java/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Penampil JAVA XLSB"
-          link: "/viewer/java/xlsb/"
-          description: "File Spreadsheet Biner Microsoft Excel"
-
-        - name: "Penampil JAVA XLTX"
-          link: "/viewer/java/xltx/"
-          description: "Templat XML Terbuka Microsoft Excel"
-
-        - name: "JAVA Penonton TSV"
-          link: "/viewer/java/tsv/"
-          description: "File Nilai Terpisah Tab"
-
-        - name: "Penampil XLAM JAVA"
-          link: "/viewer/java/xlam/"
-          description: "Add-In Microsoft Excel Macro-Enabled"
-
-        - name: "Penampil CSV JAVA"
-          link: "/viewer/java/csv/"
-          description: "File Nilai Dipisahkan Koma"
-
-        - name: "Penampil PPT JAVA"
-          link: "/viewer/java/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Penampil PPS JAVA"
-          link: "/viewer/java/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Penampil PPTX JAVA"
+        # format loop 3
+        - name: "Render PPTX"
+          format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
+          description: "Presentasi PowerPoint Terbuka XML" 
 
-        - name: "Penampil JAVA PPSX"
-          link: "/viewer/java/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
+        # format loop 4
+        - name: "Render XLSX"
+          format: "XLSX"
+          link: "/viewer/java/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
-        - name: "Penampil JAVA POTX"
-          link: "/viewer/java/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
+        # format loop 5
+        - name: "Render DWG"
+          format: "DWG"
+          link: "/viewer/java/dwg/"
+          description: "Menggambar AutoCAD"
 
-        - name: "Penampil JAVA POTM"
-          link: "/viewer/java/potm/"
-          description: "Templat Microsoft PowerPoint"
+        # format loop 6
+        - name: "Merender XML"
+          format: "XML"
+          link: "/viewer/java/xml/"
+          description: "Berkas XML"
 
-        - name: "Penampil PPTM JAVA"
-          link: "/viewer/java/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "JAVA Penampil PPSM"
-          link: "/viewer/java/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "JAVA Penampil PDF"
-          link: "/viewer/java/pdf/"
-          description: "Format Dokumen Portabel Adobe"
-
-        - name: "Penampil JAVA XPS"
-          link: "/viewer/java/xps/"
-          description: "Buka Spesifikasi Kertas XML"
-
-        - name: "Penampil JAVA TEX"
-          link: "/viewer/java/tex/"
-          description: "Dokumen Sumber LaTeX"
-
-        - name: "JAVA Penampil ODS"
-          link: "/viewer/java/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "JAVA Penampil ODP"
-          link: "/viewer/java/odp/"
-          description: "Format File Presentasi OpenDocument"
-
-        - name: "JAVA Penampil OTP"
-          link: "/viewer/java/otp/"
-          description: "Templat Grafik Asal"
-
-        - name: "JAVA Penampil ODT"
-          link: "/viewer/java/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "JAVA Penonton OTT"
-          link: "/viewer/java/ott/"
-          description: "Buka Templat Dokumen"
-
-        - name: "Penonton VST JAVA"
-          link: "/viewer/java/vst/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Penampil TIFF JAVA"
-          link: "/viewer/java/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Penampil JPEG JAVA"
-          link: "/viewer/java/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Penampil PNG JAVA"
-          link: "/viewer/java/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Penampil GIF JAVA"
-          link: "/viewer/java/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Penampil BMP JAVA"
-          link: "/viewer/java/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "JAVA Penampil ICO"
-          link: "/viewer/java/ico/"
-          description: "File Ikon Microsoft"
-
-        - name: "Penampil PSD JAVA"
+        # format loop 7
+        - name: "Render PSD"
+          format: "PSD"
           link: "/viewer/java/psd/"
           description: "Dokumen Adobe Photoshop"
 
+        # format loop 8
+        - name: "Render file Adobe Illustrator"
+          format: "AI"
+          link: "/viewer/java/ai/"
+          description: "Karya Seni Adobe Illustrator"
 
+        # format loop 9
+        - name: "Render DOC"
+          format: "DOC"
+          link: "/viewer/java/doc/"
+          description: "Dokumen Microsoft Word" 
 
-        - name: "Penampil WEBP JAVA"
-          link: "/viewer/java/webp/"
-          description: "Format File Gambar Web Raster"
+        # format loop 10
+        - name: "Render TXT" 
+          format: "TXT"
+          link: "/viewer/java/txt/"
+          description: "File Teks Biasa" 
 
-        - name: "Penampil SVG JAVA"
+        # format loop 11
+        - name: "Render DXF" 
+          format: "DXF"
+          link: "/viewer/java/dxf/"
+          description: "Menggambar File Format Pertukaran"  
+          
+        # format loop 12
+        - name: "Render VCF"
+          format: "VCF"
+          link: "/viewer/java/vcf/"
+          description: "File vCard"  
+              
+        # format loop 13
+        - name: "Render SVG"
+          format: "SVG"
           link: "/viewer/java/svg/"
-          description: "File Grafik Vektor yang Dapat Diskalakan"
-
-        - name: "JAVA JP2 Penampil"
-          link: "/viewer/java/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Penampil MPP JAVA"
-          link: "/viewer/java/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Penampil JAVA MPT"
-          link: "/viewer/java/wmz/"
-          description: "Templat Proyek Microsoft"
-
-        - name: "Penampil HTML JAVA"
+          description: "Grafik Vektor yang Dapat Diskalakan" 
+          
+        # format loop 14
+        - name: "Merender HTML"
+          format: "HTML"
           link: "/viewer/java/html/"
-          description: "Hyper Text Markup Language"
-
-        - name: "Penampil JAVA MHT"
-          link: "/viewer/java/mht/"
-          description: "Enkapsulasi MIME dari HTML Agregat"
-
-        - name: "JAVA MHTML Penampil"
-          link: "/viewer/java/mhtml/"
-          description: "Enkapsulasi MIME dari HTML Agregat"
-
-        - name: "JAVA Penampil MSG"
-          link: "/viewer/java/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "JAVA Penampil EML"
+          description: "File Bahasa Markup Hiperteks" 
+          
+        # format loop 15
+        - name: "Render PDF"
+          format: "PDF"
+          link: "/viewer/java/pdf/"
+          description: "File Format Dokumen Portabel"
+          
+        # format loop 16
+        - name: "Render JPEG"
+          format: "JPG"
+          link: "/viewer/java/jpg/"
+          description: "Gambar JPEG"
+          
+        # format loop 17
+        - name: "Render PNG"
+          format: "PNG"
+          link: "/viewer/java/png/"
+          description: "Grafik Jaringan Portabel" 
+          
+        # format loop 18
+        - name: "Render EML"
+          format: "EML"
           link: "/viewer/java/eml/"
-          description: "Pesan email"
-
-        - name: "JAVA SATU Pemirsa"
-          link: "/viewer/java/one/"
-          description: "Microsoft OneNote"
-
-
-        - name: "JAVA Penampil WMF"
-          link: "/viewer/java/wmf/"
-          description: "Metafile Windows"
-
-        - name: "JAVA Penampil EMF"
-          link: "/viewer/java/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Penampil PSD JAVA"
-          link: "/viewer/java/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Penampil VSD JAVA"
-          link: "/viewer/java/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Penampil JAVA VSDX"
-          link: "/viewer/java/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Penampil VSS JAVA"
-          link: "/viewer/java/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Penampil JAVA VDX"
-          link: "/viewer/java/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Penampil VDW JAVA"
-          link: "/viewer/java/vdw/"
-          description: "Gambar Web Microsoft Visio 2010"
-
-        - name: "JAVA EPUB Penampil"
-          link: "/viewer/java/epub/"
-          description: "Format File E-Book Digital"
-
-
+          description: "Pesan Email" 
+          
+        # format loop 19
+        - name: "Render RTF"
+          format: "RTF"
+          link: "/viewer/java/rtf/"
+          description: "File Format Teks Kaya" 
+          
+        # format loop 20
+        - name: "Render ODT"
+          format: "ODT"
+          link: "/viewer/java/odt/"
+          description: "Dokumen Teks OpenDocument" 
+          
+        # format loop 21
+        - name: "Render CSV"
+          format: "CSV"
+          link: "/viewer/java/csv/"
+          description: "File Nilai yang Dipisahkan Koma" 
+          
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

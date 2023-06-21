@@ -4,6 +4,7 @@ layout: "product"
 date: 2022-02-23T12:00:00+02:00
 draft: false
 
+lang: en
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
@@ -47,7 +48,7 @@ submenu:
               text: "Support"
 
             # button loop
-            - link: "https://products.groupdocs.app/viewer"
+            - link: "https://products.groupdocs.app/viewer/total"
               text: "Live Demo"
 
             # button loop
@@ -55,7 +56,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/viewer/java"
+        link_download: "https://releases.groupdocs.com/viewer/java/"
         link_learn: "https://docs.groupdocs.com/viewer/java/"
         link_buy: "https://purchase.groupdocs.com"
 
@@ -64,40 +65,40 @@ overview:
     enable: true
     content: |
       GroupDocs.Viewer for Java combines a powerful set of document viewer APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, Microsoft Office Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file viewer library is quite customizable, as it allows you to display the whole document, or render it partially to speed up the process. Through GroupDocs.Viewer for Java API, you can view pages, specific cell range in a spreadsheet or even render an individual document layer in formats, such as, PDF and CAD.  
-        
-      GroupDocs.Viewer for Java API allows you to render documents with/without annotation or comments for supported file formats. It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc. 
-        
+
+      GroupDocs.Viewer for Java API allows you to render documents with/without annotation or comments for supported file formats. It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc.  
+
       GroupDocs.Viewer for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, macOS) that are capable to run Java runtime.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           Following is an overview of GroupDocs.Viewer for Java:
-
+      
         right:
           enable: true
           icon: "fab fa-html5"
           title: "Overview"
           content: |
-            * Display 50+ Document Types
-            * Get HTML, Image, PDF Version
-            * Rotate & Reorder
-            * Apply Watermark
-            * Cache for Fast Process
-            * Add Custom Fonts
-            * Apply Encoding Standards
-            * Custom Input Data Handler
-            * Render with Track Changes
-            * Render as Responsive HTML
-            * Render PDF & CAD Layers
-            * Render Protected Files
+            * Display 170+ Document Types 
+            * Get HTML, Image, PDF Version 
+            * Rotate &amp; Reorder 
+            * Apply Watermark 
+            * Cache for Fast Process 
+            * Add Custom Fonts 
+            * Apply Encoding Standards 
+            * Custom Input Data Handler 
+            * Render with Track Changes 
+            * Render as Responsive HTML 
+            * Render PDF &amp; CAD Layers 
+            * Render Protected Files 
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer for Java supports all popular [document file formats](https://docs.groupdocs.com/viewer/java/supported-document-formats/) including: Microsoft Office, images, diagrams and many others.
+          GroupDocs.Viewer for Java supports all popular document file formats including: Microsoft Office, images, diagrams and many others.
 
         left:
           enable: true
@@ -116,14 +117,14 @@ overview:
             # table loop
             - title: "Other Formats"
               content: |
-                * **PDF Formats:** PDF, TEX, XPS, OXPS
+                * **Page Layout Files:** PDF, TEX, XPS, OXPS
                 * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
                 * **Delimiter-Separated Values:** CSV, TSV
                 * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, WMZ, EMZ
+                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
                 * **PostScript:** PS, EPS
                 * **Archives:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Various:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBER, NSF
+                * **Various:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
 
         right:
           enable: true
@@ -131,7 +132,7 @@ overview:
             # table loop
             - title: "Images, Graphics & Diagrams"
               content: |
-                * **Images:** BMP, GIF, JPG, PNG, TIFF, multi-page TIFF, WebP, DNG, DIB, DCM
+                * **Images:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
                 * **Windows Icon:** ICO
                 * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ
                 * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
@@ -142,13 +143,13 @@ overview:
                 * **Medical Imaging:** DICOM
                 * **Plotter Documents:** PLT, HPG
                 * **Autodesk Design Web Formats:** DWF, DWG
-                * **AutoCAD Drawing:** DGN, DWT, IFC, STL, CF2
+                * **AutoCAD Drawing:** DWT, IFC, STL, CF2
                 * **ISFF-based DGN (V7):** DGN
 
             # table loop
             - title: "Programming Languages Formats"
               content: |
-                * **C/C++/C# Files:** C, CC, CS, CPP, CXX, C#, H, HH, M, MM
+                * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
                 * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
                 * **Various:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
 
@@ -164,16 +165,17 @@ overview:
             - icon: "fab fa-windows"
               title: "Operating Systems"
               content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
+                * Microsoft Windows Server 2003 and later 
+                * Microsoft Windows XP and later 
+                * Microsoft Windows 10 & 11 
+                * Linux (Ubuntu, OpenSUSE, CentOS and others) 
+                * Mac OS X 
 
             # table loop
             - icon: "fas fa-code"
               title: "Supported Frameworks"
               content: |
-                * Java 7 (1.7) and above
+                * J2SE 8.0 (1.8) or above (for example Java 17) 
 
         right:
           enable: true
@@ -185,11 +187,13 @@ overview:
                 * NetBeans
                 * IntelliJ IDEA
                 * Eclipse
+
             # table loop
             - icon: "fas fa-tools"
               title: "Build Automation Tool"
               content: |
                 * Maven
+                * Gradle
 
 ############################# Features ############################
 features:
@@ -298,10 +302,10 @@ features:
       - title: "Efficient & Reliable API for Viewing Documents"
         content: |
           GroupDocs.Viewer for Java API can be used to view, render and display documents of more than 150 different file formats. It is done reliably and efficiently while keeping the content as well as the structure of the document intact. The following example shows the level of ease with which GroupDocs.Viewer for Java API renders a DOCX file as an image file using Java:
-          
+
           ```java
           // Initialize Viewer
-          Viewer viewer = new Viewer("sample.docx");
+          Viewer viewer = new Viewer("invoice.docx");
           // Create view options
           PdfViewOptions viewOptions = new PdfViewOptions();
           // Convert file to PDF and check the output in the current directory
@@ -319,7 +323,7 @@ features:
 support:
     enable: true
 
-############################# Solutions ############################
+############################# Solutions ##########################
 solutions:
     enable: true
     title: "GroupDocs.Viewer offers document viewing APIs for other popular development environments"
@@ -332,7 +336,7 @@ solutions:
           platform: ".NET"
           link: "/viewer/net/"
 
-############################# Back to top ###############################
+############################# Back to top ##########################
 back_to_top:
   enable: true
 ---

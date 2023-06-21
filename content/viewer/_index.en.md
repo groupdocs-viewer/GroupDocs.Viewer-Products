@@ -1,9 +1,9 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "product"
 date: 2022-02-23T12:00:00+02:00
 draft: false
-
+lang: en
 product: "Viewer"
 product_tag: "viewer"
 
@@ -11,11 +11,11 @@ product_tag: "viewer"
 head_title: ".NET, Java, Cloud APIs & Online Document Viewer Apps by GroupDocs"
 head_description: "Get all-in-one Document Viewer Solution for .NET, Java and Cloud applications. View common document formats online using simple drag and drop feature."
 
-############################# Header ############################
+############################# Header ##########################
 title: "Document Rendering and Viewing Solution"
 description: "Flexible document viewing solution for programmers and professionals to render and display widely used file formats anywhere."
 
-############################# APIs ###############################
+############################# APIs ############################
 apis:
   enable: true
 
@@ -31,7 +31,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
           product: "GroupDocs.Viewer for"
           platform: ".NET"
-          content: "Multi-format document viewer API for .NET and Mono frameworks to render 170+ popular file formats from within your applications."
+          content: "Multi-format document viewer API for .NET and Mono frameworks to render 190+ popular file formats from within your applications."
 
         # api_product loop
         - link: "/viewer/java/"
@@ -71,7 +71,7 @@ apis:
           content: "Add high fidelity document rendering features to your java applications with specially designed document viewer SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Viewer No Code Apps Include"
+    - title: "GroupDocs.Viewer No Code Apps Include" 
       link: "https://products.groupdocs.app/viewer"
       label: "View All No Code Apps"
       api_product:
@@ -81,7 +81,7 @@ apis:
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
           product: "GroupDocs.Viewer"
           platform: "Total"
-          content: "Free online app to view more than 170 file formats from any browser of your choice."
+          content: "Free online app to view more than 190 file formats from any browser of your choice."
 
         # api_product loop
         - link: "https://products.groupdocs.app/viewer/docx"
