@@ -29,7 +29,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Viewer for Node.js via Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
+        image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
         product: "GroupDocs.Viewer"
         platform: "Node.js via Java"
 
