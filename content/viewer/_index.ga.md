@@ -41,6 +41,14 @@ apis:
           platform: "Java"
           content: "Cumasaigh feidhmchláir Java le cumais féachana agus rindreála doiciméad chun raon leathan doiciméad, íomhánna agus léaráidí a thaispeáint."
 
+        # api_product loop
+        - link: "/viewer/nodejs-java/"
+          img_alt: "GroupDocs.Viewer for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
+          product: "GroupDocs.Viewer for"
+          platform: "Node.js via Java"
+          content: "Tabhair cumhacht do do chuid iarratais JavaScript chun cáipéisí éagsúla Microsoft Office, PDF, agus íomhánna a thaispeáint le haghaidh taithí úsáideora spreagúil."
+
     # api loop
     - title: "Áiríonn APIanna Cód Íseal GroupDocs.Viewer"
       link: "https://products.groupdocs.cloud/viewer"

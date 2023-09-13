@@ -40,6 +40,14 @@ apis:
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "ሰፊ ሰነዶችን፣ ምስሎችን እና ንድፎችን ለማሳየት በሰነድ የመመልከት እና የማሳየት ችሎታ የጃቫ መተግበሪያዎችን ያበረታቱ።"
+        
+        # api_product loop
+        - link: "/viewer/nodejs-java/"
+          img_alt: "GroupDocs.Viewer for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
+          product: "GroupDocs.Viewer for"
+          platform: "Node.js via Java"
+          content: "ያልታረመውን ማስቀመጥ አባሪዎችዎን ከምንጊዜ ይጠቀሙ: ሚክስፖርት ቦርሳል, PDF እና ምስል ለተወሰደ የተዋሃዱ የተጠበቁ ተጠቃሚዎችን."
 
     # api loop
     - title: "GroupDocs.ተመልካች ዝቅተኛ ኮድ ኤ.ፒ.አይ.ዎች ያካትታሉ"

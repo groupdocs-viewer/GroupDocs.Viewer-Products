@@ -40,6 +40,14 @@ apis:
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "Styrkjaðu Java forrit með skjalaskoðun og flutningsgetu til að sýna fjölbreytt úrval skjala, mynda og skýringarmynda."
+        
+        # api_product loop
+        - link: "/viewer/nodejs-java/"
+          img_alt: "GroupDocs.Viewer for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
+          product: "GroupDocs.Viewer for"
+          platform: "Node.js via Java"
+          content: "Gefðu JavaScript forritum þínum möguleikann á að sýna ýmis Microsoft Office skjöl, PDF skjöl og myndir til að búa til hrifandi notandareynslu."
 
     # api loop
     - title: "GroupDocs.Viewer Low Code API innihalda"

@@ -40,6 +40,8 @@ apis:
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "Çok çeşitli belgeleri, görüntüleri ve diyagramları görüntülemek için Java uygulamalarını belge görüntüleme ve işleme yetenekleriyle güçlendirin."
+        
+        
 
     # api loop
     - title: "GroupDocs.Viewer Düşük Kod API'leri Dahildir"
@@ -69,6 +71,14 @@ apis:
           product: "GroupDocs.Viewer"
           platform: "Cloud SDK for Java"
           content: "Java için özel olarak tasarlanmış belge görüntüleyici SDK ile java uygulamalarınıza yüksek doğrulukta belge işleme özellikleri ekleyin."
+        
+        # api_product loop
+        - link: "/viewer/nodejs-java/"
+          img_alt: "GroupDocs.Viewer for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
+          product: "GroupDocs.Viewer for"
+          platform: "Node.js via Java"
+          content: "JavaScript uygulamalarınıza Microsoft Office belgeleri, PDF ve resimleri gösterme yeteneği kazandırın, ilgi çekici bir kullanıcı deneyimi sunun."
 
     # api loop
     - title: "GroupDocs.Viewer Kod Uygulamaları İçermez" 

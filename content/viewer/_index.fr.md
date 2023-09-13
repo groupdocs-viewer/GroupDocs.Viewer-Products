@@ -40,6 +40,14 @@ apis:
           product: "GroupDocs.Viewer for"
           platform: "Java"
           content: "Renforcez les applications Java avec des capacités de visualisation et de rendu de documents pour afficher une large gamme de documents, d'images et de diagrammes."
+        
+        # api_product loop
+        - link: "/viewer/nodejs-java/"
+          img_alt: "GroupDocs.Viewer for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
+          product: "GroupDocs.Viewer for"
+          platform: "Node.js via Java"
+          content: "Offrez à vos applications JavaScript la possibilité d'afficher divers documents Microsoft Office, des PDF et des images pour une expérience utilisateur engageante."
 
     # api loop
     - title: "Les API GroupDocs.Viewer Low Code incluent"
