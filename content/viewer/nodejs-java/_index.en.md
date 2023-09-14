@@ -56,7 +56,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://releases.groupdocs.com/viewer/nodejs-java"
+        link_download: "https://www.npmjs.com/package/@groupdocs/groupdocs.viewer"
         link_learn: "https://docs.groupdocs.com/viewer/nodejs-java/"
         link_buy: "https://purchase.groupdocs.com"
 

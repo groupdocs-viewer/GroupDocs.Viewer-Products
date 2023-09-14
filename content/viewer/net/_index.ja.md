@@ -56,7 +56,7 @@ submenu:
               text: "価格設定"
 
     right:
-        link_download: "https://releases.groupdocs.com/viewer/net/"
+        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
         link_learn: "https://docs.groupdocs.com/viewer/net/"
         link_buy: "https://purchase.groupdocs.com"
 
