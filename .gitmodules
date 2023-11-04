@@ -1,0 +1,4 @@
+[submodule "common"]
+	path = common
+	url = git@aspose.github.com:groupdocs/products.groupdocs.com.git
+	ignore = dirty
