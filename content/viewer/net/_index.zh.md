@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: zh
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET 文档查看器 API，呈现 PDF Word Excel 图像 HTML 图表"
-head_description: "C# ASP.NET 文件查看器和呈现 API。在 .NET 应用程序中添加 PDF 查看器、Word 查看器、Excel 查看器、图像查看器、HTML 查看器、电子邮件查看器功能。"
+head_title: ".NET 文档查看器 API，渲染 PDF Word Excel 图像 HTML 图表"
+head_description: "C# ASP.NET 文件查看器和渲染 API。在 .NET 应用程序中添加 PDF 查看器、Word 查看器、Excel 查看器、图像查看器、HTML 查看器、电子邮件查看器功能。"
 
 ############################# Header ##########################
-title: "通过 .NET API 呈现和显示文档"
-description: ".NET Document Viewer API 使用强大的配置选项将 190 多种文档格式呈现为 PDF、HTML 和图像。"
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "使用 .NET API 渲染和显示文档<br>"
+description: "强大的查看器 API，可通过多种配置选项将 180 多种文档格式呈现为 PDF、HTML 和图像。"
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "免费 NuGet 下载"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "许可"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Viewer 功能或申请许可证"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
+release:
+  title: "版本 {0} 已发布"
+  notes: "看看有什么新鲜事"
+  downloads: "下载"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "特征"
-
-            # button loop
-            - link: "#support"
-              text: "支持"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "现场演示"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "价钱"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "在 C# 中渲染 PDF 文件"
+  more: "更多示例"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer for .NET API 帮助您使用 C#、ASP.NET 和其他基于 .NET 的技术创建功能强大的应用程序，这些应用程序可以渲染和显示 190 多种文件格式的文档和图像，而无需安装任何外部软件。文件查看器库将文档光栅化，然后将它们转换为 SVG+HTML+CSS 以优化整体文档呈现体验，以快速、真实文本和应用程序内部的高保真度。您可以选择在您的应用程序中添加文档查看和阅读功能，以显示整个文档、部分文档、特定页面/单元格范围、单个文档层，带有或不带有支持文件格式的注释和评论。
-       
-      .NET 的 GroupDocs.Viewer 默认将呈现的文档输出缓存到本地磁盘。通过实施适当的接口也支持任何类型的外部缓存存储——Amazon S3、Dropbox、Google Drive、Windows Azure、Redis 或任何其他接口。
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 GroupDocs.Viewer for .NET 的概述：
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概述"
-          content: |
-            * 显示 190 多种文档类型 
-            * 获取 HTML、图像、PDF 格式的文件 
-            * 旋转和重新排序 
-            * 应用水印 
-            * 高速缓存 
-            * 添加自定义字体 
-            * 应用编码标准 
-            * 自定义输入数据处理程序 
-            * 渲染跟踪更改 
-            * 呈现为响应式 HTML 
-            * 渲染 PDF 和 CAD 图层 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          .NET 的 GroupDocs.Viewer 支持查看所有流行的文档文件格式。只需几行代码，即可在您的 .NET 应用程序中添加 PDF 查看器、Microsoft Office Word、Excel 电子表格、图像、HTML、Outlook 电子邮件、OneNote、项目和图形查看功能。
+  enable: true
+  title: "GroupDocs.Viewer 概览"
+  description: "用于在 .NET 应用程序中渲染、显示、转换文档、幻灯片、图表和许多其他文档类型的 API"
+  features:
+    # feature loop
+    - title: "高效可靠地查看文档"
+      content: "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer支持.NET Framework 4.6.2和.NET 6.0，它可以在Windows和Linux平台上运行。"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "支持最流行的文件和文档格式"
+      content: "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。"
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **页面布局文件:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **定界符分隔值:** CSV, TSV
-                * **网络:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **档案:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **各种各样的:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "可定制的输出"
+      content: "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "图像、图形和图表"
-              content: |
-                * **图片:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Windows 图标:** ICO
-                * **可缩放矢量图形:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000格式:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **打印机命令语言:** PCL
-                * **立体光刻（3D 打印）:** STL
-                * **行业基础课程:** IFC
-                * **医学影像:** DICOM
-                * **绘图仪文档:** PLT, HPG
-                * **Autodesk 设计 Web 格式:** DWF, DWG
-                * **AutoCAD 绘图:** DWT, IFC, STL, CF2
-                * **基于 ISFF 的 DGN (V7):** DGN
+    # feature loop
+    - title: "ASP.NET Core 的 UI"
+      content: "我们为 ASP.NET Core 提供了一个开源 UI 包，可以在几分钟内将其添加到您的项目中。 Viewer.UI 包包含一个基于 Angular 的 Web UI，并提供了一组有用的 API 和数据存储提供程序。"
 
-            # table loop
-            - title: "编程语言格式"
-              content: |
-                * **C/C++/C# 文件:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript 文件:** JAVA, JS, JSON, PROPERTIES
-                * **各种各样的:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台独立性"
+  description: "GroupDocs.Viewer for .NET 支持以下操作系统、框架和包管理器"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          .NET 的 GroupDocs.Viewer 支持以下操作系统、框架和包管理器：
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Microsoft Windows Server 2003 及更高版本 
-                * Microsoft Windows XP 及更高版本 
-                * 微软 Windows 10 和 11 
-                * Linux（Ubuntu、OpenSUSE、CentOS 等） 
-                * 苹果操作系统 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * .NET Framework 2.0 或更高版本 
-                * .NET 核心 3.1 
-                * .NET 5 或更高版本 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "包管理器"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "开发环境"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支持的文件格式"
+  description: |
+    GroupDocs.Viewer for .NET 支持以下[文件格式](https://docs.groupdocs.com/viewer/net/supported-document-formats/) 的操作。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office、OpenDocument 和文本格式
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### 图像、图形和图表
+        * **光栅图像:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他        
+        * **网络:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **档案:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **其他:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: ".NET 功能的 GroupDocs.Viewer"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "栅格化文档并将其转换为 SVG、HTML 和 CSS"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "将文本转换为 HTML 并呈现文档以获取 HTML、图像或 PDF 表示"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "使用文档的缓存版本加快加载时间"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "使用 3D 效果转换带有形状和文本的演示文稿"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "将 Word、Excel 和电子邮件文档编码为所需的编码标准"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "呈现位于 FTP 或云存储位置的文档"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "呈现为 HTML 时排除字体以减小生成的文件大小"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "通过删除注释、额外的空白等来缩小 CSS 和 HTML 输出。"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "通过坐标读取源文档中包含的文本"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "在输出表示中显示/隐藏 Excel 工作表的网格线"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "指定要在每页上呈现的 Excel 工作表中的行数"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "呈现电子表格文档时忽略空列"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "将 Word 文档呈现为 HTML 页面、图像或 PDF，并带有跟踪更改"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "将电子邮件附件呈现为原始文件、图像或 HTML 表示形式"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "设置 PDF 文档的打印限制"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "将 ZIP 存档中包含的内容/文件呈现为附件"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "从受密码保护的文档中获取附件"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "将编程语言文件格式呈现为纯文本"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "查看 CAD 工程图时调整背景颜色"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "查看 Excel 文档并转换为 PDF、HTML、JPG 和 PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "从 Excel 文件中获取工作表名称——显示电子表格列标题和行号"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "使用注释查看和转换 Microsoft Project 文档"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "将 CAD 绘图转换为 SVG 以获得更好的查看和缩放体验"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "选择不使用 Scheme 渲染 Visio 图"
-
-    more_feature:
-      # more_feature_loop
-      - title: "高效可靠地查看文档"
-        content: |
-          使用 GroupDocs.Viewer API，您可以高效可靠地显示 190 多种文档格式，同时保持内容和文档结构的完整性。以下示例代码显示查看 DOCX 文档的 HTML 表示是多么容易：
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "将转换应用于渲染输出"
-        content: "您可以使用 GroupDocs.Viewer for .NET API 对呈现的输出文档执行各种转换。这些转换选项使您可以控制呈现渲染输出以供显示的方式。可用的转换包括页面旋转选项、页面重新排序选项和应用文本水印。"
-
-      # more_feature_loop
-      - title: "使用 Outlook 数据文件"
-        content: ".NET API 的 GroupDocs.Viewer 可以将 Outlook 数据文件 (OST/PST) 中的项目呈现为 PDF、HTML 和图像文件。我们的查看器 API 还能够获取 Outlook 数据文件中包含的文件夹列表。使用 GroupDocs.Viewer for .NET API，您可以指定要从 Outlook 数据文件呈现的文件夹。同样，您也可以获取以 OST/PST 格式作为附件的电子邮件信息。 .NET 的 GroupDocs.Viewer 还使您能够根据主题、内容或发件人过滤 OST/PST 格式的消息。"
-
-      # more_feature_loop
-      - title: "使用 CAD 文档"
-        content: "GroupDocs.Viewer for .NET API 可以呈现模型和所有非空布局或呈现 CAD 文件的特定布局。 GroupDocs.Viewer for .NET API 还支持平铺渲染或将 CAD 文档的坐标渲染为图像、HTML 或 PDF。您还可以获得 CAD 文档的图层状态。"
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "GroupDocs.Viewer 功能"
+  description: "无缝渲染、显示和转换 PDF 和 Office 文档"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Hireology 产品开发总监"
-      content: "使用他们出色的 Ruby SDK 集成 GroupDocs.Viewer for Cloud API 非常简单。没有那么多公司愿意与我们合作来实现我们想要的东西。这是一个很好的伙伴关系。"
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "查看 HTML 格式的文档"
+      content: "使用 CSS 和 SVG 将任何类型的文档转换为 HTML 文档，可以在任何现代网络浏览器中显示。"
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Novanet AS 高级顾问/合伙人"
-      content: "在项目中为 .NET 实施和使用 GroupDocs.Viewer 后，它看起来运行良好。我已经测试了很多文件，到目前为止一切顺利。我投入其中的所有内容都呈现得很好，看起来和在 PDF 查看器或 MS Word 中一样好。"
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "G.S.I. Axentria ECM 产品经理"
-      content: "优良的服务和优良的产品。在 GroupDocs.Viewer for .NET 实施过程中，他们提供了极大的帮助和响应，怎么推荐都不为过。"
+    # feature loop
+    - icon: "rasterize"
+      title: "光栅化文档"
+      content: "将任何支持的文档格式光栅化为光栅图像，并具有可调整的图像格式和压缩质量。"
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "渲染并突出显示编程代码"
+      content: "支持所有流行的编程、脚本和标记语言，能够解析和突出显示其语法。"
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer 为其他流行的开发环境提供文档查看 API"
+    # feature loop
+    - icon: "convertpdf"
+      title: "转换为 PDF"
+      content: "任何支持格式的文档都可以通过可调整的选项轻松转换并保存为 PDF。"
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "应用转换"
+      content: "输出文档可以在渲染过程中进行转换 - 页面可以旋转和/或重新排列，并且文本水印可以放置在它们的顶部。"
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "HTML 输出调整"
+      content: "由 GroupDocs.Viewer 生成的输出 HTML 文档可以进行非常精细的调整：允许使用外部或嵌入资源、回调等保存到流或文件。"
+
+    # feature loop
+    - icon: "complex"
+      title: "支持复杂的文档结构"
+      content: "GroupDocs.Viewer 不仅支持单个文档，还支持内部包含文档列表或层次结构的文件，例如带有附件的电子邮件、文件夹内带有内部文件的 ZIP 存档、多页 TIFF 图像等。"
+
+    # feature loop
+    - icon: "optimization"
+      title: "优化选项"
+      content: "GroupDocs.Viewer 包含一个可调整的缓存子系统，它可以通过使用文档的缓存版本来缩短加载时间。此外，针对不同格式的一组不同选项允许从渲染中排除文档的一些不必要的部分或方面（字体、隐藏的工作表、电子邮件附件），以优化整体性能"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "支持受密码保护的文档"
+      content: "GroupDocs.Viewer 允许通过在加载选项中指定密码来打开不同类型的加密文档：PDF、WordProcessing、电子表格、演示文稿等。"
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "代码示例"
+  description: "用于 .NET 操作的典型 GroupDocs.Viewer 的一些用例"
+  items:
+    # code sample loop
+    - title: "将 DOCX 渲染为 HTML"
+      content: |
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息[此处](https://docs .groupdocs.com/viewer/net/rendering-to-html/)。 例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "将 PPTX 导出为 PDF"
+      content: |
+        创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) 方法将 PowerPoint PPTX 文件转换为 PDF。 PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)。
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs 产品评论"
+# description: "不要只相信我们的话。看看其他开发人员如何评价我们的 API"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "优质的服务和优质的产品。他们在 GroupDocs.Viewer for .NET 实施过程中提供了极大的帮助和响应，强烈推荐他们。"
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "在项目中实现并使用 GroupDocs.Viewer for .NET 后，它看起来运行得很好。我已经用很多文档进行了测试，到目前为止一切顺利。我扔给它的所有内容都可以很好地呈现，并且看起来与在 PDF 查看器或 MS Word 中一样好。"
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

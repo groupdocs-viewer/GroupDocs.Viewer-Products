@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: de
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API für PDF, Word, Excel, HTML-Bilder und E-Mails"
-head_description: "Java-Dokumentbetrachter und API zum Rendern von Dateien. Fügen Sie PDF-Viewer, Word-Viewer, Excel-Viewer, Bild-Viewer, HTML-Viewer und E-Mail-Viewer in Java-Anwendungen hinzu."
+head_title: "Java Document Viewer API, rendern PDF Word Excel Bild HTML Diagramm"
+head_description: "Document Viewer-Bibliothek zur Entwicklung von Java-Anwendungen, die Multiformatdokumente nativ rendern, anzeigen und bearbeiten und über 180 Dateiformate unterstützen."
 
 ############################# Header ############################
-title: "Java-API zum Rendern und Anzeigen von Dokumenten"
-description: "Document Viewer-Bibliothek zur Entwicklung von Java-Anwendungen, die Dokumente in mehreren Formaten nativ rendern, anzeigen und bearbeiten und über 170 Dateiformate unterstützen."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "Rendern und Anzeigen von Dokumenten<br>mit Java API"
+description: "Leistungsstarke Viewer-API zum Rendern von über 180 Dokumentformaten in PDF, HTML und Bild mit vielseitigen Konfigurationsoptionen."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "Kostenloser Maven-Download"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "Bereit anzufangen?"
+  description: "Testen Sie die Funktionen von GroupDocs.Viewer kostenlos oder fordern Sie eine Lizenz an"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
+release:
+  title: "Version {0} veröffentlicht"
+  notes: "Schau was neu ist"
+  downloads: "Downloads"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Merkmale"
+code:
+  title: "Rendern Sie PDF-Dateien in Java"
+  more: "Mehr Beispiele"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "Unterstützung"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Live-Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Preisgestaltung"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer für Java kombiniert einen leistungsstarken Satz von Dokument-Viewer-APIs, um Bilder und Dokumentformate in Ihren Java-Anwendungen anzuzeigen, ohne dass zusätzliche Software installiert werden muss. Es rastert die Dokumente nativ und konvertiert sie in SVG+HTML+CSS, um die Qualität der Dokumentanzeige zu verbessern und gleichzeitig eine textgetreue Ausgabe mit hoher Wiedergabetreue zu liefern. Mit der Dokument-Rendering-API können Sie PDF, HTML, XML, Microsoft Office Word, Excel-Arbeitsblätter, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagramme, Projekte, Metadateien, Bilder und verschiedene andere Dateiformate schnell und einfach und mit weniger Programmierrisiken anzeigen. Es kann auch passwortgeschützte Dateien anzeigen und nach dem Rendern die Darstellung des Dokuments im HTML-, Bild- oder PDF-Format ermöglichen. Unsere Datei-Viewer-Bibliothek ist sehr anpassbar, da Sie damit das gesamte Dokument anzeigen oder es teilweise rendern können, um den Vorgang zu beschleunigen. Über die API von GroupDocs.Viewer für Java können Sie Seiten und bestimmte Zellbereiche in einer Tabelle anzeigen oder sogar eine einzelne Dokumentebene in Formaten wie PDF und CAD rendern.  
+  enable: true
+  title: "GroupDocs.Viewer auf einen Blick"
+  description: "API zum Rendern, Anzeigen und Konvertieren von Dokumenten, Folien, Diagrammen und vielen anderen Dokumenttypen in Java-Anwendungen"
+  features:
+    # feature loop
+    - title: "Dokumente effizient und zuverlässig einsehen"
+      content: "Mit der GroupDocs.Viewer-API können Sie Dokumente aller unterstützten Formate mit flexiblen und leistungsstarken Optionen effizient in HTML, JPEG, PNG und PDF rendern und dabei die Integrität von Inhalt und Dokumentstruktur bewahren. GroupDocs.Viewer funktioniert auf Windows- und Linux-Plattformen."
 
-      Mit der GroupDocs.Viewer für Java-API können Sie Dokumente mit/ohne Anmerkungen oder Kommentare für unterstützte Dateiformate rendern. Außerdem können Sie benutzerdefinierte Schriftartenverzeichnisse hinzufügen und grundlegende Dokumentinformationen wie Dateityp, Erweiterung, Name, Seitenanzahl usw. extrahieren.  
+    # feature loop
+    - title: "Die gängigsten Datei- und Dokumentformate werden unterstützt"
+      content: "Wir unterstützen das Rendern der 180 gängigsten Datei- und Dokumentformate, darunter Word, Excel, PDF, PowerPoint, die OpenDocument-Formatfamilie, Archive, Raster- und Vektorbilder, E-Books, Programmiersprachen und Markups sowie viele andere Dateitypen, einschließlich verschlüsselter Dateien Dateien mit Passwortschutz."
 
-      GroupDocs.Viewer für Java ist mit allen Java-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, macOS), die Java Runtime ausführen können.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Im Folgenden finden Sie eine Übersicht über GroupDocs.Viewer für Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Überblick"
-          content: |
-            * Zeigen Sie über 170 Dokumenttypen an 
-            * Holen Sie sich eine HTML-, Bild- und PDF-Version 
-            * Drehen und neu anordnen 
-            * Wasserzeichen anwenden 
-            * Cache für schnellen Prozess 
-            * Fügen Sie benutzerdefinierte Schriftarten hinzu 
-            * Anwenden von Codierungsstandards 
-            * Benutzerdefinierter Eingabedatenhandler 
-            * Rendern mit Änderungen verfolgen 
-            * Als Responsive HTML rendern 
-            * Rendern Sie PDF- und CAD-Ebenen 
-            * Geschützte Dateien rendern 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer für Java unterstützt alle gängigen Dokumentdateiformate, einschließlich: Microsoft Office, Bilder, Diagramme und viele andere.
+    # feature loop
+    - title: "Anpassbare Ausgabe"
+      content: "GroupDocs.Viewer ermöglicht nicht nur das Rendern des Dokuments, sondern auch die Steuerung, wie genau, welche Teile des Dokuments gerendert werden sollen oder jetzt, wie sie gerendert werden sollen, und verschiedene Transformationen auf die gerenderte Ausgabe anzuwenden."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Web-UI für das Spring-Framework"
+      content: "Wir stellen ein Open-Source-UI-Paket für das Spring-Framework bereit, das in wenigen Minuten zu Ihrem Projekt hinzugefügt werden kann. Das Viewer.UI-Paket enthält eine Angular-basierte Web-UI und stellt eine Reihe nützlicher APIs und Datenspeicheranbieter bereit."
 
-            # table loop
-            - title: "Andere Formate"
-              content: |
-                * **Seitenlayoutdateien:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Durch Trennzeichen getrennte Werte:** CSV, TSV
-                * **Netz:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Archiv:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Verschieden:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Viewer für Java unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Bilder, Grafiken und Diagramme"
-              content: |
-                * **Bilder:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Windows-Symbol:** ICO
-                * **Skalierbare Vektorgrafiken:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Druckerbefehlssprache:** PCL
-                * **Stereolithographie (3D-Druck):** STL
-                * **Industry Foundation-Kurse:** IFC
-                * **Medizinische Bildgebung:** DICOM
-                * **Plotterunterlagen:** PLT, HPG
-                * **Autodesk Design-Webformate:** DWF, DWG
-                * **AutoCAD-Zeichnung:** DWT, IFC, STL, CF2
-                * **ISFF-basiertes DGN (V7):** DGN
 
-            # table loop
-            - title: "Programmiersprachenformate"
-              content: |
-                * **C/C++/C#-Dateien:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript-Dateien:** JAVA, JS, JSON, PROPERTIES
-                * **Verschieden:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer für Java unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                * Microsoft Windows Server 2003 und höher 
-                * Microsoft Windows XP und höher 
-                * Microsoft Windows 10 und 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS und andere) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                * J2SE 8.0 (1.8) oder höher (zum Beispiel Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Entwicklungsumgebungen"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build-Automatisierungstool"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Unterstützte Dateiformate"
+  description: |
+    GroupDocs.Viewer für Java unterstützt Vorgänge mit den folgenden [Dateiformaten](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument und Textformate
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Bilder, Grafiken und Diagramme
+        * **Rasterbilder:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere        
+        * **Netz:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Archiv:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Andere:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer für Java-Funktionen"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Viewer für HTML, PDF, Bilder, Word, Excel und andere Dokumentformate"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Rendern Sie AutoCAD-Zeichnungsdateien (DWG) in das SVG-Format"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Passen Sie die Hintergrundfarbe der konvertierten Datei an"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Rasterisieren und konvertieren Sie Dokumente in SVG, HTML und CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Erhalten Sie durch Rendering eine HTML-, Bild- oder PDF-Darstellung von Dokumenten"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Zwischengespeicherte Versionen von Dokumenten, um die Ladezeit zu verkürzen"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Konfigurieren Sie benutzerdefinierte Schriftartenverzeichnisse"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Wenden Sie Codierungsstandards auf Word-, Excel- und E-Mail-Dokumente an"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Rendern Sie Dokumente aus der Ferne über FTP oder Cloud-Speicher"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Anmerkungen und Kommentare beim Rendern entfernen oder beibehalten"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Rendern Sie Dokumentseiten als separate HTML-Seiten"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Rendern Sie ausgeblendete Folien und Seiten und wenden Sie die Seitenneuordnung auf das gerenderte Dokument an"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Rendern Sie einen Seitenbereich, bestimmte Seiten oder alle Seiten in HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Dokumentkommentare rendern oder ausblenden"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Erstellen Sie durch Rendering Responsive HTML für einige Dokumentformate"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Reduzieren Sie die resultierende Dateigröße des gerenderten HTML-Codes durch Ausschließen von Schriftarten"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Entfernen Sie Kommentare, zusätzliche Leerzeichen usw., um die HTML- und CSS-Ausgabe zu minimieren"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Verwenden Sie die Koordinaten des Quelldokuments, um den enthaltenen Text zu lesen"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Zellrahmen in Excel-Tabellen der gerenderten Ausgabe ein-/ausblenden"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Rendern Sie eine bestimmte Anzahl von Zeilen jeder Seite in einer Excel-Tabelle"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Rendern Sie das Modell und alle nicht leeren Layouts oder ein bestimmtes Layout einer CAD-Datei"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Rendern Sie die Elemente in Outlook-Datendateien (OST/PST) als PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Kachel-Rendering oder Rendern nach Koordinaten von CAD-Dokumenten als Bild, HTML oder PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Legen Sie beim Rendern in PDF Druckbeschränkungen fest"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Effiziente und zuverlässige API zum Anzeigen von Dokumenten"
-        content: |
-          GroupDocs.Viewer für Java API kann zum Anzeigen, Rendern und Anzeigen von Dokumenten in mehr als 150 verschiedenen Dateiformaten verwendet werden. Dies geschieht zuverlässig und effizient, wobei der Inhalt und die Struktur des Dokuments erhalten bleiben. Das folgende Beispiel zeigt, wie einfach GroupDocs.Viewer für Java API eine DOCX-Datei mithilfe von Java als Bilddatei rendert:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "Führen Sie beim Rendern von Dokumenten Transformationen durch"
-        content: "GroupDocs.Viewer für Java API bietet Ihnen verschiedene Transformationsoptionen, die Sie auf das gerenderte Dokument anwenden können, um eine individuellere Ansicht und Anzeige zu ermöglichen. Sie können Seiten drehen, indem Sie den Winkel angeben. Sie können die Reihenfolge der gerenderten Seiten festlegen. Wenden Sie bestimmten Text als Wasserzeichen auf gerenderte Seiten oder Bilder an. Über die GroupDocs.Viewer für Java-API haben Sie außerdem die Möglichkeit, benutzerdefinierte Schriftarten zum gerenderten Dokument hinzuzufügen."
-
-      # more_feature_loop
-      - title: "Arbeiten mit E-Mail-Anhängen"
-        content: "Mit der GroupDocs.Viewer für Java-API können Sie bestimmte oder alle Anhänge einer E-Mail abrufen. Sobald Sie die erforderlichen E-Mail-Anhänge erhalten haben, können Sie diese angehängten Dateien in Bilder oder HTML rendern."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer bietet APIs zum Anzeigen von Dokumenten für andere gängige Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "GroupDocs.Viewer-Funktionen"
+  description: "PDF- und Office-Dokumente nahtlos rendern, anzeigen und konvertieren"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Dokumente in HTML anzeigen"
+      content: "Konvertieren Sie Dokumente jeglicher Art mit CSS und SVG in ein HTML-Dokument, das in jedem modernen Webbrowser angezeigt werden kann."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "Dokumente rastern"
+      content: "Rastern Sie jedes unterstützte Dokumentformat in ein Rasterbild, mit anpassbarem Bildformat und Komprimierungsqualität."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "Programmiercodes rendern und hervorheben"
+      content: "Unterstützung aller gängigen Programmier-, Skript- und Auszeichnungssprachen mit der Möglichkeit, deren Syntax zu analysieren und hervorzuheben."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "In PDF konvertieren"
+      content: "Dokumente in jedem unterstützten Format können mit anpassbaren Optionen einfach konvertiert und im PDF-Format gespeichert werden."
+
+    # feature loop
+    - icon: "transform"
+      title: "Wenden Sie Transformationen an"
+      content: "Das Ausgabedokument kann während des Renderns transformiert werden – Seiten können gedreht und/oder neu angeordnet werden und Textwasserzeichen können darüber platziert werden."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "Anpassung der HTML-Ausgabe"
+      content: "Ausgabe-HTML-Dokumente, die vom GroupDocs.Viewer generiert werden, können sehr fein abgestimmt werden: Sie können im Stream oder in der Datei gespeichert werden, mit externen oder eingebetteten Ressourcen, Rückrufen usw."
+
+    # feature loop
+    - icon: "complex"
+      title: "Unterstützung komplexer Dokumentenstrukturen"
+      content: "GroupDocs.Viewer unterstützt nicht nur einzelne Dokumente, sondern auch Dateien, die intern eine Liste oder hierarchische Struktur von Dokumenten enthalten, wie E-Mail-Nachrichten mit Anhängen, ZIP-Archive mit internen Dateien in Ordnern, mehrseitige TIFF-Bilder usw."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Optimierungsmöglichkeiten"
+      content: "GroupDocs.Viewer enthält ein anpassbares Cache-Subsystem, das die Ladezeit durch die Verwendung der zwischengespeicherten Versionen der Dokumente verkürzen kann. Außerdem ermöglicht eine Reihe verschiedener Optionen für verschiedene Formate, einige unnötige Teile oder Aspekte von Dokumenten aus der Darstellung auszuschließen (Schriftarten, ausgeblendete Arbeitsblätter, E-Mail-Anhänge), um die Gesamtleistung zu optimieren"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Unterstützung passwortgeschützter Dokumente"
+      content: "GroupDocs.Viewer ermöglicht das Öffnen verschlüsselter Dokumente verschiedener Typen: PDF, WordProcessing, Tabellenkalkulation, Präsentation und andere, indem in den Ladeoptionen ein Passwort angegeben wird."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codebeispiele"
+  description: "Einige Anwendungsfälle typischer GroupDocs.Viewer für Java-Operationen"
+  items:
+    # code sample loop
+    - title: "Rendern Sie DOCX in HTML"
+      content: |
+        Mit den Klasseneigenschaften [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) können Sie den Konvertierungsprozess steuern, mehr dazu [hier](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Sie können beispielsweise alle externen Ressourcen in die Ausgabe-HTML-Datei einbetten, die Ausgabedatei verkleinern und für den Druck optimieren.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Exportieren Sie PPTX in PDF"
+      content: |
+        Erstellen Sie eine Klasseninstanz [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) und übergeben Sie sie an [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) Methode zum Konvertieren einer PowerPoint PPTX-Datei in PDF. Mit den Eigenschaften der Klasse „PdfViewOptions“ können Sie den Konvertierungsprozess steuern. Sie können beispielsweise die ausgegebene PDF-Datei schützen, ihre Seiten neu anordnen und die Qualität der Dokumentbilder festlegen. Einzelheiten finden Sie im [folgenden Dokumentationsabschnitt](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/).
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs-Produktbewertungen"
+# description: "Verlassen Sie sich nicht nur auf unser Wort. Sehen Sie, was andere Entwickler über unsere APIs sagen"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Exzellenter Service und hervorragende Produkte. Sie waren während des GroupDocs.Viewer für .NET-Implementierungsprozesses äußerst hilfsbereit und reaktionsschnell und können sie nur wärmstens empfehlen."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Nach der Implementierung und Verwendung von GroupDocs.Viewer für .NET im Projekt scheint es sehr gut zu funktionieren. Ich habe es mit vielen Dokumenten getestet und bisher so gut. Alles, was ich darauf geworfen habe, wird gut gerendert und sieht genauso gut aus wie in einem PDF-Viewer oder MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

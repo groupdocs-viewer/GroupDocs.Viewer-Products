@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: vi
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET Document Viewer API, Render PDF Word Excel Image HTML Diagram"
-head_description: "API hiển thị và xem tệp C# ASP.NET. Thêm các tính năng xem PDF, xem Word, xem Excel, xem ảnh, xem HTML, xem email trong các ứng dụng .NET."
+head_title: "API trình xem tài liệu .NET, hiển thị PDF Sơ đồ HTML Hình ảnh Word Excel"
+head_description: "API kết xuất và xem tệp C# ASP.NET. Thêm tính năng xem PDF, xem Word, xem Excel, xem hình ảnh, xem HTML, xem email trong ứng dụng .NET."
 
 ############################# Header ##########################
-title: "Kết xuất & hiển thị tài liệu qua .NET API"
-description: "API trình xem tài liệu .NET để kết xuất hơn 190 định dạng tài liệu thành PDF, HTML và hình ảnh với các tùy chọn cấu hình mạnh mẽ."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "Kết xuất và hiển thị tài liệu<br>bằng .NET API"
+description: "API trình xem mạnh mẽ để hiển thị hơn 180 định dạng tài liệu thành PDF, HTML và Hình ảnh với các tùy chọn cấu hình linh hoạt."
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "Tải xuống NuGet miễn phí"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "Cấp phép"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "Sẵn sàng để bắt đầu?"
+  description: "Dùng thử miễn phí các tính năng của GroupDocs.Viewer hoặc yêu cầu giấy phép"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Tổng quan"
+release:
+  title: "Đã phát hành phiên bản {0}"
+  notes: "Xem có gì mới"
+  downloads: "Tải xuống"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Đặc trưng"
-
-            # button loop
-            - link: "#support"
-              text: "Ủng hộ"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Bản thử trực tiếp"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "định giá"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Hiển thị tệp PDF trong C#"
+  more: "Thêm ví dụ"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      API GroupDocs.Viewer cho .NET giúp bạn tạo các ứng dụng mạnh mẽ trong C#, ASP.NET và các công nghệ dựa trên .NET khác, có thể kết xuất và hiển thị tài liệu cũng như hình ảnh của hơn 190 định dạng tệp mà không cần cài đặt bất kỳ phần mềm bên ngoài nào. Thư viện trình xem tệp quét các tài liệu và sau đó chuyển đổi chúng thành SVG+HTML+CSS để tối ưu hóa trải nghiệm kết xuất tài liệu tổng thể để xem các tài liệu kinh doanh, hình ảnh, tệp văn bản, sơ đồ, đồ họa, tệp đính kèm email và tệp PDF với tốc độ, văn bản thực và độ trung thực cao bên trong các ứng dụng của bạn. Bạn có tùy chọn thêm các chức năng xem và đọc tài liệu trong các ứng dụng của mình để hiển thị toàn bộ tài liệu, một phần tài liệu, phạm vi trang/ô cụ thể, lớp tài liệu riêng lẻ, có hoặc không có chú thích và nhận xét cho các định dạng tệp được hỗ trợ.
-       
-      Theo mặc định, GroupDocs.Viewer dành cho .NET lưu trữ các tài liệu được kết xuất vào đĩa cục bộ trong bộ đệm ẩn. Bất kỳ loại bộ nhớ cache bên ngoài nào cũng được hỗ trợ bằng cách triển khai các giao diện thích hợp – Amazon S3, Dropbox, Google Drive, Windows Azure, Redis hoặc bất kỳ giao diện nào khác.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Sau đây là tổng quan về GroupDocs.Viewer cho .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Tổng quan"
-          content: |
-            * Hiển thị hơn 190 loại tài liệu 
-            * Nhận tệp ở định dạng HTML, Hình ảnh, PDF 
-            * Xoay & Sắp xếp lại 
-            * Áp dụng hình mờ 
-            * Bộ nhớ cache cho quá trình nhanh 
-            * Thêm phông chữ tùy chỉnh 
-            * Áp dụng tiêu chuẩn mã hóa 
-            * Trình xử lý dữ liệu đầu vào tùy chỉnh 
-            * Kết xuất với các thay đổi theo dõi 
-            * Kết xuất dưới dạng HTML đáp ứng 
-            * Kết xuất các lớp PDF & CAD 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer for .NET hỗ trợ xem tất cả các định dạng tệp tài liệu phổ biến. Chỉ với một vài dòng mã, hãy thêm trình xem PDF, Microsoft Office Word, bảng tính Excel, Hình ảnh, HTML, email Outlook, OneNote, Dự án và khả năng xem đồ họa trong các ứng dụng .NET của bạn.
+  enable: true
+  title: "Tổng quan về GroupDocs.Viewer"
+  description: "API để kết xuất, hiển thị, chuyển đổi tài liệu, trang trình bày, sơ đồ và nhiều loại tài liệu khác trong ứng dụng .NET"
+  features:
+    # feature loop
+    - title: "Xem tài liệu hiệu quả và đáng tin cậy"
+      content: "Với API GroupDocs.Viewer, bạn có thể hiển thị hiệu quả các tài liệu thuộc mọi định dạng có thể hỗ trợ sang HTML, JPEG, PNG và PDF với các tùy chọn linh hoạt và mạnh mẽ trong khi vẫn duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer hỗ trợ .NET Framework 4.6.2 và .NET 6.0, nó hoạt động trên nền tảng Windows và Linux."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Hỗ trợ hầu hết các định dạng tệp và tài liệu phổ biến"
+      content: "Chúng tôi hỗ trợ hiển thị trên 180 định dạng tài liệu và tệp phổ biến nhất bao gồm Word, Excel, PDF, PowerPoint, nhóm định dạng OpenDocument, Lưu trữ, hình ảnh Raster và Vector, Sách điện tử, ngôn ngữ lập trình và đánh dấu cũng như nhiều loại tệp khác, bao gồm cả mã hóa tập tin có mật khẩu bảo vệ."
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **Tệp bố cục trang:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Các giá trị được phân tách bằng dấu phân cách:** CSV, TSV
-                * **mạng:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **lưu trữ:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Nhiều:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "Đầu ra có thể tùy chỉnh"
+      content: "GroupDocs.Viewer không chỉ cho phép hiển thị tài liệu mà còn kiểm soát cách hiển thị chính xác, phần nào của tài liệu sẽ được hiển thị hoặc bây giờ, cách hiển thị chúng và áp dụng các phép biến đổi khác nhau cho đầu ra được hiển thị."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Hình ảnh, Đồ họa & Biểu đồ"
-              content: |
-                * **Hình ảnh:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **biểu tượng cửa sổ:** ICO
-                * **Đồ họa Vector có thể mở rộng:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **AdobePhotoshop:** PSD, PSB
-                * **Ngôn ngữ lệnh máy in:** PCL
-                * **In thạch bản nổi (In 3D):** STL
-                * **Các lớp nền tảng công nghiệp:** IFC
-                * **hình ảnh y tế:** DICOM
-                * **Tài liệu máy vẽ:** PLT, HPG
-                * **Định dạng web thiết kế Autodesk:** DWF, DWG
-                * **Vẽ AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN dựa trên ISFF (V7):** DGN
+    # feature loop
+    - title: "Giao diện người dùng cho ASP.NET Core"
+      content: "Chúng tôi cung cấp gói giao diện người dùng nguồn mở cho ASP.NET Core có thể được thêm vào dự án của bạn sau vài phút. Gói Viewer.UI chứa giao diện người dùng web dựa trên Angular và cung cấp một bộ API hữu ích và nhà cung cấp lưu trữ dữ liệu."
 
-            # table loop
-            - title: "Định dạng ngôn ngữ lập trình"
-              content: |
-                * **Tệp C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Tệp Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Nhiều:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Nền tảng độc lập"
+  description: "GroupDocs.Viewer cho .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer cho .NET hỗ trợ các Hệ điều hành, Khung & Trình quản lý gói sau:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Các hệ điều hành"
-              content: |
-                * Microsoft Windows Server 2003 trở lên 
-                * Microsoft Windows XP trở lên 
-                * Windows 10 & 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS và những thứ khác) 
-                * hệ điều hành Mac 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Khung được hỗ trợ"
-              content: |
-                * .NET Framework 2.0 trở lên 
-                * .NET Lõi 3.1 
-                * .NET 5 trở lên 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Trình quản lý gói"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Môi trường phát triển"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Các định dạng tập tin được hỗ trợ"
+  description: |
+    GroupDocs.Viewer dành cho .NET hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument và các định dạng văn bản
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Hình ảnh, Đồ họa & Sơ đồ
+        * **Hình ảnh raster:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Khác        
+        * **Web:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Lưu trữ:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Khác:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer cho các tính năng .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Rasterize Tài liệu và Chuyển đổi chúng thành SVG, HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Chuyển đổi Văn bản sang HTML và Kết xuất Tài liệu để có được Biểu diễn HTML, Hình ảnh hoặc PDF"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Thời gian tải nhanh hơn bằng cách sử dụng các phiên bản tài liệu được lưu trong bộ nhớ cache"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Chuyển đổi bản trình bày có hình dạng và văn bản với hiệu ứng 3D"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Mã hóa tài liệu Word, Excel và Email theo tiêu chuẩn mã hóa mong muốn"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Kết xuất tài liệu tại FTP hoặc Vị trí lưu trữ đám mây"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Loại trừ Phông chữ khi Kết xuất sang HTML để giảm Kích thước Tệp Kết quả"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Giảm thiểu đầu ra CSS & HTML bằng cách xóa nhận xét, khoảng trắng bổ sung, v.v."
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Đọc văn bản có trong tài liệu nguồn thông qua tọa độ của nó"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Hiển thị/Ẩn Đường lưới của Trang tính Excel trong Biểu diễn Kết xuất"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Chỉ định Số hàng trong một trang tính Excel sẽ được hiển thị trên mỗi Trang"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Bỏ qua các cột trống trong khi hiển thị tài liệu bảng tính"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Kết xuất Tài liệu Word thành Trang HTML, Hình ảnh hoặc PDF, với Theo dõi Thay đổi"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Kết xuất tệp đính kèm email dưới dạng tệp gốc, hình ảnh hoặc dưới dạng biểu diễn HTML"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Đặt giới hạn in trên tài liệu PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Kết xuất Nội dung/Tệp có trong Lưu trữ ZIP dưới dạng Tệp đính kèm"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Nhận tệp đính kèm từ tài liệu được bảo vệ bằng mật khẩu"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Kết xuất định dạng tệp ngôn ngữ lập trình dưới dạng văn bản thuần túy"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Điều chỉnh màu nền khi xem bản vẽ CAD"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Xem tài liệu Excel và Chuyển đổi sang PDF, HTML, JPG & PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Lấy tên bảng tính từ tệp Excel – Hiển thị tiêu đề cột bảng tính và số hàng"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Xem & Chuyển đổi Tài liệu Dự án Microsoft bằng Ghi chú"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Chuyển đổi bản vẽ CAD sang SVG để có trải nghiệm xem và thu phóng tốt hơn"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Chọn kết xuất các hình Visio không có lược đồ"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Xem tài liệu hiệu quả và đáng tin cậy"
-        content: |
-          Sử dụng GroupDocs.Viewer API, bạn có thể hiển thị hơn 190 định dạng tài liệu một cách hiệu quả và đáng tin cậy với nội dung và cấu trúc tài liệu nguyên vẹn. Mã mẫu sau đây cho thấy việc xem biểu diễn HTML của tài liệu DOCX dễ dàng như thế nào:
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "Áp dụng chuyển đổi cho đầu ra được kết xuất"
-        content: "Bạn có thể thực hiện các chuyển đổi khác nhau đối với tài liệu đầu ra được hiển thị bằng cách sử dụng GroupDocs.Viewer cho .NET API. Các tùy chọn chuyển đổi này cung cấp cho bạn quyền kiểm soát cách bạn trình bày đầu ra được kết xuất để hiển thị. Các biến đổi có sẵn là tùy chọn xoay trang, tùy chọn sắp xếp lại trang và áp dụng hình mờ văn bản."
-
-      # more_feature_loop
-      - title: "Làm việc với tệp dữ liệu Outlook"
-        content: "GroupDocs.Viewer cho .NET API có thể kết xuất các mục trong Tệp Dữ liệu Outlook (OST/PST) dưới dạng Tệp PDF, HTML và Hình ảnh. API Trình xem của chúng tôi cũng có khả năng lấy danh sách các thư mục có trong Tệp Dữ liệu Outlook. Sử dụng GroupDocs.Viewer cho .NET API, bạn có thể chỉ định thư mục sẽ hiển thị từ Tệp Dữ liệu Outlook. Tương tự như vậy, bạn cũng có thể lấy các email có định dạng OST/PST dưới dạng tệp đính kèm. GroupDocs.Viewer cho .NET cũng cho phép bạn lọc thư từ định dạng OST/PST dựa trên chủ đề, nội dung hoặc người gửi."
-
-      # more_feature_loop
-      - title: "Làm việc với tài liệu CAD"
-        content: "GroupDocs.Viewer cho .NET API có thể hiển thị mô hình và tất cả các bố cục không trống hoặc hiển thị bố cục cụ thể của tệp CAD. GroupDocs.Viewer cho .NET API cũng hỗ trợ kết xuất theo ô hoặc kết xuất theo tọa độ của tài liệu CAD thành hình ảnh, HTML hoặc PDF. Bạn cũng có thể lấy trạng thái lớp cho tài liệu CAD."
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "Tính năng của GroupDocs.Viewer"
+  description: "Hiển thị, hiển thị và chuyển đổi tài liệu PDF và Office một cách liền mạch"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Giám đốc phát triển sản phẩm tại Hireology"
-      content: "Việc tích hợp GroupDocs.Viewer cho Cloud API thật đơn giản với Ruby SDK tuyệt vời của họ. Không có nhiều công ty sẵn sàng làm việc với chúng tôi về những gì chúng tôi muốn. Đó là một quan hệ đối tác tuyệt vời."
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Xem tài liệu bằng HTML"
+      content: "Chuyển đổi bất kỳ loại tài liệu nào thành tài liệu HTML bằng CSS và SVG, có thể được hiển thị trong bất kỳ trình duyệt web hiện đại nào."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Senior Consultant/Partner at Novanet AS"
-      content: "Sau khi triển khai và sử dụng GroupDocs.Viewer cho .NET trong dự án, có vẻ như nó đang hoạt động rất tốt. Tôi đã thử nghiệm với rất nhiều tài liệu và cho đến nay rất tốt. Mọi thứ tôi đã ném vào nó đều hiển thị độc đáo và trông đẹp mắt như trong trình xem PDF hoặc MS Word."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Giám đốc sản phẩm tại Axentria ECM của G.S.I."
-      content: "Dịch vụ tuyệt vời và sản phẩm tuyệt vời. Chúng cực kỳ hữu ích và phản hồi nhanh trong quá trình triển khai GroupDocs.Viewer cho .NET, không thể đề xuất chúng đủ cao."
+    # feature loop
+    - icon: "rasterize"
+      title: "Rasterize tài liệu"
+      content: "Rasterize bất kỳ định dạng tài liệu nào có thể hỗ trợ thành hình ảnh raster, với định dạng hình ảnh có thể điều chỉnh và chất lượng nén."
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "Hiển thị và đánh dấu mã lập trình"
+      content: "Hỗ trợ tất cả các ngôn ngữ lập trình, viết kịch bản và đánh dấu phổ biến, với khả năng phân tích cú pháp và làm nổi bật cú pháp của chúng."
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer cung cấp API xem tài liệu cho các môi trường phát triển phổ biến khác"
+    # feature loop
+    - icon: "convertpdf"
+      title: "Chuyển đổi sang PDF"
+      content: "Tài liệu ở bất kỳ định dạng hỗ trợ nào đều có thể dễ dàng chuyển đổi và lưu thành PDF với các tùy chọn có thể điều chỉnh."
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "Áp dụng các phép biến đổi"
+      content: "Tài liệu đầu ra có thể được chuyển đổi trong quá trình hiển thị - các trang có thể được xoay và/hoặc sắp xếp lại và hình mờ văn bản có thể được đặt trên chúng."
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "Điều chỉnh đầu ra HTML"
+      content: "Các tài liệu HTML đầu ra do GroupDocs.Viewer tạo ra có thể được điều chỉnh rất tinh vi: nó được phép lưu vào luồng hoặc tệp, với các tài nguyên bên ngoài hoặc được nhúng, lệnh gọi lại, v.v."
+
+    # feature loop
+    - icon: "complex"
+      title: "Hỗ trợ cấu trúc tài liệu phức tạp"
+      content: "GroupDocs.Viewer không chỉ hỗ trợ các tài liệu đơn lẻ mà còn hỗ trợ các tệp chứa danh sách hoặc cấu trúc phân cấp của tài liệu, như email có tệp đính kèm, kho lưu trữ ZIP với các tệp nội bộ trong thư mục, hình ảnh TIFF nhiều trang, v.v."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Tùy chọn tối ưu hóa"
+      content: "GroupDocs.Viewer chứa một hệ thống con bộ nhớ đệm có thể điều chỉnh, hệ thống này có thể rút ngắn thời gian tải bằng cách sử dụng các phiên bản tài liệu được lưu trong bộ nhớ đệm. Ngoài ra, một tập hợp các tùy chọn khác nhau cho các định dạng khác nhau cho phép loại trừ một số phần hoặc khía cạnh không cần thiết của tài liệu khỏi quá trình hiển thị (phông chữ, bảng tính ẩn, tệp đính kèm email) để tối ưu hóa hiệu suất tổng thể"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Hỗ trợ các tài liệu được bảo vệ bằng mật khẩu"
+      content: "GroupDocs.Viewer cho phép mở các tài liệu được mã hóa thuộc nhiều loại khác nhau: PDF, WordProcessing, Bảng tính, Bản trình bày và các loại khác bằng cách chỉ định mật khẩu trong các tùy chọn tải."
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "Mẫu mã"
+  description: "Một số trường hợp sử dụng GroupDocs.Viewer điển hình cho các hoạt động .NET"
+  items:
+    # code sample loop
+    - title: "Kết xuất DOCX sang HTML"
+      content: |
+        Thuộc tính lớp [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) cho phép bạn kiểm soát quá trình chuyển đổi, tìm hiểu thêm về điều đó [tại đây](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Ví dụ: bạn có thể nhúng tất cả tài nguyên bên ngoài vào tệp HTML đầu ra, thu nhỏ tệp đầu ra và tối ưu hóa tệp để in.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Xuất PPTX sang PDF"
+      content: |
+        Tạo một phiên bản lớp [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) và chuyển nó tới [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) để chuyển đổi tệp PowerPoint PPTX sang PDF. Thuộc tính lớp PdfViewOptions cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng của hình ảnh tài liệu. Hãy tham khảo [phần tài liệu sau](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) để biết thông tin chi tiết.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Đánh giá sản phẩm GroupDocs"
+# description: "Đừng chỉ tin lời chúng tôi. Xem những nhà phát triển khác nói gì về API của chúng tôi"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Dịch vụ tuyệt vời và sản phẩm tuyệt vời. Chúng cực kỳ hữu ích và phản hồi nhanh trong quá trình triển khai GroupDocs.Viewer cho .NET, không thể giới thiệu chúng đủ cao."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Sau khi triển khai và sử dụng GroupDocs.Viewer cho .NET trong dự án, có vẻ như nó hoạt động rất tốt. Tôi đã thử nghiệm với rất nhiều tài liệu và cho đến nay vẫn tốt. Mọi thứ tôi đưa vào nó đều hiển thị độc đáo và trông đẹp như trong trình xem PDF hoặc MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

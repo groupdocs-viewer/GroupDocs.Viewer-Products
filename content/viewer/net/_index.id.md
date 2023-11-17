@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: id
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET Document Viewer API, Render PDF Word Excel Image HTML Diagram"
-head_description: "C# ASP.NET file viewer & rendering API. Tambahkan penampil PDF, penampil Word, penampil Excel, penampil Gambar, penampil HTML, fitur penampil Email di aplikasi .NET."
+head_title: "API penampil dokumen .NET, render Diagram HTML Gambar PDF Word Excel"
+head_description: "C# penampil file ASP.NET & API rendering. Tambahkan penampil PDF, penampil Word, penampil Excel, penampil gambar, penampil HTML, fitur penampil email di aplikasi .NET."
 
 ############################# Header ##########################
-title: "Render & Tampilkan Dokumen melalui .NET API"
-description: ".NET Document Viewer API untuk Merender 190+ format dokumen menjadi PDF, HTML, dan Gambar dengan Opsi Konfigurasi yang Kuat."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "Render & tampilkan dokumen<br>menggunakan .NET API"
+description: "API Penampil yang kuat untuk merender 180+ format dokumen menjadi PDF, HTML, dan Gambar dengan opsi konfigurasi serbaguna."
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "Unduh NuGet Gratis"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Viewer secara gratis atau minta lisensi"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Ringkasan"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Fitur"
-
-            # button loop
-            - link: "#support"
-              text: "Mendukung"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Demo Langsung"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Render file PDF di C#"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer untuk .NET API membantu Anda membuat aplikasi canggih dalam C#, ASP.NET, dan teknologi berbasis .NET lainnya, yang dapat merender dan menampilkan dokumen dan gambar dari 190+ format file tanpa menginstal perangkat lunak eksternal apa pun. Pustaka penampil file meraster dokumen dan kemudian mengubahnya menjadi SVG+HTML+CSS untuk mengoptimalkan keseluruhan pengalaman rendering dokumen untuk melihat dokumen bisnis, gambar, file teks, diagram, grafik, lampiran email, dan file PDF dengan kecepatan, teks asli, dan fidelitas tinggi di dalam aplikasi Anda. Anda memiliki opsi untuk menambahkan fungsionalitas melihat dan membaca dokumen dalam aplikasi Anda untuk menampilkan seluruh dokumen, sebagian dokumen, halaman/rentang sel tertentu, lapisan dokumen individual, dengan atau tanpa anotasi dan komentar untuk format file yang didukung.
-       
-      GroupDocs.Viewer untuk .NET meng-cache keluaran dokumen yang dirender ke disk lokal secara default. Semua jenis penyimpanan cache eksternal juga didukung dengan mengimplementasikan antarmuka yang sesuai – Amazon S3, Dropbox, Google Drive, Windows Azure, Redis atau lainnya.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Berikut adalah ikhtisar GroupDocs.Viewer untuk .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Ringkasan"
-          content: |
-            * Tampilkan 190+ Jenis Dokumen 
-            * Dapatkan file dalam format HTML, Gambar, PDF 
-            * Putar & Susun Ulang 
-            * Terapkan Tanda Air 
-            * Cache untuk Proses Cepat 
-            * Tambahkan Font Kustom 
-            * Terapkan Standar Pengodean 
-            * Penangan Data Input Kustom 
-            * Render dengan Lacak Perubahan 
-            * Render sebagai HTML Responsif 
-            * Render Lapisan PDF & CAD 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer untuk .NET mendukung tampilan semua format file dokumen populer. Hanya dengan beberapa baris kode, tambahkan penampil PDF, Microsoft Office Word, spreadsheet Excel, Gambar, HTML, email Outlook, OneNote, Proyek, dan kemampuan tampilan grafik di aplikasi .NET Anda.
+  enable: true
+  title: "Sekilas tentang GroupDocs.Viewer"
+  description: "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi .NET"
+  features:
+    # feature loop
+    - title: "Lihat dokumen secara efisien & andal"
+      content: "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer mendukung .NET Framework 4.6.2 dan .NET 6.0, berfungsi pada platform Windows dan Linux."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Sebagian besar format file dan dokumen populer didukung"
+      content: "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi."
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **File Tata Letak Halaman:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Nilai yang Dipisahkan Pembatas:** CSV, TSV
-                * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Arsip:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Bermacam-macam:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "Keluaran yang dapat disesuaikan"
+      content: "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Gambar, Grafik & Diagram"
-              content: |
-                * **Gambar-gambar:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Ikon Jendela:** ICO
-                * **Grafik Vektor yang Dapat Diskalakan:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Bahasa Perintah Pencetak:** PCL
-                * **Litografi Stereo (Pencetakan 3D):** STL
-                * **Kelas Yayasan Industri:** IFC
-                * **Pencitraan medis:** DICOM
-                * **Dokumen Plotter:** PLT, HPG
-                * **Format Web Desain Autodesk:** DWF, DWG
-                * **Menggambar AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN berbasis ISFF (V7):** DGN
+    # feature loop
+    - title: "UI untuk ASP.NET Inti"
+      content: "Kami menyediakan paket UI sumber terbuka untuk ASP.NET Core yang dapat ditambahkan ke proyek Anda dalam beberapa menit. Paket Viewer.UI berisi UI web berbasis Angular dan memberikan serangkaian API dan penyedia penyimpanan data yang berguna."
 
-            # table loop
-            - title: "Format Bahasa Pemrograman"
-              content: |
-                * **File C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **File Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Bermacam-macam:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Viewer untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer untuk .NET mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Microsoft Windows Server 2003 dan yang lebih baru 
-                * Microsoft Windows XP dan yang lebih baru 
-                * Microsoft Windows 10 & 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS dan lainnya) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Framework yang Didukung"
-              content: |
-                * .NET Framework 2.0 atau lebih tinggi 
-                * .NET Inti 3.1 
-                * .NET 5 atau lebih tinggi 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Manajer Paket"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Viewer untuk .NET mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument dan format teks
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar, Grafik & Diagram
+        * **Gambar raster:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Lainnya        
+        * **jaring:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Arsip:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Lainnya:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer untuk Fitur .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Raster Dokumen dan Ubah menjadi SVG, HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Konversikan Teks ke HTML dan Render Dokumen untuk mendapatkan Representasi HTML, Gambar, atau PDF"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Waktu Pemuatan Lebih Cepat menggunakan Versi Tembolok Dokumen"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Konversi Presentasi dengan Bentuk dan Teks dengan Efek 3D"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Enkode Dokumen Word, Excel, dan Email ke Standar Pengkodean yang Diinginkan"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Render Dokumen terletak di FTP atau Cloud Storage Locations"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Mengecualikan Font saat Merender ke HTML untuk mengurangi Ukuran File yang Dihasilkan"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Perkecil Keluaran CSS & HTML dengan Menghapus Komentar, Spasi Putih Ekstra, dll."
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Baca Teks yang Terkandung dalam Dokumen Sumber melalui Koordinatnya"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Tampilkan/Sembunyikan Garis Kisi Lembar Excel dalam Representasi Keluaran"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Tentukan Jumlah Baris dalam lembar Excel yang akan dirender di Setiap Halaman"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Abaikan Kolom Kosong saat Merender Dokumen Spreadsheet"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Render Dokumen Word menjadi Halaman HTML, Gambar, atau PDF, dengan Lacak Perubahan"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Render Lampiran Email sebagai File Asli, Gambar, atau dalam representasi HTML"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Tetapkan batasan pencetakan pada dokumen PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Render Konten/File yang terdapat dalam Arsip ZIP sebagai Lampiran"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Dapatkan Lampiran dari Dokumen yang Dilindungi Kata Sandi"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Render Format File Bahasa Pemrograman sebagai Teks Biasa"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Sesuaikan Warna Latar Belakang saat Melihat Gambar CAD"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Lihat dokumen Excel dan Konversi ke PDF, HTML, JPG & PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Dapatkan Nama Lembar Kerja dari file Excel – Tampilkan Judul Kolom Spreadsheet dan nomor Baris"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Lihat & Konversi Dokumen Proyek Microsoft dengan Catatan"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Konversi Gambar CAD ke SVG untuk Pengalaman Melihat & Memperbesar yang lebih baik"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pilih untuk Merender Angka Visio tanpa Skema"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Lihat Dokumen Secara Efisien & Andal"
-        content: |
-          Dengan menggunakan GroupDocs.Viewer API, Anda dapat menampilkan lebih dari 190 format dokumen secara efisien dan andal dengan konten dan integritas struktur dokumen utuh. Kode contoh berikut menunjukkan betapa mudahnya melihat representasi HTML dari dokumen DOCX:
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "Terapkan Transformasi ke Output yang Dirender"
-        content: "Anda dapat melakukan berbagai transformasi ke dokumen keluaran yang dirender menggunakan GroupDocs.Viewer untuk .NET API. Opsi transformasi ini memberi Anda kendali atas cara Anda menampilkan output yang dirender untuk ditampilkan. Transformasi yang tersedia adalah, opsi rotasi halaman, opsi penyusunan ulang halaman, dan penerapan watermark teks."
-
-      # more_feature_loop
-      - title: "Bekerja dengan File Data Outlook"
-        content: "GroupDocs.Viewer untuk .NET API dapat merender item dalam File Data Outlook (OST/PST) sebagai File PDF, HTML, dan Gambar. API Penampil kami juga memiliki kemampuan untuk mendapatkan daftar folder yang terdapat dalam File Data Outlook. Menggunakan GroupDocs.Viewer untuk .NET API, Anda dapat menentukan folder yang akan dirender dari File Data Outlook. Demikian pula, Anda juga dapat memperoleh pesan email yang terdapat dalam format OST/PST sebagai lampiran. GroupDocs.Viewer untuk .NET juga memungkinkan Anda memfilter pesan dari format OST/PST berdasarkan subjek, konten, atau pengirim."
-
-      # more_feature_loop
-      - title: "Bekerja dengan Dokumen CAD"
-        content: "GroupDocs.Viewer untuk .NET API dapat merender model dan semua tata letak tidak kosong atau merender tata letak tertentu dari file CAD. GroupDocs.Viewer untuk .NET API juga mendukung rendering ubin atau rendering dengan koordinat dokumen CAD menjadi gambar, HTML, atau PDF. Anda juga dapat memperoleh status lapisan untuk dokumen CAD."
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "Fitur GroupDocs.Viewer"
+  description: "Render, tampilkan, dan konversi PDF dan Dokumen Office dengan lancar"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Direktur Pengembangan Produk di Hireology"
-      content: "Mengintegrasikan GroupDocs.Viewer untuk Cloud API sangat mudah dengan Ruby SDK mereka yang fantastis. Tidak banyak perusahaan di luar sana yang mau bekerja sama dengan kami untuk apa yang kami inginkan. Ini kemitraan yang hebat."
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Lihat dokumen dalam HTML"
+      content: "Ubah dokumen jenis apa pun menjadi dokumen HTML dengan CSS dan SVG, yang dapat ditampilkan di browser web modern mana pun."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Konsultan Senior/Mitra di Novanet AS"
-      content: "Setelah mengimplementasikan dan menggunakan GroupDocs.Viewer untuk .NET dalam proyek ini tampaknya bekerja dengan sangat baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya lemparkan membuatnya bagus dan terlihat sebagus di penampil PDF atau MS Word."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Manajer Produk di Axentria ECM oleh G.S.I."
-      content: "Layanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama GroupDocs.Viewer untuk proses implementasi .NET, tidak dapat merekomendasikan mereka dengan cukup tinggi."
+    # feature loop
+    - icon: "rasterize"
+      title: "Rasterisasi dokumen"
+      content: "Rasterisasi format dokumen apa pun yang didukung ke gambar raster, dengan format gambar dan kualitas kompresi yang dapat disesuaikan."
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "Render dan sorot kode pemrograman"
+      content: "Dukungan untuk semua bahasa pemrograman, skrip, dan markup populer, dengan kemampuan untuk mengurai dan menyorot sintaksisnya."
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+    # feature loop
+    - icon: "convertpdf"
+      title: "Konversikan ke PDF"
+      content: "Dokumen format apa pun yang didukung dapat dengan mudah dikonversi dan disimpan ke PDF dengan opsi yang dapat disesuaikan."
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "Terapkan transformasi"
+      content: "Dokumen keluaran dapat diubah selama rendering - halaman dapat diputar dan/atau disusun ulang, dan tanda air teks dapat ditempatkan di atasnya."
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "Penyesuaian keluaran HTML"
+      content: "Dokumen HTML keluaran, yang dihasilkan oleh GroupDocs.Viewer, dapat disetel dengan sangat baik: diperbolehkan untuk menyimpan ke aliran atau file, dengan sumber daya eksternal atau tertanam, panggilan balik, dan sebagainya."
+
+    # feature loop
+    - icon: "complex"
+      title: "Dukungan struktur dokumen yang kompleks"
+      content: "GroupDocs.Viewer tidak hanya mendukung satu dokumen, tetapi juga file, yang secara internal berisi daftar atau struktur hierarki dokumen, seperti pesan email dengan lampiran, arsip ZIP dengan file internal di dalam folder, gambar TIFF multi-halaman, dan sebagainya."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Opsi pengoptimalan"
+      content: "GroupDocs.Viewer berisi subsistem cache yang dapat disesuaikan, yang dapat mempercepat waktu pemuatan dengan menggunakan versi dokumen yang di-cache. Juga serangkaian opsi berbeda untuk format berbeda memungkinkan untuk mengecualikan beberapa bagian atau aspek dokumen yang tidak diperlukan dari rendering (font, lembar kerja tersembunyi, lampiran email) untuk mengoptimalkan kinerja keseluruhan"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Dukungan dokumen yang dilindungi kata sandi"
+      content: "GroupDocs.Viewer memungkinkan untuk membuka dokumen terenkripsi dari berbagai jenis: PDF, WordProcessing, Spreadsheet, Presentasi, dan lainnya, dengan menentukan kata sandi dalam opsi pemuatan."
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan GroupDocs.Viewer tipikal untuk operasi .NET"
+  items:
+    # code sample loop
+    - title: "Render DOCX ke HTML"
+      content: |
+        Properti kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Ekspor PPTX ke PDF"
+      content: |
+        Buat instance kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) dan teruskan ke [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) untuk mengonversi file PowerPoint PPTX ke PDF. Properti kelas PdfViewOptions memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) untuk mengetahui detailnya.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Ulasan produk GroupDocs"
+# description: "Jangan hanya percaya kata-kata kami begitu saja. Lihat apa yang dikatakan pengembang lain tentang API kami"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Pelayanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama proses implementasi GroupDocs.Viewer untuk .NET, dan sangat merekomendasikannya."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Setelah mengimplementasikan dan menggunakan GroupDocs.Viewer untuk .NET dalam proyek tersebut tampaknya berfungsi dengan baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya berikan ditampilkan dengan baik dan terlihat sama bagusnya dengan penampil PDF atau MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

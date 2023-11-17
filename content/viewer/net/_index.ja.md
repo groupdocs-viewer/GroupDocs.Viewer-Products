@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: ja
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET ドキュメント ビューア API、PDF Word Excel 画像 HTML ダイアグラムのレンダリング"
+head_title: ".NET ドキュメント ビューア API、PDF Word Excel 画像 HTML 図のレンダリング"
 head_description: "C# ASP.NET ファイル ビューアとレンダリング API。 .NET アプリに PDF ビューア、Word ビューア、Excel ビューア、画像ビューア、HTML ビューア、電子メール ビューア機能を追加します。"
 
 ############################# Header ##########################
-title: ".NET API経由でドキュメントをレンダリングおよび表示する"
-description: ".NET Document Viewer API は、強力な構成オプションを使用して 190 以上のドキュメント形式を PDF、HTML、および画像にレンダリングします。"
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: ".NET APIを使用した<br>ドキュメントのレンダリングと表示"
+description: "多彩な構成オプションを使用して、180 を超えるドキュメント形式を PDF、HTML、および画像にレンダリングする強力なビューア API。"
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "無料の NuGet ダウンロード"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "ライセンス"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "始める準備はできていますか?"
+  description: "GroupDocs.Viewer の機能を無料で試すか、ライセンスをリクエストしてください"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概要"
+release:
+  title: "バージョン {0} がリリースされました"
+  notes: "新機能を見る"
+  downloads: "ダウンロード"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "特徴"
-
-            # button loop
-            - link: "#support"
-              text: "サポート"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "ライブデモ"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "価格設定"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "C# で PDF ファイルをレンダリングする"
+  more: "他の例"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer for .NET API は、C#、ASP.NET、およびその他の .NET ベースのテクノロジで強力なアプリケーションを作成するのに役立ちます。これにより、外部ソフトウェアをインストールせずに 190 以上のファイル形式のドキュメントや画像をレンダリングおよび表示できます。ファイル ビューア ライブラリは、ドキュメントをラスタライズしてから SVG+HTML+CSS に変換し、ビジネス ドキュメント、画像、テキスト ファイル、図、グラフィックス、電子メールの添付ファイル、PDF ファイルを高速に表示するための全体的なドキュメント レンダリング エクスペリエンスを最適化します。アプリケーション内での高忠実度の実現。アプリケーションにドキュメントの表示および読み取り機能を追加して、ドキュメント全体、ドキュメントの一部、特定のページ/セル範囲、個々のドキュメント レイヤーを、サポートされているファイル形式の注釈やコメントの有無にかかわらず表示するオプションがあります。
-       
-      GroupDocs.Viewer for .NET は、レンダリングされたドキュメント出力をデフォルトでローカル ディスクにキャッシュします。 Amazon S3、Dropbox、Google Drive、Windows Azure、Redis など、適切なインターフェイスを実装することで、あらゆるタイプの外部キャッシュ ストレージもサポートされます。
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下は、GroupDocs.Viewer for .NET の概要です。
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概要"
-          content: |
-            * 190 種類以上の文書タイプを表示 
-            * HTML、画像、PDF 形式のファイルを取得する 
-            * 回転と並べ替え 
-            * ウォーターマークを適用する 
-            * 高速処理のためのキャッシュ 
-            * カスタムフォントの追加 
-            * エンコーディング標準を適用する 
-            * カスタム入力データ ハンドラー 
-            * 変更を追跡してレンダリングする 
-            * レスポンシブ HTML としてレンダリング 
-            * PDF および CAD レイヤーのレンダリング 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer for .NET は、すべての一般的なドキュメント ファイル形式の表示をサポートしています。わずか数行のコードで、PDF ビューア、Microsoft Office Word、Excel スプレッドシート、画像、HTML、Outlook 電子メール、OneNote、プロジェクト、グラフィック表示機能を .NET アプリケーションに追加できます。
+  enable: true
+  title: "GroupDocs.Viewer の概要"
+  description: ".NET アプリケーションでドキュメント、スライド、図、その他多くの種類のドキュメントをレンダリング、表示、変換するための API"
+  features:
+    # feature loop
+    - title: "ドキュメントを効率的かつ確実に表示する"
+      content: "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを HTML、JPEG、PNG、PDF に効率的にレンダリングできます。 GroupDocs.Viewer は .NET Framework 4.6.2 および .NET 6.0 をサポートしており、Windows および Linux プラットフォームで動作します。"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "最も一般的なファイルおよびドキュメント形式がサポートされています"
+      content: "Word、Excel、PDF、PowerPoint、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。"
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **ページレイアウトファイル:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **デリミタで区切られた値:** CSV, TSV
-                * **ウェブ:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **アーカイブ:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **様々:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "カスタマイズ可能な出力"
+      content: "GroupDocs.Viewer を使用すると、ドキュメントをレンダリングするだけでなく、ドキュメントのどの部分をレンダリングするか、現時点でどのようにレンダリングするかを正確に制御し、レンダリングされた出力にさまざまな変換を適用することもできます。"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "画像、グラフィック、図表"
-              content: |
-                * **画像:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **ウィンドウのアイコン:** ICO
-                * **スケーラブルなベクター グラフィックス:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **アドビフォトショップ:** PSD, PSB
-                * **プリンターコマンド言語:** PCL
-                * **ステレオリソグラフィー (3D プリンティング):** STL
-                * **業界基礎クラス:** IFC
-                * **医療画像処理:** DICOM
-                * **プロッタドキュメント:** PLT, HPG
-                * **Autodesk Design の Web フォーマット:** DWF, DWG
-                * **AutoCAD 図面:** DWT, IFC, STL, CF2
-                * **ISFF ベースの DGN (V7):** DGN
+    # feature loop
+    - title: "ASP.NET Core の UI"
+      content: "数分でプロジェクトに追加できる ASP.NET Core 用のオープン ソース UI パッケージが提供されます。 Viewer.UI パッケージには、Angular ベースの Web UI が含まれており、便利な API とデータ ストレージ プロバイダーのセットを提供します。"
 
-            # table loop
-            - title: "プログラミング言語の形式"
-              content: |
-                * **C/C++/C# ファイル:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript ファイル:** JAVA, JS, JSON, PROPERTIES
-                * **様々:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "プラットフォームの独立性"
+  description: "GroupDocs.Viewer for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "オペレーティングシステム"
-              content: |
-                * Microsoft Windows Server 2003以降 
-                * Microsoft Windows XP以降 
-                * Microsoft Windows 10および11 
-                * Linux (Ubuntu、OpenSUSE、CentOS など) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "サポートされているフレームワーク"
-              content: |
-                * .NET Framework 2.0以降 
-                * .NETコア3.1 
-                * .NET 5以降 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "パッケージマネージャー"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "開発環境"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "サポートされているファイル形式"
+  description: |
+    GroupDocs.Viewer for .NET は、次の [ファイル形式](https://docs.groupdocs.com/viewer/net/supported-document-formats/) での操作をサポートします。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office、OpenDocument、およびテキスト形式
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### 画像、グラフィック、図表
+        * **ラスター画像:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### 他の        
+        * **ウェブ:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **アーカイブ:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **他の:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer for .NET の機能"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "ドキュメントをラスタライズして SVG、HTML、CSS に変換"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "テキストを HTML に変換し、ドキュメントをレンダリングして HTML、画像、または PDF 表現を取得します"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "キャッシュされたバージョンのドキュメントを使用した読み込み時間の短縮"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "3D 効果を使用して図形とテキストを含むプレゼンテーションを変換する"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Word、Excel、電子メールのドキュメントを希望のエンコード標準にエンコード"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "FTP またはクラウド ストレージの場所にあるドキュメントをレンダリングする"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "HTML にレンダリングするときにフォントを除外して、結果のファイル サイズを削減する"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "コメントや余分な空白などを削除して、CSS および HTML 出力を縮小します。"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "ソースドキュメントに含まれるテキストを座標から読み取る"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "出力表現での Excel シートのグリッド線の表示/非表示"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "各ページに表示される Excel シートの行数を指定します"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "スプレッドシート ドキュメントのレンダリング中に空の列を無視する"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Word ドキュメントを HTML ページ、画像、または PDF にレンダリングし、変更を追跡します"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "電子メールの添付ファイルを元のファイル、画像、または HTML 表現としてレンダリング"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "PDF文書の印刷制限を設定する"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "ZIP アーカイブに含まれるコンテンツ/ファイルを添付ファイルとしてレンダリングする"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "パスワードで保護されたドキュメントから添付ファイルを取得する"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "プログラミング言語ファイル形式をプレーンテキストとしてレンダリングする"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "CAD 図面を表示するときに背景色を調整する"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Excel ドキュメントを表示し、PDF、HTML、JPG、PNG に変換"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Excel ファイルからワークシート名を取得 – スプレッドシートの列見出しと行番号を表示"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Microsoft Project ドキュメントをメモを使用して表示および変換する"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "CAD 図面を SVG に変換して表示とズームのエクスペリエンスを向上"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "スキームなしで Visio Figure をレンダリングすることを選択します"
-
-    more_feature:
-      # more_feature_loop
-      - title: "効率的かつ確実にドキュメントを表示する"
-        content: |
-          GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を保ったまま、190 を超えるドキュメント形式を効率的かつ確実に表示できます。次のサンプル コードは、DOCX ドキュメントの HTML 表現を表示するのがいかに簡単かを示しています。
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "レンダリングされた出力に変換を適用する"
-        content: "GroupDocs.Viewer for .NET API を使用して、レンダリングされた出力ドキュメントに対してさまざまな変換を実行できます。これらの変換オプションを使用すると、レンダリングされた出力を表示する方法を制御できます。利用可能な変換は、ページ回転オプション、ページ並べ替えオプション、およびテキスト透かしの適用です。"
-
-      # more_feature_loop
-      - title: "Outlook データ ファイルの操作"
-        content: "GroupDocs.Viewer for .NET API は、Outlook データ ファイル (OST/PST) 内のアイテムを PDF、HTML、および画像ファイルとしてレンダリングできます。当社の Viewer API には、Outlook データ ファイルに含まれるフォルダーのリストを取得する機能もあります。 GroupDocs.Viewer for .NET API を使用すると、Outlook データ ファイルからレンダリングするフォルダーを指定できます。同様に、OST/PST 形式で含まれる電子メール メッセージを添付ファイルとして取得することもできます。 GroupDocs.Viewer for .NET を使用すると、件名、内容、または送信者に基づいて OST/PST 形式のメッセージをフィルタリングすることもできます。"
-
-      # more_feature_loop
-      - title: "CAD ドキュメントの操作"
-        content: "GroupDocs.Viewer for .NET API は、モデルと空ではないすべてのレイアウトをレンダリングしたり、CAD ファイルの特定のレイアウトをレンダリングしたりできます。 GroupDocs.Viewer for .NET API は、タイル レンダリング、または CAD ドキュメントの座標による画像、HTML、PDF へのレンダリングもサポートしています。 CAD ドキュメントのレイヤー ステータスを取得することもできます。"
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "GroupDocs.Viewer の機能"
+  description: "PDF および Office ドキュメントをシームレスにレンダリング、表示、変換"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Hireology の製品開発ディレクター"
-      content: "GroupDocs.Viewer for Cloud API の統合は、素晴らしい Ruby SDK を使用することで簡単に行えました。私たちが望んでいることに協力してくれる企業はそれほど多くありません。素晴らしいパートナーシップですね。"
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "HTML でドキュメントを表示する"
+      content: "CSS と SVG を使用して、あらゆる種類のドキュメントを HTML ドキュメントに変換し、最新の Web ブラウザで表示できます。"
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Novanet AS のシニア コンサルタント/パートナー"
-      content: "GroupDocs.Viewer for .NET をプロジェクトに実装して使用した後、非常にうまく機能しているように見えます。多くのドキュメントを使用してテストしましたが、これまでのところ良好です。私が投げたものはすべてうまくレンダリングされ、PDF ビューアや MS Word と同じくらい美しく見えます。"
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Axentria ECM by G.S.I. のプロダクト マネージャー"
-      content: "優れたサービスと優れた製品。これらは、GroupDocs.Viewer for .NET の実装プロセス中に非常に役に立ち、応答性も高かったですが、あまりお勧めできません。"
+    # feature loop
+    - icon: "rasterize"
+      title: "ドキュメントをラスタライズする"
+      content: "サポート可能なドキュメント形式をラスター画像にラスター化し、画像形式と圧縮品質を調整できます。"
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "プログラミング コードのレンダリングとハイライト表示"
+      content: "すべての一般的なプログラミング、スクリプト、マークアップ言語をサポートし、構文を解析して強調表示する機能を備えています。"
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
+    # feature loop
+    - icon: "convertpdf"
+      title: "PDFに変換"
+      content: "サポート可能な形式のドキュメントは、調整可能なオプションを使用して簡単に PDF に変換して保存できます。"
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "変換を適用する"
+      content: "出力ドキュメントはレンダリング中に変換できます。ページは回転および/または再配置でき、テキストの透かしをその上に配置できます。"
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "HTML出力調整"
+      content: "GroupDocs.Viewer によって生成される出力 HTML ドキュメントは、非常に細かく調整できます。外部リソースまたは埋め込みリソース、コールバックなどを使用して、ストリームまたはファイルに保存できます。"
+
+    # feature loop
+    - icon: "complex"
+      title: "複雑な文書構造のサポート"
+      content: "GroupDocs.Viewer は、単一のドキュメントだけでなく、添付ファイル付きの電子メール メッセージ、フォルダー内の内部ファイルを含む ZIP アーカイブ、複数ページの TIFF 画像など、ドキュメントのリストまたは階層構造を内部に含むファイルもサポートします。"
+
+    # feature loop
+    - icon: "optimization"
+      title: "最適化オプション"
+      content: "GroupDocs.Viewer には、ドキュメントのキャッシュされたバージョンを使用することで読み込み時間を短縮できる、調整可能なキャッシュ サブシステムが含まれています。また、さまざまな形式に対応するさまざまなオプションのセットにより、ドキュメントの一部の不必要な部分や側面 (フォント、非表示のワークシート、電子メールの添付ファイル) をレンダリングから除外して、全体的なパフォーマンスを最適化することができます。"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "パスワードで保護されたドキュメントのサポート"
+      content: "GroupDocs.Viewer を使用すると、読み込みオプションでパスワードを指定することで、PDF、WordProcessing、スプレッドシート、プレゼンテーションなど、さまざまな種類の暗号化されたドキュメントを開くことができます。"
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "コードサンプル"
+  description: ".NET 操作用の典型的な GroupDocs.Viewer の使用例"
+  items:
+    # code sample loop
+    - title: "DOCX を HTML にレンダリングする"
+      content: |
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) クラス プロパティを使用すると、変換プロセスを制御できます。詳細については、[こちら](https://docs) .groupdocs.com/viewer/net/rendering-to-html/)。 たとえば、すべての外部リソースを出力 HTML ファイルに埋め込み、出力ファイルを縮小して、印刷用に最適化することができます。
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PPTXをPDFにエクスポート"
+      content: |
+        [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) クラス インスタンスを作成し、それを [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) メソッドを使用して、PowerPoint PPTX ファイルを PDF に変換します。 PdfViewOptions クラスのプロパティを使用すると、変換プロセスを制御できます。たとえば、出力 PDF ファイルを保護したり、ページの順序を変更したり、ドキュメントの画像の品質を指定したりできます。詳細については、[次のドキュメント セクション](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) を参照してください。
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs 製品のレビュー"
+# description: "私たちの言葉をそのまま鵜呑みにしないでください。他の開発者の API についての意見をご覧ください"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "優れたサービスと優れた製品。これらは、GroupDocs.Viewer for .NET の実装プロセス中に非常に役に立ち、迅速に対応してくれましたが、あまりお勧めできません。"
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "GroupDocs.Viewer for .NET をプロジェクトに実装して使用した後、非常にうまく機能しているように見えます。多くのドキュメントを使用してテストしましたが、これまでのところ良好です。私が投げたものはすべてうまくレンダリングされ、PDF ビューアーや MS Word と同じくらい見栄えがよくなります。"
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

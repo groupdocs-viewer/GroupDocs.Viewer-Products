@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: ar
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API لـ PDF Word Excel HTML Images & Email"
-head_description: "عارض مستندات جافا & تقديم الملفات API. إضافة عارض PDF ، عارض Word ، عارض Excel ، عارض الصور ، عارض HTML ، عارض البريد الإلكتروني في تطبيقات Java."
+head_title: "Java Document Viewer API، يعرض مخطط HTML لصورة PDF وWord وExcel"
+head_description: "مكتبة عارض المستندات لتطوير تطبيقات Java التي تعرض وتعرض وتعالج المستندات متعددة التنسيقات التي تدعم أكثر من 180 تنسيق ملف."
 
 ############################# Header ############################
-title: "Java API لتقديم المستندات وعرضها"
-description: "مكتبة عارض المستندات لتطوير تطبيقات Java التي تعرض بشكل أصلي ، وتعرض وتعالج ، مستندات متعددة التنسيقات تدعم أكثر من 170 تنسيق ملف."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "عرض المستندات وعرضها<br>باستخدام Java API"
+description: "واجهة برمجة تطبيقات عارض قوية لتقديم أكثر من 180 تنسيقًا للمستندات إلى PDF وHTML وصورة مع خيارات تكوين متعددة الاستخدامات."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "تحميل مافن مجانا"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "الترخيص"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "على استعداد للبدء؟"
+  description: "جرب ميزات GroupDocs.Viewer مجانًا أو اطلب ترخيصًا"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "ملخص"
+release:
+  title: "تم إصدار الإصدار {0}."
+  notes: "ترى ما هو الجديد"
+  downloads: "التحميلات"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "سمات"
+code:
+  title: "تقديم ملفات PDF في جافا"
+  more: "مزيد من الأمثلة"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "يدعم"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "عرض حي"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "التسعير"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      يجمع GroupDocs.Viewer for Java بين مجموعة قوية من واجهات برمجة تطبيقات عارض المستندات لعرض الصور وتنسيقات المستندات في تطبيقات Java الخاصة بك دون الحاجة إلى تثبيت برامج إضافية. يقوم في الأصل بتنقيط المستندات وتحويلها إلى SVG + HTML + CSS لتحسين جودة عرض المستندات مع تقديم مخرجات نصية عالية الدقة. باستخدام واجهة برمجة تطبيقات تقديم المستندات - يمكنك عرض ملفات PDF و HTML و XML و Microsoft Office Word وأوراق عمل Excel وعروض PowerPoint التقديمية ورسائل البريد الإلكتروني في Outlook ومخططات Visio والمشروع وملفات التعريف والصور وتنسيقات الملفات الأخرى المختلفة بسهولة وبأقل مخاطر البرمجة. يمكنه أيضًا عرض الملفات المحمية بكلمة مرور والسماح بالحصول على تمثيل المستند بتنسيق HTML أو صورة أو PDF بعد التقديم. مكتبة عارض الملفات الخاصة بنا قابلة للتخصيص تمامًا ، حيث تتيح لك عرض المستند بأكمله ، أو عرضه جزئيًا لتسريع العملية. من خلال GroupDocs.Viewer for Java API ، يمكنك عرض الصفحات أو نطاق خلايا معين في جدول بيانات أو حتى عرض طبقة مستند فردية بتنسيقات ، مثل PDF و CAD.  
+  enable: true
+  title: "GroupDocs.Viewer في لمحة"
+  description: "API لعرض وعرض وتحويل المستندات والشرائح والرسوم البيانية والعديد من أنواع المستندات الأخرى في تطبيقات Java"
+  features:
+    # feature loop
+    - title: "عرض المستندات بكفاءة وموثوقية"
+      content: "باستخدام GroupDocs.Viewer API، يمكنك عرض المستندات بكفاءة من أي تنسيقات مدعومة إلى HTML وJPEG وPNG وPDF مع خيارات مرنة وقوية مع الحفاظ على سلامة المحتوى وبنية المستند. يعمل GroupDocs.Viewer على نظامي التشغيل Windows وLinux."
 
-      يسمح لك GroupDocs.Viewer for Java API بتقديم المستندات مع / بدون تعليق أو تعليقات لتنسيقات الملفات المدعومة. كما أنه يمكّنك من إضافة أدلة خطوط مخصصة واستخراج معلومات المستند الأساسية مثل نوع الملف والإمتداد والاسم وعدد الصفحات وما إلى ذلك.  
+    # feature loop
+    - title: "يتم دعم تنسيقات الملفات والمستندات الأكثر شيوعًا"
+      content: "نحن ندعم عرض أكثر من 180 تنسيقًا من تنسيقات الملفات والمستندات الأكثر شيوعًا والتي تشمل Word وExcel وPDF وPowerPoint ومجموعة تنسيقات OpenDocument والأرشيفات والصور النقطية والمتجهة والكتب الإلكترونية ولغات البرمجة والعلامات المميزة والعديد من أنواع الملفات الأخرى، بما في ذلك الملفات المشفرة الملفات مع حماية كلمة المرور."
 
-      GroupDocs.Viewer for Java متوافق مع جميع إصدارات Java ويدعم أنظمة التشغيل الشائعة (Windows و Linux و macOS) القادرة على تشغيل Java runtime.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          فيما يلي نظرة عامة على GroupDocs.Viewer لجافا:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "ملخص"
-          content: |
-            * عرض 170+ أنواع المستندات 
-            * احصل على إصدار HTML ، صورة ، PDF 
-            * تدوير وإعادة الترتيب 
-            * تطبيق العلامة المائية 
-            * ذاكرة التخزين المؤقت لعملية سريعة 
-            * إضافة خطوط مخصصة 
-            * تطبيق معايير الترميز 
-            * معالج بيانات الإدخال المخصص 
-            * تقديم مع تتبع التغييرات 
-            * تقديم بتنسيق HTML متجاوب 
-            * تقديم طبقات PDF و CAD 
-            * تقديم الملفات المحمية 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer for Java يدعم جميع تنسيقات ملفات المستندات الشائعة بما في ذلك: Microsoft Office والصور والرسوم البيانية وغيرها الكثير.
+    # feature loop
+    - title: "إخراج قابل للتخصيص"
+      content: "لا يسمح GroupDocs.Viewer بعرض المستند فحسب، بل يسمح أيضًا بالتحكم في كيفية عرض أجزاء المستند بالضبط أو الآن، وكيفية عرضها، وتطبيق تحويلات مختلفة على المخرجات المقدمة."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "واجهة مستخدم الويب لإطار الربيع"
+      content: "نحن نقدم حزمة واجهة مستخدم مفتوحة المصدر لإطار عمل Spring والتي يمكن إضافتها إلى مشروعك في بضع دقائق. تحتوي حزمة Viewer.UI على واجهة مستخدم ويب مستندة إلى Angular وتوفر مجموعة من واجهات برمجة التطبيقات المفيدة وموفري تخزين البيانات."
 
-            # table loop
-            - title: "تنسيقات أخرى"
-              content: |
-                * **ملفات تخطيط الصفحة:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **قيم مفصولة عن المحددات:** CSV, TSV
-                * **الويب:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **أرشيف:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **متنوع:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "استقلالية المنصة"
+  description: "يدعم GroupDocs.Viewer for Java أنظمة التشغيل وأطر العمل ومديري الحزم التالية"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "الصور والرسومات والمخططات"
-              content: |
-                * **الصور:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **رمز Windows:** ICO
-                * **الرسومات المتجهات قابلة لل:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **أدوبي فوتوشوب:** PSD, PSB
-                * **لغة أوامر الطابعة:** PCL
-                * **الطباعة الحجرية المجسمة (طباعة ثلاثية الأبعاد):** STL
-                * **فئات مؤسسة الصناعة:** IFC
-                * **التصوير الطبي:** DICOM
-                * **وثائق الراسمة:** PLT, HPG
-                * **تنسيقات تصميم الويب أوتوديسك:** DWF, DWG
-                * **رسم أوتوكاد:** DWT, IFC, STL, CF2
-                * **DGN المستندة إلى ISFF (V7):** DGN
 
-            # table loop
-            - title: "تنسيقات لغات البرمجة"
-              content: |
-                * **ملفات C / C ++ / C #:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **ملفات جافا / جافا سكريبت:** JAVA, JS, JSON, PROPERTIES
-                * **متنوع:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer for Java يدعم أنظمة التشغيل والأطر ومديري الحزم التالية:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "أنظمة التشغيل"
-              content: |
-                * نظام التشغيل Microsoft Windows Server 2003 والإصدارات الأحدث 
-                * Microsoft Windows XP والإصدارات الأحدث 
-                * نظام التشغيل Microsoft Windows 10 و 11 
-                * Linux (Ubuntu و OpenSUSE و CentOS وغيرها) 
-                * نظام التشغيل Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "الأطر المدعومة"
-              content: |
-                * J2SE 8.0 (1.8) أو أعلى (على سبيل المثال Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "بيئات التنمية"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "أداة البناء الآلي"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "تنسيقات الملفات المدعومة"
+  description: |
+    يدعم GroupDocs.Viewer for Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office وOpenDocument وتنسيقات النص
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### الصور والرسومات والرسوم البيانية
+        * **الصور النقطية:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### آخر        
+        * **ويب:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **أرشيف:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **آخر:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer لميزات جافا"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "عارض HTML و PDF والصور و Word و Excel وتنسيقات المستندات الأخرى"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "تقديم ملفات رسومات AutoCAD (DWG) إلى تنسيق SVG"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "ضبط لون الخلفية للملف المحول"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "تنقيط المستندات وتحويلها إلى SVG و HTML و CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "احصل على تمثيل HTML أو صورة أو PDF للمستندات من خلال التقديم"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "إصدارات المستندات المخزنة مؤقتًا لجعل وقت التحميل أسرع"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "تكوين دلائل الخطوط المخصصة"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "تطبيق معايير الترميز على مستندات Word و Excel والبريد الإلكتروني"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "عرض المستندات عن بُعد في FTP أو Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "إزالة أو الاحتفاظ بالتعليقات التوضيحية والتعليقات أثناء العرض"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "تجسيد صفحات المستند كصفحات HTML منفصلة"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "عرض الشرائح والصفحات المخفية وتطبيق إعادة ترتيب الصفحة على المستند المقدم"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "عرض نطاق من الصفحات أو صفحات معينة أو كل الصفحات إلى HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "تقديم أو إخفاء تعليقات المستند"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "قم بإنشاء HTML سريع الاستجابة لبعض تنسيقات المستندات من خلال التقديم"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "تقليل حجم الملف الناتج لـ HTML الذي تم عرضه عن طريق استبعاد الخطوط"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "قم بإزالة التعليقات والمسافات البيضاء الزائدة وما إلى ذلك لتقليل إخراج HTML و CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "استخدم إحداثيات المستند المصدر لقراءة النص المتضمن"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "إظهار / إخفاء حدود الخلية في أوراق Excel الخاصة بالإخراج الذي تم عرضه"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "عرض عدد محدد من صفوف كل صفحة في ورقة Excel"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "تجسيد النموذج وجميع التخطيطات غير الفارغة أو تخطيط معين لملف CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "عرض العناصر في ملفات بيانات Outlook (OST / PST) كملف PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "عرض البلاط أو التقديم بواسطة إحداثيات مستندات CAD كصورة أو HTML أو PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "قم بتعيين قيود الطباعة عند التحويل إلى PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "واجهة برمجة تطبيقات فعالة وموثوقة لعرض المستندات"
-        content: |
-          يمكن استخدام GroupDocs.Viewer for Java API لعرض وعرض وعرض مستندات بأكثر من 150 تنسيقًا مختلفًا للملفات. يتم إجراء ذلك بشكل موثوق وفعال مع الحفاظ على المحتوى وكذلك هيكل المستند سليمًا. يوضح المثال التالي مستوى السهولة التي يعرض بها GroupDocs.Viewer for Java API ملف DOCX كملف صورة باستخدام Java:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "إجراء التحويلات أثناء تقديم المستندات"
-        content: "GroupDocs.Viewer for Java API يقدم لك خيارات تحويل متنوعة ليتم تطبيقها على المستند المقدم للحصول على عرض وعرض أكثر تخصيصًا. يمكنك تدوير الصفحات من خلال توفير الزاوية. يمكنك ترتيب الصفحات المقدمة. قم بتطبيق نص معين كعلامة مائية على الصفحات أو الصور المعروضة. من خلال GroupDocs.Viewer for Java API ، لديك أيضًا القدرة على إضافة خطوط مخصصة إلى المستند الذي يتم تقديمه."
-
-      # more_feature_loop
-      - title: "العمل مع مرفقات البريد الإلكتروني"
-        content: "يتيح لك GroupDocs.Viewer for Java API إحضار مرفقات معينة أو كلها من رسالة بريد إلكتروني. بمجرد حصولك على مرفقات البريد الإلكتروني المطلوبة ، يمكنك عرض هذه الملفات المرفقة على الصور أو HTML."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "تقدم GroupDocs.Viewer واجهات برمجة التطبيقات لعرض المستندات لبيئات التطوير الشائعة الأخرى"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "ميزات GroupDocs.Viewer"
+  description: "عرض وعرض وتحويل مستندات PDF وOffice بسهولة"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "عرض المستندات بتنسيق HTML"
+      content: "قم بتحويل مستند من أي نوع إلى مستند HTML باستخدام CSS وSVG، والذي يمكن عرضه في أي متصفح ويب حديث."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "تنقيط المستندات"
+      content: "قم بتنقيط أي تنسيق مستند مدعوم إلى الصورة النقطية، مع تنسيق صورة قابل للتعديل وجودة ضغط."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "تقديم وإبراز رموز البرمجة"
+      content: "دعم جميع لغات البرمجة والبرمجة النصية والترميزية الشائعة، مع القدرة على تحليل تركيبها وإبرازها."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "تحويل إلى قوات الدفاع الشعبي"
+      content: "يمكن بسهولة تحويل المستند بأي تنسيق مدعوم وحفظه إلى ملف PDF باستخدام خيارات قابلة للتعديل."
+
+    # feature loop
+    - icon: "transform"
+      title: "تطبيق التحولات"
+      content: "يمكن تحويل المستند الناتج أثناء العرض - يمكن تدوير الصفحات و/أو إعادة ترتيبها، ويمكن وضع علامة مائية نصية فوقها."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "تعديل إخراج HTML"
+      content: "يمكن ضبط مستندات HTML الناتجة، التي تم إنشاؤها بواسطة GroupDocs.Viewer، بدقة شديدة: يُسمح بحفظها في الدفق أو الملف، باستخدام موارد خارجية أو مضمنة، وعمليات الاسترجاعات وما إلى ذلك."
+
+    # feature loop
+    - icon: "complex"
+      title: "دعم هياكل المستندات المعقدة"
+      content: "لا يدعم GroupDocs.Viewer المستندات الفردية فحسب، بل يدعم أيضًا الملفات التي تحتوي داخليًا على قائمة أو بنية هرمية للمستندات، مثل رسائل البريد الإلكتروني مع المرفقات وأرشيفات ZIP مع الملفات الداخلية داخل المجلدات وصور TIFF متعددة الصفحات وما إلى ذلك."
+
+    # feature loop
+    - icon: "optimization"
+      title: "خيارات التحسين"
+      content: "يحتوي GroupDocs.Viewer على نظام فرعي لذاكرة التخزين المؤقت قابل للتعديل، والذي يمكنه تسريع وقت التحميل باستخدام الإصدارات المخزنة مؤقتًا للمستندات. تسمح أيضًا مجموعة من الخيارات المختلفة للتنسيقات المختلفة باستبعاد بعض الأجزاء أو الجوانب غير الضرورية من المستندات من العرض (الخطوط وأوراق العمل المخفية ومرفقات البريد الإلكتروني) لتحسين الأداء العام"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "دعم المستندات المحمية بكلمة مرور"
+      content: "يسمح GroupDocs.Viewer بفتح المستندات المشفرة بمختلف أنواعها: PDF وWordProcessing وSpreadsheet وPresentation وغيرها، وذلك عن طريق تحديد كلمة مرور في خيارات التحميل."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "عينات التعليمات البرمجية"
+  description: "تستخدم بعض حالات GroupDocs.Viewer النموذجية لعمليات Java"
+  items:
+    # code sample loop
+    - title: "تقديم DOCX إلى HTML"
+      content: |
+        تتيح لك خصائص فئة [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) التحكم في عملية التحويل، المزيد عن ذلك [هنا](https:/ /docs.groupdocs.com/viewer/Java/rendering-to-html/). على سبيل المثال، يمكنك تضمين كافة الموارد الخارجية في ملف HTML الناتج، وتصغير ملف الإخراج، وتحسينه للطباعة.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "تصدير PPTX إلى PDF"
+      content: |
+        قم بإنشاء مثيل فئة [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) وقم بتمريره إلى [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) طريقة لتحويل ملف PowerPoint PPTX إلى PDF. تتيح لك خصائص فئة PdfViewOptions التحكم في عملية التحويل. على سبيل المثال، يمكنك حماية ملف PDF الناتج وإعادة ترتيب صفحاته وتحديد جودة صور المستند. راجع [قسم الوثائق التالي](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) للحصول على التفاصيل.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "مراجعات منتجات GroupDocs"
+# description: "لا تأخذ كلمتنا فقط. تعرف على ما يقوله المطورون الآخرون عن واجهات برمجة التطبيقات الخاصة بنا"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "خدمة ممتازة ومنتجات ممتازة. لقد كانت مفيدة للغاية وسريعة الاستجابة أثناء عملية تنفيذ GroupDocs.Viewer for .NET، ولا يمكنني أن أوصي بها بدرجة كافية."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "بعد تنفيذ واستخدام GroupDocs.Viewer لـ .NET في المشروع، يبدو أنه يعمل بشكل جيد جدًا. لقد اختبرت مع الكثير من الوثائق وحتى الآن جيدة جدًا. يتم عرض كل شيء قمت بتطبيقه بشكل جيد ويبدو جيدًا تمامًا كما هو الحال في عارض PDF أو MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

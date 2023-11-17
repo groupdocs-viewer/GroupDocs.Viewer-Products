@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: id
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "API Penampil Dokumen Java untuk Gambar & Email PDF Word Excel HTML"
-head_description: "Penampil dokumen Java & file rendering API. Tambahkan penampil PDF, Penampil Word, Penampil Excel, Penampil gambar, Penampil HTML, Penampil email dalam aplikasi Java."
+head_title: "API Penampil Dokumen Java, render Diagram HTML Gambar PDF Word Excel"
+head_description: "Pustaka Penampil Dokumen untuk mengembangkan aplikasi Java yang secara asli merender, melihat, dan memanipulasi dokumen multi-format yang mendukung 180+ format file."
 
 ############################# Header ############################
-title: "Java API untuk Merender & Menampilkan Dokumen"
-description: "Pustaka Penampil Dokumen untuk Mengembangkan Aplikasi Java yang Merender, Melihat, dan Memanipulasi Secara Native, Dokumen Multi-Format Mendukung 170+ Format File."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "Render & tampilkan dokumen<br>menggunakan Java API"
+description: "API Penampil yang kuat untuk merender 180+ format dokumen menjadi PDF, HTML, dan Gambar dengan opsi konfigurasi serbaguna."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "Unduhan Maven Gratis"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Viewer secara gratis atau minta lisensi"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Ringkasan"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Fitur"
+code:
+  title: "Render file PDF di Java"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "Mendukung"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Demo Langsung"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Harga"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer untuk Java menggabungkan sekumpulan API penampil dokumen yang andal untuk menampilkan gambar dan format dokumen dalam aplikasi Java Anda tanpa perlu menginstal perangkat lunak tambahan. Ini secara alami meraster dokumen dan mengonversinya menjadi SVG+HTML+CSS untuk meningkatkan kualitas tampilan dokumen sambil memberikan output teks-benar, fidelitas tinggi. Menggunakan API rendering dokumen – dengan cepat melihat PDF, HTML, XML, Microsoft Office Word, lembar kerja Excel, presentasi PowerPoint, email Outlook, diagram Visio, Proyek, metafile, gambar, dan berbagai format file lainnya dengan mudah dan lebih sedikit bahaya pemrograman. Itu juga dapat menampilkan file yang dilindungi kata sandi dan memungkinkan untuk mendapatkan representasi dokumen sebagai bentuk HTML, gambar atau PDF setelah rendering. Pustaka penampil file kami cukup dapat disesuaikan, karena memungkinkan Anda untuk menampilkan seluruh dokumen, atau merendernya sebagian untuk mempercepat proses. Melalui GroupDocs.Viewer untuk Java API, Anda dapat melihat halaman, rentang sel tertentu dalam spreadsheet, atau bahkan merender lapisan dokumen individual dalam format, seperti PDF dan CAD.  
+  enable: true
+  title: "Sekilas tentang GroupDocs.Viewer"
+  description: "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi Java"
+  features:
+    # feature loop
+    - title: "Lihat dokumen secara efisien & andal"
+      content: "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer berfungsi pada platform Windows dan Linux."
 
-      GroupDocs.Viewer untuk Java API memungkinkan Anda merender dokumen dengan/tanpa anotasi atau komentar untuk format file yang didukung. Ini juga memungkinkan Anda untuk menambahkan direktori font khusus dan mengekstrak informasi dokumen dasar seperti FileType, Extension, Name, PageCount, dll.  
+    # feature loop
+    - title: "Sebagian besar format file dan dokumen populer didukung"
+      content: "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi."
 
-      GroupDocs.Viewer untuk Java kompatibel dengan semua versi Java dan mendukung sistem operasi populer (Windows, Linux, macOS) yang mampu menjalankan runtime Java.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Berikut adalah ikhtisar GroupDocs.Viewer untuk Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Ringkasan"
-          content: |
-            * Tampilkan 170+ Jenis Dokumen 
-            * Dapatkan HTML, Gambar, Versi PDF 
-            * Putar & Susun Ulang 
-            * Terapkan Tanda Air 
-            * Cache untuk Proses Cepat 
-            * Tambahkan Font Kustom 
-            * Terapkan Standar Pengodean 
-            * Penangan Data Input Kustom 
-            * Render dengan Lacak Perubahan 
-            * Render sebagai HTML Responsif 
-            * Render Lapisan PDF & CAD 
-            * Render File yang Dilindungi 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer untuk Java mendukung semua format file dokumen populer termasuk: Microsoft Office, gambar, diagram, dan banyak lainnya.
+    # feature loop
+    - title: "Keluaran yang dapat disesuaikan"
+      content: "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "UI Web untuk kerangka Spring"
+      content: "Kami menyediakan paket UI sumber terbuka untuk kerangka Spring yang dapat ditambahkan ke proyek Anda dalam beberapa menit. Paket Viewer.UI berisi UI web berbasis Angular dan memberikan serangkaian API dan penyedia penyimpanan data yang berguna."
 
-            # table loop
-            - title: "Format Lainnya"
-              content: |
-                * **File Tata Letak Halaman:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Nilai yang Dipisahkan Pembatas:** CSV, TSV
-                * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Arsip:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Bermacam-macam:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Viewer untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Gambar, Grafik & Diagram"
-              content: |
-                * **Gambar-gambar:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Ikon Jendela:** ICO
-                * **Grafik Vektor yang Dapat Diskalakan:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Bahasa Perintah Pencetak:** PCL
-                * **Litografi Stereo (Pencetakan 3D):** STL
-                * **Kelas Yayasan Industri:** IFC
-                * **Pencitraan medis:** DICOM
-                * **Dokumen Plotter:** PLT, HPG
-                * **Format Web Desain Autodesk:** DWF, DWG
-                * **Menggambar AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN berbasis ISFF (V7):** DGN
 
-            # table loop
-            - title: "Format Bahasa Pemrograman"
-              content: |
-                * **File C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **File Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Bermacam-macam:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer untuk Java mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Microsoft Windows Server 2003 dan yang lebih baru 
-                * Microsoft Windows XP dan yang lebih baru 
-                * Microsoft Windows 10 & 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS dan lainnya) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Framework yang Didukung"
-              content: |
-                * J2SE 8.0 (1.8) atau lebih tinggi (misalnya Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Bangun Alat Otomasi"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Viewer untuk Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument dan format teks
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar, Grafik & Diagram
+        * **Gambar raster:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Lainnya        
+        * **jaring:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Arsip:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Lainnya:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer untuk Fitur Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Penampil untuk HTML, PDF, Gambar, Word, Excel & Format Dokumen lainnya"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Render file Gambar AutoCAD (DWG) ke format SVG"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Sesuaikan Warna Latar Belakang File yang Dikonversi"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Raster dan Konversi Dokumen menjadi SVG, HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Dapatkan Representasi Dokumen HTML, Gambar, atau PDF melalui Rendering"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Versi Tembolok Dokumen untuk Mempercepat Waktu Pemuatan"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Konfigurasikan Direktori Font Kustom"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Menerapkan Standar Pengodean ke Dokumen Word, Excel, dan Email"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Render Dokumen dari jarak jauh di FTP atau Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Hapus atau Simpan Anotasi & Komentar saat Rendering"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Render Halaman Dokumen sebagai Halaman HTML Terpisah"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Render Slide dan Halaman Tersembunyi & Terapkan Penyusunan Ulang Halaman ke Dokumen yang Dirender"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Render Rentang Halaman, Halaman Tertentu atau Semua Halaman ke dalam HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Render atau sembunyikan komentar dokumen"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Buat HTML Responsif untuk Beberapa Format Dokumen melalui Rendering"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Kurangi Ukuran File yang Dihasilkan dari HTML yang Dirender dengan Mengecualikan Font"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Hapus Komentar, Spasi Putih Ekstra dll, untuk Memperkecil Keluaran HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Gunakan Koordinat Dokumen Sumber untuk Membaca Teks Terkandung"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Tampilkan/Sembunyikan Perbatasan Sel di Lembar Excel dari Output yang Diberikan"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Render Jumlah Baris Spesifik dari Setiap Halaman dalam Lembar Excel"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Model Render dan semua Tata Letak Tidak Kosong atau Tata Letak Tertentu dari File CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Render Item di File Data Outlook (OST/PST) sebagai PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Rendering Ubin atau Render oleh Koordinat Dokumen CAD sebagai Gambar, HTML, atau PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Tetapkan batasan pencetakan saat merender ke PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "API Efisien & Andal untuk Melihat Dokumen"
-        content: |
-          GroupDocs.Viewer untuk Java API dapat digunakan untuk melihat, merender, dan menampilkan dokumen dengan lebih dari 150 format file yang berbeda. Itu dilakukan dengan andal dan efisien sambil menjaga konten serta struktur dokumen tetap utuh. Contoh berikut menunjukkan tingkat kemudahan GroupDocs.Viewer untuk Java API merender file DOCX sebagai file gambar menggunakan Java:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "Lakukan Transformasi Saat Merender Dokumen"
-        content: "GroupDocs.Viewer untuk Java API menawarkan berbagai opsi transformasi untuk diterapkan pada dokumen yang dirender untuk tampilan dan tampilan yang lebih disesuaikan. Anda dapat memutar halaman dengan memberikan sudut. Anda dapat mengurutkan halaman yang dirender. Terapkan teks tertentu sebagai tanda air ke halaman atau gambar yang dirender. Melalui GroupDocs.Viewer untuk Java API, Anda juga dapat menambahkan font khusus ke dokumen yang sedang dirender."
-
-      # more_feature_loop
-      - title: "Bekerja dengan Lampiran Email"
-        content: "GroupDocs.Viewer untuk Java API memungkinkan Anda mengambil lampiran tertentu atau semua email. Setelah Anda mendapatkan lampiran email yang diperlukan, Anda dapat merender file lampiran ini menjadi gambar atau HTML."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "Fitur GroupDocs.Viewer"
+  description: "Render, tampilkan, dan konversi PDF dan Dokumen Office dengan lancar"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Lihat dokumen dalam HTML"
+      content: "Ubah dokumen jenis apa pun menjadi dokumen HTML dengan CSS dan SVG, yang dapat ditampilkan di browser web modern mana pun."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "Rasterisasi dokumen"
+      content: "Rasterisasi format dokumen apa pun yang didukung ke gambar raster, dengan format gambar dan kualitas kompresi yang dapat disesuaikan."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "Render dan sorot kode pemrograman"
+      content: "Dukungan untuk semua bahasa pemrograman, skrip, dan markup populer, dengan kemampuan untuk mengurai dan menyorot sintaksisnya."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "Konversikan ke PDF"
+      content: "Dokumen format apa pun yang didukung dapat dengan mudah dikonversi dan disimpan ke PDF dengan opsi yang dapat disesuaikan."
+
+    # feature loop
+    - icon: "transform"
+      title: "Terapkan transformasi"
+      content: "Dokumen keluaran dapat diubah selama rendering - halaman dapat diputar dan/atau disusun ulang, dan tanda air teks dapat ditempatkan di atasnya."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "Penyesuaian keluaran HTML"
+      content: "Dokumen HTML keluaran, yang dihasilkan oleh GroupDocs.Viewer, dapat disetel dengan sangat baik: diperbolehkan untuk menyimpan ke aliran atau file, dengan sumber daya eksternal atau tertanam, panggilan balik, dan sebagainya."
+
+    # feature loop
+    - icon: "complex"
+      title: "Dukungan struktur dokumen yang kompleks"
+      content: "GroupDocs.Viewer tidak hanya mendukung satu dokumen, tetapi juga file, yang secara internal berisi daftar atau struktur hierarki dokumen, seperti pesan email dengan lampiran, arsip ZIP dengan file internal di dalam folder, gambar TIFF multi-halaman, dan sebagainya."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Opsi pengoptimalan"
+      content: "GroupDocs.Viewer berisi subsistem cache yang dapat disesuaikan, yang dapat mempercepat waktu pemuatan dengan menggunakan versi dokumen yang di-cache. Juga serangkaian opsi berbeda untuk format berbeda memungkinkan untuk mengecualikan beberapa bagian atau aspek dokumen yang tidak diperlukan dari rendering (font, lembar kerja tersembunyi, lampiran email) untuk mengoptimalkan kinerja keseluruhan"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Dukungan dokumen yang dilindungi kata sandi"
+      content: "GroupDocs.Viewer memungkinkan untuk membuka dokumen terenkripsi dari berbagai jenis: PDF, WordProcessing, Spreadsheet, Presentasi, dan lainnya, dengan menentukan kata sandi dalam opsi pemuatan."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan GroupDocs.Viewer khas untuk operasi Java"
+  items:
+    # code sample loop
+    - title: "Render DOCX ke HTML"
+      content: |
+        Properti kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Ekspor PPTX ke PDF"
+      content: |
+        Buat instance kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) dan teruskan ke [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metode untuk mengonversi file PowerPoint PPTX ke PDF. Properti kelas PdfViewOptions memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) untuk detailnya.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Ulasan produk GroupDocs"
+# description: "Jangan hanya percaya kata-kata kami begitu saja. Lihat apa yang dikatakan pengembang lain tentang API kami"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Pelayanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama proses implementasi GroupDocs.Viewer untuk .NET, dan sangat merekomendasikannya."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Setelah mengimplementasikan dan menggunakan GroupDocs.Viewer untuk .NET dalam proyek tersebut tampaknya berfungsi dengan baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya berikan ditampilkan dengan baik dan terlihat sama bagusnya dengan penampil PDF atau MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

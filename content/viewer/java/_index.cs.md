@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: cs
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API pro PDF Word Excel HTML obrázky a e-maily"
-head_description: "Prohlížeč dokumentů Java a rozhraní API pro vykreslování souborů. Přidejte prohlížeč PDF, prohlížeč Word, prohlížeč Excel, prohlížeč obrázků, prohlížeč HTML, prohlížeč e-mailů v aplikacích Java."
+head_title: "Java Document Viewer API, render PDF Word Excel Obrázek HTML Diagram"
+head_description: "Knihovna Document Viewer pro vývoj aplikací Java, které nativně vykreslují, prohlížejí a manipulují s víceformátovými dokumenty podporujícími více než 180 formátů souborů."
 
 ############################# Header ############################
-title: "Java API pro vykreslování a zobrazování dokumentů"
-description: "Knihovna prohlížeče dokumentů pro vývoj aplikací Java, které nativně vykreslují, prohlížejí a manipulují s dokumenty ve více formátech podporujících více než 170 formátů souborů."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "Vykreslování a zobrazování dokumentů<br>pomocí Java API"
+description: "Výkonné rozhraní Viewer API pro vykreslování více než 180 formátů dokumentů do PDF, HTML a obrázků s všestrannými možnostmi konfigurace."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "Maven ke stažení zdarma"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "Licencování"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "Jste připraveni začít?"
+  description: "Vyzkoušejte funkce GroupDocs.Viewer zdarma nebo si vyžádejte licenci"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Přehled"
+release:
+  title: "Vydána verze {0}"
+  notes: "Podívejte se, co je nového"
+  downloads: "Stahování"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Funkce"
+code:
+  title: "Vykreslování souborů PDF v Javě"
+  more: "Další příklady"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "Podpěra, podpora"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Živá ukázka"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Ceny"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer for Java kombinuje výkonnou sadu rozhraní API pro prohlížení dokumentů pro zobrazení obrázků a formátů dokumentů ve vašich aplikacích Java bez nutnosti instalace dalšího softwaru. Nativně rastruje dokumenty a převádí je do formátu SVG+HTML+CSS pro zvýšení kvality prohlížení dokumentů a zároveň poskytuje věrný text s vysokou věrností výstupu. Pomocí rozhraní API pro vykreslování dokumentů – rychle prohlížejte PDF, HTML, XML, Microsoft Office Word, pracovní listy Excelu, prezentace PowerPoint, e-maily z Outlooku, diagramy Visio, Project, metasoubory, obrázky a různé další formáty souborů s lehkostí a menším nebezpečím programování. Může také zobrazovat soubory chráněné heslem a po vykreslení umožňuje získat reprezentaci dokumentu jako HTML, obrázek nebo PDF. Naše knihovna prohlížeče souborů je docela přizpůsobitelná, protože vám umožňuje zobrazit celý dokument nebo jej částečně vykreslit, aby se proces urychlil. Prostřednictvím GroupDocs.Viewer for Java API můžete prohlížet stránky, konkrétní rozsah buněk v tabulce nebo dokonce vykreslovat jednotlivé vrstvy dokumentu ve formátech, jako je PDF a CAD.  
+  enable: true
+  title: "GroupDocs.Viewer na první pohled"
+  description: "API pro vykreslování, zobrazení, převod dokumentů, snímků, diagramů a mnoha dalších typů dokumentů v aplikacích Java"
+  features:
+    # feature loop
+    - title: "Prohlížejte dokumenty efektivně a spolehlivě"
+      content: "S GroupDocs.Viewer API můžete efektivně vykreslovat dokumenty všech podporovaných formátů do HTML, JPEG, PNG a PDF s flexibilními a výkonnými možnostmi při zachování integrity obsahu a struktury dokumentu. GroupDocs.Viewer funguje na platformách Windows a Linux."
 
-      GroupDocs.Viewer for Java API umožňuje vykreslovat dokumenty s/bez anotací nebo komentářů pro podporované formáty souborů. Umožňuje také přidávat vlastní adresáře písem a extrahovat základní informace o dokumentu, jako je FileType, Extension, Name, PageCount atd.  
+    # feature loop
+    - title: "Jsou podporovány nejoblíbenější formáty souborů a dokumentů"
+      content: "Podporujeme vykreslování více než 180 nejoblíbenějších formátů souborů a dokumentů, které zahrnují Word, Excel, PDF, PowerPoint, rodinu formátů OpenDocument, archivy, rastrové a vektorové obrázky, e-knihy, programovací jazyky a značky a mnoho dalších typů souborů, včetně šifrovaných soubory s ochranou heslem."
 
-      GroupDocs.Viewer for Java je kompatibilní se všemi verzemi Java a podporuje oblíbené operační systémy (Windows, Linux, macOS), které jsou schopny spouštět Java runtime.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Následuje přehled GroupDocs.Viewer pro Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Přehled"
-          content: |
-            * Zobrazit více než 170 typů dokumentů 
-            * Získejte HTML, obrázek, PDF verzi 
-            * Otočit a změnit pořadí 
-            * Použít vodoznak 
-            * Mezipaměť pro rychlý proces 
-            * Přidat vlastní písma 
-            * Použít standardy kódování 
-            * Vlastní popisovač vstupních dat 
-            * Render se sledováním změn 
-            * Vykreslit jako responzivní HTML 
-            * Vykreslování vrstev PDF a CAD 
-            * Vykreslit chráněné soubory 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer for Java podporuje všechny oblíbené formáty souborů dokumentů včetně: Microsoft Office, obrázků, diagramů a mnoha dalších.
+    # feature loop
+    - title: "Přizpůsobitelný výstup"
+      content: "GroupDocs.Viewer umožňuje nejen vykreslovat dokument, ale také řídit, jak přesně, které části dokumentu by měly být vykresleny nebo nyní, jak by měly být vykresleny, a aplikovat různé transformace na vykreslený výstup."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Webové uživatelské rozhraní pro Spring framework"
+      content: "Poskytujeme balíček uživatelského rozhraní s otevřeným zdrojovým kódem pro framework Spring, který lze do vašeho projektu přidat během několika minut. Balíček Viewer.UI obsahuje webové uživatelské rozhraní založené na Angular a poskytuje sadu užitečných rozhraní API a poskytovatelů úložiště dat."
 
-            # table loop
-            - title: "Jiné formáty"
-              content: |
-                * **Soubory rozvržení stránky:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Hodnoty oddělené oddělovačem:** CSV, TSV
-                * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Archiv:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Rozličný:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Nezávislost na platformě"
+  description: "GroupDocs.Viewer for Java podporuje následující operační systémy, rámce a správce balíčků"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Obrázky, grafika a diagramy"
-              content: |
-                * **snímky:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Ikona Windows:** ICO
-                * **Škálovatelná vektorová grafika:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Příkazový jazyk tiskárny:** PCL
-                * **Stereo litografie (3D tisk):** STL
-                * **Průmyslové základní třídy:** IFC
-                * **Lékařské zobrazování:** DICOM
-                * **Dokumenty plotru:** PLT, HPG
-                * **Webové formáty Autodesk Design:** DWF, DWG
-                * **Výkres AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN založené na ISFF (V7):** DGN
 
-            # table loop
-            - title: "Formáty programovacích jazyků"
-              content: |
-                * **Soubory C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Soubory Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Rozličný:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer for Java podporuje následující operační systémy, rámce a správce balíčků:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operační systémy"
-              content: |
-                * Microsoft Windows Server 2003 a novější 
-                * Microsoft Windows XP a novější 
-                * Microsoft Windows 10 a 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS a další) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podporované rámce"
-              content: |
-                * J2SE 8.0 (1.8) nebo vyšší (například Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Vývojová prostředí"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Nástroj Build Automation Tool"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Podporované formáty souborů"
+  description: |
+    GroupDocs.Viewer for Java podporuje operace s následujícími [formáty souborů](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument a textové formáty
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Obrázky, grafika a diagramy
+        * **Rastrové obrázky:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### jiný        
+        * **Web:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Archiv:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **jiný:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer pro funkce Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Prohlížeč pro HTML, PDF, obrázky, Word, Excel a další formáty dokumentů"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Renderujte soubory výkresů AutoCAD (DWG) do formátu SVG"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Upravte barvu pozadí převedeného souboru"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Rastrujte a převádějte dokumenty do SVG, HTML a CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Získejte HTML, obrázek nebo PDF reprezentaci dokumentů prostřednictvím vykreslování"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Verze dokumentů uložené v mezipaměti pro rychlejší načítání"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Konfigurace vlastních adresářů písem"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Použijte standardy kódování na dokumenty Word, Excel a e-mail"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Vzdáleně vykreslovat dokumenty na FTP nebo Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Odebrat nebo ponechat poznámky a komentáře při vykreslování"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Vykreslit stránky dokumentu jako samostatné stránky HTML"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Vykreslit skryté snímky a stránky a použít změnu pořadí stránek na vykreslený dokument"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Vykreslení rozsahu stránek, konkrétních stránek nebo všech stránek do HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Vykreslit nebo skrýt komentáře dokumentu"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Vytvořte responzivní HTML pro některé formáty dokumentů pomocí vykreslování"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Snižte velikost výsledného souboru vykresleného HTML vyloučením písem"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Odstraňte komentáře, bílé mezery atd., abyste minimalizovali výstupní HTML a CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Ke čtení obsaženého textu použijte souřadnice zdrojového dokumentu"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Zobrazit/skrýt ohraničení buňky v listech Excelu vykresleného výstupu"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Vykreslení určitého počtu řádků každé stránky v listu aplikace Excel"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Vykreslit model a všechna neprázdná rozvržení nebo konkrétní rozvržení souboru CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Vykreslete položky v datových souborech aplikace Outlook (OST/PST) jako PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Vykreslování dlaždic nebo vykreslování podle souřadnic CAD dokumentů jako obrázek, HTML nebo PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Nastavte omezení tisku při vykreslování do PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Efektivní a spolehlivé API pro prohlížení dokumentů"
-        content: |
-          GroupDocs.Viewer for Java API lze použít k prohlížení, vykreslování a zobrazování dokumentů více než 150 různých formátů souborů. Provádí se spolehlivě a efektivně při zachování obsahu i struktury dokumentu. Následující příklad ukazuje úroveň snadnosti, s jakou GroupDocs.Viewer for Java API vykresluje soubor DOCX jako obrazový soubor pomocí Java:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "Provádějte transformace při vykreslování dokumentů"
-        content: "GroupDocs.Viewer for Java API vám nabízí různé možnosti transformace, které lze použít na vykreslený dokument pro přizpůsobení zobrazení a zobrazení. Stránky můžete otáčet zadáním úhlu. Můžete si pořadí vykreslených stránek. Použijte konkrétní text jako vodoznak na vykreslené stránky nebo obrázky. Prostřednictvím GroupDocs.Viewer for Java API máte také možnost přidávat do vykreslovaného dokumentu vlastní písma."
-
-      # more_feature_loop
-      - title: "Práce s e-mailovými přílohami"
-        content: "GroupDocs.Viewer for Java API umožňuje načíst konkrétní nebo všechny přílohy e-mailu. Jakmile získáte požadované přílohy e-mailu, můžete tyto připojené soubory vykreslit jako obrázky nebo HTML."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer nabízí rozhraní API pro prohlížení dokumentů pro další populární vývojová prostředí"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "Funkce GroupDocs.Viewer"
+  description: "Bezproblémově vykreslujte, zobrazujte a převádějte PDF a dokumenty Office"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Prohlížení dokumentů v HTML"
+      content: "Převeďte dokument jakéhokoli typu do HTML dokumentu pomocí CSS a SVG, který lze zobrazit v jakémkoli moderním webovém prohlížeči."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "Rastrovat dokumenty"
+      content: "Rasterizujte jakýkoli podporovaný formát dokumentu na rastrový obrázek s nastavitelným formátem obrázku a kvalitou komprese."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "Vykreslování a zvýraznění programovacích kódů"
+      content: "Podpora všech oblíbených programovacích, skriptovacích a značkovacích jazyků se schopností analyzovat a zvýraznit jejich syntaxi."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "Převést do PDF"
+      content: "Dokument libovolného podporovaného formátu lze snadno převést a uložit do PDF s nastavitelnými možnostmi."
+
+    # feature loop
+    - icon: "transform"
+      title: "Použít transformace"
+      content: "Výstupní dokument lze během vykreslování transformovat - stránky lze otáčet a/nebo přeskupovat a na jejich horní stranu lze umístit textový vodoznak."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "Úprava výstupu HTML"
+      content: "Výstupní HTML dokumenty, generované GroupDocs.Viewerem, lze velmi jemně vyladit: je možné ukládat do streamu nebo souboru, s externími nebo vloženými zdroji, zpětnými voláními a tak dále."
+
+    # feature loop
+    - icon: "complex"
+      title: "Podpora složitých struktur dokumentů"
+      content: "GroupDocs.Viewer podporuje nejen jednotlivé dokumenty, ale také soubory, které interně obsahují seznam nebo hierarchickou strukturu dokumentů, jako jsou e-mailové zprávy s přílohami, archivy ZIP s interními soubory ve složkách, vícestránkové obrázky TIFF a tak dále."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Možnosti optimalizace"
+      content: "GroupDocs.Viewer obsahuje nastavitelný subsystém mezipaměti, který může zkrátit dobu načítání pomocí verzí dokumentů uložených v mezipaměti. Také sada různých možností pro různé formáty umožňuje vyloučit některé zbytečné části nebo aspekty dokumentů z vykreslování (fonty, skryté pracovní listy, přílohy e-mailů) pro optimalizaci celkového výkonu"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Podpora dokumentů chráněných heslem"
+      content: "GroupDocs.Viewer umožňuje otevřít zašifrované dokumenty různých typů: PDF, WordProcessing, Spreadsheet, Presentation a další, zadáním hesla v možnostech načítání."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Ukázky kódu"
+  description: "Některé případy použití typických operací GroupDocs.Viewer pro Java"
+  items:
+    # code sample loop
+    - title: "Vykreslit DOCX do HTML"
+      content: |
+        Vlastnosti třídy [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) vám umožňují řídit proces převodu, více o tom [zde](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Můžete například vložit všechny externí zdroje do výstupního souboru HTML, minimalizovat výstupní soubor a optimalizovat jej pro tisk.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Export PPTX do PDF"
+      content: |
+        Vytvořte instanci třídy [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) a předejte ji do [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metoda pro převod souboru PowerPoint PPTX do PDF. Vlastnosti třídy PdfViewOptions vám umožňují řídit proces převodu. Můžete například chránit výstupní soubor PDF, změnit pořadí jeho stránek a určit kvalitu obrazů dokumentů. Podrobnosti naleznete v [následující sekci dokumentace](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/).
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Recenze produktů GroupDocs"
+# description: "Neberte nás za slovo. Podívejte se, co o našich API říkají ostatní vývojáři"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Vynikající služby a skvělé produkty. Během procesu implementace GroupDocs.Viewer for .NET byli extrémně nápomocní a reagovali, nelze je dostatečně doporučit."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Po implementaci a použití GroupDocs.Viewer pro .NET v projektu to vypadá, že funguje velmi dobře. Testoval jsem se spoustou dokumentů a zatím dobrý. Všechno, co jsem na něj hodil, se pěkně vykresluje a vypadá stejně dobře, jako by to vypadalo v prohlížeči PDF nebo MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

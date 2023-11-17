@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: ka
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET Document Viewer API, Render PDF Word Excel Image HTML Diagram"
+head_title: ".NET დოკუმენტის მაყურებლის API, გამოაქვთ PDF Word Excel გამოსახულების HTML დიაგრამა"
 head_description: "C# ASP.NET ფაილის მაყურებელი და რენდერი API. დაამატეთ PDF მაყურებელი, Word მაყურებელი, Excel მაყურებელი, სურათების მაყურებელი, HTML მაყურებელი, ელფოსტის მაყურებლის ფუნქციები .NET აპებში."
 
 ############################# Header ##########################
-title: "დოკუმენტების რენდერი და ჩვენება .NET API-ით"
-description: ".NET Document Viewer API 190+ დოკუმენტის ფორმატის გადასაყვანად PDF, HTML და Image კონფიგურაციის მძლავრი ოფციებით."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "დოკუმენტების რენდერი და ჩვენება<br>.NET API-ის გამოყენებით"
+description: "მძლავრი Viewer API 180+ დოკუმენტის ფორმატის გადასაყვანად PDF, HTML და გამოსახულება მრავალმხრივი კონფიგურაციის ვარიანტებით."
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "უფასო NuGet ჩამოტვირთვა"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "ლიცენზირება"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "მზად ხართ დასაწყებად?"
+  description: "სცადეთ GroupDocs.Viewer ფუნქციები უფასოდ ან მოითხოვეთ ლიცენზია"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "მიმოხილვა"
+release:
+  title: "ვერსია {0} გამოვიდა"
+  notes: "ნახეთ რა არის ახალი"
+  downloads: "ჩამოტვირთვები"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "მახასიათებლები"
-
-            # button loop
-            - link: "#support"
-              text: "მხარდაჭერა"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "ცოცხალი დემო"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "ფასი"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "PDF ფაილების რენდერი C#-ში"
+  more: "მეტი მაგალითები"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer .NET API-ებისთვის დაგეხმარებათ შექმნათ მძლავრი აპლიკაციები C#, ASP.NET და სხვა .NET-ზე დაფუძნებულ ტექნოლოგიებში, რომლებსაც შეუძლიათ აჩვენონ და აჩვენონ 190+ ფაილის ფორმატის დოკუმენტები და სურათები გარე პროგრამული უზრუნველყოფის ინსტალაციის გარეშე. ფაილების მაყურებლის ბიბლიოთეკა ახდენს დოკუმენტების რასტერიზაციას და შემდეგ გარდაქმნის მათ SVG+HTML+CSS-ად, რათა ოპტიმიზაცია მოახდინოს დოკუმენტების გადაცემის საერთო გამოცდილებისთვის ბიზნეს დოკუმენტების, სურათების, ტექსტური ფაილების, დიაგრამების, გრაფიკების, ელ.ფოსტის დანართებისა და PDF ფაილების ნახვის სიჩქარით, ჭეშმარიტი ტექსტით და მაღალი ერთგულება თქვენს აპლიკაციებში. თქვენ გაქვთ შესაძლებლობა დაამატოთ დოკუმენტების ნახვისა და წაკითხვის ფუნქციები თქვენს აპლიკაციებში, რათა აჩვენოთ მთელი დოკუმენტი, ნაწილობრივი დოკუმენტი, კონკრეტული გვერდის/უჯრედის დიაპაზონი, ცალკეული დოკუმენტის ფენა, ანოტაციებითა და კომენტარებით ან მის გარეშე მხარდაჭერილი ფაილის ფორმატებისთვის.
-       
-      GroupDocs.Viewer .NET-ისთვის ქეშირებს გაწეული დოკუმენტების გამოტანას ადგილობრივ დისკზე ნაგულისხმევად. ნებისმიერი ტიპის გარე ქეში შენახვა ასევე მხარდაჭერილია შესაბამისი ინტერფეისების განხორციელებით - Amazon S3, Dropbox, Google Drive, Windows Azure, Redis ან სხვა.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          ქვემოთ მოცემულია GroupDocs.Viewer-ის მიმოხილვა .NET-ისთვის:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "მიმოხილვა"
-          content: |
-            * 190+ დოკუმენტის ტიპების ჩვენება 
-            * მიიღეთ ფაილი HTML, Image, PDF ფორმატში 
-            * როტაცია და გადაკვეთა 
-            * წყლის ნიშნის გამოყენება 
-            * ქეში სწრაფი პროცესისთვის 
-            * დაამატეთ მორგებული შრიფტები 
-            * გამოიყენეთ კოდირების სტანდარტები 
-            * პირადი შეყვანის მონაცემთა დამმუშავებელი 
-            * რენდერი ტრეკის ცვლილებებით 
-            * Render როგორც საპასუხო HTML 
-            * PDF და CAD ფენების რენდერი 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer for .NET მხარს უჭერს ყველა პოპულარული დოკუმენტის ფაილის ფორმატის ნახვას. კოდის მხოლოდ რამდენიმე ხაზით დაამატეთ PDF მაყურებელი, Microsoft Office Word, Excel ელცხრილი, სურათი, HTML, Outlook ელფოსტა, OneNote, პროექტი და გრაფიკული ნახვის შესაძლებლობები თქვენს .NET აპლიკაციებში.
+  enable: true
+  title: "GroupDocs.Viewer ერთი შეხედვით"
+  description: "API .NET აპლიკაციებში დოკუმენტების, სლაიდების, დიაგრამების და მრავალი სხვა ტიპის დოკუმენტის რენდერის, ჩვენების, კონვერტაციისთვის"
+  features:
+    # feature loop
+    - title: "იხილეთ დოკუმენტები ეფექტურად და საიმედოდ"
+      content: "GroupDocs.Viewer API-ით შეგიძლიათ ეფექტურად გადაიტანოთ ნებისმიერი მხარდაჭერილი ფორმატის დოკუმენტები HTML, JPEG, PNG და PDF-ზე მოქნილი და მძლავრი ვარიანტებით, კონტენტისა და დოკუმენტის სტრუქტურის მთლიანობის შენარჩუნებით. GroupDocs.Viewer მხარს უჭერს .NET Framework 4.6.2 და .NET 6.0, ის მუშაობს Windows და Linux პლატფორმებზე."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "ფაილებისა და დოკუმენტების ყველაზე პოპულარული ფორმატები მხარდაჭერილია"
+      content: "ჩვენ მხარს ვუჭერთ 180-ზე მეტ პოპულარულ ფაილის და დოკუმენტის ფორმატს, რომლებიც მოიცავს Word, Excel, PDF, PowerPoint, OpenDocument ფორმატების ოჯახს, არქივებს, რასტერულ და ვექტორულ სურათებს, ელ-წიგნებს, პროგრამირების ენებს და მარკირებას, და მრავალი სხვა ფაილის ტიპს, მათ შორის დაშიფრულს. ფაილები პაროლით დაცვით."
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **გვერდის განლაგების ფაილები:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **დელიმიტერ-გამოყოფილი მნიშვნელობები:** CSV, TSV
-                * **ვებ:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **არქივები:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **სხვადასხვანაირი:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "დააკონფიგურიროთ გამომავალი"
+      content: "GroupDocs.Viewer საშუალებას იძლევა არა მხოლოდ გადაიტანოს დოკუმენტი, არამედ გააკონტროლოს როგორ ზუსტად, დოკუმენტის რომელი ნაწილები უნდა იყოს რენდერი ან ახლა, როგორ უნდა მოხდეს მათი რენდერი და გამოიყენოს სხვადასხვა ტრანსფორმაციები გამოტანილ გამოსავალზე."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "სურათები, გრაფიკა და დიაგრამები"
-              content: |
-                * **სურათები:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **ვინდოუსის ხატულა:** ICO
-                * **მასშტაბირებადი ვექტორული გრაფიკა:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **პრინტერის ბრძანების ენა:** PCL
-                * **სტერეო ლითოგრაფია (3D ბეჭდვა):** STL
-                * **ინდუსტრიის ფონდის კლასები:** IFC
-                * **სამედიცინო ვიზუალიზაცია:** DICOM
-                * **პლოტერის დოკუმენტები:** PLT, HPG
-                * **Autodesk დიზაინის ვებ ფორმატები:** DWF, DWG
-                * **AutoCAD ნახაზი:** DWT, IFC, STL, CF2
-                * **ISFF-ზე დაფუძნებული DGN (V7):** DGN
+    # feature loop
+    - title: "UI ASP.NET Core-სთვის"
+      content: "ჩვენ გთავაზობთ ღია კოდის UI პაკეტს ASP.NET Core-სთვის, რომელიც შეიძლება დაემატოს თქვენს პროექტს რამდენიმე წუთში. Viewer.UI პაკეტი შეიცავს Angular-ზე დაფუძნებულ web-UI-ს და აწვდის სასარგებლო API-ებისა და მონაცემთა შენახვის პროვაიდერებს."
 
-            # table loop
-            - title: "პროგრამირების ენების ფორმატები"
-              content: |
-                * **C/C++/C# ფაილები:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript ფაილები:** JAVA, JS, JSON, PROPERTIES
-                * **სხვადასხვანაირი:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "პლატფორმის დამოუკიდებლობა"
+  description: "GroupDocs.Viewer .NET-ისთვის მხარს უჭერს შემდეგ ოპერაციულ სისტემებს, ჩარჩოებსა და პაკეტის მენეჯერებს"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer for .NET მხარს უჭერს შემდეგი ოპერაციული სისტემების, Frameworks და პაკეტის მენეჯერებს:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Ოპერატიული სისტემა"
-              content: |
-                * Microsoft Windows Server 2003 და მოგვიანებით 
-                * Microsoft Windows XP და მოგვიანებით 
-                * Microsoft Windows 10 და 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS და სხვა) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "მხარდაჭერილი ჩარჩოები"
-              content: |
-                * .NET Framework 2.0 ან უფრო მაღალი 
-                * .NET Core 3.1 
-                * .NET 5 ან უფრო მაღალი 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "პაკეტის მენეჯერი"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "განვითარების გარემო"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "მხარდაჭერილი ფაილის ფორმატები"
+  description: |
+    GroupDocs.Viewer .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument და ტექსტის ფორმატები
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### სურათები, გრაფიკა და დიაგრამები
+        * **რასტერული სურათები:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### სხვა        
+        * **ვებ:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **არქივები:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **სხვა:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer .NET ფუნქციებისთვის"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "დოკუმენტების რასტერიზაცია და მათი გადაქცევა SVG, HTML და CSS-ად"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "გადააკეთეთ ტექსტი HTML-ში და გადაიტანეთ დოკუმენტები HTML, გამოსახულების ან PDF წარმოდგენის მისაღებად"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "უფრო სწრაფი ჩატვირთვის დრო დოკუმენტების ქეშირებული ვერსიების გამოყენებით"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "პრეზენტაციების კონვერტაცია ფორმებით და ტექსტით 3D ეფექტებით"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "დაშიფრეთ Word, Excel და ელ.ფოსტის დოკუმენტები სასურველ კოდირების სტანდარტზე"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "დოკუმენტების რენდერი, რომლებიც მდებარეობს FTP ან Cloud Storage ადგილებში"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "შრიფტების გამორიცხვა HTML-ზე გადაცემისას შედეგის ფაილის ზომის შესამცირებლად"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "შეამცირეთ CSS და HTML გამომავალი კომენტარების, დამატებითი თეთრი სივრცის წაშლით და ა.შ."
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "წაიკითხეთ ტექსტი, რომელიც შეიცავს წყაროს დოკუმენტს მისი კოორდინატების მეშვეობით"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Excel-ის ფურცლების ბადის ხაზების ჩვენება/დამალვა გამომავალი წარმომადგენლობაში"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "მიუთითეთ მწკრივების რაოდენობა Excel-ის ფურცელში, რომელიც უნდა გამოისახოს თითოეულ გვერდზე"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "იგნორირება ცარიელი სვეტები ელცხრილის დოკუმენტების გაცემისას"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Word დოკუმენტების გადატანა HTML გვერდებზე, სურათებში ან PDF-ში, ტრეკის ცვლილებებით"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "ელ.ფოსტის დანართების რენდერი, როგორც ორიგინალური ფაილები, სურათები ან HTML წარმომადგენლობა"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "დააყენეთ ბეჭდვის შეზღუდვები PDF დოკუმენტებზე"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "ZIP არქივებში შემავალი კონტენტის/ფაილების დანართებად გადატანა"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "მიიღეთ დანართები პაროლით დაცული დოკუმენტებიდან"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "პროგრამირების ენების ფაილის ფორმატების გადაცემა უბრალო ტექსტად"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "დაარეგულირეთ ფონის ფერები CAD ნახატების ნახვისას"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "იხილეთ Excel დოკუმენტები და გადაიყვანეთ PDF, HTML, JPG და PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "მიიღეთ სამუშაო ფურცლების სახელები Excel ფაილიდან – აჩვენეთ ცხრილების სვეტების სათაურები და რიგების ნომრები"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Microsoft Project Documents-ის ნახვა და კონვერტაცია შენიშვნებით"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "გადააკეთეთ CAD ნახატები SVG-ზე უკეთესი ნახვისა და მასშტაბირების გამოცდილებისთვის"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "აირჩიეთ Visio ფიგურების რენდერი სქემის გარეშე"
-
-    more_feature:
-      # more_feature_loop
-      - title: "იხილეთ დოკუმენტები ეფექტურად და საიმედოდ"
-        content: |
-          GroupDocs.Viewer API-ს გამოყენებით შეგიძლიათ აჩვენოთ 190-ზე მეტი დოკუმენტის ფორმატი ეფექტურად და საიმედოდ, შიგთავსისა და დოკუმენტის სტრუქტურის მთლიანობის ხელშეუხებლად. შემდეგი ნიმუშის კოდი აჩვენებს, რომ რამდენად ადვილია DOCX დოკუმენტის HTML წარმოდგენის ნახვა:
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "გამოიყენეთ ტრანსფორმაცია გამოტანილ გამოსავალზე"
-        content: "თქვენ შეგიძლიათ შეასრულოთ სხვადასხვა ტრანსფორმაციები გამოტანილ დოკუმენტში GroupDocs.Viewer-ის გამოყენებით .NET API-სთვის. ტრანსფორმაციის ეს ოფციები გაძლევთ კონტროლს, თუ როგორ წარმოადგენთ გამოტანილ გამომავალს ჩვენებისთვის. ხელმისაწვდომი ტრანსფორმაციებია, გვერდის ბრუნვის ვარიანტი, გვერდის გადაკვეთის ვარიანტი და ტექსტის წყლის ნიშნის გამოყენება."
-
-      # more_feature_loop
-      - title: "Outlook მონაცემთა ფაილებთან მუშაობა"
-        content: "GroupDocs.Viewer-ისთვის .NET API-ს შეუძლია Outlook Data Files-ში (OST/PST) ერთეულების გადაცემა PDF, HTML და გამოსახულების ფაილებად. ჩვენს Viewer API-ს ასევე აქვს შესაძლებლობა მიიღოს Outlook Data Files-ში შემავალი საქაღალდეების სია. .NET API-სთვის GroupDocs.Viewer-ის გამოყენებით, შეგიძლიათ მიუთითოთ საქაღალდე, რომელიც უნდა გამოიტანოს Outlook Data Files-იდან. ანალოგიურად, თქვენ ასევე შეგიძლიათ მიიღოთ ელ.ფოსტის შეტყობინებები, რომლებიც შეიცავს OST/PST ფორმატებში დანართების სახით. GroupDocs.Viewer .NET-ისთვის ასევე საშუალებას გაძლევთ გაფილტროთ შეტყობინებები OST/PST ფორმატებიდან თემის, შინაარსის ან გამგზავნის მიხედვით."
-
-      # more_feature_loop
-      - title: "მუშაობა CAD დოკუმენტებთან"
-        content: "GroupDocs.Viewer for .NET API-ს შეუძლია მოდელის და ყველა არა ცარიელი განლაგების რენდერი ან CAD ფაილის კონკრეტული განლაგების გადაცემა. GroupDocs.Viewer .NET API-სთვის ასევე მხარს უჭერს კრამიტით გადაღებას ან CAD დოკუმენტების კოორდინატებით გამოსახულება, HTML ან PDF. თქვენ ასევე შეგიძლიათ მიიღოთ ფენის სტატუსი CAD დოკუმენტებისთვის."
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "GroupDocs.Viewer ფუნქციები"
+  description: "PDF და საოფისე დოკუმენტების შეუფერხებლად რენდერი, ჩვენება და კონვერტაცია"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "პროდუქტის განვითარების დირექტორი Hireology-ში"
-      content: "Cloud API-სთვის GroupDocs.Viewer-ის ინტეგრირება მარტივი იყო მათი ფანტასტიკური Ruby SDK-ით. არ არის იმდენი კომპანია, რომლებიც მზად არიან ითანამშრომლონ ჩვენთან იმაზე, რაც ჩვენ გვინდა. ეს შესანიშნავი პარტნიორობაა."
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "იხილეთ დოკუმენტები HTML-ში"
+      content: "ნებისმიერი ტიპის დოკუმენტის გადაქცევა HTML დოკუმენტად CSS და SVG-ით, რომელიც შეიძლება იყოს ნაჩვენები ნებისმიერ თანამედროვე ვებ-ბრაუზერში."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Novanet AS-ის უფროსი კონსულტანტი/პარტნიორი"
-      content: "პროექტში .NET-ისთვის GroupDocs.Viewer-ის დანერგვისა და გამოყენების შემდეგ, როგორც ჩანს, ის ძალიან კარგად მუშაობს. ბევრი საბუთით მაქვს ტესტირება და ჯერჯერობით კარგია. ყველაფერი, რაც მე გადავყარე, ლამაზად არის გადმოცემული და გამოიყურება ისეთივე კარგად, როგორც PDF მაყურებელში ან MS Word-ში."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "პროდუქტის მენეჯერი Axentria ECM-ში G.S.I."
-      content: "შესანიშნავი მომსახურება და შესანიშნავი პროდუქტები. ისინი ძალიან სასარგებლო და პასუხისმგებელნი იყვნენ GroupDocs.Viewer .NET-ის განხორციელების პროცესის დროს."
+    # feature loop
+    - icon: "rasterize"
+      title: "დოკუმენტების რასტერიზაცია"
+      content: "ნებისმიერი მხარდაჭერილი დოკუმენტის ფორმატის რასტერიზაცია რასტრულ სურათზე, გამოსახულების რეგულირებადი ფორმატითა და შეკუმშვის ხარისხით."
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "პროგრამირების კოდების რენდერი და მონიშვნა"
+      content: "ყველა პოპულარული პროგრამირების, სკრიპტის და მარკირების ენების მხარდაჭერა, მათი სინტაქსის გაანალიზებისა და ხაზგასმის შესაძლებლობით."
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer გთავაზობთ დოკუმენტების სანახავ API-ებს განვითარების სხვა პოპულარულ გარემოში"
+    # feature loop
+    - icon: "convertpdf"
+      title: "გადაიყვანეთ PDF-ზე"
+      content: "ნებისმიერი მხარდაჭერილი ფორმატის დოკუმენტი შეიძლება ადვილად გარდაიქმნას და შეინახოს PDF-ში რეგულირებადი ვარიანტებით."
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "გამოიყენეთ ტრანსფორმაციები"
+      content: "გამომავალი დოკუმენტი შეიძლება გარდაიქმნას რენდერის დროს - გვერდები შეიძლება შემოტრიალდეს და/ან გადააწყდეს და ტექსტის ჭვირნიშანი განთავსდეს მათ თავზე."
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "HTML გამომავალი კორექტირება"
+      content: "გამომავალი HTML დოკუმენტები, გენერირებული GroupDocs.Viewer-ის მიერ, შეიძლება ძალიან წვრილად დააკონფიგურიროთ: ნებადართულია შენახვა ნაკადში ან ფაილში, გარე ან ჩაშენებული რესურსებით, გამოძახებით და ა.შ."
+
+    # feature loop
+    - icon: "complex"
+      title: "რთული დოკუმენტური სტრუქტურების მხარდაჭერა"
+      content: "GroupDocs.Viewer მხარს უჭერს არა მხოლოდ ცალკეულ დოკუმენტებს, არამედ ფაილებს, რომლებიც შეიცავს დოკუმენტების სიას ან იერარქიულ სტრუქტურას, როგორიცაა ელ. ფოსტის შეტყობინებები დანართებით, ZIP არქივები შიდა ფაილებით საქაღალდეებში, მრავალგვერდიანი TIFF სურათები და ა.შ."
+
+    # feature loop
+    - icon: "optimization"
+      title: "ოპტიმიზაციის პარამეტრები"
+      content: "GroupDocs.Viewer შეიცავს რეგულირებადი ქეშის ქვესისტემას, რომელსაც შეუძლია დააჩქაროს ჩატვირთვის დრო დოკუმენტების ქეშირებული ვერსიების გამოყენებით. ასევე სხვადასხვა ფორმატის სხვადასხვა ვარიანტების ნაკრები საშუალებას გაძლევთ გამორიცხოთ დოკუმენტების ზოგიერთი არასაჭირო ნაწილი ან ასპექტი რენდერიდან (შრიფტები, დამალული სამუშაო ფურცლები, ელფოსტის დანართები) საერთო შესრულების ოპტიმიზაციისთვის."
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "პაროლით დაცული დოკუმენტების მხარდაჭერა"
+      content: "GroupDocs.Viewer საშუალებას გაძლევთ გახსნათ სხვადასხვა ტიპის დაშიფრული დოკუმენტები: PDF, WordProcessing, Spreadsheet, Presentation და სხვა, პაროლის მითითებით ჩატვირთვის ვარიანტებში."
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "კოდის ნიმუშები"
+  description: "ზოგიერთი იყენებს ტიპიური GroupDocs.Viewer-ის შემთხვევებს .NET ოპერაციებისთვის"
+  items:
+    # code sample loop
+    - title: "DOCX-ის გადაცემა HTML-ში"
+      content: |
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ](https://docs .groupdocs.com/viewer/net/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "ექსპორტი PPTX PDF-ში"
+      content: |
+        შექმენით [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) კლასის ინსტანცია და გადაეცით [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) მეთოდი PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. PdfViewOptions კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება] (https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) დეტალებისთვის.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs პროდუქტების მიმოხილვები"
+# description: "უბრალოდ ნუ მიიღებ ჩვენს სიტყვას. ნახეთ, რას ამბობენ სხვა დეველოპერები ჩვენს API-ებზე"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "შესანიშნავი მომსახურება და შესანიშნავი პროდუქტები. ისინი ძალიან სასარგებლო და პასუხისმგებელნი იყვნენ GroupDocs.Viewer .NET-ის განხორციელების პროცესის დროს, ვერ გირჩევთ მათ საკმარისად დიდ რეკომენდაციას."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "პროექტში .NET-ისთვის GroupDocs.Viewer-ის დანერგვისა და გამოყენების შემდეგ, როგორც ჩანს, ის ძალიან კარგად მუშაობს. ბევრი საბუთით მაქვს ტესტირება და ჯერჯერობით კარგია. ყველაფერი, რაც მე გადავყარე, ლამაზად არის გადმოცემული და გამოიყურება ისეთივე კარგად, როგორც PDF მაყურებელში ან MS Word-ში."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

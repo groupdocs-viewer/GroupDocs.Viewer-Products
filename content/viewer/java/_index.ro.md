@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: ro
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API pentru PDF Word Excel HTML Imagini și e-mailuri"
-head_description: "Vizualizator de documente Java și API de randare a fișierelor. Adăugați vizualizator PDF, vizualizator Word, vizualizator Excel, vizualizator de imagini, vizualizator HTML, vizualizator de e-mail în aplicațiile Java."
+head_title: "Java Document Viewer API, redare PDF Word Excel Imagine HTML Diagramă"
+head_description: "Bibliotecă Document Viewer pentru a dezvolta aplicații Java care redă, vizualizează și manipulează în mod nativ documente multi-formate care acceptă peste 180 de formate de fișiere."
 
 ############################# Header ############################
-title: "API Java pentru randarea și afișarea documentelor"
-description: "Bibliotecă de vizualizare a documentelor pentru a dezvolta aplicații Java care redă, vizualizează și manipulează în mod nativ documente în format multiplu care acceptă peste 170 de formate de fișiere."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "Redați și afișați documente<br>folosind API-ul Java"
+description: "Puternic Viewer API pentru a reda peste 180 de formate de documente în PDF, HTML și Imagine cu opțiuni de configurare versatile."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "Descărcare gratuită Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "Licențiere"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "Sunteți gata să începeți?"
+  description: "Încercați gratuit funcțiile GroupDocs.Viewer sau solicitați o licență"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Prezentare generală"
+release:
+  title: "Versiunea {0} a fost lansată"
+  notes: "Vezi ce este nou"
+  downloads: "Descărcări"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Caracteristici"
+code:
+  title: "Redați fișierele PDF în Java"
+  more: "Mai multe exemple"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "A sustine"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Demo live"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Prețuri"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer pentru Java combină un set puternic de API-uri de vizualizare a documentelor pentru a afișa imagini și formate de documente în aplicațiile dvs. Java fără a fi nevoie să instalați software suplimentar. Rasterizează documentele în mod nativ și le convertește în SVG+HTML+CSS pentru a îmbunătăți calitatea vizionării documentelor, oferind în același timp un text adevărat, de înaltă fidelitate. Folosind API-ul de redare a documentelor – vizualizați rapid PDF, HTML, XML, Microsoft Office Word, foi de lucru Excel, prezentări PowerPoint, e-mailuri Outlook, diagrame Visio, Proiect, metafișiere, imagini și diverse alte formate de fișiere cu ușurință și mai puține pericole de programare. De asemenea, poate afișa fișiere protejate prin parolă și permite obținerea reprezentării documentului sub formă de HTML, imagine sau PDF după randare. Biblioteca noastră de vizualizare a fișierelor este destul de personalizabilă, deoarece vă permite să afișați întregul document sau să îl redați parțial pentru a accelera procesul. Prin API-ul GroupDocs.Viewer pentru Java, puteți vizualiza pagini, un anumit interval de celule într-o foaie de calcul sau chiar puteți reda un strat individual de document în formate, cum ar fi PDF și CAD.  
+  enable: true
+  title: "GroupDocs.Viewer dintr-o privire"
+  description: "API pentru a randa, afișa, converti documente, diapozitive, diagrame și multe alte tipuri de documente în aplicații Java"
+  features:
+    # feature loop
+    - title: "Vizualizați documentele eficient și fiabil"
+      content: "Cu GroupDocs.Viewer API puteți reda eficient documentele din orice formate acceptabile în HTML, JPEG, PNG și PDF cu opțiuni flexibile și puternice, menținând în același timp integritatea conținutului și a structurii documentului. GroupDocs.Viewer funcționează pe platformele Windows și Linux."
 
-      GroupDocs.Viewer for Java API vă permite să randați documente cu/fără adnotări sau comentarii pentru formatele de fișiere acceptate. De asemenea, vă permite să adăugați directoare de fonturi personalizate și să extrageți informații de bază ale documentului, cum ar fi FileType, Extension, Name, PageCount etc.  
+    # feature loop
+    - title: "Cele mai populare formate de fișiere și documente sunt acceptate"
+      content: "Acceptăm randarea celor mai populare 180 de formate de fișiere și documente, care includ familia de formate Word, Excel, PDF, PowerPoint, OpenDocument, arhive, imagini raster și vectoriale, cărți electronice, limbaje de programare și markupuri și multe alte tipuri de fișiere, inclusiv criptate. fișiere cu protecție prin parolă."
 
-      GroupDocs.Viewer pentru Java este compatibil cu toate versiunile Java și acceptă sisteme de operare populare (Windows, Linux, macOS) care sunt capabile să ruleze Java runtime.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Mai jos este o prezentare generală a GroupDocs.Viewer pentru Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Prezentare generală"
-          content: |
-            * Afișați peste 170 de tipuri de documente 
-            * Obțineți versiunea HTML, imagine, PDF 
-            * Rotiți și reordonați 
-            * Aplicați filigran 
-            * Cache pentru procesare rapidă 
-            * Adăugați fonturi personalizate 
-            * Aplicați standardele de codificare 
-            * Handler de date de intrare personalizat 
-            * Redare cu Urmărirea modificărilor 
-            * Redați ca HTML receptiv 
-            * Redați straturi PDF și CAD 
-            * Redați fișierele protejate 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer pentru Java acceptă toate formatele de fișiere de documente populare, inclusiv: Microsoft Office, imagini, diagrame și multe altele.
+    # feature loop
+    - title: "Ieșire personalizabilă"
+      content: "GroupDocs.Viewer permite nu numai să randeze documentul, ci și să controleze cum exact, ce părți ale documentului ar trebui să fie redate sau acum, cum ar trebui să fie redate și să aplice diferite transformări la rezultatul randat."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Interfață de utilizare web pentru cadrul Spring"
+      content: "Oferim un pachet de interfață de utilizare open source pentru cadru Spring, care poate fi adăugat la proiectul dvs. în câteva minute. Pachetul Viewer.UI conține o interfață web bazată pe Angular și oferă un set de API-uri utile și furnizori de stocare a datelor."
 
-            # table loop
-            - title: "Alte formate"
-              content: |
-                * **Fișiere cu aspect de pagină:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Valori separate prin delimitare:** CSV, TSV
-                * **Web:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Arhive:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Variat:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independenta platformei"
+  description: "GroupDocs.Viewer pentru Java acceptă următoarele sisteme de operare, cadre și manageri de pachete"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Imagini, grafice și diagrame"
-              content: |
-                * **Imagini:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Pictograma Windows:** ICO
-                * **Grafică vectorială scalabilă:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Limbajul de comandă al imprimantei:** PCL
-                * **Litografia stereo (imprimare 3D):** STL
-                * **Cursuri Fundația Industriei:** IFC
-                * **Imagistica medicala:** DICOM
-                * **Plotter Documente:** PLT, HPG
-                * **Autodesk Design Web Formats:** DWF, DWG
-                * **Desen AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN bazat pe ISFF (V7):** DGN
 
-            # table loop
-            - title: "Limbaje de programare Formate"
-              content: |
-                * **Fișiere C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Fișiere Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Variat:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer pentru Java acceptă următoarele sisteme de operare, cadre și manageri de pachete:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sisteme de operare"
-              content: |
-                * Microsoft Windows Server 2003 și versiuni ulterioare 
-                * Microsoft Windows XP și versiuni ulterioare 
-                * Microsoft Windows 10 și 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS și altele) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Cadre acceptate"
-              content: |
-                * J2SE 8.0 (1.8) sau mai recent (de exemplu Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Medii de dezvoltare"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Formate de fișiere acceptate"
+  description: |
+    GroupDocs.Viewer pentru Java acceptă operațiuni cu următoarele [formate de fișiere](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument și formate text
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Imagini, grafice și diagrame
+        * **Imagini raster:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Alte        
+        * **Web:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Arhive:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Alte:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer pentru funcții Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Vizualizator pentru HTML, PDF, Imagini, Word, Excel și alte formate de documente"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Redați fișierele AutoCAD Drawings (DWG) în format SVG"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Ajustați culoarea de fundal a fișierului convertit"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Rasterizați și convertiți documentele în SVG, HTML și CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Obțineți reprezentare HTML, imagine sau PDF a documentelor prin randare"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Versiuni cache ale documentelor pentru a accelera timpul de încărcare"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Configurați directoare cu fonturi personalizate"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Aplicați standarde de codificare documentelor Word, Excel și e-mail"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Redați documentele de la distanță la FTP sau Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Eliminați sau păstrați adnotările și comentariile în timpul redării"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Redați paginile documentului ca pagini HTML separate"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Redați diapozitivele și paginile ascunse și aplicați reordonarea paginilor documentului randat"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Redați intervalul de pagini, anumite pagini sau toate paginile în HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Redați sau ascundeți comentariile documentelor"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Creați HTML receptiv pentru unele formate de document prin randare"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Reduceți dimensiunea fișierului rezultat al HTML redat prin excluderea fonturilor"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Eliminați comentariile, spațiile albe suplimentare etc., pentru a reduce rezultatul HTML și CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Utilizați coordonatele documentului sursă pentru a citi textul conținut"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Afișați/Ascundeți chenarul celulei în foile Excel ale rezultatului randat"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Redați un număr specific de rânduri din fiecare pagină într-o foaie Excel"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Model de randare și toate aspectele nevide sau un aspect particular al unui fișier CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Redați elementele din fișierele de date Outlook (OST/PST) ca PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Redare țiglă sau randare după coordonatele documentelor CAD ca imagine, HTML sau PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Setați restricții de imprimare atunci când redați în PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "API eficientă și de încredere pentru vizualizarea documentelor"
-        content: |
-          GroupDocs.Viewer for Java API poate fi folosit pentru a vizualiza, reda și afișa documente din peste 150 de formate de fișiere diferite. Se realizează în mod fiabil și eficient, păstrând în același timp conținutul, precum și structura documentului. Următorul exemplu arată nivelul de ușurință cu care API-ul GroupDocs.Viewer pentru Java redă un fișier DOCX ca fișier imagine folosind Java:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "Efectuați transformări în timp ce redați documente"
-        content: "GroupDocs.Viewer for Java API vă oferă diverse opțiuni de transformare care trebuie aplicate pe documentul randat pentru o vizualizare și afișare mai personalizate. Puteți roti paginile furnizând unghiul. Puteți ordona paginile redate. Aplicați text specific ca filigran paginilor sau imaginilor redate. Prin API-ul GroupDocs.Viewer pentru Java, aveți și posibilitatea de a adăuga fonturi personalizate la documentul care este redat."
-
-      # more_feature_loop
-      - title: "Lucrul cu atașamentele de e-mail"
-        content: "API-ul GroupDocs.Viewer pentru Java vă permite să preluați anumite atașamente sau toate atașamentele unui e-mail. Odată ce obțineți atașamentele de e-mail necesare, puteți reda aceste fișiere atașate în imagini sau HTML."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer oferă API-uri de vizualizare a documentelor pentru alte medii de dezvoltare populare"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "Funcții GroupDocs.Viewer"
+  description: "Redați, afișați și convertiți fără probleme PDF și documente Office"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Vizualizați documentele în HTML"
+      content: "Convertiți documentul de orice tip într-un document HTML cu CSS și SVG, care poate fi afișat în orice browser web modern."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "Rasterizați documentele"
+      content: "Rasterizați orice format de document acceptabil la imaginea raster, cu formatul de imagine reglabil și calitatea compresiei."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "Redați și evidențiați codurile de programare"
+      content: "Suport pentru toate limbajele populare de programare, scripting și marcare, cu capacitatea de a analiza și evidenția sintaxa acestora."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "Convertiți în PDF"
+      content: "Documentul de orice format acceptabil poate fi ușor convertit și salvat în PDF cu opțiuni ajustabile."
+
+    # feature loop
+    - icon: "transform"
+      title: "Aplicați transformări"
+      content: "Documentul de ieșire poate fi transformat în timpul redării - paginile pot fi rotite și/sau rearanjate, iar filigranul textului poate fi plasat deasupra acestora."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "Ajustarea ieșirii HTML"
+      content: "Documentele HTML de ieșire, generate de GroupDocs.Viewer, pot fi reglate foarte fin: este permisă salvarea în flux sau fișier, cu resurse externe sau încorporate, apeluri înapoi și așa mai departe."
+
+    # feature loop
+    - icon: "complex"
+      title: "Sprijin pentru structuri complexe de documente"
+      content: "GroupDocs.Viewer acceptă nu numai documentele individuale, ci și fișierele, care conțin intern o listă sau o structură ierarhică a documentelor, cum ar fi mesaje de e-mail cu atașamente, arhive ZIP cu fișiere interne în foldere, imagini TIFF cu mai multe pagini și așa mai departe."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Opțiuni de optimizare"
+      content: "GroupDocs.Viewer conține un subsistem cache reglabil, care poate scurta timpul de încărcare utilizând versiunile stocate în cache ale documentelor. De asemenea, un set de opțiuni diferite pentru diferite formate permite excluderea unor părți sau aspecte inutile ale documentelor din randare (fonturi, foi de lucru ascunse, atașamente de e-mail) pentru a optimiza performanța generală"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Suport pentru documente protejate prin parolă"
+      content: "GroupDocs.Viewer permite deschiderea documentelor criptate de diferite tipuri: PDF, WordProcessing, Spreadsheet, Prezentare și altele, prin specificarea unei parole în opțiunile de încărcare."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Exemple de cod"
+  description: "Unele cazuri de utilizare ale operațiunilor tipice GroupDocs.Viewer pentru Java"
+  items:
+    # code sample loop
+    - title: "Redați DOCX în HTML"
+      content: |
+        Proprietățile clasei [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) vă permit să controlați procesul de conversie, mai multe despre aceasta [aici](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). De exemplu, puteți încorpora toate resursele externe în fișierul HTML de ieșire, puteți reduce fișierul de ieșire și îl puteți optimiza pentru imprimare.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Exportați PPTX în PDF"
+      content: |
+        Creați o instanță de clasă [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) și transmiteți-o la [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) pentru a converti un fișier PowerPoint PPTX în PDF. Proprietățile clasei PdfViewOptions vă permit să controlați procesul de conversie. De exemplu, puteți proteja fișierul PDF de ieșire, puteți reordona paginile acestuia și puteți specifica calitatea imaginilor documentului. Consultați [următoarea secțiune de documentație](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) pentru detalii.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Recenzii ale produselor GroupDocs"
+# description: "Nu ne credeți pe cuvânt. Vedeți ce spun alți dezvoltatori despre API-urile noastre"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Servicii excelente și produse excelente. Au fost extrem de utile și receptivi în timpul procesului de implementare GroupDocs.Viewer pentru .NET, nu le pot recomanda suficient."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "După implementarea și utilizarea GroupDocs.Viewer pentru .NET în proiect, se pare că funcționează foarte bine. Am testat cu multe documente și până acum e bine. Tot ceea ce am aruncat la el se redă frumos și arată la fel de bine ca într-un vizualizator PDF sau MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

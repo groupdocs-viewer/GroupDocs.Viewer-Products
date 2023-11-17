@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: el
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET Document Viewer API, Render PDF Word Excel Image HTML Diagram"
-head_description: "API προβολής και απόδοσης αρχείων C# ASP.NET. Προσθέστε λειτουργίες προβολής PDF, πρόγραμμα προβολής Word, πρόγραμμα προβολής Excel, πρόγραμμα προβολής εικόνων, πρόγραμμα προβολής HTML, δυνατότητες προβολής email σε εφαρμογές .NET."
+head_title: "API προβολής εγγράφων .NET, απόδοση PDF Word Excel Image HTML Diagram"
+head_description: "API προβολής και απόδοσης αρχείων C# ASP.NET. Προσθήκη προγράμματος προβολής PDF, προβολής Word, προβολής Excel, Προβολής εικόνων, προβολής HTML, λειτουργιών προβολής email σε εφαρμογές .NET."
 
 ############################# Header ##########################
-title: "Απόδοση και εμφάνιση εγγράφων μέσω .NET API"
-description: ".NET Document Viewer API για απόδοση 190+ μορφών εγγράφων σε PDF, HTML και Εικόνα με ισχυρές επιλογές διαμόρφωσης."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "Απόδοση και εμφάνιση εγγράφων<br>χρησιμοποιώντας .NET API"
+description: "Ισχυρό API προβολής για απόδοση 180+ μορφών εγγράφων σε PDF, HTML και Εικόνα με ευέλικτες επιλογές διαμόρφωσης."
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "Δωρεάν λήψη NuGet"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "Αδειοδότηση"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "Είστε έτοιμοι να ξεκινήσετε;"
+  description: "Δοκιμάστε τις δυνατότητες του GroupDocs.Viewer δωρεάν ή ζητήστε άδεια"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ"
+release:
+  title: "Η έκδοση {0} κυκλοφόρησε"
+  notes: "Δείτε τι νέο υπάρχει"
+  downloads: "Λήψεις"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Χαρακτηριστικά"
-
-            # button loop
-            - link: "#support"
-              text: "Υποστήριξη"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Ζωντανή επίδειξη"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Τιμολόγηση"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Απόδοση αρχείων PDF σε C#"
+  more: "Περισσότερα παραδείγματα"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Το GroupDocs.Viewer για .NET API σάς βοηθά να δημιουργείτε ισχυρές εφαρμογές σε C#, ASP.NET και άλλες τεχνολογίες που βασίζονται σε .NET, οι οποίες μπορούν να αποδώσουν και να εμφανίσουν έγγραφα και εικόνες 190+ μορφών αρχείων χωρίς εγκατάσταση εξωτερικού λογισμικού. Η βιβλιοθήκη προβολής αρχείων ραστεροποιεί τα έγγραφα και στη συνέχεια τα μετατρέπει σε SVG+HTML+CSS για να βελτιστοποιήσει τη συνολική εμπειρία απόδοσης εγγράφων για την προβολή επαγγελματικών εγγράφων, εικόνων, αρχείων κειμένου, διαγραμμάτων, γραφικών, συνημμένων email και αρχείων PDF με ταχύτητα, αληθινό κείμενο και υψηλής πιστότητας μέσα στις εφαρμογές σας. Έχετε την επιλογή να προσθέσετε λειτουργίες προβολής και ανάγνωσης εγγράφων στις εφαρμογές σας για να εμφανίσετε ολόκληρο έγγραφο, μερικό έγγραφο, συγκεκριμένη περιοχή σελίδας/κελί, μεμονωμένο επίπεδο εγγράφου, με ή χωρίς σχολιασμούς και σχόλια για τις υποστηριζόμενες μορφές αρχείων.
-       
-      Το GroupDocs.Viewer για .NET αποθηκεύει στην προσωρινή μνήμη τα αποδοθέντα έγγραφα που εξάγονται στον τοπικό δίσκο από προεπιλογή. Οποιοσδήποτε τύπος εξωτερικής αποθήκευσης κρυφής μνήμης υποστηρίζεται επίσης με την εφαρμογή κατάλληλων διεπαφών – Amazon S3, Dropbox, Google Drive, Windows Azure, Redis ή οποιαδήποτε άλλη.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ακολουθεί μια επισκόπηση του GroupDocs.Viewer για .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ"
-          content: |
-            * Εμφάνιση 190+ τύπων εγγράφων 
-            * Λάβετε ένα αρχείο σε μορφή HTML, εικόνας, PDF 
-            * Περιστροφή & αναδιάταξη 
-            * Εφαρμογή υδατογραφήματος 
-            * Προσωρινή μνήμη για γρήγορη διαδικασία 
-            * Προσθήκη προσαρμοσμένων γραμματοσειρών 
-            * Εφαρμογή προτύπων κωδικοποίησης 
-            * Προσαρμοσμένο πρόγραμμα χειρισμού δεδομένων εισαγωγής 
-            * Render with Track Changes 
-            * Απόδοση ως Responsive HTML 
-            * Απόδοση επιπέδων PDF & CAD 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Το GroupDocs.Viewer για .NET υποστηρίζει την προβολή όλων των δημοφιλών μορφών αρχείων εγγράφων. Με λίγες μόνο γραμμές κώδικα, προσθέστε πρόγραμμα προβολής PDF, Microsoft Office Word, υπολογιστικό φύλλο Excel, Εικόνα, HTML, email του Outlook, OneNote, Έργο και δυνατότητες προβολής γραφικών στις εφαρμογές σας .NET.
+  enable: true
+  title: "GroupDocs.Viewer με μια ματιά"
+  description: "API για απόδοση, εμφάνιση, μετατροπή εγγράφων, διαφανειών, διαγραμμάτων και πολλών άλλων τύπων εγγράφων σε εφαρμογές .NET"
+  features:
+    # feature loop
+    - title: "Προβολή εγγράφων αποτελεσματικά και αξιόπιστα"
+      content: "Με το GroupDocs.Viewer API μπορείτε να αποδώσετε αποτελεσματικά έγγραφα οποιασδήποτε υποστηρίσιμης μορφής σε HTML, JPEG, PNG και PDF με ευέλικτες και ισχυρές επιλογές, διατηρώντας παράλληλα την ακεραιότητα του περιεχομένου και της δομής του εγγράφου. Το GroupDocs.Viewer υποστηρίζει .NET Framework 4.6.2 και .NET 6.0, λειτουργεί σε πλατφόρμες Windows και Linux."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Υποστηρίζονται οι πιο δημοφιλείς μορφές αρχείων και εγγράφων"
+      content: "Υποστηρίζουμε την απόδοση των 180 πιο δημοφιλών μορφών αρχείων και εγγράφων που περιλαμβάνουν Word, Excel, PDF, PowerPoint, οικογένεια μορφών OpenDocument, Αρχεία, εικόνες Raster και Vector, e-Books, γλώσσες προγραμματισμού και επισημάνσεις, και πολλούς άλλους τύπους αρχείων, συμπεριλαμβανομένων των κρυπτογραφημένων αρχεία με προστασία κωδικού πρόσβασης."
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **Αρχεία διάταξης σελίδας:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Τιμές διαχωρισμένες με οριοθέτη:** CSV, TSV
-                * **Ιστός:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Αρχεία:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Διάφορος:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "Προσαρμόσιμη έξοδος"
+      content: "Το GroupDocs.Viewer επιτρέπει όχι μόνο την απόδοση του εγγράφου, αλλά και τον έλεγχο του πώς ακριβώς, ποια μέρη του εγγράφου πρέπει να αποδοθούν ή τώρα, πώς πρέπει να αποδοθούν και να εφαρμόσει διαφορετικούς μετασχηματισμούς στην απόδοση απόδοσης."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Εικόνες, Γραφικά & Διαγράμματα"
-              content: |
-                * **εικόνες:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Εικονίδιο Windows:** ICO
-                * **Κλιμακόμενα διανυσματικά γραφικά:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Γλώσσα εντολών εκτυπωτή:** PCL
-                * **Στερεοφωνική Λιθογραφία (3D Printing):** STL
-                * **Μαθήματα Industry Foundation:** IFC
-                * **Ιατρική απεικόνιση:** DICOM
-                * **Έγγραφα Plotter:** PLT, HPG
-                * **Μορφές Web Design Autodesk:** DWF, DWG
-                * **Σχέδιο AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN που βασίζεται σε ISFF (V7):** DGN
+    # feature loop
+    - title: "UI για ASP.NET Core"
+      content: "Παρέχουμε ένα πακέτο διεπαφής χρήστη ανοιχτού κώδικα για το ASP.NET Core που μπορεί να προστεθεί στο έργο σας σε λίγα λεπτά. Το πακέτο Viewer.UI περιέχει μια διεπαφή ιστού που βασίζεται σε Angular και παρέχει ένα σύνολο χρήσιμων API και παρόχων αποθήκευσης δεδομένων."
 
-            # table loop
-            - title: "Μορφές γλωσσών προγραμματισμού"
-              content: |
-                * **Αρχεία C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Αρχεία Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Διάφορος:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Ανεξαρτησία πλατφόρμας"
+  description: "Το GroupDocs.Viewer για .NET υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, πλαίσια και διαχειριστές πακέτων"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          Το GroupDocs.Viewer για .NET υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, Frameworks και Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Λειτουργικά συστήματα"
-              content: |
-                * Microsoft Windows Server 2003 και μεταγενέστερη έκδοση 
-                * Microsoft Windows XP και νεότερα 
-                * Microsoft Windows 10 & 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS και άλλα) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Υποστηριζόμενα πλαίσια"
-              content: |
-                * .NET Framework 2.0 ή νεότερη έκδοση 
-                * .NET Core 3.1 
-                * .NET 5 ή νεότερη έκδοση 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Διαχειριστής πακέτων"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Αναπτυξιακά Περιβάλλοντα"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Υποστηριζόμενες μορφές αρχείων"
+  description: |
+    Το GroupDocs.Viewer για .NET υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument και μορφές κειμένου
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Εικόνες, Γραφικά & Διαγράμματα
+        * **Εικόνες ράστερ:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Αλλα        
+        * **Ιστός:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Αρχεία:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Αλλα:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer για .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Ραστεροποιήστε τα έγγραφα και μετατρέψτε τα σε SVG, HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Μετατρέψτε κείμενο σε HTML και απόδοση εγγράφων για να λάβετε αναπαράσταση HTML, εικόνας ή PDF"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Ταχύτερος χρόνος φόρτωσης χρησιμοποιώντας εκδόσεις εγγράφων που έχουν αποθηκευτεί στην κρυφή μνήμη"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Μετατροπή παρουσιάσεων με σχήματα και κείμενο με εφέ 3D"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Κωδικοποιήστε έγγραφα Word, Excel και Email στο επιθυμητό πρότυπο κωδικοποίησης"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Απόδοση εγγράφων που βρίσκονται σε τοποθεσίες αποθήκευσης FTP ή Cloud"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Εξαίρεση γραμματοσειρών κατά την απόδοση σε HTML για μείωση του μεγέθους αρχείου που προκύπτει"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Ελαχιστοποιήστε την έξοδο CSS & HTML αφαιρώντας σχόλια, επιπλέον λευκά κενά κ.λπ."
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Διαβάστε το κείμενο που περιέχεται σε ένα έγγραφο πηγής μέσω των συντεταγμένων του"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Εμφάνιση/Απόκρυψη των γραμμών πλέγματος των φύλλων του Excel στην αναπαράσταση εξόδου"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Καθορίστε τον αριθμό των γραμμών σε ένα φύλλο Excel που θα αποδοθεί σε κάθε σελίδα"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Αγνοήστε τις κενές στήλες κατά την απόδοση εγγράφων υπολογιστικού φύλλου"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Αποδώστε έγγραφα Word σε σελίδες HTML, εικόνες ή PDF, με αλλαγές παρακολούθησης"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Αποδώστε τα συνημμένα email ως πρωτότυπα αρχεία, εικόνες ή σε αναπαράσταση HTML"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Ορίστε περιορισμούς εκτύπωσης σε έγγραφα PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Αποδώστε το περιεχόμενο/τα αρχεία που περιέχονται στα αρχεία ZIP ως συνημμένα"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Λάβετε συνημμένα από έγγραφα που προστατεύονται με κωδικό πρόσβασης"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Απόδοση μορφών αρχείων γλωσσών προγραμματισμού ως απλού κειμένου"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Προσαρμόστε τα χρώματα φόντου κατά την προβολή σχεδίων CAD"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Προβολή εγγράφων Excel και μετατροπή σε PDF, HTML, JPG & PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Λάβετε ονόματα φύλλων εργασίας από το αρχείο Excel – Εμφάνιση επικεφαλίδων στηλών υπολογιστικού φύλλου και αριθμών σειρών"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Προβολή και μετατροπή εγγράφων Microsoft Project με Σημειώσεις"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Μετατρέψτε τα σχέδια CAD σε SVG για καλύτερη εμπειρία προβολής και ζουμ"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Επιλέξτε απόδοση του Visio Figures χωρίς σχήμα"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Δείτε τα έγγραφα αποτελεσματικά και αξιόπιστα"
-        content: |
-          Χρησιμοποιώντας το GroupDocs.Viewer API μπορείτε να εμφανίσετε περισσότερες από 190 μορφές εγγράφων αποτελεσματικά και αξιόπιστα με ανέπαφη την ακεραιότητα του περιεχομένου και της δομής του εγγράφου. Το ακόλουθο δείγμα κώδικα δείχνει ότι πόσο εύκολο είναι να προβάλετε την αναπαράσταση HTML ενός εγγράφου DOCX:
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "Εφαρμογή μετασχηματισμού στην απόδοση απόδοσης"
-        content: "Μπορείτε να εκτελέσετε διάφορους μετασχηματισμούς στο έγγραφο εξόδου που αποδόθηκε χρησιμοποιώντας το GroupDocs.Viewer για .NET API. Αυτές οι επιλογές μετασχηματισμού σάς δίνουν τον έλεγχο του τρόπου με τον οποίο παρουσιάζετε την απόδοση απόδοσης για εμφάνιση. Οι διαθέσιμοι μετασχηματισμοί είναι, η επιλογή περιστροφής σελίδας, η επιλογή αναδιάταξης σελίδας και η εφαρμογή υδατογραφήματος κειμένου."
-
-      # more_feature_loop
-      - title: "Εργασία με αρχεία δεδομένων του Outlook"
-        content: "Το GroupDocs.Viewer για .NET API μπορεί να αποδώσει τα στοιχεία στα Αρχεία δεδομένων του Outlook (OST/PST) ως αρχεία PDF, HTML και εικόνας. Το Viewer API μας έχει επίσης τη δυνατότητα να αποκτήσει τη λίστα των φακέλων που περιέχονται στα αρχεία δεδομένων του Outlook. Χρησιμοποιώντας το GroupDocs.Viewer για .NET API, μπορείτε να καθορίσετε τον φάκελο που θα αποδοθεί από τα αρχεία δεδομένων του Outlook. Ομοίως, μπορείτε επίσης να λάβετε μηνύματα email που περιέχονται σε μορφές OST/PST ως συνημμένα. Το GroupDocs.Viewer για .NET σάς δίνει επίσης τη δυνατότητα να φιλτράρετε μηνύματα από μορφές OST/PST με βάση το θέμα, το περιεχόμενο ή τον αποστολέα."
-
-      # more_feature_loop
-      - title: "Εργασία με έγγραφα CAD"
-        content: "Το GroupDocs.Viewer για .NET API μπορεί να αποδώσει το μοντέλο και όλες τις μη κενές διατάξεις ή να αποδώσει μια συγκεκριμένη διάταξη ενός αρχείου CAD. Το GroupDocs.Viewer για .NET API υποστηρίζει επίσης την απόδοση με πλακίδια ή την απόδοση με συντεταγμένες εγγράφων CAD σε εικόνα, HTML ή PDF. Μπορείτε επίσης να λάβετε καταστάσεις επιπέδου για έγγραφα CAD."
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "Λειτουργίες GroupDocs.Viewer"
+  description: "Απρόσκοπτη απόδοση, προβολή και μετατροπή εγγράφων PDF και Office"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Διευθυντής Ανάπτυξης Προϊόντων στην Hireology"
-      content: "Η ενσωμάτωση του GroupDocs.Viewer for Cloud API ήταν απλή με το φανταστικό Ruby SDK. Δεν υπάρχουν τόσες πολλές εταιρείες εκεί έξω που είναι πρόθυμες να συνεργαστούν μαζί μας για αυτό που θέλουμε. Είναι μια εξαιρετική συνεργασία."
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Προβολή εγγράφων σε HTML"
+      content: "Μετατρέψτε έγγραφο οποιουδήποτε τύπου σε έγγραφο HTML με CSS και SVG, το οποίο μπορεί να εμφανιστεί σε οποιοδήποτε σύγχρονο πρόγραμμα περιήγησης ιστού."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Ανώτερος Σύμβουλος/Συνεργάτης στη Novanet AS"
-      content: "Μετά την εφαρμογή και τη χρήση του GroupDocs.Viewer για .NET στο έργο, φαίνεται να λειτουργεί πολύ καλά. Έχω δοκιμάσει με πολλά έγγραφα και μέχρι στιγμής καλά. Όλα όσα έχω ρίξει σε αυτό αποδίδονται όμορφα και φαίνονται εξίσου καλά όπως θα ήταν σε πρόγραμμα προβολής PDF ή MS Word."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Product Manager στην Axentria ECM by G.S.I."
-      content: "Εξαιρετική εξυπηρέτηση και εξαιρετικά προϊόντα. Ήταν εξαιρετικά χρήσιμοι και ανταποκρίθηκαν κατά τη διαδικασία υλοποίησης του GroupDocs.Viewer για .NET, δεν μπορώ να τα προτείνω αρκετά."
+    # feature loop
+    - icon: "rasterize"
+      title: "Ραστεροποίηση εγγράφων"
+      content: "Ραστερίστε οποιαδήποτε υποστηρίσιμη μορφή εγγράφου στην εικόνα ράστερ, με ρυθμιζόμενη μορφή εικόνας και ποιότητα συμπίεσης."
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "Απόδοση και επισήμανση κωδικών προγραμματισμού"
+      content: "Υποστήριξη όλων των δημοφιλών γλωσσών προγραμματισμού, δέσμης ενεργειών και σήμανσης, με δυνατότητα ανάλυσης και επισήμανσης της σύνταξής τους."
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "Το GroupDocs.Viewer προσφέρει API προβολής εγγράφων για άλλα δημοφιλή περιβάλλοντα ανάπτυξης"
+    # feature loop
+    - icon: "convertpdf"
+      title: "Μετατροπή σε PDF"
+      content: "Έγγραφο οποιασδήποτε υποστηρίσιμης μορφής μπορεί εύκολα να μετατραπεί και να αποθηκευτεί σε PDF με ρυθμιζόμενες επιλογές."
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "Εφαρμόστε μετασχηματισμούς"
+      content: "Το έγγραφο εξόδου μπορεί να μετατραπεί κατά τη διάρκεια της απόδοσης - οι σελίδες μπορούν να περιστραφούν ή/και να αναδιαταχθούν και να τοποθετηθεί υδατογράφημα κειμένου επάνω τους."
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "Προσαρμογή εξόδου HTML"
+      content: "Έγγραφα HTML εξόδου, που δημιουργούνται από το GroupDocs.Viewer, μπορούν να συντονιστούν πολύ καλά: επιτρέπεται η αποθήκευση στη ροή ή το αρχείο, με εξωτερικούς ή ενσωματωμένους πόρους, επιστροφές κλήσης και ούτω καθεξής."
+
+    # feature loop
+    - icon: "complex"
+      title: "Υποστήριξη πολύπλοκων δομών εγγράφων"
+      content: "Το GroupDocs.Viewer υποστηρίζει όχι μόνο τα μεμονωμένα έγγραφα, αλλά και αρχεία, τα οποία εσωτερικά περιέχουν μια λίστα ή ιεραρχική δομή εγγράφων, όπως μηνύματα email με συνημμένα, αρχεία ZIP με εσωτερικά αρχεία μέσα σε φακέλους, εικόνες TIFF πολλών σελίδων κ.λπ."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Επιλογές βελτιστοποίησης"
+      content: "Το GroupDocs.Viewer περιέχει ένα προσαρμόσιμο υποσύστημα προσωρινής μνήμης, το οποίο μπορεί να επιταχύνει το χρόνο φόρτωσης χρησιμοποιώντας τις αποθηκευμένες εκδόσεις των εγγράφων. Επίσης, ένα σύνολο διαφορετικών επιλογών για διαφορετικές μορφές επιτρέπει τον αποκλεισμό ορισμένων περιττών τμημάτων ή πτυχών εγγράφων από την απόδοση (γραμματοσειρές, κρυφά φύλλα εργασίας, συνημμένα email) για βελτιστοποίηση της συνολικής απόδοσης"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Υποστήριξη εγγράφων που προστατεύονται με κωδικό πρόσβασης"
+      content: "Το GroupDocs.Viewer επιτρέπει το άνοιγμα των κρυπτογραφημένων εγγράφων διαφορετικών τύπων: PDF, WordProcessing, Spreadsheet, Presentation και άλλα, καθορίζοντας έναν κωδικό πρόσβασης στις επιλογές φόρτωσης."
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "Δείγματα κωδικών"
+  description: "Ορισμένες περιπτώσεις χρησιμοποιούν τυπικά GroupDocs.Viewer για λειτουργίες .NET"
+  items:
+    # code sample loop
+    - title: "Αποδώστε το DOCX σε HTML"
+      content: |
+        Οι ιδιότητες κλάσης [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής, περισσότερα σχετικά [εδώ](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Για παράδειγμα, μπορείτε να ενσωματώσετε όλους τους εξωτερικούς πόρους στο αρχείο HTML εξόδου, να ελαχιστοποιήσετε το αρχείο εξόδου και να το βελτιστοποιήσετε για εκτύπωση.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Εξαγωγή PPTX σε PDF"
+      content: |
+        Δημιουργήστε μια παρουσία κλάσης [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) και περάστε την στο [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) μέθοδος για τη μετατροπή ενός αρχείου PowerPoint PPTX σε PDF. Οι ιδιότητες κλάσης PdfViewOptions σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής. Για παράδειγμα, μπορείτε να προστατεύσετε το αρχείο PDF εξόδου, να αναδιατάξετε τις σελίδες του και να καθορίσετε την ποιότητα των εικόνων του εγγράφου. Ανατρέξτε στην [ακόλουθη ενότητα τεκμηρίωσης](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) για λεπτομέρειες.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Κριτικές προϊόντων GroupDocs"
+# description: "Μην παίρνετε το λόγο μας για αυτό. Δείτε τι λένε άλλοι προγραμματιστές για τα API μας"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Εξαιρετική εξυπηρέτηση και εξαιρετικά προϊόντα. Ήταν εξαιρετικά χρήσιμοι και ανταποκρίθηκαν κατά τη διαδικασία υλοποίησης του GroupDocs.Viewer για .NET, δεν μπορώ να τα προτείνω αρκετά."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Μετά την εφαρμογή και χρήση του GroupDocs.Viewer για .NET στο έργο, φαίνεται να λειτουργεί πολύ καλά. Έχω δοκιμάσει με πολλά έγγραφα και μέχρι στιγμής καλά. Όλα όσα έχω ρίξει σε αυτό αποδίδονται όμορφα και φαίνονται εξίσου καλά με ένα πρόγραμμα προβολής PDF ή MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

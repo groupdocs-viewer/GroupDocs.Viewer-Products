@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: hr
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API za PDF Word Excel HTML slike i e-poštu"
-head_description: "Java preglednik dokumenata i API za renderiranje datoteka. Dodajte PDF preglednik, Word preglednik, Excel preglednik, preglednik slika, HTML preglednik, preglednik e-pošte u Java aplikacijama."
+head_title: "Java Document Viewer API, render PDF Word Excel Slika HTML dijagram"
+head_description: "Biblioteka preglednika dokumenata za razvoj Java aplikacija koje nativno prikazuju, pregledavaju i manipuliraju dokumentima u više formata koji podržavaju više od 180 formata datoteka."
 
 ############################# Header ############################
-title: "Java API za renderiranje i prikaz dokumenata"
-description: "Biblioteka preglednika dokumenata za razvoj Java aplikacija koje izvorno prikazuju, pregledavaju i manipuliraju dokumentima u više formata koji podržavaju više od 170 formata datoteka."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "Renderirajte i prikažite dokumente<br>pomoću Java API-ja"
+description: "Snažni API preglednika za prikaz više od 180 formata dokumenata u PDF, HTML i slike sa raznovrsnim opcijama konfiguracije."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "Besplatno preuzimanje Mavena"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "Licenciranje"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "Jeste li spremni za početak?"
+  description: "Isprobajte značajke GroupDocs.Viewer besplatno ili zatražite licencu"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pregled"
+release:
+  title: "Verzija {0} izdana"
+  notes: "Pogledajte što je novo"
+  downloads: "Preuzimanja"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Značajke"
+code:
+  title: "Prikaz PDF datoteka u Javi"
+  more: "Više primjera"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "podrška"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Demo uživo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Cijene"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer za Javu kombinira snažan skup API-ja preglednika dokumenata za prikaz slika i formata dokumenata u vašim Java aplikacijama bez potrebe za instaliranjem dodatnog softvera. Izvorno rasterizira dokumente i pretvara ih u SVG+HTML+CSS kako bi poboljšao kvalitetu gledanja dokumenata dok isporučuje istiniti tekst, ispis visoke vjernosti. Korištenje API-ja za renderiranje dokumenata – brzo pregledajte PDF, HTML, XML, Microsoft Office Word, Excel radne listove, PowerPoint prezentacije, Outlook e-poštu, Visio dijagrame, Project, metadatoteke, slike i razne druge formate datoteka s lakoćom i manje programskih opasnosti. Također može prikazati datoteke zaštićene lozinkom i omogućiti prikaz dokumenta kao HTML, slike ili PDF obrasca nakon renderiranja. Naša biblioteka preglednika datoteka prilično je prilagodljiva jer vam omogućuje prikaz cijelog dokumenta ili njegovo djelomično renderiranje kako biste ubrzali proces. Putem API-ja GroupDocs.Viewer za Java možete pregledavati stranice, određeni raspon ćelija u proračunskoj tablici ili čak prikazati pojedinačni sloj dokumenta u formatima kao što su PDF i CAD.  
+  enable: true
+  title: "GroupDocs.Viewer na prvi pogled"
+  description: "API za renderiranje, prikaz, pretvaranje dokumenata, slajdova, dijagrama i mnogih drugih vrsta dokumenata u Java aplikacijama"
+  features:
+    # feature loop
+    - title: "Pregledajte dokumente učinkovito i pouzdano"
+      content: "S API-jem GroupDocs.Viewer možete učinkovito renderirati dokumente bilo kojeg podržanog formata u HTML, JPEG, PNG i PDF s fleksibilnim i moćnim opcijama uz održavanje integriteta sadržaja i strukture dokumenta. GroupDocs.Viewer radi na Windows i Linux platformama."
 
-      GroupDocs.Viewer za Java API omogućuje prikaz dokumenata sa/bez komentara ili komentara za podržane formate datoteka. Također vam omogućuje dodavanje prilagođenih direktorija fontova i izdvajanje osnovnih informacija o dokumentu kao što su FileType, Extension, Name, PageCount itd.  
+    # feature loop
+    - title: "Podržani su najpopularniji formati datoteka i dokumenata"
+      content: "Podržavamo iscrtavanje preko 180 najpopularnijih formata datoteka i dokumenata koji uključuju Word, Excel, PDF, PowerPoint, obitelj OpenDocument formata, arhive, rasterske i vektorske slike, e-knjige, programske jezike i oznake te mnoge druge vrste datoteka, uključujući šifrirane datoteke sa zaštitom lozinkom."
 
-      GroupDocs.Viewer za Javu kompatibilan je sa svim verzijama Jave i podržava popularne operativne sustave (Windows, Linux, macOS) koji mogu pokretati Java runtime.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Slijedi pregled GroupDocs.Viewer za Javu:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Pregled"
-          content: |
-            * Prikaz 170+ vrsta dokumenata 
-            * Preuzmite HTML, sliku, PDF verziju 
-            * Zakreni i promijeni redoslijed 
-            * Primijeni vodeni žig 
-            * Predmemorija za brzi proces 
-            * Dodajte prilagođene fontove 
-            * Primijenite standarde kodiranja 
-            * Rukovatelj prilagođenim ulaznim podacima 
-            * Renderiranje s praćenjem promjena 
-            * Prikaz kao odgovarajući HTML 
-            * Renderirajte PDF i CAD slojeve 
-            * Renderiraj zaštićene datoteke 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer za Javu podržava sve popularne formate dokumenata uključujući: Microsoft Office, slike, dijagrame i mnoge druge.
+    # feature loop
+    - title: "Prilagodljiv izlaz"
+      content: "GroupDocs.Viewer omogućuje ne samo renderiranje dokumenta, već i kontrolu kako točno, koji dijelovi dokumenta trebaju biti renderirani ili sada, kako bi se trebali renderirati, te primjenu različitih transformacija na renderirani izlaz."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Web sučelje za Spring framework"
+      content: "Nudimo UI paket otvorenog koda za Spring okvir koji se može dodati vašem projektu u nekoliko minuta. Paket Viewer.UI sadrži web-UI temeljen na Angularu i donosi skup korisnih API-ja i pružatelja usluga pohrane podataka."
 
-            # table loop
-            - title: "Ostali formati"
-              content: |
-                * **Datoteke izgleda stranice:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Vrijednosti odvojene razdjelnicima:** CSV, TSV
-                * **mreža:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Arhiva:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Razni:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Neovisnost o platformi"
+  description: "GroupDocs.Viewer za Javu podržava sljedeće operativne sustave, okvire i upravitelje paketa"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Slike, grafike i dijagrami"
-              content: |
-                * **Slike:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Windows ikona:** ICO
-                * **Skalabilna vektorska grafika:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Jezik naredbi pisača:** PCL
-                * **Stereo litografija (3D ispis):** STL
-                * **Nastava temelja industrije:** IFC
-                * **Medicinska slika:** DICOM
-                * **Ploter dokumenti:** PLT, HPG
-                * **Autodesk Design web formati:** DWF, DWG
-                * **AutoCAD Crtanje:** DWT, IFC, STL, CF2
-                * **DGN temeljen na ISFF-u (V7):** DGN
 
-            # table loop
-            - title: "Formati programskih jezika"
-              content: |
-                * **C/C++/C# datoteke:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript datoteke:** JAVA, JS, JSON, PROPERTIES
-                * **Razni:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer za Javu podržava sljedeće operativne sustave, okvire i upravitelje paketa:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacijski sustavi"
-              content: |
-                * Microsoft Windows Server 2003 i noviji 
-                * Microsoft Windows XP i noviji 
-                * Microsoft Windows 10 i 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS i drugi) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podržani okviri"
-              content: |
-                * J2SE 8.0 (1.8) ili noviji (na primjer Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Razvojna okruženja"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Alat za automatizaciju izrade"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Podržani formati datoteka"
+  description: |
+    GroupDocs.Viewer za Javu podržava rad sa sljedećim [formatima datoteka](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument i tekstualni formati
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Slike, grafike i dijagrami
+        * **Rasterske slike:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### ostalo        
+        * **mreža:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Arhiva:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **ostalo:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer za Java značajke"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Preglednik za HTML, PDF, slike, Word, Excel i druge formate dokumenata"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Renderirajte datoteke AutoCAD crteža (DWG) u SVG format"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Podesite boju pozadine konvertirane datoteke"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Rasterizirajte i pretvorite dokumente u SVG, HTML i CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Dobijte HTML, slikovnu ili PDF prezentaciju dokumenata kroz renderiranje"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Predmemorirane verzije dokumenata za brže učitavanje"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Konfigurirajte prilagođene imenike fontova"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Primijenite standarde kodiranja na Word, Excel i dokumente e-pošte"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Daljinski renderirajte dokumente na FTP ili Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Uklonite ili zadržite komentare i komentare tijekom renderiranja"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Prikažite stranice dokumenta kao zasebne HTML stranice"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Renderiraj skrivene slajdove i stranice i primijeni promjenu redoslijeda stranica na renderirani dokument"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Prikaz raspona stranica, određenih stranica ili svih stranica u HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Prikažite ili sakrijte komentare dokumenta"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Stvorite responzivni HTML za neke formate dokumenata putem renderiranja"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Smanjite rezultirajuću veličinu datoteke prikazanog HTML-a isključivanjem fontova"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Uklonite komentare, dodatne razmake itd. kako biste smanjili izlazni HTML i CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Koristite koordinate izvornog dokumenta za čitanje sadržanog teksta"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Prikaži/sakrij obrub ćelije u Excel listovima prikazanog izlaza"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Renderirajte određeni broj redaka svake stranice u Excel listu"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Renderirajte model i sve rasporede koji nisu prazni ili određeni izgled CAD datoteke"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Prikazujte stavke u Outlook podatkovnim datotekama (OST/PST) kao PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Prikaz pločica ili prikaz prema koordinatama CAD dokumenata kao slika, HTML ili PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Postavite ograničenja ispisa prilikom iscrtavanja u PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Učinkovit i pouzdan API za pregledavanje dokumenata"
-        content: |
-          GroupDocs.Viewer za Java API može se koristiti za pregled, renderiranje i prikaz dokumenata više od 150 različitih formata datoteka. To se radi pouzdano i učinkovito dok sadržaj i struktura dokumenta ostaju netaknuti. Sljedeći primjer pokazuje razinu lakoće s kojom GroupDocs.Viewer za Java API prikazuje DOCX datoteku kao slikovnu datoteku pomoću Jave:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "Izvršite transformacije tijekom renderiranja dokumenata"
-        content: "GroupDocs.Viewer za Java API nudi vam različite mogućnosti transformacije koje se mogu primijeniti na prikazani dokument za prilagođeniji pogled i prikaz. Stranice možete rotirati odabirom kuta. Možete redoslijed prikazanih stranica. Primijenite određeni tekst kao vodeni žig na prikazane stranice ili slike. Kroz GroupDocs.Viewer za Java API, također imate mogućnost dodavanja prilagođenih fontova u dokument koji se prikazuje."
-
-      # more_feature_loop
-      - title: "Rad s privicima e-pošte"
-        content: "GroupDocs.Viewer za Java API omogućuje dohvaćanje određenih ili svih privitaka e-pošte. Nakon što dobijete potrebne privitke e-pošte, te priložene datoteke možete pretvoriti u slike ili HTML."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer nudi API-je za pregledavanje dokumenata za druga popularna razvojna okruženja"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "Značajke GroupDocs.Viewer"
+  description: "Besprijekorno renderirajte, prikazujte i pretvarajte PDF i Office dokumente"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Pregledajte dokumente u HTML-u"
+      content: "Pretvorite dokument bilo koje vrste u HTML dokument s CSS-om i SVG-om, koji se može prikazati u bilo kojem modernom web-pregledniku."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "Rasterizirajte dokumente"
+      content: "Rasterizirajte bilo koji podržani format dokumenta u rastersku sliku, s podesivim formatom slike i kvalitetom kompresije."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "Prikaz i označavanje programskih kodova"
+      content: "Podrška za sve popularne programerske, skriptne i označne jezike, s mogućnošću analiziranja i isticanja njihove sintakse."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "Pretvori u PDF"
+      content: "Dokument bilo kojeg podržanog formata može se jednostavno pretvoriti i spremiti u PDF s podesivim opcijama."
+
+    # feature loop
+    - icon: "transform"
+      title: "Primijeni transformacije"
+      content: "Izlazni dokument može se transformirati tijekom renderiranja - stranice se mogu rotirati i/ili preuređivati, a tekstualni vodeni žig može se postaviti na njih."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "Podešavanje HTML izlaza"
+      content: "Izlazni HTML dokumenti, koje generira GroupDocs.Viewer, mogu se vrlo fino podesiti: dopušteno je spremanje u tok ili datoteku, s vanjskim ili ugrađenim resursima, povratnim pozivima i tako dalje."
+
+    # feature loop
+    - icon: "complex"
+      title: "Podrška za složene strukture dokumenata"
+      content: "GroupDocs.Viewer podržava ne samo pojedinačne dokumente, već i datoteke koje interno sadrže popis ili hijerarhijsku strukturu dokumenata, kao što su poruke e-pošte s privicima, ZIP arhive s internim datotekama unutar mapa, TIFF slike s više stranica i tako dalje."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Mogućnosti optimizacije"
+      content: "GroupDocs.Viewer sadrži prilagodljivi podsustav predmemorije koji može ubrzati vrijeme učitavanja korištenjem predmemoriranih verzija dokumenata. Također skup različitih opcija za različite formate omogućuje isključivanje nekih nepotrebnih dijelova ili aspekata dokumenata iz renderiranja (fontovi, skriveni radni listovi, privici e-pošte) kako bi se optimizirala ukupna izvedba"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Podrška za dokumente zaštićene lozinkom"
+      content: "GroupDocs.Viewer omogućuje otvaranje šifriranih dokumenata različitih vrsta: PDF, WordProcessing, Spreadsheet, Presentation i drugi, određivanjem lozinke u opcijama učitavanja."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Uzorci kodova"
+  description: "Neki slučajevi upotrebe tipičnih GroupDocs.Viewer za Java operacije"
+  items:
+    # code sample loop
+    - title: "Renderirajte DOCX u HTML"
+      content: |
+        Svojstva klase [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) omogućuju vam kontrolu procesa konverzije, više o tome [ovdje](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Na primjer, možete ugraditi sve vanjske resurse u izlaznu HTML datoteku, minimizirati izlaznu datoteku i optimizirati je za ispis.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Izvezi PPTX u PDF"
+      content: |
+        Stvorite instancu klase [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) i proslijedite je u [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metoda za pretvaranje PowerPoint PPTX datoteke u PDF. Svojstva klase PdfViewOptions omogućuju kontrolu procesa konverzije. Na primjer, možete zaštititi izlaznu PDF datoteku, promijeniti redoslijed njezinih stranica i odrediti kvalitetu slika dokumenta. Pojedinosti potražite u [odjeljku sljedeće dokumentacije](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/).
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs recenzije proizvoda"
+# description: "Nemojte nam samo vjerovati na riječ. Pogledajte što drugi programeri kažu o našim API-jima"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Izvrsna usluga i izvrsni proizvodi. Bili su izuzetno korisni i osjetljivi tijekom procesa implementacije GroupDocs.Viewera za .NET, ne mogu ih dovoljno preporučiti."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Nakon implementacije i korištenja GroupDocs.Viewer za .NET u projektu, čini se da radi vrlo dobro. Testirao sam s mnogo dokumenata i za sada je dobro. Sve što sam bacio na njega lijepo se prikazuje i izgleda jednako dobro kao što bi izgledalo u PDF pregledniku ili MS Wordu."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

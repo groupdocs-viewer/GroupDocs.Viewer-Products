@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: zh-hant
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "用於 PDF、Word、Excel、HTML 圖像和電子郵件的 Java 文檔查看器 API"
-head_description: "Java 文檔查看器和文件渲染 API。在 Java 應用程序中添加 PDF 查看器、Word 查看器、Excel 查看器、圖像查看器、HTML 查看器、電子郵件查看器。"
+head_title: "Java 文件檢視器 API，渲染 PDF Word Excel 圖像 HTML 圖表"
+head_description: "文件檢視器庫，用於開發本地呈現、檢視和操作支援 180 多種文件格式的多格式文件的 Java 應用程式。"
 
 ############################# Header ############################
-title: "用於渲染和顯示文檔的 Java API"
-description: "文檔查看器庫，用於開發本地渲染、查看和操作支持 170 多種文件格式的多格式文檔的 Java 應用程序。"
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "使用 Java API 渲染和顯示文件<br>"
+description: "強大的檢視器 API，可透過多種設定選項將 180 多種文件格式呈現為 PDF、HTML 和影像。"
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "免費 Maven 下載"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "授權"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "準備好開始了嗎？"
+  description: "免費試用 GroupDocs.Viewer 功能或申請許可證"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
+release:
+  title: "版本 {0} 已發布"
+  notes: "看看有什麼新鮮事"
+  downloads: "下載"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "特徵"
+code:
+  title: "在 Java 中渲染 PDF 文件"
+  more: "更多範例"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "支持"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "現場演示"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "價錢"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer for Java 結合了一組功能強大的文檔查看器 API，可以在 Java 應用程序中顯示圖像和文檔格式，而無需安裝其他軟件。它對文檔進行原生光柵化並將其轉換為 SVG+HTML+CSS，以提高文檔查看質量，同時提供真實文本、高保真輸出。使用文檔渲染 API – 輕鬆快速查看 PDF、HTML、XML、Microsoft Office Word、Excel 工作表、PowerPoint 演示文稿、Outlook 電子郵件、Visio 圖表、項目、圖元文件、圖像和各種其他文件格式，並減少編程風險。它還可以顯示受密碼保護的文件，並允許在渲染後以 HTML、圖像或 PDF 形式獲取文檔表示。我們的文件查看器庫是完全可定制的，因為它允許您顯示整個文檔，或部分渲染它以加快過程。通過 Java API 的 GroupDocs.Viewer，您可以查看頁面、電子表格中的特定單元格範圍，甚至可以以 PDF 和 CAD 等格式呈現單個文檔層。  
+  enable: true
+  title: "GroupDocs.Viewer 概覽"
+  description: "用於在 Java 應用程式中呈現、顯示、轉換文件、投影片、圖表和許多其他文件類型的 API"
+  features:
+    # feature loop
+    - title: "有效率可靠地檢視文檔"
+      content: "透過 GroupDocs.Viewer API，您可以使用靈活且強大的選項將任何支援格式的文件高效呈現為 HTML、JPEG、PNG 和 PDF，同時保持內容和文件結構的完整性。 GroupDocs.Viewer 適用於 Windows 和 Linux 平台。"
 
-      GroupDocs.Viewer for Java API 允許您呈現帶有/不帶有受支持文件格式的註釋或註釋的文檔。它還使您能夠添加自定義字體目錄並提取基本文檔信息，例如文件類型、擴展名、名稱、頁數等。  
+    # feature loop
+    - title: "支援最受歡迎的文件和文件格式"
+      content: "我們支援渲染180 多種最受歡迎的文件和文件格式，包括Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、檔案、光柵和向量圖像、電子書、程式語言和標記以及許多其他文件類型，包括加密的文件類型受密碼保護的文件。"
 
-      GroupDocs.Viewer for Java 與所有 Java 版本兼容，並支持能夠運行 Java 運行時的流行操作系統（Windows、Linux、macOS）。
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 Java 版 GroupDocs.Viewer 的概述：
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概述"
-          content: |
-            * 顯示 170 多種文檔類型 
-            * 獲取 HTML、圖像、PDF 版本 
-            * 旋轉和重新排序 
-            * 應用水印 
-            * 用於快速處理的緩存 
-            * 添加自定義字體 
-            * 應用編碼標準 
-            * 自定義輸入數據處理程序 
-            * 渲染並跟踪更改 
-            * 呈現為響應式 HTML 
-            * 渲染 PDF 和 CAD 圖層 
-            * 渲染受保護的文件 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer for Java 支持所有流行的文檔文件格式，包括：Microsoft Office、圖像、圖表等。
+    # feature loop
+    - title: "可自訂的輸出"
+      content: "GroupDocs.Viewer 不僅允許渲染文檔，還可以控制渲染的準確方式、文檔的哪些部分應該渲染或現在渲染、如何渲染，以及對渲染的輸出應用不同的轉換。"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Spring 框架的 Web UI"
+      content: "我們為 Spring 框架提供了一個開源 UI 包，可以在幾分鐘內將其新增到您的專案中。 Viewer.UI 套件包含一個基於 Angular 的 Web UI，並提供了一組有用的 API 和資料儲存提供者。"
 
-            # table loop
-            - title: "其他格式"
-              content: |
-                * **頁面佈局文件:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **分隔符分隔值:** CSV, TSV
-                * **網絡:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **檔案:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **各種各樣的:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "平台獨立性"
+  description: "GroupDocs.Viewer for Java 支援以下作業系統、框架和套件管理器"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "圖像、圖形和圖表"
-              content: |
-                * **圖片:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **窗口圖標:** ICO
-                * **可縮放矢量圖形:** SVG, CDR, CMX, IGS, SVGZ
-                * **JPEG2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **打印機命令語言:** PCL
-                * **立體光刻（3D 打印）:** STL
-                * **行業基礎課程:** IFC
-                * **醫學影像:** DICOM
-                * **繪圖儀文檔:** PLT, HPG
-                * **Autodesk 設計 Web 格式:** DWF, DWG
-                * **AutoCAD繪圖:** DWT, IFC, STL, CF2
-                * **基於 ISFF 的 DGN (V7):** DGN
 
-            # table loop
-            - title: "編程語言格式"
-              content: |
-                * **C/C++/C# 文件:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript 文件:** JAVA, JS, JSON, PROPERTIES
-                * **各種各樣的:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer for Java 支持以下操作系統、框架和包管理器：
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系統"
-              content: |
-                * Microsoft Windows Server 2003 及更高版本 
-                * Microsoft Windows XP 及更高版本 
-                * 微軟 Windows 10 和 11 
-                * Linux（Ubuntu、OpenSUSE、CentOS 等） 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * J2SE 8.0 (1.8) 或更高版本（例如 Java 17） 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "開發環境"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "構建自動化工具"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "支援的文件格式"
+  description: |
+    GroupDocs.Viewer for Java 支援以下[檔案格式](https://docs.groupdocs.com/viewer/java/supported-document-formats/) 的操作。
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office、OpenDocument 和文字格式
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### 圖像、圖形和圖表
+        * **光柵影像:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### 其他        
+        * **網路:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **檔案:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **其他:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer for Java 功能"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "HTML、PDF、圖像、Word、Excel 和其他文檔格式的查看器"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "將 AutoCAD 工程圖 (DWG) 文件渲染為 SVG 格式"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "調整轉換文件的背景顏色"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "光柵化文檔並將其轉換為 SVG、HTML 和 CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "通過渲染獲取文檔的 HTML、圖像或 PDF 表示形式"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "文檔的緩存版本可加快加載時間"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "配置自定義字體目錄"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "將編碼標準應用於 Word、Excel 和電子郵件文檔"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "通過 FTP 或云存儲遠程渲染文檔"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "渲染時刪除或保留註釋和註釋"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "將文檔頁面呈現為單獨的 HTML 頁面"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "渲染隱藏的幻燈片和頁面並將頁面重新排序應用於渲染的文檔"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "將頁面範圍、特定頁面或所有頁面渲染為 HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "呈現或隱藏文檔註釋"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "通過渲染為某些文檔格式創建響應式 HTML"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "通過排除字體來減少渲染 HTML 的最終文件大小"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "刪除註釋、額外的空格等，以縮小輸出 HTML 和 CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "使用源文檔的坐標來讀取所包含的文本"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "在渲染輸出的 Excel 工作表中顯示/隱藏單元格邊框"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "渲染 Excel 工作表中每頁的特定行數"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "渲染模型和所有非空佈局或 CAD 文件的特定佈局"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "將 Outlook 數據文件 (OST/PST) 中的項目呈現為 PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "平鋪渲染或按 CAD 文檔坐標渲染為圖像、HTML 或 PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "渲染為 PDF 時設置打印限制"
-
-    more_feature:
-      # more_feature_loop
-      - title: "用於查看文檔的高效可靠的 API"
-        content: |
-          GroupDocs.Viewer for Java API 可用於查看、渲染和顯示 150 多種不同文件格式的文檔。它可靠且高效地完成，同時保持文檔的內容和結構完整。以下示例顯示了 GroupDocs.Viewer for Java API 使用 Java 將 DOCX 文件呈現為圖像文件的輕鬆程度：
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "渲染文檔時執行轉換"
-        content: "GroupDocs.Viewer for Java API 為您提供了應用於渲染文檔的各種轉換選項，以實現更加自定義的視圖和顯示。您可以通過提供角度來旋轉頁面。您可以調整渲染頁面的順序。將特定文本作為水印應用到渲染的頁面或圖像。通過 Java API 的 GroupDocs.Viewer，您還可以將自定義字體添加到正在呈現的文檔中。"
-
-      # more_feature_loop
-      - title: "使用電子郵件附件"
-        content: "GroupDocs.Viewer for Java API 允許您獲取電子郵件的特定或所有附件。獲得所需的電子郵件附件後，您可以將這些附件呈現為圖像或 HTML。"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer 為其他流行的開發環境提供文檔查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "GroupDocs.Viewer 功能"
+  description: "無縫渲染、顯示和轉換 PDF 和 Office 文件"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "查看 HTML 格式的文檔"
+      content: "使用 CSS 和 SVG 將任何類型的文檔轉換為 HTML 文檔，可以在任何現代網頁瀏覽器中顯示。"
+
+    # feature loop
+    - icon: "rasterize"
+      title: "光柵化文檔"
+      content: "將任何支援的文件格式光柵化為光柵影像，並具有可調整的影像格式和壓縮品質。"
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "渲染並突出顯示程式碼"
+      content: "支援所有流行的程式設計、腳本和標記語言，能夠解析和突出顯示其語法。"
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "轉換為 PDF"
+      content: "任何支援格式的文件都可以透過可調整的選項輕鬆轉換並儲存為 PDF。"
+
+    # feature loop
+    - icon: "transform"
+      title: "應用轉換"
+      content: "輸出文件可以在渲染過程中進行轉換 - 頁面可以旋轉和/或重新排列，並且文字浮水印可以放置在它們的頂部。"
+
+    # feature loop
+    - icon: "adjustment"
+      title: "HTML 輸出調整"
+      content: "由 GroupDocs.Viewer 產生的輸出 HTML 文件可以進行非常精細的調整：允許使用外部或嵌入資源、回調等儲存到流或檔案。"
+
+    # feature loop
+    - icon: "complex"
+      title: "支援複雜的文檔結構"
+      content: "GroupDocs.Viewer 不僅支援單一文檔，還支援內部包含文件清單或層次結構的文件，例如帶有附件的電子郵件、資料夾內帶有內部文件的 ZIP 存檔、多頁 TIFF 映像等。"
+
+    # feature loop
+    - icon: "optimization"
+      title: "最佳化選項"
+      content: "GroupDocs.Viewer 包含一個可調整的快取子系統，它可以透過使用文件的快取版本來縮短載入時間。此外，針對不同格式的一組不同選項允許從渲染中排除文件的一些不必要的部分或方面（字體、隱藏的工作表、電子郵件附件），以優化整體效能"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "支援受密碼保護的文檔"
+      content: "GroupDocs.Viewer 允許透過在載入選項中指定密碼來開啟不同類型的加密文件：PDF、WordProcessing、電子表格、簡報等。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "程式碼範例"
+  description: "Java 操作的典型 GroupDocs.Viewer 的一些用例"
+  items:
+    # code sample loop
+    - title: "將 DOCX 渲染為 HTML"
+      content: |
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 類別屬性可讓您控制轉換過程，更多資訊[此處](https:// / docs.groupdocs.com/viewer/java/rendering-to-html/）。 例如，您可以將所有外部資源嵌入到輸出 HTML 檔案中、縮小輸出檔案並最佳化其列印。
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "將 PPTX 匯出為 PDF"
+      content: |
+        建立一個 [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 類別實例並將其傳遞給 [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) 將PowerPoint PPTX 檔案轉換為PDF 的方法。 PdfViewOptions 類別屬性可讓您控制轉換過程。例如，您可以保護輸出 PDF 文件、重新排序其頁面以及指定文件影像的品質。有關詳細信息，請參閱[以下文件部分](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)。
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs 商品評論"
+# description: "不要只相信我們的話。看看其他開發人員如何評價我們的 API"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "優質的服務和優質的產品。他們在 GroupDocs.Viewer for .NET 實施過程中提供了極大的幫助和回應，強烈推薦他們。"
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "在專案中實作並使用 GroupDocs.Viewer for .NET 後，它看起來運作得很好。我已經用很多文件進行了測試，到目前為止一切順利。我扔給它的所有內容都可以很好地呈現，並且看起來與在 PDF 檢視器或 MS Word 中一樣好。"
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

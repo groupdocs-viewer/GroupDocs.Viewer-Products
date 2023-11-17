@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: fa
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: "NET Document Viewer API, Render PDF Word Excel Image HTML Diagram"
+head_title: "API نمایشگر اسناد دات نت، رندر PDF Word Excel Image HTML Diagram"
 head_description: "C# ASP.NET بیننده و API رندر فایل. نمایشگر PDF، نمایشگر Word، نمایشگر اکسل، نمایشگر تصویر، نمایشگر HTML، ویژگی های نمایش ایمیل را در برنامه های NET اضافه کنید."
 
 ############################# Header ##########################
-title: "ارائه و نمایش اسناد از طریق NET API"
-description: "NET Document Viewer API برای ارائه بیش از 190 فرمت سند به PDF، HTML و Image با گزینه های پیکربندی قدرتمند."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "رندر و نمایش اسناد<br>با استفاده از NET API"
+description: "API نمایشگر قدرتمند برای ارائه بیش از 180 فرمت سند به PDF، HTML، و تصویر با گزینه های پیکربندی همه کاره."
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "دانلود رایگان NuGet"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "صدور مجوز"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "برای شروع آماده اید؟"
+  description: "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "بررسی اجمالی"
+release:
+  title: "نسخه {0} منتشر شد"
+  notes: "ببینید چه چیزی جدید است"
+  downloads: "دانلودها"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "امکانات"
-
-            # button loop
-            - link: "#support"
-              text: "حمایت کردن"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "نسخه نمایشی زنده"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "قیمت گذاری"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "رندر فایل های پی دی اف در سی شارپ"
+  more: "نمونه های بیشتر"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer for. کتابخانه نمایشگر فایل، اسناد را شطرنجی‌سازی می‌کند و سپس آنها را به SVG+HTML+CSS تبدیل می‌کند تا تجربه کلی ارائه اسناد را برای مشاهده اسناد تجاری، تصاویر، فایل‌های متنی، نمودارها، گرافیک‌ها، پیوست‌های ایمیل و فایل‌های PDF با سرعت، متن واقعی و بهینه‌سازی کند. با وفاداری بالا در داخل برنامه های شما شما می‌توانید قابلیت‌های مشاهده و خواندن اسناد را در برنامه‌های خود اضافه کنید تا کل سند، سند جزئی، محدوده صفحه/سلول خاص، لایه سند مجزا، با یا بدون حاشیه‌نویسی و نظرات برای قالب‌های فایل پشتیبانی‌شده نمایش داده شود.
-       
-      GroupDocs.Viewer برای دات نت خروجی اسناد رندر شده را به طور پیش فرض در دیسک محلی ذخیره می کند. هر نوع حافظه کش خارجی نیز با پیاده سازی رابط های مناسب پشتیبانی می شود - Amazon S3، Dropbox، Google Drive، Windows Azure، Redis یا هر چیز دیگری.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          در زیر یک نمای کلی از GroupDocs.Viewer برای دات نت ارائه شده است:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "بررسی اجمالی"
-          content: |
-            * نمایش بیش از 190 نوع سند 
-            * دریافت فایل با فرمت HTML، Image، PDF 
-            * چرخش و ترتیب مجدد 
-            * واترمارک را اعمال کنید 
-            * کش برای فرآیند سریع 
-            * اضافه کردن فونت های سفارشی 
-            * استانداردهای رمزگذاری را اعمال کنید 
-            * کنترل کننده داده های ورودی سفارشی 
-            * رندر با تغییرات آهنگ 
-            * رندر به عنوان HTML پاسخگو 
-            * لایه های PDF و CAD را رندر کنید 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer برای دات نت از مشاهده همه فرمت های فایل سند محبوب پشتیبانی می کند. تنها با چند خط کد، نمایشگر PDF، Microsoft Office Word، صفحه گسترده اکسل، تصویر، HTML، ایمیل Outlook، OneNote، پروژه و قابلیت‌های مشاهده گرافیک را در برنامه‌های NET خود اضافه کنید.
+  enable: true
+  title: "GroupDocs.Viewer در یک نگاه"
+  description: "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های NET"
+  features:
+    # feature loop
+    - title: "اسناد را کارآمد و قابل اعتماد مشاهده کنید"
+      content: "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer از .NET Framework 4.6.2 و .NET 6.0 پشتیبانی می کند، روی پلتفرم های ویندوز و لینوکس کار می کند."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند"
+      content: "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور"
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **فایل های طرح بندی صفحه:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **مقادیر جدا شده از جداکننده:** CSV, TSV
-                * **وب:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **آرشیوها:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **مختلف:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "خروجی قابل تنظیم"
+      content: "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "تصاویر، گرافیک و نمودارها"
-              content: |
-                * **تصاویر:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **آیکون ویندوز:** ICO
-                * **گرافیک برداری مقیاس پذیر:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **فتوشاپ:** PSD, PSB
-                * **زبان دستور چاپگر:** PCL
-                * **لیتوگرافی استریو (چاپ سه بعدی):** STL
-                * **کلاس های بنیاد صنعت:** IFC
-                * **تصویربرداری پزشکی:** DICOM
-                * **اسناد پلاتر:** PLT, HPG
-                * **فرمت های وب طراحی اتودسک:** DWF, DWG
-                * **طراحی اتوکد:** DWT, IFC, STL, CF2
-                * **DGN مبتنی بر ISFF (V7):** DGN
+    # feature loop
+    - title: "UI برای ASP.NET Core"
+      content: "ما یک بسته UI منبع باز برای ASP.NET Core ارائه می دهیم که می تواند در عرض چند دقیقه به پروژه شما اضافه شود. بسته Viewer.UI شامل یک web-UI مبتنی بر Angular است و مجموعه ای از APIهای مفید و ارائه دهندگان ذخیره سازی داده را ارائه می دهد."
 
-            # table loop
-            - title: "فرمت های زبان های برنامه نویسی"
-              content: |
-                * **فایل های C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **فایل های جاوا/جاوا اسکریپت:** JAVA, JS, JSON, PROPERTIES
-                * **مختلف:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "استقلال سکو"
+  description: "GroupDocs.Viewer برای دات نت از سیستم عامل ها، فریمورک ها و مدیران بسته های زیر پشتیبانی می کند"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer برای دات نت از سیستم عامل ها، فریم ورک ها و مدیران بسته زیر پشتیبانی می کند:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "سیستم های عامل"
-              content: |
-                * مایکروسافت ویندوز سرور 2003 به بعد 
-                * مایکروسافت ویندوز XP و جدیدتر 
-                * مایکروسافت ویندوز 10 و 11 
-                * لینوکس (Ubuntu، OpenSUSE، CentOS و دیگران) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "چارچوب های پشتیبانی شده"
-              content: |
-                * NET Framework 2.0 یا بالاتر 
-                * NET Core 3.1 
-                * دات نت 5 یا بالاتر 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "مدیر بسته"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "محیط های توسعه"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "فرمت های فایل پشتیبانی شده"
+  description: |
+    GroupDocs.Viewer برای NET از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### مایکروسافت آفیس، OpenDocument و فرمت های متنی
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### تصاویر، گرافیک و نمودارها
+        * **تصاویر شطرنجی:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### دیگر        
+        * **وب:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **آرشیوها:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **دیگر:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer برای ویژگی های NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "اسناد را شطرنجی کنید و آنها را به SVG، HTML و CSS تبدیل کنید"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "تبدیل متن به HTML و رندر اسناد برای دریافت نمایش HTML، تصویر یا PDF"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "زمان بارگذاری سریعتر با استفاده از نسخه های ذخیره شده اسناد"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "ارائه ها را با اشکال و متن با جلوه های سه بعدی تبدیل کنید"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "اسناد ورد، اکسل و ایمیل را به استاندارد رمزگذاری مورد نظر رمزگذاری کنید"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "رندر اسناد واقع در مکان های FTP یا Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "حذف فونت ها هنگام ارائه به HTML برای کاهش اندازه فایل نتیجه"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "با حذف نظرات، فضاهای سفید اضافی و غیره، خروجی CSS و HTML را کوچک کنید."
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "متن موجود در یک سند منبع را از طریق مختصات آن بخوانید"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "نمایش/پنهان کردن خطوط شبکه صفحات اکسل در نمایش خروجی"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "تعداد ردیف‌هایی را در یک برگه اکسل که در هر صفحه ارائه می‌شود، مشخص کنید"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "هنگام ارائه اسناد صفحه گسترده، ستون های خالی را نادیده بگیرید"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "اسناد ورد را به صفحات HTML، تصاویر یا PDF، با تغییرات ردیابی، رندر کنید"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "پیوست های ایمیل را به صورت فایل های اصلی، تصاویر یا در نمایش HTML ارائه دهید"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "محدودیت های چاپ را روی اسناد PDF تنظیم کنید"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "محتوا/فایل های موجود در آرشیو ZIP را به عنوان پیوست ارائه کنید"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "پیوست ها را از اسناد محافظت شده با رمز عبور دریافت کنید"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "فرمت های فایل زبان های برنامه نویسی را به صورت متن ساده ارائه دهید"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "هنگام مشاهده نقشه های CAD، رنگ های پس زمینه را تنظیم کنید"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "اسناد اکسل را مشاهده کنید و به PDF، HTML، JPG و PNG تبدیل کنید"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "دریافت نام کاربرگ ها از فایل اکسل – نمایش عناوین ستون ها و شماره ردیف های صفحه گسترده"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "مشاهده و تبدیل اسناد پروژه مایکروسافت با یادداشت ها"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "برای مشاهده و زوم کردن بهتر، نقشه های CAD را به SVG تبدیل کنید"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "رندر ارقام Visio بدون طرح را انتخاب کنید"
-
-    more_feature:
-      # more_feature_loop
-      - title: "اسناد را کارآمد و قابل اعتماد مشاهده کنید"
-        content: |
-          با استفاده از GroupDocs.Viewer API می توانید بیش از 190 فرمت سند را به طور موثر و قابل اعتماد با یکپارچگی ساختار محتوا و سند نمایش دهید. کد نمونه زیر نشان می دهد که مشاهده نمایش HTML یک سند DOCX چقدر آسان است:
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "Transformation را در خروجی رندر شده اعمال کنید"
-        content: "می‌توانید با استفاده از GroupDocs.Viewer برای NET API، تبدیل‌های مختلفی را در سند خروجی ارائه‌شده انجام دهید. این گزینه های تبدیل به شما امکان کنترل نحوه ارائه خروجی رندر شده برای نمایش را می دهد. تبدیل های موجود عبارتند از، گزینه چرخش صفحه، گزینه ترتیب مجدد صفحه و اعمال واترمارک متن."
-
-      # more_feature_loop
-      - title: "کار با فایل های داده Outlook"
-        content: "GroupDocs.Viewer for .NET API می‌تواند موارد موجود در فایل‌های داده Outlook (OST/PST) را به صورت فایل‌های PDF، HTML و Image ارائه کند. Viewer API ما همچنین توانایی به دست آوردن لیست پوشه های موجود در Outlook Data Files را دارد. با استفاده از GroupDocs.Viewer برای NET API، می‌توانید پوشه‌ای را برای رندر کردن از Outlook Data Files مشخص کنید. به همین ترتیب، شما همچنین می توانید پیام های ایمیل موجود در فرمت های OST/PST را به عنوان پیوست دریافت کنید. GroupDocs.Viewer برای دات نت همچنین به شما امکان می دهد پیام ها را از فرمت های OST/PST بر اساس موضوع، محتوا یا فرستنده فیلتر کنید."
-
-      # more_feature_loop
-      - title: "کار با اسناد CAD"
-        content: "GroupDocs.Viewer for .NET API می تواند مدل و همه طرح بندی های غیر خالی را رندر کند یا یک طرح بندی خاص از یک فایل CAD را ارائه دهد. GroupDocs.Viewer for .NET API همچنین از رندر یا رندر کردن با مختصات اسناد CAD به تصویر، HTML یا PDF پشتیبانی می کند. همچنین می توانید وضعیت لایه ها را برای اسناد CAD بدست آورید."
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "ویژگی های GroupDocs.Viewer"
+  description: "رندر، نمایش، و تبدیل یکپارچه PDF و اسناد آفیس"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "مدیر توسعه محصول در Hireology"
-      content: "ادغام GroupDocs.Viewer برای Cloud API با Ruby SDK خارق العاده آنها ساده بود. شرکت های زیادی وجود ندارند که مایل به همکاری با ما در مورد آنچه ما می خواهیم باشند. این یک مشارکت عالی است."
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "مشاهده اسناد در HTML"
+      content: "هر نوع سندی را با CSS و SVG به یک سند HTML تبدیل کنید، که می تواند در هر مرورگر وب مدرن نمایش داده شود."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "مشاور ارشد/شریک در Novanet AS"
-      content: "پس از پیاده سازی و استفاده از GroupDocs.Viewer برای دات نت در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word ظاهر می‌شوند، خوب به نظر می‌رسند."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "مدیر محصول در Axentria ECM توسط G.S.I."
-      content: "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Viewer برای دات نت بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد."
+    # feature loop
+    - icon: "rasterize"
+      title: "اسناد را شطرنجی کنید"
+      content: "هر قالب سند قابل پشتیبانی را با فرمت تصویر قابل تنظیم و کیفیت فشرده سازی به تصویر شطرنجی تبدیل کنید."
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "کدهای برنامه نویسی را رندر و برجسته کنید"
+      content: "پشتیبانی از همه زبان‌های برنامه‌نویسی، اسکریپت‌نویسی و نشانه‌گذاری محبوب، با قابلیت تجزیه و برجسته کردن نحو آنها."
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer API های مشاهده اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد"
+    # feature loop
+    - icon: "convertpdf"
+      title: "تبدیل به PDF"
+      content: "سند با هر فرمت قابل پشتیبانی را می توان به راحتی با گزینه های قابل تنظیم به PDF تبدیل و ذخیره کرد."
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "تغییرات را اعمال کنید"
+      content: "سند خروجی را می توان در حین رندر تبدیل کرد - صفحات را می توان چرخاند و/یا مرتب کرد و واترمارک متنی در بالای آنها قرار داد."
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "تنظیم خروجی HTML"
+      content: "اسناد HTML خروجی، تولید شده توسط GroupDocs.Viewer، را می توان بسیار دقیق تنظیم کرد: امکان ذخیره در جریان یا فایل، با منابع خارجی یا جاسازی شده، تماس های برگشتی و غیره وجود دارد."
+
+    # feature loop
+    - icon: "complex"
+      title: "پشتیبانی از ساختارهای پیچیده سند"
+      content: "GroupDocs.Viewer نه تنها از اسناد منفرد، بلکه از فایل‌هایی نیز پشتیبانی می‌کند که در داخل شامل فهرست یا ساختار سلسله مراتبی از اسناد هستند، مانند پیام‌های ایمیل با پیوست‌ها، آرشیوهای ZIP با فایل‌های داخلی درون پوشه‌ها، تصاویر TIFF چند صفحه‌ای و غیره."
+
+    # feature loop
+    - icon: "optimization"
+      title: "گزینه های بهینه سازی"
+      content: "GroupDocs.Viewer حاوی یک زیرسیستم کش قابل تنظیم است که می تواند با استفاده از نسخه های ذخیره شده اسناد، زمان بارگذاری را تسریع بخشد. همچنین مجموعه ای از گزینه های مختلف برای فرمت های مختلف اجازه می دهد تا برخی از بخش ها یا جنبه های غیر ضروری اسناد را از رندر حذف کنید (فونت ها، کاربرگ های مخفی، پیوست های ایمیل) برای بهینه سازی عملکرد کلی."
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "پشتیبانی از اسناد محافظت شده با رمز عبور"
+      content: "GroupDocs.Viewer اجازه می دهد تا اسناد رمزگذاری شده را از انواع مختلف باز کنید: PDF، WordProcessing، Spreadsheet، Presentation و غیره، با تعیین رمز عبور در گزینه های بارگیری."
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "نمونه کد"
+  description: "برخی از موارد معمولی GroupDocs.Viewer برای عملیات NET استفاده می کنند"
+  items:
+    # code sample loop
+    - title: "DOCX را به HTML رندر کنید"
+      content: |
+        ویژگی های کلاس [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) به شما امکان می دهد فرآیند تبدیل را کنترل کنید، در مورد آن [اینجا] (https://docs) .groupdocs.com/viewer/net/rendering-to-html/). به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PPTX را به PDF صادر کنید"
+      content: |
+        یک نمونه کلاس [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) ایجاد کنید و آن را به [Viewer.View](https://reference.groupdocs) ارسال کنید. روش com/viewer/net/groupdocs.viewer/viewer/view/#view) برای تبدیل فایل پاورپوینت PPTX به PDF. ویژگی های کلاس PdfViewOptions به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل PDF خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات به [بخش مستندات زیر] (https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) مراجعه کنید.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "بررسی محصولات GroupDocs"
+# description: "فقط حرف ما را قبول نکنید. ببینید سایر توسعه دهندگان در مورد API های ما چه می گویند"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Viewer برای دات نت بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "پس از پیاده سازی و استفاده از GroupDocs.Viewer برای دات نت در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word به نظر می‌رسند."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: fa
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API برای تصاویر و ایمیل های PDF Word Excel HTML"
-head_description: "نمایشگر اسناد جاوا و فایل‌های رندر API. نمایشگر PDF، نمایشگر Word، نمایشگر اکسل، نمایشگر تصویر، نمایشگر HTML، نمایشگر ایمیل را در برنامه های جاوا اضافه کنید."
+head_title: "Java Document Viewer API، رندر PDF Word Excel Image HTML Diagram"
+head_description: "کتابخانه Document Viewer برای توسعه برنامه‌های جاوا که اسناد چند فرمتی را به‌طور بومی ارائه، مشاهده و دستکاری می‌کنند که از بیش از 180 فرمت فایل پشتیبانی می‌کنند."
 
 ############################# Header ############################
-title: "Java API برای ارائه و نمایش اسناد"
-description: "کتابخانه Document Viewer برای توسعه برنامه‌های جاوا که به صورت بومی رندر، مشاهده و دستکاری می‌کنند، اسناد چند قالبی که از بیش از 170 فرمت فایل پشتیبانی می‌کنند."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "رندر و نمایش اسناد<br>با استفاده از Java API"
+description: "API نمایشگر قدرتمند برای ارائه بیش از 180 فرمت سند به PDF، HTML، و تصویر با گزینه های پیکربندی همه کاره."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "دانلود رایگان Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "صدور مجوز"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "برای شروع آماده اید؟"
+  description: "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "بررسی اجمالی"
+release:
+  title: "نسخه {0} منتشر شد"
+  notes: "ببینید چه چیزی جدید است"
+  downloads: "دانلودها"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "امکانات"
+code:
+  title: "رندر فایل های پی دی اف در جاوا"
+  more: "نمونه های بیشتر"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "حمایت کردن"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "نسخه نمایشی زنده"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "قیمت گذاری"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Viewer برای جاوا مجموعه ای قدرتمند از API های نمایشگر اسناد را برای نمایش تصاویر و فرمت های سند در برنامه های جاوا بدون نیاز به نصب نرم افزار اضافی ترکیب می کند. به طور بومی اسناد را شطرنجی می کند و آنها را به SVG+HTML+CSS تبدیل می کند تا کیفیت مشاهده اسناد را افزایش دهد و در عین حال خروجی متن واقعی و با وفاداری بالا را ارائه دهد. با استفاده از API رندر اسناد - PDF، HTML، XML، مایکروسافت آفیس ورد، کاربرگ‌های اکسل، ارائه‌های پاورپوینت، ایمیل‌های Outlook، نمودارهای Visio، پروژه، متافایل‌ها، تصاویر و فرمت‌های مختلف فایل دیگر را با سهولت و خطرات برنامه‌نویسی به سرعت مشاهده کنید. همچنین می‌تواند فایل‌های محافظت‌شده با رمز عبور را نمایش دهد و اجازه دهد پس از رندر، نمایش سند به صورت HTML، تصویر یا PDF دریافت شود. کتابخانه نمایش فایل ما کاملاً قابل تنظیم است، زیرا به شما امکان می دهد کل سند را نمایش دهید، یا بخشی از آن را برای سرعت بخشیدن به فرآیند رندر کنید. از طریق GroupDocs.Viewer برای Java API، می‌توانید صفحات، محدوده سلولی خاص را در یک صفحه گسترده مشاهده کنید یا حتی یک لایه سند جداگانه را در قالب‌هایی مانند PDF و CAD رندر کنید.  
+  enable: true
+  title: "GroupDocs.Viewer در یک نگاه"
+  description: "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های جاوا"
+  features:
+    # feature loop
+    - title: "اسناد را کارآمد و قابل اعتماد مشاهده کنید"
+      content: "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer روی پلتفرم های ویندوز و لینوکس کار می کند."
 
-      GroupDocs.Viewer for Java API به شما امکان می دهد اسناد را با/بدون حاشیه نویسی یا نظرات برای فرمت های فایل پشتیبانی شده ارائه دهید. همچنین به شما امکان می‌دهد فهرست‌های فونت سفارشی اضافه کنید و اطلاعات اولیه سند مانند FileType، Extension، Name، PageCount و غیره را استخراج کنید.  
+    # feature loop
+    - title: "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند"
+      content: "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور"
 
-      GroupDocs.Viewer برای جاوا با تمام نسخه های جاوا سازگار است و از سیستم عامل های محبوب (ویندوز، لینوکس، macOS) که قادر به اجرای زمان اجرا جاوا هستند، پشتیبانی می کند.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          در زیر یک نمای کلی از GroupDocs.Viewer برای جاوا آورده شده است:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "بررسی اجمالی"
-          content: |
-            * نمایش بیش از 170 نوع سند 
-            * دریافت HTML، تصویر، نسخه PDF 
-            * چرخش و ترتیب مجدد 
-            * واترمارک را اعمال کنید 
-            * کش برای فرآیند سریع 
-            * اضافه کردن فونت های سفارشی 
-            * استانداردهای رمزگذاری را اعمال کنید 
-            * کنترل کننده داده های ورودی سفارشی 
-            * رندر با تغییرات آهنگ 
-            * رندر به عنوان HTML پاسخگو 
-            * لایه های PDF و CAD را رندر کنید 
-            * رندر فایل های محافظت شده 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer برای جاوا از همه فرمت های فایل سند محبوب از جمله: مایکروسافت آفیس، تصاویر، نمودارها و بسیاری دیگر پشتیبانی می کند.
+    # feature loop
+    - title: "خروجی قابل تنظیم"
+      content: "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "رابط کاربری وب برای چارچوب Spring"
+      content: "ما یک بسته UI منبع باز برای چارچوب Spring ارائه می دهیم که می تواند در عرض چند دقیقه به پروژه شما اضافه شود. بسته Viewer.UI شامل یک web-UI مبتنی بر Angular است و مجموعه ای از APIهای مفید و ارائه دهندگان ذخیره سازی داده را ارائه می دهد."
 
-            # table loop
-            - title: "فرمت های دیگر"
-              content: |
-                * **فایل های طرح بندی صفحه:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **مقادیر جدا شده از جداکننده:** CSV, TSV
-                * **وب:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **آرشیوها:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **مختلف:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "استقلال سکو"
+  description: "GroupDocs.Viewer برای جاوا از سیستم عامل ها، چارچوب ها و مدیریت بسته های زیر پشتیبانی می کند"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "تصاویر، گرافیک و نمودارها"
-              content: |
-                * **تصاویر:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **آیکون ویندوز:** ICO
-                * **گرافیک برداری مقیاس پذیر:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **فتوشاپ:** PSD, PSB
-                * **زبان دستور چاپگر:** PCL
-                * **لیتوگرافی استریو (چاپ سه بعدی):** STL
-                * **کلاس های بنیاد صنعت:** IFC
-                * **تصویربرداری پزشکی:** DICOM
-                * **اسناد پلاتر:** PLT, HPG
-                * **فرمت های وب طراحی اتودسک:** DWF, DWG
-                * **طراحی اتوکد:** DWT, IFC, STL, CF2
-                * **DGN مبتنی بر ISFF (V7):** DGN
 
-            # table loop
-            - title: "فرمت های زبان های برنامه نویسی"
-              content: |
-                * **فایل های C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **فایل های جاوا/جاوا اسکریپت:** JAVA, JS, JSON, PROPERTIES
-                * **مختلف:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer برای جاوا از سیستم عامل ها، چارچوب ها و مدیران بسته زیر پشتیبانی می کند:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "سیستم های عامل"
-              content: |
-                * مایکروسافت ویندوز سرور 2003 به بعد 
-                * مایکروسافت ویندوز XP و جدیدتر 
-                * مایکروسافت ویندوز 10 و 11 
-                * لینوکس (Ubuntu، OpenSUSE، CentOS و دیگران) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "چارچوب های پشتیبانی شده"
-              content: |
-                * J2SE 8.0 (1.8) یا بالاتر (به عنوان مثال جاوا 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "محیط های توسعه"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "ابزار اتوماسیون ساخت"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "فرمت های فایل پشتیبانی شده"
+  description: |
+    GroupDocs.Viewer برای جاوا از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### مایکروسافت آفیس، OpenDocument و فرمت های متنی
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### تصاویر، گرافیک و نمودارها
+        * **تصاویر شطرنجی:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### دیگر        
+        * **وب:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **آرشیوها:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **دیگر:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer برای ویژگی های جاوا"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "نمایشگر برای HTML، PDF، تصاویر، Word، Excel و سایر فرمت های سند"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "فایل های نقشه های اتوکد (DWG) را به فرمت SVG رندر کنید"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "رنگ پس زمینه فایل تبدیل شده را تنظیم کنید"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "تبدیل اسناد به SVG، HTML و CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "دریافت HTML، تصویر یا PDF از اسناد از طریق رندر"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "نسخه های ذخیره شده اسناد برای افزایش زمان بارگذاری سریعتر"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "راهنماهای فونت سفارشی را پیکربندی کنید"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "استانداردهای رمزگذاری را در اسناد Word، Excel و Email اعمال کنید"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "از راه دور اسناد را در FTP یا Cloud Storage رندر کنید"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "هنگام رندر، حاشیه نویسی و نظرات را حذف یا نگه دارید"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "صفحات سند را به عنوان صفحات HTML مجزا ارائه دهید"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "اسلایدها و صفحات پنهان را رندر کنید و ترتیب مجدد صفحه را در سند رندر شده اعمال کنید"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "محدوده صفحات، صفحات خاص یا همه صفحات را به HTML ارائه دهید"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "ارائه یا پنهان کردن نظرات سند"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "ایجاد HTML پاسخگو برای برخی از فرمت های سند از طریق رندر"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "با حذف فونت ها، اندازه فایل حاصل از HTML ارائه شده را کاهش دهید"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "برای کوچک کردن خروجی HTML و CSS، نظرات، فضاهای سفید اضافی و غیره را حذف کنید"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "از مختصات سند منبع برای خواندن متن موجود استفاده کنید"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "نمایش/پنهان کردن حاشیه سلول در برگه های اکسل خروجی رندر شده"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "تعداد مشخصی از ردیف های هر صفحه را در یک برگه اکسل رندر کنید"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "رندر مدل و همه طرح‌بندی‌های غیر خالی یا طرح‌بندی خاص یک فایل CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "موارد موجود در فایل های داده Outlook (OST/PST) را به صورت PDF رندر کنید"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "رندر یا رندر کاشی توسط مختصات اسناد CAD به صورت تصویر، HTML یا PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "محدودیت های چاپ را هنگام رندر به PDF تنظیم کنید"
-
-    more_feature:
-      # more_feature_loop
-      - title: "API کارآمد و قابل اعتماد برای مشاهده اسناد"
-        content: |
-          GroupDocs.Viewer for Java API را می توان برای مشاهده، رندر و نمایش اسناد بیش از 150 فرمت فایل مختلف استفاده کرد. این کار به طور قابل اعتماد و کارآمد انجام می شود و در عین حال محتوا و همچنین ساختار سند دست نخورده باقی می ماند. مثال زیر سطح سهولتی را که GroupDocs.Viewer for Java API یک فایل DOCX را به عنوان یک فایل تصویری با استفاده از جاوا ارائه می‌کند نشان می‌دهد:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "هنگام رندر کردن اسناد، تبدیل ها را انجام دهید"
-        content: "GroupDocs.Viewer for Java API گزینه‌های مختلف تغییر شکل را به شما پیشنهاد می‌کند تا در سند رندر شده برای نمایش و نمایش سفارشی‌تر اعمال شوند. با ارائه زاویه می توانید صفحات را بچرخانید. می توانید صفحات رندر شده را ترتیب دهید. متن خاصی را به عنوان واترمارک برای صفحات یا تصاویر رندر شده اعمال کنید. از طریق GroupDocs.Viewer for Java API، شما همچنین می توانید فونت های سفارشی را به سند در حال ارائه اضافه کنید."
-
-      # more_feature_loop
-      - title: "کار با پیوست های ایمیل"
-        content: "GroupDocs.Viewer for Java API به شما امکان می‌دهد تا خاص یا همه پیوست‌های یک ایمیل را واکشی کنید. هنگامی که پیوست های ایمیل مورد نیاز را دریافت کردید، می توانید این فایل های پیوست شده را به تصاویر یا HTML رندر کنید."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer API های مشاهده اسناد را برای سایر محیط های توسعه محبوب ارائه می دهد"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "ویژگی های GroupDocs.Viewer"
+  description: "رندر، نمایش، و تبدیل یکپارچه PDF و اسناد آفیس"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "مشاهده اسناد در HTML"
+      content: "هر نوع سندی را با CSS و SVG به یک سند HTML تبدیل کنید، که می تواند در هر مرورگر وب مدرن نمایش داده شود."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "اسناد را شطرنجی کنید"
+      content: "هر قالب سند قابل پشتیبانی را با فرمت تصویر قابل تنظیم و کیفیت فشرده سازی به تصویر شطرنجی تبدیل کنید."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "کدهای برنامه نویسی را رندر و برجسته کنید"
+      content: "پشتیبانی از همه زبان‌های برنامه‌نویسی، اسکریپت‌نویسی و نشانه‌گذاری محبوب، با قابلیت تجزیه و برجسته کردن نحو آنها."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "تبدیل به PDF"
+      content: "سند با هر فرمت قابل پشتیبانی را می توان به راحتی با گزینه های قابل تنظیم به PDF تبدیل و ذخیره کرد."
+
+    # feature loop
+    - icon: "transform"
+      title: "تغییرات را اعمال کنید"
+      content: "سند خروجی را می توان در حین رندر تبدیل کرد - صفحات را می توان چرخاند و/یا مرتب کرد و واترمارک متنی در بالای آنها قرار داد."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "تنظیم خروجی HTML"
+      content: "اسناد HTML خروجی، تولید شده توسط GroupDocs.Viewer، را می توان بسیار دقیق تنظیم کرد: امکان ذخیره در جریان یا فایل، با منابع خارجی یا جاسازی شده، تماس های برگشتی و غیره وجود دارد."
+
+    # feature loop
+    - icon: "complex"
+      title: "پشتیبانی از ساختارهای پیچیده سند"
+      content: "GroupDocs.Viewer نه تنها از اسناد منفرد، بلکه از فایل‌هایی نیز پشتیبانی می‌کند که در داخل شامل فهرست یا ساختار سلسله مراتبی از اسناد هستند، مانند پیام‌های ایمیل با پیوست‌ها، آرشیوهای ZIP با فایل‌های داخلی درون پوشه‌ها، تصاویر TIFF چند صفحه‌ای و غیره."
+
+    # feature loop
+    - icon: "optimization"
+      title: "گزینه های بهینه سازی"
+      content: "GroupDocs.Viewer حاوی یک زیرسیستم کش قابل تنظیم است که می تواند با استفاده از نسخه های ذخیره شده اسناد، زمان بارگذاری را تسریع بخشد. همچنین مجموعه ای از گزینه های مختلف برای فرمت های مختلف اجازه می دهد تا برخی از بخش ها یا جنبه های غیر ضروری اسناد را از رندر حذف کنید (فونت ها، کاربرگ های مخفی، پیوست های ایمیل) برای بهینه سازی عملکرد کلی."
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "پشتیبانی از اسناد محافظت شده با رمز عبور"
+      content: "GroupDocs.Viewer اجازه می دهد تا اسناد رمزگذاری شده را از انواع مختلف باز کنید: PDF، WordProcessing، Spreadsheet، Presentation و غیره، با تعیین رمز عبور در گزینه های بارگیری."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "نمونه کد"
+  description: "برخی از موارد معمولی GroupDocs.Viewer برای عملیات جاوا استفاده می کنند"
+  items:
+    # code sample loop
+    - title: "DOCX را به HTML رندر کنید"
+      content: |
+        ویژگی‌های کلاس [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، در مورد آن [اینجا] (https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "PPTX را به PDF صادر کنید"
+      content: |
+        یک نمونه کلاس [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) ایجاد کنید و آن را به [Viewer.View] (https://reference) ارسال کنید. روش groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) برای تبدیل فایل پاورپوینت PPTX به PDF. ویژگی های کلاس PdfViewOptions به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل PDF خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات به [بخش مستندات زیر] (https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) مراجعه کنید.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "بررسی محصولات GroupDocs"
+# description: "فقط حرف ما را قبول نکنید. ببینید سایر توسعه دهندگان در مورد API های ما چه می گویند"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Viewer برای دات نت بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "پس از پیاده سازی و استفاده از GroupDocs.Viewer برای دات نت در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word به نظر می‌رسند."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

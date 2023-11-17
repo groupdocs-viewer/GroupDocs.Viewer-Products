@@ -1,342 +1,302 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
-lang: el
 product: "Viewer"
 product_tag: "viewer"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
+
 ############################# Head ############################
-head_title: "Java Document Viewer API για εικόνες και μηνύματα ηλεκτρονικού ταχυδρομείου PDF Word Excel HTML"
-head_description: "Πρόγραμμα προβολής εγγράφων Java και API απόδοσης αρχείων. Προσθέστε πρόγραμμα προβολής PDF, πρόγραμμα προβολής Word, πρόγραμμα προβολής Excel, πρόγραμμα προβολής εικόνων, πρόγραμμα προβολής HTML, πρόγραμμα προβολής email σε εφαρμογές Java."
+head_title: "Java Document Viewer API, απόδοση PDF Word Excel Image HTML Diagram"
+head_description: "Βιβλιοθήκη Document Viewer για την ανάπτυξη εφαρμογών Java που αποδίδουν εγγενώς, προβάλλουν και χειρίζονται έγγραφα πολλαπλών μορφών που υποστηρίζουν 180+ μορφές αρχείων."
 
 ############################# Header ############################
-title: "Java API για απόδοση και εμφάνιση εγγράφων"
-description: "Βιβλιοθήκη προβολής εγγράφων για την ανάπτυξη εφαρμογών Java που αποδίδουν, προβάλλουν και χειρίζονται εγγενώς, έγγραφα πολλαπλών μορφών που υποστηρίζουν 170+ μορφές αρχείων."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/java"
+title: "Απόδοση και εμφάνιση εγγράφων<br>χρησιμοποιώντας Java API"
+description: "Ισχυρό API προβολής για απόδοση 180+ μορφών εγγράφων σε PDF, HTML και Εικόνα με ευέλικτες επιλογές διαμόρφωσης."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-        product: "GroupDocs.Viewer"
-        platform: "Java"
+actions:
+  main: "Δωρεάν λήψη Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
+  alt: "Αδειοδότηση"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/java"
+  title: "Είστε έτοιμοι να ξεκινήσετε;"
+  description: "Δοκιμάστε τις δυνατότητες του GroupDocs.Viewer δωρεάν ή ζητήστε άδεια"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ"
+release:
+  title: "Η έκδοση {0} κυκλοφόρησε"
+  notes: "Δείτε τι νέο υπάρχει"
+  downloads: "Λήψεις"
+  link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Χαρακτηριστικά"
+code:
+  title: "Απόδοση αρχείων PDF σε Java"
+  more: "Περισσότερα παραδείγματα"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+  install: |
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-viewer</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
-            # button loop
-            - link: "#support"
-              text: "Υποστήριξη"
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
+  content: |
+    ```java {style=abap}
+    // Instantiate Viewer
+    try (Viewer viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        HtmlViewOptions viewOptions = 
+            HtmlViewOptions.forEmbeddedResources();
 
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Ζωντανή επίδειξη"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/java"
-              text: "Τιμολόγηση"
-
-    right:
-        link_download: "https://releases.groupdocs.com/viewer/java/"
-        link_learn: "https://docs.groupdocs.com/viewer/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+        // Render PDF to HTML with embedded resources
+        viewer.view(viewOptions);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Το GroupDocs.Viewer για Java συνδυάζει ένα ισχυρό σύνολο API προβολής εγγράφων για την εμφάνιση εικόνων και μορφών εγγράφων στις εφαρμογές σας Java χωρίς να χρειάζεται να εγκαταστήσετε πρόσθετο λογισμικό. Ραστεροποιεί εγγενώς τα έγγραφα και τα μετατρέπει σε SVG+HTML+CSS για να βελτιώσει την ποιότητα της προβολής εγγράφων, ενώ παρέχει ένα πραγματικό κείμενο, υψηλής πιστότητας έξοδο. Χρησιμοποιώντας το API απόδοσης εγγράφων – προβάλετε γρήγορα PDF, HTML, XML, Microsoft Office Word, φύλλα εργασίας Excel, παρουσιάσεις PowerPoint, email του Outlook, διαγράμματα Visio, Project, μετα-αρχεία, εικόνες και διάφορες άλλες μορφές αρχείων με ευκολία και λιγότερους κινδύνους προγραμματισμού. Μπορεί επίσης να εμφανίζει αρχεία που προστατεύονται με κωδικό πρόσβασης και να επιτρέπει τη λήψη αναπαράστασης εγγράφων ως μορφή HTML, εικόνας ή PDF μετά την απόδοση. Η βιβλιοθήκη προβολής αρχείων μας είναι αρκετά προσαρμόσιμη, καθώς σας επιτρέπει να εμφανίσετε ολόκληρο το έγγραφο ή να το αποδώσετε εν μέρει για να επιταχύνετε τη διαδικασία. Μέσω του GroupDocs.Viewer για Java API, μπορείτε να προβάλετε σελίδες, συγκεκριμένο εύρος κελιών σε ένα υπολογιστικό φύλλο ή ακόμα και να αποδώσετε ένα μεμονωμένο επίπεδο εγγράφου σε μορφές, όπως PDF και CAD.  
+  enable: true
+  title: "GroupDocs.Viewer με μια ματιά"
+  description: "API για απόδοση, εμφάνιση, μετατροπή εγγράφων, διαφανειών, διαγραμμάτων και πολλών άλλων τύπων εγγράφων σε εφαρμογές Java"
+  features:
+    # feature loop
+    - title: "Προβολή εγγράφων αποτελεσματικά και αξιόπιστα"
+      content: "Με το GroupDocs.Viewer API μπορείτε να αποδώσετε αποτελεσματικά έγγραφα οποιασδήποτε υποστηρίσιμης μορφής σε HTML, JPEG, PNG και PDF με ευέλικτες και ισχυρές επιλογές, διατηρώντας παράλληλα την ακεραιότητα του περιεχομένου και της δομής του εγγράφου. Το GroupDocs.Viewer λειτουργεί σε πλατφόρμες Windows και Linux."
 
-      Το GroupDocs.Viewer for Java API σάς επιτρέπει να αποδίδετε έγγραφα με/χωρίς σχολιασμούς ή σχόλια για υποστηριζόμενες μορφές αρχείων. Σας δίνει επίσης τη δυνατότητα να προσθέσετε προσαρμοσμένους καταλόγους γραμματοσειρών και να εξαγάγετε βασικές πληροφορίες εγγράφων όπως Τύπος αρχείου, Επέκταση, Όνομα, Καταμέτρηση σελίδων κ.λπ.  
+    # feature loop
+    - title: "Υποστηρίζονται οι πιο δημοφιλείς μορφές αρχείων και εγγράφων"
+      content: "Υποστηρίζουμε την απόδοση των 180 πιο δημοφιλών μορφών αρχείων και εγγράφων που περιλαμβάνουν Word, Excel, PDF, PowerPoint, οικογένεια μορφών OpenDocument, Αρχεία, εικόνες Raster και Vector, e-Books, γλώσσες προγραμματισμού και επισημάνσεις, και πολλούς άλλους τύπους αρχείων, συμπεριλαμβανομένων των κρυπτογραφημένων αρχεία με προστασία κωδικού πρόσβασης."
 
-      Το GroupDocs.Viewer για Java είναι συμβατό με όλες τις εκδόσεις Java και υποστηρίζει δημοφιλή λειτουργικά συστήματα (Windows, Linux, macOS) που είναι σε θέση να εκτελούν χρόνο εκτέλεσης Java.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ακολουθεί μια επισκόπηση του GroupDocs.Viewer για Java:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ"
-          content: |
-            * Εμφάνιση 170+ τύπων εγγράφων 
-            * Αποκτήστε έκδοση HTML, εικόνας, PDF 
-            * Περιστροφή & αναδιάταξη 
-            * Εφαρμογή υδατογραφήματος 
-            * Προσωρινή μνήμη για γρήγορη διαδικασία 
-            * Προσθήκη προσαρμοσμένων γραμματοσειρών 
-            * Εφαρμογή προτύπων κωδικοποίησης 
-            * Προσαρμοσμένο πρόγραμμα χειρισμού δεδομένων εισαγωγής 
-            * Render with Track Changes 
-            * Απόδοση ως Responsive HTML 
-            * Απόδοση επιπέδων PDF & CAD 
-            * Απόδοση προστατευμένων αρχείων 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Το GroupDocs.Viewer για Java υποστηρίζει όλες τις δημοφιλείς μορφές αρχείων εγγράφων, όπως: Microsoft Office, εικόνες, διαγράμματα και πολλές άλλες.
+    # feature loop
+    - title: "Προσαρμόσιμη έξοδος"
+      content: "Το GroupDocs.Viewer επιτρέπει όχι μόνο την απόδοση του εγγράφου, αλλά και τον έλεγχο του πώς ακριβώς, ποια μέρη του εγγράφου πρέπει να αποδοθούν ή τώρα, πώς πρέπει να αποδοθούν και να εφαρμόσει διαφορετικούς μετασχηματισμούς στην απόδοση απόδοσης."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Web UI για το πλαίσιο Spring"
+      content: "Παρέχουμε ένα πακέτο ανοιχτού κώδικα διεπαφής χρήστη για το πλαίσιο Spring που μπορεί να προστεθεί στο έργο σας σε λίγα λεπτά. Το πακέτο Viewer.UI περιέχει μια διεπαφή ιστού που βασίζεται σε Angular και παρέχει ένα σύνολο χρήσιμων API και παρόχων αποθήκευσης δεδομένων."
 
-            # table loop
-            - title: "Άλλες μορφές"
-              content: |
-                * **Αρχεία διάταξης σελίδας:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Τιμές διαχωρισμένες με οριοθέτη:** CSV, TSV
-                * **Ιστός:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Αρχεία:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Διάφορος:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Ανεξαρτησία πλατφόρμας"
+  description: "Το GroupDocs.Viewer για Java υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, πλαίσια και διαχειριστές πακέτων"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Εικόνες, Γραφικά & Διαγράμματα"
-              content: |
-                * **εικόνες:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Εικονίδιο Windows:** ICO
-                * **Κλιμακόμενα διανυσματικά γραφικά:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Γλώσσα εντολών εκτυπωτή:** PCL
-                * **Στερεοφωνική Λιθογραφία (3D Printing):** STL
-                * **Μαθήματα Industry Foundation:** IFC
-                * **Ιατρική απεικόνιση:** DICOM
-                * **Έγγραφα Plotter:** PLT, HPG
-                * **Μορφές Web Design Autodesk:** DWF, DWG
-                * **Σχέδιο AutoCAD:** DWT, IFC, STL, CF2
-                * **DGN που βασίζεται σε ISFF (V7):** DGN
 
-            # table loop
-            - title: "Μορφές γλωσσών προγραμματισμού"
-              content: |
-                * **Αρχεία C/C++/C#:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Αρχεία Java/JavaScript:** JAVA, JS, JSON, PROPERTIES
-                * **Διάφορος:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          Το GroupDocs.Viewer για Java υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, Frameworks και Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Λειτουργικά συστήματα"
-              content: |
-                * Microsoft Windows Server 2003 και μεταγενέστερη έκδοση 
-                * Microsoft Windows XP και νεότερα 
-                * Microsoft Windows 10 & 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS και άλλα) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Υποστηριζόμενα πλαίσια"
-              content: |
-                * J2SE 8.0 (1.8) ή νεότερη έκδοση (για παράδειγμα Java 17) 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Αναπτυξιακά Περιβάλλοντα"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Εργαλείο Build Automation"
-              content: |
-                * Maven
-                * Gradle
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Υποστηριζόμενες μορφές αρχείων"
+  description: |
+    Το GroupDocs.Viewer για Java υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument και μορφές κειμένου
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Εικόνες, Γραφικά & Διαγράμματα
+        * **Εικόνες ράστερ:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### Αλλα        
+        * **Ιστός:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Αρχεία:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **Αλλα:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer για λειτουργίες Java"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Πρόγραμμα προβολής για HTML, PDF, Εικόνες, Word, Excel και άλλες μορφές εγγράφων"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Αποδώστε τα αρχεία AutoCAD Drawings (DWG) σε μορφή SVG"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Προσαρμόστε το χρώμα φόντου του αρχείου που μετατράπηκε"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Ραστεροποίηση και μετατροπή εγγράφων σε SVG, HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Αποκτήστε αναπαράσταση εγγράφων HTML, εικόνας ή PDF μέσω απόδοσης"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Αποθηκευμένες εκδόσεις εγγράφων για γρήγορη φόρτωση"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Διαμόρφωση καταλόγων προσαρμοσμένων γραμματοσειρών"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Εφαρμόστε πρότυπα κωδικοποίησης σε έγγραφα Word, Excel και Email"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Απομακρυσμένη απόδοση εγγράφων σε FTP ή Cloud Storage"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Κατάργηση ή διατήρηση σχολιασμών και σχολίων κατά την απόδοση"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Απόδοση σελίδων εγγράφων ως ξεχωριστές σελίδες HTML"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Απόδοση κρυφών διαφανειών και σελίδων & Εφαρμογή αναδιάταξης σελίδων στο αποδοθέν έγγραφο"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Αποδώστε το εύρος των σελίδων, τις συγκεκριμένες σελίδες ή όλες τις σελίδες σε HTML"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Απόδοση ή απόκρυψη σχολίων εγγράφων"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Δημιουργήστε Responsive HTML για ορισμένες μορφές εγγράφων μέσω της απόδοσης"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Μειώστε το μέγεθος του προκύπτοντος αρχείου του αποδιδόμενου HTML εξαιρώντας τις γραμματοσειρές"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Καταργήστε σχόλια, επιπλέον λευκά κενά κ.λπ., για να ελαχιστοποιήσετε την έξοδο HTML & CSS"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Χρησιμοποιήστε τις συντεταγμένες του εγγράφου πηγής για να διαβάσετε το κείμενο που περιέχεται"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Εμφάνιση/Απόκρυψη περιγράμματος κελιού σε φύλλα Excel της απόδοσης απόδοσης"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Αποδώστε τον συγκεκριμένο αριθμό σειρών κάθε σελίδας σε ένα φύλλο Excel"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Render Model και όλες τις μη κενές διατάξεις ή μια συγκεκριμένη διάταξη ενός αρχείου CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Αποδώστε τα στοιχεία στα αρχεία δεδομένων του Outlook (OST/PST) ως PDF"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Απόδοση πλακιδίων ή απόδοση με συντεταγμένες εγγράφων CAD ως εικόνα, HTML ή PDF"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Ορίστε περιορισμούς εκτύπωσης κατά την απόδοση σε PDF"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Αποτελεσματικό και αξιόπιστο API για προβολή εγγράφων"
-        content: |
-          Το GroupDocs.Viewer for Java API μπορεί να χρησιμοποιηθεί για την προβολή, απόδοση και εμφάνιση εγγράφων με περισσότερες από 150 διαφορετικές μορφές αρχείων. Γίνεται αξιόπιστα και αποτελεσματικά διατηρώντας το περιεχόμενο καθώς και τη δομή του εγγράφου ανέπαφα. Το ακόλουθο παράδειγμα δείχνει το επίπεδο ευκολίας με το οποίο το GroupDocs.Viewer for Java API αποδίδει ένα αρχείο DOCX ως αρχείο εικόνας χρησιμοποιώντας Java:
-
-          ```java
-          // Initialize Viewer
-          Viewer viewer = new Viewer("invoice.docx");
-          // Create view options
-          PdfViewOptions viewOptions = new PdfViewOptions();
-          // Convert file to PDF and check the output in the current directory
-          viewer.view(viewOptions);
-          ```
-      # more_feature_loop
-      - title: "Εκτελέστε μετασχηματισμούς κατά την απόδοση εγγράφων"
-        content: "Το GroupDocs.Viewer for Java API σάς προσφέρει διάφορες επιλογές μετασχηματισμού που θα εφαρμοστούν στο αποδοθέν έγγραφο για μια πιο προσαρμοσμένη προβολή και εμφάνιση. Μπορείτε να περιστρέψετε σελίδες παρέχοντας τη γωνία. Μπορείτε να κάνετε τη σειρά των σελίδων που έχουν αποδοθεί. Εφαρμόστε συγκεκριμένο κείμενο ως υδατογράφημα σε σελίδες ή εικόνες που έχουν αποδοθεί. Μέσω του GroupDocs.Viewer for Java API, έχετε επίσης τη δυνατότητα να προσθέσετε προσαρμοσμένες γραμματοσειρές στο έγγραφο που αποδίδεται."
-
-      # more_feature_loop
-      - title: "Εργασία με συνημμένα email"
-        content: "Το GroupDocs.Viewer for Java API σάς επιτρέπει να ανακτήσετε συγκεκριμένα ή όλα τα συνημμένα ενός email. Μόλις λάβετε τα απαιτούμενα συνημμένα email, μπορείτε να αποδώσετε αυτά τα συνημμένα αρχεία σε εικόνες ή HTML."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ##########################
-solutions:
-    enable: true
-    title: "Το GroupDocs.Viewer προσφέρει API προβολής εγγράφων για άλλα δημοφιλή περιβάλλοντα ανάπτυξης"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer"
-          platform: ".NET"
-          link: "/viewer/net/"
-
-############################# Back to top ##########################
-back_to_top:
   enable: true
+  title: "Λειτουργίες GroupDocs.Viewer"
+  description: "Απρόσκοπτη απόδοση, προβολή και μετατροπή εγγράφων PDF και Office"
+
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Προβολή εγγράφων σε HTML"
+      content: "Μετατρέψτε έγγραφο οποιουδήποτε τύπου σε έγγραφο HTML με CSS και SVG, το οποίο μπορεί να εμφανιστεί σε οποιοδήποτε σύγχρονο πρόγραμμα περιήγησης ιστού."
+
+    # feature loop
+    - icon: "rasterize"
+      title: "Ραστεροποίηση εγγράφων"
+      content: "Ραστερίστε οποιαδήποτε υποστηρίσιμη μορφή εγγράφου στην εικόνα ράστερ, με ρυθμιζόμενη μορφή εικόνας και ποιότητα συμπίεσης."
+
+    # feature loop
+    - icon: "sourcecode"
+      title: "Απόδοση και επισήμανση κωδικών προγραμματισμού"
+      content: "Υποστήριξη όλων των δημοφιλών γλωσσών προγραμματισμού, δέσμης ενεργειών και σήμανσης, με δυνατότητα ανάλυσης και επισήμανσης της σύνταξής τους."
+
+    # feature loop
+    - icon: "convertpdf"
+      title: "Μετατροπή σε PDF"
+      content: "Έγγραφο οποιασδήποτε υποστηρίσιμης μορφής μπορεί εύκολα να μετατραπεί και να αποθηκευτεί σε PDF με ρυθμιζόμενες επιλογές."
+
+    # feature loop
+    - icon: "transform"
+      title: "Εφαρμόστε μετασχηματισμούς"
+      content: "Το έγγραφο εξόδου μπορεί να μετατραπεί κατά τη διάρκεια της απόδοσης - οι σελίδες μπορούν να περιστραφούν ή/και να αναδιαταχθούν και να τοποθετηθεί υδατογράφημα κειμένου επάνω τους."
+
+    # feature loop
+    - icon: "adjustment"
+      title: "Προσαρμογή εξόδου HTML"
+      content: "Έγγραφα HTML εξόδου, που δημιουργούνται από το GroupDocs.Viewer, μπορούν να συντονιστούν πολύ καλά: επιτρέπεται η αποθήκευση στη ροή ή το αρχείο, με εξωτερικούς ή ενσωματωμένους πόρους, επιστροφές κλήσης και ούτω καθεξής."
+
+    # feature loop
+    - icon: "complex"
+      title: "Υποστήριξη πολύπλοκων δομών εγγράφων"
+      content: "Το GroupDocs.Viewer υποστηρίζει όχι μόνο τα μεμονωμένα έγγραφα, αλλά και αρχεία, τα οποία εσωτερικά περιέχουν μια λίστα ή ιεραρχική δομή εγγράφων, όπως μηνύματα email με συνημμένα, αρχεία ZIP με εσωτερικά αρχεία μέσα σε φακέλους, εικόνες TIFF πολλών σελίδων κ.λπ."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Επιλογές βελτιστοποίησης"
+      content: "Το GroupDocs.Viewer περιέχει ένα προσαρμόσιμο υποσύστημα προσωρινής μνήμης, το οποίο μπορεί να επιταχύνει το χρόνο φόρτωσης χρησιμοποιώντας τις αποθηκευμένες εκδόσεις των εγγράφων. Επίσης, ένα σύνολο διαφορετικών επιλογών για διαφορετικές μορφές επιτρέπει τον αποκλεισμό ορισμένων περιττών τμημάτων ή πτυχών εγγράφων από την απόδοση (γραμματοσειρές, κρυφά φύλλα εργασίας, συνημμένα email) για βελτιστοποίηση της συνολικής απόδοσης"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Υποστήριξη εγγράφων που προστατεύονται με κωδικό πρόσβασης"
+      content: "Το GroupDocs.Viewer επιτρέπει το άνοιγμα των κρυπτογραφημένων εγγράφων διαφορετικών τύπων: PDF, WordProcessing, Spreadsheet, Presentation και άλλα, καθορίζοντας έναν κωδικό πρόσβασης στις επιλογές φόρτωσης."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Δείγματα κωδικών"
+  description: "Ορισμένες περιπτώσεις χρησιμοποιούν τυπικές λειτουργίες GroupDocs.Viewer για λειτουργίες Java"
+  items:
+    # code sample loop
+    - title: "Αποδώστε το DOCX σε HTML"
+      content: |
+        Οι ιδιότητες κλάσης [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής, περισσότερα σχετικά [εδώ](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Για παράδειγμα, μπορείτε να ενσωματώσετε όλους τους εξωτερικούς πόρους στο αρχείο HTML εξόδου, να ελαχιστοποιήσετε το αρχείο εξόδου και να το βελτιστοποιήσετε για εκτύπωση.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.HtmlViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = 
+                HtmlViewOptions.forEmbeddedResources();
+
+            // Render DOCX to HTML with embedded resources
+            viewer.view(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Εξαγωγή PPTX σε PDF"
+      content: |
+        Δημιουργήστε μια παρουσία κλάσης [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) και περάστε την στο [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) μέθοδος για τη μετατροπή ενός αρχείου PowerPoint PPTX σε PDF. Οι ιδιότητες κλάσης PdfViewOptions σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής. Για παράδειγμα, μπορείτε να προστατεύσετε το αρχείο PDF εξόδου, να αναδιατάξετε τις σελίδες του και να καθορίσετε την ποιότητα των εικόνων του εγγράφου. Ανατρέξτε στην [ακόλουθη ενότητα τεκμηρίωσης](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) για λεπτομέρειες.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}   
+        import com.groupdocs.viewer.Viewer;
+        import com.groupdocs.viewer.options.PdfViewOptions;
+
+        // Instantiate Viewer
+        try (Viewer viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            PdfViewOptions viewOptions = new PdfViewOptions();
+
+            // Export PPTX to PDF
+            viewer.view(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "Κριτικές προϊόντων GroupDocs"
+# description: "Μην παίρνετε το λόγο μας για αυτό. Δείτε τι λένε άλλοι προγραμματιστές για τα API μας"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Εξαιρετική εξυπηρέτηση και εξαιρετικά προϊόντα. Ήταν εξαιρετικά χρήσιμοι και ανταποκρίθηκαν κατά τη διαδικασία υλοποίησης του GroupDocs.Viewer για .NET, δεν μπορώ να τα προτείνω αρκετά."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Μετά την εφαρμογή και χρήση του GroupDocs.Viewer για .NET στο έργο, φαίνεται να λειτουργεί πολύ καλά. Έχω δοκιμάσει με πολλά έγγραφα και μέχρι στιγμής καλά. Όλα όσα έχω ρίξει σε αυτό αποδίδονται όμορφα και φαίνονται εξίσου καλά με ένα πρόγραμμα προβολής PDF ή MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

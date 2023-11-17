@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+layout: "landing"
+date: 2023-06-29T12:38:08
 draft: false
 
 lang: hr
@@ -10,357 +10,276 @@ product_tag: "viewer"
 platform: ".NET"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
-head_title: ".NET Document Viewer API, Render PDF Word Excel Image HTML dijagram"
+head_title: ".NET API za preglednik dokumenata, prikaz PDF Word Excel Slika HTML dijagrama"
 head_description: "C# ASP.NET preglednik datoteka i API za renderiranje. Dodajte PDF preglednik, Word preglednik, Excel preglednik, preglednik slika, HTML preglednik, preglednik e-pošte u .NET aplikacijama."
 
 ############################# Header ##########################
-title: "Renderiranje i prikaz dokumenata putem .NET API-ja"
-description: ".NET Document Viewer API za renderiranje više od 190 formata dokumenata u PDF, HTML i slike sa snažnim opcijama konfiguracije."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/viewer/net"
+title: "Renderirajte i prikažite dokumente<br>pomoću .NET API-ja"
+description: "Snažni API preglednika za prikaz više od 180 formata dokumenata u PDF, HTML i slike sa raznovrsnim opcijama konfiguracije."
+words:
+  for: "for"
 
-############################# SubMenu #########################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
+actions:
+  main: "Besplatno preuzimanje NuGeta"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+  alt: "Licenciranje"
+  alt_link: "https://purchase.groupdocs.com/pricing/viewer/net"
+  title: "Jeste li spremni za početak?"
+  description: "Isprobajte značajke GroupDocs.Viewer besplatno ili zatražite licencu"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pregled"
+release:
+  title: "Verzija {0} izdana"
+  notes: "Pogledajte što je novo"
+  downloads: "Preuzimanja"
+  link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
-            # button loop
-            - link: "#features"
-              text: "Značajke"
-
-            # button loop
-            - link: "#support"
-              text: "podrška"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/total"
-              text: "Demo uživo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Cijene"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Viewer"
-        link_learn: "https://docs.groupdocs.com/viewer/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Prikaz PDF datoteka u C#"
+  more: "Više primjera"
+  more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+  install: "dotnet add package GroupDocs.Viewer"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var viewer = new Viewer("resume.pdf"))
+    {
+        // Set output HTML options, one file per page
+        var viewOptions = 
+          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        
+        // Render PDF to HTML with embedded resources
+        viewer.View(viewOptions);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      API-ji GroupDocs.Viewer za .NET pomažu vam u stvaranju snažnih aplikacija u C#, ASP.NET i drugim tehnologijama temeljenim na .NET-u, koje mogu renderirati i prikazati dokumente i slike u više od 190 formata datoteka bez instaliranja vanjskog softvera. Biblioteka preglednika datoteka rasterizira dokumente i zatim ih pretvara u SVG+HTML+CSS kako bi optimizirao cjelokupno iskustvo prikazivanja dokumenata za pregled poslovnih dokumenata, slika, tekstualnih datoteka, dijagrama, grafika, privitaka e-pošte i PDF datoteka s brzinom, istinitim tekstom i visoke kvalitete unutar vaših aplikacija. Imate mogućnost dodavanja funkcija pregledavanja i čitanja dokumenata u svoje aplikacije za prikaz cijelog dokumenta, djelomičnog dokumenta, određenog raspona stranica/ćelija, sloja pojedinačnog dokumenta, sa ili bez primjedbi i komentara za podržane formate datoteka.
-       
-      GroupDocs.Viewer za .NET prema zadanim postavkama sprema ispisane dokumente na lokalni disk. Bilo koja vrsta vanjske predmemorije također je podržana implementacijom odgovarajućih sučelja – Amazon S3, Dropbox, Google Drive, Windows Azure, Redis ili bilo koje drugo.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Slijedi pregled GroupDocs.Viewer za .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Pregled"
-          content: |
-            * Prikaz 190+ vrsta dokumenata 
-            * Dobijte datoteku u HTML, slikovnom, PDF formatu 
-            * Zakreni i promijeni redoslijed 
-            * Primijeni vodeni žig 
-            * Predmemorija za brzi proces 
-            * Dodajte prilagođene fontove 
-            * Primijenite standarde kodiranja 
-            * Rukovatelj prilagođenim ulaznim podacima 
-            * Renderiranje s praćenjem promjena 
-            * Prikaz kao odgovarajući HTML 
-            * Renderirajte PDF i CAD slojeve 
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Viewer za .NET podržava pregled svih popularnih formata datoteka dokumenata. Sa samo nekoliko redaka koda dodajte PDF preglednik, Microsoft Office Word, Excel proračunsku tablicu, sliku, HTML, Outlook e-poštu, OneNote, Project i mogućnosti pregledavanja grafike u vašim .NET aplikacijama.
+  enable: true
+  title: "GroupDocs.Viewer na prvi pogled"
+  description: "API za renderiranje, prikaz, pretvaranje dokumenata, slajdova, dijagrama i mnogih drugih vrsta dokumenata u .NET aplikacijama"
+  features:
+    # feature loop
+    - title: "Pregledajte dokumente učinkovito i pouzdano"
+      content: "S API-jem GroupDocs.Viewer možete učinkovito renderirati dokumente bilo kojeg podržanog formata u HTML, JPEG, PNG i PDF s fleksibilnim i moćnim opcijama uz održavanje integriteta sadržaja i strukture dokumenta. GroupDocs.Viewer podržava .NET Framework 4.6.2 i .NET 6.0, radi na Windows i Linux platformama."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP, MPT, MPX
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
+    # feature loop
+    - title: "Podržani su najpopularniji formati datoteka i dokumenata"
+      content: "Podržavamo iscrtavanje preko 180 najpopularnijih formata datoteka i dokumenata koji uključuju Word, Excel, PDF, PowerPoint, obitelj OpenDocument formata, arhive, rasterske i vektorske slike, e-knjige, programske jezike i oznake te mnoge druge vrste datoteka, uključujući šifrirane datoteke sa zaštitom lozinkom."
 
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **Datoteke izgleda stranice:** PDF, TEX, XPS, OXPS
-                * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG, OTG, FODP, FODG
-                * **Vrijednosti odvojene razdjelnicima:** CSV, TSV
-                * **mreža:** HTML, MHT, MHTML
-                * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
-                * **PostScript:** PS, EPS
-                * **Arhiva:** ZIP, TAR, BZ2, GZ, RAR, RAR5
-                * **Razni:** OBJ, EPUB, MOBI, DjVu, XML, VCF, VCARD, NUMBERS, NSF
+    # feature loop
+    - title: "Prilagodljiv izlaz"
+      content: "GroupDocs.Viewer omogućuje ne samo renderiranje dokumenta, već i kontrolu kako točno, koji dijelovi dokumenta trebaju biti renderirani ili sada, kako bi se trebali renderirati, te primjenu različitih transformacija na renderirani izlaz."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Slike, grafike i dijagrami"
-              content: |
-                * **Slike:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB
-                * **Windows ikona:** ICO
-                * **Skalabilna vektorska grafika:** SVG, CDR, CMX, IGS, SVGZ
-                * **Jpeg2000:** JP2, J2C, J2K, JPC, JPF, JPX, JPM
-                * **Adobe Photoshop:** PSD, PSB
-                * **Jezik naredbi pisača:** PCL
-                * **Stereo litografija (3D ispis):** STL
-                * **Nastava temelja industrije:** IFC
-                * **Medicinska slika:** DICOM
-                * **Ploter dokumenti:** PLT, HPG
-                * **Autodesk Design web formati:** DWF, DWG
-                * **AutoCAD Crtanje:** DWT, IFC, STL, CF2
-                * **DGN temeljen na ISFF-u (V7):** DGN
+    # feature loop
+    - title: "UI za ASP.NET Core"
+      content: "Pružamo paket korisničkog sučelja otvorenog koda za ASP.NET Core koji se može dodati vašem projektu u nekoliko minuta. Paket Viewer.UI sadrži web-UI temeljen na Angularu i donosi skup korisnih API-ja i pružatelja usluga pohrane podataka."
 
-            # table loop
-            - title: "Formati programskih jezika"
-              content: |
-                * **C/C++/C# datoteke:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
-                * **Java/JavaScript datoteke:** JAVA, JS, JSON, PROPERTIES
-                * **Razni:** VB, PHP, SQL, PL, PY, PV, RB, RST, SASS, SCALA, SCM, SCRIPT, AS, AS3, ASM, BAT, CMAKE, CSS, DIFF, ERB, GROOVY, HAML, LESS, LOG, M, MAKE, MD, ML, MM, SH, SML, VIM, YAML
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Neovisnost o platformi"
+  description: "GroupDocs.Viewer za .NET podržava sljedeće operativne sustave, okvire i upravitelje paketa"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Viewer za .NET podržava sljedeće operativne sustave, okvire i upravitelje paketa:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacijski sustavi"
-              content: |
-                * Microsoft Windows Server 2003 i noviji 
-                * Microsoft Windows XP i noviji 
-                * Microsoft Windows 10 i 11 
-                * Linux (Ubuntu, OpenSUSE, CentOS i drugi) 
-                * Mac OS X 
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podržani okviri"
-              content: |
-                * .NET Framework 2.0 ili noviji 
-                * .NET Core 3.1 
-                * .NET 5 ili noviji 
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Upravitelj paketa"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Razvojna okruženja"
-              content: |
-                * Microsoft Visual Studio
-                * Visual Studio Code
-                * .NET CLI
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Podržani formati datoteka"
+  description: |
+    GroupDocs.Viewer za .NET podržava rad sa sljedećim [formatima datoteka](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office, OpenDocument i tekstualni formati
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM        
+        * **Project:** MPP, MPT, MPX
+        * **Outlook:** MSG, EML, EMLX, PST, OST
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, OTT, ODS, ODP, OTP, OTS, ODG
+        * **Fixed Page Layout:** PDF, TEX, XPS, OXPS
+        * **e-Books:** EPUB, MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV, TSV
+    # group loop
+    - color: "blue"
+      content: |
+        ### Slike, grafike i dijagrami
+        * **Rasterske slike:** BMP, GIF, JPG, PNG, TIFF, WebP, DNG, DIB, Jpeg2000 family
+        * **Windows Icon:** ICO
+        * **Scalable Vector Graphics:** SVG, CDR, CMX, IGS, SVGZ        
+        * **Adobe Photoshop:** PSD, PSB        
+        * **Stereo Lithography (3D Printing):** STL        
+        * **Medical Imaging:** DICOM
+        * **Plotter Documents:** PLT, HPG
+        * **Autodesk Design Web Formats:** DWF, DWG
+        * **AutoCAD Drawing:** DWT, IFC, STL, CF2        
+      # group loop
+    - color: "red"
+      content: |
+        ### ostalo        
+        * **mreža:** HTML, MHT, MHTML, XML
+        * **Metafile:** WMF, EMF, CGM, EMZ, WMZ
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+        * **Project:** MPP, MPT, MPX
+        * **PostScript:** PS, EPS
+        * **Arhiva:** ZIP, TAR, BZ2, GZ, RAR, RAR5
+        * **ostalo:** VCF, VCARD, NUMBERS, NSF, OBJ
+        * **C/C++/C# Files:** C, CC, C# , CPP, CXX, CS, H, HH, M, MM
+        * **Java/JavaScript Files:** JAVA, JS, JSON, PROPERTIES
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Viewer za .NET značajke"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Rasterizirajte dokumente i pretvorite ih u SVG, HTML i CSS"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Pretvorite tekst u HTML i renderirajte dokumente da biste dobili HTML, sliku ili PDF prikaz"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Brže vrijeme učitavanja pomoću predmemoriranih verzija dokumenata"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Pretvorite prezentacije s oblicima i tekstom s 3D efektima"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Kodirajte Word, Excel i dokumente e-poštom na željeni standard kodiranja"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Renderirajte dokumente koji se nalaze na FTP ili Cloud Storage lokacijama"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Isključivanje fontova prilikom iscrtavanja u HTML radi smanjenja rezultirajuće veličine datoteke"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Smanjite CSS i HTML izlaz uklanjanjem komentara, dodatnih razmaka itd."
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Pročitajte tekst sadržan u izvornom dokumentu kroz njegove koordinate"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Prikaži/sakrij linije rešetke Excel listova u prikazu izlaza"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Odredite broj redaka u Excel listu koji će se prikazati na svakoj stranici"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Zanemarite prazne stupce tijekom iscrtavanja dokumenata proračunske tablice"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Renderirajte Wordove dokumente u HTML stranice, slike ili PDF uz praćenje promjena"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Prikažite privitke e-pošte kao izvorne datoteke, slike ili u HTML prikazu"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Postavite ograničenja ispisa PDF dokumenata"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Prikažite sadržaj/datoteke sadržane u ZIP arhivama kao privitke"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Nabavite privitke iz dokumenata zaštićenih lozinkom"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Prikaz formata datoteka programskih jezika kao običnog teksta"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Prilagodite pozadinske boje prilikom gledanja CAD crteža"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Pregledajte Excel dokumente i pretvorite ih u PDF, HTML, JPG i PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Dobijte nazive radnih listova iz Excel datoteke – Prikažite naslove stupaca proračunske tablice i brojeve redaka"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Pregledajte i pretvorite Microsoft Project dokumente s bilješkama"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Pretvorite CAD crteže u SVG za bolje iskustvo gledanja i zumiranja"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Odaberite renderiranje Visio slika bez sheme"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Pregledajte dokumente učinkovito i pouzdano"
-        content: |
-          Korištenjem API-ja GroupDocs.Viewer možete prikazati više od 190 formata dokumenata učinkovito i pouzdano s netaknutim integritetom sadržaja i strukture dokumenta. Sljedeći primjer koda pokazuje koliko je lako vidjeti HTML reprezentaciju DOCX dokumenta:
-
-          ```cs
-          // Instantiate viewer
-          using (Viewer viewer = new Viewer("invoice.docx"))
-          {
-              // Set view options
-              HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
-              // Convert file to HTML with embedded resources
-              viewer.View(options);
-          }
-          ```
-      # more_feature_loop
-      - title: "Primijeni transformaciju na renderirani izlaz"
-        content: "Možete izvesti različite transformacije renderiranog izlaznog dokumenta koristeći GroupDocs.Viewer za .NET API. Ove opcije transformacije daju vam kontrolu nad načinom na koji prezentirate renderirani izlaz za prikaz. Dostupne transformacije su opcija rotacije stranice, opcija promjene redoslijeda stranice i primjena tekstualnog vodenog žiga."
-
-      # more_feature_loop
-      - title: "Rad s Outlook podatkovnim datotekama"
-        content: "GroupDocs.Viewer za .NET API može prikazati stavke u podatkovnim datotekama programa Outlook (OST/PST) kao PDF, HTML i slikovne datoteke. Naš Viewer API također ima mogućnost dobivanja popisa mapa koje se nalaze u Outlook podatkovnim datotekama. Koristeći GroupDocs.Viewer za .NET API, možete odrediti mapu za prikaz iz Outlook podatkovnih datoteka. Isto tako, također možete dobiti poruke e-pošte sadržane u OST/PST formatima kao privitke. GroupDocs.Viewer za .NET također vam omogućuje filtriranje poruka iz OST/PST formata na temelju predmeta, sadržaja ili pošiljatelja."
-
-      # more_feature_loop
-      - title: "Rad s CAD dokumentima"
-        content: "GroupDocs.Viewer za .NET API može prikazati model i sve neprazne rasporede ili prikazati određeni izgled CAD datoteke. GroupDocs.Viewer za .NET API također podržava popločano prikazivanje ili prikazivanje prema koordinatama CAD dokumenata u sliku, HTML ili PDF. Također možete dobiti statuse slojeva za CAD dokumente."
-
-############################# Testimonials ###############################
-testimonials:
   enable: true
+  title: "Značajke GroupDocs.Viewer"
+  description: "Besprijekorno renderirajte, prikazujte i pretvarajte PDF i Office dokumente"
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Direktor razvoja proizvoda u Hireology"
-      content: "Integracija GroupDocs.Viewer for Cloud API-ja bila je jednostavna s njihovim fantastičnim Ruby SDK-om. Nema toliko tvrtki koje su spremne raditi s nama na onome što želimo. To je super partnerstvo."
+  items:
+    # feature loop
+    - icon: "viewhtml"
+      title: "Pregledajte dokumente u HTML-u"
+      content: "Pretvorite dokument bilo koje vrste u HTML dokument s CSS-om i SVG-om, koji se može prikazati u bilo kojem modernom web-pregledniku."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Viši konzultant/partner u Novanetu AS"
-      content: "Nakon implementacije i korištenja GroupDocs.Viewer za .NET u projektu, čini se da radi vrlo dobro. Testirao sam s mnogo dokumenata i za sada je dobro. Sve što sam bacio na njega lijepo se prikazuje i izgleda jednako dobro kao što bi izgledalo u PDF pregledniku ili MS Wordu."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Voditelj proizvoda u tvrtki Axentria ECM by G.S.I."
-      content: "Izvrsna usluga i izvrsni proizvodi. Bili su izuzetno korisni i osjetljivi tijekom procesa implementacije GroupDocs.Viewera za .NET, ne mogu ih dovoljno preporučiti."
+    # feature loop
+    - icon: "rasterize"
+      title: "Rasterizirajte dokumente"
+      content: "Rasterizirajte bilo koji podržani format dokumenta u rastersku sliku, s podesivim formatom slike i kvalitetom kompresije."
 
-############################# Support ############################
-support:
-    enable: true
+    # feature loop
+    - icon: "sourcecode"
+      title: "Prikaz i označavanje programskih kodova"
+      content: "Podrška za sve popularne programerske, skriptne i označne jezike, s mogućnošću analiziranja i isticanja njihove sintakse."
 
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Viewer nudi API-je za pregledavanje dokumenata za druga popularna razvojna okruženja"
+    # feature loop
+    - icon: "convertpdf"
+      title: "Pretvori u PDF"
+      content: "Dokument bilo kojeg podržanog formata može se jednostavno pretvoriti i spremiti u PDF s podesivim opcijama."
 
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Java"
-          link: "/viewer/java/"
+    # feature loop
+    - icon: "transform"
+      title: "Primijeni transformacije"
+      content: "Izlazni dokument može se transformirati tijekom renderiranja - stranice se mogu rotirati i/ili preuređivati, a tekstualni vodeni žig može se postaviti na njih."
 
-############################# Back to top ###############################
-back_to_top:
+    # feature loop
+    - icon: "adjustment"
+      title: "Podešavanje HTML izlaza"
+      content: "Izlazni HTML dokumenti, koje generira GroupDocs.Viewer, mogu se vrlo fino podesiti: dopušteno je spremanje u tok ili datoteku, s vanjskim ili ugrađenim resursima, povratnim pozivima i tako dalje."
+
+    # feature loop
+    - icon: "complex"
+      title: "Podrška za složene strukture dokumenata"
+      content: "GroupDocs.Viewer podržava ne samo pojedinačne dokumente, već i datoteke koje interno sadrže popis ili hijerarhijsku strukturu dokumenata, kao što su poruke e-pošte s privicima, ZIP arhive s internim datotekama unutar mapa, TIFF slike s više stranica i tako dalje."
+
+    # feature loop
+    - icon: "optimization"
+      title: "Mogućnosti optimizacije"
+      content: "GroupDocs.Viewer sadrži prilagodljivi podsustav predmemorije koji može ubrzati vrijeme učitavanja korištenjem predmemoriranih verzija dokumenata. Također skup različitih opcija za različite formate omogućuje isključivanje nekih nepotrebnih dijelova ili aspekata dokumenata iz renderiranja (fontovi, skriveni radni listovi, privici e-pošte) kako bi se optimizirala ukupna izvedba"
+
+    # feature loop
+    - icon: "passwordprotected"
+      title: "Podrška za dokumente zaštićene lozinkom"
+      content: "GroupDocs.Viewer omogućuje otvaranje šifriranih dokumenata različitih vrsta: PDF, WordProcessing, Spreadsheet, Presentation i drugi, određivanjem lozinke u opcijama učitavanja."
+
+############################# Code samples ############################
+code_samples:
   enable: true
+  title: "Uzorci kodova"
+  description: "Neki slučajevi upotrebe tipičnog GroupDocs.Viewera za .NET operacije"
+  items:
+    # code sample loop
+    - title: "Renderirajte DOCX u HTML"
+      content: |
+        Svojstva klase [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) omogućuju vam kontrolu procesa konverzije, više o tome [ovdje](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Na primjer, možete ugraditi sve vanjske resurse u izlaznu HTML datoteku, minimizirati izlaznu datoteku i optimizirati je za ispis.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        // Instantiate viewer
+        using (Viewer viewer = new Viewer("resume.docx"))
+        {
+            // Set output HTML options
+            HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
+            
+            // Render DOCX to HTML with embedded resources
+            viewer.View(options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Izvezi PPTX u PDF"
+      content: |
+        Stvorite instancu klase [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) i proslijedite je u [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) metoda za pretvaranje PowerPoint PPTX datoteke u PDF. Svojstva klase PdfViewOptions omogućuju kontrolu procesa konverzije. Na primjer, možete zaštititi izlaznu PDF datoteku, promijeniti redoslijed njezinih stranica i odrediti kvalitetu slika dokumenta. Pojedinosti potražite u [odjeljku sljedeće dokumentacije](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}   
+        using GroupDocs.Viewer;
+        using GroupDocs.Viewer.Options;
+        
+        using (var viewer = new Viewer("presentation.pptx"))
+        {
+            // Set output PDF options
+            var viewOptions = new PdfViewOptions("presentation.pdf");
+            
+            // Export PPTX to PDF
+            viewer.View(viewOptions);
+        }
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs recenzije proizvoda"
+# description: "Nemojte nam samo vjerovati na riječ. Pogledajte što drugi programeri kažu o našim API-jima"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Izvrsna usluga i izvrsni proizvodi. Bili su izuzetno korisni i osjetljivi tijekom procesa implementacije GroupDocs.Viewera za .NET, ne mogu ih dovoljno preporučiti."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Nakon implementacije i korištenja GroupDocs.Viewer za .NET u projektu, čini se da radi vrlo dobro. Testirao sam s mnogo dokumenata i za sada je dobro. Sve što sam bacio na njega lijepo se prikazuje i izgleda jednako dobro kao što bi izgledalo u PDF pregledniku ili MS Wordu."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---
