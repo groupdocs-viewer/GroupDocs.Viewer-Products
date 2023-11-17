@@ -43,7 +43,7 @@ actions:
   description: "Try GroupDocs.Viewer features for free or request a license"
 
 release:
-  "Version {0}&nbsp;released"
+  title: "Version {0}&nbsp;released"
   notes: "See what’s new"
   downloads: "Downloads"
   link: "https://releases.groupdocs.com/viewer/nodejs-java/release-notes/latest/"
