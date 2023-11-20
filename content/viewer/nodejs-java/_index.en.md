@@ -99,20 +99,20 @@ platforms:
     - title: "Azure"
       image: "azure"
     # platform loop
-    - title: "VS Code"
-      image: "vs_code"
+    - title: "Eclipse"
+      image: "eclipse"
     # platform loop
-    - title: "ReSharper"
-      image: "resharper"
+    - title: "IntelliJ"
+      image: "intellij"
     # platform loop
-    - title: "macOS"
-      image: "finder"
+    - title: "Windows"
+      image: "windows"
     # platform loop
     - title: "Linux"
       image: "linux"
     # platform loop
-    - title: "NuGet"
-      image: "nuget"
+    - title: "NPM"
+      image: "npm"
 
 ############################# File formats ############################
 formats:
