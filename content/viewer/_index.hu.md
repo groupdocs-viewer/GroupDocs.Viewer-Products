@@ -1,134 +1,370 @@
 ---
-############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+############################# Static ############################
+layout: "family"
+date: 2023-12-20T06:39:57
 draft: false
-lang: hu
+
 product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API-k és online dokumentumnéző alkalmazások a GroupDocstól"
-head_description: "Szerezzen mindent az egyben dokumentummegjelenítő megoldást .NET, Java és Cloud alkalmazásokhoz. Tekintse meg a gyakori dokumentumformátumokat online az egyszerű fogd és vidd funkció segítségével."
+head_title: "Render and View Documents API | On Premise API és online szolgáltatás"
+head_description: "Rendereljen és tekintsen meg Word, PDF, Excel, Powerpoint vagy képfájlokat egyszerűen és ingyenesen"
 
-############################# Header ##########################
-title: "Dokumentummegjelenítési és -megtekintési megoldás"
-description: "Rugalmas dokumentummegtekintési megoldás programozók és szakemberek számára a széles körben használt fájlformátumok bárhol renderelésére és megjelenítésére."
+############################# Header ############################
+title: "Rendereljen és tekintsen meg dokumentumokat könnyedén"
+description: |
+  Hatékony Viewer API a különböző fájlok PDF, HTML és kép formátumban való megjelenítéséhez.
 
-############################# APIs ############################
-apis:
+  Töltsön be dokumentumokat különböző forrásokból, beleértve a fájlokat, adatfolyamokat, URL-eket, FTP-kiszolgálókat, Amazon S3-at, Azure Blob Storage-ot és egyebeket.
+
+  Hozzon létre reszponzív HTML-oldalakat, védje meg a kimeneti PDF-fájlokat, és rendezze át az oldalakat, forgassa el az oldalakat, jelenítsen meg jegyzeteket és megjegyzéseket, ha szükséges.
+  
+
+############################# Platforms ############################
+supported_platforms:
+  enable: true  
+  head_title: "Válassza ki a platformját"
+  title: "Támogatott platformok"
+  description: "A GroupDocs.Viewer könyvtár a következő operációs rendszereket és keretrendszereket támogatja"
+  details_link_title: "Tudj meg többet"
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      description: "GroupDocs.Viewer for .NET"
+      color: "blue"
+      tag: "net"
+      link: "/viewer/net/"
+      features_link: "https://docs.groupdocs.com/viewer/net/system-requirements/"
+      features:
+        # features loop
+        - content: ".NET Framework 4.6.2+  <br>  .NET Core 3.1  <br>  .NET 6+"
+          rows: "3"
+        # features loop
+        - content: "Windows, Linux"
+          rows: "1"
+        # features loop
+        - content: "180+ file formats"
+          rows: "1"
+        # features loop
+        - content: "UI package for ASP.NET Core"
+          rows: "1"
+        # features loop
+        - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
+          rows: "3"
+    
+    # supported_platforms loop
+    - title: "Java"
+      description: "GroupDocs.Viewer for Java"
+      color: "red"
+      tag: "java"
+      link: "/viewer/java/"
+      features_link: "https://docs.groupdocs.com/viewer/java/system-requirements/"
+      features:
+        # features loop
+        - content: "J2SE 8.0 (1.8)+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"       
+        # features loop
+        - content:  "180+ file formats"
+          rows: "1"
+        # features loop
+        - content:  "UI package for Spring and Dropwizard"
+          rows: "1"
+        # features loop
+        - content:  "Spring Demo  <br>  Dropwizard demo"
+          rows: "3"
+
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "GroupDocs.Viewer for Node.js"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/viewer/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/viewer/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "Node.js 16+  <br>  and J2SE 8.0 (1.8)+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"
+        # features loop
+        - content:  "180+ file formats"
+          rows: "1"
+        # features loop
+        - content:  "UI package - coming soon "
+          rows: "1" 
+        # features loop
+        - content:  "Demo - coming soon "
+          rows: "3" 
+
+
+
+############################# Features ############################
+
+features:
   enable: true
+  title: "A GroupDocs.Viewer szolgáltatáskészlete"
+  description: "API különböző típusú, például HTML-, PDF-, PNG- és JPEG-fájlok megjelenítéséhez az alkalmazásokban, hogy azokat harmadik féltől származó szoftverek nélkül is megtekinthesse."
 
-  api:
-    # api loop
-    - title: "A GroupDocs.Viewer High Code API-k magukban foglalják"
-      link: "/viewer/"
-      label: "Az összes High Code API megtekintése"
-      api_product:
-        # api_product loop
-        - link: "/viewer/net/"
-          img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer for"
-          platform: ".NET"
-          content: "Több formátumú dokumentumnézegető API .NET és Mono keretrendszerekhez, amellyel több mint 190 népszerű fájlformátum jeleníthető meg az alkalmazásaiból."
+  items:
+    # feature loop
+    - icon: "view"
+      title: "Dokumentumok és képek megtekintése"
+      content: "Tekintse meg a dokumentumokat HTML-, PDF-, PNG- és JPEG-fájlokként."
+    # feature loop
+    - icon: "password"
+      title: "Nyissa meg a védett dokumentumokat"
+      content: "Adjon meg egy jelszót a titkosított dokumentumok megnyitásához."
 
-        # api_product loop
-        - link: "/viewer/java/"
-          img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer for"
-          platform: "Java"
-          content: "Tegye fel a Java-alkalmazásokat dokumentummegtekintési és renderelési képességekkel a dokumentumok, képek és diagramok széles skálájának megjelenítéséhez."
-        
-        # api_product loop
-        - link: "/viewer/nodejs-java/"
-          img_alt: "GroupDocs.Viewer for Node.js via Java"
-          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
-          product: "GroupDocs.Viewer for"
-          platform: "Node.js via Java"
-          content: "Adja meg JavaScript alkalmazásainak a lehetőséget, hogy megjelenítsék a különböző Microsoft Office dokumentumokat, PDF-eket és képeket egy vonzó felhasználói élmény érdekében."
+    # feature loop
+    - icon: "load"
+      title: "Fájlok betöltése bárhonnan"
+      content: "Töltsön be dokumentumokat különféle fájlokról, URL-ekről, FTP-szerverekről, Amazon S3-ról és egyebekről."
+    
+    # feature loop
+    - icon: "pages"
+      title: "Az összes vagy bizonyos oldalak megjelenítése"
+      content: "Adja meg a megjelenítendő oldalszámok tartományát."
 
-    # api loop
-    - title: "A GroupDocs.Viewer alacsony kódú API-jai közé tartozik"
-      link: "https://products.groupdocs.cloud/viewer"
-      label: "Az összes alacsony kódú API megtekintése"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/curl"
-          img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud for cURL"
-          content: "A cURL RESTful dokumentummegjelenítő API-val együttműködve gyorsan renderelheti és megjelenítheti a Microsoft Office, PDF és más gyakori fájlformátumokat alkalmazásaiban."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/net"
-          img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for .NET"
-          content: "Hatékony dokumentumformátum-megtekintési képességek hozzáadása a .NET-alkalmazásokhoz a Cloud SDK for .NET használatával. Tekintse meg a dokumentumokat HTML, PDF vagy képként."
-
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/java"
-          img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for Java"
-          content: "Adjon hozzá nagy hűségű dokumentum-megjelenítési funkciókat java-alkalmazásaihoz a kifejezetten Java-hoz készült dokumentumnézegető SDK-val."
-
-    # api loop
-    - title: "GroupDocs.Viewer Nincsenek kódalkalmazások" 
-      link: "https://products.groupdocs.app/viewer"
-      label: "Az összes kód nélküli alkalmazás megtekintése"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/total"
-          img_alt: "GroupDocs.Viewer Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "Total"
-          content: "Ingyenes online alkalmazás több mint 190 fájlformátum megtekintéséhez bármely tetszőleges böngészőből."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/docx"
-          img_alt: "GroupDocs.Viewer DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "DOCX"
-          content: "Ingyenes webalkalmazás a Microsoft Word fájlok online megtekintéséhez bármilyen eszközről."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/pdf"
-          img_alt: "GroupDocs.Viewer PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "PDF"
-          content: "Tekintse meg a Portable Document Format (PDF) fájlt közvetlenül a webböngészőből."
-
-############################# Testimonials ###############################
-testimonials:
+############################# Code samples ############################
+code_samples:
   enable: true
-  bg_color: "bg-gray"
+  title: "GroupDocs.Viewer kódminták"
+  description: "Néhányan a GroupDocs.Viewer tipikus műveleteit használják C#, Java, TypeScript nyelven"
+  items:
+    # code sample loop
+    - title: "Hogyan lehet DOCX fájlokat PDF formátumba renderelni"
+      content: |
+        A DOCX dokumentumokat PDF formátumba renderelheti Microsoft Word vagy más szoftver telepítése nélkül. Könnyedén tölthet be és tekinthet meg DOCX-fájlokat .NET-alkalmazásában, legyen szó akár webes, akár asztali alkalmazásról. Íme egy példa arra, hogyan lehet DOCX fájlt PDF formátumba renderelni: 
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Töltsön be DOCX fájlt a rendereléshez
+            using (Viewer viewer = new Viewer("sample.docx"))
+            {
+              // A DOCX renderelése PDF-fájlba
+              PdfViewOptions viewOptions = new PdfViewOptions();
+              viewer.View(viewOptions);
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            import com.groupdocs.viewer.Viewer;
+            import com.groupdocs.viewer.options.PdfViewOptions;
+            // ...
+            // Töltsön be DOCX fájlt a rendereléshez
+            try (Viewer viewer = new Viewer("sample.docx")) {
+                // A DOCX renderelése PDF-fájlba
+                PdfViewOptions viewOptions = new PdfViewOptions();
+                viewer.view(viewOptions);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Töltsön be DOCX fájlt a rendereléshez
+            const viewer = new groupdocs.viewer.Viewer("sample.docx")
+            
+            // A DOCX renderelése PDF-fájlba
+            const viewOptions = groupdocs.viewer.PdfViewOptions(output.pdf)
+            viewer.view(viewOptions)
+            ```
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "A Hireology termékfejlesztési igazgatója"
-      content: "A GroupDocs.Viewer for Cloud API integrálása egyszerű volt a fantasztikus Ruby SDK segítségével. Nincs olyan sok cég, amely hajlandó lenne velünk dolgozni azon, amit szeretnénk. Ez egy nagyszerű partnerség."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "A Novanet AS vezető tanácsadója/partnere"
-      content: "A GroupDocs.Viewer for .NET projektben történő megvalósítása és használata után úgy tűnik, hogy nagyon jól működik. Rengeteg dokumentummal teszteltem és eddig jó. Minden, amit rádobtam, szépen renderel, és ugyanolyan jól néz ki, mint egy PDF-nézegetőben vagy MS Word-ben."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Az Axentria ECM termékmenedzsere, G.S.I."
-      content: "Kiváló kiszolgálás és kiváló termékek. Rendkívül segítőkészek és készségesek voltak a GroupDocs.Viewer for .NET megvalósítási folyamata során, nem tudom őket eléggé ajánlani."
-
-############################# Back to top ###############################
-back_to_top:
+############################# Formats ############################
+formats:
   enable: true
+  title:  "180+ fájlformátum támogatott"
+  description: "A GroupDocs.Viewer támogatja a legnépszerűbb [fájlformátumokkal](https://docs.groupdocs.com/viewer/net/supported-document-formats/) végzett műveleteket" 
+
+
+
+############################# Metrics ############################
+
+metrics:
+  enable: true
+  title: "Mélyreható mérőszámok és statisztikai betekintések"
+  description: "Merüljön el kulcsszámaink részletes lebontásában, átfogó mutatókat és statisztikai betekintést nyújtva eredményeinket, hatásunkat és növekedésünket illetően."
+
+  items:
+    # metrics loop
+    - number: "180+"
+      title: "Támogatott formátumok"
+      content: "Több mint 180 fájlformátum, köztük dokumentumok, képek és CAD-rajzok problémamentes megtekintése. Átfogó megtekintési megoldásunkkal törje meg a kompatibilitási akadályokat, és könnyedén hozzáférhet a különféle fájlokhoz."
+
+    # metrics loop
+    - number: "1.0M"
+      title: "NuGet letöltések"
+      content: "NuGet csomagmegoldásunk megbízható és széles körben elfogadott erőforrássá vált a fejlesztői közösségben, zökkenőmentes integrációt és értékes funkcionalitást biztosítva számtalan projekt számára."
+
+    # metrics loop
+    - number: "10+"
+      title: "Könyvtárak"
+      content: "Termékünk több mint 10 könyvtárat tartalmaz, amelyek fejlett funkciókat kínálnak a teljesítmény optimalizálása érdekében. Ezeket a könyvtárakat úgy tervezték, hogy páratlan képességekkel kielégítsék a különböző fejlesztési igényeket."
+    
+    # metrics loop
+    - number: "100+"
+      title: "Boldog ügyfelek"
+      content: "A világ legikonikusabb márkáit szolgáljuk ki. Fedezze fel, miért szeretik több százan a GroupDocs.Viewer-t! Fedezze fel a zökkenőmentes navigációt, a kényelmes együttműködést és a páratlanul egyszerű használatot. Csatlakozz most!"
+
+
+
+############################# Customers ############################
+# logo size X1 => 170:70  X2 => 340 : 140
+
+customers:
+  enable: true
+  title: "Boldog ügyfeleink"
+  description: "A GroupDocs könyvtárakat világszerte elismert és előkelő márkák alkalmazzák szerte a világon."
+
+  items:
+    # customers loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+    # customers loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+    # customers loop
+    - title: "AT&T Inc."
+      logo: "att"
+    # customers loop
+    - title: "AstraZeneca"
+      logo: "astrazeneca"
+    # customers loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+    # customers loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+    # customers loop
+    - title: "Capita"
+      logo: "capita"
+    # customers loop
+    - title: "Axa S.A."
+      logo: "axa"
+    # customers loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+     # customers loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Készen áll az indulásra?"
+  description: "Próbálja ki ingyenesen a GroupDocs.Viewer funkcióit, vagy kérjen licencet"
+  items:
+    #  loop
+    - title: ".NET"
+      link: "/viewer/net/"
+      color: "blue"
+        #  loop
+    - title: "Java"
+      link: "/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Node.js"
+      link: "/viewer/nodejs-java/"
+      color: "green"
+
+
+############################# Faq ############################
+
+faq:
+  enable: true
+  title:  "Gyakori kérdések és aggályok"
+  description:  "A gyakori kérdésekre keressen válaszokat a GYIK részben, hogy gyorsan válaszolhasson kérdéseire és aggályaira."
+  items:
+    #  loop
+    - question: "Értékelhetem a GroupDocs termékeket a vásárlás előtt?"
+      answer: |
+        Igen! Minden GroupDocs-termék kockázatmentes, értékelő verzióval rendelkezik. Nyomatékosan javasoljuk a fejlesztőknek, hogy vásárlás előtt töltsék le és próbálják ki API-jainkat, hogy azok 100%-osan kielégítsék az Ön igényeit.
+    #  loop
+    - question: "A GroupDocs készít termékbemutatókat?"
+      answer: |
+        Nem, mi az API-inkra és a lehető legfunkcionálisabb és legstabilabb termékekre összpontosítunk. Teljesen működőképes és ingyenes próbaverziókat kínálunk [ideiglenes licenc](https://purchase.groupdocs.com/temporary-license/) formájában, így Ön is kipróbálhatja a terméket.    
+    #  loop
+    - question: "Hol tudom letölteni a terméket?"
+      answer: |
+        Minden termék letölthető a [webhelyről](https://releases.groupdocs.com). Szoftverünk fizikai másolatát nem küldjük postai úton.
+    #  loop
+    - question: "A GroupDocs fejlesztői licence felhasználónként vagy megnevezett felhasználónként vonatkozik?"
+      answer: |
+        A GroupDocs fejlesztői licencek felhasználónként érvényesek, nem megnevezett felhasználókonként. Tisztában vagyunk vele, hogy a kódoló csapat tagjai idővel változhatnak, és nem célszerű minden alkalommal frissíteni a licencet.
+    #  loop
+    - question: "Csak aktív fejlesztőknek van szükségünk licencre? Például van egy két fejlesztőből álló csapatunk az A műszakban és egy két fejlesztőből álló csapat a B műszakban… ebben a helyzetben két vagy négy licencre van szükségünk?"
+      answer: |
+        Minden fejlesztőnek, aki a projekten dolgozik, licenccel kell rendelkeznie. Ebben a helyzetben a GroupDocs négytagúnak tekinti a csapatát (annak ellenére, hogy különböző időpontokban dolgoznak). 
+
+
+############################# Cloud ############################
+
+cloud_links:
+  enable: true
+  title: "GroupDocs.Viewer alacsony kódú API-k"
+  description: "Felhőalapú REST API-nkkal felgyorsíthatja a dokumentumok vagy képek megtekintését bármilyen típusú alkalmazásban"
+
+  items:
+    #  loop
+    - icon: "groupdocs_viewer-for-curl"
+      title: "GroupDocs.Viewer Cloud for cURL"
+      link: "https://products.groupdocs.cloud/viewer/curl"
+      content: "Használja a cURL RESTful dokumentumnézegető API-t a Microsoft Office, PDF és más szabványos fájlformátumok hatékony megjelenítéséhez és bemutatásához alkalmazásaiban."
+
+    #  loop
+    - icon: "groupdocs_viewer-for-net"
+      title: "GroupDocs.Viewer Cloud for .NET"
+      link: "https://products.groupdocs.cloud/viewer/net"
+      content: "A .NET-alkalmazások dokumentummegtekintési képességeinek javítása a .NET-hez készült Cloud SDK segítségével. Tekintse meg a dokumentumokat zökkenőmentesen HTML, PDF vagy képformátumban."
+
+    #  loop
+    - icon: "groupdocs_viewer-for-java"
+      title: "GroupDocs.Viewer Cloud for Java"
+      link: "https://products.groupdocs.cloud/viewer/java"
+      content: "Integráljon fejlett dokumentum-megjelenítési képességeket Java-alkalmazásaiba egy erre a célra kialakított Java Document Viewer SDK segítségével."
+    
+
+############################# Apps ############################
+
+app_links:
+  enable: true
+  title: "GroupDocs.Viewer NoCode alkalmazások"
+  description: "Online alkalmazás, amely lehetővé teszi több mint 180 népszerű fájlformátum megtekintését a böngészőben"
+
+  items:
+    #  loop
+    - icon: "groupdocs_viewer-app"
+      title: "GroupDocs.Viewer Total"
+      link: "https://products.groupdocs.app/viewer/total"
+      content: "Fedezzen fel egy ingyenes online alkalmazást, amellyel több mint 180 fájlformátumot tekinthet meg közvetlenül kedvenc webböngészőjéből."
+
+    #  loop
+    - icon: "groupdocs_words-app"
+      title:  "GroupDocs.Viewer DOCX"
+      link: "https://products.groupdocs.app/viewer/docx"
+      content: "Webalapú eszköz a Microsoft Word fájlok könnyű megtekintésére különféle eszközökön."
+
+    #  loop
+    - icon: "groupdocs_pdf-app"
+      title:  "GroupDocs.Viewer PDF"
+      link: "https://products.groupdocs.app/viewer/pdf"
+      content: "Nyissa meg és tekintse meg a PDF-fájlokat online az ingyenes PDF-nézegetővel."
+    
+
+
+
 ---

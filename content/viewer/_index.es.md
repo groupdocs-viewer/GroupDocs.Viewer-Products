@@ -1,134 +1,370 @@
 ---
-############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+############################# Static ############################
+layout: "family"
+date: 2023-12-20T06:39:57
 draft: false
-lang: es
+
 product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: ".NET, Java, API en la nube y aplicaciones de visor de documentos en línea de GroupDocs"
-head_description: "Obtenga la solución de visor de documentos todo en uno para aplicaciones .NET, Java y en la nube. Vea formatos de documentos comunes en línea usando la función simple de arrastrar y soltar."
+head_title: "API de renderizado y visualización de documentos | API local y servicio en línea"
+head_description: "Renderice y vea archivos de Word, PDF, Excel, Powerpoint o imágenes de forma fácil y gratuita"
 
-############################# Header ##########################
-title: "Solución de representación y visualización de documentos"
-description: "Solución de visualización de documentos flexible para programadores y profesionales para representar y mostrar formatos de archivo ampliamente utilizados en cualquier lugar."
+############################# Header ############################
+title: "Renderice y vea documentos con facilidad"
+description: |
+  Potente API de visor para renderizar diferentes archivos a PDF, HTML e imágenes.
 
-############################# APIs ############################
-apis:
+  Cargue documentos de diversas fuentes, incluidos archivos, secuencias, URL, servidores FTP, Amazon S3, Azure Blob Storage y más.
+
+  Genere páginas HTML responsivas, proteja los archivos PDF de salida y reordene sus páginas, rote páginas, renderice notas y comentarios si es necesario.
+  
+
+############################# Platforms ############################
+supported_platforms:
+  enable: true  
+  head_title: "Elige tu plataforma"
+  title: "Plataformas compatibles"
+  description: "La biblioteca GroupDocs.Viewer admite los siguientes sistemas operativos y marcos"
+  details_link_title: "Aprende más"
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      description: "GroupDocs.Viewer for .NET"
+      color: "blue"
+      tag: "net"
+      link: "/viewer/net/"
+      features_link: "https://docs.groupdocs.com/viewer/net/system-requirements/"
+      features:
+        # features loop
+        - content: ".NET Framework 4.6.2+  <br>  .NET Core 3.1  <br>  .NET 6+"
+          rows: "3"
+        # features loop
+        - content: "Windows, Linux"
+          rows: "1"
+        # features loop
+        - content: "180+ file formats"
+          rows: "1"
+        # features loop
+        - content: "UI package for ASP.NET Core"
+          rows: "1"
+        # features loop
+        - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
+          rows: "3"
+    
+    # supported_platforms loop
+    - title: "Java"
+      description: "GroupDocs.Viewer for Java"
+      color: "red"
+      tag: "java"
+      link: "/viewer/java/"
+      features_link: "https://docs.groupdocs.com/viewer/java/system-requirements/"
+      features:
+        # features loop
+        - content: "J2SE 8.0 (1.8)+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"       
+        # features loop
+        - content:  "180+ file formats"
+          rows: "1"
+        # features loop
+        - content:  "UI package for Spring and Dropwizard"
+          rows: "1"
+        # features loop
+        - content:  "Spring Demo  <br>  Dropwizard demo"
+          rows: "3"
+
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "GroupDocs.Viewer for Node.js"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/viewer/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/viewer/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "Node.js 16+  <br>  and J2SE 8.0 (1.8)+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"
+        # features loop
+        - content:  "180+ file formats"
+          rows: "1"
+        # features loop
+        - content:  "UI package - coming soon "
+          rows: "1" 
+        # features loop
+        - content:  "Demo - coming soon "
+          rows: "3" 
+
+
+
+############################# Features ############################
+
+features:
   enable: true
+  title: "Conjunto de funciones de GroupDocs.Viewer"
+  description: "API para renderizar archivos de diferentes tipos como HTML, PDF, PNG y JPEG en aplicaciones para verlos sin software de terceros."
 
-  api:
-    # api loop
-    - title: "Las API de código alto de GroupDocs.Viewer incluyen"
-      link: "/viewer/"
-      label: "Ver todas las API de High Code"
-      api_product:
-        # api_product loop
-        - link: "/viewer/net/"
-          img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer for"
-          platform: ".NET"
-          content: "API de visor de documentos multiformato para marcos .NET y Mono para representar más de 190 formatos de archivo populares desde sus aplicaciones."
+  items:
+    # feature loop
+    - icon: "view"
+      title: "Ver documentos e imágenes."
+      content: "Vea documentos representándolos como archivos HTML, PDF, PNG y JPEG."
+    # feature loop
+    - icon: "password"
+      title: "Abrir documentos seguros"
+      content: "Especifique una contraseña para abrir documentos cifrados."
 
-        # api_product loop
-        - link: "/viewer/java/"
-          img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer for"
-          platform: "Java"
-          content: "Potencie las aplicaciones Java con capacidades de visualización y representación de documentos para mostrar una amplia gama de documentos, imágenes y diagramas."
-        
-        # api_product loop
-        - link: "/viewer/nodejs-java/"
-          img_alt: "GroupDocs.Viewer for Node.js via Java"
-          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
-          product: "GroupDocs.Viewer for"
-          platform: "Node.js via Java"
-          content: "Dote a sus aplicaciones JavaScript con la capacidad de mostrar diversos documentos de Microsoft Office, PDF e imágenes para una experiencia de usuario atractiva."
+    # feature loop
+    - icon: "load"
+      title: "Cargue archivos desde cualquier lugar"
+      content: "Cargue documentos desde varios archivos, URL, servidores FTP, Amazon S3 y más."
+    
+    # feature loop
+    - icon: "pages"
+      title: "Renderizar todas o páginas específicas"
+      content: "Especifique un rango de números de página que se representarán."
 
-    # api loop
-    - title: "Las API de código bajo de GroupDocs.Viewer incluyen"
-      link: "https://products.groupdocs.cloud/viewer"
-      label: "Ver todas las API de código bajo"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/curl"
-          img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud for cURL"
-          content: "Trabaje con la API del visor de documentos RESTful de cURL para representar y mostrar rápidamente Microsoft Office, PDF y otros formatos de archivo comunes en sus aplicaciones."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/net"
-          img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for .NET"
-          content: "Agregue poderosas capacidades de visualización de formatos de documentos en aplicaciones .NET usando Cloud SDK para .NET. Ver documentos en HTML, PDF o como imagen."
-
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/java"
-          img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for Java"
-          content: "Agregue funciones de representación de documentos de alta fidelidad a sus aplicaciones Java con SDK de visor de documentos especialmente diseñado para Java."
-
-    # api loop
-    - title: "GroupDocs.Viewer Sin código Las aplicaciones incluyen" 
-      link: "https://products.groupdocs.app/viewer"
-      label: "Ver todas las aplicaciones sin código"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/total"
-          img_alt: "GroupDocs.Viewer Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "Total"
-          content: "Aplicación en línea gratuita para ver más de 190 formatos de archivo desde cualquier navegador de su elección."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/docx"
-          img_alt: "GroupDocs.Viewer DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "DOCX"
-          content: "Aplicación web gratuita para ver archivos de Microsoft Word en línea desde cualquier dispositivo."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/pdf"
-          img_alt: "GroupDocs.Viewer PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "PDF"
-          content: "Vea el formato de documento portátil (PDF) directamente desde su navegador web."
-
-############################# Testimonials ###############################
-testimonials:
+############################# Code samples ############################
+code_samples:
   enable: true
-  bg_color: "bg-gray"
+  title: "Ejemplos de código de GroupDocs.Viewer"
+  description: "Algunos casos de uso de operaciones típicas de GroupDocs.Viewer en C#, Java, TypeScript"
+  items:
+    # code sample loop
+    - title: "Cómo renderizar archivos DOCX a PDF"
+      content: |
+        Renderice documentos DOCX a PDF sin Microsoft Word u otro software instalado. Cargue y vea fácilmente archivos DOCX dentro de su aplicación .NET, ya sea una aplicación web o de escritorio. A continuación se muestra un ejemplo de cómo convertir un archivo DOCX a PDF: 
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Cargue el archivo DOCX para renderizar
+            using (Viewer viewer = new Viewer("sample.docx"))
+            {
+              // Renderizar DOCX a un archivo PDF
+              PdfViewOptions viewOptions = new PdfViewOptions();
+              viewer.View(viewOptions);
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            import com.groupdocs.viewer.Viewer;
+            import com.groupdocs.viewer.options.PdfViewOptions;
+            // ...
+            // Cargue el archivo DOCX para renderizar
+            try (Viewer viewer = new Viewer("sample.docx")) {
+                // Renderizar DOCX a un archivo PDF
+                PdfViewOptions viewOptions = new PdfViewOptions();
+                viewer.view(viewOptions);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Cargue el archivo DOCX para renderizar
+            const viewer = new groupdocs.viewer.Viewer("sample.docx")
+            
+            // Renderizar DOCX a un archivo PDF
+            const viewOptions = groupdocs.viewer.PdfViewOptions(output.pdf)
+            viewer.view(viewOptions)
+            ```
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Director de desarrollo de productos en Hireology"
-      content: "La integración de GroupDocs.Viewer for Cloud API fue simple con su fantástico Ruby SDK. No hay muchas empresas que estén dispuestas a trabajar con nosotros en lo que queremos. Es una gran asociación."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "Consultor Senior/Socio en Novanet AS"
-      content: "Después de implementar y usar GroupDocs.Viewer para .NET en el proyecto, parece estar funcionando muy bien. He probado con una gran cantidad de documentos y hasta ahora todo bien. Todo lo que le he arrojado se ve muy bien y se ve tan bien como lo haría en un visor de PDF o MS Word."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "Product Manager en Axentria ECM by G.S.I."
-      content: "Excelente servicio y excelentes productos. Fueron extremadamente útiles y receptivos durante el proceso de implementación de GroupDocs.Viewer para .NET, no puedo recomendarlos lo suficiente."
-
-############################# Back to top ###############################
-back_to_top:
+############################# Formats ############################
+formats:
   enable: true
+  title:  "Más de 180 formatos de archivo compatibles"
+  description: "GroupDocs.Viewer admite operaciones con los [formatos de archivo](https://docs.groupdocs.com/viewer/net/supported-document-formats/) más populares" 
+
+
+
+############################# Metrics ############################
+
+metrics:
+  enable: true
+  title: "Métricas detalladas y conocimientos estadísticos"
+  description: "Sumérjase en un desglose detallado de nuestras cifras clave, proporcionando métricas completas e información estadística sobre nuestros logros, impacto y crecimiento."
+
+  items:
+    # metrics loop
+    - number: "180+"
+      title: "Formatos soportados"
+      content: "Vea fácilmente más de 180 formatos de archivos, incluidos documentos, imágenes y dibujos CAD, sin complicaciones. Rompe las barreras de compatibilidad y accede a diversos archivos sin esfuerzo con nuestra solución de visualización integral."
+
+    # metrics loop
+    - number: "1.0M"
+      title: "Descargas NuGet"
+      content: "Nuestra solución de paquete NuGet se ha convertido en un recurso confiable y ampliamente adoptado en la comunidad de desarrolladores, brindando una integración perfecta y una funcionalidad valiosa para innumerables proyectos."
+
+    # metrics loop
+    - number: "10+"
+      title: "Bibliotecas"
+      content: "Nuestro producto incluye más de 10 bibliotecas que ofrecen funciones avanzadas para optimizar el rendimiento. Estas bibliotecas están diseñadas para satisfacer diferentes necesidades de desarrollo con capacidades incomparables."
+    
+    # metrics loop
+    - number: "100+"
+      title: "Clientes felices"
+      content: "Sirviendo a las marcas más emblemáticas de todo el mundo. ¡Descubra por qué a cientos de personas les encanta GroupDocs.Viewer! Explore una navegación fluida, una colaboración cómoda y una facilidad de uso incomparable. ¡Únete ahora!"
+
+
+
+############################# Customers ############################
+# logo size X1 => 170:70  X2 => 340 : 140
+
+customers:
+  enable: true
+  title: "Nuestros clientes felices"
+  description: "Las bibliotecas de GroupDocs son utilizadas por marcas distinguidas y reconocidas a nivel mundial en todo el mundo."
+
+  items:
+    # customers loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+    # customers loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+    # customers loop
+    - title: "AT&T Inc."
+      logo: "att"
+    # customers loop
+    - title: "AstraZeneca"
+      logo: "astrazeneca"
+    # customers loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+    # customers loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+    # customers loop
+    - title: "Capita"
+      logo: "capita"
+    # customers loop
+    - title: "Axa S.A."
+      logo: "axa"
+    # customers loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+     # customers loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "¿Listo para comenzar?"
+  description: "Pruebe las funciones de GroupDocs.Viewer de forma gratuita o solicite una licencia"
+  items:
+    #  loop
+    - title: ".NET"
+      link: "/viewer/net/"
+      color: "blue"
+        #  loop
+    - title: "Java"
+      link: "/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Node.js"
+      link: "/viewer/nodejs-java/"
+      color: "green"
+
+
+############################# Faq ############################
+
+faq:
+  enable: true
+  title:  "Preguntas e inquietudes comunes"
+  description:  "Encuentre respuestas a consultas comunes en nuestra sección de preguntas frecuentes para abordar rápidamente sus consultas e inquietudes."
+  items:
+    #  loop
+    - question: "¿Puedo evaluar los productos de GroupDocs antes de comprarlos?"
+      answer: |
+        ¡Sí! Todos los productos GroupDocs tienen disponible una versión de evaluación sin riesgos. Recomendamos encarecidamente a los desarrolladores que descarguen y prueben nuestras API antes de comprarlas para asegurarse de que satisfarán sus necesidades al 100%.
+    #  loop
+    - question: "¿GroupDocs realiza demostraciones de productos?"
+      answer: |
+        No, nuestro enfoque está en nuestras API y en hacer los productos más funcionales y estables posibles. Ofrecemos pruebas totalmente funcionales y gratuitas en forma de [licencia temporal](https://purchase.groupdocs.com/temporary-license/) para que pueda probar el producto usted mismo.    
+    #  loop
+    - question: "¿Dónde puedo descargar el producto?"
+      answer: |
+        Todos los productos están disponibles para descargar desde el [sitio web](https://releases.groupdocs.com). No enviamos copias físicas de nuestro software por correo.
+    #  loop
+    - question: "¿Las licencias de desarrollador de GroupDocs son por usuario o por usuario designado?"
+      answer: |
+        Las licencias de GroupDocs Developer son por usuario, no por usuario designado. Entendemos que los miembros de un equipo de codificación pueden cambiar con el tiempo y que no es práctico tener que actualizar las licencias cada vez que esto ocurre.
+    #  loop
+    - question: "¿Necesitamos licencias sólo para desarrolladores activos? Por ejemplo, tenemos un equipo de dos desarrolladores trabajando en el turno A y un segundo equipo de dos desarrolladores trabajando en el turno B… en esta situación, ¿necesitamos dos o cuatro licencias?"
+      answer: |
+        Todos los desarrolladores que estén trabajando en el proyecto deben tener una licencia. En esta situación, GroupDocs considera que su equipo tiene cuatro miembros (aunque trabajen en momentos diferentes). 
+
+
+############################# Cloud ############################
+
+cloud_links:
+  enable: true
+  title: "API de código bajo de GroupDocs.Viewer"
+  description: "Acelere la visualización de documentos o imágenes en cualquier tipo de aplicación con nuestra API REST basada en la nube"
+
+  items:
+    #  loop
+    - icon: "groupdocs_viewer-for-curl"
+      title: "GroupDocs.Viewer Cloud for cURL"
+      link: "https://products.groupdocs.cloud/viewer/curl"
+      content: "Utilice la API del visor de documentos cURL RESTful para representar y mostrar de manera eficiente Microsoft Office, PDF y varios otros formatos de archivos estándar en sus aplicaciones."
+
+    #  loop
+    - icon: "groupdocs_viewer-for-net"
+      title: "GroupDocs.Viewer Cloud for .NET"
+      link: "https://products.groupdocs.cloud/viewer/net"
+      content: "Mejore las capacidades de visualización de documentos en aplicaciones .NET con Cloud SDK para .NET. Vea documentos sin problemas en formatos HTML, PDF o imagen."
+
+    #  loop
+    - icon: "groupdocs_viewer-for-java"
+      title: "GroupDocs.Viewer Cloud for Java"
+      link: "https://products.groupdocs.cloud/viewer/java"
+      content: "Integre capacidades avanzadas de representación de documentos en sus aplicaciones Java utilizando un SDK de visor de documentos para Java especialmente diseñado."
+    
+
+############################# Apps ############################
+
+app_links:
+  enable: true
+  title: "Aplicaciones GroupDocs.Viewer NoCode"
+  description: "Aplicación en línea que le permite ver más de 180 formatos de archivos populares en el navegador"
+
+  items:
+    #  loop
+    - icon: "groupdocs_viewer-app"
+      title: "GroupDocs.Viewer Total"
+      link: "https://products.groupdocs.app/viewer/total"
+      content: "Explore una aplicación en línea gratuita para ver más de 180 formatos de archivos directamente desde su navegador web preferido."
+
+    #  loop
+    - icon: "groupdocs_words-app"
+      title:  "GroupDocs.Viewer DOCX"
+      link: "https://products.groupdocs.app/viewer/docx"
+      content: "Herramienta basada en web para ver archivos de Microsoft Word sin esfuerzo en varios dispositivos."
+
+    #  loop
+    - icon: "groupdocs_pdf-app"
+      title:  "GroupDocs.Viewer PDF"
+      link: "https://products.groupdocs.app/viewer/pdf"
+      content: "Abra y vea archivos PDF en línea con el visor de PDF gratuito."
+    
+
+
+
 ---

@@ -1,134 +1,370 @@
 ---
-############################# Static ##########################
-layout: "product"
-date: 2022-02-23T12:00:00+02:00
+############################# Static ############################
+layout: "family"
+date: 2023-12-20T06:39:57
 draft: false
-lang: lt
+
 product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud API ir internetinės dokumentų peržiūros programos iš GroupDocs"
-head_description: "Gaukite „viskas viename“ dokumentų peržiūros sprendimą, skirtą .NET, „Java“ ir debesies programoms. Peržiūrėkite įprastus dokumentų formatus internete naudodami paprastą vilkimo ir nuleidimo funkciją."
+head_title: "Pateikti ir peržiūrėti dokumentus API | On Premise API ir internetinė paslauga"
+head_description: "Pateikite ir peržiūrėkite Word, PDF, Excel, Powerpoint ar vaizdo failus lengvai ir nemokamai"
 
-############################# Header ##########################
-title: "Dokumentų atvaizdavimo ir peržiūros sprendimas"
-description: "Lankstus dokumentų peržiūros sprendimas programišiams ir profesionalams, kad būtų galima atkurti ir rodyti plačiai naudojamus failų formatus bet kur."
+############################# Header ############################
+title: "Lengvai atvaizduokite ir peržiūrėkite dokumentus"
+description: |
+  Galinga peržiūros API, skirta įvairiems failams pateikti PDF, HTML ir vaizdo formatais.
 
-############################# APIs ############################
-apis:
+  Įkelkite dokumentus iš įvairių šaltinių, įskaitant failus, srautus, URL, FTP serverius, Amazon S3, Azure Blob Storage ir kt.
+
+  Generuokite reaguojančius HTML puslapius, apsaugokite išvesties PDF failus ir pertvarkykite jų puslapius, pasukite puslapius, prireikus pateikite pastabas ir komentarus.
+  
+
+############################# Platforms ############################
+supported_platforms:
+  enable: true  
+  head_title: "Pasirinkite savo platformą"
+  title: "Palaikomos platformos"
+  description: "GroupDocs.Viewer biblioteka palaiko šias operacines sistemas ir sistemas"
+  details_link_title: "Sužinokite daugiau"
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      description: "GroupDocs.Viewer for .NET"
+      color: "blue"
+      tag: "net"
+      link: "/viewer/net/"
+      features_link: "https://docs.groupdocs.com/viewer/net/system-requirements/"
+      features:
+        # features loop
+        - content: ".NET Framework 4.6.2+  <br>  .NET Core 3.1  <br>  .NET 6+"
+          rows: "3"
+        # features loop
+        - content: "Windows, Linux"
+          rows: "1"
+        # features loop
+        - content: "180+ file formats"
+          rows: "1"
+        # features loop
+        - content: "UI package for ASP.NET Core"
+          rows: "1"
+        # features loop
+        - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
+          rows: "3"
+    
+    # supported_platforms loop
+    - title: "Java"
+      description: "GroupDocs.Viewer for Java"
+      color: "red"
+      tag: "java"
+      link: "/viewer/java/"
+      features_link: "https://docs.groupdocs.com/viewer/java/system-requirements/"
+      features:
+        # features loop
+        - content: "J2SE 8.0 (1.8)+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"       
+        # features loop
+        - content:  "180+ file formats"
+          rows: "1"
+        # features loop
+        - content:  "UI package for Spring and Dropwizard"
+          rows: "1"
+        # features loop
+        - content:  "Spring Demo  <br>  Dropwizard demo"
+          rows: "3"
+
+    # supported_platforms loop
+    - title: "Node.js"
+      description: "GroupDocs.Viewer for Node.js"
+      color: "green"
+      tag: "nodejs-java"
+      link: "/viewer/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/viewer/nodejs-java/system-requirements/"
+      features:
+        # features loop
+        - content: "Node.js 16+  <br>  and J2SE 8.0 (1.8)+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"
+        # features loop
+        - content:  "180+ file formats"
+          rows: "1"
+        # features loop
+        - content:  "UI package - coming soon "
+          rows: "1" 
+        # features loop
+        - content:  "Demo - coming soon "
+          rows: "3" 
+
+
+
+############################# Features ############################
+
+features:
   enable: true
+  title: "GroupDocs.Viewer funkcijų rinkinys"
+  description: "API, skirta įvairių tipų failams, pvz., HTML, PDF, PNG ir JPEG, pateikti programose ir peržiūrėti juos be trečiosios šalies programinės įrangos."
 
-  api:
-    # api loop
-    - title: "GroupDocs.Viewer aukšto kodo API apima"
-      link: "/viewer/"
-      label: "Peržiūrėkite visas aukšto kodo API"
-      api_product:
-        # api_product loop
-        - link: "/viewer/net/"
-          img_alt: "GroupDocs.Viewer for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-net.png"
-          product: "GroupDocs.Viewer for"
-          platform: ".NET"
-          content: "Kelių formatų dokumentų peržiūros programa, skirta .NET ir Mono sistemoms, kad būtų galima pateikti daugiau nei 190 populiarių failų formatų iš jūsų programų."
+  items:
+    # feature loop
+    - icon: "view"
+      title: "Peržiūrėkite dokumentus ir vaizdus"
+      content: "Peržiūrėkite dokumentus pateikdami juos kaip HTML, PDF, PNG ir JPEG failus."
+    # feature loop
+    - icon: "password"
+      title: "Atidarykite saugius dokumentus"
+      content: "Nurodykite slaptažodį, kad atidarytumėte šifruotus dokumentus."
 
-        # api_product loop
-        - link: "/viewer/java/"
-          img_alt: "GroupDocs.Viewer for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-viewer-java.png"
-          product: "GroupDocs.Viewer for"
-          platform: "Java"
-          content: "Suteikite „Java“ programoms dokumentų peržiūros ir atvaizdavimo galimybes, kad būtų galima rodyti įvairius dokumentus, vaizdus ir diagramas."
-        
-        # api_product loop
-        - link: "/viewer/nodejs-java/"
-          img_alt: "GroupDocs.Viewer for Node.js via Java"
-          image: "https://products.groupdocs.com/border/groupdocs-viewer-nodejs-java.svg"
-          product: "GroupDocs.Viewer for"
-          platform: "Node.js via Java"
-          content: "Suteikite savo JavaScript programoms galimybę rodyti įvairius Microsoft Office dokumentus, PDF ir paveikslus, kad būtų pritraukianti vartotojo patirtis."
+    # feature loop
+    - icon: "load"
+      title: "Įkelkite failus iš bet kurios vietos"
+      content: "Įkelkite dokumentus iš įvairių failų, URL, FTP serverių, Amazon S3 ir kt."
+    
+    # feature loop
+    - icon: "pages"
+      title: "Pateikite visus arba konkrečius puslapius"
+      content: "Nurodykite pateikiamų puslapių numerių diapazoną."
 
-    # api loop
-    - title: "GroupDocs.Viewer žemo kodo API apima"
-      link: "https://products.groupdocs.cloud/viewer"
-      label: "Peržiūrėkite visas žemo kodo API"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/curl"
-          img_alt: "GroupDocs.Viewer Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-curl.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud for cURL"
-          content: "Dirbkite su cURL RESTful dokumentų peržiūros programos API, kad savo programose greitai atkurtumėte ir parodytumėte Microsoft Office, PDF ir kitus įprastus failų formatus."
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/net"
-          img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-net.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for .NET"
-          content: "Pridėkite galingų dokumentų formatų peržiūros galimybių .NET programose naudodami debesies SDK, skirtą .NET. Peržiūrėkite dokumentus HTML, PDF arba kaip vaizdą."
-
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/viewer/java"
-          img_alt: "GroupDocs.Viewer Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_viewer-for-java.png"
-          product: "GroupDocs.Viewer"
-          platform: "Cloud SDK for Java"
-          content: "Pridėkite aukštos kokybės dokumentų atvaizdavimo funkcijų prie savo „Java“ programų naudodami specialiai sukurtą „Java“ dokumentų peržiūros programos SDK."
-
-    # api loop
-    - title: "„GroupDocs.Viewer“ nėra kodo programų" 
-      link: "https://products.groupdocs.app/viewer"
-      label: "Peržiūrėti visas be kodo programas"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/total"
-          img_alt: "GroupDocs.Viewer Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_viewer-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "Total"
-          content: "Nemokama internetinė programa, skirta peržiūrėti daugiau nei 190 failų formatų iš bet kurios jūsų pasirinktos naršyklės."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/docx"
-          img_alt: "GroupDocs.Viewer DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "DOCX"
-          content: "Nemokama žiniatinklio programa, skirta peržiūrėti „Microsoft Word“ failus internete iš bet kurio įrenginio."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/viewer/pdf"
-          img_alt: "GroupDocs.Viewer PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
-          product: "GroupDocs.Viewer"
-          platform: "PDF"
-          content: "Peržiūrėkite nešiojamojo dokumento formatą (PDF) tiesiai iš savo žiniatinklio naršyklės."
-
-############################# Testimonials ###############################
-testimonials:
+############################# Code samples ############################
+code_samples:
   enable: true
-  bg_color: "bg-gray"
+  title: "GroupDocs.Viewer kodo pavyzdžiai"
+  description: "Kai kurie naudoja tipiškų GroupDocs.Viewer operacijų atvejus C#, Java, TypeScript"
+  items:
+    # code sample loop
+    - title: "Kaip paversti DOCX failus į PDF"
+      content: |
+        Pateikite DOCX dokumentus į PDF neįdiegę „Microsoft Word“ ar kitos programinės įrangos. Lengvai įkelkite ir peržiūrėkite DOCX failus savo .NET programoje, nesvarbu, ar tai žiniatinklio, ar darbalaukio programa. Štai pavyzdys, kaip pateikti DOCX failą į PDF: 
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Įkelkite DOCX failą, kad būtų pateiktas
+            using (Viewer viewer = new Viewer("sample.docx"))
+            {
+              // Pateikite DOCX į PDF failą
+              PdfViewOptions viewOptions = new PdfViewOptions();
+              viewer.View(viewOptions);
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            import com.groupdocs.viewer.Viewer;
+            import com.groupdocs.viewer.options.PdfViewOptions;
+            // ...
+            // Įkelkite DOCX failą, kad būtų pateiktas
+            try (Viewer viewer = new Viewer("sample.docx")) {
+                // Pateikite DOCX į PDF failą
+                PdfViewOptions viewOptions = new PdfViewOptions();
+                viewer.view(viewOptions);
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Įkelkite DOCX failą, kad būtų pateiktas
+            const viewer = new groupdocs.viewer.Viewer("sample.docx")
+            
+            // Pateikite DOCX į PDF failą
+            const viewOptions = groupdocs.viewer.PdfViewOptions(output.pdf)
+            viewer.view(viewOptions)
+            ```
 
-  testimonial:
-    # testimonial item loop
-    - name: "Margot Baill"
-      designation: "Hireologijos produktų plėtros direktorius"
-      content: "Integruoti GroupDocs.Viewer for Cloud API buvo paprasta naudojant jų fantastišką Ruby SDK. Nėra tiek daug įmonių, kurios nori dirbti su mumis dėl to, ko norime. Tai puiki partnerystė."
 
-    # testimonial item loop
-    - name: "Mats Oustad"
-      designation: "„Novanet AS“ vyresnysis konsultantas/partneris"
-      content: "Projekte įdiegus ir panaudojus GroupDocs.Viewer for .NET, atrodo, kad jis veikia labai gerai. Išbandžiau su daugybe dokumentų ir kol kas viskas gerai. Viskas, ką sukūriau, gražiai atvaizduojama ir atrodo taip pat gerai, kaip ir PDF peržiūros programoje arba MS Word."
-              
-    # testimonial item loop
-    - name: "Martin Lasarga"
-      designation: "„Axentria ECM“ produktų vadovas G.S.I."
-      content: "Puikus aptarnavimas ir puikūs produktai. Jie buvo labai naudingi ir reagavo per .NET diegimo procesą GroupDocs.Viewer, todėl negaliu jų rekomenduoti."
-
-############################# Back to top ###############################
-back_to_top:
+############################# Formats ############################
+formats:
   enable: true
+  title:  "Palaikoma daugiau nei 180 failų formatų"
+  description: "GroupDocs.Viewer palaiko operacijas su populiariausiais [failų formatais](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
+
+
+
+############################# Metrics ############################
+
+metrics:
+  enable: true
+  title: "Išsamios metrikos ir statistinės įžvalgos"
+  description: "Pasinerkite į išsamų mūsų pagrindinių skaičių suskirstymą, pateikdami išsamią metriką ir statistines įžvalgas apie mūsų pasiekimus, poveikį ir augimą."
+
+  items:
+    # metrics loop
+    - number: "180+"
+      title: "Palaikomi formatai"
+      content: "Lengvai ir be vargo peržiūrėkite daugiau nei 180 failų formatų, įskaitant dokumentus, vaizdus ir CAD brėžinius. Sulaužykite suderinamumo kliūtis ir lengvai pasiekite įvairius failus naudodami mūsų visapusišką peržiūros sprendimą."
+
+    # metrics loop
+    - number: "1.0M"
+      title: "NuGet atsisiuntimai"
+      content: "Mūsų „NuGet“ paketo sprendimas tapo patikimu ir plačiai naudojamu šaltiniu kūrėjų bendruomenėje, užtikrinančiu sklandžią integraciją ir vertingas daugybę projektų."
+
+    # metrics loop
+    - number: "10+"
+      title: "Bibliotekos"
+      content: "Mūsų gaminyje yra daugiau nei 10 bibliotekų, siūlančių pažangias funkcijas, skirtas našumui optimizuoti. Šios bibliotekos sukurtos taip, kad atitiktų skirtingus plėtros poreikius ir turi neprilygstamų galimybių."
+    
+    # metrics loop
+    - number: "100+"
+      title: "Laimingi klientai"
+      content: "Aptarnauja garsiausius prekės ženklus visame pasaulyje. Sužinokite, kodėl šimtai mėgsta GroupDocs.Viewer! Išbandykite sklandžią naršymą, patogų bendradarbiavimą ir neprilygstamą naudojimo paprastumą. Prisijunk dabar!"
+
+
+
+############################# Customers ############################
+# logo size X1 => 170:70  X2 => 340 : 140
+
+customers:
+  enable: true
+  title: "Mūsų laimingi klientai"
+  description: "GroupDocs bibliotekose dirba visame pasaulyje žinomi ir išskirtiniai prekės ženklai visame pasaulyje."
+
+  items:
+    # customers loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+    # customers loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+    # customers loop
+    - title: "AT&T Inc."
+      logo: "att"
+    # customers loop
+    - title: "AstraZeneca"
+      logo: "astrazeneca"
+    # customers loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+    # customers loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+    # customers loop
+    - title: "Capita"
+      logo: "capita"
+    # customers loop
+    - title: "Axa S.A."
+      logo: "axa"
+    # customers loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+     # customers loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pasiruošę pradėti?"
+  description: "Išbandykite GroupDocs.Viewer funkcijas nemokamai arba paprašykite licencijos"
+  items:
+    #  loop
+    - title: ".NET"
+      link: "/viewer/net/"
+      color: "blue"
+        #  loop
+    - title: "Java"
+      link: "/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Node.js"
+      link: "/viewer/nodejs-java/"
+      color: "green"
+
+
+############################# Faq ############################
+
+faq:
+  enable: true
+  title:  "Dažni klausimai ir rūpesčiai"
+  description:  "Raskite atsakymus į dažniausiai užduodamus klausimus mūsų DUK skiltyje, kad greitai išspręstumėte savo užklausas ir rūpesčius."
+  items:
+    #  loop
+    - question: "Ar galiu įvertinti GroupDocs produktus prieš pirkdamas?"
+      answer: |
+        Taip! Visi GroupDocs produktai turi nerizikingą įvertinimo versiją. Primygtinai raginame kūrėjus prieš perkant atsisiųsti ir išbandyti mūsų API, kad įsitikintumėte, jog jos patenkins jūsų poreikius 100%.
+    #  loop
+    - question: "Ar GroupDocs demonstruoja produktus?"
+      answer: |
+        Ne, daugiausia dėmesio skiriame API ir funkcionaliausių bei stabiliausių produktų kūrimui. Siūlome visiškai veikiančias ir nemokamas bandomąsias versijas [laikinosios licencijos](https://purchase.groupdocs.com/temporary-license/) forma, kad galėtumėte patys išbandyti produktą.    
+    #  loop
+    - question: "Kur galiu atsisiųsti produktą?"
+      answer: |
+        Visus produktus galima atsisiųsti iš [svetainės](https://releases.groupdocs.com). Mes nesiunčiame fizinių programinės įrangos kopijų paštu.
+    #  loop
+    - question: "Ar „GroupDocs“ kūrėjo licencijos suteikiamos vienam vartotojui, ar nurodytam naudotojui?"
+      answer: |
+        GroupDocs kūrėjo licencijos yra vienam vartotojui, o ne nurodytam vartotojui. Suprantame, kad kodavimo komandos nariai laikui bėgant gali keistis ir kad nepraktiška kiekvieną kartą atnaujinti licenciją.
+    #  loop
+    - question: "Ar mums reikia licencijų tik aktyviems kūrėjams? Pavyzdžiui, turime dviejų kūrėjų komandą, dirbančią A pamainoje, ir antrą dviejų kūrėjų komandą, dirbančią B pamainoje... ar šioje situacijoje mums reikia dviejų ar keturių licencijų?"
+      answer: |
+        Visi kūrėjai, kurie dirba su projektu, turi turėti licenciją. Esant tokiai situacijai, GroupDocs mano, kad jūsų komandą sudaro keturi nariai (net jei jie dirba skirtingu laiku). 
+
+
+############################# Cloud ############################
+
+cloud_links:
+  enable: true
+  title: "GroupDocs.Viewer žemo kodo API"
+  description: "Paspartinkite dokumentų ar vaizdų peržiūrą bet kokio tipo programoje naudodami debesyje pagrįstą REST API"
+
+  items:
+    #  loop
+    - icon: "groupdocs_viewer-for-curl"
+      title: "GroupDocs.Viewer Cloud for cURL"
+      link: "https://products.groupdocs.cloud/viewer/curl"
+      content: "Naudokite cURL RESTful dokumentų peržiūros programos API, kad savo programose efektyviai atkurtumėte ir demonstruotumėte Microsoft Office, PDF ir įvairius kitus standartinius failų formatus."
+
+    #  loop
+    - icon: "groupdocs_viewer-for-net"
+      title: "GroupDocs.Viewer Cloud for .NET"
+      link: "https://products.groupdocs.cloud/viewer/net"
+      content: "Pagerinkite dokumentų peržiūros galimybes .NET programose naudodami debesies SDK, skirtą .NET. Sklandžiai peržiūrėkite dokumentus HTML, PDF arba vaizdo formatais."
+
+    #  loop
+    - icon: "groupdocs_viewer-for-java"
+      title: "GroupDocs.Viewer Cloud for Java"
+      link: "https://products.groupdocs.cloud/viewer/java"
+      content: "Integruokite pažangias dokumentų atvaizdavimo galimybes į savo „Java“ programas naudodami specialiai sukurtą „Java“ skirtą Document Viewer SDK."
+    
+
+############################# Apps ############################
+
+app_links:
+  enable: true
+  title: "GroupDocs.Viewer NoCode programos"
+  description: "Internetinė programa, leidžianti naršyklėje peržiūrėti daugiau nei 180 populiarių failų formatų"
+
+  items:
+    #  loop
+    - icon: "groupdocs_viewer-app"
+      title: "GroupDocs.Viewer Total"
+      link: "https://products.groupdocs.app/viewer/total"
+      content: "Naršykite nemokamą internetinę programą, kad peržiūrėtumėte daugiau nei 180 failų formatų tiesiai iš pageidaujamos žiniatinklio naršyklės."
+
+    #  loop
+    - icon: "groupdocs_words-app"
+      title:  "GroupDocs.Viewer DOCX"
+      link: "https://products.groupdocs.app/viewer/docx"
+      content: "Žiniatinklio įrankis, leidžiantis lengvai peržiūrėti „Microsoft Word“ failus įvairiuose įrenginiuose."
+
+    #  loop
+    - icon: "groupdocs_pdf-app"
+      title:  "GroupDocs.Viewer PDF"
+      link: "https://products.groupdocs.app/viewer/pdf"
+      content: "Atidarykite ir peržiūrėkite PDF failus internete naudodami nemokamą PDF peržiūros programą."
+    
+
+
+
 ---
