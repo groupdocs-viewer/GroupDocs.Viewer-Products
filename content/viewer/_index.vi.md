@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "API kết xuất và xem tài liệu | API tại chỗ và dịch vụ trực tuyến"
 head_description: "Kết xuất và xem các tệp Word, PDF, Excel, Powerpoint hoặc Hình ảnh một cách dễ dàng và miễn phí"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Hiển thị và xem tài liệu một cách dễ dàng"
 description: |
   API trình xem mạnh mẽ để hiển thị các tệp khác nhau thành PDF, HTML và Hình ảnh.
@@ -19,7 +19,6 @@ description: |
   Tải tài liệu từ nhiều nguồn khác nhau, bao gồm tệp, luồng, URL, máy chủ FTP, Amazon S3, Azure Blob Storage, v.v.
 
   Tạo các trang HTML đáp ứng, bảo vệ các tệp PDF đầu ra và sắp xếp lại các trang của chúng, xoay trang, hiển thị ghi chú và nhận xét nếu cần.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "Hơn 180 định dạng tệp"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Gói giao diện người dùng cho ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "Hơn 180 định dạng tệp"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Gói giao diện người dùng cho Spring và Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "Hơn 180 định dạng tệp"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Gói giao diện người dùng - sắp ra mắt"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Bản demo - sắp ra mắt"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Xem tài liệu và hình ảnh"
       content: "Xem tài liệu bằng cách hiển thị chúng dưới dạng tệp HTML, PDF, PNG và JPEG."
+
     # feature loop
     - icon: "password"
       title: "Mở tài liệu được bảo mật"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Cách hiển thị tệp DOCX thành PDF"
       content: |
-        Hiển thị tài liệu DOCX thành PDF mà không cần cài đặt Microsoft Word hoặc phần mềm khác. Dễ dàng tải và xem các tệp DOCX trong ứng dụng .NET của bạn, cho dù đó là ứng dụng web hay máy tính để bàn. Dưới đây là ví dụ về cách hiển thị tệp DOCX thành PDF: 
+       Hiển thị tài liệu DOCX thành PDF mà không cần cài đặt Microsoft Word hoặc phần mềm khác. Dễ dàng tải và xem các tệp DOCX trong ứng dụng .NET của bạn, cho dù đó là ứng dụng web hay máy tính để bàn. Dưới đây là ví dụ về cách hiển thị tệp DOCX thành PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Hơn 180 định dạng tệp được hỗ trợ"
-  description: "GroupDocs.Viewer hỗ trợ các thao tác với [định dạng tệp](https://docs.groupdocs.com/viewer/net/supported-document-formats/) phổ biến nhất" 
-
+  description: "GroupDocs.Viewer hỗ trợ các thao tác với phổ biến nhất [định dạng tệp](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Các định dạng được hỗ trợ"
       content: "Dễ dàng xem hơn 180 định dạng tệp bao gồm tài liệu, hình ảnh và bản vẽ CAD một cách dễ dàng. Phá vỡ các rào cản tương thích và truy cập các tệp đa dạng một cách dễ dàng bằng giải pháp xem toàn diện của chúng tôi."
-
     # metrics loop
     - number: "1.0M"
       title: "Tải xuống NuGet"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Khách hàng hạnh phúc"
       content: "Phục vụ các thương hiệu mang tính biểu tượng nhất trên toàn cầu. Khám phá lý do tại sao hàng trăm người yêu thích GroupDocs.Viewer! Khám phá khả năng điều hướng liền mạch, cộng tác thuận tiện và tính dễ sử dụng chưa từng có. Tham gia ngay!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Sẵn sàng để bắt đầu?"
   description: "Dùng thử miễn phí các tính năng của GroupDocs.Viewer hoặc yêu cầu giấy phép"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Các câu hỏi và mối quan tâm thường gặp"
-  description:  "Tìm câu trả lời cho các câu hỏi thường gặp trong phần Câu hỏi thường gặp của chúng tôi để nhanh chóng giải quyết các thắc mắc và mối quan tâm của bạn."
+  title: "Các câu hỏi và mối quan tâm thường gặp"
+  description: "Tìm câu trả lời cho các câu hỏi thường gặp trong phần Câu hỏi thường gặp của chúng tôi để nhanh chóng giải quyết các thắc mắc và mối quan tâm của bạn."
+
   items:
     #  loop
     - question: "Tôi có thể đánh giá các sản phẩm GroupDocs trước khi mua không?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "GroupDocs có trình diễn sản phẩm không?"
       answer: |
-        Không, trọng tâm của chúng tôi là các API và tạo ra những sản phẩm ổn định và có chức năng nhất có thể. Chúng tôi cung cấp các bản dùng thử miễn phí và đầy đủ chức năng dưới dạng [giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/) để bạn có thể tự mình dùng thử sản phẩm.    
+        Không, trọng tâm của chúng tôi là các API và tạo ra những sản phẩm ổn định và có chức năng nhất có thể. Chúng tôi cung cấp các bản dùng thử miễn phí và đầy đủ chức năng dưới dạng [giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/) để bạn có thể tự mình dùng thử sản phẩm.
     #  loop
     - question: "Tôi có thể tải sản phẩm ở đâu?"
       answer: |
-        Bạn có thể tải xuống tất cả sản phẩm từ [trang web](https://releases.groupdocs.com). Chúng tôi không gửi bản sao thực của phần mềm qua thư.
+        Bạn có thể tải xuống tất cả sản phẩm từ [trang web](https://releases.groupdocs.com). Chúng tôi không gửi bản sao thực của phần mềm qua thư.    
     #  loop
     - question: "Giấy phép nhà phát triển GroupDocs dành cho mỗi người dùng hay mỗi người dùng được đặt tên?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Chúng ta có cần cấp phép chỉ cho các nhà phát triển đang hoạt động không? Ví dụ: chúng tôi có một nhóm gồm hai nhà phát triển làm việc ở ca A và một nhóm thứ hai gồm hai nhà phát triển làm việc ở ca B… trong tình huống này, chúng tôi cần hai hay bốn giấy phép?"
       answer: |
-        Tất cả các nhà phát triển đang làm việc trong dự án đều phải được cấp phép. Trong tình huống này, GroupDocs thấy nhóm của bạn có bốn thành viên (mặc dù họ làm việc vào những thời điểm khác nhau). 
-
+        Tất cả các nhà phát triển đang làm việc trong dự án đều phải được cấp phép. Trong tình huống này, GroupDocs thấy nhóm của bạn có bốn thành viên (mặc dù họ làm việc vào những thời điểm khác nhau).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Nâng cao khả năng xem tài liệu trong các ứng dụng .NET với Cloud SDK cho .NET. Xem tài liệu liền mạch ở định dạng HTML, PDF hoặc hình ảnh."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Tích hợp khả năng hiển thị tài liệu nâng cao vào các ứng dụng Java của bạn bằng cách sử dụng SDK Trình xem Tài liệu được xây dựng có mục đích dành cho Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Mở và xem tệp PDF trực tuyến bằng trình xem PDF miễn phí."
     
-
-
 
 ---

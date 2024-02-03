@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -8,10 +8,10 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "Render and View Documents API | در Premise API و سرویس آنلاین"
+head_title: "API رندر و مشاهده اسناد | در Premise API و سرویس آنلاین"
 head_description: "رندر و مشاهده فایل های Word، PDF، Excel، Powerpoint یا Image به راحتی و رایگان"
 
-############################# Header ############################
+############################# Header ##########################
 title: "اسناد را به راحتی رندر و مشاهده کنید"
 description: |
   API نمایشگر قدرتمند برای ارائه فایل های مختلف به PDF، HTML و Image.
@@ -19,7 +19,6 @@ description: |
   اسناد را از منابع مختلف بارگیری کنید، از جمله فایل ها، جریان ها، URL ها، سرورهای FTP، Amazon S3، Azure Blob Storage و موارد دیگر.
 
   صفحات HTML پاسخگو ایجاد کنید، از فایل های PDF خروجی محافظت کنید و صفحات آنها را مجددا مرتب کنید، صفحات را بچرخانید، یادداشت ها و نظرات را در صورت نیاز ارائه دهید.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "بیش از 180 فرمت فایل"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "بسته UI برای ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "بیش از 180 فرمت فایل"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "بسته UI برای Spring و Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "بیش از 180 فرمت فایل"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "بسته UI - به زودی"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "نسخه ی نمایشی - به زودی"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "مشاهده اسناد و تصاویر"
       content: "اسناد را با رندر کردن آنها به صورت فایل های HTML، PDF، PNG و JPEG مشاهده کنید."
+
     # feature loop
     - icon: "password"
       title: "اسناد ایمن را باز کنید"
@@ -122,7 +121,7 @@ features:
 
     # feature loop
     - icon: "load"
-      title: "فایل ها را از هر جایی بارگیری کنید"
+      title: "فایل ها را از هر کجا بارگیری کنید"
       content: "اسناد را از فایل های مختلف، URL ها، سرورهای FTP، Amazon S3 و موارد دیگر بارگیری کنید."
     
     # feature loop
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "نحوه رندر فایل های DOCX به PDF"
       content: |
-        اسناد DOCX را بدون نصب Microsoft Word یا سایر نرم افزارها به PDF ارائه دهید. به راحتی فایل های DOCX را در برنامه دات نت خود بارگیری و مشاهده کنید، چه یک برنامه وب یا دسکتاپ. در اینجا مثالی از نحوه ارائه یک فایل DOCX به PDF آورده شده است: 
+       اسناد DOCX را بدون نصب Microsoft Word یا سایر نرم افزارها به PDF ارائه دهید. به راحتی فایل های DOCX را در برنامه دات نت خود بارگیری و مشاهده کنید، چه یک برنامه وب یا دسکتاپ. در اینجا مثالی از نحوه ارائه یک فایل DOCX به PDF آورده شده است:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180+ فرمت فایل پشتیبانی می شود"
-  description: "GroupDocs.Viewer از عملیات با محبوب ترین [فرمت های فایل] پشتیبانی می کند (https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer از عملیات با محبوب ترین پشتیبانی می کند [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "فرمت های پشتیبانی شده"
       content: "به راحتی بیش از 180 فرمت فایل از جمله اسناد، تصاویر و نقشه های CAD را بدون دردسر مشاهده کنید. با راه حل جامع مشاهده ما موانع سازگاری را بشکنید و بدون زحمت به فایل های مختلف دسترسی پیدا کنید."
-
     # metrics loop
     - number: "1.0M"
       title: "دانلودهای NuGet"
@@ -215,8 +212,7 @@ metrics:
     # metrics loop
     - number: "100+"
       title: "مشتریان خوشحال"
-      content: "ارائه خدمات به نمادین ترین مارک ها در سراسر جهان. کشف کنید که چرا صدها نفر GroupDocs.Viewer را دوست دارند! ناوبری بدون درز، همکاری راحت و سهولت استفاده بی نظیر را کاوش کنید. همین الان ملحق شوید، همین الان بپیوندید!"
-
+      content: "ارائه خدمات به نمادین ترین مارک ها در سراسر جهان. کشف کنید که چرا صدها نفر GroupDocs.Viewer را دوست دارند! ناوبری بی‌وقفه، همکاری راحت و سهولت استفاده بی‌نظیر را کاوش کنید. همین الان ملحق شوید، همین الان بپیوندید!"
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "برای شروع آماده اید؟"
   description: "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,30 +283,30 @@ actions:
 
 faq:
   enable: true
-  title:  "سوالات و نگرانی های رایج"
-  description:  "پاسخ سوالات متداول را در بخش سوالات متداول ما بیابید تا به سرعت سوالات و نگرانی های خود را برطرف کنید."
+  title: "سوالات و نگرانی های رایج"
+  description: "پاسخ سوالات متداول را در بخش سوالات متداول ما بیابید تا به سرعت سوالات و نگرانی های خود را برطرف کنید."
+
   items:
     #  loop
     - question: "آیا می توانم محصولات GroupDocs را قبل از خرید ارزیابی کنم؟"
       answer: |
-        آره! همه محصولات GroupDocs دارای یک نسخه ارزیابی بدون ریسک هستند. ما قویاً توسعه دهندگان را تشویق می کنیم که API های ما را قبل از خرید دانلود و امتحان کنند تا مطمئن شوند که نیازهای شما را 100% برآورده می کنند.
+        آره! همه محصولات GroupDocs دارای یک نسخه ارزیابی بدون ریسک هستند. ما قویاً توسعه دهندگان را تشویق می کنیم تا قبل از خرید API های ما را دانلود و امتحان کنند تا مطمئن شوند که نیازهای شما را 100٪ برآورده می کنند.
     #  loop
     - question: "آیا GroupDocs نمایش محصول را انجام می دهد؟"
       answer: |
-        خیر، تمرکز ما بر روی API های خود و ساختن کاربردی ترین و پایدارترین محصولات ممکن است. ما آزمایش‌های کاملاً کاربردی و رایگان را در قالب یک [مجوز موقت](https://purchase.groupdocs.com/temporary-license/) ارائه می‌کنیم تا بتوانید خودتان محصول را آزمایش کنید.    
+        خیر، تمرکز ما بر روی API های خود و ساختن کاربردی ترین و پایدارترین محصولات ممکن است. ما آزمایش‌های کاملاً کاربردی و رایگان را در قالب یک [license](https://purchase.groupdocs.com/temporary-license/) ارائه می‌کنیم تا بتوانید خودتان محصول را آزمایش کنید.
     #  loop
     - question: "از کجا می توانم محصول را دانلود کنم؟"
       answer: |
-        همه محصولات برای دانلود از [وب سایت](https://releases.groupdocs.com) در دسترس هستند. ما نسخه های فیزیکی نرم افزار خود را از طریق پست ارسال نمی کنیم.
+        همه محصولات برای دانلود از [releases](https://releases.groupdocs.com) در دسترس هستند. ما نسخه های فیزیکی نرم افزار خود را از طریق پست ارسال نمی کنیم.    
     #  loop
-    - question: "آیا مجوزهای توسعه‌دهنده GroupDocs برای هر کاربر یا هر کاربر نام‌گذاری شده است؟"
+    - question: "آیا مجوزهای برنامه‌نویس GroupDocs برای هر کاربر یا هر کاربر نام‌گذاری شده است؟"
       answer: |
         مجوزهای توسعه دهنده GroupDocs برای هر کاربر است، نه برای هر کاربر نامگذاری شده. ما می دانیم که اعضای یک تیم برنامه نویسی ممکن است در طول زمان تغییر کنند و اینکه هر بار که اتفاق می افتد به روز رسانی مجوز عملی نیست.
     #  loop
-    - question: "آیا فقط برای توسعه دهندگان فعال نیاز به مجوز داریم؟ به عنوان مثال، ما یک تیم متشکل از دو توسعه دهنده داریم که در شیفت A کار می کنند و یک تیم دوم متشکل از دو توسعه دهنده در شیفت B کار می کنند ... در این شرایط، آیا به دو یا چهار مجوز نیاز داریم؟"
+    - question: "آیا فقط برای توسعه دهندگان فعال نیاز به مجوز داریم؟ به عنوان مثال، ما یک تیم متشکل از دو توسعه دهنده داریم که روی شیفت A کار می کنند و یک تیم دوم متشکل از دو توسعه دهنده در شیفت B کار می کنند ... در این شرایط، آیا به دو یا چهار مجوز نیاز داریم؟"
       answer: |
-        همه توسعه دهندگانی که روی پروژه کار می کنند نیاز به مجوز دارند. در این شرایط، GroupDocs تیم شما را چهار عضو می بیند (حتی اگر آنها در زمان های مختلف کار می کنند). 
-
+        همه توسعه دهندگانی که روی پروژه کار می کنند نیاز به مجوز دارند. در این شرایط، GroupDocs تیم شما را چهار عضو می بیند (حتی اگر آنها در زمان های مختلف کار می کنند).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "با Cloud SDK برای دات‌نت، قابلیت‌های مشاهده اسناد را در برنامه‌های NET افزایش دهید. اسناد را به صورت یکپارچه در قالب‌های HTML، PDF یا تصویر مشاهده کنید."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "با استفاده از یک Document Viewer SDK برای جاوا، قابلیت‌های پیشرفته ارائه اسناد را در برنامه‌های جاوا خود ادغام کنید."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "باز کردن و مشاهده فایل های PDF به صورت آنلاین با نمایشگر PDF رایگان."
     
-
-
 
 ---

@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,15 +11,14 @@ product_tag: "viewer"
 head_title: "API рендеринга и просмотра документов | Локальный API и онлайн-сервис"
 head_description: "Легко и бесплатно визуализируйте и просматривайте файлы Word, PDF, Excel, Powerpoint или изображения."
 
-############################# Header ############################
+############################# Header ##########################
 title: "С легкостью визуализируйте и просматривайте документы"
 description: |
   Мощный API-интерфейс просмотра для преобразования различных файлов в PDF, HTML и изображения.
 
   Загружайте документы из различных источников, включая файлы, потоки, URL-адреса, FTP-серверы, Amazon S3, хранилище BLOB-объектов Azure и многое другое.
 
-  Создавайте адаптивные HTML-страницы, защищайте выходные PDF-файлы и меняйте порядок их страниц, поворачивайте страницы, отображайте заметки и комментарии, если это необходимо.
-  
+  Создавайте адаптивные HTML-страницы, защищайте выходные PDF-файлы и меняйте порядок их страниц, поворачивайте страницы, отображайте примечания и комментарии, если это необходимо.
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "Более 180 форматов файлов"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Пакет пользовательского интерфейса для ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "Более 180 форматов файлов"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Пакет пользовательского интерфейса для Spring и Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "Более 180 форматов файлов"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Пакет пользовательского интерфейса – скоро появится"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Демо-версия - скоро"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Просмотр документов и изображений"
       content: "Просматривайте документы, отображая их в виде файлов HTML, PDF, PNG и JPEG."
+
     # feature loop
     - icon: "password"
       title: "Открытие защищенных документов"
@@ -140,16 +139,16 @@ code_samples:
     # code sample loop
     - title: "Как преобразовать файлы DOCX в PDF"
       content: |
-        Преобразуйте документы DOCX в PDF без установки Microsoft Word или другого программного обеспечения. Легко загружайте и просматривайте файлы DOCX в своем приложении .NET, будь то веб-приложение или настольное приложение. Вот пример того, как преобразовать файл DOCX в PDF: 
+       Преобразуйте документы DOCX в PDF без установки Microsoft Word или другого программного обеспечения. Легко загружайте и просматривайте файлы DOCX в своем приложении .NET, будь то веб-приложение или настольное приложение. Вот пример того, как преобразовать файл DOCX в PDF:
       samples:
         - language: "C#"
           color: "blue"
           content: |
             ```csharp {style=abap}   
-            // Загрузите DOCX файл
+            // Загрузите файл DOCX для рендеринга
             using (Viewer viewer = new Viewer("sample.docx"))
             {
-              // Преобразуйте DOCX в PDF файл
+              // Преобразование DOCX в PDF-файл
               PdfViewOptions viewOptions = new PdfViewOptions();
               viewer.View(viewOptions);
             }
@@ -161,9 +160,9 @@ code_samples:
             import com.groupdocs.viewer.Viewer;
             import com.groupdocs.viewer.options.PdfViewOptions;
             // ...
-            // Загрузите DOCX файл
+            // Загрузите файл DOCX для рендеринга
             try (Viewer viewer = new Viewer("sample.docx")) {
-                // Преобразуйте DOCX в PDF файл
+                // Преобразование DOCX в PDF-файл
                 PdfViewOptions viewOptions = new PdfViewOptions();
                 viewer.view(viewOptions);
             }
@@ -172,10 +171,10 @@ code_samples:
           color: "green"
           content: |
             ```javascript {style=abap}  
-            // Загрузите DOCX файл
+            // Загрузите файл DOCX для рендеринга
             const viewer = new groupdocs.viewer.Viewer("sample.docx")
             
-            // Преобразуйте DOCX в PDF файл
+            // Преобразование DOCX в PDF-файл
             const viewOptions = groupdocs.viewer.PdfViewOptions(output.pdf)
             viewer.view(viewOptions)
             ```
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Поддерживается более 180 форматов файлов"
-  description: "GroupDocs.Viewer поддерживает работу с наиболее популярными [форматами файлов](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer поддерживает работу с наиболее популярными [форматами файлов](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Поддерживаемые форматы"
       content: "Легко и без проблем просматривайте файлы более 180 форматов, включая документы, изображения и чертежи САПР. Преодолевайте барьеры совместимости и легко получайте доступ к разнообразным файлам с помощью нашего комплексного решения для просмотра."
-
     # metrics loop
     - number: "1.0M"
       title: "Загрузки NuGet"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Счастливые клиенты"
       content: "Обслуживание самых знаковых брендов по всему миру. Узнайте, почему сотни людей любят GroupDocs.Viewer! Откройте для себя безупречную навигацию, удобное сотрудничество и непревзойденную простоту использования. Присоединяйся сейчас!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Готовы начать?"
   description: "Попробуйте функции GroupDocs.Viewer бесплатно или запросите лицензию."
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Распространенные вопросы и опасения"
-  description:  "Найдите ответы на распространенные вопросы в нашем разделе часто задаваемых вопросов, чтобы быстро решить ваши вопросы и проблемы."
+  title: "Распространенные вопросы и опасения"
+  description: "Найдите ответы на распространенные вопросы в нашем разделе часто задаваемых вопросов, чтобы быстро решить ваши вопросы и проблемы."
+
   items:
     #  loop
     - question: "Могу ли я оценить продукты GroupDocs перед покупкой?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "Проводит ли GroupDocs демонстрации продуктов?"
       answer: |
-        Нет, мы сосредоточены на наших API и создании максимально функциональных и стабильных продуктов. Мы предлагаем полнофункциональные и бесплатные пробные версии в форме [временной лицензии](https://purchase.groupdocs.com/temporary-license/), чтобы вы могли опробовать продукт самостоятельно.    
+        Нет, мы сосредоточены на наших API и создании максимально функциональных и стабильных продуктов. Мы предлагаем полнофункциональные и бесплатные пробные версии в форме [временной лицензии](https://purchase.groupdocs.com/temporary-license/), чтобы вы могли опробовать продукт самостоятельно.
     #  loop
     - question: "Где я могу скачать продукт?"
       answer: |
-        Все продукты доступны для загрузки с [веб-сайта](https://releases.groupdocs.com). Мы не отправляем физические копии нашего программного обеспечения по почте.
+        Все продукты доступны для загрузки с [веб-сайта](https://releases.groupdocs.com). Мы не отправляем физические копии нашего программного обеспечения по почте.    
     #  loop
     - question: "Лицензии разработчика GroupDocs предоставляются для каждого пользователя или для имени пользователя?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Нужно ли нам лицензирование только для активных разработчиков? Например, у нас есть команда из двух разработчиков, работающих в смену А, и вторая команда из двух разработчиков, работающих в смену Б… в этой ситуации нам нужны две или четыре лицензии?"
       answer: |
-        Все разработчики, работающие над проектом, должны иметь лицензию. В этой ситуации GroupDocs считает, что в вашей команде четыре участника (даже если они работают в разное время). 
-
+        Все разработчики, работающие над проектом, должны иметь лицензию. В этой ситуации GroupDocs считает, что в вашей команде четыре участника (даже если они работают в разное время).
 
 ############################# Cloud ############################
 
@@ -330,19 +327,17 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Расширьте возможности просмотра документов в приложениях .NET с помощью Cloud SDK для .NET. Беспрепятственный просмотр документов в форматах HTML, PDF или изображений."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Интегрируйте расширенные возможности рендеринга документов в свои приложения Java с помощью специального SDK Document Viewer для Java."
-    
 
 ############################# Apps ############################
 
 app_links:
   enable: true
-  title: "Приложения GroupDocs.Viewer онлайн"
+  title: "Приложения GroupDocs.Viewer NoCode"
   description: "Онлайн-приложение, позволяющее просматривать более 180 популярных форматов файлов в браузере."
 
   items:
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Открывайте и просматривайте PDF-файлы онлайн с помощью бесплатной программы просмотра PDF-файлов."
     
-
-
 
 ---

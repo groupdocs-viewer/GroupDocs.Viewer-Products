@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,15 +11,14 @@ product_tag: "viewer"
 head_title: "문서 API 렌더링 및 보기 | 온프레미스 API 및 온라인 서비스"
 head_description: "Word, PDF, Excel, Powerpoint 또는 이미지 파일을 무료로 쉽게 렌더링 및 보기"
 
-############################# Header ############################
+############################# Header ##########################
 title: "쉽게 문서를 렌더링하고 확인하세요"
 description: |
   다양한 파일을 PDF, HTML 및 이미지로 렌더링하는 강력한 뷰어 API입니다.
 
-  파일, 스트림, URL, FTP 서버, Amazon S3, Azure Blob Storage 등을 포함한 다양한 소스에서 문서를 로드하세요.
+  파일, 스트림, URL, FTP 서버, Amazon S3, Azure Blob Storage 등을 포함한 다양한 소스에서 문서를 로드합니다.
 
   반응형 HTML 페이지를 생성하고, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 페이지를 회전하고, 필요한 경우 메모와 설명을 렌더링합니다.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180개 이상의 파일 형식"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "ASP.NET Core용 UI 패키지"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180개 이상의 파일 형식"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Spring 및 Dropwizard용 UI 패키지"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180개 이상의 파일 형식"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "UI 패키지 - 출시 예정"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "데모 - 곧 출시 예정"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "문서 및 이미지 보기"
       content: "문서를 HTML, PDF, PNG 및 JPEG 파일로 렌더링하여 봅니다."
+
     # feature loop
     - icon: "password"
       title: "보안 문서 열기"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "DOCX 파일을 PDF로 렌더링하는 방법"
       content: |
-        Microsoft Word나 기타 소프트웨어를 설치하지 않고도 DOCX 문서를 PDF로 렌더링할 수 있습니다. 웹 애플리케이션이든 데스크탑 애플리케이션이든 관계없이 .NET 애플리케이션 내에서 DOCX 파일을 쉽게 로드하고 볼 수 있습니다. 다음은 DOCX 파일을 PDF로 렌더링하는 방법의 예입니다. 
+       Microsoft Word나 기타 소프트웨어를 설치하지 않고도 DOCX 문서를 PDF로 렌더링할 수 있습니다. 웹 애플리케이션이든 데스크탑 애플리케이션이든 관계없이 .NET 애플리케이션 내에서 DOCX 파일을 쉽게 로드하고 볼 수 있습니다. 다음은 DOCX 파일을 PDF로 렌더링하는 방법의 예입니다.
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180개 이상의 파일 형식 지원"
-  description: "GroupDocs.Viewer는 가장 널리 사용되는 [파일 형식](https://docs.groupdocs.com/viewer/net/supported-document-formats/) 작업을 지원합니다." 
-
+  description: "GroupDocs.Viewer는 가장 널리 사용되는 [파일 형식](https://docs.groupdocs.com/viewer/net/supported-document-formats/) 작업을 지원합니다."
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "지원되는 형식"
       content: "문서, 이미지, CAD 도면을 포함한 180개 이상의 파일 형식을 번거로움 없이 쉽게 볼 수 있습니다. 포괄적인 보기 솔루션을 사용하여 호환성 장벽을 허물고 다양한 파일에 쉽게 액세스하세요."
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet 다운로드"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "행복한 고객"
       content: "전 세계에서 가장 상징적인 브랜드에 서비스를 제공합니다. 수백 명이 GroupDocs.Viewer를 좋아하는 이유를 알아보세요! 원활한 탐색, 편리한 공동작업, 비교할 수 없는 사용 편의성을 살펴보세요. 지금 가입하세요!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "시작할 준비가 되셨나요?"
   description: "GroupDocs.Viewer 기능을 무료로 사용해 보거나 라이선스를 요청하세요"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "일반적인 질문과 우려사항"
-  description:  "자주 묻는 질문(FAQ) 섹션에서 일반적인 문의에 대한 답변을 찾아 문의 사항과 우려 사항을 빠르게 해결하세요."
+  title: "일반적인 질문과 우려 사항"
+  description: "자주 묻는 질문(FAQ) 섹션에서 일반적인 문의에 대한 답변을 찾아 문의 사항과 우려 사항을 빠르게 해결하세요."
+
   items:
     #  loop
     - question: "구매하기 전에 GroupDocs 제품을 평가할 수 있습니까?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "GroupDocs에서는 제품 시연을 합니까?"
       answer: |
-        아니요, 우리의 초점은 API와 가장 기능적이고 안정적인 제품을 만드는 것입니다. 우리는 [임시 라이선스](https://purchase.groupdocs.com/temporary-license/) 형태로 모든 기능을 갖춘 무료 평가판을 제공하므로 직접 제품을 테스트해 볼 수 있습니다.    
+        아니요, 우리의 초점은 API와 가장 기능적이고 안정적인 제품을 만드는 것입니다. 우리는 [임시 라이선스](https://purchase.groupdocs.com/temporary-license/) 형태로 모든 기능을 갖춘 무료 평가판을 제공하므로 직접 제품을 테스트해 볼 수 있습니다.
     #  loop
     - question: "제품은 어디서 다운로드할 수 있나요?"
       answer: |
-        모든 제품은 [웹사이트](https://releases.groupdocs.com)에서 다운로드할 수 있습니다. 우리는 소프트웨어의 물리적 사본을 우편으로 보내지 않습니다.
+        모든 제품은 [웹사이트](https://releases.groupdocs.com)에서 다운로드할 수 있습니다. 우리는 소프트웨어의 물리적 사본을 우편으로 보내지 않습니다.    
     #  loop
     - question: "GroupDocs 개발자 라이센스는 사용자별인가요, 아니면 지정된 사용자별인가요?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "활동 중인 개발자에게만 라이선스가 필요합니까? 예를 들어, 두 명의 개발자로 구성된 팀이 A 교대 근무를 하고 두 번째 개발자 두 팀이 교대 B 근무를 하고 있습니다. 이 상황에서 라이선스가 2개 또는 4개가 필요합니까?"
       answer: |
-        프로젝트에 참여하는 모든 개발자는 라이선스를 취득해야 합니다. 이 상황에서 GroupDocs는 팀 구성원이 4명인 것으로 간주합니다(그들이 서로 다른 시간에 일하더라도). 
-
+        프로젝트에 참여하는 모든 개발자는 라이선스를 취득해야 합니다. 이 상황에서 GroupDocs는 팀 구성원이 4명인 것으로 간주합니다(그들이 서로 다른 시간에 일하더라도).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: ".NET용 Cloud SDK를 사용하여 .NET 애플리케이션의 문서 보기 기능을 향상하세요. HTML, PDF 또는 이미지 형식으로 문서를 원활하게 볼 수 있습니다."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "특별히 제작된 Java용 Document Viewer SDK를 사용하여 고급 문서 렌더링 기능을 Java 애플리케이션에 통합하세요."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "무료 PDF 뷰어를 사용하여 온라인으로 PDF 파일을 열고 봅니다."
     
-
-
 
 ---

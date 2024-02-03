@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "Render and View Documents API | On Premise API dan perkhidmatan dalam talian"
 head_description: "Render & lihat fail Word, PDF, Excel, Powerpoint atau Imej dengan mudah dan percuma"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Buat dan lihat dokumen dengan mudah"
 description: |
   API Pemapar Berkuasa untuk Memaparkan fail berbeza kepada PDF, HTML dan Imej.
@@ -19,7 +19,6 @@ description: |
   Muatkan dokumen daripada pelbagai sumber, termasuk fail, strim, URL, pelayan FTP, Amazon S3, Storan Azure Blob dan banyak lagi.
 
   Hasilkan halaman HTML responsif, lindungi fail PDF keluaran dan susun semula halaman mereka, putar halaman, berikan nota dan ulasan jika perlu.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180+ format fail"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Pakej UI untuk Teras ASP.NET"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ format fail"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Pakej UI untuk Spring dan Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180+ format fail"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Pakej UI - akan datang tidak lama lagi"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - akan datang tidak lama lagi"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Lihat dokumen dan imej"
       content: "Lihat dokumen dengan menjadikannya sebagai fail HTML, PDF, PNG dan JPEG."
+
     # feature loop
     - icon: "password"
       title: "Buka dokumen selamat"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Bagaimana untuk menjadikan fail DOCX kepada PDF"
       content: |
-        Render dokumen DOCX kepada PDF tanpa Microsoft Word atau perisian lain dipasang. Muatkan dan lihat fail DOCX dengan mudah dalam aplikasi .NET anda, sama ada aplikasi web atau desktop. Berikut ialah contoh cara untuk menjadikan fail DOCX kepada PDF: 
+       Render dokumen DOCX kepada PDF tanpa Microsoft Word atau perisian lain dipasang. Muatkan dan lihat fail DOCX dengan mudah dalam aplikasi .NET anda, sama ada aplikasi web atau desktop. Berikut ialah contoh cara untuk menjadikan fail DOCX kepada PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180+ format fail disokong"
-  description: "GroupDocs.Viewer menyokong operasi dengan [format fail](https://docs.groupdocs.com/viewer/net/supported-document-formats/) yang paling popular " 
-
+  description: "GroupDocs.Viewer menyokong operasi dengan yang paling popular [format fail](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Format yang disokong"
       content: "Lihat lebih 180 format fail dengan mudah termasuk dokumen, imej dan lukisan CAD tanpa kerumitan. Putuskan halangan keserasian dan akses pelbagai fail dengan mudah dengan penyelesaian tontonan komprehensif kami."
-
     # metrics loop
     - number: "1.0M"
       title: "Muat turun NuGet"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Pelanggan gembira"
       content: "Melayani jenama paling ikonik di seluruh dunia. Temui sebab beratus-ratus suka GroupDocs.Viewer! Terokai navigasi yang lancar, kerjasama yang mudah dan kemudahan penggunaan yang tiada tandingan. Sertai sekarang!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Bersedia untuk bermula?"
   description: "Cuba ciri GroupDocs.Viewer secara percuma atau minta lesen"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Soalan dan kebimbangan biasa"
-  description:  "Dapatkan jawapan kepada pertanyaan biasa di bahagian Soalan Lazim kami untuk menangani pertanyaan dan kebimbangan anda dengan cepat."
+  title: "Soalan dan kebimbangan biasa"
+  description: "Dapatkan jawapan kepada pertanyaan biasa di bahagian Soalan Lazim kami untuk menangani pertanyaan dan kebimbangan anda dengan cepat."
+
   items:
     #  loop
     - question: "Bolehkah saya menilai produk GroupDocs sebelum membeli?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "Adakah GroupDocs melakukan demonstrasi produk?"
       answer: |
-        Tidak, tumpuan kami adalah pada API kami dan menjadikan produk yang paling berfungsi dan stabil mungkin. Kami menawarkan percubaan yang berfungsi sepenuhnya dan percuma dalam bentuk [lesen sementara](https://purchase.groupdocs.com/temporary-license/) supaya anda boleh menguji produk itu sendiri.    
+        Tidak, tumpuan kami adalah pada API kami dan menjadikan produk yang paling berfungsi dan stabil mungkin. Kami menawarkan percubaan yang berfungsi sepenuhnya dan percuma dalam bentuk [lesen sementara](https://purchase.groupdocs.com/temporary-license/) supaya anda boleh menguji produk itu sendiri.
     #  loop
     - question: "Di manakah saya boleh memuat turun produk?"
       answer: |
-        Semua produk tersedia untuk dimuat turun dari [tapak web](https://releases.groupdocs.com). Kami tidak menghantar salinan fizikal perisian kami melalui mel.
+        Semua produk tersedia untuk dimuat turun dari [tapak web](https://releases.groupdocs.com). Kami tidak menghantar salinan fizikal perisian kami melalui mel.    
     #  loop
     - question: "Adakah lesen pembangun GroupDocs setiap pengguna, atau setiap pengguna bernama?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Adakah kita memerlukan pelesenan untuk pembangun aktif sahaja? Sebagai contoh, kami mempunyai pasukan dua pembangun yang bekerja pada syif A dan pasukan kedua dua pembangun bekerja pada syif B … dalam situasi ini, adakah kami memerlukan dua atau empat lesen?"
       answer: |
-        Semua pemaju yang sedang mengusahakan projek itu perlu dilesenkan. Dalam situasi ini, GroupDocs melihat pasukan anda mempunyai empat ahli (walaupun mereka bekerja pada masa yang berbeza). 
-
+        Semua pemaju yang sedang mengusahakan projek itu perlu dilesenkan. Dalam situasi ini, GroupDocs melihat pasukan anda mempunyai empat ahli (walaupun mereka bekerja pada masa yang berbeza).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Tingkatkan keupayaan melihat dokumen dalam aplikasi .NET dengan Cloud SDK untuk .NET. Lihat dokumen dengan lancar dalam format HTML, PDF atau imej."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integrasikan keupayaan pemaparan dokumen lanjutan ke dalam aplikasi Java anda menggunakan SDK Pemapar Dokumen yang dibina khas untuk Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Buka dan lihat fail PDF dalam talian dengan pemapar PDF percuma."
     
-
-
 
 ---

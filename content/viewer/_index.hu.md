@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,15 +11,14 @@ product_tag: "viewer"
 head_title: "Render and View Documents API | On Premise API és online szolgáltatás"
 head_description: "Rendereljen és tekintsen meg Word, PDF, Excel, Powerpoint vagy képfájlokat egyszerűen és ingyenesen"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Rendereljen és tekintsen meg dokumentumokat könnyedén"
 description: |
   Hatékony Viewer API a különböző fájlok PDF, HTML és kép formátumban való megjelenítéséhez.
 
   Töltsön be dokumentumokat különböző forrásokból, beleértve a fájlokat, adatfolyamokat, URL-eket, FTP-kiszolgálókat, Amazon S3-at, Azure Blob Storage-ot és egyebeket.
 
-  Hozzon létre reszponzív HTML-oldalakat, védje meg a kimeneti PDF-fájlokat, és rendezze át az oldalakat, forgassa el az oldalakat, jelenítsen meg jegyzeteket és megjegyzéseket, ha szükséges.
-  
+  Hozzon létre reszponzív HTML-oldalakat, védje meg a kimeneti PDF-fájlokat, rendezze át az oldalakat, forgassa el az oldalakat, jelenítsen meg jegyzeteket és megjegyzéseket, ha szükséges.
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180+ fájlformátum"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "UI-csomag az ASP.NET Core számára"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ fájlformátum"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "UI-csomag a Spring és a Dropwizard számára"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180+ fájlformátum"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "UI csomag – hamarosan"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo – hamarosan"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Dokumentumok és képek megtekintése"
       content: "Tekintse meg a dokumentumokat HTML-, PDF-, PNG- és JPEG-fájlokként."
+
     # feature loop
     - icon: "password"
       title: "Nyissa meg a védett dokumentumokat"
@@ -135,12 +134,12 @@ features:
 code_samples:
   enable: true
   title: "GroupDocs.Viewer kódminták"
-  description: "Néhányan a GroupDocs.Viewer tipikus műveleteit használják C#, Java, TypeScript nyelven"
+  description: "Egyes esetekben a tipikus GroupDocs.Viewer műveleteket használják C#, Java, TypeScript nyelven"
   items:
     # code sample loop
     - title: "Hogyan lehet DOCX fájlokat PDF formátumba renderelni"
       content: |
-        A DOCX dokumentumokat PDF formátumba renderelheti Microsoft Word vagy más szoftver telepítése nélkül. Könnyedén tölthet be és tekinthet meg DOCX-fájlokat .NET-alkalmazásában, legyen szó akár webes, akár asztali alkalmazásról. Íme egy példa arra, hogyan lehet DOCX fájlt PDF formátumba renderelni: 
+       A DOCX dokumentumokat PDF formátumba renderelheti Microsoft Word vagy más szoftver telepítése nélkül. Könnyedén tölthet be és tekinthet meg DOCX-fájlokat .NET-alkalmazásában, legyen szó webes vagy asztali alkalmazásról. Íme egy példa arra, hogyan lehet DOCX fájlt PDF formátumba renderelni:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180+ fájlformátum támogatott"
-  description: "A GroupDocs.Viewer támogatja a legnépszerűbb [fájlformátumokkal](https://docs.groupdocs.com/viewer/net/supported-document-formats/) végzett műveleteket" 
-
+  description: "A GroupDocs.Viewer támogatja a legnépszerűbb végzett műveleteket [fájlformátumokkal](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Támogatott formátumok"
       content: "Több mint 180 fájlformátum, köztük dokumentumok, képek és CAD-rajzok problémamentes megtekintése. Átfogó megtekintési megoldásunkkal törje meg a kompatibilitási akadályokat, és könnyedén hozzáférhet a különféle fájlokhoz."
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet letöltések"
@@ -215,8 +212,7 @@ metrics:
     # metrics loop
     - number: "100+"
       title: "Boldog ügyfelek"
-      content: "A világ legikonikusabb márkáit szolgáljuk ki. Fedezze fel, miért szeretik több százan a GroupDocs.Viewer-t! Fedezze fel a zökkenőmentes navigációt, a kényelmes együttműködést és a páratlanul egyszerű használatot. Csatlakozz most!"
-
+      content: "A világ legikonikusabb márkáit szolgáljuk ki. Fedezze fel, miért szeretik százak a GroupDocs.Viewer-t! Fedezze fel a zökkenőmentes navigációt, a kényelmes együttműködést és a páratlanul egyszerű használatot. Csatlakozz most!"
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Készen áll az indulásra?"
   description: "Próbálja ki ingyenesen a GroupDocs.Viewer funkcióit, vagy kérjen licencet"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Gyakori kérdések és aggályok"
-  description:  "A gyakori kérdésekre keressen válaszokat a GYIK részben, hogy gyorsan válaszolhasson kérdéseire és aggályaira."
+  title: "Gyakori kérdések és aggályok"
+  description: "Keresse meg a válaszokat a gyakori kérdésekre a GYIK részben, hogy gyorsan válaszoljon kérdéseire és aggályaira."
+
   items:
     #  loop
     - question: "Értékelhetem a GroupDocs termékeket a vásárlás előtt?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "A GroupDocs készít termékbemutatókat?"
       answer: |
-        Nem, mi az API-inkra és a lehető legfunkcionálisabb és legstabilabb termékekre összpontosítunk. Teljesen működőképes és ingyenes próbaverziókat kínálunk [ideiglenes licenc](https://purchase.groupdocs.com/temporary-license/) formájában, így Ön is kipróbálhatja a terméket.    
+        Nem, mi az API-inkra és a lehető legfunkcionálisabb és legstabilabb termékekre összpontosítunk. Teljesen működőképes és ingyenes próbaverziókat kínálunk [ideiglenes licenc](https://purchase.groupdocs.com/temporary-license/) formájában, így Ön is kipróbálhatja a terméket.
     #  loop
     - question: "Hol tudom letölteni a terméket?"
       answer: |
-        Minden termék letölthető a [webhelyről](https://releases.groupdocs.com). Szoftverünk fizikai másolatát nem küldjük postai úton.
+        Minden termék letölthető a [webhelyről](https://releases.groupdocs.com). Szoftverünk fizikai másolatát nem küldjük postai úton.    
     #  loop
     - question: "A GroupDocs fejlesztői licence felhasználónként vagy megnevezett felhasználónként vonatkozik?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Csak aktív fejlesztőknek van szükségünk licencre? Például van egy két fejlesztőből álló csapatunk az A műszakban és egy két fejlesztőből álló csapat a B műszakban… ebben a helyzetben két vagy négy licencre van szükségünk?"
       answer: |
-        Minden fejlesztőnek, aki a projekten dolgozik, licenccel kell rendelkeznie. Ebben a helyzetben a GroupDocs négytagúnak tekinti a csapatát (annak ellenére, hogy különböző időpontokban dolgoznak). 
-
+        Minden fejlesztőnek, aki a projekten dolgozik, licenccel kell rendelkeznie. Ebben a helyzetben a GroupDocs négytagúnak tekinti a csapatát (annak ellenére, hogy különböző időpontokban dolgoznak).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "A .NET-alkalmazások dokumentummegtekintési képességeinek javítása a .NET-hez készült Cloud SDK segítségével. Tekintse meg a dokumentumokat zökkenőmentesen HTML, PDF vagy képformátumban."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integráljon fejlett dokumentum-megjelenítési képességeket Java-alkalmazásaiba egy erre a célra kialakított Java Document Viewer SDK segítségével."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Nyissa meg és tekintse meg a PDF-fájlokat online az ingyenes PDF-nézegetővel."
     
-
-
 
 ---

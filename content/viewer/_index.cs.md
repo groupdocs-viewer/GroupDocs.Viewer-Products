@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "Render and View Documents API | On Premise API a online služba"
 head_description: "Snadno a zdarma vykreslujte a zobrazujte soubory Word, PDF, Excel, Powerpoint nebo Image"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Snadno vykreslujte a prohlížejte dokumenty"
 description: |
   Výkonné rozhraní Viewer API pro vykreslování různých souborů do PDF, HTML a obrázků.
@@ -19,12 +19,11 @@ description: |
   Načtěte dokumenty z různých zdrojů, včetně souborů, streamů, adres URL, FTP serverů, Amazon S3, Azure Blob Storage a dalších.
 
   Vytvářejte responzivní stránky HTML, chraňte výstupní soubory PDF a změňte pořadí jejich stránek, otáčejte stránky, vykreslujte poznámky a komentáře, pokud je to potřeba.
-  
 
 ############################# Platforms ############################
 supported_platforms:
   enable: true  
-  head_title: "Vyberte si platformu"
+  head_title: "Vyberte si svou platformu"
   title: "Podporované platformy"
   description: "Knihovna GroupDocs.Viewer podporuje následující operační systémy a rámce"
   details_link_title: "Zjistěte více"
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180+ formátů souborů"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Balíček uživatelského rozhraní pro ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ formátů souborů"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Balíček uživatelského rozhraní pro Spring a Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180+ formátů souborů"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Balíček uživatelského rozhraní – již brzy"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - již brzy"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Zobrazení dokumentů a obrázků"
       content: "Prohlížejte si dokumenty vykreslováním jako soubory HTML, PDF, PNG a JPEG."
+
     # feature loop
     - icon: "password"
       title: "Otevřete zabezpečené dokumenty"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Jak vykreslit soubory DOCX do PDF"
       content: |
-        Vykreslujte dokumenty DOCX do formátu PDF bez nainstalovaného programu Microsoft Word nebo jiného softwaru. Snadno načtěte a prohlížejte soubory DOCX ve své aplikaci .NET, ať už se jedná o webovou nebo desktopovou aplikaci. Zde je příklad, jak vykreslit soubor DOCX do PDF: 
+       Vykreslujte dokumenty DOCX do formátu PDF bez nainstalovaného programu Microsoft Word nebo jiného softwaru. Snadno načtěte a prohlížejte soubory DOCX ve své aplikaci .NET, ať už se jedná o webovou nebo desktopovou aplikaci. Zde je příklad, jak vykreslit soubor DOCX do PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Podporováno více než 180 formátů souborů"
-  description: "GroupDocs.Viewer podporuje operace s nejoblíbenějšími [formáty souborů](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer podporuje operace s nejoblíbenějšími [formáty souborů](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Podporované formáty"
       content: "Snadno a bezproblémově prohlížejte více než 180 formátů souborů včetně dokumentů, obrázků a výkresů CAD. Prolomte bariéry kompatibility a přistupujte bez námahy k různým souborům s naším komplexním řešením pro prohlížení."
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet ke stažení"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "spokojení zákazníci"
       content: "Obsluhování nejznámějších značek po celém světě. Zjistěte, proč stovky lidí milují GroupDocs.Viewer! Prozkoumejte bezproblémovou navigaci, pohodlnou spolupráci a nesrovnatelně snadné použití. Přidej se teď!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Jste připraveni začít?"
   description: "Vyzkoušejte funkce GroupDocs.Viewer zdarma nebo si vyžádejte licenci"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,21 +283,22 @@ actions:
 
 faq:
   enable: true
-  title:  "Běžné otázky a obavy"
-  description:  "Najděte odpovědi na běžné dotazy v naší sekci FAQ, abyste mohli rychle řešit své dotazy a obavy."
+  title: "Běžné otázky a obavy"
+  description: "Najděte odpovědi na běžné dotazy v naší sekci FAQ, abyste mohli rychle řešit své dotazy a obavy."
+
   items:
     #  loop
     - question: "Mohu ohodnotit produkty GroupDocs před nákupem?"
       answer: |
-        Ano! Všechny produkty GroupDocs mají k dispozici zkušební verzi bez rizika. Důrazně doporučujeme vývojářům, aby si před nákupem stáhli a vyzkoušeli naše API, aby bylo zajištěno, že 100% naplní vaše potřeby.
+        Ano! Všechny produkty GroupDocs mají k dispozici zkušební verzi bez rizika. Důrazně doporučujeme vývojářům, aby si před nákupem stáhli a vyzkoušeli naše API, aby bylo zajištěno, že 100% splní vaše potřeby.
     #  loop
     - question: "Dělá GroupDocs předvádění produktů?"
       answer: |
-        Ne, zaměřujeme se na naše API a vytváření co nejfunkčnějších a nejstabilnějších produktů. Nabízíme plně funkční a bezplatné zkušební verze ve formě [dočasné licence](https://purchase.groupdocs.com/temporary-license/), abyste si mohli produkt sami vyzkoušet.    
+        Ne, zaměřujeme se na naše API a vytváření co nejfunkčnějších a nejstabilnějších produktů. Nabízíme plně funkční a bezplatné zkušební verze ve formě [dočasné licence](https://purchase.groupdocs.com/temporary-license/), abyste si mohli produkt sami vyzkoušet.
     #  loop
     - question: "Kde si mohu produkt stáhnout?"
       answer: |
-        Všechny produkty jsou k dispozici ke stažení z [webu](https://releases.groupdocs.com). Neposíláme fyzické kopie našeho softwaru poštou.
+        Všechny produkty jsou k dispozici ke stažení z [webu](https://releases.groupdocs.com). Neposíláme fyzické kopie našeho softwaru poštou.    
     #  loop
     - question: "Jsou licence pro vývojáře GroupDocs na uživatele nebo na pojmenovaného uživatele?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Potřebujeme licencování pouze pro aktivní vývojáře? Například máme tým dvou vývojářů pracujících na směně A a druhý tým dvou vývojářů pracujících na směně B … v této situaci potřebujeme dvě nebo čtyři licence?"
       answer: |
-        Všichni vývojáři, kteří na projektu pracují, musí mít licenci. V této situaci GroupDocs vidí váš tým jako čtyřčlenný (i když pracují v různé době). 
-
+        Všichni vývojáři, kteří na projektu pracují, musí mít licenci. V této situaci GroupDocs vidí váš tým jako čtyřčlenný (i když pracují v různé době).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Vylepšete možnosti prohlížení dokumentů v aplikacích .NET pomocí Cloud SDK pro .NET. Bezproblémově prohlížejte dokumenty ve formátech HTML, PDF nebo obrázků."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integrujte pokročilé možnosti vykreslování dokumentů do svých aplikací Java pomocí účelově vytvořené sady Document Viewer SDK pro Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Otevírejte a prohlížejte soubory PDF online pomocí bezplatného prohlížeče PDF."
     
-
-
 
 ---

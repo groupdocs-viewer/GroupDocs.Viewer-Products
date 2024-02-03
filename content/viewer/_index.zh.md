@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "渲染和查看文档 API |本地API和在线服务"
 head_description: "轻松免费地渲染和查看 Word、PDF、Excel、Powerpoint 或图像文件"
 
-############################# Header ############################
+############################# Header ##########################
 title: "轻松渲染和查看文档"
 description: |
   强大的查看器 API 可将不同文件渲染为 PDF、HTML 和图像。
@@ -19,7 +19,6 @@ description: |
   从各种来源加载文档，包括文件、流、URL、FTP 服务器、Amazon S3、Azure Blob 存储等。
 
   生成响应式 HTML 页面、保护输出 PDF 文件并重新排序其页面、旋转页面、渲染注释和注释（如果需要）。
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180 多种文件格式"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "ASP.NET Core 的 UI 包"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180 多种文件格式"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Spring 和 Dropwizard 的 UI 包"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180 多种文件格式"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "UI 包 - 即将推出"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "演示 - 即将推出"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "查看文档和图像"
       content: "通过将文档呈现为 HTML、PDF、PNG 和 JPEG 文件来查看文档。"
+
     # feature loop
     - icon: "password"
       title: "打开受保护的文档"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "如何将 DOCX 文件渲染为 PDF"
       content: |
-        将 DOCX 文档渲染为 PDF，无需安装 Microsoft Word 或其他软件。在 .NET 应用程序中轻松加载和查看 DOCX 文件，无论是 Web 应用程序还是桌面应用程序。以下是如何将 DOCX 文件呈现为 PDF 的示例： 
+       将 DOCX 文档渲染为 PDF，无需安装 Microsoft Word 或其他软件。在 .NET 应用程序中轻松加载和查看 DOCX 文件，无论是 Web 应用程序还是桌面应用程序。以下是如何将 DOCX 文件呈现为 PDF 的示例：
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "支持 180 多种文件格式"
-  description: "GroupDocs.Viewer支持最流行的[文件格式](https://docs.groupdocs.com/viewer/net/supported-document-formats/) 的操作" 
-
+  description: "GroupDocs.Viewer支持最流行的的操作[文件格式](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "支持的格式"
       content: "轻松轻松查看 180 多种文件格式，包括文档、图像和 CAD 绘图。借助我们全面的查看解决方案，打破兼容性障碍并轻松访问各种文件。"
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet 下载"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "快乐的顾客"
       content: "为全球最具标志性的品牌提供服务。了解为什么数百人喜欢 GroupDocs.Viewer！探索无缝导航、便捷协作和无与伦比的易用性。立即加入！"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "准备好开始了吗？"
   description: "免费试用 GroupDocs.Viewer 功能或申请许可证"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "常见问题和疑虑"
-  description:  "在我们的常见问题解答部分查找常见问题的答案，以快速解决您的疑问和疑虑。"
+  title: "常见问题和疑虑"
+  description: "在我们的常见问题解答部分查找常见问题的答案，以快速解决您的疑问和疑虑。"
+
   items:
     #  loop
     - question: "我可以在购买前评估 GroupDocs 产品吗？"
@@ -296,20 +294,19 @@ faq:
     #  loop
     - question: "GroupDocs 是否进行产品演示？"
       answer: |
-        不，我们的重点是 API 并打造功能最强大、最稳定的产品。我们确实以[临时许可证](https://purchase.groupdocs.com/temporary-license/)的形式提供功能齐全的免费试用版，以便您可以亲自测试该产品。    
+        不，我们的重点是 API 并打造功能最强大、最稳定的产品。我们确实以[临时许可证](https://purchase.groupdocs.com/temporary-license/)的形式提供功能齐全的免费试用版，以便您可以亲自测试该产品。
     #  loop
     - question: "我在哪里可以下载该产品？"
       answer: |
-        所有产品都可以从[网站](https://releases.groupdocs.com)下载。我们不会通过邮件发送我们软件的物理副本。
+        所有产品都可以从[网站](https://releases.groupdocs.com)下载。我们不会通过邮件发送我们软件的物理副本。    
     #  loop
     - question: "GroupDocs 开发人员许可证是按用户还是按指定用户授予的？"
       answer: |
         GroupDocs 开发人员许可证是按用户授予的，而不是按指定用户授予的。我们了解编码团队的成员可能会随着时间的推移而发生变化，并且每次发生时都必须更新许可是不切实际的。
     #  loop
-    - question: "我们是否只需要为活跃的开发人员授予许可？例如，我们有一个由两名开发人员组成的团队从事 A 班次工作，另一个由两名开发人员组成的团队从事 B 班工作……在这种情况下，我们需要两个还是四个许可证？"
+    - question: "我们是否只需要为活跃的开发人员授予许可？例如，我们有一个由两名开发人员组成的团队从事 A 班次工作，而另一个由两名开发人员组成的团队从事 B 班次工作……在这种情况下，我们需要两个还是四个许可证？"
       answer: |
-        所有从事该项目的开发人员都需要获得许可。在这种情况下，GroupDocs 会将您的团队视为有四名成员（即使他们在不同的时间工作）。 
-
+        所有从事该项目的开发人员都需要获得许可。在这种情况下，GroupDocs 会将您的团队视为有四名成员（即使他们在不同的时间工作）。
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "使用 Cloud SDK for .NET 增强 .NET 应用程序中的文档查看功能。无缝查看 HTML、PDF 或图像格式的文档。"
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "使用专门构建的 Java 文档查看器 SDK 将高级文档呈现功能集成到您的 Java 应用程序中。"
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "使用免费的 PDF 查看器在线打开和查看 PDF 文件。"
     
-
-
 
 ---

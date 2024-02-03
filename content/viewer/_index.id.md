@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "Render dan Lihat Dokumen API | API Lokal dan layanan online"
 head_description: "Render & lihat file Word, PDF, Excel, Powerpoint atau Gambar dengan mudah dan gratis"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Render dan lihat dokumen dengan mudah"
 description: |
   API Penampil yang Kuat untuk Merender berbagai file ke PDF, HTML, dan Gambar.
@@ -19,7 +19,6 @@ description: |
   Memuat dokumen dari berbagai sumber, termasuk file, aliran, URL, server FTP, Amazon S3, Azure Blob Storage, dan banyak lagi.
 
   Hasilkan halaman HTML responsif, lindungi file PDF keluaran dan susun ulang halamannya, putar halaman, render catatan dan komentar jika diperlukan.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180+ format file"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Paket UI untuk ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ format file"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Paket UI untuk Spring dan Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180+ format file"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Paket UI - segera hadir"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - segera hadir"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Lihat dokumen dan gambar"
       content: "Lihat dokumen dengan merendernya sebagai file HTML, PDF, PNG, dan JPEG."
+
     # feature loop
     - icon: "password"
       title: "Buka dokumen aman"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Cara merender file DOCX ke PDF"
       content: |
-        Render dokumen DOCX ke PDF tanpa menginstal Microsoft Word atau perangkat lunak lain. Memuat dan melihat file DOCX dengan mudah dalam aplikasi .NET Anda, baik itu aplikasi web atau desktop. Berikut adalah contoh cara merender file DOCX ke PDF: 
+       Render dokumen DOCX ke PDF tanpa menginstal Microsoft Word atau perangkat lunak lain. Memuat dan melihat file DOCX dengan mudah dalam aplikasi .NET Anda, baik itu aplikasi web atau desktop. Berikut adalah contoh cara merender file DOCX ke PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180+ format file didukung"
-  description: "GroupDocs.Viewer mendukung operasi dengan [format file](https://docs.groupdocs.com/viewer/net/supported-document-formats/) paling populer" 
-
+  description: "GroupDocs.Viewer mendukung operasi dengan paling popule [format file](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Format yang didukung"
       content: "Lihat lebih dari 180 format file termasuk dokumen, gambar, dan gambar CAD dengan mudah tanpa repot. Hancurkan hambatan kompatibilitas dan akses beragam file dengan mudah menggunakan solusi tampilan komprehensif kami."
-
     # metrics loop
     - number: "1.0M"
       title: "Unduhan NuGet"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Pelanggan yang senang"
       content: "Melayani merek paling ikonik di seluruh dunia. Temukan mengapa ratusan orang menyukai GroupDocs.Viewer! Jelajahi navigasi yang lancar, kolaborasi yang nyaman, dan kemudahan penggunaan yang tak tertandingi. Bergabung sekarang!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Siap untuk memulai?"
   description: "Coba fitur GroupDocs.Viewer secara gratis atau minta lisensi"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Pertanyaan dan kekhawatiran umum"
-  description:  "Temukan jawaban atas pertanyaan umum di bagian FAQ kami untuk menjawab pertanyaan dan kekhawatiran Anda dengan cepat."
+  title: "Pertanyaan dan kekhawatiran umum"
+  description: "Temukan jawaban atas pertanyaan umum di bagian FAQ kami untuk menjawab pertanyaan dan kekhawatiran Anda dengan cepat."
+
   items:
     #  loop
     - question: "Bisakah saya mengevaluasi produk GroupDocs sebelum membeli?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "Apakah GroupDocs melakukan demonstrasi produk?"
       answer: |
-        Tidak, fokus kami adalah pada API kami dan membuat produk yang paling fungsional dan stabil. Kami menawarkan uji coba yang berfungsi penuh dan gratis dalam bentuk [lisensi sementara](https://purchase.groupdocs.com/temporary-license/) sehingga Anda dapat menguji sendiri produk tersebut.    
+        Tidak, fokus kami adalah pada API kami dan membuat produk yang paling fungsional dan stabil. Kami menawarkan uji coba yang berfungsi penuh dan gratis dalam bentuk [lisensi sementara](https://purchase.groupdocs.com/temporary-license/) sehingga Anda dapat menguji sendiri produk tersebut.
     #  loop
     - question: "Dimana saya bisa mendownload produknya?"
       answer: |
-        Semua produk tersedia untuk diunduh dari [situs web](https://releases.groupdocs.com). Kami tidak mengirimkan salinan fisik perangkat lunak kami melalui surat.
+        Semua produk tersedia untuk diunduh dari [situs web](https://releases.groupdocs.com). Kami tidak mengirimkan salinan fisik perangkat lunak kami melalui surat.    
     #  loop
     - question: "Apakah lisensi pengembang GroupDocs per pengguna, atau per pengguna yang disebutkan namanya?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Apakah kita memerlukan lisensi hanya untuk pengembang aktif? Misalnya, kami memiliki tim yang terdiri dari dua pengembang yang mengerjakan shift A dan tim kedua yang terdiri dari dua pengembang yang mengerjakan shift B… dalam situasi ini, apakah kami memerlukan dua atau empat lisensi?"
       answer: |
-        Semua pengembang yang mengerjakan proyek harus memiliki lisensi. Dalam situasi ini, GroupDocs melihat tim Anda memiliki empat anggota (meskipun mereka bekerja pada waktu yang berbeda). 
-
+        Semua pengembang yang mengerjakan proyek harus memiliki lisensi. Dalam situasi ini, GroupDocs melihat tim Anda memiliki empat anggota (meskipun mereka bekerja pada waktu yang berbeda).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Tingkatkan kemampuan melihat dokumen di aplikasi .NET dengan Cloud SDK untuk .NET. Lihat dokumen dengan lancar dalam format HTML, PDF, atau gambar."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integrasikan kemampuan rendering dokumen tingkat lanjut ke dalam aplikasi Java Anda menggunakan SDK Penampil Dokumen untuk Java yang dibuat khusus."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Buka dan lihat file PDF online dengan penampil PDF gratis."
     
-
-
 
 ---

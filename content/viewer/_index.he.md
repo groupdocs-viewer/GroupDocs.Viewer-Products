@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "עיבוד והצג מסמכים API | On Premise API ושירות מקוון"
 head_description: "עבד והצג קבצי Word, PDF, Excel, Powerpoint או Image בקלות ובחינם"
 
-############################# Header ############################
+############################# Header ##########################
 title: "עבד והצג מסמכים בקלות"
 description: |
   API רב עוצמה של Viewer לעיבוד קבצים שונים ל-PDF, HTML ותמונה.
@@ -19,7 +19,6 @@ description: |
   טען מסמכים ממקורות שונים, כולל קבצים, זרמים, כתובות URL, שרתי FTP, Amazon S3, Azure Blob Storage ועוד.
 
   צור דפי HTML רספונסיביים, הגן על קובצי ה-PDF הפלט וסדר מחדש את הדפים שלהם, סובב דפים, עבד הערות והערות במידת הצורך.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180+ פורמטים של קבצים"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "חבילת ממשק משתמש עבור ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ פורמטים של קבצים"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "חבילת ממשק משתמש עבור Spring ו-Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180+ פורמטים של קבצים"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "חבילת UI - בקרוב"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "הדגמה - בקרוב"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "הצג מסמכים ותמונות"
       content: "הצג מסמכים על ידי עיבודם כקובצי HTML, PDF, PNG ו-JPEG."
+
     # feature loop
     - icon: "password"
       title: "פתח מסמכים מאובטחים"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "כיצד לעבד קובצי DOCX ל-PDF"
       content: |
-        עיבוד מסמכי DOCX ל-PDF ללא Microsoft Word או תוכנה אחרת מותקנת. טען והצג בקלות קובצי DOCX בתוך יישום ה-.NET שלך, בין אם זה יישום אינטרנט או שולחן עבודה. להלן דוגמה כיצד לעבד קובץ DOCX ל-PDF: 
+       עיבוד מסמכי DOCX ל-PDF ללא Microsoft Word או תוכנה אחרת מותקנת. טען והצג בקלות קובצי DOCX בתוך יישום ה-.NET שלך, בין אם זה יישום אינטרנט או שולחן עבודה. להלן דוגמה כיצד לעבד קובץ DOCX ל-PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180+ פורמטים של קבצים נתמכים"
-  description: "GroupDocs.Viewer תומך בפעולות עם [פורמטי הקובץ] הפופולריים ביותר (https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer תומך בפעולות עם הפופולריים ביותר [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -200,12 +198,11 @@ metrics:
     # metrics loop
     - number: "180+"
       title: "פורמטים נתמכים"
-      content: "הצג בקלות למעלה מ-180 פורמטים של קבצים, כולל מסמכים, תמונות ושרטוטי CAD ללא טרחה. שבור מחסומי תאימות וגישה לקבצים מגוונים ללא מאמץ עם פתרון הצפייה המקיף שלנו."
-
+      content: "הצג בקלות למעלה מ-180 פורמטים של קבצים, כולל מסמכים, תמונות וציורי CAD ללא טרחה. שבור מחסומי תאימות וגישה לקבצים מגוונים ללא מאמץ עם פתרון הצפייה המקיף שלנו."
     # metrics loop
     - number: "1.0M"
       title: "הורדות של NuGet"
-      content: "פתרון החבילה NuGet שלנו הפך למשאב מהימן ומאומץ נרחב בקהילת המפתחים, ומספק אינטגרציה חלקה ופונקציונליות רבת ערך עבור אינספור פרויקטים."
+      content: "פתרון החבילה NuGet שלנו הפך למשאב מהימן ומאומץ בקהילת המפתחים, ומספק אינטגרציה חלקה ופונקציונליות רבת ערך עבור אינספור פרויקטים."
 
     # metrics loop
     - number: "10+"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "לקוחות מרוצים"
       content: "משרת את המותגים האייקוניים ביותר ברחבי העולם. גלה מדוע מאות אוהבים את GroupDocs.Viewer! חקור ניווט חלק, שיתוף פעולה נוח וקלות שימוש ללא תחרות. הצטרף עכשיו!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "מוכנים להתחיל?"
   description: "נסה את תכונות GroupDocs.Viewer בחינם או בקש רישיון"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,21 +283,22 @@ actions:
 
 faq:
   enable: true
-  title:  "שאלות וחששות נפוצים"
-  description:  "מצא תשובות לשאלות נפוצות בחלק השאלות הנפוצות שלנו כדי לענות במהירות על השאלות והחששות שלך."
+  title: "שאלות וחששות נפוצים"
+  description: "מצא תשובות לשאלות נפוצות בחלק השאלות הנפוצות שלנו כדי לענות במהירות על השאלות והחששות שלך."
+
   items:
     #  loop
     - question: "האם אוכל להעריך את מוצרי GroupDocs לפני הרכישה?"
       answer: |
         כן! לכל מוצרי GroupDocs יש גרסת הערכה נטולת סיכון. אנו ממליצים מאוד למפתחים להוריד ולנסות את ממשקי ה-API שלנו לפני הרכישה כדי להבטיח שהם ימלאו את הצרכים שלך ב-100%.
     #  loop
-    - question: "האם GroupDocs עושה הדגמות מוצרים?"
+    - question: "האם GroupDocs עושה הדגמות של מוצרים?"
       answer: |
-        לא, ההתמקדות שלנו היא בממשקי ה-API שלנו והפיכת המוצרים הפונקציונליים והיציבים ביותר האפשריים. אנחנו כן מציעים נסיונות פונקציונליים לחלוטין וחינמיים בצורה של [רישיון זמני](https://purchase.groupdocs.com/temporary-license/) כדי שתוכלו לבדוק את המוצר בעצמכם.    
+        לא, ההתמקדות שלנו היא בממשקי ה-API שלנו והפיכת המוצרים הפונקציונליים והיציבים ביותר האפשריים. אנחנו כן מציעים נסיונות פונקציונליים לחלוטין וחינמיים בצורה של[license](https://purchase.groupdocs.com/temporary-license/) כדי שתוכלו לבדוק את המוצר בעצמכם.
     #  loop
-    - question: "איפה אני יכול להוריד את המוצר?"
+    - question: "היכן ניתן להוריד את המוצר?"
       answer: |
-        כל המוצרים זמינים להורדה מ[אתר](https://releases.groupdocs.com). איננו שולחים עותקים פיזיים של התוכנה שלנו בדואר.
+        כל המוצרים זמינים להורדה מ[releases](https://releases.groupdocs.com). איננו שולחים עותקים פיזיים של התוכנה שלנו בדואר.    
     #  loop
     - question: "האם רשיונות מפתחים של GroupDocs הם לכל משתמש, או לכל משתמש בשם?"
       answer: |
@@ -308,14 +306,13 @@ faq:
     #  loop
     - question: "האם אנחנו צריכים רישוי רק למפתחים פעילים? לדוגמה, יש לנו צוות של שני מפתחים שעובדים במשמרת A וצוות שני של שני מפתחים שעובדים במשמרת B... במצב הזה, האם אנחנו צריכים שניים או ארבעה רישיונות?"
       answer: |
-        כל המפתחים שעובדים על הפרויקט צריכים לקבל רישיון. במצב זה, GroupDocs רואה בצוות שלך ארבעה חברים (למרות שהם עובדים בזמנים שונים). 
-
+        כל המפתחים שעובדים על הפרויקט צריכים לקבל רישיון. במצב זה, GroupDocs רואה בצוות שלך ארבעה חברים (למרות שהם עובדים בזמנים שונים).
 
 ############################# Cloud ############################
 
 cloud_links:
   enable: true
-  title: "ממשקי API בקוד נמוך של GroupDocs.Viewer"
+  title: "ממשקי API של קוד נמוך של GroupDocs.Viewer"
   description: "האץ את הצגת המסמכים או התמונות בכל סוג של יישום עם REST API מבוסס הענן שלנו"
 
   items:
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "שפר את יכולות הצפייה במסמכים ביישומי NET עם Cloud SDK עבור .NET. הצג מסמכים בצורה חלקה בפורמטים של HTML, PDF או תמונה."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "שלב יכולות עיבוד מסמכים מתקדמות ביישומי Java שלך באמצעות SDK של Document Viewer עבור Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "פתח והצג קבצי PDF באופן מקוון עם מציג PDF בחינם."
     
-
-
 
 ---

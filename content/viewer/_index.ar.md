@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "عرض وعرض المستندات API | On Premise API والخدمة عبر الإنترنت"
 head_description: "عرض وعرض ملفات Word أو PDF أو Excel أو Powerpoint أو الصور بسهولة ومجانية"
 
-############################# Header ############################
+############################# Header ##########################
 title: "عرض المستندات وعرضها بسهولة"
 description: |
   واجهة برمجة تطبيقات عارض قوية لعرض ملفات مختلفة إلى PDF وHTML وصورة.
@@ -19,7 +19,6 @@ description: |
   قم بتحميل المستندات من مصادر مختلفة، بما في ذلك الملفات والتدفقات وعناوين URL وخوادم FTP وAmazon S3 وAzure Blob Storage والمزيد.
 
   قم بإنشاء صفحات HTML سريعة الاستجابة، وحماية ملفات PDF الناتجة وإعادة ترتيب صفحاتها، وتدوير الصفحات، وتقديم الملاحظات والتعليقات إذا لزم الأمر.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "أكثر من 180 تنسيقًا للملفات"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "حزمة واجهة المستخدم لـ ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "أكثر من 180 تنسيقًا للملفات"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "حزمة واجهة المستخدم لـ Spring وDropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "أكثر من 180 تنسيقًا للملفات"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "حزمة واجهة المستخدم - قريبًا"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "التجريبي - قريبا"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "عرض المستندات والصور"
       content: "عرض المستندات من خلال تقديمها كملفات HTML وPDF وPNG وJPEG."
+
     # feature loop
     - icon: "password"
       title: "فتح المستندات المضمونة"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "كيفية تحويل ملفات DOCX إلى PDF"
       content: |
-        قم بتحويل مستندات DOCX إلى PDF بدون تثبيت Microsoft Word أو أي برامج أخرى. قم بتحميل ملفات DOCX وعرضها بسهولة داخل تطبيق .NET الخاص بك، سواء كان تطبيق ويب أو تطبيق سطح مكتب. فيما يلي مثال لكيفية تحويل ملف DOCX إلى PDF: 
+       قم بتحويل مستندات DOCX إلى PDF بدون تثبيت Microsoft Word أو أي برامج أخرى. قم بتحميل ملفات DOCX وعرضها بسهولة داخل تطبيق .NET الخاص بك، سواء كان تطبيق ويب أو تطبيق سطح مكتب. فيما يلي مثال لكيفية تحويل ملف DOCX إلى PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "يدعم أكثر من 180 تنسيقًا للملفات"
-  description: "يدعم GroupDocs.Viewer ا[تنسيقات الملفات] الأكثر شيوعًا(https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "يدعم GroupDocs.Viewer العمليات باستخدام الأكثر شيوعًا [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "التنسيقات المدعومة"
       content: "يمكنك عرض أكثر من 180 تنسيق ملف بسهولة، بما في ذلك المستندات والصور ورسومات CAD دون أي متاعب. اكسر حواجز التوافق وقم بالوصول إلى الملفات المتنوعة بسهولة من خلال حل العرض الشامل الخاص بنا."
-
     # metrics loop
     - number: "1.0M"
       title: "تنزيلات نوجيت"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "الزبائن سعداء"
       content: "خدمة العلامات التجارية الأكثر شهرة في جميع أنحاء العالم. اكتشف سبب حب المئات لـ GroupDocs.Viewer! استكشف التنقل السلس والتعاون المريح وسهولة الاستخدام التي لا مثيل لها. نضم الان!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "على استعداد للبدء؟"
   description: "جرب ميزات GroupDocs.Viewer مجانًا أو اطلب ترخيصًا"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "الأسئلة والمخاوف الشائعة"
-  description:  "يمكنك العثور على إجابات للاستفسارات الشائعة في قسم الأسئلة الشائعة لمعالجة استفساراتك ومخاوفك بسرعة."
+  title: "الأسئلة والمخاوف الشائعة"
+  description: "يمكنك العثور على إجابات للاستفسارات الشائعة في قسم الأسئلة الشائعة لمعالجة استفساراتك ومخاوفك بسرعة."
+
   items:
     #  loop
     - question: "هل يمكنني تقييم منتجات GroupDocs قبل الشراء؟"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "هل تقوم GroupDocs بإجراء عروض توضيحية للمنتج؟"
       answer: |
-        لا، ينصب تركيزنا على واجهات برمجة التطبيقات (APIs) الخاصة بنا وجعل المنتجات الأكثر وظيفية واستقرارًا ممكنة. نحن نقدم تجارب مجانية تعمل بكامل طاقتها في شكل [ترخيص مؤقت](https://purchase.groupdocs.com/temporary-license/) حتى تتمكن من اختبار المنتج بنفسك.    
+        لا، ينصب تركيزنا على واجهات برمجة التطبيقات (APIs) الخاصة بنا وجعل المنتجات الأكثر وظيفية واستقرارًا ممكنة. نحن نقدم تجارب مجانية تعمل بكامل طاقتها في شكل [license](https://purchase.groupdocs.com/temporary-license/) حتى تتمكن من اختبار المنتج بنفسك.
     #  loop
     - question: "أين يمكنني تنزيل المنتج؟"
       answer: |
-        جميع المنتجات متاحة للتنزيل من [موقع الويب](https://releases.groupdocs.com). نحن لا نرسل نسخًا مادية من برامجنا عبر البريد.
+        جميع المنتجات متاحة للتنزيل من [releases](https://releases.groupdocs.com). نحن لا نرسل نسخًا مادية من برامجنا عبر البريد.    
     #  loop
     - question: "هل تراخيص مطور GroupDocs لكل مستخدم أم لكل مستخدم محدد؟"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "هل نحتاج إلى ترخيص للمطورين النشطين فقط؟ على سبيل المثال، لدينا فريق من مطورين اثنين يعملان على المناوبة أ وفريق ثانٍ من مطورين اثنين يعملان على المناوبة ب... في هذه الحالة، هل نحتاج إلى ترخيصين أو أربعة تراخيص؟"
       answer: |
-        يجب أن يكون جميع المطورين الذين يعملون في المشروع مرخصين. في هذه الحالة، يرى GroupDocs أن فريقك يضم أربعة أعضاء (على الرغم من أنهم يعملون في أوقات مختلفة). 
-
+        يجب أن يكون جميع المطورين الذين يعملون في المشروع مرخصين. في هذه الحالة، يرى GroupDocs أن فريقك يضم أربعة أعضاء (على الرغم من أنهم يعملون في أوقات مختلفة).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "قم بتحسين إمكانيات عرض المستندات في تطبيقات .NET باستخدام Cloud SDK لـ .NET. عرض المستندات بسلاسة بتنسيقات HTML أو PDF أو الصور."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "قم بدمج إمكانات عرض المستندات المتقدمة في تطبيقات Java الخاصة بك باستخدام Document Viewer SDK المصمم خصيصًا لهذا الغرض لـ Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "افتح واعرض ملفات PDF عبر الإنترنت باستخدام عارض PDF المجاني."
     
-
-
 
 ---

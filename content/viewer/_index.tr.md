@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "Belgeleri Oluşturma ve Görüntüleme API'si | Şirket İçi API ve çevrimiçi hizmet"
 head_description: "Word, PDF, Excel, Powerpoint veya Resim dosyalarını kolayca ve ücretsiz olarak oluşturun ve görüntüleyin"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Belgeleri kolaylıkla işleyin ve görüntüleyin"
 description: |
   Farklı dosyaları PDF, HTML ve Görüntüye dönüştürmek için Güçlü Görüntüleyici API'si.
@@ -19,7 +19,6 @@ description: |
   Dosyalar, akışlar, URL'ler, FTP sunucuları, Amazon S3, Azure Blob Depolama ve daha fazlası dahil olmak üzere çeşitli kaynaklardan belgeler yükleyin.
 
   Duyarlı HTML sayfaları oluşturun, çıktı PDF dosyalarını koruyun ve sayfalarını yeniden sıralayın, sayfaları döndürün, gerekirse notları ve yorumları işleyin.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180'den fazla dosya formatı"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "ASP.NET Core için kullanıcı arayüzü paketi"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180'den fazla dosya formatı"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Spring ve Dropwizard için kullanıcı arayüzü paketi"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180'den fazla dosya formatı"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Kullanıcı arayüzü paketi - çok yakında"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - yakında"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Belgeleri ve resimleri görüntüleyin"
       content: "Belgeleri HTML, PDF, PNG ve JPEG dosyaları olarak işleyerek görüntüleyin."
+
     # feature loop
     - icon: "password"
       title: "Güvenli belgeleri açın"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "DOCX dosyalarını PDF'ye dönüştürme"
       content: |
-        Microsoft Word veya başka bir yazılım yüklenmeden DOCX belgelerini PDF'ye dönüştürün. İster web ister masaüstü uygulaması olsun, .NET uygulamanızdaki DOCX dosyalarını kolayca yükleyin ve görüntüleyin. Bir DOCX dosyasının PDF'ye nasıl dönüştürüleceğine ilişkin bir örnek: 
+       Microsoft Word veya başka bir yazılım yüklenmeden DOCX belgelerini PDF'ye dönüştürün. İster web ister masaüstü uygulaması olsun, .NET uygulamanızdaki DOCX dosyalarını kolayca yükleyin ve görüntüleyin. Bir DOCX dosyasının PDF'ye nasıl dönüştürüleceğine ilişkin bir örnek:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180'den fazla dosya formatı desteklenir"
-  description: "GroupDocs.Viewer, en popüler [dosya formatlarıyla](https://docs.groupdocs.com/viewer/net/supported-document-formats/) işlemleri destekler." 
-
+  description: "GroupDocs.Viewer, en popüler [dosya formatlarıyla](https://docs.groupdocs.com/viewer/net/supported-document-formats/) işlemleri destekler."
 
 
 ############################# Metrics ############################
@@ -200,8 +198,7 @@ metrics:
     # metrics loop
     - number: "180+"
       title: "Desteklenen formatlar"
-      content: "Belgeler, resimler ve CAD çizimleri dahil 180'den fazla dosya formatını sorunsuz bir şekilde kolayca görüntüleyin. Kapsamlı görüntüleme çözümümüzle uyumluluk engellerini aşın ve çeşitli dosyalara zahmetsizce erişin."
-
+      content: "Belgeler, resimler ve CAD çizimleri de dahil olmak üzere 180'den fazla dosya formatını sorunsuz bir şekilde kolayca görüntüleyin. Kapsamlı görüntüleme çözümümüzle uyumluluk engellerini aşın ve çeşitli dosyalara zahmetsizce erişin."
     # metrics loop
     - number: "1.0M"
       title: "NuGet indirmeleri"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Memnun müşteriler"
       content: "Dünyanın en ikonik markalarına hizmet veriyoruz. Yüzlerce kişinin GroupDocs.Viewer'ı neden sevdiğini keşfedin! Sorunsuz gezinmeyi, rahat işbirliğini ve benzersiz kullanım kolaylığını keşfedin. Şimdi Katıl!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "başlamaya hazır mısın?"
   description: "GroupDocs.Viewer özelliklerini ücretsiz deneyin veya lisans isteyin"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Sık sorulan sorular ve endişeler"
-  description:  "Sorularınızı ve endişelerinizi hızla gidermek için sık sorulan soruların yanıtlarını SSS bölümümüzde bulabilirsiniz."
+  title: "Sık sorulan sorular ve endişeler"
+  description: "Sorularınızı ve endişelerinizi hızla gidermek için sık sorulan soruların yanıtlarını SSS bölümümüzde bulabilirsiniz."
+
   items:
     #  loop
     - question: "GroupDocs ürünlerini satın almadan önce değerlendirebilir miyim?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "GroupDocs ürün tanıtımları yapıyor mu?"
       answer: |
-        Hayır, odak noktamız API'lerimiz ve mümkün olan en işlevsel ve istikrarlı ürünleri sunmaktır. Ürünü kendiniz test edebilmeniz için [geçici lisans](https://purchase.groupdocs.com/temporary-license/) biçiminde tamamen işlevsel ve ücretsiz denemeler sunuyoruz.    
+        Hayır, odak noktamız API'lerimiz ve mümkün olan en işlevsel ve istikrarlı ürünleri sunmaktır. Ürünü kendiniz test edebilmeniz için [geçici lisans](https://purchase.groupdocs.com/temporary-license/) biçiminde tamamen işlevsel ve ücretsiz denemeler sunuyoruz.
     #  loop
     - question: "Ürünü nereden indirebilirim?"
       answer: |
-        Tüm ürünler [web sitesinden](https://releases.groupdocs.com) indirilebilir. Yazılımımızın fiziksel kopyalarını postayla göndermiyoruz.
+        Tüm ürünler [web sitesinden](https://releases.groupdocs.com) indirilebilir. Yazılımımızın fiziksel kopyalarını posta yoluyla göndermiyoruz.    
     #  loop
     - question: "GroupDocs geliştirici lisansları kullanıcı başına mı, yoksa adlandırılmış kullanıcı başına mı?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Yalnızca aktif geliştiriciler için lisansa ihtiyacımız var mı? Örneğin, A vardiyasında çalışan iki geliştiriciden oluşan bir ekibimiz ve B vardiyasında çalışan iki geliştiriciden oluşan ikinci bir ekibimiz var… bu durumda iki veya dört lisansa mı ihtiyacımız var?"
       answer: |
-        Proje üzerinde çalışan tüm geliştiricilerin lisans alması gerekir. Bu durumda GroupDocs ekibinizin dört üyeden oluştuğunu görür (her ne kadar farklı zamanlarda çalışıyor olsalar da). 
-
+        Proje üzerinde çalışan tüm geliştiricilerin lisans alması gerekir. Bu durumda GroupDocs ekibinizin dört üyeden oluştuğunu görür (her ne kadar farklı zamanlarda çalışıyor olsalar da).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: ".NET için Cloud SDK ile .NET uygulamalarındaki belge görüntüleme yeteneklerini geliştirin. Belgeleri HTML, PDF veya resim formatlarında sorunsuz bir şekilde görüntüleyin."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Java için özel olarak oluşturulmuş Belge Görüntüleyici SDK'sını kullanarak gelişmiş belge oluşturma yeteneklerini Java uygulamalarınıza entegre edin."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Ücretsiz PDF görüntüleyiciyle PDF dosyalarını çevrimiçi açın ve görüntüleyin."
     
-
-
 
 ---

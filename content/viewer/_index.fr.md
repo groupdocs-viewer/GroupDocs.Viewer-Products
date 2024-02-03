@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "API de rendu et d'affichage de documents | API sur site et service en ligne"
 head_description: "Rendre et visualiser des fichiers Word, PDF, Excel, Powerpoint ou Image facilement et gratuitement"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Rendre et visualiser des documents en toute simplicité"
 description: |
   API de visualisation puissante pour restituer différents fichiers au format PDF, HTML et image.
@@ -19,7 +19,6 @@ description: |
   Chargez des documents à partir de diverses sources, notamment des fichiers, des flux, des URL, des serveurs FTP, Amazon S3, Azure Blob Storage, etc.
 
   Générez des pages HTML réactives, protégez les fichiers PDF de sortie et réorganisez leurs pages, faites pivoter les pages, restituez les notes et les commentaires si nécessaire.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "Plus de 180 formats de fichiers"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Package d’interface utilisateur pour ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "Plus de 180 formats de fichiers"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Package d'interface utilisateur pour Spring et Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "Plus de 180 formats de fichiers"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Package d'interface utilisateur - à venir"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Démo - à venir"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Afficher des documents et des images"
       content: "Affichez des documents en les restituant sous forme de fichiers HTML, PDF, PNG et JPEG."
+
     # feature loop
     - icon: "password"
       title: "Ouvrir des documents sécurisés"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Comment rendre des fichiers DOCX au format PDF"
       content: |
-        Rendu des documents DOCX au format PDF sans Microsoft Word ou autre logiciel installé. Chargez et affichez facilement des fichiers DOCX dans votre application .NET, qu'il s'agisse d'une application Web ou de bureau. Voici un exemple de comment rendre un fichier DOCX au format PDF : 
+       Rendu des documents DOCX au format PDF sans Microsoft Word ou autre logiciel installé. Chargez et affichez facilement des fichiers DOCX dans votre application .NET, qu'il s'agisse d'une application Web ou de bureau. Voici un exemple de comment rendre un fichier DOCX au format PDF :
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Plus de 180 formats de fichiers pris en charge"
-  description: "GroupDocs.Viewer prend en charge les opérations avec les [formats de fichiers](https://docs.groupdocs.com/viewer/net/supported-document-formats/) les plus populaires" 
-
+  description: "GroupDocs.Viewer prend en charge les opérations avec les [formats de fichiers](https://docs.groupdocs.com/viewer/net/supported-document-formats/) les plus populaires"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Formats pris en charge"
       content: "Visualisez facilement plus de 180 formats de fichiers, notamment des documents, des images et des dessins CAO, sans tracas. Brisez les barrières de compatibilité et accédez sans effort à divers fichiers grâce à notre solution de visualisation complète."
-
     # metrics loop
     - number: "1.0M"
       title: "Téléchargements NuGet"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Clients satisfaits"
       content: "Au service des marques les plus emblématiques du monde entier. Découvrez pourquoi des centaines de personnes aiment GroupDocs.Viewer ! Découvrez une navigation transparente, une collaboration pratique et une facilité d'utilisation inégalée. Adhérer maintenant!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Prêt à commencer?"
   description: "Essayez les fonctionnalités de GroupDocs.Viewer gratuitement ou demandez une licence"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Questions et préoccupations courantes"
-  description:  "Trouvez des réponses aux demandes courantes dans notre section FAQ pour répondre rapidement à vos questions et préoccupations."
+  title: "Questions et préoccupations courantes"
+  description: "Trouvez des réponses aux demandes courantes dans notre section FAQ pour répondre rapidement à vos questions et préoccupations."
+
   items:
     #  loop
     - question: "Puis-je évaluer les produits GroupDocs avant de les acheter ?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "GroupDocs fait-il des démonstrations de produits ?"
       answer: |
-        Non, nous nous concentrons sur nos API et sur la création des produits les plus fonctionnels et les plus stables possibles. Nous proposons des essais entièrement fonctionnels et gratuits sous la forme d'une [licence temporaire](https://purchase.groupdocs.com/temporary-license/) afin que vous puissiez tester le produit par vous-même.    
+        Non, nous nous concentrons sur nos API et sur la création des produits les plus fonctionnels et les plus stables possibles. Nous proposons des essais entièrement fonctionnels et gratuits sous la forme d'une [licence temporaire](https://purchase.groupdocs.com/temporary-license/) afin que vous puissiez tester le produit par vous-même.
     #  loop
     - question: "Où puis-je télécharger le produit ?"
       answer: |
-        Tous les produits peuvent être téléchargés à partir du [site Web](https://releases.groupdocs.com). Nous n'envoyons pas de copies physiques de nos logiciels par courrier.
+        Tous les produits peuvent être téléchargés à partir du [site Web](https://releases.groupdocs.com). Nous n'envoyons pas de copies physiques de nos logiciels par courrier.    
     #  loop
     - question: "Les licences de développeur GroupDocs sont-elles par utilisateur ou par utilisateur nommé ?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Avons-nous besoin de licences uniquement pour les développeurs actifs ? Par exemple, nous avons une équipe de deux développeurs travaillant sur l’équipe A et une deuxième équipe de deux développeurs travaillant sur l’équipe B… dans cette situation, avons-nous besoin de deux ou quatre licences ?"
       answer: |
-        Tous les développeurs qui travaillent sur le projet doivent détenir une licence. Dans cette situation, GroupDocs considère votre équipe comme composée de quatre membres (même s'ils travaillent à des horaires différents). 
-
+        Tous les développeurs qui travaillent sur le projet doivent détenir une licence. Dans cette situation, GroupDocs considère votre équipe comme composée de quatre membres (même s'ils travaillent à des horaires différents).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Améliorez les capacités d'affichage de documents dans les applications .NET avec le SDK Cloud pour .NET. Affichez des documents de manière transparente aux formats HTML, PDF ou image."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Intégrez des fonctionnalités avancées de rendu de documents dans vos applications Java à l'aide d'un SDK de visionneuse de documents spécialement conçu pour Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Ouvrez et visualisez des fichiers PDF en ligne avec la visionneuse PDF gratuite."
     
-
-
 
 ---

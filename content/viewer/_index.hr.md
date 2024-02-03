@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,15 +11,14 @@ product_tag: "viewer"
 head_title: "API za prikaz i pregled dokumenata | On Premise API i online usluga"
 head_description: "Renderirajte i pregledajte Word, PDF, Excel, Powerpoint ili slikovne datoteke jednostavno i besplatno"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Renderirajte i pregledavajte dokumente s lakoćom"
 description: |
   Snažan API preglednika za renderiranje različitih datoteka u PDF, HTML i slike.
 
-  Učitajte dokumente iz raznih izvora, uključujući datoteke, tokove, URL-ove, FTP poslužitelje, Amazon S3, Azure Blob Storage i više.
+  Učitajte dokumente iz različitih izvora, uključujući datoteke, tokove, URL-ove, FTP poslužitelje, Amazon S3, Azure Blob Storage i više.
 
   Generirajte responzivne HTML stranice, zaštitite izlazne PDF datoteke i promijenite redoslijed njihovih stranica, rotirajte stranice, renderirajte bilješke i komentare ako je potrebno.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180+ formata datoteka"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "UI paket za ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ formata datoteka"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "UI paket za Spring i Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180+ formata datoteka"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "UI paket - uskoro"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - uskoro"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Pregledajte dokumente i slike"
       content: "Pregledajte dokumente renderirajući ih kao HTML, PDF, PNG i JPEG datoteke."
+
     # feature loop
     - icon: "password"
       title: "Otvorite zaštićene dokumente"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Kako pretvoriti DOCX datoteke u PDF"
       content: |
-        Pretvorite DOCX dokumente u PDF bez instaliranja programa Microsoft Word ili drugog softvera. Jednostavno učitajte i pregledajte DOCX datoteke unutar svoje .NET aplikacije, bilo da se radi o web ili desktop aplikaciji. Evo primjera kako pretvoriti DOCX datoteku u PDF: 
+       Pretvorite DOCX dokumente u PDF bez instaliranja programa Microsoft Word ili drugog softvera. Jednostavno učitajte i pregledajte DOCX datoteke unutar svoje .NET aplikacije, bilo da se radi o web ili desktop aplikaciji. Evo primjera kako DOCX datoteku pretvoriti u PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Podržano je više od 180 formata datoteka"
-  description: "GroupDocs.Viewer podržava rad s najpopularnijim [formatima datoteka](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer podržava rad s najpopularnijim [formatima datoteka](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -194,14 +192,13 @@ formats:
 metrics:
   enable: true
   title: "Detaljna metrika i statistički uvidi"
-  description: "Uronite u detaljnu raščlambu naših ključnih brojki, pružajući sveobuhvatne metrike i statističke uvide u naša postignuća, utjecaj i rast."
+  description: "Zaronite u detaljnu analizu naših ključnih brojki, pružajući sveobuhvatne metrike i statističke uvide u naša postignuća, utjecaj i rast."
 
   items:
     # metrics loop
     - number: "180+"
       title: "Podržani formati"
       content: "Jednostavno pregledajte više od 180 formata datoteka uključujući dokumente, slike i CAD crteže bez ikakvih problema. Razbijte prepreke kompatibilnosti i pristupajte različitim datotekama bez napora s našim sveobuhvatnim rješenjem za gledanje."
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet preuzimanja"
@@ -215,8 +212,7 @@ metrics:
     # metrics loop
     - number: "100+"
       title: "Zadovoljni kupci"
-      content: "Poslužuje najpoznatije robne marke širom svijeta. Otkrijte zašto stotine vole GroupDocs.Viewer! Istražite besprijekornu navigaciju, praktičnu suradnju i neusporedivu jednostavnost korištenja. Pridružite se sada!"
-
+      content: "Opslužuje najpoznatije robne marke širom svijeta. Otkrijte zašto stotine vole GroupDocs.Viewer! Istražite besprijekornu navigaciju, praktičnu suradnju i neusporedivu jednostavnost korištenja. Pridružite se sada!"
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Jeste li spremni za početak?"
   description: "Isprobajte značajke GroupDocs.Viewer besplatno ili zatražite licencu"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Uobičajena pitanja i nedoumice"
-  description:  "Pronađite odgovore na uobičajena pitanja u našem odjeljku s često postavljanim pitanjima kako biste brzo odgovorili na svoja pitanja i nedoumice."
+  title: "Uobičajena pitanja i nedoumice"
+  description: "Pronađite odgovore na uobičajena pitanja u našem odjeljku s često postavljanim pitanjima kako biste brzo odgovorili na svoja pitanja i nedoumice."
+
   items:
     #  loop
     - question: "Mogu li procijeniti GroupDocs proizvode prije kupnje?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "Radi li GroupDocs demonstracije proizvoda?"
       answer: |
-        Ne, naš fokus je na našim API-jima i stvaranju najfunkcionalnijih i najstabilnijih mogućih proizvoda. Nudimo potpuno funkcionalne i besplatne probne verzije u obliku [privremene licence](https://purchase.groupdocs.com/temporary-license/) tako da možete sami isprobati proizvod.    
+        Ne, naš fokus je na našim API-jima i stvaranju najfunkcionalnijih i najstabilnijih mogućih proizvoda. Nudimo potpuno funkcionalne i besplatne probne verzije u obliku [privremene licence](https://purchase.groupdocs.com/temporary-license/) tako da možete sami isprobati proizvod.
     #  loop
     - question: "Gdje mogu preuzeti proizvod?"
       answer: |
-        Svi proizvodi dostupni su za preuzimanje s [web stranice](https://releases.groupdocs.com). Ne šaljemo fizičke kopije našeg softvera poštom.
+        Svi proizvodi dostupni su za preuzimanje s [web stranice](https://releases.groupdocs.com). Ne šaljemo fizičke kopije našeg softvera poštom.    
     #  loop
     - question: "Jesu li licence za razvojne programere GroupDocs po korisniku ili po imenovanom korisniku?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Trebamo li licenciranje samo za aktivne programere? Na primjer, imamo tim od dva programera koji rade u smjeni A i drugi tim od dva programera koji rade u smjeni B … u ovoj situaciji, trebaju li nam dvije ili četiri licence?"
       answer: |
-        Svi programeri koji rade na projektu moraju biti licencirani. U ovoj situaciji GroupDocs vidi vaš tim kao da ima četiri člana (iako rade u različito vrijeme). 
-
+        Svi programeri koji rade na projektu moraju biti licencirani. U ovoj situaciji GroupDocs vidi vaš tim kao da ima četiri člana (iako rade u različito vrijeme).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Poboljšajte mogućnosti gledanja dokumenata u .NET aplikacijama uz Cloud SDK za .NET. Neometano pregledavajte dokumente u HTML, PDF ili slikovnim formatima."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integrirajte napredne mogućnosti iscrtavanja dokumenata u svoje Java aplikacije koristeći namjenski izrađen SDK preglednika dokumenata za Javu."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Otvorite i pregledajte PDF datoteke na mreži s besplatnim PDF preglednikom."
     
-
-
 
 ---

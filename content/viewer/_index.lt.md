@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "Pateikti ir peržiūrėti dokumentus API | On Premise API ir internetinė paslauga"
 head_description: "Pateikite ir peržiūrėkite Word, PDF, Excel, Powerpoint ar vaizdo failus lengvai ir nemokamai"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Lengvai atvaizduokite ir peržiūrėkite dokumentus"
 description: |
   Galinga peržiūros API, skirta įvairiems failams pateikti PDF, HTML ir vaizdo formatais.
@@ -19,7 +19,6 @@ description: |
   Įkelkite dokumentus iš įvairių šaltinių, įskaitant failus, srautus, URL, FTP serverius, Amazon S3, Azure Blob Storage ir kt.
 
   Generuokite reaguojančius HTML puslapius, apsaugokite išvesties PDF failus ir pertvarkykite jų puslapius, pasukite puslapius, prireikus pateikite pastabas ir komentarus.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "180 ir daugiau failų formatų"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "UI paketas, skirtas ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180 ir daugiau failų formatų"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "UI paketas, skirtas „Spring“ ir „Dropwizard“."
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "180 ir daugiau failų formatų"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "UI paketas – netrukus"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo – netrukus"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Peržiūrėkite dokumentus ir vaizdus"
       content: "Peržiūrėkite dokumentus pateikdami juos kaip HTML, PDF, PNG ir JPEG failus."
+
     # feature loop
     - icon: "password"
       title: "Atidarykite saugius dokumentus"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Kaip paversti DOCX failus į PDF"
       content: |
-        Pateikite DOCX dokumentus į PDF neįdiegę „Microsoft Word“ ar kitos programinės įrangos. Lengvai įkelkite ir peržiūrėkite DOCX failus savo .NET programoje, nesvarbu, ar tai žiniatinklio, ar darbalaukio programa. Štai pavyzdys, kaip pateikti DOCX failą į PDF: 
+       Pateikite DOCX dokumentus į PDF neįdiegę „Microsoft Word“ ar kitos programinės įrangos. Lengvai įkelkite ir peržiūrėkite DOCX failus savo .NET programoje, nesvarbu, ar tai žiniatinklio, ar darbalaukio programa. Štai pavyzdys, kaip pateikti DOCX failą į PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Palaikoma daugiau nei 180 failų formatų"
-  description: "GroupDocs.Viewer palaiko operacijas su populiariausiais [failų formatais](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer palaiko operacijas su populiariausiais [failų formatais](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Palaikomi formatai"
       content: "Lengvai ir be vargo peržiūrėkite daugiau nei 180 failų formatų, įskaitant dokumentus, vaizdus ir CAD brėžinius. Sulaužykite suderinamumo kliūtis ir lengvai pasiekite įvairius failus naudodami mūsų visapusišką peržiūros sprendimą."
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet atsisiuntimai"
@@ -218,14 +215,13 @@ metrics:
       content: "Aptarnauja garsiausius prekės ženklus visame pasaulyje. Sužinokite, kodėl šimtai mėgsta GroupDocs.Viewer! Išbandykite sklandžią naršymą, patogų bendradarbiavimą ir neprilygstamą naudojimo paprastumą. Prisijunk dabar!"
 
 
-
 ############################# Customers ############################
 # logo size X1 => 170:70  X2 => 340 : 140
 
 customers:
   enable: true
   title: "Mūsų laimingi klientai"
-  description: "GroupDocs bibliotekose dirba visame pasaulyje žinomi ir išskirtiniai prekės ženklai visame pasaulyje."
+  description: "GroupDocs bibliotekose dirba visame pasaulyje žinomi ir išskirtiniai prekių ženklai visame pasaulyje."
 
   items:
     # customers loop
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Pasiruošę pradėti?"
   description: "Išbandykite GroupDocs.Viewer funkcijas nemokamai arba paprašykite licencijos"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Dažni klausimai ir rūpesčiai"
-  description:  "Raskite atsakymus į dažniausiai užduodamus klausimus mūsų DUK skiltyje, kad greitai išspręstumėte savo užklausas ir rūpesčius."
+  title: "Dažni klausimai ir rūpesčiai"
+  description: "Raskite atsakymus į dažniausiai užduodamus klausimus mūsų DUK skiltyje, kad greitai išspręstumėte savo užklausas ir problemas."
+
   items:
     #  loop
     - question: "Ar galiu įvertinti GroupDocs produktus prieš pirkdamas?"
@@ -296,20 +294,19 @@ faq:
     #  loop
     - question: "Ar GroupDocs demonstruoja produktus?"
       answer: |
-        Ne, daugiausia dėmesio skiriame API ir funkcionaliausių bei stabiliausių produktų kūrimui. Siūlome visiškai veikiančias ir nemokamas bandomąsias versijas [laikinosios licencijos](https://purchase.groupdocs.com/temporary-license/) forma, kad galėtumėte patys išbandyti produktą.    
+        Ne, daugiausia dėmesio skiriame API ir funkcionaliausių bei stabiliausių produktų kūrimui. Siūlome visiškai veikiančias ir nemokamas bandomąsias versijas [laikinosios licencijos](https://purchase.groupdocs.com/temporary-license/) forma, kad galėtumėte patys išbandyti produktą.
     #  loop
     - question: "Kur galiu atsisiųsti produktą?"
       answer: |
-        Visus produktus galima atsisiųsti iš [svetainės](https://releases.groupdocs.com). Mes nesiunčiame fizinių programinės įrangos kopijų paštu.
+        Visus produktus galima atsisiųsti iš [svetainės](https://releases.groupdocs.com). Mes nesiunčiame fizinių programinės įrangos kopijų paštu.    
     #  loop
     - question: "Ar „GroupDocs“ kūrėjo licencijos suteikiamos vienam vartotojui, ar nurodytam naudotojui?"
       answer: |
         GroupDocs kūrėjo licencijos yra vienam vartotojui, o ne nurodytam vartotojui. Suprantame, kad kodavimo komandos nariai laikui bėgant gali keistis ir kad nepraktiška kiekvieną kartą atnaujinti licenciją.
     #  loop
-    - question: "Ar mums reikia licencijų tik aktyviems kūrėjams? Pavyzdžiui, turime dviejų kūrėjų komandą, dirbančią A pamainoje, ir antrą dviejų kūrėjų komandą, dirbančią B pamainoje... ar šioje situacijoje mums reikia dviejų ar keturių licencijų?"
+    - question: "Ar mums reikia licencijų tik aktyviems kūrėjams? Pavyzdžiui, mes turime dviejų kūrėjų komandą, dirbančią A pamainoje, ir antrą dviejų kūrėjų komandą, dirbančią B pamainoje... ar šioje situacijoje mums reikia dviejų ar keturių licencijų?"
       answer: |
-        Visi kūrėjai, kurie dirba su projektu, turi turėti licenciją. Esant tokiai situacijai, GroupDocs mano, kad jūsų komandą sudaro keturi nariai (net jei jie dirba skirtingu laiku). 
-
+        Visi kūrėjai, kurie dirba su projektu, turi turėti licenciją. Esant tokiai situacijai, GroupDocs mano, kad jūsų komandą sudaro keturi nariai (net jei jie dirba skirtingu laiku).
 
 ############################# Cloud ############################
 
@@ -323,20 +320,18 @@ cloud_links:
     - icon: "groupdocs_viewer-for-curl"
       title: "GroupDocs.Viewer Cloud for cURL"
       link: "https://products.groupdocs.cloud/viewer/curl"
-      content: "Naudokite cURL RESTful dokumentų peržiūros programos API, kad savo programose efektyviai atkurtumėte ir demonstruotumėte Microsoft Office, PDF ir įvairius kitus standartinius failų formatus."
+      content: "Naudokite cURL RESTful dokumentų peržiūros programos API, kad savo programose efektyviai pateiktumėte ir demonstruotumėte Microsoft Office, PDF ir įvairius kitus standartinius failų formatus."
 
     #  loop
     - icon: "groupdocs_viewer-for-net"
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Pagerinkite dokumentų peržiūros galimybes .NET programose naudodami debesies SDK, skirtą .NET. Sklandžiai peržiūrėkite dokumentus HTML, PDF arba vaizdo formatais."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integruokite pažangias dokumentų atvaizdavimo galimybes į savo „Java“ programas naudodami specialiai sukurtą „Java“ skirtą Document Viewer SDK."
-    
 
 ############################# Apps ############################
 
@@ -356,7 +351,7 @@ app_links:
     - icon: "groupdocs_words-app"
       title:  "GroupDocs.Viewer DOCX"
       link: "https://products.groupdocs.app/viewer/docx"
-      content: "Žiniatinklio įrankis, leidžiantis lengvai peržiūrėti „Microsoft Word“ failus įvairiuose įrenginiuose."
+      content: "Internetinis įrankis, leidžiantis lengvai peržiūrėti „Microsoft Word“ failus įvairiuose įrenginiuose."
 
     #  loop
     - icon: "groupdocs_pdf-app"
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Atidarykite ir peržiūrėkite PDF failus internete naudodami nemokamą PDF peržiūros programą."
     
-
-
 
 ---

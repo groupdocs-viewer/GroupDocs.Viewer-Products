@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -11,7 +11,7 @@ product_tag: "viewer"
 head_title: "Render and View Documents API | On Premise API and online service"
 head_description: "Render & view Word, PDF, Excel, Powerpoint or Image files easily and free"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Render and view documents with ease"
 description: |
   Powerful Viewer API to Render different files to PDF, HTML, and Image.
@@ -19,7 +19,6 @@ description: |
   Load documents from various sources, including files, streams, URLs, FTP servers, Amazon S3, Azure Blob Storage, and more.
 
   Generate responsive HTML pages, protect the output PDF files and reorder their pages, rotate pages, render notes and comments if needed.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -68,7 +67,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "180+ file formats"
           rows: "1"
         # features loop
         - content:  "UI package for Spring and Dropwizard"
@@ -95,12 +94,11 @@ supported_platforms:
         - content:  "180+ file formats"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "UI package - coming soon"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - coming soon"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "View documents and images"
       content: "View documents by rendering them as HTML, PDF, PNG, and JPEG files."
+
     # feature loop
     - icon: "password"
       title: "Open secured documents"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "How to render DOCX files to PDF"
       content: |
-        Render DOCX documents to PDF without Microsoft Word or other software installed. Easily load and view DOCX files within your .NET application, whether it is a web or desktop application. Here is an example of how to render a DOCX file to PDF: 
+        Render DOCX documents to PDF without Microsoft Word or other software installed. Easily load and view DOCX files within your .NET application, whether it is a web or desktop application. Here is an example of how to render a DOCX file to PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "180+ file formats supported"
-  description: "GroupDocs.Viewer supports operations with the most popular [file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer supports operations with the most popular [file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Supported formats"
       content: "Easily view over 180 file formats including documents, images, and CAD drawings hassle-free. Break compatibility barriers and access diverse files effortlessly with our comprehensive viewing solution."
-
     # metrics loop
     - number: "1.0M"
       title: "NuGet downloads"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Happy customers"
       content: "Serving the most iconic brands around the globe. Discover why hundreds love GroupDocs.Viewer! Explore seamless navigation, convenient collaboration, and unparalleled ease of use. Join now!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Ready to get started?"
   description: "Try GroupDocs.Viewer features for free or request a license"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Common questions and concerns"
-  description:  "Find answers to common inquiries in our FAQ section to quickly address your queries and concerns."
+  title: "Common questions and concerns"
+  description: "Find answers to common inquiries in our FAQ section to quickly address your queries and concerns."
+
   items:
     #  loop
     - question: "Can I evaluate GroupDocs products prior to purchasing?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "Does GroupDocs do product demonstrations?"
       answer: |
-        No, our focus is on our APIs and making the most functional and stable products possible. We do offer fully functional and free trials in the form of a [temporary license](https://purchase.groupdocs.com/temporary-license/) so you can test out the product for yourself.    
+        No, our focus is on our APIs and making the most functional and stable products possible. We do offer fully functional and free trials in the form of a [temporary license](https://purchase.groupdocs.com/temporary-license/) so you can test out the product for yourself.
     #  loop
     - question: "Where can I download the product?"
       answer: |
-        All products are available to download from the [website](https://releases.groupdocs.com). We do not send physical copies of our software by mail.
+        All products are available to download from the [website](https://releases.groupdocs.com). We do not send physical copies of our software by mail.    
     #  loop
     - question: "Are GroupDocs developer licenses per user, or per named user?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Do we need licensing for only active developers? For example, we have a team of two developers working on shift A and a second team of two developers working on shift B … in this situation, do we need two or four licenses?"
       answer: |
-        All developers who are working on the project need to be licensed. In this situation, GroupDocs sees your team as having four members (even though they work at different times). 
-
+        All developers who are working on the project need to be licensed. In this situation, GroupDocs sees your team as having four members (even though they work at different times).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Enhance document viewing capabilities in .NET applications with Cloud SDK for .NET. View documents seamlessly in HTML, PDF, or image formats."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integrate advanced document rendering capabilities into your Java applications using a purpose-built Document Viewer SDK for Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Open and view PDF files online with free PDF viewer."
     
-
-
 
 ---

@@ -1,5 +1,5 @@
 ---
-############################# Static ############################
+############################# Static ##########################
 layout: "family"
 date: 2023-12-20T06:39:57
 draft: false
@@ -9,9 +9,9 @@ product_tag: "viewer"
 
 ############################# Head ############################
 head_title: "API de randare și vizualizare a documentelor | On Premise API și serviciu online"
-head_description: "Redați și vizualizați fișiere Word, PDF, Excel, Powerpoint sau Image ușor și gratuit"
+head_description: "Redați și vizualizați fișierele Word, PDF, Excel, Powerpoint sau Image ușor și gratuit"
 
-############################# Header ############################
+############################# Header ##########################
 title: "Redați și vizualizați documentele cu ușurință"
 description: |
   API puternic Viewer pentru a randa diferite fișiere în PDF, HTML și imagine.
@@ -19,7 +19,6 @@ description: |
   Încărcați documente din diverse surse, inclusiv fișiere, fluxuri, adrese URL, servere FTP, Amazon S3, Azure Blob Storage și multe altele.
 
   Generați pagini HTML receptive, protejați fișierele PDF de ieșire și reordonați paginile acestora, rotiți paginile, redați note și comentarii dacă este necesar.
-  
 
 ############################# Platforms ############################
 supported_platforms:
@@ -44,10 +43,10 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "180+ file formats"
+        - content: "Peste 180 de formate de fișiere"
           rows: "1"
         # features loop
-        - content: "UI package for ASP.NET Core"
+        - content: "Pachet UI pentru ASP.NET Core"
           rows: "1"
         # features loop
         - content: "ASP.NET WebForms Demo  <br>  ASP.NET MVC Demo  <br>  ASP.NET Core Demo"
@@ -68,10 +67,10 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content:  "180+ file formats"
+        - content: "Peste 180 de formate de fișiere"
           rows: "1"
         # features loop
-        - content:  "UI package for Spring and Dropwizard"
+        - content:  "Pachet UI pentru Spring și Dropwizard"
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -92,15 +91,14 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "180+ file formats"
+        - content:  "Peste 180 de formate de fișiere"
           rows: "1"
         # features loop
-        - content:  "UI package - coming soon "
+        - content:  "Pachet UI - în curând"
           rows: "1" 
         # features loop
-        - content:  "Demo - coming soon "
+        - content:  "Demo - în curând"
           rows: "3" 
-
 
 
 ############################# Features ############################
@@ -115,6 +113,7 @@ features:
     - icon: "view"
       title: "Vizualizați documente și imagini"
       content: "Vizualizați documentele redându-le ca fișiere HTML, PDF, PNG și JPEG."
+
     # feature loop
     - icon: "password"
       title: "Deschideți documente securizate"
@@ -140,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Cum să redați fișierele DOCX în PDF"
       content: |
-        Redați documentele DOCX în PDF fără Microsoft Word sau alt software instalat. Încărcați și vizualizați cu ușurință fișierele DOCX în aplicația dvs. .NET, indiferent dacă este o aplicație web sau desktop. Iată un exemplu despre cum să randați un fișier DOCX în PDF: 
+       Redați documentele DOCX în PDF fără Microsoft Word sau alt software instalat. Încărcați și vizualizați cu ușurință fișierele DOCX în aplicația dvs. .NET, indiferent dacă este o aplicație web sau desktop. Iată un exemplu despre cum să randați un fișier DOCX în PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -185,8 +184,7 @@ code_samples:
 formats:
   enable: true
   title:  "Peste 180 de formate de fișiere acceptate"
-  description: "GroupDocs.Viewer acceptă operațiuni cu cele mai populare [formate de fișiere](https://docs.groupdocs.com/viewer/net/supported-document-formats/)" 
-
+  description: "GroupDocs.Viewer acceptă operațiuni cu cele mai populare [formate de fișiere](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
 
 
 ############################# Metrics ############################
@@ -201,7 +199,6 @@ metrics:
     - number: "180+"
       title: "Formate acceptate"
       content: "Vizualizați cu ușurință peste 180 de formate de fișiere, inclusiv documente, imagini și desene CAD, fără probleme. Depășiți barierele de compatibilitate și accesați diverse fișiere fără efort cu soluția noastră completă de vizualizare."
-
     # metrics loop
     - number: "1.0M"
       title: "Descărcări NuGet"
@@ -216,7 +213,6 @@ metrics:
     - number: "100+"
       title: "Clienți fericiți"
       content: "Servind cele mai emblematice mărci de pe tot globul. Descoperiți de ce sute iubesc GroupDocs.Viewer! Explorați navigarea perfectă, colaborarea convenabilă și ușurința de utilizare de neegalat. Alătură-te acum!"
-
 
 
 ############################# Customers ############################
@@ -267,6 +263,7 @@ actions:
   enable: true
   title: "Sunteți gata să începeți?"
   description: "Încercați gratuit funcțiile GroupDocs.Viewer sau solicitați o licență"
+
   items:
     #  loop
     - title: ".NET"
@@ -286,8 +283,9 @@ actions:
 
 faq:
   enable: true
-  title:  "Întrebări și preocupări comune"
-  description:  "Găsiți răspunsuri la întrebările frecvente în secțiunea noastră de întrebări frecvente pentru a vă adresa rapid întrebărilor și preocupărilor."
+  title: "Întrebări și preocupări comune"
+  description: "Găsiți răspunsuri la întrebările frecvente în secțiunea noastră de întrebări frecvente pentru a vă adresa rapid întrebărilor și preocupărilor."
+
   items:
     #  loop
     - question: "Pot evalua produsele GroupDocs înainte de a cumpăra?"
@@ -296,11 +294,11 @@ faq:
     #  loop
     - question: "GroupDocs face demonstrații de produse?"
       answer: |
-        Nu, ne concentrăm pe API-urile noastre și pe realizarea celor mai funcționale și mai stabile produse posibile. Oferim încercări complet funcționale și gratuite sub forma unei [licențe temporare](https://purchase.groupdocs.com/temporary-license/), astfel încât să puteți testa singur produsul.    
+        Nu, ne concentrăm pe API-urile noastre și pe realizarea celor mai funcționale și mai stabile produse posibile. Oferim încercări complet funcționale și gratuite sub forma unei [licențe temporare](https://purchase.groupdocs.com/temporary-license/), astfel încât să puteți testa singur produsul.
     #  loop
     - question: "De unde pot descărca produsul?"
       answer: |
-        Toate produsele sunt disponibile pentru descărcare de pe [site-ul web](https://releases.groupdocs.com). Nu trimitem copii fizice ale software-ului nostru prin poștă.
+        Toate produsele sunt disponibile pentru descărcare de pe [site-ul web](https://releases.groupdocs.com). Nu trimitem copii fizice ale software-ului nostru prin poștă.    
     #  loop
     - question: "Sunt licențele de dezvoltator GroupDocs per utilizator sau pentru fiecare utilizator numit?"
       answer: |
@@ -308,8 +306,7 @@ faq:
     #  loop
     - question: "Avem nevoie de licență doar pentru dezvoltatorii activi? De exemplu, avem o echipă de doi dezvoltatori care lucrează pe tura A și o a doua echipă de doi dezvoltatori care lucrează pe tura B... în această situație, avem nevoie de două sau patru licențe?"
       answer: |
-        Toți dezvoltatorii care lucrează la proiect trebuie să fie licențiați. În această situație, GroupDocs vede echipa ta ca având patru membri (chiar dacă lucrează în momente diferite). 
-
+        Toți dezvoltatorii care lucrează la proiect trebuie să fie licențiați. În această situație, GroupDocs vede echipa ta ca având patru membri (chiar dacă lucrează în momente diferite).
 
 ############################# Cloud ############################
 
@@ -330,13 +327,11 @@ cloud_links:
       title: "GroupDocs.Viewer Cloud for .NET"
       link: "https://products.groupdocs.cloud/viewer/net"
       content: "Îmbunătățiți capabilitățile de vizualizare a documentelor în aplicațiile .NET cu Cloud SDK pentru .NET. Vizualizați documentele fără probleme în formate HTML, PDF sau imagine."
-
     #  loop
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
       content: "Integrați capabilități avansate de redare a documentelor în aplicațiile dvs. Java utilizând un SDK pentru vizualizarea documentelor creat special pentru Java."
-    
 
 ############################# Apps ############################
 
@@ -364,7 +359,5 @@ app_links:
       link: "https://products.groupdocs.app/viewer/pdf"
       content: "Deschideți și vizualizați fișiere PDF online cu vizualizatorul PDF gratuit."
     
-
-
 
 ---
