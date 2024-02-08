@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Buat Instansiasi Penampil 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Tetapkan opsi HTML keluaran, satu file per halaman  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Render PDF ke HTML dengan sumber daya tertanam
         viewer.view(viewOptions);
     }
     ```
@@ -139,7 +139,7 @@ formats:
   enable: true
   title: "Format file yang didukung"
   description: |
-    GroupDocs.Viewer untuk Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+    GroupDocs.Viewer untuk Java mendukung operasi dengan [format file](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "Render DOCX ke HTML"
       content: |
-        Properti kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.
+        Properti kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https://docs.groupdocs.com/viewer/java/rendering-to-html/). Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // Buat Instansiasi Penampil
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Tetapkan opsi HTML keluaran
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Render DOCX ke HTML dengan sumber daya tertanam
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "Ekspor PPTX ke PDF"
       content: |
-        Buat instance kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) dan teruskan ke [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metode untuk mengonversi file PowerPoint PPTX ke PDF. Properti kelas PdfViewOptions memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) untuk detailnya.
+        Buat instance kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) dan teruskan ke [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metode untuk mengonversi file PowerPoint PPTX ke PDF. Properti kelas PdfViewOptions memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) untuk detailnya.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // Buat Instansiasi Penampil
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Atur opsi keluaran PDF
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // Ekspor PPTX ke PDF
             viewer.view(viewOptions);
         }
         ```

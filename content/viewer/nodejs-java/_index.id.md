@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Tetapkan opsi HTML keluaran, satu file per halaman
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Buat Instansiasi Penampil
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Render PDF ke HTML dengan sumber daya tertanam
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Format file yang didukung"
   description: |
-    GroupDocs.Viewer untuk Node.js melalui Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer untuk Node.js melalui Java mendukung operasi dengan [format file](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Tetapkan opsi HTML keluaran, satu file per halaman
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Buat Instansiasi Penampil
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Render DOCX ke HTML dengan sumber daya tertanam
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Atur opsi keluaran PDF
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Buat Instansiasi Penampil
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Ekspor PPTX ke PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

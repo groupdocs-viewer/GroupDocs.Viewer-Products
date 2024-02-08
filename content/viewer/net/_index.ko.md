@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // 소스 PDF 파일 로드
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // 출력 HTML 옵션 설정(페이지당 파일 1개)
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // 포함된 리소스를 사용하여 PDF를 HTML로 렌더링        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "DOCX를 HTML로 렌더링"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 자세한 내용은 [여기](https://docs) .groupdocs.com/viewer/net/rendering-to-html/). 예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 자세한 내용은 [여기](https://docs.groupdocs.com/viewer/net/rendering-to-html/). 예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // 뷰어 인스턴스화
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // 출력 HTML 옵션 설정
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // 포함된 리소스를 사용하여 DOCX를 HTML로 렌더링
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "PPTX를 PDF로 내보내기"
       content: |
-        [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 클래스 인스턴스를 만들고 이를 [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) 방법을 사용하여 PowerPoint PPTX 파일을 PDF로 변환합니다. PdfViewOptions 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)을 참조하세요.
+        [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 클래스 인스턴스를 만들고 이를 [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) 방법을 사용하여 PowerPoint PPTX 파일을 PDF로 변환합니다. PdfViewOptions 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)을 참조하세요.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // 출력 PDF 옵션 설정       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // PPTX를 PDF로 내보내기       
             viewer.View(viewOptions);
         }
         ```

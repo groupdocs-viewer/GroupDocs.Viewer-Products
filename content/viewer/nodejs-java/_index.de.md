@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Legen Sie Ausgabe-HTML-Optionen fest
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Betrachter instanziieren
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Rendern Sie PDF in HTML
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "Rendern Sie DOCX in HTML"
       content: |
-        Mit den Eigenschaften der Klasse „HtmlViewOptions“ können Sie den Konvertierungsprozess steuern, mehr dazu [hier](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). Sie können beispielsweise alle externen Ressourcen in die Ausgabe-HTML-Datei einbetten, die Ausgabedatei verkleinern und für den Druck optimieren.
+        Mit den Eigenschaften der Klasse HtmlViewOptions können Sie den Konvertierungsprozess steuern, mehr dazu [hier](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). Sie können beispielsweise alle externen Ressourcen in die Ausgabe-HTML-Datei einbetten, die Ausgabedatei verkleinern und für den Druck optimieren.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Legen Sie Ausgabe-HTML-Optionen fest
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Betrachter instanziieren
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Rendern Sie DOCX mit eingebetteten Ressourcen in HTML
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "Exportieren Sie PPTX in PDF"
       content: |
-        Erstellen Sie eine „PdfViewOptions“-Klasseninstanz und übergeben Sie sie an die „Viewer.view“-Methode, um eine PowerPoint PPTX-Datei in PDF zu konvertieren. Mit den Eigenschaften der Klasse „PdfViewOptions“ können Sie den Konvertierungsprozess steuern. Sie können beispielsweise die ausgegebene PDF-Datei schützen, ihre Seiten neu anordnen und die Qualität der Dokumentbilder festlegen. Einzelheiten finden Sie im [folgenden Dokumentationsabschnitt](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/).
+        Erstellen Sie eine PdfViewOptions-Klasseninstanz und übergeben Sie sie an die Viewer.view-Methode, um eine PowerPoint PPTX-Datei in PDF zu konvertieren. Mit den Eigenschaften der Klasse PdfViewOptions können Sie den Konvertierungsprozess steuern. Sie können beispielsweise die ausgegebene PDF-Datei schützen, ihre Seiten neu anordnen und die Qualität der Dokumentbilder festlegen. Einzelheiten finden Sie im [folgenden Dokumentationsabschnitt](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/).
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Legen Sie die PDF-Ausgabeoptionen fest
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Betrachter instanziieren
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Exportieren Sie PPTX in PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

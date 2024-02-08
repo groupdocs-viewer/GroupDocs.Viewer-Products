@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // 출력 HTML 옵션 설정(페이지당 파일 1개)
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // 인스턴스화 뷰어
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // 포함된 리소스를 사용하여 PDF를 HTML로 렌더링
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // 출력 HTML 옵션 설정(페이지당 파일 1개)
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // 인스턴스화 뷰어
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // 포함된 리소스를 사용하여 DOCX를 HTML로 렌더링
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // 출력 PDF 옵션 설정
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // 인스턴스화 뷰어
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // PPTX를 PDF로 내보내기
         viewer.view(viewOptions)
         viewer.close()
         ```

@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Ladda käll-PDF-filen
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Ställ in HTML-utdataalternativ, en fil per sida
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Återge PDF till HTML med inbäddade resurser        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Rendera DOCX till HTML"
       content: |
-        Klassegenskaperna [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) låter dig kontrollera konverteringsprocessen, mer om det [här](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Du kan till exempel bädda in alla externa resurser i HTML-utdatafilen, förminska utdatafilen och optimera den för utskrift.
+        Klassegenskaperna [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) låter dig kontrollera konverteringsprocessen, mer om det [här](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Du kan till exempel bädda in alla externa resurser i HTML-utdatafilen, förminska utdatafilen och optimera den för utskrift.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Instantiera tittaren
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Ställ in HTML-utdataalternativ
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Rendera DOCX till HTML med inbäddade resurser
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Exportera PPTX till PDF"
       content: |
-        Skapa en klassinstans [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) och skicka den till [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) för att konvertera en PowerPoint PPTX-fil till PDF. Klassegenskaperna för PdfViewOptions låter dig kontrollera konverteringsprocessen. Du kan till exempel skydda den utgående PDF-filen, ordna om dess sidor och ange kvaliteten på dokumentbilder. Se [följande dokumentationsavsnitt](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) för mer information.
+        Skapa en klassinstans [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) och skicka den till [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) för att konvertera en PowerPoint PPTX-fil till PDF. Klassegenskaperna för PdfViewOptions låter dig kontrollera konverteringsprocessen. Du kan till exempel skydda den utgående PDF-filen, ordna om dess sidor och ange kvaliteten på dokumentbilder. Se [följande dokumentationsavsnitt](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) för mer information.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Ställ in alternativ för utdata PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Exportera PPTX till PDF       
             viewer.View(viewOptions);
         }
         ```

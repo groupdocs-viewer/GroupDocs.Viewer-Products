@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instanciați vizualizatorul 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Setați opțiunile HTML de ieșire, un fișier pe pagină  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Redați PDF în HTML cu resurse încorporate
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "Redați DOCX în HTML"
       content: |
-        Proprietățile clasei [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) vă permit să controlați procesul de conversie, mai multe despre aceasta [aici](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). De exemplu, puteți încorpora toate resursele externe în fișierul HTML de ieșire, puteți reduce fișierul de ieșire și îl puteți optimiza pentru imprimare.
+        Proprietățile clasei [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) vă permit să controlați procesul de conversie, mai multe despre aceasta [aici](https://docs.groupdocs.com/viewer/java/rendering-to-html/). De exemplu, puteți încorpora toate resursele externe în fișierul HTML de ieșire, puteți reduce fișierul de ieșire și îl puteți optimiza pentru imprimare.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // Instanciați vizualizatorul
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Setați opțiunile HTML de ieșire
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Redați DOCX în HTML cu resurse încorporate
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "Exportați PPTX în PDF"
       content: |
-        Creați o instanță de clasă [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) și transmiteți-o la [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) pentru a converti un fișier PowerPoint PPTX în PDF. Proprietățile clasei PdfViewOptions vă permit să controlați procesul de conversie. De exemplu, puteți proteja fișierul PDF de ieșire, puteți reordona paginile acestuia și puteți specifica calitatea imaginilor documentului. Consultați [următoarea secțiune de documentație](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) pentru detalii.
+        Creați o instanță de clasă [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) și transmiteți-o la [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) pentru a converti un fișier PowerPoint PPTX în PDF. Proprietățile clasei PdfViewOptions vă permit să controlați procesul de conversie. De exemplu, puteți proteja fișierul PDF de ieșire, puteți reordona paginile acestuia și puteți specifica calitatea imaginilor documentului. Consultați [următoarea secțiune de documentație](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) pentru detalii.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // Instanciați vizualizatorul
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Setați opțiunile PDF de ieșire
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // Exportați PPTX în PDF
             viewer.view(viewOptions);
         }
         ```

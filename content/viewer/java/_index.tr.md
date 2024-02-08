@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Örnek Görüntüleyici 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // HTML çıktı seçeneklerini ayarlama  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Gömülü kaynaklarla PDF'yi HTML'ye dönüştürün
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "DOCX'i HTML'ye dönüştür"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) sınıfı özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır; bununla ilgili daha fazla bilgiyi [burada](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Örneğin, tüm harici kaynakları çıktı HTML dosyasına gömebilir, çıktı dosyasını küçültebilir ve yazdırma için optimize edebilirsiniz.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) sınıfı özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır; bununla ilgili daha fazla bilgiyi [burada](https://docs.groupdocs.com/viewer/java/rendering-to-html/). Örneğin, tüm harici kaynakları çıktı HTML dosyasına gömebilir, çıktı dosyasını küçültebilir ve yazdırma için optimize edebilirsiniz.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // Örnek Görüntüleyici
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Çıktı HTML seçeneklerini ayarlama
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Gömülü kaynaklarla DOCX'i HTML'ye dönüştürün
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "PPTX'i PDF'ye aktar"
       content: |
-        Bir [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) sınıf örneği oluşturun ve bunu [Viewer.View](https://reference.php) öğesine aktarın. groupdocs.com/viewer/Java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) PowerPoint PPTX dosyasını PDF'ye dönüştürmek için yöntem. PdfViewOptions sınıfının özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır. Örneğin, çıktı PDF dosyasını koruyabilir, sayfalarını yeniden sıralayabilir ve belge görüntülerinin kalitesini belirleyebilirsiniz. Ayrıntılar için [aşağıdaki belgeler bölümüne](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) bakın.
+        Bir [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) sınıf örneği oluşturun ve bunu [Viewer.View](https://reference.php) öğesine aktarın. PowerPoint PPTX dosyasını PDF'ye dönüştürmek için yöntem. PdfViewOptions sınıfının özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır. Örneğin, çıktı PDF dosyasını koruyabilir, sayfalarını yeniden sıralayabilir ve belge görüntülerinin kalitesini belirleyebilirsiniz. Ayrıntılar için [aşağıdaki belgeler bölümüne](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) bakın.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // Örnek Görüntüleyici
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Çıktı PDF seçeneklerini ayarlama
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // PPTX'i PDF'ye aktar
             viewer.view(viewOptions);
         }
         ```

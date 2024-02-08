@@ -26,11 +26,11 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: "Node.js dokumentų peržiūros API, skirta PDF Word Excel HTML vaizdams ir el. laiškams"
-head_description: "Node.js dokumentų peržiūros programa ir failų atvaizdavimo API. „JavaScript“ programose pridėkite PDF peržiūros programą, „Word“ peržiūros priemonę, „Excel“ peržiūros priemonę, vaizdų peržiūros priemonę, HTML peržiūros priemonę, el."
+head_description: "Node.js dokumentų peržiūros programa ir failų atvaizdavimo API. JavaScript programose pridėkite PDF peržiūros programą, Word peržiūros priemonę, Excel peržiūros priemonę, vaizdų peržiūros priemonę, HTML peržiūros priemonę, el."
 
 ############################# Header ############################
 title: "Node.js API, skirta pateikti ir rodyti dokumentus"
-description: "Dokumentų peržiūros biblioteka, skirta kurti „JavaScript“ programas, kurios natūraliai atvaizduoja, peržiūri ir valdo kelių formatų dokumentus, palaikančius 180 ir daugiau failų formatų."
+description: "Dokumentų peržiūros biblioteka, skirta kurti JavaScript programas, kurios natūraliai atvaizduoja, peržiūri ir valdo kelių formatų dokumentus, palaikančius 180 ir daugiau failų formatų."
 words:
   for: "for"
 
@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Nustatykite išvesties HTML parinktis
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
+    
     // Instantiate Viewer
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Pateikite PDF į HTML su įterptais ištekliais
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Palaikomi failų formatai"
   description: |
-    „GroupDocs.Viewer“, skirta Node.js per „Java“, palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer, skirta Node.js per Java, palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -166,7 +166,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Viewer funkcijos"
-  description: "Sklandžiai atvaizduokite, rodykite ir konvertuokite PDF ir „Office“ dokumentus"
+  description: "Sklandžiai atvaizduokite, rodykite ir konvertuokite PDF ir Office dokumentus"
 
   items:
     # feature loop
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "Pateikite DOCX į HTML"
       content: |
-        „HtmlViewOptions“ klasės ypatybės leidžia valdyti konversijos procesą, daugiau apie tai [čia](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). Pavyzdžiui, galite įterpti visus išorinius išteklius į išvesties HTML failą, sumažinti išvesties failą ir optimizuoti jį spausdinimui.
+        HtmlViewOptions klasės ypatybės leidžia valdyti konversijos procesą, daugiau apie tai [čia](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). Pavyzdžiui, galite įterpti visus išorinius išteklius į išvesties HTML failą, sumažinti išvesties failą ir optimizuoti jį spausdinimui.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Nustatykite išvesties HTML parinktis
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
         // Instantiate Viewer
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Pateikite DOCX į HTML su įterptais ištekliais
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "Eksportuokite PPTX į PDF"
       content: |
-        Sukurkite „PdfViewOptions“ klasės egzempliorių ir perduokite jį „Viewer.view“ metodui, kad konvertuotumėte PowerPoint PPTX failą į PDF. „PdfViewOptions“ klasės ypatybės leidžia valdyti konversijos procesą. Pavyzdžiui, galite apsaugoti išvesties PDF failą, pertvarkyti jo puslapius ir nurodyti dokumento vaizdų kokybę. Norėdami gauti daugiau informacijos, žr. [toliau pateiktą dokumentų skyrių](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/).
+        Sukurkite PdfViewOptions klasės egzempliorių ir perduokite jį Viewer.view metodui, kad konvertuotumėte PowerPoint PPTX failą į PDF. PdfViewOptions klasės ypatybės leidžia valdyti konversijos procesą. Pavyzdžiui, galite apsaugoti išvesties PDF failą, pertvarkyti jo puslapius ir nurodyti dokumento vaizdų kokybę. Norėdami gauti daugiau informacijos, žr. [toliau pateiktą dokumentų skyrių](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/).
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Nustatykite išvesties PDF parinktis
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
         // Instantiate Viewer
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Eksportuokite PPTX į PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

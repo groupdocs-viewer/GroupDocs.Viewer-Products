@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // โหลดไฟล์ PDF ต้นฉบับ
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // ตั้งค่าตัวเลือก HTML เอาต์พุต หนึ่งไฟล์ต่อหน้า
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // เรนเดอร์ PDF เป็น HTML ด้วยทรัพยากรที่ฝังอยู่        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "เรนเดอร์ DOCX เป็น HTML"
       content: |
-        คุณสมบัติคลาส [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) ช่วยให้คุณควบคุมกระบวนการแปลงได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับ [ที่นี่](https://docs) .groupdocs.com/viewer/net/rendering-to-html/) ตัวอย่างเช่น คุณสามารถฝังทรัพยากรภายนอกทั้งหมดในไฟล์ HTML เอาต์พุต ย่อขนาดไฟล์เอาต์พุต และปรับให้เหมาะสมสำหรับการพิมพ์
+        คุณสมบัติคลาส [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) ช่วยให้คุณควบคุมกระบวนการแปลงได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับ [ที่นี่](https://docs.groupdocs.com/viewer/net/rendering-to-html/) ตัวอย่างเช่น คุณสามารถฝังทรัพยากรภายนอกทั้งหมดในไฟล์ HTML เอาต์พุต ย่อขนาดไฟล์เอาต์พุต และปรับให้เหมาะสมสำหรับการพิมพ์
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // สร้างอินสแตนซ์ของผู้ดู
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // ตั้งค่าตัวเลือก HTML เอาท์พุต
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // เรนเดอร์ DOCX เป็น HTML ด้วยทรัพยากรที่ฝังอยู่
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "ส่งออก PPTX เป็น PDF"
       content: |
-        สร้างอินสแตนซ์คลาส [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) แล้วส่งต่อไปยังอินสแตนซ์คลาส [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) เพื่อแปลงไฟล์ PowerPoint PPTX เป็น PDF คุณสมบัติคลาส PdfViewOptions ช่วยให้คุณสามารถควบคุมกระบวนการแปลงได้ ตัวอย่างเช่น คุณสามารถป้องกันไฟล์ PDF เอาต์พุต เรียงลำดับหน้าใหม่ และระบุคุณภาพของรูปภาพเอกสารได้ โปรดดูรายละเอียดใน[ส่วนเอกสารประกอบต่อไปนี้](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)
+        สร้างอินสแตนซ์คลาส [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) แล้วส่งต่อไปยังอินสแตนซ์คลาส [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) เพื่อแปลงไฟล์ PowerPoint PPTX เป็น PDF คุณสมบัติคลาส PdfViewOptions ช่วยให้คุณสามารถควบคุมกระบวนการแปลงได้ ตัวอย่างเช่น คุณสามารถป้องกันไฟล์ PDF เอาต์พุต เรียงลำดับหน้าใหม่ และระบุคุณภาพของรูปภาพเอกสารได้ โปรดดูรายละเอียดใน[ส่วนเอกสารประกอบต่อไปนี้](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // ตั้งค่าตัวเลือกเอาต์พุต PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // ส่งออก PPTX เป็น PDF       
             viewer.View(viewOptions);
         }
         ```

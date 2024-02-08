@@ -59,9 +59,9 @@ code:
     {
         // Set output HTML options, one file per page
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Render PDF to HTML with embedded resources        
         viewer.View(viewOptions);
     }
     ```
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Set output PDF options       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Export PPTX to PDF       
             viewer.View(viewOptions);
         }
         ```

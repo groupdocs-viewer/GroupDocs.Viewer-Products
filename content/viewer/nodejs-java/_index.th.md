@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // ตั้งค่าตัวเลือก HTML เอาต์พุต หนึ่งไฟล์ต่อหน้า
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // สร้างอินสแตนซ์ของผู้ดู
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // เรนเดอร์ PDF เป็น HTML ด้วยทรัพยากรที่ฝังอยู่
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // ตั้งค่าตัวเลือก HTML เอาต์พุต หนึ่งไฟล์ต่อหน้า
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // สร้างอินสแตนซ์ของผู้ดู
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // เรนเดอร์ DOCX เป็น HTML ด้วยทรัพยากรที่ฝังอยู่
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // ตั้งค่าตัวเลือกเอาต์พุต PDF
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // สร้างอินสแตนซ์ของผู้ดู
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // ส่งออก PPTX เป็น PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

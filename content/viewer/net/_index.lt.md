@@ -25,7 +25,7 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: ".NET dokumentų peržiūros programos API, pateikia PDF Word Excel vaizdo HTML diagramą"
-head_description: "C# ASP.NET failų peržiūros programa ir atvaizdavimo API. Pridėkite PDF peržiūros programą, „Word“ peržiūros programą, „Excel“ peržiūros programą, vaizdų peržiūros priemonę, HTML peržiūros priemonę, el. pašto peržiūros priemonę .NET programose."
+head_description: "C# ASP.NET failų peržiūros programa ir atvaizdavimo API. Pridėkite PDF peržiūros programą, Word peržiūros programą, Excel peržiūros programą, vaizdų peržiūros priemonę, HTML peržiūros priemonę, el. pašto peržiūros priemonę .NET programose."
 
 ############################# Header ##########################
 title: "Pateikite ir rodykite dokumentus<br>naudodami .NET API"
@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Įkelkite šaltinio PDF failą
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Nustatykite išvesties HTML parinktis
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Pateikite PDF į HTML su įterptais ištekliais        
         viewer.View(viewOptions);
     }
     ```
@@ -171,7 +171,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Viewer funkcijos"
-  description: "Sklandžiai atvaizduokite, rodykite ir konvertuokite PDF ir „Office“ dokumentus"
+  description: "Sklandžiai atvaizduokite, rodykite ir konvertuokite PDF ir Office dokumentus"
 
   items:
     # feature loop
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Pateikite DOCX į HTML"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) klasės ypatybės leidžia valdyti konversijos procesą, daugiau apie tai [čia](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Pavyzdžiui, galite įterpti visus išorinius išteklius į išvesties HTML failą, sumažinti išvesties failą ir optimizuoti jį spausdinimui.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) klasės ypatybės leidžia valdyti konversijos procesą, daugiau apie tai [čia](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Pavyzdžiui, galite įterpti visus išorinius išteklius į išvesties HTML failą, sumažinti išvesties failą ir optimizuoti jį spausdinimui.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Momentinis žiūrovas
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Nustatykite išvesties HTML parinktis
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Pateikite DOCX į HTML su įterptais ištekliais
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Eksportuokite PPTX į PDF"
       content: |
-        Sukurkite [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) klasės egzempliorių ir perduokite jį [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) metodas PowerPoint PPTX failą konvertuoti į PDF. PdfViewOptions klasės ypatybės leidžia valdyti konversijos procesą. Pavyzdžiui, galite apsaugoti išvesties PDF failą, pertvarkyti jo puslapius ir nurodyti dokumento vaizdų kokybę. Norėdami gauti daugiau informacijos, žr. [toliau pateiktą dokumentų skyrių](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+        Sukurkite [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) klasės egzempliorių ir perduokite jį [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) metodas PowerPoint PPTX failą konvertuoti į PDF. PdfViewOptions klasės ypatybės leidžia valdyti konversijos procesą. Pavyzdžiui, galite apsaugoti išvesties PDF failą, pertvarkyti jo puslapius ir nurodyti dokumento vaizdų kokybę. Norėdami gauti daugiau informacijos, žr. [toliau pateiktą dokumentų skyrių](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Nustatykite išvesties PDF parinktis       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Eksportuokite PPTX į PDF       
             viewer.View(viewOptions);
         }
         ```

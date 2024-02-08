@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // ჩატვირთეთ წყარო PDF ფაილი
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // დააყენეთ გამომავალი HTML პარამეტრები
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // PDF-ის გადატანა HTML-ში ჩაშენებული რესურსებით        
         viewer.View(viewOptions);
     }
     ```
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "მხარდაჭერილი ფაილის ფორმატები"
   description: |
-    GroupDocs.Viewer .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+    GroupDocs.Viewer .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "DOCX-ის გადაცემა HTML-ში"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ](https://docs .groupdocs.com/viewer/net/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ](https://docs.groupdocs.com/viewer/net/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // მყისიერი მაყურებელი
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // გამომავალი HTML პარამეტრების დაყენება
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // DOCX-ის გადაცემა HTML-ში ჩაშენებული რესურსებით
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "ექსპორტი PPTX PDF-ში"
       content: |
-        შექმენით [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) კლასის ინსტანცია და გადაეცით [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) მეთოდი PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. PdfViewOptions კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება] (https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) დეტალებისთვის.
+        შექმენით [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) კლასის ინსტანცია და გადაეცით [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) მეთოდი PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. PdfViewOptions კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) დეტალებისთვის.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // დააყენეთ გამომავალი PDF პარამეტრები       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // ექსპორტი PPTX PDF-ში       
             viewer.View(viewOptions);
         }
         ```

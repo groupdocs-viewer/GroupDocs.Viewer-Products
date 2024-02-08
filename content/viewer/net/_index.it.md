@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Carica il file PDF di origine
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Imposta le opzioni HTML di output, un file per pagina
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Renderizza PDF in HTML con risorse incorporate        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Rendere DOCX in HTML"
       content: |
-        Le proprietà della classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) ti consentono di controllare il processo di conversione, maggiori informazioni [qui](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Ad esempio, puoi incorporare tutte le risorse esterne nel file HTML di output, minimizzare il file di output e ottimizzarlo per la stampa.
+        Le proprietà della classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) ti consentono di controllare il processo di conversione, maggiori informazioni [qui](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Ad esempio, puoi incorporare tutte le risorse esterne nel file HTML di output, minimizzare il file di output e ottimizzarlo per la stampa.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Visualizzatore di istanze
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Imposta le opzioni HTML di output
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Renderizza DOCX in HTML con risorse incorporate
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Esporta PPTX in PDF"
       content: |
-        Crea un'istanza della classe [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) e passala al file [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) per convertire un file PowerPoint PPTX in PDF. Le proprietà della classe PdfViewOptions consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [seguente sezione della documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) per i dettagli.
+        Crea un'istanza della classe [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) e passala al file [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) per convertire un file PowerPoint PPTX in PDF. Le proprietà della classe PdfViewOptions consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [seguente sezione della documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) per i dettagli.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Imposta le opzioni PDF di output       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Esporta PPTX in PDF       
             viewer.View(viewOptions);
         }
         ```

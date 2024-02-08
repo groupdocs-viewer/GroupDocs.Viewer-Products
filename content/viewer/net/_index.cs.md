@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Načtěte zdrojový soubor PDF
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Nastavte výstupní možnosti HTML
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Renderujte PDF do HTML s vloženými zdroji        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Vykreslit DOCX do HTML"
       content: |
-        Vlastnosti třídy [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) vám umožňují řídit proces převodu, více o tom [zde](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Můžete například vložit všechny externí zdroje do výstupního souboru HTML, minimalizovat výstupní soubor a optimalizovat jej pro tisk.
+        Vlastnosti třídy [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) vám umožňují řídit proces převodu, více o tom [zde](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Můžete například vložit všechny externí zdroje do výstupního souboru HTML, minimalizovat výstupní soubor a optimalizovat jej pro tisk.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Okamžitý divák
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Nastavte výstupní možnosti HTML
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Renderujte DOCX do HTML s vloženými prostředky
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Export PPTX do PDF"
       content: |
-        Vytvořte instanci třídy [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) a předejte ji [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) pro převod souboru PowerPoint PPTX do formátu PDF. Vlastnosti třídy PdfViewOptions vám umožňují řídit proces převodu. Můžete například chránit výstupní soubor PDF, změnit pořadí jeho stránek a určit kvalitu obrazů dokumentů. Podrobnosti naleznete v [následující sekci dokumentace](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+        Vytvořte instanci třídy [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) a předejte ji [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) pro převod souboru PowerPoint PPTX do formátu PDF. Vlastnosti třídy PdfViewOptions vám umožňují řídit proces převodu. Můžete například chránit výstupní soubor PDF, změnit pořadí jeho stránek a určit kvalitu obrazů dokumentů. Podrobnosti naleznete v [následující sekci dokumentace](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Nastavte výstupní možnosti PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Export PPTX do PDF       
             viewer.View(viewOptions);
         }
         ```

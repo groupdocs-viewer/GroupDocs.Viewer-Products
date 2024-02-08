@@ -42,7 +42,7 @@ actions:
   description: "Δοκιμάστε τις δυνατότητες του GroupDocs.Viewer δωρεάν ή ζητήστε άδεια"
 
 release:
-  title: "Η έκδοση {0} κυκλοφόρησε"
+  title: "{0} κυκλοφόρησε"
   notes: "Δείτε τι νέο υπάρχει"
   downloads: "Λήψεις"
   link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Φορτώστε το αρχείο προέλευσης PDF
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Ορίστε επιλογές εξόδου HTML
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Αποδώστε το PDF σε HTML        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Αποδώστε το DOCX σε HTML"
       content: |
-        Οι ιδιότητες κλάσης [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής, περισσότερα σχετικά [εδώ](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Για παράδειγμα, μπορείτε να ενσωματώσετε όλους τους εξωτερικούς πόρους στο αρχείο HTML εξόδου, να ελαχιστοποιήσετε το αρχείο εξόδου και να το βελτιστοποιήσετε για εκτύπωση.
+        Οι ιδιότητες κλάσης [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής, περισσότερα σχετικά [εδώ](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Για παράδειγμα, μπορείτε να ενσωματώσετε όλους τους εξωτερικούς πόρους στο αρχείο HTML εξόδου, να ελαχιστοποιήσετε το αρχείο εξόδου και να το βελτιστοποιήσετε για εκτύπωση.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Άμεσος θεατής
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Ορισμός επιλογών εξόδου HTML
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Αποδώστε το DOCX σε HTML με ενσωματωμένους πόρους
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Εξαγωγή PPTX σε PDF"
       content: |
-        Δημιουργήστε μια παρουσία κλάσης [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) και περάστε την στο [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) μέθοδος για τη μετατροπή ενός αρχείου PowerPoint PPTX σε PDF. Οι ιδιότητες κλάσης PdfViewOptions σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής. Για παράδειγμα, μπορείτε να προστατεύσετε το αρχείο PDF εξόδου, να αναδιατάξετε τις σελίδες του και να καθορίσετε την ποιότητα των εικόνων του εγγράφου. Ανατρέξτε στην [ακόλουθη ενότητα τεκμηρίωσης](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) για λεπτομέρειες.
+        Δημιουργήστε μια παρουσία κλάσης [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) και περάστε την στο [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) μέθοδος για τη μετατροπή ενός αρχείου PowerPoint PPTX σε PDF. Οι ιδιότητες κλάσης PdfViewOptions σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής. Για παράδειγμα, μπορείτε να προστατεύσετε το αρχείο PDF εξόδου, να αναδιατάξετε τις σελίδες του και να καθορίσετε την ποιότητα των εικόνων του εγγράφου. Ανατρέξτε στην [ακόλουθη ενότητα τεκμηρίωσης](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) για λεπτομέρειες.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Ορίστε τις επιλογές PDF εξόδου       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Εξαγωγή PPTX σε PDF       
             viewer.View(viewOptions);
         }
         ```

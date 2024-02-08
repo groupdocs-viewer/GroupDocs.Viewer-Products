@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Trình xem tức thời
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Kết xuất PDF sang HTML
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Các định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Viewer dành cho Node.js qua Java hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer dành cho Node.js qua Java hỗ trợ các thao tác với sau [định dạng tệp](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Trình xem tức thời
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Kết xuất DOCX sang HTML bằng tài nguyên được nhúng
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Đặt tùy chọn PDF đầu ra
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Trình xem tức thời
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Xuất PPTX sang PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

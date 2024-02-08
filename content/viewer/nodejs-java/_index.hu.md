@@ -43,8 +43,8 @@ actions:
   description: "Próbálja ki ingyenesen a GroupDocs.Viewer funkcióit, vagy kérjen licencet"
 
 release:
-  title: "A(z) {0} verzió megjelent"
-  notes: "Tekintse meg az újdonságokat"
+  title: "{0} verzió megjelent"
+  notes: "Tekintse újdonságokat"
   downloads: "Letöltések"
   link: "https://releases.groupdocs.com/viewer/nodejs-java/release-notes/latest/"
 
@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Állítsa be a kimeneti HTML-beállításokat
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Példányos megjelenítő
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Rendereljen PDF-et HTML-be
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Támogatott fájlformátumok"
   description: |
-    A GroupDocs.Viewer for Node.js Java-n keresztül a következő [fájlformátumokkal] (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/) támogatja a műveleteket.
+    A GroupDocs.Viewer for Node.js Java-n keresztül a következő [fájlformátumokkal](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/) támogatja a műveleteket.
   groups:
     # group loop
     - color: "green"
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "A DOCX renderelése HTML-be"
       content: |
-        A „HtmlViewOptions” osztálytulajdonságok lehetővé teszik a konverziós folyamat vezérlését, erről bővebben [itt](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). Például beágyazhat minden külső erőforrást a kimeneti HTML-fájlba, kicsinyítheti a kimeneti fájlt, és optimalizálhatja a nyomtatáshoz.
+        A HtmlViewOptions” osztálytulajdonságok lehetővé teszik a konverziós folyamat vezérlését, erről bővebben [itt](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). Például beágyazhat minden külső erőforrást a kimeneti HTML-fájlba, kicsinyítheti a kimeneti fájlt, és optimalizálhatja a nyomtatáshoz.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Állítsa be a kimeneti HTML-beállításokat
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Példányos megjelenítő
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // A DOCX renderelése HTML formátumban beágyazott erőforrásokkal
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "PPTX exportálása PDF-be"
       content: |
-        Hozzon létre egy „PdfViewOptions” osztálypéldányt, és adja át a „Viewer.view” metódusnak, hogy egy PowerPoint PPTX fájlt PDF formátumba konvertáljon. A `PdfViewOptions` osztálytulajdonságok lehetővé teszik az átalakítási folyamat vezérlését. Például védheti a kimeneti PDF-fájlt, átrendezheti az oldalait, és megadhatja a dokumentumképek minőségét. A részletekért tekintse meg a [következő dokumentációs részt](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/).
+        Hozzon létre egy PdfViewOptions” osztálypéldányt, és adja át a Viewer.view” metódusnak, hogy egy PowerPoint PPTX fájlt PDF formátumba konvertáljon. A `PdfViewOptions` osztálytulajdonságok lehetővé teszik az átalakítási folyamat vezérlését. Például védheti a kimeneti PDF-fájlt, átrendezheti az oldalait, és megadhatja a dokumentumképek minőségét. A részletekért tekintse meg a [következő dokumentációs részt](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/).
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Állítsa be a kimeneti PDF-beállításokat
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Példányos megjelenítő
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // PPTX exportálása PDF-be
         viewer.view(viewOptions)
         viewer.close()
         ```

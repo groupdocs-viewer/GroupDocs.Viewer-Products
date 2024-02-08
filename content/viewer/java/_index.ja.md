@@ -42,7 +42,7 @@ actions:
   description: "GroupDocs.Viewer の機能を無料で試すか、ライセンスをリクエストしてください"
 
 release:
-  title: "バージョン {0} がリリースされました"
+  title: "{0} がリリースされました"
   notes: "新機能を見る"
   downloads: "ダウンロード"
   link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // ビューアのインスタンス化 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // 出力 HTML オプションを設定します  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // 埋め込みリソースを使用して PDF を HTML
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "DOCX を HTML にレンダリングする"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) クラス プロパティを使用すると、変換プロセスを制御できます。詳細については、[こちら](https:/) /docs.groupdocs.com/viewer/java/rendering-to-html/)。 たとえば、すべての外部リソースを出力 HTML ファイルに埋め込み、出力ファイルを縮小して、印刷用に最適化することができます。
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) クラス プロパティを使用すると、変換プロセスを制御できます。詳細については、[こちら](https://docs.groupdocs.com/viewer/java/rendering-to-html/)。 たとえば、すべての外部リソースを出力 HTML ファイルに埋め込み、出力ファイルを縮小して、印刷用に最適化することができます。
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // ビューアのインスタンス化
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // 出力HTMLオプションを設定する
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // 埋め込みリソースを使用して DOCX を HTML にレンダリングします
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "PPTXをPDFにエクスポート"
       content: |
-        [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) クラス インスタンスを作成し、それを [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) メソッドを使用して、PowerPoint PPTX ファイルを PDF に変換します。 PdfViewOptions クラスのプロパティを使用すると、変換プロセスを制御できます。たとえば、出力 PDF ファイルを保護したり、ページの順序を変更したり、ドキュメントの画像の品質を指定したりできます。詳細については、[次のドキュメント セクション](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) を参照してください。
+        [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) クラス インスタンスを作成し、それを [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) メソッドを使用して、PowerPoint PPTX ファイルを PDF に変換します。 PdfViewOptions クラスのプロパティを使用すると、変換プロセスを制御できます。たとえば、出力 PDF ファイルを保護したり、ページの順序を変更したり、ドキュメントの画像の品質を指定したりできます。詳細については、[次のドキュメント セクション](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) を参照してください。
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // ビューアのインスタンス化
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // 出力 PDF オプションを設定する
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // PPTXをPDFにエクスポート
             viewer.view(viewOptions);
         }
         ```

@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // טען את קובץ ה-PDF המקור
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // הגדר אפשרויות פלט HTML, קובץ אחד לכל עמוד
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // עיבוד PDF ל-HTML עם משאבים משובצים        
         viewer.View(viewOptions);
     }
     ```
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "פורמטי קבצים נתמכים"
   description: |
-    GroupDocs.Viewer עבור .NET תומך בפעולות עם [פורמטי הקובץ] הבאים (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+    GroupDocs.Viewer עבור .NET תומך בפעולות עם  הבאים [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "עיבוד DOCX ל-HTML"
       content: |
-        מאפייני המחלקה [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) מאפשרים לך לשלוט בתהליך ההמרה, עוד על כך [כאן](https://docs .groupdocs.com/viewer/net/rendering-to-html/). לדוגמה, אתה יכול להטמיע את כל המשאבים החיצוניים בקובץ HTML הפלט, להקטין את קובץ הפלט ולבצע אופטימיזציה להדפסה.
+        מאפייני המחלקה [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) מאפשרים לך לשלוט בתהליך ההמרה, עוד על כך [HTMl](https://docs.groupdocs.com/viewer/net/rendering-to-html/). לדוגמה, אתה יכול להטמיע את כל המשאבים החיצוניים בקובץ HTML הפלט, להקטין את קובץ הפלט ולבצע אופטימיזציה להדפסה.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // הצג מיידית
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // הגדר אפשרויות פלט HTML
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // עיבוד DOCX ל-HTML עם משאבים משובצים
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "ייצוא PPTX ל-PDF"
       content: |
-        צור מופע מחלקה [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) והעביר אותו ל-[Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) להמרת קובץ PowerPoint PPTX ל-PDF. מאפייני המחלקה PdfViewOptions מאפשרים לך לשלוט בתהליך ההמרה. לדוגמה, אתה יכול להגן על קובץ ה-PDF הפלט, לסדר מחדש את העמודים שלו ולציין את איכות תמונות המסמך. עיין ב[קטע התיעוד הבא](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) לפרטים.
+        צור מופע מחלקה [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) והעביר אותו ל-[Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) להמרת קובץ PowerPoint PPTX ל-PDF. מאפייני המחלקה PdfViewOptions מאפשרים לך לשלוט בתהליך ההמרה. לדוגמה, אתה יכול להגן על קובץ ההפלט, לסדר מחדש את העמודים שלו ולציין את איכות תמונות המסמך. עיין ב[PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) לפרטים.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // הגדר אפשרויות פלט PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // ייצוא PPTX ל-PDF       
             viewer.View(viewOptions);
         }
         ```

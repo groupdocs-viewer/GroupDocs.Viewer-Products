@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Carregue o arquivo PDF de origem
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Defina opções de saída HTML, um arquivo por página
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Renderize PDF em HTML com recursos incorporados        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Renderizar DOCX para HTML"
       content: |
-        As propriedades da classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) permitem que você controle o processo de conversão, mais sobre isso [aqui](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Por exemplo, você pode incorporar todos os recursos externos no arquivo HTML de saída, reduzir o arquivo de saída e otimizá-lo para impressão.
+        As propriedades da classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) permitem que você controle o processo de conversão, mais sobre isso [aqui](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Por exemplo, você pode incorporar todos os recursos externos no arquivo HTML de saída, reduzir o arquivo de saída e otimizá-lo para impressão.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Instanciar visualizador
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Definir opções de HTML de saída
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Renderize DOCX para HTML com recursos incorporados
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Exportar PPTX para PDF"
       content: |
-        Crie uma instância de classe [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) e passe-a para o [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) para converter um arquivo PowerPoint PPTX em PDF. As propriedades da classe PdfViewOptions permitem controlar o processo de conversão. Por exemplo, você pode proteger o arquivo PDF de saída, reordenar suas páginas e especificar a qualidade das imagens do documento. Consulte a [seção de documentação a seguir](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) para obter detalhes.
+        Crie uma instância de classe [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) e passe-a para o [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) para converter um arquivo PowerPoint PPTX em PDF. As propriedades da classe PdfViewOptions permitem controlar o processo de conversão. Por exemplo, você pode proteger o arquivo PDF de saída, reordenar suas páginas e especificar a qualidade das imagens do documento. Consulte a [seção de documentação a seguir](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) para obter detalhes.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Definir opções de saída de PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Exportar PPTX para PDF       
             viewer.View(viewOptions);
         }
         ```

@@ -24,11 +24,11 @@ supported_platforms:
 
 
 ############################# Head ############################
-head_title: "„Java Document Viewer“ API, pateiks PDF „Word Excel“ vaizdo HTML diagramą"
+head_title: "Java Document Viewer API, pateiks PDF Word Excel vaizdo HTML diagramą"
 head_description: "Dokumentų peržiūros biblioteka, skirta kurti Java programas, kurios natūraliai atvaizduoja, peržiūri ir valdo kelių formatų dokumentus, palaikančius 180 ir daugiau failų formatų."
 
 ############################# Header ############################
-title: "Pateikite ir rodykite dokumentus<br>naudodami „Java“ API"
+title: "Pateikite ir rodykite dokumentus<br>naudodami Java API"
 description: "Galingas peržiūros programos API, leidžiantis paversti 180 ir daugiau dokumentų formatų į PDF, HTML ir vaizdus su įvairiomis konfigūravimo parinktimis."
 words:
   for: "for"
@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instantiate Viewer 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Nustatykite išvesties HTML parinktis  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Pateikite PDF į HTML su įterptais ištekliais
         viewer.view(viewOptions);
     }
     ```
@@ -100,13 +100,13 @@ overview:
 
     # feature loop
     - title: "Žiniatinklio vartotojo sąsaja, skirta pavasario sistemai"
-      content: "Pateikiame atvirojo kodo UI paketą, skirtą „Spring framework“, kurį per kelias minutes galima pridėti prie jūsų projekto. Viewer.UI pakete yra kampinė žiniatinklio vartotojo sąsaja ir pateikiamas naudingų API ir duomenų saugojimo teikėjų rinkinys."
+      content: "Pateikiame atvirojo kodo UI paketą, skirtą Spring framework, kurį per kelias minutes galima pridėti prie jūsų projekto. Viewer.UI pakete yra kampinė žiniatinklio vartotojo sąsaja ir pateikiamas naudingų API ir duomenų saugojimo teikėjų rinkinys."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platformos nepriklausomybė"
-  description: "„GroupDocs.Viewer“, skirta „Java“, palaiko šias operacines sistemas, sistemas ir paketų tvarkykles"
+  description: "GroupDocs.Viewer, skirta Java, palaiko šias operacines sistemas, sistemas ir paketų tvarkykles"
   items:
     # platform loop
     - title: "Amazon"
@@ -139,7 +139,7 @@ formats:
   enable: true
   title: "Palaikomi failų formatai"
   description: |
-    „Java“ skirta „GroupDocs.Viewer“ palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+    Java skirta GroupDocs.Viewer palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -186,7 +186,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Viewer funkcijos"
-  description: "Sklandžiai atvaizduokite, rodykite ir konvertuokite PDF ir „Office“ dokumentus"
+  description: "Sklandžiai atvaizduokite, rodykite ir konvertuokite PDF ir Office dokumentus"
 
   items:
     # feature loop
@@ -243,7 +243,7 @@ code_samples:
     # code sample loop
     - title: "Pateikite DOCX į HTML"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) klasės ypatybės leidžia valdyti konversijos procesą, daugiau apie tai [čia](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Pavyzdžiui, galite įterpti visus išorinius išteklius į išvesties HTML failą, sumažinti išvesties failą ir optimizuoti jį spausdinimui.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) klasės ypatybės leidžia valdyti konversijos procesą, daugiau apie tai [čia](https://docs.groupdocs.com/viewer/java/rendering-to-html/). Pavyzdžiui, galite įterpti visus išorinius išteklius į išvesties HTML failą, sumažinti išvesties failą ir optimizuoti jį spausdinimui.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
@@ -252,11 +252,11 @@ code_samples:
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Nustatykite išvesties HTML parinktis
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Pateikite DOCX į HTML su įterptais ištekliais
             viewer.view(options);
         }
         ```
@@ -264,7 +264,7 @@ code_samples:
     # code sample loop
     - title: "Eksportuokite PPTX į PDF"
       content: |
-        Sukurkite [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) klasės egzempliorių ir perduokite jį [Viewer.View] (https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metodas konvertuoti PowerPoint PPTX failą į PDF. PdfViewOptions klasės ypatybės leidžia valdyti konversijos procesą. Pavyzdžiui, galite apsaugoti išvesties PDF failą, pertvarkyti jo puslapius ir nurodyti dokumento vaizdų kokybę. Norėdami gauti daugiau informacijos, žr. [toliau pateiktą dokumentų skyrių](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/).
+        Sukurkite [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) klasės egzempliorių ir perduokite jį [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metodas konvertuoti PowerPoint PPTX failą į PDF. PdfViewOptions klasės ypatybės leidžia valdyti konversijos procesą. Pavyzdžiui, galite apsaugoti išvesties PDF failą, pertvarkyti jo puslapius ir nurodyti dokumento vaizdų kokybę. Norėdami gauti daugiau informacijos, žr. [toliau pateiktą dokumentų skyrių](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/).
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
@@ -272,11 +272,11 @@ code_samples:
 
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Nustatykite išvesties PDF parinktis
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // Eksportuokite PPTX į PDF
             viewer.view(viewOptions);
         }
         ```

@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instantiate Viewer 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // დააყენეთ გამომავალი HTML პარამეტრები  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // PDF-ის გადატანა HTML-ში ჩაშენებული რესურსებით
         viewer.view(viewOptions);
     }
     ```
@@ -139,7 +139,7 @@ formats:
   enable: true
   title: "მხარდაჭერილი ფაილის ფორმატები"
   description: |
-    GroupDocs.Viewer Java-სთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+    GroupDocs.Viewer Java-სთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -243,7 +243,7 @@ code_samples:
     # code sample loop
     - title: "DOCX-ის გადაცემა HTML-ში"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ](https://docs.groupdocs.com/viewer/java/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
@@ -252,11 +252,11 @@ code_samples:
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // გამომავალი HTML პარამეტრების დაყენება
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // DOCX-ის გადაცემა HTML-ში ჩაშენებული რესურსებით
             viewer.view(options);
         }
         ```
@@ -264,7 +264,7 @@ code_samples:
     # code sample loop
     - title: "ექსპორტი PPTX PDF-ში"
       content: |
-        შექმენით [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) კლასის ინსტანცია და გადაეცით [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) მეთოდი PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. PdfViewOptions კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება] (https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) დეტალებისთვის.
+        შექმენით [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) კლასის ინსტანცია და გადაეცით [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) მეთოდი PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. PdfViewOptions კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) დეტალებისთვის.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
@@ -272,11 +272,11 @@ code_samples:
 
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // დააყენეთ გამომავალი PDF პარამეტრები
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // ექსპორტი PPTX PDF-ში
             viewer.view(viewOptions);
         }
         ```

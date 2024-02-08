@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instantiate Viewer 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // PDF را با منابع تعبیه شده به HTML ارائه دهید
         viewer.view(viewOptions);
     }
     ```
@@ -139,7 +139,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Viewer برای جاوا از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+    GroupDocs.Viewer برای جاوا از عملیات با زیر پشتیبانی می‌کند [formats](https://docs.groupdocs.com/viewer/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -243,7 +243,7 @@ code_samples:
     # code sample loop
     - title: "DOCX را به HTML رندر کنید"
       content: |
-        ویژگی‌های کلاس [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، در مورد آن [اینجا] (https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.
+        ویژگی‌های کلاس [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، در مورد آن [اینجا](https://docs.groupdocs.com/viewer/java/rendering-to-html/). به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
@@ -252,11 +252,11 @@ code_samples:
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // گزینه های خروجی HTML را تنظیم کنید
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // DOCX را با منابع جاسازی شده به HTML ارائه دهید
             viewer.view(options);
         }
         ```
@@ -264,7 +264,7 @@ code_samples:
     # code sample loop
     - title: "PPTX را به PDF صادر کنید"
       content: |
-        یک نمونه کلاس [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) ایجاد کنید و آن را به [Viewer.View] (https://reference) ارسال کنید. روش groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) برای تبدیل فایل پاورپوینت PPTX به PDF. ویژگی های کلاس PdfViewOptions به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل PDF خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات به [بخش مستندات زیر] (https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) مراجعه کنید.
+        یک نمونه کلاس [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) ایجاد کنید و آن را به [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) ارسال کنید. روش برای تبدیل فایل پاورپوینت PPTX به PDF. ویژگی های کلاس PdfViewOptions به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل  خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات به [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) مراجعه کنید.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
@@ -272,11 +272,11 @@ code_samples:
 
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // گزینه های PDF خروجی را تنظیم کنید
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // PPTX را به PDF صادر کنید
             viewer.view(viewOptions);
         }
         ```

@@ -44,7 +44,7 @@ actions:
 
 release:
   title: "Версия {0} выпущена"
-  notes: "Посмотрите, что нового"
+  notes: "Что нового"
   downloads: "Загрузки"
   link: "https://releases.groupdocs.com/viewer/nodejs-java/release-notes/latest/"
 
@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Установите параметры вывода HTML
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Создать экземпляр средства просмотра
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Преобразование PDF в HTML
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Поддерживаемые форматы файлов"
   description: |
-    GroupDocs.Viewer для Node.js через Java поддерживает операции со следующими [форматами файлов] (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer для Node.js через Java поддерживает операции со следующими [форматами файлов](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Установите параметры вывода HTML
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Создать экземпляр средства просмотра
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Преобразование DOCX в HTML со встроенными ресурсами
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Установите параметры вывода PDF
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Создать экземпляр средства просмотра
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Экспорт PPTX в PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

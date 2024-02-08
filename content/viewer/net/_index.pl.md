@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Załaduj źródłowy plik PDF
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Ustaw opcje wyjściowego HTML, jeden plik na stronę
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Renderuj pliki PDF do formatu HTML        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Renderuj DOCX do HTML"
       content: |
-        Właściwości klasy [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) pozwalają kontrolować proces konwersji, więcej na ten temat [tutaj](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Na przykład możesz osadzić wszystkie zasoby zewnętrzne w wyjściowym pliku HTML, zminimalizować plik wyjściowy i zoptymalizować go pod kątem drukowania.
+        Właściwości klasy [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) pozwalają kontrolować proces konwersji, więcej na ten temat [tutaj](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Na przykład możesz osadzić wszystkie zasoby zewnętrzne w wyjściowym pliku HTML, zminimalizować plik wyjściowy i zoptymalizować go pod kątem drukowania.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Przeglądarka instancji
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Ustaw wyjściowe opcje HTML
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Renderuj DOCX do HTML z osadzonymi zasobami
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Eksportuj PPTX do formatu PDF"
       content: |
-        Utwórz instancję klasy [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) i przekaż ją do [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) do konwersji pliku PowerPoint PPTX na format PDF. Właściwości klasy PdfViewOptions pozwalają kontrolować proces konwersji. Można na przykład chronić wyjściowy plik PDF, zmieniać kolejność jego stron i określać jakość obrazów dokumentów. Szczegółowe informacje znajdziesz w [poniższej sekcji dokumentacji](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+        Utwórz instancję klasy [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) i przekaż ją do [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) do konwersji pliku PowerPoint PPTX na format PDF. Właściwości klasy PdfViewOptions pozwalają kontrolować proces konwersji. Można na przykład chronić wyjściowy plik PDF, zmieniać kolejność jego stron i określać jakość obrazów dokumentów. Szczegółowe informacje znajdziesz w [poniższej sekcji dokumentacji](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Ustaw opcje wyjściowego pliku PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Eksportuj PPTX do formatu PDF       
             viewer.View(viewOptions);
         }
         ```

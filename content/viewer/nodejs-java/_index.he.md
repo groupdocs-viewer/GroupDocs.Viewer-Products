@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // הגדר אפשרויות פלט HTML, קובץ אחד לכל עמוד
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
+    
     // Instantiate Viewer
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // עיבוד PDF ל-HTML עם משאבים משובצים
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "פורמטי קבצים נתמכים"
   description: |
-    GroupDocs.Viewer עבור Node.js דרך Java תומך בפעולות עם [פורמטי הקובץ] הבאים (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer עבור Node.js דרך Java תומך בפעולות עם הבאים [formats](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "עיבוד DOCX ל-HTML"
       content: |
-        מאפייני המחלקה `HtmlViewOptions` מאפשרים לך לשלוט בתהליך ההמרה, עוד על כך [כאן](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). לדוגמה, אתה יכול להטמיע את כל המשאבים החיצוניים בקובץ HTML הפלט, להקטין את קובץ הפלט ולבצע אופטימיזציה להדפסה.
+        מאפייני המחלקה `HtmlViewOptions` מאפשרים לך לשלוט בתהליך ההמרה, עוד על כך [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). לדוגמה, אתה יכול להטמיע את כל המשאבים החיצוניים בקובץ HTML הפלט, להקטין את קובץ הפלט ולבצע אופטימיזציה להדפסה.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // הגדר אפשרויות פלט HTML, קובץ אחד לכל עמוד
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
         // Instantiate Viewer
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // עיבוד DOCX ל-HTML עם משאבים משובצים
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "ייצוא PPTX ל-PDF"
       content: |
-        צור מופע מחלקה 'PdfViewOptions' והעביר אותו לשיטת 'Viewer.view' כדי להמיר קובץ PowerPoint PPTX ל-PDF. מאפייני המחלקה 'PdfViewOptions' מאפשרים לך לשלוט בתהליך ההמרה. לדוגמה, אתה יכול להגן על קובץ ה-PDF הפלט, לסדר מחדש את העמודים שלו ולציין את איכות תמונות המסמך. עיין ב[קטע התיעוד הבא](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) לפרטים.
+        צור מופע מחלקה 'PdfViewOptions' והעביר אותו לשיטת 'Viewer.view' כדי להמיר קובץ PowerPoint PPTX ל-PDF. מאפייני המחלקה 'PdfViewOptions' מאפשרים לך לשלוט בתהליך ההמרה. לדוגמה, אתה יכול להגן על קובץ ה הפלט, לסדר מחדש את העמודים שלו ולציין את איכות תמונות המסמך. עיין ב[PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) לפרטים.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // הגדר אפשרויות פלט PDF
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
         // Instantiate Viewer
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // ייצוא PPTX ל-PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

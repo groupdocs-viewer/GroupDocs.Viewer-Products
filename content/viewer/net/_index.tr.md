@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Kaynak PDF dosyasını yükleyin
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // HTML çıktı seçeneklerini ayarlama
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Gömülü kaynaklarla PDF'yi HTML'ye dönüştürün        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "DOCX'i HTML'ye dönüştür"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) sınıfı özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır; bununla ilgili daha fazla bilgiyi [burada](https://docs) .groupdocs.com/viewer/net/rendering-to-html/). Örneğin, tüm harici kaynakları çıktı HTML dosyasına gömebilir, çıktı dosyasını küçültebilir ve yazdırma için optimize edebilirsiniz.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) sınıfı özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır; bununla ilgili daha fazla bilgiyi [burada](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Örneğin, tüm harici kaynakları çıktı HTML dosyasına gömebilir, çıktı dosyasını küçültebilir ve yazdırma için optimize edebilirsiniz.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Görüntüleyiciyi somutlaştır
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Çıktı HTML seçeneklerini ayarlama
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Gömülü kaynaklarla DOCX'i HTML'ye dönüştürün
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "PPTX'i PDF'ye aktar"
       content: |
-        Bir [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) sınıfı örneği oluşturun ve bunu [Viewer.View](https://reference.groupdocs) öğesine aktarın. com/viewer/net/groupdocs.viewer/viewer/view/#view) PowerPoint PPTX dosyasını PDF'ye dönüştürme yöntemini kullanın. PdfViewOptions sınıfının özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır. Örneğin, çıktı PDF dosyasını koruyabilir, sayfalarını yeniden sıralayabilir ve belge görüntülerinin kalitesini belirleyebilirsiniz. Ayrıntılar için [aşağıdaki belgeler bölümüne](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) bakın.
+        Bir [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) sınıfı örneği oluşturun ve bunu [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) öğesine PowerPoint PPTX dosyasını PDF'ye dönüştürme yöntemini kullanın. PdfViewOptions sınıfının özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır. Örneğin, çıktı PDF dosyasını koruyabilir, sayfalarını yeniden sıralayabilir ve belge görüntülerinin kalitesini belirleyebilirsiniz. Ayrıntılar için [aşağıdaki belgeler bölümüne](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) bakın.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Çıktı PDF seçeneklerini ayarlama       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // PPTX'i PDF'ye aktar       
             viewer.View(viewOptions);
         }
         ```

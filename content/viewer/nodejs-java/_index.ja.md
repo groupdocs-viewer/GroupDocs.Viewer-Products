@@ -43,7 +43,7 @@ actions:
   description: "GroupDocs.Viewer の機能を無料で試すか、ライセンスをリクエストしてください"
 
 release:
-  title: "バージョン {0} がリリースされました"
+  title: "{0} がリリースされました"
   notes: "新機能を見る"
   downloads: "ダウンロード"
   link: "https://releases.groupdocs.com/viewer/nodejs-java/release-notes/latest/"
@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // 出力 HTML オプションを設定します
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // ビューアのインスタンス化
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // 埋め込みリソースを使用して PDF を HTML
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // 出力 HTML オプションを設定します
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // ビューアのインスタンス化
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // 埋め込みリソースを使用して DOCX を HTML にレンダリングします
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // 出力 PDF オプションを設定する
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // ビューアのインスタンス化
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // PPTXをPDFにエクスポート
         viewer.view(viewOptions)
         viewer.close()
         ```

@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // إنشاء مثيل للعارض 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // قم بتعيين خيارات HTML للإخراج، ملف واحد لكل صفحة  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // تحويل PDF إلى HTML باستخدام الموارد المضمنة
         viewer.view(viewOptions);
     }
     ```
@@ -139,7 +139,7 @@ formats:
   enable: true
   title: "تنسيقات الملفات المدعومة"
   description: |
-    يدعم GroupDocs.Viewer for Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/viewer/java/supported-document-formats/).
+    يدعم GroupDocs.Viewer for Java العمليات باستخدام التالية [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "تقديم DOCX إلى HTML"
       content: |
-        تتيح لك خصائص فئة [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) التحكم في عملية التحويل، المزيد عن ذلك [هنا](https:/ /docs.groupdocs.com/viewer/Java/rendering-to-html/). على سبيل المثال، يمكنك تضمين كافة الموارد الخارجية في ملف HTML الناتج، وتصغير ملف الإخراج، وتحسينه للطباعة.
+        تتيح لك خصائص فئة [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) التحكم في عملية التحويل، المزيد عن ذلك [HTML](https://docs.groupdocs.com/viewer/Java/rendering-to-html/) على سبيل المثال، يمكنك تضمين كافة الموارد الخارجية في ملف HTML الناتج، وتصغير ملف الإخراج، وتحسينه للطباعة.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // إنشاء مثيل للعارض
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // ضبط خيارات HTML للإخراج
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // تحويل DOCX إلى HTML باستخدام الموارد المضمنة
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "تصدير PPTX إلى PDF"
       content: |
-        قم بإنشاء مثيل فئة [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) وقم بتمريره إلى [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) طريقة لتحويل ملف PowerPoint PPTX إلى PDF. تتيح لك خصائص فئة PdfViewOptions التحكم في عملية التحويل. على سبيل المثال، يمكنك حماية ملف PDF الناتج وإعادة ترتيب صفحاته وتحديد جودة صور المستند. راجع [قسم الوثائق التالي](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) للحصول على التفاصيل.
+        قم بإنشاء مثيل فئة [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) وقم بتمريره إلى [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) طريقة لتحويل ملف PowerPoint PPTX إلى PDF. تتيح لك خصائص فئة PdfViewOptions التحكم في عملية التحويل. على سبيل المثال، يمكنك حماية ملف  الناتج وإعادة ترتيب صفحاته وتحديد جودة صور المستند. راجع [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) للحصول على التفاصيل.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // إنشاء مثيل للعارض
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // ضبط خيارات إخراج PDF
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // تصدير PPTX إلى PDF
             viewer.view(viewOptions);
         }
         ```

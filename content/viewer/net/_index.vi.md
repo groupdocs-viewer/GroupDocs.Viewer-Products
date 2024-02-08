@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Tải tệp PDF nguồn
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Kết xuất PDF sang HTML        
         viewer.View(viewOptions);
     }
     ```
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "Các định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Viewer dành cho .NET hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+    GroupDocs.Viewer dành cho .NET hỗ trợ các thao tác với sau [định dạng tệp](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Kết xuất DOCX sang HTML"
       content: |
-        Thuộc tính lớp [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) cho phép bạn kiểm soát quá trình chuyển đổi, tìm hiểu thêm về điều đó [tại đây](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Ví dụ: bạn có thể nhúng tất cả tài nguyên bên ngoài vào tệp HTML đầu ra, thu nhỏ tệp đầu ra và tối ưu hóa tệp để in.
+        Thuộc tính lớp [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) cho phép bạn kiểm soát quá trình chuyển đổi, tìm hiểu thêm về điều đó [tại đây](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Ví dụ: bạn có thể nhúng tất cả tài nguyên bên ngoài vào tệp HTML đầu ra, thu nhỏ tệp đầu ra và tối ưu hóa tệp để in.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Khởi tạo trình xem
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Đặt tùy chọn HTML đầu ra
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Kết xuất DOCX sang HTML bằng tài nguyên được nhúng
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Xuất PPTX sang PDF"
       content: |
-        Tạo một phiên bản lớp [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) và chuyển nó tới [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) để chuyển đổi tệp PowerPoint PPTX sang PDF. Thuộc tính lớp PdfViewOptions cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng của hình ảnh tài liệu. Hãy tham khảo [phần tài liệu sau](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) để biết thông tin chi tiết.
+        Tạo một phiên bản lớp [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) và chuyển nó tới [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) để chuyển đổi tệp PowerPoint PPTX sang PDF. Thuộc tính lớp PdfViewOptions cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng của hình ảnh tài liệu. Hãy tham khảo [phần tài liệu sau](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) để biết thông tin chi tiết.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Đặt tùy chọn PDF đầu ra       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Xuất PPTX sang PDF       
             viewer.View(viewOptions);
         }
         ```

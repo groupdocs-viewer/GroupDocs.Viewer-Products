@@ -69,12 +69,12 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instantiate Viewer 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Set output HTML options, one file per page  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
         // Render PDF to HTML with embedded resources
         viewer.view(viewOptions);
@@ -254,7 +254,7 @@ code_samples:
         {
             // Set output HTML options
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
             // Render DOCX to HTML with embedded resources
             viewer.view(options);
@@ -272,7 +272,7 @@ code_samples:
 
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
+        {            
             // Set output PDF options
             PdfViewOptions viewOptions = new PdfViewOptions();
 

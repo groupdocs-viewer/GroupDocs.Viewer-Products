@@ -43,7 +43,7 @@ actions:
 
 release:
   title: "Версия {0} выпущена"
-  notes: "Посмотрите, что нового"
+  notes: "Что нового"
   downloads: "Загрузки"
   link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Загрузите исходный PDF-файл
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Установите параметры вывода HTML
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Преобразование PDF в HTML        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Преобразование DOCX в HTML"
       content: |
-        Свойства класса [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) позволяют вам управлять процессом преобразования, подробнее об этом [здесь](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Например, вы можете встроить все внешние ресурсы в выходной HTML-файл, минимизировать выходной файл и оптимизировать его для печати.
+        Свойства класса [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) позволяют вам управлять процессом преобразования, подробнее об этом [здесь](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Например, вы можете встроить все внешние ресурсы в выходной HTML-файл, минимизировать выходной файл и оптимизировать его для печати.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Создать экземпляр просмотра
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Установите параметры вывода HTML
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Преобразование DOCX в HTML со встроенными ресурсами
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Экспорт PPTX в PDF"
       content: |
-        Создайте экземпляр класса [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) и передайте его в [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) для преобразования файла PowerPoint PPTX в PDF. Свойства класса PdfViewOptions позволяют управлять процессом преобразования. Например, вы можете защитить выходной PDF-файл, изменить порядок его страниц и указать качество изображений документа. Подробности см. в [следующем разделе документации](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+        Создайте экземпляр класса [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) и передайте его в [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) для преобразования файла PowerPoint PPTX в PDF. Свойства класса PdfViewOptions позволяют управлять процессом преобразования. Например, вы можете защитить выходной PDF-файл, изменить порядок его страниц и указать качество изображений документа. Подробности см. в [следующем разделе документации](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Установите параметры вывода PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Экспорт PPTX в PDF       
             viewer.View(viewOptions);
         }
         ```

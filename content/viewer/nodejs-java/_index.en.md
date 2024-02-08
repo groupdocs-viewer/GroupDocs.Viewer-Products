@@ -54,10 +54,10 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Set output HTML options, one file per page
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
+    
     // Instantiate Viewer
     const viewer = new Viewer("resume.pdf")
 
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Set output HTML options, one file per page
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
         // Instantiate Viewer
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Render DOCX to HTML with embedded resources
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Set output PDF options
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
         // Instantiate Viewer
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Export PPTX to PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

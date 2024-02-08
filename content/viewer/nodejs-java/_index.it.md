@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Imposta le opzioni HTML di output, un file per pagina
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Visualizzatore di istanze
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Renderizza PDF in HTML con risorse incorporate
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Imposta le opzioni HTML di output, un file per pagina
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Visualizzatore di istanze
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Renderizza DOCX in HTML con risorse incorporate
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "Esporta PPTX in PDF"
       content: |
-        Crea un'istanza della classe "PdfViewOptions" e passala al metodo "Viewer.view" per convertire un file PowerPoint PPTX in PDF. Le proprietà della classe "PdfViewOptions" ti consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [sezione della documentazione seguente](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) per i dettagli.
+        Crea un'istanza della classe PdfViewOptions e passala al metodo Viewer.view per convertire un file PowerPoint PPTX in PDF. Le proprietà della classe PdfViewOptions ti consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [sezione della documentazione seguente](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) per i dettagli.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Imposta le opzioni PDF di output
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Visualizzatore di istanze
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Esporta PPTX in PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

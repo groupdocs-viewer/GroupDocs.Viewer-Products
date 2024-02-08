@@ -42,8 +42,8 @@ actions:
   description: "Próbálja ki ingyenesen a GroupDocs.Viewer funkcióit, vagy kérjen licencet"
 
 release:
-  title: "A(z) {0} verzió megjelent"
-  notes: "Tekintse meg az újdonságokat"
+  title: "{0} verzió megjelent"
+  notes: "Tekintse újdonságokat"
   downloads: "Letöltések"
   link: "https://releases.groupdocs.com/viewer/net/release-notes/latest/"
 
@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Töltse be a forrás PDF-fájlt
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Állítsa be a kimeneti HTML-beállításokat
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Rendereljen PDF-et HTML-be        
         viewer.View(viewOptions);
     }
     ```
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "Támogatott fájlformátumok"
   description: |
-    A GroupDocs.Viewer for .NET a következő [fájlformátumokkal] (https://docs.groupdocs.com/viewer/net/supported-document-formats/) támogatja a műveleteket.
+    A GroupDocs.Viewer for .NET a következő [fájlformátumokkal](https://docs.groupdocs.com/viewer/net/supported-document-formats/) támogatja a műveleteket.
   groups:
     # group loop
     - color: "green"
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "A DOCX renderelése HTML-be"
       content: |
-        A [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) osztálytulajdonságok lehetővé teszik az átalakítási folyamat vezérlését, erről bővebben [itt](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Például beágyazhat minden külső erőforrást a kimeneti HTML-fájlba, kicsinyítheti a kimeneti fájlt, és optimalizálhatja a nyomtatáshoz.
+        A [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) osztálytulajdonságok lehetővé teszik az átalakítási folyamat vezérlését, erről bővebben [itt](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Például beágyazhat minden külső erőforrást a kimeneti HTML-fájlba, kicsinyítheti a kimeneti fájlt, és optimalizálhatja a nyomtatáshoz.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Példányos néző
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Állítsa be a kimeneti HTML-beállításokat
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // A DOCX renderelése HTML formátumban beágyazott erőforrásokkal
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "PPTX exportálása PDF-be"
       content: |
-        Hozzon létre egy [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) osztálypéldányt, és adja át a [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) módszerrel konvertálhat egy PowerPoint PPTX fájlt PDF formátumba. A PdfViewOptions osztály tulajdonságai lehetővé teszik az átalakítási folyamat vezérlését. Például védheti a kimeneti PDF-fájlt, átrendezheti az oldalait, és megadhatja a dokumentumképek minőségét. A részletekért tekintse meg a [következő dokumentációs részt](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+        Hozzon létre egy [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) osztálypéldányt, és adja át a [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) módszerrel konvertálhat egy PowerPoint PPTX fájlt PDF formátumba. A PdfViewOptions osztály tulajdonságai lehetővé teszik az átalakítási folyamat vezérlését. Például védheti a kimeneti PDF-fájlt, átrendezheti az oldalait, és megadhatja a dokumentumképek minőségét. A részletekért tekintse meg a [következő dokumentációs részt](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Állítsa be a kimeneti PDF-beállításokat       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // PPTX exportálása PDF-be       
             viewer.View(viewOptions);
         }
         ```

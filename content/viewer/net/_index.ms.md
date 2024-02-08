@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Muatkan fail PDF sumber
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Tetapkan pilihan HTML output
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Render PDF kepada HTML dengan sumber terbenam        
         viewer.View(viewOptions);
     }
     ```
@@ -124,7 +124,7 @@ formats:
   enable: true
   title: "Format fail yang disokong"
   description: |
-    GroupDocs.Viewer untuk .NET menyokong operasi dengan [format fail] berikut (https://docs.groupdocs.com/viewer/net/supported-document-formats/).
+    GroupDocs.Viewer untuk .NET menyokong operasi dengan berikut [format fail](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Render DOCX kepada HTML"
       content: |
-        Sifat kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) membolehkan anda mengawal proses penukaran, lebih lanjut mengenainya [di sini](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Sebagai contoh, anda boleh membenamkan semua sumber luaran dalam fail HTML output, mengecilkan fail output dan mengoptimumkannya untuk pencetakan.
+        Sifat kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) membolehkan anda mengawal proses penukaran, lebih lanjut mengenainya [di sini](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Sebagai contoh, anda boleh membenamkan semua sumber luaran dalam fail HTML output, mengecilkan fail output dan mengoptimumkannya untuk pencetakan.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Penonton segera
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Tetapkan pilihan HTML output
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Render DOCX kepada HTML dengan sumber terbenam
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Eksport PPTX ke PDF"
       content: |
-        Cipta tika kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) dan hantar ke [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) kaedah untuk menukar fail PowerPoint PPTX kepada PDF. Sifat kelas PdfViewOptions membolehkan anda mengawal proses penukaran. Sebagai contoh, anda boleh melindungi fail PDF output, menyusun semula halamannya dan menentukan kualiti imej dokumen. Rujuk [bahagian dokumentasi berikut](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) untuk butiran.
+        Cipta tika kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) dan hantar ke [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) kaedah untuk menukar fail PowerPoint PPTX kepada PDF. Sifat kelas PdfViewOptions membolehkan anda mengawal proses penukaran. Sebagai contoh, anda boleh melindungi fail PDF output, menyusun semula halamannya dan menentukan kualiti imej dokumen. Rujuk [bahagian dokumentasi berikut](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) untuk butiran.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Tetapkan pilihan PDF output       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Eksport PPTX ke PDF       
             viewer.View(viewOptions);
         }
         ```

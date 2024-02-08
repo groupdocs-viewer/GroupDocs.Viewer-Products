@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Завантажте вихідний файл PDF
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Встановити вихідні параметри HTML
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Перетворіть PDF у HTML        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Перетворення DOCX у HTML"
       content: |
-        Властивості класу [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) дозволяють контролювати процес перетворення, більше про це [тут](https://docs .groupdocs.com/viewer/net/rendering-to-html/). Наприклад, ви можете вбудувати всі зовнішні ресурси у вихідний HTML-файл, зменшити вихідний файл і оптимізувати його для друку.
+        Властивості класу [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) дозволяють контролювати процес перетворення, більше про це [тут](https://docs.groupdocs.com/viewer/net/rendering-to-html/). Наприклад, ви можете вбудувати всі зовнішні ресурси у вихідний HTML-файл, зменшити вихідний файл і оптимізувати його для друку.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Переглядач екземплярів
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Встановіть параметри вихідного HTML
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Перетворіть DOCX у HTML за допомогою вбудованих ресурсів
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Експорт PPTX у PDF"
       content: |
-        Створіть екземпляр класу [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) і передайте його в [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) для перетворення файлу PowerPoint PPTX у PDF. Властивості класу PdfViewOptions дозволяють контролювати процес перетворення. Наприклад, ви можете захистити вихідний PDF-файл, змінити порядок його сторінок і вказати якість зображень документів. Зверніться до [наступного розділу документації](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/), щоб дізнатися більше.
+        Створіть екземпляр класу [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) і передайте його в [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) для перетворення файлу PowerPoint PPTX у PDF. Властивості класу PdfViewOptions дозволяють контролювати процес перетворення. Наприклад, ви можете захистити вихідний PDF-файл, змінити порядок його сторінок і вказати якість зображень документів. Зверніться до [наступного розділу документації](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/), щоб дізнатися більше.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Встановіть параметри вихідного PDF       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Експорт PPTX у PDF       
             viewer.View(viewOptions);
         }
         ```

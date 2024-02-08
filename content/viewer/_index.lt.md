@@ -70,7 +70,7 @@ supported_platforms:
         - content: "180 ir daugiau failų formatų"
           rows: "1"
         # features loop
-        - content:  "UI paketas, skirtas „Spring“ ir „Dropwizard“."
+        - content:  "UI paketas, skirtas Spring ir Dropwizard."
           rows: "1"
         # features loop
         - content:  "Spring Demo  <br>  Dropwizard demo"
@@ -139,7 +139,7 @@ code_samples:
     # code sample loop
     - title: "Kaip paversti DOCX failus į PDF"
       content: |
-       Pateikite DOCX dokumentus į PDF neįdiegę „Microsoft Word“ ar kitos programinės įrangos. Lengvai įkelkite ir peržiūrėkite DOCX failus savo .NET programoje, nesvarbu, ar tai žiniatinklio, ar darbalaukio programa. Štai pavyzdys, kaip pateikti DOCX failą į PDF:
+       Pateikite DOCX dokumentus į PDF neįdiegę Microsoft Word ar kitos programinės įrangos. Lengvai įkelkite ir peržiūrėkite DOCX failus savo .NET programoje, nesvarbu, ar tai žiniatinklio, ar darbalaukio programa. Štai pavyzdys, kaip pateikti DOCX failą į PDF:
       samples:
         - language: "C#"
           color: "blue"
@@ -202,7 +202,7 @@ metrics:
     # metrics loop
     - number: "1.0M"
       title: "NuGet atsisiuntimai"
-      content: "Mūsų „NuGet“ paketo sprendimas tapo patikimu ir plačiai naudojamu šaltiniu kūrėjų bendruomenėje, užtikrinančiu sklandžią integraciją ir vertingas daugybę projektų."
+      content: "Mūsų NuGet paketo sprendimas tapo patikimu ir plačiai naudojamu šaltiniu kūrėjų bendruomenėje, užtikrinančiu sklandžią integraciją ir vertingas daugybę projektų."
 
     # metrics loop
     - number: "10+"
@@ -300,7 +300,7 @@ faq:
       answer: |
         Visus produktus galima atsisiųsti iš [svetainės](https://releases.groupdocs.com). Mes nesiunčiame fizinių programinės įrangos kopijų paštu.    
     #  loop
-    - question: "Ar „GroupDocs“ kūrėjo licencijos suteikiamos vienam vartotojui, ar nurodytam naudotojui?"
+    - question: "Ar GroupDocs kūrėjo licencijos suteikiamos vienam vartotojui, ar nurodytam naudotojui?"
       answer: |
         GroupDocs kūrėjo licencijos yra vienam vartotojui, o ne nurodytam vartotojui. Suprantame, kad kodavimo komandos nariai laikui bėgant gali keistis ir kad nepraktiška kiekvieną kartą atnaujinti licenciją.
     #  loop
@@ -331,7 +331,7 @@ cloud_links:
     - icon: "groupdocs_viewer-for-java"
       title: "GroupDocs.Viewer Cloud for Java"
       link: "https://products.groupdocs.cloud/viewer/java"
-      content: "Integruokite pažangias dokumentų atvaizdavimo galimybes į savo „Java“ programas naudodami specialiai sukurtą „Java“ skirtą Document Viewer SDK."
+      content: "Integruokite pažangias dokumentų atvaizdavimo galimybes į savo Java programas naudodami specialiai sukurtą Java skirtą Document Viewer SDK."
 
 ############################# Apps ############################
 
@@ -351,7 +351,7 @@ app_links:
     - icon: "groupdocs_words-app"
       title:  "GroupDocs.Viewer DOCX"
       link: "https://products.groupdocs.app/viewer/docx"
-      content: "Internetinis įrankis, leidžiantis lengvai peržiūrėti „Microsoft Word“ failus įvairiuose įrenginiuose."
+      content: "Internetinis įrankis, leidžiantis lengvai peržiūrėti Microsoft Word failus įvairiuose įrenginiuose."
 
     #  loop
     - icon: "groupdocs_pdf-app"

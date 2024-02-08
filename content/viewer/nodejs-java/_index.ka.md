@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // დააყენეთ გამომავალი HTML პარამეტრები
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
+    
     // Instantiate Viewer
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // PDF-ის გადატანა HTML-ში ჩაშენებული რესურსებით
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "მხარდაჭერილი ფაილის ფორმატები"
   description: |
-    GroupDocs.Viewer for Node.js-ისთვის Java-ს მეშვეობით მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer for Node.js-ისთვის Java-ს მეშვეობით მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "DOCX-ის გადაცემა HTML-ში"
       content: |
-        `HtmlViewOptions` კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ] (https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
+        `HtmlViewOptions` კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი, მეტი ამის შესახებ [აქ](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). მაგალითად, თქვენ შეგიძლიათ ჩართოთ ყველა გარე რესურსი გამომავალ HTML ფაილში, შეამციროთ გამომავალი ფაილი და ოპტიმიზაცია მოახდინოთ დასაბეჭდად.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // დააყენეთ გამომავალი HTML პარამეტრები
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
         // Instantiate Viewer
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // DOCX-ის გადაცემა HTML-ში ჩაშენებული რესურსებით
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "ექსპორტი PPTX PDF-ში"
       content: |
-        შექმენით `PdfViewOptions` კლასის ეგზემპლარი და გადაიტანეთ ის `Viewer.view` მეთოდზე PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. `PdfViewOptions` კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება] (https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) დეტალებისთვის.
+        შექმენით `PdfViewOptions` კლასის ეგზემპლარი და გადაიტანეთ ის `Viewer.view` მეთოდზე PowerPoint PPTX ფაილის PDF-ში გადასაყვანად. `PdfViewOptions` კლასის თვისებები საშუალებას გაძლევთ აკონტროლოთ კონვერტაციის პროცესი. მაგალითად, შეგიძლიათ დაიცვათ გამომავალი PDF ფაილი, გადააკეთოთ მისი გვერდები და მიუთითოთ დოკუმენტის სურათების ხარისხი. იხილეთ [დოკუმენტაციის შემდეგი განყოფილება](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) დეტალებისთვის.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // დააყენეთ გამომავალი PDF პარამეტრები
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
         // Instantiate Viewer
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // ექსპორტი PPTX PDF-ში
         viewer.view(viewOptions)
         viewer.close()
         ```

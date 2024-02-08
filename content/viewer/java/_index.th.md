@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // สร้างอินสแตนซ์ของผู้ดู 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // ตั้งค่าตัวเลือก HTML เอาต์พุต หนึ่งไฟล์ต่อหน้า  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // เรนเดอร์ PDF เป็น HTML ด้วยทรัพยากรที่ฝังอยู่
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "เรนเดอร์ DOCX เป็น HTML"
       content: |
-        คุณสมบัติคลาส [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) ช่วยให้คุณควบคุมกระบวนการแปลงได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับ [ที่นี่](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/) ตัวอย่างเช่น คุณสามารถฝังทรัพยากรภายนอกทั้งหมดในไฟล์ HTML เอาต์พุต ย่อขนาดไฟล์เอาต์พุต และปรับให้เหมาะสมสำหรับการพิมพ์
+        คุณสมบัติคลาส [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) ช่วยให้คุณควบคุมกระบวนการแปลงได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับ [ที่นี่](https://docs.groupdocs.com/viewer/java/rendering-to-html/) ตัวอย่างเช่น คุณสามารถฝังทรัพยากรภายนอกทั้งหมดในไฟล์ HTML เอาต์พุต ย่อขนาดไฟล์เอาต์พุต และปรับให้เหมาะสมสำหรับการพิมพ์
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // สร้างอินสแตนซ์ของผู้ดู
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // ตั้งค่าตัวเลือก HTML เอาท์พุต
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // เรนเดอร์ DOCX เป็น HTML ด้วยทรัพยากรที่ฝังอยู่
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "ส่งออก PPTX เป็น PDF"
       content: |
-        สร้างอินสแตนซ์คลาส [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) แล้วส่งต่อไปยังอินสแตนซ์คลาส [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) วิธีการแปลงไฟล์ PowerPoint PPTX เป็น PDF คุณสมบัติคลาส PdfViewOptions ช่วยให้คุณสามารถควบคุมกระบวนการแปลงได้ ตัวอย่างเช่น คุณสามารถป้องกันไฟล์ PDF เอาต์พุต เรียงลำดับหน้าใหม่ และระบุคุณภาพของรูปภาพเอกสารได้ โปรดดูรายละเอียดใน[ส่วนเอกสารประกอบต่อไปนี้](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)
+        สร้างอินสแตนซ์คลาส [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) แล้วส่งต่อไปยังอินสแตนซ์คลาส [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) วิธีการแปลงไฟล์ PowerPoint PPTX เป็น PDF คุณสมบัติคลาส PdfViewOptions ช่วยให้คุณสามารถควบคุมกระบวนการแปลงได้ ตัวอย่างเช่น คุณสามารถป้องกันไฟล์ PDF เอาต์พุต เรียงลำดับหน้าใหม่ และระบุคุณภาพของรูปภาพเอกสารได้ โปรดดูรายละเอียดใน[ส่วนเอกสารประกอบต่อไปนี้](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // สร้างอินสแตนซ์ของผู้ดู
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // ตั้งค่าตัวเลือกเอาต์พุต PDF
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // ส่งออก PPTX เป็น PDF
             viewer.view(viewOptions);
         }
         ```

@@ -42,7 +42,7 @@ actions:
   description: "Δοκιμάστε τις δυνατότητες του GroupDocs.Viewer δωρεάν ή ζητήστε άδεια"
 
 release:
-  title: "Η έκδοση {0} κυκλοφόρησε"
+  title: "{0} κυκλοφόρησε"
   notes: "Δείτε τι νέο υπάρχει"
   downloads: "Λήψεις"
   link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instantiate Viewer 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Ορίστε επιλογές εξόδου HTML  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Αποδώστε το PDF σε HTML
         viewer.view(viewOptions);
     }
     ```
@@ -243,7 +243,7 @@ code_samples:
     # code sample loop
     - title: "Αποδώστε το DOCX σε HTML"
       content: |
-        Οι ιδιότητες κλάσης [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής, περισσότερα σχετικά [εδώ](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Για παράδειγμα, μπορείτε να ενσωματώσετε όλους τους εξωτερικούς πόρους στο αρχείο HTML εξόδου, να ελαχιστοποιήσετε το αρχείο εξόδου και να το βελτιστοποιήσετε για εκτύπωση.
+        Οι ιδιότητες κλάσης [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής, περισσότερα σχετικά [εδώ](https://docs.groupdocs.com/viewer/java/rendering-to-html/). Για παράδειγμα, μπορείτε να ενσωματώσετε όλους τους εξωτερικούς πόρους στο αρχείο HTML εξόδου, να ελαχιστοποιήσετε το αρχείο εξόδου και να το βελτιστοποιήσετε για εκτύπωση.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
@@ -252,11 +252,11 @@ code_samples:
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Ορισμός επιλογών εξόδου HTML
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Αποδώστε το DOCX σε HTML με ενσωματωμένους πόρους
             viewer.view(options);
         }
         ```
@@ -264,7 +264,7 @@ code_samples:
     # code sample loop
     - title: "Εξαγωγή PPTX σε PDF"
       content: |
-        Δημιουργήστε μια παρουσία κλάσης [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) και περάστε την στο [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) μέθοδος για τη μετατροπή ενός αρχείου PowerPoint PPTX σε PDF. Οι ιδιότητες κλάσης PdfViewOptions σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής. Για παράδειγμα, μπορείτε να προστατεύσετε το αρχείο PDF εξόδου, να αναδιατάξετε τις σελίδες του και να καθορίσετε την ποιότητα των εικόνων του εγγράφου. Ανατρέξτε στην [ακόλουθη ενότητα τεκμηρίωσης](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) για λεπτομέρειες.
+        Δημιουργήστε μια παρουσία κλάσης [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) και περάστε την στο [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) μέθοδος για τη μετατροπή ενός αρχείου PowerPoint PPTX σε PDF. Οι ιδιότητες κλάσης PdfViewOptions σάς επιτρέπουν να ελέγχετε τη διαδικασία μετατροπής. Για παράδειγμα, μπορείτε να προστατεύσετε το αρχείο PDF εξόδου, να αναδιατάξετε τις σελίδες του και να καθορίσετε την ποιότητα των εικόνων του εγγράφου. Ανατρέξτε στην [ακόλουθη ενότητα τεκμηρίωσης](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) για λεπτομέρειες.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
@@ -272,11 +272,11 @@ code_samples:
 
         // Instantiate Viewer
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Ορίστε τις επιλογές PDF εξόδου
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // Εξαγωγή PPTX σε PDF
             viewer.view(viewOptions);
         }
         ```

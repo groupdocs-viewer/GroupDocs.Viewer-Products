@@ -302,7 +302,7 @@ faq:
     #  loop
     - question: "Le licenze per sviluppatori di GroupDocs sono per utente o per utente nominato?"
       answer: |
-        Le licenze per sviluppatori GroupDocs sono per utente, non per utente nominato. Comprendiamo che i membri di un team di codifica possono cambiare nel tempo e che non è pratico dover aggiornare la licenza ogni volta che ciò accade.
+        Le licenze per sviluppatori GroupDocs sono per utente, non per utente nominato. Сomprendiamo che i membri di un team di codifica possono cambiare nel tempo e che non è pratico dover aggiornare la licenza ogni volta che ciò accade.
     #  loop
     - question: "Abbiamo bisogno di licenze solo per gli sviluppatori attivi? Ad esempio, abbiamo un team di due sviluppatori che lavorano nel turno A e un secondo team di due sviluppatori che lavorano nel turno B… in questa situazione, abbiamo bisogno di due o quattro licenze?"
       answer: |

@@ -44,7 +44,7 @@ actions:
 
 release:
   title: "Version {0} publiée"
-  notes: "Regardez ce qu'il y a de nouveau"
+  notes: "Nouveautés"
   downloads: "Téléchargements"
   link: "https://releases.groupdocs.com/viewer/nodejs-java/release-notes/latest/"
 
@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // Définir les options HTML de sortie
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Instancier la visionneuse
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Rendu PDF en HTML avec des ressources intégrées
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -197,7 +197,7 @@ features:
     # feature loop
     - icon: "adjustment"
       title: "Ajustement de la sortie HTML"
-      content: "Les documents HTML de sortie, générés par GroupDocs.Viewer, peuvent être réglés très finement : il est permis de les enregistrer dans le flux ou dans un fichier, avec des ressources externes ou intégrées, des rappels, etc."
+      content: "Les documents HTML de sortie, générés par GroupDocs.Viewer, peuvent être réglés très finement: il est permis de les enregistrer dans le flux ou dans un fichier, avec des ressources externes ou intégrées, des rappels, etc."
 
     # feature loop
     - icon: "complex"
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // Définir les options HTML de sortie
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Instancier la visionneuse
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Rendre DOCX en HTML avec des ressources intégrées
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -247,13 +247,13 @@ code_samples:
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Définir les options du PDF de sortie
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Instancier la visionneuse
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // Exporter PPTX en PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

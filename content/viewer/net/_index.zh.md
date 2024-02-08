@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // 加载源 PDF 文件
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // 设置输出 HTML 选项，每页一个文件
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // 使用嵌入资源将 PDF 渲染为 HTML        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "将 DOCX 渲染为 HTML"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息[此处](https://docs .groupdocs.com/viewer/net/rendering-to-html/)。 例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息[此处](https://docs.groupdocs.com/viewer/net/rendering-to-html/)。 例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // 实例化查看器
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // 设置输出 HTML 选项
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // 使用嵌入资源将 DOCX 渲染为 HTML
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "将 PPTX 导出为 PDF"
       content: |
-        创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) 方法将 PowerPoint PPTX 文件转换为 PDF。 PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)。
+        创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) 方法将 PowerPoint PPTX 文件转换为 PDF。 PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)。
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // 设置输出 PDF 选项       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // 将 PPTX 导出为 PDF       
             viewer.View(viewOptions);
         }
         ```

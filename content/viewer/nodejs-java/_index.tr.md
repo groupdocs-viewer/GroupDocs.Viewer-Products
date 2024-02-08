@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // HTML çıktı seçeneklerini ayarlama
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // Örnek Görüntüleyici
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // Gömülü kaynaklarla PDF'yi HTML'ye dönüştürün
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // HTML çıktı seçeneklerini ayarlama
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // Örnek Görüntüleyici
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // Gömülü kaynaklarla DOCX'i HTML'ye dönüştürün
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "PPTX'i PDF'ye aktar"
       content: |
-        Bir "PdfViewOptions" sınıfı örneği oluşturun ve bunu bir PowerPoint PPTX dosyasını PDF'ye dönüştürmek için "Viewer.view" yöntemine aktarın. 'PdfViewOptions' sınıfının özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır. Örneğin, çıktı PDF dosyasını koruyabilir, sayfalarını yeniden sıralayabilir ve belge görüntülerinin kalitesini belirleyebilirsiniz. Ayrıntılar için [aşağıdaki belgeler bölümüne](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) bakın.
+        Bir `PdfViewOptions` sınıfı örneği oluşturun ve bunu bir PowerPoint PPTX dosyasını PDF'ye dönüştürmek için `Viewer.view` yöntemine aktarın. `PdfViewOptions` sınıfının özellikleri, dönüştürme sürecini kontrol etmenize olanak tanır. Örneğin, çıktı PDF dosyasını koruyabilir, sayfalarını yeniden sıralayabilir ve belge görüntülerinin kalitesini belirleyebilirsiniz. Ayrıntılar için [aşağıdaki belgeler bölümüne](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) bakın.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // Çıktı PDF seçeneklerini ayarlama
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // Örnek Görüntüleyici
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // PPTX'i PDF'ye aktar
         viewer.view(viewOptions)
         viewer.close()
         ```

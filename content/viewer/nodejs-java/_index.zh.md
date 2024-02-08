@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // 设置输出 HTML 选项，每页一个文件
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // 实例化查看器
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // 使用嵌入资源将 PDF 渲染为 HTML
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -228,13 +228,13 @@ code_samples:
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // 设置输出 HTML 选项，每页一个文件
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // 实例化查看器
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // 使用嵌入资源将 DOCX 渲染为 HTML
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "将 PPTX 导出为 PDF"
       content: |
-        创建一个“PdfViewOptions”类实例并将其传递给“Viewer.view”方法以将 PowerPoint PPTX 文件转换为 PDF。 `PdfViewOptions` 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)。
+        创建一个PdfViewOptions”类实例并将其传递给Viewer.view”方法以将 PowerPoint PPTX 文件转换为 PDF。 `PdfViewOptions` 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)。
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // 设置输出 PDF 选项
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // 实例化查看器
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // 将 PPTX 导出为 PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

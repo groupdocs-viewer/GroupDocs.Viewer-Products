@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // قم بتعيين خيارات HTML للإخراج، ملف واحد لكل صفحة
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
-    // Instantiate Viewer
+    
+    // إنشاء مثيل للعارض
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // تحويل PDF إلى HTML باستخدام الموارد المضمنة
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "تنسيقات الملفات المدعومة"
   description: |
-    يدعم GroupDocs.Viewer لـ Node.js عبر Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    يدعم GroupDocs.Viewer لـ Node.js عبر Java العمليات باستخدام التالية [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "تقديم DOCX إلى HTML"
       content: |
-        تتيح لك خصائص فئة `HtmlViewOptions` التحكم في عملية التحويل، المزيد عن ذلك [هنا](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). على سبيل المثال، يمكنك تضمين كافة الموارد الخارجية في ملف HTML الناتج، وتصغير ملف الإخراج، وتحسينه للطباعة.
+        تيح لك خصائص فئة التحكم في عملية التحويل، المزيد عن ذلا على سبيل المثال، يمكنك تضمين كافة الموارد الخارجية في ملف HTML الناتج، وتصغير ملف الإخراج، وتحسينه للطباعة.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // قم بتعيين خيارات HTML للإخراج، ملف واحد لكل صفحة
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
-        // Instantiate Viewer
+        // إنشاء مثيل للعارض
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // تحويل DOCX إلى HTML باستخدام الموارد المضمنة
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "تصدير PPTX إلى PDF"
       content: |
-        قم بإنشاء مثيل فئة `PdfViewOptions` وقم بتمريره إلى طريقة `Viewer.view` لتحويل ملف PowerPoint PPTX إلى PDF. تتيح لك خصائص فئة `PdfViewOptions` التحكم في عملية التحويل. على سبيل المثال، يمكنك حماية ملف PDF الناتج وإعادة ترتيب صفحاته وتحديد جودة صور المستند. راجع [قسم الوثائق التالي](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) للحصول على التفاصيل.
+        قم بإنشاء مثيل فئة `PdfViewOptions` وقم بتمريره إلى طريقة `Viewer.view` لتحويل ملف PowerPoint PPTX إلى PDF. تتيح لك خصائص فئة `PdfViewOptions` التحكم في عملية التحويل. على سبيل المثال، يمكنك حماية ملف الناتج وإعادة ترتيب صفحاته وتحديد جودة صور المستند. راجع [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) للحصول على التفاصيل.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // ضبط خيارات إخراج PDF
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
-        // Instantiate Viewer
+        // إنشاء مثيل للعارض
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // تصدير PPTX إلى PDF
         viewer.view(viewOptions)
         viewer.close()
         ```

@@ -54,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.viewer"
   content: |
-    ```javascript {style=abap}   
-    //Set output HTML options, one file per page
+    ```javascript {style=abap}       
+    // گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه
     const viewOptions = HtmlViewOptions.forEmbeddedResources()
-
+    
     // Instantiate Viewer
     const viewer = new Viewer("resume.pdf")
 
-    // Render PDF to HTML with embedded resources
+    // PDF را با منابع تعبیه شده به HTML ارائه دهید
     viewer.view(viewOptions)
     viewer.close()
     ```
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Viewer برای Node.js از طریق جاوا از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
+    GroupDocs.Viewer برای Node.js از طریق جاوا از عملیات ب زیر پشتیبانی می‌کند [formats](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -223,18 +223,18 @@ code_samples:
     # code sample loop
     - title: "DOCX را به HTML رندر کنید"
       content: |
-        ویژگی‌های کلاس «HtmlViewOptions» به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، بیشتر در مورد آن [اینجا] (https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.
+        ویژگی‌های کلاس  به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، بیشتر در مورد آن [HtmlViewOptions](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/). به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}
         import { Viewer, HtmlViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output HTML options, one file per page
+        // گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه
         const viewOptions = HtmlViewOptions.forEmbeddedResources()
 
         // Instantiate Viewer
         const viewer = new Viewer("resume.docx")
 
-        // Render PDF to HTML with embedded resources
+        // DOCX را با منابع جاسازی شده به HTML ارائه دهید
         viewer.view(viewOptions)
         viewer.close()
         ```
@@ -242,18 +242,18 @@ code_samples:
     # code sample loop
     - title: "PPTX را به PDF صادر کنید"
       content: |
-        یک نمونه کلاس «PdfViewOptions» ایجاد کنید و آن را به روش «Viewer.view» منتقل کنید تا یک فایل پاورپوینت PPTX را به PDF تبدیل کنید. ویژگی های کلاس `PdfViewOptions` به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل PDF خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات بیشتر به [بخش مستندات زیر] (https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) مراجعه کنید.
+        یک نمونه کلاس PdfViewOptions ایجاد کنید و آن را به روش Viewer.view منتقل کنید تا یک فایل پاورپوینت PPTX را به PDF تبدیل کنید. ویژگی های کلاس `PdfViewOptions` به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل PDF خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات بیشتر ب [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) مراجعه کنید.
         {{< landing/code title="JavaScript">}}
         ```javascript {style=abap}   
         import { Viewer, PdfViewOptions } from '@groupdocs/groupdocs.viewer'
 
-        //Set output PDF options
+        // گزینه های PDF خروجی را تنظیم کنید
         const viewOptions = new PdfViewOptions("presentation.pdf")
 
         // Instantiate Viewer
         const viewer = new Viewer("presentation.pptx")
 
-        // Render PDF to HTML with embedded resources
+        // PPTX را به PDF صادر کنید
         viewer.view(viewOptions)
         viewer.close()
         ```

@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // 인스턴스화 뷰어 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // 출력 HTML 옵션 설정(페이지당 파일 1개)  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // 포함된 리소스를 사용하여 PDF를 HTML로 렌더링
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "DOCX를 HTML로 렌더링"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 이에 대한 자세한 내용은 [여기](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). 예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 이에 대한 자세한 내용은 [여기](https://docs.groupdocs.com/viewer/java/rendering-to-html/). 예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // 인스턴스화 뷰어
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // 출력 HTML 옵션 설정
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // 포함된 리소스를 사용하여 DOCX를 HTML로 렌더링
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "PPTX를 PDF로 내보내기"
       content: |
-        [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 클래스 인스턴스를 생성하고 이를 [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) 메서드를 사용하여 PowerPoint PPTX 파일을 PDF로 변환할 수 있습니다. PdfViewOptions 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)을 참조하세요.
+        [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 클래스 인스턴스를 생성하고 이를 [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) 메서드를 사용하여 PowerPoint PPTX 파일을 PDF로 변환할 수 있습니다. PdfViewOptions 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)을 참조하세요.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // 인스턴스화 뷰어
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // 출력 PDF 옵션 설정
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // PPTX를 PDF로 내보내기
             viewer.view(viewOptions);
         }
         ```

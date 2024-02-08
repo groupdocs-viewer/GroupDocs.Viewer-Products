@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Переглядач екземплярів 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Встановити вихідні параметри HTML  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Перетворіть PDF у HTML
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "Перетворення DOCX у HTML"
       content: |
-        Властивості класу [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) дозволяють контролювати процес перетворення, докладніше [тут](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Наприклад, ви можете вбудувати всі зовнішні ресурси у вихідний HTML-файл, зменшити вихідний файл і оптимізувати його для друку.
+        Властивості класу [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) дозволяють контролювати процес перетворення, докладніше [тут](https://docs.groupdocs.com/viewer/java/rendering-to-html/). Наприклад, ви можете вбудувати всі зовнішні ресурси у вихідний HTML-файл, зменшити вихідний файл і оптимізувати його для друку.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // Переглядач екземплярів
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Встановіть параметри вихідного HTML
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Перетворіть DOCX у HTML за допомогою вбудованих ресурсів
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "Експорт PPTX у PDF"
       content: |
-        Створіть екземпляр класу [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) і передайте його в [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-), щоб конвертувати файл PowerPoint PPTX у PDF. Властивості класу PdfViewOptions дозволяють контролювати процес перетворення. Наприклад, ви можете захистити вихідний PDF-файл, змінити порядок його сторінок і вказати якість зображень документів. Зверніться до [наступного розділу документації](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/), щоб дізнатися більше.
+        Створіть екземпляр класу [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) і передайте його в [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-), щоб конвертувати файл PowerPoint PPTX у PDF. Властивості класу PdfViewOptions дозволяють контролювати процес перетворення. Наприклад, ви можете захистити вихідний PDF-файл, змінити порядок його сторінок і вказати якість зображень документів. Зверніться до [наступного розділу документації](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/), щоб дізнатися більше.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // Переглядач екземплярів
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Встановіть параметри вихідного PDF
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // Експорт PPTX у PDF
             viewer.view(viewOptions);
         }
         ```

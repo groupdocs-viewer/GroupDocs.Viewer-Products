@@ -43,7 +43,7 @@ actions:
 
 release:
   title: "Version {0} publiée"
-  notes: "Regardez ce qu'il y a de nouveau"
+  notes: "Nouveautés"
   downloads: "Téléchargements"
   link: "https://releases.groupdocs.com/viewer/java/release-notes/latest/"
 
@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // Instancier la visionneuse 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Définir les options HTML de sortie  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // Rendu PDF en HTML avec des ressources intégrées
         viewer.view(viewOptions);
     }
     ```
@@ -217,7 +217,7 @@ features:
     # feature loop
     - icon: "adjustment"
       title: "Ajustement de la sortie HTML"
-      content: "Les documents HTML de sortie, générés par GroupDocs.Viewer, peuvent être réglés très finement : il est permis de les enregistrer dans le flux ou dans un fichier, avec des ressources externes ou intégrées, des rappels, etc."
+      content: "Les documents HTML de sortie, générés par GroupDocs.Viewer, peuvent être réglés très finement: il est permis de les enregistrer dans le flux ou dans un fichier, avec des ressources externes ou intégrées, des rappels, etc."
 
     # feature loop
     - icon: "complex"
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "Rendre DOCX en HTML"
       content: |
-        Les propriétés de classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) vous permettent de contrôler le processus de conversion, plus d'informations à ce sujet [ici](https:/ /docs.groupdocs.com/viewer/java/rendering-to-html/). Par exemple, vous pouvez intégrer toutes les ressources externes dans le fichier HTML de sortie, réduire le fichier de sortie et l'optimiser pour l'impression.
+        Les propriétés de classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) vous permettent de contrôler le processus de conversion, plus d'informations à ce sujet [ici](https://docs.groupdocs.com/viewer/java/rendering-to-html/). Par exemple, vous pouvez intégrer toutes les ressources externes dans le fichier HTML de sortie, réduire le fichier de sortie et l'optimiser pour l'impression.
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // Instancier la visionneuse
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Définir les options HTML de sortie
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // Rendre DOCX en HTML avec des ressources intégrées
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "Exporter PPTX en PDF"
       content: |
-        Créez une instance de classe [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) et transmettez-la à [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) pour convertir un fichier PowerPoint PPTX en PDF. Les propriétés de la classe PdfViewOptions vous permettent de contrôler le processus de conversion. Par exemple, vous pouvez protéger le fichier PDF de sortie, réorganiser ses pages et spécifier la qualité des images du document. Reportez-vous à la [section de documentation suivante](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) pour plus de détails.
+        Créez une instance de classe [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) et transmettez-la à [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) pour convertir un fichier PowerPoint PPTX en PDF. Les propriétés de la classe PdfViewOptions vous permettent de contrôler le processus de conversion. Par exemple, vous pouvez protéger le fichier PDF de sortie, réorganiser ses pages et spécifier la qualité des images du document. Reportez-vous à la [section de documentation suivante](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) pour plus de détails.
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // Instancier la visionneuse
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // Définir les options du PDF de sortie
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // Exporter PPTX en PDF
             viewer.view(viewOptions);
         }
         ```

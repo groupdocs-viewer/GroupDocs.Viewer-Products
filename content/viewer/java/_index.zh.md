@@ -69,14 +69,14 @@ code:
     </repositories>
   content: |
     ```java {style=abap}
-    // Instantiate Viewer
+    // 实例化查看器 
     try (Viewer viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // 设置输出 HTML 选项，每页一个文件  
         HtmlViewOptions viewOptions = 
-            HtmlViewOptions.forEmbeddedResources();
+        HtmlViewOptions.forEmbeddedResources();
 
-        // Render PDF to HTML with embedded resources
+        // 使用嵌入资源将 PDF 渲染为 HTML
         viewer.view(viewOptions);
     }
     ```
@@ -243,20 +243,20 @@ code_samples:
     # code sample loop
     - title: "将 DOCX 渲染为 HTML"
       content: |
-        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息[此处](https:// /docs.groupdocs.com/viewer/java/rendering-to-html/）。 例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。
+        [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息 此处 例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。
         {{< landing/code title="Java">}}
         ```java {style=abap}
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.HtmlViewOptions;
 
-        // Instantiate Viewer
+        // 实例化查看器
         try (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // 设置输出 HTML 选项
             HtmlViewOptions options = 
-                HtmlViewOptions.forEmbeddedResources();
+            HtmlViewOptions.forEmbeddedResources();
 
-            // Render DOCX to HTML with embedded resources
+            // 使用嵌入资源将 DOCX 渲染为 HTML
             viewer.view(options);
         }
         ```
@@ -264,19 +264,19 @@ code_samples:
     # code sample loop
     - title: "将 PPTX 导出为 PDF"
       content: |
-        创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference. groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) 将 PowerPoint PPTX 文件转换为 PDF 的方法。 PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)。
+        创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions) 将 PowerPoint PPTX 文件转换为 PDF 的方法。 PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)。
         {{< landing/code title="Java">}}
         ```java {style=abap}   
         import com.groupdocs.viewer.Viewer;
         import com.groupdocs.viewer.options.PdfViewOptions;
 
-        // Instantiate Viewer
+        // 实例化查看器
         try (Viewer viewer = new Viewer("presentation.pptx"))
-        {
-            // Set output PDF options
+        {            
+            // 设置输出 PDF 选项
             PdfViewOptions viewOptions = new PdfViewOptions();
 
-            // Export PPTX to PDF
+            // 将 PPTX 导出为 PDF
             viewer.view(viewOptions);
         }
         ```

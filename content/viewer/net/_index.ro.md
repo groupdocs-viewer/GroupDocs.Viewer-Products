@@ -54,14 +54,14 @@ code:
   install: "dotnet add package GroupDocs.Viewer"
   content: |
     ```csharp {style=abap}   
-    // Load the source PDF file
+    // Încărcați fișierul PDF sursă
     using (var viewer = new Viewer("resume.pdf"))
     {
-        // Set output HTML options, one file per page
+        // Setați opțiunile HTML de ieșire, un fișier pe pagină
         var viewOptions = 
-          HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+        HtmlViewOptions.ForEmbeddedResources("page{0}.html");
         
-        // Render PDF to HTML with embedded resources
+        // Redați PDF în HTML cu resurse încorporate        
         viewer.View(viewOptions);
     }
     ```
@@ -228,19 +228,19 @@ code_samples:
     # code sample loop
     - title: "Redați DOCX în HTML"
       content: |
-        Proprietățile clasei [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) vă permit să controlați procesul de conversie, mai multe despre aceasta [aici](https://docs .groupdocs.com/viewer/net/rendering-to-html/). De exemplu, puteți încorpora toate resursele externe în fișierul HTML de ieșire, puteți reduce fișierul de ieșire și îl puteți optimiza pentru imprimare.
+        Proprietățile clasei [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) vă permit să controlați procesul de conversie, mai multe despre aceasta [aici](https://docs.groupdocs.com/viewer/net/rendering-to-html/). De exemplu, puteți încorpora toate resursele externe în fișierul HTML de ieșire, puteți reduce fișierul de ieșire și îl puteți optimiza pentru imprimare.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         using GroupDocs.Viewer;
         using GroupDocs.Viewer.Options;
         
-        // Instantiate viewer
+        // Instanțiază vizualizatorul
         using (Viewer viewer = new Viewer("resume.docx"))
         {
-            // Set output HTML options
+            // Setați opțiunile HTML de ieșire
             HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources();
             
-            // Render DOCX to HTML with embedded resources
+            // Redați DOCX în HTML cu resurse încorporate
             viewer.View(options);
         }
         ```
@@ -248,7 +248,7 @@ code_samples:
     # code sample loop
     - title: "Exportați PPTX în PDF"
       content: |
-        Creați o instanță de clasă [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) și transmiteți-o la [Viewer.View](https://reference.groupdocs. com/viewer/net/groupdocs.viewer/viewer/view/#view) pentru a converti un fișier PowerPoint PPTX în PDF. Proprietățile clasei PdfViewOptions vă permit să controlați procesul de conversie. De exemplu, puteți proteja fișierul PDF de ieșire, puteți reordona paginile acestuia și puteți specifica calitatea imaginilor documentului. Consultați [următoarea secțiune de documentație](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) pentru detalii.
+        Creați o instanță de clasă [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) și transmiteți-o la [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) pentru a converti un fișier PowerPoint PPTX în PDF. Proprietățile clasei PdfViewOptions vă permit să controlați procesul de conversie. De exemplu, puteți proteja fișierul PDF de ieșire, puteți reordona paginile acestuia și puteți specifica calitatea imaginilor documentului. Consultați [următoarea secțiune de documentație](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) pentru detalii.
         {{< landing/code title="C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Viewer;
@@ -256,10 +256,10 @@ code_samples:
         
         using (var viewer = new Viewer("presentation.pptx"))
         {
-            // Set output PDF options
+            // Setați opțiunile PDF de ieșire       
             var viewOptions = new PdfViewOptions("presentation.pdf");
             
-            // Export PPTX to PDF
+            // Exportați PPTX în PDF       
             viewer.View(viewOptions);
         }
         ```
