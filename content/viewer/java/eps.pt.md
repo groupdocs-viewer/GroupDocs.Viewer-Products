@@ -1,249 +1,255 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:51
 draft: false
 lang: pt
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java EPS API do visualizador - renderizar e exibir EPS em aplicativos Java"
-head_description: "Veja arquivos EPS em aplicativos Java, J2EE, J2SE. Suporta a visualização de mais de 170 formatos de arquivo de imagem e documento em HTML, PDF ou modo de imagem com recursos avançados para gerenciar as opções de visualização de documentos."
+head_title: "Java EPS API Viewer - renderizar e exibir EPS em aplicativos Java"
+head_description: "Visualize arquivos EPS em aplicativos Java, J2EE, J2SE. Suporta a visualização de mais de 180 formatos de documentos e arquivos de imagem em HTML, PDF ou modo de imagem com recursos avançados para gerenciar opções de visualização de documentos."
 
 ############################# Header ############################
 title: "Renderizar e visualizar EPS em Java" 
-description: "API do visualizador de arquivos EPS nativo e de alto desempenho para aplicativos baseados em Java, J2EE e J2SE, suportando uma ampla gama de recursos adicionais para personalizar a aparência do formato do documento de saída." 
+description: "API visualizadora de arquivos EPS nativa e de alto desempenho para aplicativos baseados em Java, J2EE e J2SE, suportando uma ampla gama de recursos adicionais para personalizar a aparência do formato do documento de saída." 
+subtitle: "Solução de renderização de documentos" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Baixar Teste Gratuito"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Baixar Maven grátis"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "Sobre GroupDocs.Viewer para API Java" 
+    title: "Sobre GroupDocs.Viewer para API Java"
+    link: "/viewer/java/"
+    link_title: "Saber mais"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Permita que seus aplicativos Java exibam mais de 170 formatos de arquivo nos modos HTML, PDF ou imagem usando GroupDocs.Viewer para APIs Java sem nenhum software adicional instalado; como Microsoft Office, Apache Open Office, Adobe Acrobat Reader etc. Os desenvolvedores podem facilmente visualizar todas as imagens populares e tipos de documentos, incluindo Microsoft Office, OpenDocument, HTML, PDF, Arquivo, Diagramas, Photoshop, AutoCAD e formatos de linguagem de programação dentro dos aplicativos Java com renderização rápida e de alta qualidade.
+      Permita que seus aplicativos Java exibam mais de 180 formatos de arquivo em HTML, PDF ou modos de imagem usando GroupDocs.Viewer para APIs Java sem qualquer software adicional instalado; como Microsoft Office, Apache Open Office, Adobe Acrobat Reader etc. Os desenvolvedores podem visualizar facilmente todas as imagens e tipos de documentos populares, incluindo Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD e formatos de linguagem de programação dentro dos aplicativos Java com renderização rápida e da mais alta qualidade.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Referência da API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Exemplos de código"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Demonstrações ao vivo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Preços"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Etapas para renderizar o arquivo EPS em Java" 
-    content_left: |
-        Com [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) você pode renderizar EPS para HTML, JPEG, PNG ou PDF em algumas etapas.
-
-        * Adicione [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) como uma dependência ao seu projeto. 
-        * Crie uma instância da classe Viewer e carregue o arquivo EPS com o caminho completo. 
-        * Defina as opções para renderizar o arquivo EPS em formato HTML, PNG, JPEG ou PDF. 
-        * Renderize o arquivo e verifique a saída no diretório atual. 
-        
-    title_right: "Requisitos de sistema" 
-    content_right: |
-        As APIs do GroupDocs.Viewer para Java são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
-
-        * Sistemas Operacionais: Microsoft Windows, Linux, MacOS 
-        * Ambientes de Desenvolvimento: NetBeans, IntelliJ IDEA, Eclipse etc. 
-        * Frameworks: J2SE 8.0 (1.8) ou superior (por exemplo, Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input EPS file
-            String filePath = "input.eps";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render EPS file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Demonstração ao vivo do visualizador EPS"
+    title: "Etapas para renderizar o arquivo EPS em Java" 
     content: |
-        Veja o arquivo EPS agora visitando o site [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/eps).
-    lang: "pt"
+      Com <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> você pode renderizar EPS para HTML, JPEG, PNG ou PDF em algumas etapas.
+      
+      1. Adicione <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer for Java</a> como uma dependência ao seu projeto. 
+      2. Crie uma instância da classe Viewer e carregue o arquivo EPS com caminho completo.  
+      3. Defina opções para renderizar o arquivo EPS em formato HTML, PNG, JPEG ou PDF. 
+      4. Renderize o arquivo e verifique a saída no diretório atual. 
+   
+    code:
+      platform: "java"
+      copy_title: "cópia de"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "clique para copiar"
+        copy_done: "copiado"
+      links:
+        #  loop
+        - title: "Mais exemplos"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Documentação"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Configurar arquivo de entrada EPS
+        String filePath = "input.eps";
+
+        // Instanciar GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Definir opções de visualização
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Renderize o arquivo EPS em HTML com recursos incorporados
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto para começar?"
+  description: "Experimente os recursos do GroupDocs.Viewer gratuitamente ou solicite uma licença"
+  items:
+    #  loop
+    - title: "Baixar Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Licenciamento"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Renderização e visualização de outros formatos de arquivo usando Java"
+    title: "Renderize outros formatos de arquivo usando Java"
     exclude: "EPS"
-    content: |
-        API de visualizador de documentos e imagens em vários formatos para Java. Veja alguns dos formatos de arquivo populares abaixo sem nenhum visualizador externo.
-    format: 
+    description: "API de visualização de documentos e imagens multiformato para Java. Veja alguns dos formatos de arquivo populares abaixo, sem visualizadores externos."
+    items: 
         # format loop 1
         - name: "Renderizar DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Documento XML Aberto do Microsoft Word" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "Renderizar CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "Arquivo CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Renderizar PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "Apresentação PowerPoint Open XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "Renderizar XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "Planilha XML Aberta do Microsoft Excel" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "Renderizar DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "Desenho AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
         - name: "Renderizar XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "Arquivo XML"
+          description: "XML File"
 
         # format loop 7
         - name: "Renderizar PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "Documento Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Renderizar arquivo do Adobe Illustrator"
+        - name: "Renderizar AI"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Arte do Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "Renderizar DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "documento do Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Renderizar TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "Ficheiro de Texto Simples" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Renderizar DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "Ficheiro de Formato de Intercâmbio de Desenhos"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Renderizar VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "Arquivo vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Renderizar SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "Gráfico vetorial escalonável" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "Renderizar HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "Arquivo de Linguagem de Marcação de Hipertexto" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "Renderizar PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "Arquivo de formato de documento portátil"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Renderizar JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "Imagem JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "Renderizar PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "Gráfico de Rede Portátil" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "Renderizar EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "Mensagem de email" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Renderizar RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "Ficheiro de Formato Rich Text" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "Renderizar ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "Documento de Texto OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "Renderizar CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "Arquivo de valores separados por vírgula" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

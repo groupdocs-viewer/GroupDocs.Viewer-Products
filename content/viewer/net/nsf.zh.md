@@ -1,255 +1,240 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:01:10
 draft: false
 lang: zh
+product: "Viewer"
+product_tag: "viewer"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head #############################
-head_title: ".NET NSF 查看器 API - 在 C# VB.NET 中读取、查看、呈现"
-head_description: ".NET 文档查看器 API，用于在任何类型的 C#、ASP.NET、VB.NET 和 .NET Core 应用程序中读取、呈现和显示 NSF。"
+head_title: ".NET NSF Viewer API - 在 C# VB.NET 中读取、查看、渲染"
+head_description: ".NET 文档查看器 API，用于在任何类型的 C#、ASP.NET、VB.NET 和 .NET Core 应用程序中读取、渲染和显示 NSF。"
 
 ############################# Header ############################
-title: "NSF C# .NET 应用程序的文件查看器" 
-description: ".NET 文档查看器 API，用于在任何类型的 C#、ASP.NET、VB.NET 和 .NET Core 应用程序中读取、呈现和显示 NSF 文件。使用几行代码以 HTML5、PDF 或图像形式查看具有真实格式和布局的渲染文件。" 
+title: "用于 C# .NET 应用程序的 NSF 文件查看器" 
+description: ".NET 文档查看器 API，用于在任何类型的 C#、ASP.NET、VB.NET 和 .NET Core 应用程序中读取、渲染和显示 NSF 文件。使用 HTML5、PDF 或使用几行代码以图像形式查看具有真实格式和布局的渲染文件。" 
+subtitle: "文档渲染解决方案" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "下载免费试用版"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "免费 Nuget 下载"
+      link: "https://releases.groupdocs.com/viewer/net/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "关于 .NET API 的 GroupDocs.Viewer" 
+    title: "关于 .NET API 的 GroupDocs.Viewer"
+    link: "/viewer/net/"
+    link_title: "了解更多"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        通过添加几行代码，使用适用于 .NET API 的 GroupDocs.Viewer，开始在您的 .NET 应用程序中查看 190 多种流行的文档格式。开发人员可以轻松地以 HTML5、图像或 PDF 模式显示 PDF、Word Processing、Excel Spreadsheet、Presentation、Visio、Project、Outlook 和许多其他流行的文档格式。文档渲染速度快，与原始源文件相同，不需要安装额外的软件或任何其他外部库。
+      通过添加几行代码，即可使用适用于 .NET API 的 GroupDocs.Viewer 在 .NET 应用程序中查看 190 多种流行文档格式。开发人员可以轻松地以 HTML5、图像或 PDF 模式显示 PDF、文字处理、Excel 电子表格、演示文稿、Visio、Project、Outlook 和许多其他流行的文档格式。文档渲染速度快，与原始源文件相同，并且不需要安装额外的软件或任何其他外部库。
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "API参考"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "代码示例"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "现场演示"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 C# 中渲染 NSF 文件的步骤" 
-    content_left: |
-        使用 [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/)，您可以通过几个步骤将 NSF 呈现为 HTML、JPEG、PNG 或 PDF。
-
-        * 使用您最喜欢的包管理器安装 [GroupDocs.Viewer for .NET](https://www.nuget.org/packages/groupdocs.viewer)。 
-        * 创建 Viewer 类的实例并加载具有完整路径的 NSF 文件。 
-        * 设置选项以将 NSF 文件呈现为 HTML、PNG、JPEG 或 PDF 格式。 
-        * 渲染文件并检查当前目录中的输出。 
-        
-    title_right: "系统要求" 
-    content_right: |
-        所有主要平台和操作系统都支持 .NET API 的 GroupDocs.Viewer。在执行下面的代码之前，请确保您的系统上安装了以下先决条件。
-
-        * 操作系统：Microsoft Windows、Linux、MacOS 
-        * 开发环境：Microsoft Visual Studio、Visual Studio Code、.NET CLI 
-        * 框架：.NET Framework、.NET Standard、.NET Core、.NET 
-    code: |
-        ```cs
-                        
-            // Set up input NSF file
-            string filePath = "input.nsf";
-        
-            // Instantiate Viewer
-            using (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
-                    
-            	// Render NSF file to HTML with embedded resources
-            	viewer.View(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "NSF 查看器现场演示"
+    title: "在 C# 中渲染 NSF 文件的步骤" 
     content: |
-        立即访问 [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/nsf) 网站查看 NSF 文件。
-    lang: "zh"
+      借助 <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a>，您只需几个步骤即可将 NSF 呈现为 HTML、JPEG、PNG 或 PDF。
+      
+      1. 使用您最喜欢的包管理器安装 <a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer for .NET</a>。 
+      2. 创建 Viewer 类的实例并加载具有完整路径的 NSF 文件。  
+      3. 设置选项以将 NSF 文件呈现为 HTML、PNG、JPEG 或 PDF 格式。 
+      4. 渲染文件并检查当前目录中的输出。 
+   
+    code:
+      platform: "net"
+      copy_title: "复制"
+      install:
+        command: "dotnet add package GroupDocs.Viewer"
+        copy_tip: "点击复制"
+        copy_done: "复制的"
+      links:
+        #  loop
+        - title: "更多示例"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+        #  loop
+        - title: "文档"
+          link: "https://docs.groupdocs.com/viewer/net/"
+          
+      content: |
+        ```csharp {style=abap}
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+        // 设置输入 NSF 文件
+        string filePath = "input.nsf";
+
+        // 实例化 GroupDocs.Viewer
+        using (Viewer viewer = new Viewer(filePath))
+        {
+            // 设置视图选项
+            HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
+                
+            // 将 NSF 文件渲染为带有嵌入资源的 HTML
+            viewer.View(viewOptions);
+        }
+
+        ```            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Viewer 功能或申请许可证"
+  items:
+    #  loop
+    - title: "努吉特下载"
+      link: "https://releases.groupdocs.com/viewer/net/"
+      color: "red"
+        #  loop
+    - title: "许可"
+      link: "https://purchase.groupdocs.com/pricing/viewer/net/"
+      color: "light"
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "使用 C# 渲染和查看其他文件格式"
+    title: "使用 C# 渲染其他文件格式"
     exclude: "NSF"
-    content: |
-        .NET 的多格式文档和图像查看器 API。在没有任何外部查看器的情况下查看下面的一些流行文件格式。
-    format: 
+    description: "适用于 .NET 的多格式文档和图像查看器 API。无需任何外部查看器即可查看以下一些流行的文件格式。"
+    items: 
         # format loop 1
         - name: "渲染 DOCX"
           format: "DOCX"
           link: "/viewer/net/docx/"
-          description: "Microsoft Word 打开 XML 文档" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
-        - name: "渲染CDR" 
+        - name: "渲染 CDR" 
           format: "CDR"
           link: "/viewer/net/cdr/"
-          description: "CorelDRAW 文件" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "渲染 PPTX"
           format: "PPTX"
           link: "/viewer/net/pptx/"
-          description: "PowerPoint Open XML 演示文稿" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "渲染 XLSX"
           format: "XLSX"
           link: "/viewer/net/xlsx/"
-          description: "Microsoft Excel 打开 XML 电子表格" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "渲染 DWG"
           format: "DWG"
           link: "/viewer/net/dwg/"
-          description: "AutoCAD 绘图"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "呈现 XML"
+        - name: "渲染 XML"
           format: "XML"
           link: "/viewer/net/xml/"
-          description: "文件"
+          description: "XML File"
 
         # format loop 7
         - name: "渲染 PSD"
           format: "PSD"
           link: "/viewer/net/psd/"
-          description: "Adobe Photoshop 文档"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "渲染 Adob​​e Illustrator 文件"
+        - name: "渲染 AI"
           format: "AI"
           link: "/viewer/net/ai/"
-          description: "Adobe Illustrator 图稿"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
-        - name: "渲染文档"
+        - name: "渲染 DOC"
           format: "DOC"
           link: "/viewer/net/doc/"
-          description: "微软 Word 文档" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "渲染 TXT" 
           format: "TXT"
           link: "/viewer/net/txt/"
-          description: "纯文本文件" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "渲染 DXF" 
           format: "DXF"
           link: "/viewer/net/dxf/"
-          description: "绘图交换格式文件"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
-        - name: "渲染 VCF"
+        - name: "渲染VCF"
           format: "VCF"
           link: "/viewer/net/vcf/"
-          description: "电子名片文件"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "渲染 SVG"
           format: "SVG"
           link: "/viewer/net/svg/"
-          description: "可缩放矢量图形" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
-        - name: "呈现 HTML"
+        - name: "渲染 HTML"
           format: "HTML"
           link: "/viewer/net/html/"
-          description: "超文本标记语言文件" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "渲染 PDF"
           format: "PDF"
           link: "/viewer/net/pdf/"
-          description: "便携式文档格式文件"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "渲染 JPEG"
           format: "JPG"
           link: "/viewer/net/jpg/"
-          description: "JPEG图像"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "渲染 PNG"
           format: "PNG"
           link: "/viewer/net/png/"
-          description: "便携式网络图形" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
-        - name: "渲染 EML"
+        - name: "渲染EML"
           format: "EML"
           link: "/viewer/net/eml/"
-          description: "电子邮件信息" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "渲染 RTF"
           format: "RTF"
           link: "/viewer/net/rtf/"
-          description: "富文本格式文件" 
+          description: "Rich Text Format File" 
           
         # format loop 20
-        - name: "渲染ODT"
+        - name: "渲染 ODT"
           format: "ODT"
           link: "/viewer/net/odt/"
-          description: "OpenDocument 文本文档" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "渲染 CSV"
           format: "CSV"
           link: "/viewer/net/csv/"
-          description: "逗号分隔值文件" 
-          
-        # format loop 21
-        - name: "{format-content-net.more_formats_name_xps}"
-          format: "XPS"
-          link: "/viewer/net/xps/"
-          description: "{format-content-net.more_formats_description_xps}" 
+          description: "Comma-Separated Values File" 
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+
+
 ---

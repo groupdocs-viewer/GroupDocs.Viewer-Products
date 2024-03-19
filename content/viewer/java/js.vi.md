@@ -1,249 +1,255 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:57
 draft: false
 lang: vi
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "API Trình xem Java JS - Kết xuất & Hiển thị JS trong Ứng dụng Java"
-head_description: "Xem các tệp JS trong các ứng dụng Java, J2EE, J2SE. Hỗ trợ xem hơn 170 định dạng tệp tài liệu và hình ảnh ở chế độ HTML, PDF hoặc hình ảnh với các tính năng nâng cao để quản lý các tùy chọn xem tài liệu."
+head_title: "API trình xem Java JS - hiển thị và hiển thị JS trong ứng dụng Java"
+head_description: "Xem các tệp JS trong các ứng dụng Java, J2EE, J2SE. Hỗ trợ xem hơn 180 định dạng tệp tài liệu và hình ảnh ở chế độ HTML, PDF hoặc hình ảnh với các tính năng nâng cao để quản lý các tùy chọn xem tài liệu."
 
 ############################# Header ############################
-title: "Kết xuất & Xem JS Trong Java" 
+title: "Hiển thị và xem JS trong Java" 
 description: "API trình xem tệp JS gốc và hiệu suất cao dành cho các ứng dụng dựa trên Java, J2EE và J2SE, hỗ trợ nhiều tính năng bổ sung để tùy chỉnh giao diện của định dạng tài liệu đầu ra." 
+subtitle: "Giải pháp kết xuất tài liệu" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Tải xuống bản dùng thử miễn phí"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Tải xuống Maven miễn phí"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "Giới thiệu về API GroupDocs.Viewer cho Java" 
+    title: "Giới thiệu về GroupDocs.Viewer dành cho API Java"
+    link: "/viewer/java/"
+    link_title: "Tìm hiểu thêm"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Cho phép các ứng dụng Java của bạn hiển thị hơn 170 định dạng tệp ở chế độ HTML, PDF hoặc hình ảnh bằng API GroupDocs.Viewer cho Java mà không cần cài đặt bất kỳ phần mềm bổ sung nào; chẳng hạn như Microsoft Office, Apache Open Office, Adobe Acrobat Reader, v.v. Các nhà phát triển có thể dễ dàng xem tất cả các loại hình ảnh và tài liệu phổ biến bao gồm Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD và các định dạng ngôn ngữ lập trình bên trong các ứng dụng Java với kết xuất nhanh và chất lượng cao nhất.
+      Cho phép các ứng dụng Java của bạn hiển thị hơn 180 định dạng tệp ở chế độ HTML, PDF hoặc hình ảnh bằng GroupDocs.Viewer dành cho API Java mà không cần cài đặt bất kỳ phần mềm bổ sung nào; chẳng hạn như Microsoft Office, Apache Open Office, Adobe Acrobat Reader, v.v. Các nhà phát triển có thể dễ dàng xem tất cả các hình ảnh và loại tài liệu phổ biến bao gồm Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD và các định dạng ngôn ngữ lập trình bên trong các ứng dụng Java với kết xuất nhanh và chất lượng cao nhất.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Tham chiếu API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Ví dụ mã"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Bản trình diễn trực tiếp"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "định giá"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Các bước để kết xuất tệp JS trong Java" 
-    content_left: |
-        Với [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/), bạn có thể kết xuất JS thành HTML, JPEG, PNG hoặc PDF trong một vài bước.
-
-        * Thêm [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) làm phần phụ thuộc cho dự án của bạn. 
-        * Tạo một thể hiện của lớp Viewer và tải tệp JS với đường dẫn đầy đủ. 
-        * Đặt các tùy chọn để hiển thị tệp JS thành định dạng HTML, PNG, JPEG hoặc PDF. 
-        * Kết xuất tệp và kiểm tra đầu ra trong thư mục hiện tại. 
-        
-    title_right: "yêu cầu hệ thống" 
-    content_right: |
-        API GroupDocs.Viewer dành cho Java được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực thi mã bên dưới, vui lòng đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.
-
-        * Hệ điều hành: Microsoft Windows, Linux, MacOS 
-        * Môi trường phát triển: NetBeans, IntelliJ IDEA, Eclipse, v.v. 
-        * Framework: J2SE 8.0 (1.8) trở lên (ví dụ Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input JS file
-            String filePath = "input.js";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render JS file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "JS Trình diễn trực tiếp dành cho người xem"
+    title: "Các bước để hiển thị tệp JS trong Java" 
     content: |
-        Xem tệp JS ngay bây giờ bằng cách truy cập trang web [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/js).
-    lang: "vi"
+      Với <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> bạn có thể hiển thị JS thành HTML, JPEG, PNG hoặc PDF chỉ trong vài bước.
+      
+      1. Thêm <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer for Java</a> làm phần phụ thuộc cho dự án của bạn. 
+      2. Tạo một phiên bản của lớp Viewer và tải tệp JS với đường dẫn đầy đủ.  
+      3. Đặt tùy chọn để hiển thị tệp JS thành định dạng HTML, PNG, JPEG hoặc PDF. 
+      4. Kết xuất tệp và kiểm tra đầu ra trong thư mục hiện tại. 
+   
+    code:
+      platform: "java"
+      copy_title: "Sao chép"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "bấm vào để sao chép"
+        copy_done: "sao chép"
+      links:
+        #  loop
+        - title: "Thêm ví dụ"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Tài liệu"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Thiết lập tệp JS đầu vào
+        String filePath = "input.js";
+
+        // Khởi tạo GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Đặt tùy chọn xem
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Kết xuất tệp JS thành HTML bằng tài nguyên được nhúng
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Sẵn sàng để bắt đầu?"
+  description: "Dùng thử miễn phí các tính năng của GroupDocs.Viewer hoặc yêu cầu giấy phép"
+  items:
+    #  loop
+    - title: "Tải xuống Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Cấp phép"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Hiển thị & Xem các định dạng tệp khác bằng Java"
+    title: "Hiển thị các định dạng tệp khác bằng cách sử dụng Java"
     exclude: "JS"
-    content: |
-        API trình xem hình ảnh và tài liệu đa định dạng cho Java. Xem một số định dạng tệp phổ biến dưới đây mà không cần bất kỳ người xem bên ngoài nào.
-    format: 
+    description: "API xem tài liệu và hình ảnh đa định dạng cho Java. Xem một số định dạng tệp phổ biến bên dưới mà không cần bất kỳ trình xem bên ngoài nào."
+    items: 
         # format loop 1
         - name: "Kết xuất DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Tài liệu XML mở Microsoft Word" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "Kết xuất CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "Tệp CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Kết xuất PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "Bản trình bày XML mở PowerPoint" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "Kết xuất XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "Bảng tính XML mở của Microsoft Excel" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "Kết xuất DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "Vẽ AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
         - name: "Kết xuất XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "Tệp XML"
+          description: "XML File"
 
         # format loop 7
         - name: "Kết xuất PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "Tài liệu Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Kết xuất tệp Adobe Illustrator"
+        - name: "Kết xuất AI"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Adobe Illustrator Tác phẩm nghệ thuật"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
-        - name: "Kết xuất tài liệu"
+        - name: "Kết xuất DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "Tài liệu Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Kết xuất TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "Tệp văn bản thuần túy" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Kết xuất DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "Vẽ tệp định dạng trao đổi"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Kết xuất VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "Tệp vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Kết xuất SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "Đồ họa Vector có thể mở rộng" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "Kết xuất HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "Tệp ngôn ngữ đánh dấu siêu văn bản" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "Kết xuất PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "Tệp định dạng tài liệu di động"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Kết xuất JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "Ảnh JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "Kết xuất PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "Đồ họa mạng di động" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "Kết xuất EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "Thư điện tử" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Kết xuất RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "Tệp định dạng văn bản có định dạng" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "Kết xuất ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "Tài liệu văn bản OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "Kết xuất CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "Tệp giá trị được phân tách bằng dấu phẩy" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

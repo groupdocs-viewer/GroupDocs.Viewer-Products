@@ -1,249 +1,255 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:55
 draft: false
 lang: uk
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java DOTX Viewer API – візуалізація та відображення DOTX у програмах Java"
-head_description: "Перегляд файлів DOTX у програмах Java, J2EE, J2SE. Підтримує перегляд понад 170 форматів документів і файлів зображень у режимі HTML, PDF або зображення з розширеними функціями для керування параметрами перегляду документів."
+head_title: "Java DOTX Viewer API — візуалізація та відображення DOTX у програмах Java"
+head_description: "Перегляд файлів DOTX у програмах Java, J2EE, J2SE. Підтримує перегляд понад 180 форматів документів і файлів зображень у режимі HTML, PDF або зображення з розширеними функціями для керування параметрами перегляду документів."
 
 ############################# Header ############################
-title: "Рендерити та переглядати DOTX на Java" 
-description: "Власний і високопродуктивний API переглядача файлів DOTX для додатків на основі Java, J2EE та J2SE, що підтримує широкий спектр додаткових функцій для налаштування зовнішнього вигляду формату вихідного документа." 
+title: "Рендерити та переглядати DOTX у Java" 
+description: "Власний і високопродуктивний API перегляду файлів DOTX для програм на основі Java, J2EE та J2SE, що підтримує широкий спектр додаткових функцій для налаштування зовнішнього вигляду формату вихідного документа." 
+subtitle: "РІШЕННЯ ДЛЯ ПЕРЕГЛЯДУ ДОКУМЕНТІВ" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Завантажте безкоштовну пробну версію"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Безкоштовне завантаження Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "Про GroupDocs.Viewer для Java API" 
+    title: "Про GroupDocs.Viewer для Java API"
+    link: "/viewer/java/"
+    link_title: "Дізнатись більше"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Дозвольте програмам Java відображати понад 170 форматів файлів у режимах HTML, PDF або зображень за допомогою GroupDocs.Viewer для Java API без встановлення додаткового програмного забезпечення; наприклад Microsoft Office, Apache Open Office, Adobe Acrobat Reader тощо. Розробники можуть легко переглядати всі популярні зображення та типи документів, включаючи Microsoft Office, OpenDocument, HTML, PDF, архів, діаграми, Photoshop, AutoCAD і формати мови програмування в програмах Java за допомогою швидкий і якісний рендеринг.
+      Дозвольте вашим програмам Java відображати понад 180 форматів файлів у режимах HTML, PDF або зображень за допомогою API GroupDocs.Viewer для Java без встановлення додаткового програмного забезпечення; наприклад Microsoft Office, Apache Open Office, Adobe Acrobat Reader тощо. Розробники можуть легко переглядати всі популярні зображення та типи документів, включаючи Microsoft Office, OpenDocument, HTML, PDF, архів, діаграми, Photoshop, AutoCAD і формати мов програмування в програмах Java.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Довідник API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Приклади коду"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Живі демонстрації"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Ціноутворення"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Кроки для відтворення файлу DOTX у Java" 
-    content_left: |
-        За допомогою [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) ви можете перетворити DOTX у HTML, JPEG, PNG або PDF за кілька кроків.
-
-        * Додайте [GroupDocs.Viewer для Java](https://releases.groupdocs.com/viewer/java/) як залежність до свого проекту. 
-        * Створіть екземпляр класу Viewer і завантажте файл DOTX із повним шляхом. 
-        * Встановіть параметри для відтворення файлу DOTX у форматі HTML, PNG, JPEG або PDF. 
-        * Відобразити файл і перевірити вивід у поточному каталозі. 
-        
-    title_right: "Системні вимоги" 
-    content_right: |
-        API GroupDocs.Viewer для Java підтримуються на всіх основних платформах і операційних системах. Перш ніж виконувати наведений нижче код, переконайтеся, що у вашій системі встановлено такі передумови.
-
-        * Операційні системи: Microsoft Windows, Linux, MacOS 
-        * Середовища розробки: NetBeans, IntelliJ IDEA, Eclipse тощо. 
-        * Фреймворки: J2SE 8.0 (1.8) або вище (наприклад, Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input DOTX file
-            String filePath = "input.dotx";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render DOTX file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "DOTX Демо-версія переглядача"
+    title: "Кроки для перегляду файлу DOTX у Java" 
     content: |
-        Перегляньте файл DOTX просто зараз, відвідавши веб-сайт [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/dotx).
-    lang: "uk"
+      За допомогою <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> ви можете перетворити DOTX у HTML, JPEG, PNG або PDF за кілька кроків.
+      
+      1. Додайте <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer для Java</a> як залежність до свого проекту. 
+      2. Створіть екземпляр класу Viewer і завантажте файл DOTX із повним шляхом.  
+      3. Встановіть параметри для перетворення файлу DOTX у форматі HTML, PNG, JPEG або PDF. 
+      4. Перетворити файл і переглянути результат у поточній директорії. 
+   
+    code:
+      platform: "java"
+      copy_title: "Копіювати"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "натисніть, щоб скопіювати"
+        copy_done: "скопійовано"
+      links:
+        #  loop
+        - title: "Більше прикладів"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Документація"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Налаштувати вхідний файл DOTX
+        String filePath = "input.dotx";
+
+        // Створення екземпляра GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Налаштувати параметри перегляду
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Перетворіть файл DOTX у HTML із вбудованими ресурсами
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готові почати?"
+  description: "Спробуйте функції GroupDocs.Viewer безкоштовно або ортимайте тимчасову ліцензию"
+  items:
+    #  loop
+    - title: "Завантажити Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Ліцензування"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Відтворення та перегляд інших форматів файлів за допомогою Java"
+    title: "Перегляд інших форматів в додатках на Java"
     exclude: "DOTX"
-    content: |
-        Багатоформатний API перегляду документів і зображень для Java. Перегляньте деякі з популярних форматів файлів нижче без зовнішніх програм перегляду.
-    format: 
+    description: "Багатоформатний API перегляду документів і зображень для Java. Переглядайте популярні формати файлів без встановлення додаткових програм."
+    items: 
         # format loop 1
         - name: "Рендер DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Відкритий XML-документ Microsoft Word" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "Рендер CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "Файл CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Рендер PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "Презентація PowerPoint Open XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "Рендер XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "Електронна таблиця Microsoft Excel Open XML" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "Рендер DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "Креслення AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "Виводити XML"
+        - name: "Відобразити XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "Файл XML"
+          description: "XML File"
 
         # format loop 7
         - name: "Рендер PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "Документ Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Відобразити файл Adobe Illustrator"
+        - name: "Рендер AI"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Ілюстрація Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "Відобразити DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "Документ Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Рендерити TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "Звичайний текстовий файл" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Рендер DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "Файл обміну кресленнями"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Рендер VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "Файл vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Відтворити SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "Масштабована векторна графіка" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "Відобразити HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "Мовний файл розмітки гіпертексту" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "Рендер PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "Файл формату портативного документа"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Рендер JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "Зображення JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "Рендер PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "Портативна мережева графіка" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "Відобразити EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "Повідомлення електронної пошти" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Рендер RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "Файл у текстовому форматі" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "Рендер ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "Текстовий документ OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "Відобразити CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "Файл зі значеннями, розділеними комами" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

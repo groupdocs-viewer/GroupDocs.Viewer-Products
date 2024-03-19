@@ -1,249 +1,255 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:48
 draft: false
 lang: it
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java CF2 Viewer API - Rendering e visualizzazione CF2 nelle app Java"
-head_description: "Visualizza CF2 file nelle applicazioni Java, J2EE, J2SE. Supporta la visualizzazione di oltre 170 formati di documenti e file immagine in modalità HTML, PDF o immagine con funzionalità avanzate per gestire le opzioni di visualizzazione dei documenti."
+head_title: "API visualizzatore Java CF2: rendering e visualizzazione di CF2 nelle app Java"
+head_description: "Visualizza file CF2 nelle applicazioni Java, J2EE, J2SE. Supporta la visualizzazione di oltre 180 formati di documenti e file immagine in modalità HTML, PDF o immagine con funzionalità avanzate per gestire le opzioni di visualizzazione dei documenti."
 
 ############################# Header ############################
-title: "Visualizza e visualizza CF2 in Java" 
-description: "API del visualizzatore di file CF2 nativa e ad alte prestazioni per applicazioni basate su Java, J2EE e J2SE, che supporta un'ampia gamma di funzionalità aggiuntive per personalizzare l'aspetto del formato del documento di output." 
+title: "Esegui il rendering e visualizza CF2 in Java" 
+description: "API di visualizzazione file CF2 nativa e ad alte prestazioni per applicazioni basate su Java, J2EE e J2SE, che supporta un'ampia gamma di funzionalità aggiuntive per personalizzare l'aspetto del formato del documento di output." 
+subtitle: "Soluzione per il rendering dei documenti" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Scarica la prova gratuita"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Scarica gratis Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni su GroupDocs.Viewer per l'API Java" 
+    title: "Informazioni su GroupDocs.Viewer per l'API Java"
+    link: "/viewer/java/"
+    link_title: "Saperne di più"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Consenti alle tue applicazioni Java di visualizzare oltre 170 formati di file in modalità HTML, PDF o immagine utilizzando GroupDocs.Viewer per le API Java senza alcun software aggiuntivo installato; come Microsoft Office, Apache Open Office, Adobe Acrobat Reader ecc. Gli sviluppatori possono visualizzare facilmente tutte le immagini e i tipi di documenti più diffusi, inclusi Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD e i formati dei linguaggi di programmazione all'interno delle applicazioni Java con rendering veloce e di altissima qualità.
+      Abilita le tue applicazioni Java a visualizzare oltre 180 formati di file in modalità HTML, PDF o immagine utilizzando GroupDocs.Viewer per API Java senza alcun software aggiuntivo installato; come Microsoft Office, Apache Open Office, Adobe Acrobat Reader ecc. Gli sviluppatori possono visualizzare facilmente tutte le immagini e i tipi di documenti più diffusi tra cui Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD e i formati del linguaggio di programmazione all'interno delle applicazioni Java con rendering veloce e di altissima qualità.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Riferimento API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Esempi di codice"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Dimostrazioni dal vivo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Prezzi"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Passaggi per eseguire il rendering del file CF2 in Java" 
-    content_left: |
-        Con [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) puoi eseguire il rendering di CF2 in HTML, JPEG, PNG o PDF in pochi passaggi.
-
-        * Aggiungi [GroupDocs.Viewer per Java](https://releases.groupdocs.com/viewer/java/) come dipendenza al tuo progetto. 
-        * Crea un'istanza della classe Viewer e carica il file CF2 con il percorso completo. 
-        * Imposta le opzioni per rendere il file CF2 in formato HTML, PNG, JPEG o PDF. 
-        * Renderizza il file e controlla l'output nella directory corrente. 
-        
-    title_right: "Requisiti di sistema" 
-    content_right: |
-        Le API di GroupDocs.Viewer per Java sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-
-        * Sistemi operativi: Microsoft Windows, Linux, MacOS 
-        * Ambienti di sviluppo: NetBeans, IntelliJ IDEA, Eclipse ecc. 
-        * Framework: J2SE 8.0 (1.8) o superiore (ad esempio Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input CF2 file
-            String filePath = "input.cf2";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render CF2 file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "CF2 Demo dal vivo dello spettatore"
+    title: "Passaggi per eseguire il rendering del file CF2 in Java" 
     content: |
-        Visualizza subito il file CF2 visitando il sito web di [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/cf2).
-    lang: "it"
+      Con <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> puoi eseguire il rendering di CF2 in HTML, JPEG, PNG o PDF in pochi passaggi.
+      
+      1. Aggiungi <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer for Java</a> come dipendenza al tuo progetto. 
+      2. Crea un'istanza della classe Viewer e carica il file CF2 con il percorso completo.  
+      3. Imposta le opzioni per eseguire il rendering del file CF2 nel formato HTML, PNG, JPEG o PDF. 
+      4. Renderizza il file e controlla l'output nella directory corrente. 
+   
+    code:
+      platform: "java"
+      copy_title: "copia"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "fare clic per copiare"
+        copy_done: "copiato"
+      links:
+        #  loop
+        - title: "Altri esempi"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Documentazione"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Configura il file di input CF2
+        String filePath = "input.cf2";
+
+        // Crea un'istanza di GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Imposta le opzioni di visualizzazione
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Visualizza il file CF2 in HTML con risorse incorporate
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronti per iniziare?"
+  description: "Prova gratuitamente le funzionalità di GroupDocs.Viewer o richiedi una licenza"
+  items:
+    #  loop
+    - title: "Scarica Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Licenza"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Altri formati di file Rendering e visualizzazione utilizzando Java"
+    title: "Esegui il rendering di altri formati di file utilizzando Java"
     exclude: "CF2"
-    content: |
-        API visualizzatore di documenti e immagini multiformato per Java. Visualizza alcuni dei formati di file più diffusi di seguito senza visualizzatori esterni.
-    format: 
+    description: "API per visualizzatore di documenti e immagini multiformato per Java. Visualizza alcuni dei formati di file più diffusi di seguito senza visualizzatori esterni."
+    items: 
         # format loop 1
         - name: "Renderizza DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Microsoft Word Apri documento XML" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
-        - name: "Render CDR" 
+        - name: "Eseguire il rendering del CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "File CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Renderizza PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "PowerPoint Apri presentazione XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "Renderizza XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "Microsoft Excel Apri foglio di calcolo XML" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "Rendering DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "Disegno autocad"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "Render XML"
+        - name: "Rendering XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "FileXML"
+          description: "XML File"
 
         # format loop 7
         - name: "Rendering PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "Documento Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Renderizza il file Adobe Illustrator"
+        - name: "Rendering dell'intelligenza artificiale"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Opere d'arte di Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
-        - name: "Rendi DOC"
+        - name: "Renderizza DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "Documento Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Renderizza TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "File di testo normale" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Rendering DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "File in formato di scambio di disegni"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
-        - name: "Renderizza VCF"
+        - name: "Rendering VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "File vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Rendering SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "Grafica vettoriale scalabile" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
-        - name: "Renderizza HTML"
+        - name: "Rendering HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "File Hypertext Markup Language" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
-        - name: "Rendi PDF"
+        - name: "Visualizza PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "File in formato documento portatile"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Rendering JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "Immagine JPEG"
+          description: "JPEG Image"
           
         # format loop 17
-        - name: "Rendering PNG"
+        - name: "Visualizza PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "Grafica di rete portatile" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
-        - name: "Render EML"
+        - name: "Rendering EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "Messaggio email" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Renderizza RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "File in formato RTF" 
+          description: "Rich Text Format File" 
           
         # format loop 20
-        - name: "Rendering ODT"
+        - name: "Renderizza ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "OpenDocument Documento di testo" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
-        - name: "Rendi CSV"
+        - name: "Visualizza CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "File con valori separati da virgole" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

@@ -1,249 +1,255 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:53
 draft: false
 lang: th
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java PS1 Viewer API - แสดงผลและแสดงผล PS1 ในแอป Java"
-head_description: "ดูไฟล์ PS1 ในแอปพลิเคชัน Java, J2EE, J2SE รองรับการดูไฟล์เอกสารและรูปภาพมากกว่า 170 รูปแบบในโหมด HTML, PDF หรือรูปภาพ พร้อมคุณสมบัติขั้นสูงในการจัดการตัวเลือกการดูเอกสาร"
+head_title: "Java PS1 Viewer API - เรนเดอร์และแสดง PS1 ในแอป Java"
+head_description: "ดูไฟล์ PS1 ในแอปพลิเคชัน Java, J2EE, J2SE รองรับการดูเอกสารและไฟล์รูปภาพมากกว่า 180 รูปแบบในโหมด HTML, PDF หรือรูปภาพพร้อมคุณสมบัติขั้นสูงเพื่อจัดการตัวเลือกการดูเอกสาร"
 
 ############################# Header ############################
-title: "แสดงผล & ดู PS1 ใน Java" 
-description: "API โปรแกรมดูไฟล์แบบเนทีฟและประสิทธิภาพสูง PS1 สำหรับแอปพลิเคชันที่ใช้ Java, J2EE และ J2SE รองรับคุณสมบัติเพิ่มเติมที่หลากหลายเพื่อปรับแต่งรูปลักษณ์ของรูปแบบเอกสารเอาต์พุต" 
+title: "เรนเดอร์และดู PS1 ใน Java" 
+description: "API โปรแกรมดูไฟล์ PS1 แบบเนทีฟและประสิทธิภาพสูงสำหรับแอปพลิเคชันที่ใช้ Java, J2EE และ J2SE ซึ่งรองรับคุณสมบัติเพิ่มเติมที่หลากหลายเพื่อปรับแต่งลักษณะที่ปรากฏของรูปแบบเอกสารเอาต์พุต" 
+subtitle: "โซลูชันการแสดงผลเอกสาร" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "ดาวน์โหลดรุ่นทดลองใช้ฟรี"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "ดาวน์โหลดฟรี Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "เกี่ยวกับ GroupDocs.Viewer สำหรับ Java API" 
+    title: "เกี่ยวกับ GroupDocs.Viewer สำหรับ Java API"
+    link: "/viewer/java/"
+    link_title: "เรียนรู้เพิ่มเติม"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        เปิดใช้งานแอปพลิเคชัน Java ของคุณเพื่อแสดงรูปแบบไฟล์มากกว่า 170+ รูปแบบในโหมด HTML, PDF หรือรูปภาพโดยใช้ GroupDocs.Viewer สำหรับ Java API โดยไม่ต้องติดตั้งซอฟต์แวร์เพิ่มเติม เช่น Microsoft Office, Apache Open Office, Adobe Acrobat Reader เป็นต้น นักพัฒนาสามารถดูรูปภาพและประเภทเอกสารยอดนิยมทั้งหมดได้อย่างง่ายดาย รวมทั้ง Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD และรูปแบบภาษาโปรแกรมภายในแอปพลิเคชัน Java ด้วย การเรนเดอร์ที่รวดเร็วและมีคุณภาพสูงสุด
+      ช่วยให้แอปพลิเคชัน Java ของคุณแสดงรูปแบบไฟล์ได้มากกว่า 180 รูปแบบในโหมด HTML, PDF หรือรูปภาพโดยใช้ GroupDocs.Viewer สำหรับ Java API โดยไม่ต้องติดตั้งซอฟต์แวร์เพิ่มเติม เช่น Microsoft Office, Apache Open Office, Adobe Acrobat Reader เป็นต้น นักพัฒนาสามารถดูรูปภาพและเอกสารยอดนิยมทุกประเภทได้อย่างง่ายดาย รวมถึง Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD และรูปแบบภาษาการเขียนโปรแกรมภายในแอปพลิเคชัน Java ด้วย การเรนเดอร์ที่รวดเร็วและมีคุณภาพสูงสุด
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "การอ้างอิง API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "ตัวอย่างโค้ด"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "การสาธิตสด"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "ราคา"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "ขั้นตอนใน Render ไฟล์ PS1 ใน Java" 
-    content_left: |
-        ด้วย [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) คุณสามารถแสดง PS1 เป็น HTML, JPEG, PNG หรือ PDF ในไม่กี่ขั้นตอน
-
-        * เพิ่ม [GroupDocs.Viewer สำหรับ Java](https://releases.groupdocs.com/viewer/java/) เป็นการพึ่งพาในโครงการของคุณ 
-        * สร้างอินสแตนซ์ของคลาส Viewer และโหลดไฟล์ PS1 ด้วยเส้นทางแบบเต็ม 
-        * ตั้งค่าตัวเลือกเพื่อแสดงไฟล์ PS1 เป็นรูปแบบ HTML, PNG, JPEG หรือ PDF 
-        * เรนเดอร์ไฟล์และตรวจสอบเอาต์พุตในไดเร็กทอรีปัจจุบัน 
-        
-    title_right: "ความต้องการของระบบ" 
-    content_right: |
-        GroupDocs.Viewer สำหรับ Java API ได้รับการสนับสนุนบนแพลตฟอร์มและระบบปฏิบัติการหลักทั้งหมด ก่อนดำเนินการโค้ดด้านล่าง โปรดตรวจสอบว่าคุณได้ติดตั้งข้อกำหนดเบื้องต้นต่อไปนี้ในระบบของคุณแล้ว
-
-        * ระบบปฏิบัติการ: Microsoft Windows, Linux, MacOS 
-        * สภาพแวดล้อมการพัฒนา: NetBeans, IntelliJ IDEA, Eclipse เป็นต้น 
-        * กรอบงาน: J2SE 8.0 (1.8) หรือสูงกว่า (เช่น Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input PS1 file
-            String filePath = "input.ps1";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render PS1 file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "PS1 โปรแกรมดูการสาธิตสด"
+    title: "ขั้นตอนในการแสดงผลไฟล์ PS1 ใน Java" 
     content: |
-        ดูไฟล์ PS1 ตอนนี้โดยไปที่เว็บไซต์ [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/ps1)
-    lang: "th"
+      ด้วย <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> คุณสามารถแสดงผล PS1 เป็น HTML, JPEG, PNG หรือ PDF ได้ในไม่กี่ขั้นตอน
+      
+      1. เพิ่ม <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer for Java</a> เป็นข้อมูลอ้างอิงสำหรับโปรเจ็กต์ของคุณ 
+      2. สร้างอินสแตนซ์ของคลาส Viewer และโหลดไฟล์ PS1 ด้วยเส้นทางแบบเต็ม  
+      3. ตั้งค่าตัวเลือกเพื่อแสดงไฟล์ PS1 เป็นรูปแบบ HTML, PNG, JPEG หรือ PDF 
+      4. เรนเดอร์ไฟล์และตรวจสอบเอาต์พุตในไดเร็กทอรีปัจจุบัน 
+   
+    code:
+      platform: "java"
+      copy_title: "สำเนา"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "คลิกเพื่อคัดลอก"
+        copy_done: "คัดลอก"
+      links:
+        #  loop
+        - title: "ตัวอย่างเพิ่มเติม"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "เอกสารประกอบ"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // ตั้งค่าไฟล์อินพุต PS1
+        String filePath = "input.ps1";
+
+        // สร้างอินสแตนซ์ GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // ตั้งค่าตัวเลือกมุมมอง
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // เรนเดอร์ไฟล์ PS1 เป็น HTML ด้วยทรัพยากรที่ฝังอยู่
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "พร้อมที่จะเริ่มต้นหรือยัง?"
+  description: "ลองใช้คุณสมบัติ GroupDocs.Viewer ฟรีหรือขอใบอนุญาต"
+  items:
+    #  loop
+    - title: "ดาวน์โหลด มาเวน"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "การออกใบอนุญาต"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "รูปแบบไฟล์อื่นๆ การเรนเดอร์และการดูโดยใช้ Java"
+    title: "เรนเดอร์ไฟล์รูปแบบอื่นโดยใช้ Java"
     exclude: "PS1"
-    content: |
-        API โปรแกรมดูเอกสารและรูปภาพหลายรูปแบบสำหรับ Java ดูรูปแบบไฟล์ยอดนิยมบางรูปแบบด้านล่างโดยไม่ต้องใช้โปรแกรมดูภายนอก
-    format: 
+    description: "API โปรแกรมดูเอกสารและรูปภาพหลายรูปแบบสำหรับ Java ดูรูปแบบไฟล์ยอดนิยมบางรูปแบบด้านล่างโดยไม่ต้องใช้โปรแกรมดูจากภายนอก"
+    items: 
         # format loop 1
         - name: "เรนเดอร์ DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Microsoft Word เปิดเอกสาร XML" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "เรนเดอร์ CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "ไฟล์ CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "เรนเดอร์ PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "PowerPoint เปิดงานนำเสนอ XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "เรนเดอร์ XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "Microsoft Excel Open XML สเปรดชีต" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
-        - name: "แสดงผล DWG"
+        - name: "เรนเดอร์ DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "เขียนแบบ AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "แสดงผล XML"
+        - name: "เรนเดอร์ XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "ไฟล์ XML"
+          description: "XML File"
 
         # format loop 7
         - name: "เรนเดอร์ PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "เอกสาร Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "เรนเดอร์ไฟล์ Adobe Illustrator"
+        - name: "เรนเดอร์ AI"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Adobe Illustrator งานศิลปะ"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "เรนเดอร์ DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "เอกสาร Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "เรนเดอร์ TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "ไฟล์ข้อความธรรมดา" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "เรนเดอร์ DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "ไฟล์รูปแบบการแลกเปลี่ยนการวาด"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
-        - name: "แสดงผล VCF"
+        - name: "เรนเดอร์ VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "ไฟล์ vCard"  
+          description: "vCard File"  
               
         # format loop 13
-        - name: "แสดงผล SVG"
+        - name: "เรนเดอร์ SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "กราฟิกแบบเวกเตอร์ที่ปรับขนาดได้" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
-        - name: "แสดงผล HTML"
+        - name: "เรนเดอร์ HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "ไฟล์ภาษามาร์กอัปไฮเปอร์เท็กซ์" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "เรนเดอร์ PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "ไฟล์รูปแบบเอกสารพกพา"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "เรนเดอร์ JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "รูปภาพ JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "เรนเดอร์ PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "กราฟิกเครือข่ายแบบพกพา" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
-        - name: "แสดงผล EML"
+        - name: "เรนเดอร์ EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "ข้อความอีเมล" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "เรนเดอร์ RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "ไฟล์รูปแบบ Rich Text" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "เรนเดอร์ ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "เอกสารข้อความ OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "แสดงผล CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "ไฟล์ค่าที่คั่นด้วยเครื่องหมายจุลภาค" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

@@ -1,255 +1,240 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:01:04
 draft: false
 lang: ja
+product: "Viewer"
+product_tag: "viewer"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head #############################
 head_title: ".NET NUMBERS ビューア API - C# VB.NET での読み取り、表示、レンダリング"
 head_description: "あらゆる種類の C#、ASP.NET、VB.NET、.NET Core アプリケーションで NUMBERS を読み取り、レンダリング、表示する .NET ドキュメント ビューア API。"
 
 ############################# Header ############################
-title: "NUMBERS C# .NET アプリケーション用のファイル ビューア" 
+title: "C# .NET アプリケーション用の NUMBERS ファイル ビューア" 
 description: "あらゆる種類の C#、ASP.NET、VB.NET、.NET Core アプリケーションで NUMBERS ファイルを読み取り、レンダリング、表示するための .NET ドキュメント ビューア API。数行のコードを使用して、HTML5、PDF、または画像として、正確な書式設定とレイアウトでレンダリングされたファイルを表示します。" 
+subtitle: "ドキュメントレンダリングソリューション" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget の無料ダウンロード"
+      link: "https://releases.groupdocs.com/viewer/net/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: ".NET API 用の GroupDocs.Viewer について" 
+    title: ".NET API 用の GroupDocs.Viewer について"
+    link: "/viewer/net/"
+    link_title: "もっと詳しく知る"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        数行のコードを追加するだけで、GroupDocs.Viewer for .NET API を使用して .NET アプリケーションで 190 以上の一般的なドキュメント形式の表示を開始できます。開発者は、PDF、ワード プロセッシング、Excel スプレッドシート、プレゼンテーション、Visio、プロジェクト、Outlook、その他多くの一般的なドキュメント形式を HTML5、画像、または PDF モードで簡単に表示できます。ドキュメントのレンダリングは高速で、元のソース ファイルと同一であり、追加のソフトウェアやその他の外部ライブラリをインストールする必要はありません。
+      数行のコードを追加するだけで、GroupDocs.Viewer for .NET API を使用して .NET アプリケーションで 190 以上の一般的なドキュメント形式の表示を開始できます。開発者は、PDF、ワード プロセッシング、Excel スプレッドシート、プレゼンテーション、Visio、プロジェクト、Outlook、その他多くの一般的なドキュメント形式を HTML5、画像、または PDF モードで簡単に表示できます。ドキュメントのレンダリングは高速で、元のソース ファイルと同一であり、追加のソフトウェアやその他の外部ライブラリをインストールする必要はありません。
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "APIリファレンス"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "コード例"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "ライブデモ"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "価格設定"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C# で NUMBERS ファイルをレンダリングする手順" 
-    content_left: |
-        [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) を使用すると、いくつかの手順で NUMBERS を HTML、JPEG、PNG、または PDF にレンダリングできます。
-
-        * お気に入りのパッケージ マネージャーを使用して、[GroupDocs.Viewer for .NET](https://www.nuget.org/packages/groupdocs.viewer) をインストールします。 
-        * Viewer クラスのインスタンスを作成し、NUMBERS ファイルをフルパスでロードします。 
-        * NUMBERS ファイルを HTML、PNG、JPEG、または PDF 形式でレンダリングするオプションを設定します。 
-        * ファイルをレンダリングし、現在のディレクトリで出力を確認します。 
-        
-    title_right: "システム要求" 
-    content_right: |
-        GroupDocs.Viewer for .NET API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、次の前提条件がシステムにインストールされていることを確認してください。
-
-        * オペレーティング システム: Microsoft Windows、Linux、MacOS 
-        * 開発環境: Microsoft Visual Studio、Visual Studio Code、.NET CLI 
-        * フレームワーク: .NET Framework、.NET Standard、.NET Core、.NET 
-    code: |
-        ```cs
-                        
-            // Set up input NUMBERS file
-            string filePath = "input.numbers";
-        
-            // Instantiate Viewer
-            using (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
-                    
-            	// Render NUMBERS file to HTML with embedded resources
-            	viewer.View(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "NUMBERS ビューアのライブデモ"
+    title: "C# で NUMBERS ファイルをレンダリングする手順" 
     content: |
-        [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/numbers) ウェブサイトにアクセスして、今すぐ NUMBERS ファイルを表示してください。
-    lang: "ja"
+      <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a> を使用すると、いくつかの手順で NUMBERS を HTML、JPEG、PNG、または PDF にレンダリングできます。
+      
+      1. 好みのパッケージ マネージャーを使用して、<a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer for .NET</a> をインストールします。 
+      2. Viewer クラスのインスタンスを作成し、NUMBERS ファイルをフルパスでロードします。  
+      3. NUMBERS ファイルを HTML、PNG、JPEG、または PDF 形式でレンダリングするオプションを設定します。 
+      4. ファイルをレンダリングし、現在のディレクトリで出力を確認します。 
+   
+    code:
+      platform: "net"
+      copy_title: "コピー"
+      install:
+        command: "dotnet add package GroupDocs.Viewer"
+        copy_tip: "クリックしてコピーします"
+        copy_done: "コピーされました"
+      links:
+        #  loop
+        - title: "他の例"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+        #  loop
+        - title: "ドキュメンテーション"
+          link: "https://docs.groupdocs.com/viewer/net/"
+          
+      content: |
+        ```csharp {style=abap}
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+        // 入力 NUMBERS ファイルを設定する
+        string filePath = "input.numbers";
+
+        // GroupDocs.Viewer をインスタンス化する
+        using (Viewer viewer = new Viewer(filePath))
+        {
+            // 表示オプションを設定する
+            HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
+                
+            // リソースが埋め込まれた NUMBERS ファイルを HTML にレンダリングします
+            viewer.View(viewOptions);
+        }
+
+        ```            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "始める準備はできていますか?"
+  description: "GroupDocs.Viewer の機能を無料で試すか、ライセンスをリクエストしてください"
+  items:
+    #  loop
+    - title: "ナゲットのダウンロード"
+      link: "https://releases.groupdocs.com/viewer/net/"
+      color: "red"
+        #  loop
+    - title: "ライセンス"
+      link: "https://purchase.groupdocs.com/pricing/viewer/net/"
+      color: "light"
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "C# を使用したその他のファイル形式のレンダリングと表示"
+    title: "C# を使用して他のファイル形式をレンダリングする"
     exclude: "NUMBERS"
-    content: |
-        .NET 用のマルチフォーマットのドキュメントおよび画像ビューア API。外部ビューアを使用せずに、以下の一般的なファイル形式の一部を表示します。
-    format: 
+    description: ".NET 用のマルチフォーマットのドキュメントおよび画像ビューア API。外部ビューアを使用せずに、以下の一般的なファイル形式の一部を表示します。"
+    items: 
         # format loop 1
-        - name: "DOCXをレンダリングする"
+        - name: "DOCXのレンダリング"
           format: "DOCX"
           link: "/viewer/net/docx/"
-          description: "Microsoft WordのオープンXMLドキュメント" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "CDR をレンダリングする" 
           format: "CDR"
           link: "/viewer/net/cdr/"
-          description: "CorelDRAW ファイル" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "PPTXのレンダリング"
           format: "PPTX"
           link: "/viewer/net/pptx/"
-          description: "PowerPoint オープン XML プレゼンテーション" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "XLSX をレンダリングする"
           format: "XLSX"
           link: "/viewer/net/xlsx/"
-          description: "Microsoft Excel オープン XML スプレッドシート" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "DWG をレンダリングする"
           format: "DWG"
           link: "/viewer/net/dwg/"
-          description: "AutoCAD 図面"
+          description: "AutoCAD Drawing"
 
         # format loop 6
         - name: "XMLのレンダリング"
           format: "XML"
           link: "/viewer/net/xml/"
-          description: "XMLファイル"
+          description: "XML File"
 
         # format loop 7
         - name: "PSD をレンダリングする"
           format: "PSD"
           link: "/viewer/net/psd/"
-          description: "Adobe Photoshop ドキュメント"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Adobe Illustrator ファイルをレンダリングする"
+        - name: "レンダリングAI"
           format: "AI"
           link: "/viewer/net/ai/"
-          description: "Adobe Illustrator アートワーク"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "ドキュメントのレンダリング"
           format: "DOC"
           link: "/viewer/net/doc/"
-          description: "Microsoft Word文書" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "TXTをレンダリングする" 
           format: "TXT"
           link: "/viewer/net/txt/"
-          description: "プレーンテキストファイル" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "DXFのレンダリング" 
           format: "DXF"
           link: "/viewer/net/dxf/"
-          description: "図面交換フォーマットファイル"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "VCF をレンダリングする"
           format: "VCF"
           link: "/viewer/net/vcf/"
-          description: "vCard ファイル"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "SVG のレンダリング"
           format: "SVG"
           link: "/viewer/net/svg/"
-          description: "スケーラブルなベクター グラフィック" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "HTMLのレンダリング"
           format: "HTML"
           link: "/viewer/net/html/"
-          description: "ハイパーテキスト マークアップ言語ファイル" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "PDF をレンダリングする"
           format: "PDF"
           link: "/viewer/net/pdf/"
-          description: "PDF形式ファイル"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "JPEGをレンダリングする"
           format: "JPG"
           link: "/viewer/net/jpg/"
-          description: "JPEG画像"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "PNG をレンダリング"
           format: "PNG"
           link: "/viewer/net/png/"
-          description: "ポータブルネットワークグラフィックス" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "EMLをレンダリングする"
           format: "EML"
           link: "/viewer/net/eml/"
-          description: "電子メールメッセージ" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "RTFをレンダリングする"
           format: "RTF"
           link: "/viewer/net/rtf/"
-          description: "リッチテキスト形式ファイル" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "ODT のレンダリング"
           format: "ODT"
           link: "/viewer/net/odt/"
-          description: "OpenDocument テキストドキュメント" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "CSVのレンダリング"
           format: "CSV"
           link: "/viewer/net/csv/"
-          description: "カンマ区切り値ファイル" 
-          
-        # format loop 21
-        - name: "{format-content-net.more_formats_name_xps}"
-          format: "XPS"
-          link: "/viewer/net/xps/"
-          description: "{format-content-net.more_formats_description_xps}" 
+          description: "Comma-Separated Values File" 
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+
+
 ---

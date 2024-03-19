@@ -1,122 +1,114 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:01:00
 draft: false
 lang: en
+product: "Viewer"
+product_tag: "viewer"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head #############################
-head_title: ".NET PNG Viewer API - Read, View, Render in C# VB.NET"
+head_title: ".NET PNG Viewer API - read, view, render in C# VB.NET"
 head_description: ".NET document viewer API to read, render and display PNG in any type of C#, ASP.NET, VB.NET & .NET Core applications."
 
 ############################# Header ############################
-title: "PNG File Viewer For C# .NET Applications" 
+title: "PNG file viewer for C# .NET applications" 
 description: ".NET document viewer API to read, render and display PNG file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code." 
+subtitle: "Document rendering solution" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Free Nuget download"
+      link: "https://releases.groupdocs.com/viewer/net/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Viewer for .NET API" 
+    title: "About GroupDocs.Viewer for .NET API"
+    link: "/viewer/net/"
+    link_title: "Learn more"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Start viewing 190+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
+      Start viewing 190+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Render PNG file in C#" 
-    content_left: |
-        With [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) you can render PNG to HTML, JPEG, PNG or PDF in a few steps.
-
-        * Install [GroupDocs.Viewer for .NET](https://www.nuget.org/packages/groupdocs.viewer) using your favorite package manager. 
-        * Create an instance of Viewer class and load the PNG file with full path. 
-        * Set options to render PNG file into HTML, PNG, JPEG or PDF format. 
-        * Render file and check output in the current directory. 
-        
-    title_right: "System Requirements" 
-    content_right: |
-        GroupDocs.Viewer for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
-        * Operating Systems: Microsoft Windows, Linux, MacOS 
-        * Development Environments: Microsoft Visual Studio, Visual Studio Code, .NET CLI 
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, .NET 
-    code: |
-        ```cs
-                        
-            // Set up input PNG file
-            string filePath = "input.png";
-        
-            // Instantiate Viewer
-            using (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
-                    
-            	// Render PNG file to HTML with embedded resources
-            	viewer.View(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "PNG Viewer Live Demo"
+    title: "Steps to render PNG file in C#" 
     content: |
-        View PNG file right now by visiting [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/png) website.
-    lang: "en"
+      With <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a> you can render PNG to HTML, JPEG, PNG or PDF in a few steps.
+      
+      1. Install <a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer for .NET</a> using your favorite package manager. 
+      2. Create an instance of Viewer class and load the PNG file with full path.  
+      3. Set options to render PNG file into HTML, PNG, JPEG or PDF format. 
+      4. Render file and check output in the current directory. 
+   
+    code:
+      platform: "net"
+      copy_title: "Copy"
+      install:
+        command: "dotnet add package GroupDocs.Viewer"
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/viewer/net/"
+          
+      content: |
+        ```csharp {style=abap}
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+        // Set up input PNG file
+        string filePath = "input.png";
+
+        // Instantiate GroupDocs.Viewer
+        using (Viewer viewer = new Viewer(filePath))
+        {
+            // Set view options
+            HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
+                
+            // Render PNG file to HTML with embedded resources
+            viewer.View(viewOptions);
+        }
+
+        ```            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Viewer features for free or request a license"
+  items:
+    #  loop
+    - title: "Nuget download"
+      link: "https://releases.groupdocs.com/viewer/net/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/viewer/net/"
+      color: "light"
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Other File Formats Rendering & Viewing using C#"
+    title: "Render other file formats using C#"
     exclude: "PNG"
-    content: |
-        Multi-format documents and images viewer API for .NET. View some of the popular file formats below without any external viewers.
-    format: 
+    description: "Multi-format documents and images viewer API for .NET. View some of the popular file formats below without any external viewers."
+    items: 
         # format loop 1
         - name: "Render DOCX"
           format: "DOCX"
@@ -160,7 +152,7 @@ more_formats:
           description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Render Adobe Illustrator file"
+        - name: "Render AI"
           format: "AI"
           link: "/viewer/net/ai/"
           description: "Adobe Illustrator Artwork"
@@ -242,14 +234,7 @@ more_formats:
           format: "CSV"
           link: "/viewer/net/csv/"
           description: "Comma-Separated Values File" 
-          
-        # format loop 21
-        - name: "{format-content-net.more_formats_name_xps}"
-          format: "XPS"
-          link: "/viewer/net/xps/"
-          description: "{format-content-net.more_formats_description_xps}" 
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+
+
 ---

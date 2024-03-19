@@ -1,139 +1,147 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:47
 draft: false
 lang: id
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java PPSM Viewer API - Render & Tampilkan PPSM di Aplikasi Java"
-head_description: "Lihat file PPSM dalam aplikasi Java, J2EE, J2SE. Mendukung tampilan 170+ format file dokumen dan gambar dalam mode HTML, PDF, atau gambar dengan fitur lanjutan untuk mengelola opsi tampilan dokumen."
+head_title: "Java PPSM Viewer API - merender & menampilkan PPSM di aplikasi Java"
+head_description: "Lihat file PPSM dalam aplikasi Java, J2EE, J2SE. Mendukung melihat 180+ format file dokumen dan gambar dalam mode HTML, PDF atau gambar dengan fitur-fitur canggih untuk mengelola opsi tampilan dokumen."
 
 ############################# Header ############################
-title: "Render & Lihat PPSM Di Java" 
+title: "Render & lihat PPSM di Java" 
 description: "API penampil file PPSM asli dan berkinerja tinggi untuk aplikasi berbasis Java, J2EE dan J2SE, mendukung berbagai fitur tambahan untuk menyesuaikan tampilan format dokumen keluaran." 
+subtitle: "Solusi rendering dokumen" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Unduhan Maven gratis"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Viewer untuk Java API" 
+    title: "Tentang GroupDocs.Viewer untuk Java API"
+    link: "/viewer/java/"
+    link_title: "Belajarlah lagi"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Aktifkan aplikasi Java Anda untuk menampilkan lebih dari 170+ format file dalam mode HTML, PDF, atau gambar menggunakan GroupDocs.Viewer untuk API Java tanpa memasang perangkat lunak tambahan apa pun; seperti Microsoft Office, Apache Open Office, Adobe Acrobat Reader dll. Pengembang dapat dengan mudah melihat semua gambar populer dan jenis dokumen termasuk Microsoft Office, OpenDocument, HTML, PDF, Arsip, Diagram, Photoshop, AutoCAD dan format bahasa pemrograman di dalam aplikasi Java dengan rendering cepat dan kualitas tertinggi.
+      Aktifkan aplikasi Java Anda untuk menampilkan lebih dari 180+ format file dalam mode HTML, PDF, atau gambar menggunakan GroupDocs.Viewer untuk Java API tanpa menginstal perangkat lunak tambahan apa pun; seperti Microsoft Office, Apache Open Office, Adobe Acrobat Reader dll. Pengembang dapat dengan mudah melihat semua gambar dan jenis dokumen populer termasuk Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagram, Photoshop, AutoCAD dan format bahasa pemrograman di dalam aplikasi Java dengan rendering cepat dan kualitas tertinggi.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Referensi API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Contoh Kode"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Demo Langsung"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Merender file PPSM di Java" 
-    content_left: |
-        Dengan [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) Anda dapat merender PPSM ke HTML, JPEG, PNG, atau PDF dalam beberapa langkah.
-
-        * Tambahkan [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) sebagai dependensi ke project Anda. 
-        * Buat instance kelas Viewer dan muat file PPSM dengan path lengkap. 
-        * Setel opsi untuk merender file PPSM ke dalam format HTML, PNG, JPEG, atau PDF. 
-        * Render file dan periksa output di direktori saat ini. 
-        
-    title_right: "Persyaratan sistem" 
-    content_right: |
-        GroupDocs.Viewer untuk API Java didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, harap pastikan bahwa Anda telah menginstal prasyarat berikut di sistem Anda.
-
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS 
-        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse dll. 
-        * Kerangka kerja: J2SE 8.0 (1.8) atau lebih tinggi (misalnya Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input PPSM file
-            String filePath = "input.ppsm";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render PPSM file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "PPSM Demo Langsung Pemirsa"
+    title: "Langkah-langkah untuk merender file PPSM di Java" 
     content: |
-        Lihat file PPSM sekarang juga dengan mengunjungi situs web [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/ppsm).
-    lang: "id"
+      Dengan <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> Anda dapat merender PPSM ke HTML, JPEG, PNG, atau PDF dalam beberapa langkah.
+      
+      1. Tambahkan <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer untuk Java</a> sebagai dependensi pada proyek Anda. 
+      2. Buat instance kelas Viewer dan muat file PPSM dengan path lengkap.  
+      3. Tetapkan opsi untuk merender file PPSM ke dalam format HTML, PNG, JPEG, atau PDF. 
+      4. Render file dan periksa output di direktori saat ini. 
+   
+    code:
+      platform: "java"
+      copy_title: "Menyalin"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "klik untuk menyalin"
+        copy_done: "disalin"
+      links:
+        #  loop
+        - title: "Lebih banyak contoh"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Dokumentasi"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Siapkan file masukan PPSM
+        String filePath = "input.ppsm";
+
+        // Buat instance GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Tetapkan opsi tampilan
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Render file PPSM ke HTML dengan sumber daya yang disematkan
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Viewer secara gratis atau minta lisensi"
+  items:
+    #  loop
+    - title: "Unduhan Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Perizinan"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Rendering & Tampilan Format File Lainnya menggunakan Java"
+    title: "Render format file lain menggunakan Java"
     exclude: "PPSM"
-    content: |
-        Dokumen multi-format dan API penampil gambar untuk Java. Lihat beberapa format file populer di bawah ini tanpa penampil eksternal.
-    format: 
+    description: "Dokumen multi-format dan API penampil gambar untuk Java. Lihat beberapa format file populer di bawah ini tanpa pemirsa eksternal."
+    items: 
         # format loop 1
-        - name: "Merender DOCX"
+        - name: "Render DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Dokumen XML Microsoft Word Terbuka" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "Render CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "File CorelDraw" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Render PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "Render XLSX"
@@ -145,105 +153,103 @@ more_formats:
         - name: "Render DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "Menggambar AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "Merender XML"
+        - name: "Render XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "Berkas XML"
+          description: "XML File"
 
         # format loop 7
         - name: "Render PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "Dokumen Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Render file Adobe Illustrator"
+        - name: "Render AI"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Karya Seni Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "Render DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "Dokumen Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Render TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "File Teks Biasa" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Render DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "Menggambar File Format Pertukaran"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Render VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "File vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Render SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "Grafik Vektor yang Dapat Diskalakan" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
-        - name: "Merender HTML"
+        - name: "Render HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "File Bahasa Markup Hiperteks" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "Render PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "File Format Dokumen Portabel"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Render JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "Gambar JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "Render PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "Grafik Jaringan Portabel" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "Render EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "Pesan Email" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Render RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "File Format Teks Kaya" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "Render ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "Dokumen Teks OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "Render CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "File Nilai yang Dipisahkan Koma" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

@@ -1,249 +1,255 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:52
 draft: false
 lang: ru
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java MBOX Viewer API — рендеринг и отображение MBOX в приложениях Java"
-head_description: "Просмотр MBOX файлов в приложениях Java, J2EE, J2SE. Поддерживает просмотр более 170 форматов файлов документов и изображений в формате HTML, PDF или изображения с расширенными функциями для управления параметрами просмотра документов."
+head_title: "API Java MBOX Viewer – рендеринг и отображение MBOX в приложениях Java"
+head_description: "Просмотр файлов MBOX в приложениях Java, J2EE, J2SE. Поддерживает просмотр более 180 форматов документов и изображений в режиме HTML, PDF или изображений, а также расширенные функции для управления параметрами просмотра документов."
 
 ############################# Header ############################
 title: "Рендеринг и просмотр MBOX в Java" 
-description: "Собственный и высокопроизводительный MBOX API-интерфейс просмотра файлов для приложений на основе Java, J2EE и J2SE, поддерживающий широкий спектр дополнительных функций для настройки внешнего вида выходного формата документа." 
+description: "Собственный высокопроизводительный API-интерфейс просмотра файлов MBOX для приложений на базе Java, J2EE и J2SE, поддерживающий широкий спектр дополнительных функций для настройки внешнего вида формата выходного документа." 
+subtitle: "Решение для рендеринга документов" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Бесплатная загрузка Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Viewer для Java API" 
+    title: "О GroupDocs.Viewer для Java API"
+    link: "/viewer/java/"
+    link_title: "Узнать больше"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Разрешите своим приложениям Java отображать более 170 форматов файлов в режимах HTML, PDF или изображений с помощью API GroupDocs.Viewer для Java без установки какого-либо дополнительного программного обеспечения; таких как Microsoft Office, Apache Open Office, Adobe Acrobat Reader и т. д. Разработчики могут легко просматривать все популярные форматы изображений и документов, включая Microsoft Office, OpenDocument, HTML, PDF, архив, диаграммы, Photoshop, AutoCAD и языки программирования, внутри приложений Java с помощью быстрый и качественный рендеринг.
+      Позвольте вашим Java-приложениям отображать более 180+ форматов файлов в режимах HTML, PDF или изображений с помощью API GroupDocs.Viewer для Java без установки какого-либо дополнительного программного обеспечения; такие как Microsoft Office, Apache Open Office, Adobe Acrobat Reader и т. д. Разработчики могут легко просматривать все популярные изображения и типы документов, включая Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD и форматы языков программирования внутри приложений Java с помощью быстрый и качественный рендеринг.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для рендеринга файла MBOX в Java" 
-    content_left: |
-        С помощью [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) вы можете преобразовать MBOX в HTML, JPEG, PNG или PDF за несколько шагов.
-
-        * Добавьте [GroupDocs.Viewer для Java](https://releases.groupdocs.com/viewer/java/) в качестве зависимости к вашему проекту. 
-        * Создайте экземпляр класса Viewer и загрузите файл MBOX с полным путем. 
-        * Установите параметры для преобразования файла MBOX в формат HTML, PNG, JPEG или PDF. 
-        * Рендерим файл и проверяем вывод в текущем каталоге. 
-        
-    title_right: "Системные Требования" 
-    content_right: |
-        API GroupDocs.Viewer для Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-
-        * Операционные системы: Microsoft Windows, Linux, MacOS 
-        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse и т. д. 
-        * Фреймворки: J2SE 8.0 (1.8) или выше (например, Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input MBOX file
-            String filePath = "input.mbox";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render MBOX file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "MBOX Демо-версия программы просмотра"
+    title: "Действия по рендерингу файла MBOX в Java" 
     content: |
-        Просмотрите файл MBOX прямо сейчас, посетив веб-сайт [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/mbox).
-    lang: "ru"
+      С помощью <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> вы можете преобразовать MBOX в HTML, JPEG, PNG или PDF за несколько шагов.
+      
+      1. Добавьте <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer для Java</a> в качестве зависимости к вашему проекту. 
+      2. Создайте экземпляр класса Viewer и загрузите файл MBOX с полным путем.  
+      3. Установите параметры для преобразования файла MBOX в формат HTML, PNG, JPEG или PDF. 
+      4. Отрисуйте файл и проверьте вывод в текущем каталоге. 
+   
+    code:
+      platform: "java"
+      copy_title: "Копировать"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопирован"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Настройте входной файл MBOX
+        String filePath = "input.mbox";
+
+        // Создать экземпляр GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Установить параметры просмотра
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Преобразовать файл MBOX в HTML со встроенными ресурсами.
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Viewer бесплатно или запросите лицензию."
+  items:
+    #  loop
+    - title: "Maven скачать"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Рендеринг и просмотр файлов других форматов с использованием Java"
+    title: "Рендеринг других форматов файлов с помощью Java"
     exclude: "MBOX"
-    content: |
-        Многоформатный API для просмотра документов и изображений для Java. Просмотрите некоторые из популярных форматов файлов ниже без каких-либо внешних средств просмотра.
-    format: 
+    description: "API многоформатного просмотра документов и изображений для Java. Просмотрите некоторые популярные форматы файлов ниже без использования внешних программ просмотра."
+    items: 
         # format loop 1
         - name: "Рендеринг DOCX"
           format: "DOCX"
           link: "/viewer/java/docx/"
-          description: "Документ Microsoft Word с открытым XML" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "Рендеринг CDR" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "Файл CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Рендеринг PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "Презентация PowerPoint Open XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
-        - name: "Рендеринг XLSX"
+        - name: "Рендер XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
-        - name: "Визуализация DWG"
+        - name: "Рендеринг DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "Чертеж Автокад"
+          description: "AutoCAD Drawing"
 
         # format loop 6
         - name: "Рендеринг XML"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "XML-файл"
+          description: "XML File"
 
         # format loop 7
-        - name: "Рендер PSD"
+        - name: "Рендеринг PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "Документ Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Рендеринг файла Adobe Illustrator"
+        - name: "Рендеринг AI"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "Работа Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "Рендеринг DOC"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "Документ Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Рендеринг TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "Простой текстовый файл" 
+          description: "Plain Text File" 
 
         # format loop 11
-        - name: "Визуализировать DXF" 
+        - name: "Рендеринг DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "Файл формата обмена чертежами"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Рендеринг VCF"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "файл визитной карточки"  
+          description: "vCard File"  
               
         # format loop 13
-        - name: "Визуализировать SVG"
+        - name: "Рендеринг SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "Масштабируемая векторная графика" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "Рендеринг HTML"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "Файл языка гипертекстовой разметки" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
-        - name: "Рендер PDF"
+        - name: "Рендеринг PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "Файл переносимого формата документа"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Рендеринг JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "Изображение в формате JPEG"
+          description: "JPEG Image"
           
         # format loop 17
-        - name: "Рендер PNG"
+        - name: "PNG рендеринг"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "Портативная сетевая графика" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
-        - name: "Рендер EML"
+        - name: "Рендеринг EML"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "Сообщение электронной почты" 
+          description: "E-Mail Message" 
           
         # format loop 19
-        - name: "Рендеринг в формате RTF"
+        - name: "Рендеринг RTF"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "Файл форматированного текста" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "Рендеринг ODT"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "Текстовый документ OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
-        - name: "Отобразить CSV-файл"
+        - name: "Рендеринг CSV"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "Файл значений, разделенных запятыми" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---

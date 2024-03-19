@@ -1,255 +1,240 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:01:09
 draft: false
 lang: uk
+product: "Viewer"
+product_tag: "viewer"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head #############################
 head_title: ".NET PPS Viewer API - читання, перегляд, рендеринг у C# VB.NET"
 head_description: "API переглядача документів .NET для читання, візуалізації та відображення PPS у будь-яких програмах C#, ASP.NET, VB.NET і .NET Core."
 
 ############################# Header ############################
-title: "PPS Переглядач файлів для програм C# .NET" 
-description: "API переглядача документів .NET для читання, візуалізації та відображення файлу PPS у будь-яких програмах C#, ASP.NET, VB.NET і .NET Core. Переглядайте відтворені файли зі справжнім форматуванням і макетом у HTML5, PDF або як зображення за допомогою кількох рядків коду." 
+title: "Переглядач файлів PPS для програм C# .NET" 
+description: "API переглядача документів .NET для читання, візуалізації та відображення файлу PPS у програмах C#, ASP.NET, VB.NET і .NET Core будь-якого типу. Переглядайте відтворені файли зі справжнім форматуванням і макетом у HTML5, PDF або як зображення за допомогою кількох рядків коду." 
+subtitle: "РІШЕННЯ ДЛЯ ПЕРЕГЛЯДУ ДОКУМЕНТІВ" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Завантажте безкоштовну пробну версію"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Безкоштовне завантаження Nuget"
+      link: "https://releases.groupdocs.com/viewer/net/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "Про GroupDocs.Viewer для .NET API" 
+    title: "Про GroupDocs.Viewer для .NET API"
+    link: "/viewer/net/"
+    link_title: "Дізнатись більше"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Почніть переглядати понад 190 популярних форматів документів у своїх програмах .NET за допомогою API GroupDocs.Viewer для .NET, додавши кілька рядків коду. Розробники можуть легко відображати PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook та багато інших популярних форматів документів у режимах HTML5, зображень або PDF. Рендеринг документа відбувається швидко, ідентичний оригінальному вихідному файлу, і не вимагає встановлення додаткового програмного забезпечення чи будь-яких інших зовнішніх бібліотек.
+      Почніть переглядати понад 190 популярних форматів документів у своїх програмах .NET за допомогою API GroupDocs.Viewer для .NET, додавши кілька рядків коду. Розробники можуть легко відображати PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook та багато інших популярних форматів документів у режимах HTML5, зображень або PDF. Рендеринг документа відбувається швидко, ідентичний оригінальному вихідному файлу, і не вимагає встановлення додаткового програмного забезпечення чи будь-яких інших зовнішніх бібліотек.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Довідник API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Приклади коду"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Живі демонстрації"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Ціноутворення"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Кроки для відтворення файлу PPS мовою C#" 
-    content_left: |
-        За допомогою [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/) ви можете перетворити PPS у HTML, JPEG, PNG або PDF за кілька кроків.
-
-        * Установіть [GroupDocs.Viewer для .NET](https://www.nuget.org/packages/groupdocs.viewer) за допомогою вашого улюбленого менеджера пакетів. 
-        * Створіть екземпляр класу Viewer і завантажте файл PPS із повним шляхом. 
-        * Встановіть параметри для відтворення файлу PPS у форматі HTML, PNG, JPEG або PDF. 
-        * Відобразити файл і перевірити вивід у поточному каталозі. 
-        
-    title_right: "Системні вимоги" 
-    content_right: |
-        API GroupDocs.Viewer для .NET підтримуються на всіх основних платформах і операційних системах. Перш ніж виконувати наведений нижче код, переконайтеся, що у вашій системі встановлено такі передумови.
-
-        * Операційні системи: Microsoft Windows, Linux, MacOS 
-        * Середовища розробки: Microsoft Visual Studio, Visual Studio Code, .NET CLI 
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, .NET 
-    code: |
-        ```cs
-                        
-            // Set up input PPS file
-            string filePath = "input.pps";
-        
-            // Instantiate Viewer
-            using (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
-                    
-            	// Render PPS file to HTML with embedded resources
-            	viewer.View(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "PPS Демо-версія переглядача"
+    title: "Кроки для перегляду файлу PPS у C#" 
     content: |
-        Перегляньте файл PPS просто зараз, відвідавши веб-сайт [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/pps).
-    lang: "uk"
+      За допомогою <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a> ви можете перетворити PPS у HTML, JPEG, PNG або PDF за кілька кроків.
+      
+      1. Установіть <a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer для .NET</a> за допомогою улюбленого менеджера пакетів. 
+      2. Створіть екземпляр класу Viewer і завантажте файл PPS із повним шляхом.  
+      3. Встановіть параметри для перетворення файлу PPS у форматі HTML, PNG, JPEG або PDF. 
+      4. Перетворити файл і переглянути результат у поточній директорії. 
+   
+    code:
+      platform: "net"
+      copy_title: "Копіювати"
+      install:
+        command: "dotnet add package GroupDocs.Viewer"
+        copy_tip: "натисніть, щоб скопіювати"
+        copy_done: "скопійовано"
+      links:
+        #  loop
+        - title: "Більше прикладів"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+        #  loop
+        - title: "Документація"
+          link: "https://docs.groupdocs.com/viewer/net/"
+          
+      content: |
+        ```csharp {style=abap}
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+        // Налаштувати вхідний файл PPS
+        string filePath = "input.pps";
+
+        // Створення екземпляра GroupDocs.Viewer
+        using (Viewer viewer = new Viewer(filePath))
+        {
+            // Налаштувати параметри перегляду
+            HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
+                
+            // Перетворіть файл PPS у HTML із вбудованими ресурсами
+            viewer.View(viewOptions);
+        }
+
+        ```            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готові почати?"
+  description: "Спробуйте функції GroupDocs.Viewer безкоштовно або ортимайте тимчасову ліцензию"
+  items:
+    #  loop
+    - title: "Завантажити Nuget"
+      link: "https://releases.groupdocs.com/viewer/net/"
+      color: "red"
+        #  loop
+    - title: "Ліцензування"
+      link: "https://purchase.groupdocs.com/pricing/viewer/net/"
+      color: "light"
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Відтворення та перегляд інших форматів файлів за допомогою C#"
+    title: "Перегляд інших форматів в додатках на C#"
     exclude: "PPS"
-    content: |
-        Багатоформатний API перегляду документів і зображень для .NET. Перегляньте деякі з популярних форматів файлів нижче без зовнішніх програм перегляду.
-    format: 
+    description: "Багатоформатний API перегляду документів і зображень для .NET. Переглядайте популярні формати файлів без встановлення додаткових програм."
+    items: 
         # format loop 1
         - name: "Рендер DOCX"
           format: "DOCX"
           link: "/viewer/net/docx/"
-          description: "Відкритий XML-документ Microsoft Word" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
         - name: "Рендер CDR" 
           format: "CDR"
           link: "/viewer/net/cdr/"
-          description: "Файл CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Рендер PPTX"
           format: "PPTX"
           link: "/viewer/net/pptx/"
-          description: "Презентація PowerPoint Open XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "Рендер XLSX"
           format: "XLSX"
           link: "/viewer/net/xlsx/"
-          description: "Електронна таблиця Microsoft Excel Open XML" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "Рендер DWG"
           format: "DWG"
           link: "/viewer/net/dwg/"
-          description: "Креслення AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "Виводити XML"
+        - name: "Відобразити XML"
           format: "XML"
           link: "/viewer/net/xml/"
-          description: "Файл XML"
+          description: "XML File"
 
         # format loop 7
         - name: "Рендер PSD"
           format: "PSD"
           link: "/viewer/net/psd/"
-          description: "Документ Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Відобразити файл Adobe Illustrator"
+        - name: "Рендер AI"
           format: "AI"
           link: "/viewer/net/ai/"
-          description: "Ілюстрація Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "Відобразити DOC"
           format: "DOC"
           link: "/viewer/net/doc/"
-          description: "Документ Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Рендерити TXT" 
           format: "TXT"
           link: "/viewer/net/txt/"
-          description: "Звичайний текстовий файл" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Рендер DXF" 
           format: "DXF"
           link: "/viewer/net/dxf/"
-          description: "Файл обміну кресленнями"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Рендер VCF"
           format: "VCF"
           link: "/viewer/net/vcf/"
-          description: "Файл vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Відтворити SVG"
           format: "SVG"
           link: "/viewer/net/svg/"
-          description: "Масштабована векторна графіка" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "Відобразити HTML"
           format: "HTML"
           link: "/viewer/net/html/"
-          description: "Мовний файл розмітки гіпертексту" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "Рендер PDF"
           format: "PDF"
           link: "/viewer/net/pdf/"
-          description: "Файл формату портативного документа"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Рендер JPEG"
           format: "JPG"
           link: "/viewer/net/jpg/"
-          description: "Зображення JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "Рендер PNG"
           format: "PNG"
           link: "/viewer/net/png/"
-          description: "Портативна мережева графіка" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "Відобразити EML"
           format: "EML"
           link: "/viewer/net/eml/"
-          description: "Повідомлення електронної пошти" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Рендер RTF"
           format: "RTF"
           link: "/viewer/net/rtf/"
-          description: "Файл у текстовому форматі" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "Рендер ODT"
           format: "ODT"
           link: "/viewer/net/odt/"
-          description: "Текстовий документ OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "Відобразити CSV"
           format: "CSV"
           link: "/viewer/net/csv/"
-          description: "Файл зі значеннями, розділеними комами" 
-          
-        # format loop 21
-        - name: "{format-content-net.more_formats_name_xps}"
-          format: "XPS"
-          link: "/viewer/net/xps/"
-          description: "{format-content-net.more_formats_description_xps}" 
+          description: "Comma-Separated Values File" 
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+
+
 ---

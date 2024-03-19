@@ -1,255 +1,240 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:01:02
 draft: false
 lang: fr
+product: "Viewer"
+product_tag: "viewer"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head #############################
-head_title: ".NET VTX API Viewer - Lire, Afficher, Rendre en C# VB.NET"
-head_description: "API de visionneuse de documents .NET pour lire, restituer et afficher VTX dans tout type d'applications C#, ASP.NET, VB.NET et .NET Core."
+head_title: "API de la visionneuse .NET VTX - lire, afficher, rendre en C# VB.NET"
+head_description: "API de visualisation de documents .NET pour lire, restituer et afficher VTX dans tout type d'applications C#, ASP.NET, VB.NET et .NET Core."
 
 ############################# Header ############################
-title: "VTX Visionneuse de fichiers pour les applications C# .NET" 
-description: "API de visionneuse de documents .NET pour lire, restituer et afficher le fichier VTX dans tout type d'applications C #, ASP.NET, VB.NET et .NET Core. Affichez les fichiers rendus avec une mise en forme et une mise en page authentiques au format HTML5, PDF ou sous forme d'image en utilisant quelques lignes de code." 
+title: "VTX visionneuse de fichiers pour les applications C# .NET" 
+description: "API de visualisation de documents .NET pour lire, restituer et afficher le fichier VTX dans tout type d'applications C#, ASP.NET, VB.NET et .NET Core. Affichez les fichiers rendus avec un véritable formatage et une mise en page en HTML5, PDF ou sous forme d'image en utilisant quelques lignes de code." 
+subtitle: "Solution de rendu de documents" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Télécharger la version d'essai gratuite"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Téléchargement gratuit de Nugets"
+      link: "https://releases.groupdocs.com/viewer/net/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de l'API GroupDocs.Viewer pour .NET" 
+    title: "À propos de l'API GroupDocs.Viewer pour .NET"
+    link: "/viewer/net/"
+    link_title: "Apprendre encore plus"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Commencez à visualiser plus de 190 formats de documents populaires dans vos applications .NET à l'aide de GroupDocs.Viewer pour les API .NET en ajoutant quelques lignes de code. Les développeurs peuvent facilement afficher PDF, traitement de texte, feuille de calcul Excel, présentation, Visio, projet, Outlook et de nombreux autres formats de documents populaires en modes HTML5, image ou PDF. Le rendu du document est rapide, identique au fichier source d'origine et ne nécessite pas l'installation de logiciels supplémentaires ou d'autres bibliothèques externes.
+      Commencez à visualiser plus de 190 formats de documents populaires dans vos applications .NET à l'aide des API GroupDocs.Viewer pour .NET en ajoutant quelques lignes de code. Les développeurs peuvent facilement afficher PDF, traitement de texte, feuille de calcul Excel, présentation, Visio, projet, Outlook et de nombreux autres formats de documents populaires en modes HTML5, image ou PDF. Le rendu du document est rapide, identique au fichier source d'origine, et ne nécessite pas l'installation de logiciels supplémentaires ni d'autres bibliothèques externes.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "Référence API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Exemples de codes"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Démos en direct"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Tarification"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Étapes pour rendre le fichier VTX dans C#" 
-    content_left: |
-        Avec [GroupDocs.Viewer](https://products.groupdocs.com/viewer/net/), vous pouvez rendre VTX au format HTML, JPEG, PNG ou PDF en quelques étapes.
-
-        * Installez [GroupDocs.Viewer pour .NET](https://www.nuget.org/packages/groupdocs.viewer) à l'aide de votre gestionnaire de packages préféré. 
-        * Créez une instance de la classe Viewer et chargez le fichier VTX avec le chemin complet. 
-        * Définissez les options pour rendre le fichier VTX au format HTML, PNG, JPEG ou PDF. 
-        * Rendre le fichier et vérifier la sortie dans le répertoire courant. 
-        
-    title_right: "Configuration requise" 
-    content_right: |
-        Les API GroupDocs.Viewer pour .NET sont prises en charge sur toutes les principales plateformes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
-
-        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS 
-        * Environnements de développement : Microsoft Visual Studio, Visual Studio Code, .NET CLI 
-        * Cadres : .NET Framework, .NET Standard, .NET Core, .NET 
-    code: |
-        ```cs
-                        
-            // Set up input VTX file
-            string filePath = "input.vtx";
-        
-            // Instantiate Viewer
-            using (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
-                    
-            	// Render VTX file to HTML with embedded resources
-            	viewer.View(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "VTX Démo en direct du spectateur"
+    title: "Étapes pour restituer le fichier VTX dans C#" 
     content: |
-        Affichez le fichier VTX dès maintenant en visitant le site Web [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/vtx).
-    lang: "fr"
+      Avec <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a>, vous pouvez restituer VTX au format HTML, JPEG, PNG ou PDF en quelques étapes.
+      
+      1. Installez <a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer pour .NET</a> à l'aide de votre gestionnaire de packages préféré. 
+      2. Créez une instance de la classe Viewer et chargez le fichier VTX avec le chemin complet.  
+      3. Définissez les options pour restituer le fichier VTX au format HTML, PNG, JPEG ou PDF. 
+      4. Rendu le fichier et vérifiez la sortie dans le répertoire actuel. 
+   
+    code:
+      platform: "net"
+      copy_title: "Copie"
+      install:
+        command: "dotnet add package GroupDocs.Viewer"
+        copy_tip: "cliquez pour copier"
+        copy_done: "copié"
+      links:
+        #  loop
+        - title: "Plus d'exemples"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/viewer/net/"
+          
+      content: |
+        ```csharp {style=abap}
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+        // Configurer le fichier d'entrée VTX
+        string filePath = "input.vtx";
+
+        // Instancier GroupDocs.Viewer
+        using (Viewer viewer = new Viewer(filePath))
+        {
+            // Définir les options d'affichage
+            HtmlViewOptions viewOptions = HtmlViewOptions.ForEmbeddedResources();
+                
+            // Rendre le fichier VTX au format HTML avec des ressources intégrées
+            viewer.View(viewOptions);
+        }
+
+        ```            
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Prêt à commencer?"
+  description: "Essayez les fonctionnalités de GroupDocs.Viewer gratuitement ou demandez une licence"
+  items:
+    #  loop
+    - title: "Téléchargement de Nugets"
+      link: "https://releases.groupdocs.com/viewer/net/"
+      color: "red"
+        #  loop
+    - title: "Licence"
+      link: "https://purchase.groupdocs.com/pricing/viewer/net/"
+      color: "light"
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Rendu et affichage d'autres formats de fichiers à l'aide de C#"
+    title: "Rendre d'autres formats de fichiers en utilisant C#"
     exclude: "VTX"
-    content: |
-        API de visualisation de documents et d'images multi-formats pour .NET. Affichez ci-dessous certains des formats de fichiers populaires sans aucune visionneuse externe.
-    format: 
+    description: "API de visualisation de documents et d'images multiformats pour .NET. Affichez certains des formats de fichiers populaires ci-dessous sans aucun lecteur externe."
+    items: 
         # format loop 1
-        - name: "Rendu DOCX"
+        - name: "Rendre DOCX"
           format: "DOCX"
           link: "/viewer/net/docx/"
-          description: "Document XML ouvert Microsoft Word" 
+          description: "Microsoft Word Open XML Document" 
 
         # format loop 2
-        - name: "Rendu CDR" 
+        - name: "Rendre le CDR" 
           format: "CDR"
           link: "/viewer/net/cdr/"
-          description: "Fichier CorelDRAW" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "Rendu PPTX"
           format: "PPTX"
           link: "/viewer/net/pptx/"
-          description: "Présentation PowerPoint Open XML" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
-        - name: "Rendre XLSX"
+        - name: "Rendu XLSX"
           format: "XLSX"
           link: "/viewer/net/xlsx/"
-          description: "Feuille de calcul Open XML Microsoft Excel" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "Rendu DWG"
           format: "DWG"
           link: "/viewer/net/dwg/"
-          description: "Dessin AutoCAD"
+          description: "AutoCAD Drawing"
 
         # format loop 6
-        - name: "Rendu XML"
+        - name: "Rendre XML"
           format: "XML"
           link: "/viewer/net/xml/"
-          description: "Fichier XML"
+          description: "XML File"
 
         # format loop 7
         - name: "Rendu PSD"
           format: "PSD"
           link: "/viewer/net/psd/"
-          description: "Document Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Rendre le fichier Adobe Illustrator"
+        - name: "Render AI"
           format: "AI"
           link: "/viewer/net/ai/"
-          description: "Illustration d'Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "Rendu DOC"
           format: "DOC"
           link: "/viewer/net/doc/"
-          description: "Document Microsoft Word" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "Rendu TXT" 
           format: "TXT"
           link: "/viewer/net/txt/"
-          description: "Fichier texte brut" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "Rendu DXF" 
           format: "DXF"
           link: "/viewer/net/dxf/"
-          description: "Fichier de format d'échange de dessin"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "Rendu VCF"
           format: "VCF"
           link: "/viewer/net/vcf/"
-          description: "Fichier vCard"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "Rendu SVG"
           format: "SVG"
           link: "/viewer/net/svg/"
-          description: "Graphique vectoriel évolutif" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
-        - name: "Rendu HTML"
+        - name: "Rendre le HTML"
           format: "HTML"
           link: "/viewer/net/html/"
-          description: "Fichier de langage de balisage hypertexte" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
-        - name: "Rendu PDF"
+        - name: "Rendre le PDF"
           format: "PDF"
           link: "/viewer/net/pdf/"
-          description: "Fichier de format de document portable"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "Rendu JPEG"
           format: "JPG"
           link: "/viewer/net/jpg/"
-          description: "Images JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "Rendu PNG"
           format: "PNG"
           link: "/viewer/net/png/"
-          description: "Graphique réseau portable" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
-        - name: "Rendu EML"
+        - name: "Rendre EML"
           format: "EML"
           link: "/viewer/net/eml/"
-          description: "Message électronique" 
+          description: "E-Mail Message" 
           
         # format loop 19
         - name: "Rendu RTF"
           format: "RTF"
           link: "/viewer/net/rtf/"
-          description: "Fichier au format RTF" 
+          description: "Rich Text Format File" 
           
         # format loop 20
-        - name: "ODT de rendu"
+        - name: "Rendu ODT"
           format: "ODT"
           link: "/viewer/net/odt/"
-          description: "Document texte OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "Rendu CSV"
           format: "CSV"
           link: "/viewer/net/csv/"
-          description: "Fichier de valeurs séparées par des virgules" 
-          
-        # format loop 21
-        - name: "{format-content-net.more_formats_name_xps}"
-          format: "XPS"
-          link: "/viewer/net/xps/"
-          description: "{format-content-net.more_formats_description_xps}" 
+          description: "Comma-Separated Values File" 
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+
+
 ---

@@ -1,122 +1,130 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:44
 draft: false
 lang: en
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
-head_title: "Java POTM Viewer API - Render & Display POTM in Java Apps"
-head_description: "View POTM files in Java, J2EE, J2SE applications. Supports viewing 170+ document and image file formats in HTML, PDF or image mode with advanced features to manage document viewing options."
+head_title: "Java POTM Viewer API - render & display POTM in Java apps"
+head_description: "View POTM files in Java, J2EE, J2SE applications. Supports viewing 180+ document and image file formats in HTML, PDF or image mode with advanced features to manage document viewing options."
 
 ############################# Header ############################
-title: "Render & View POTM In Java" 
+title: "Render & view POTM in Java" 
 description: "Native and high performance POTM file viewer API for Java, J2EE and J2SE based applications, supporting a wide range of additional features to customize the appearance of the output document format." 
+subtitle: "Document rendering solution" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Free Maven download"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Viewer for Java API" 
+    title: "About GroupDocs.Viewer for Java API"
+    link: "/viewer/java/"
+    link_title: "Learn more"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        Enable your Java applications to display over 170+ file formats in HTML, PDF or image modes using GroupDocs.Viewer for Java APIs without any additional software installed; such as Microsoft Office, Apache Open Office, Adobe Acrobat Reader etc. Developers can easily view all popular images and document types including Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD and programming language formats inside the Java applications with fast and highest quality rendering.
+      Enable your Java applications to display over 180+ file formats in HTML, PDF or image modes using GroupDocs.Viewer for Java APIs without any additional software installed; such as Microsoft Office, Apache Open Office, Adobe Acrobat Reader etc. Developers can easily view all popular images and document types including Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD and programming language formats inside the Java applications with fast and highest quality rendering.
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Render POTM file in Java" 
-    content_left: |
-        With [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) you can render POTM to HTML, JPEG, PNG or PDF in a few steps.
-
-        * Add [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) as a dependency to your project. 
-        * Create an instance of Viewer class and load the POTM file with full path. 
-        * Set options to render POTM file into HTML, PNG, JPEG or PDF format. 
-        * Render file and check output in the current directory. 
-        
-    title_right: "System Requirements" 
-    content_right: |
-        GroupDocs.Viewer for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
-
-        * Operating Systems: Microsoft Windows, Linux, MacOS 
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse etc. 
-        * Frameworks: J2SE 8.0 (1.8) or above (for example Java 17) 
-    code: |
-        ```java
-                        
-            // Set up input POTM file
-            String filePath = "input.potm";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render POTM file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "POTM Viewer Live Demo"
+    title: "Steps to render POTM file in Java" 
     content: |
-        View POTM file right now by visiting [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/potm) website.
-    lang: "en"
+      With <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> you can render POTM to HTML, JPEG, PNG or PDF in a few steps.
+      
+      1. Add <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer for Java</a> as a dependency to your project. 
+      2. Create an instance of Viewer class and load the POTM file with full path.  
+      3. Set options to render POTM file into HTML, PNG, JPEG or PDF format. 
+      4. Render file and check output in the current directory. 
+   
+    code:
+      platform: "java"
+      copy_title: "Copy"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Set up input POTM file
+        String filePath = "input.potm";
+
+        // Instantiate GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // Set view options
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // Render POTM file to HTML with embedded resources
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Viewer features for free or request a license"
+  items:
+    #  loop
+    - title: "Maven download"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Other File Formats Rendering & Viewing using Java"
+    title: "Render other file formats using Java"
     exclude: "POTM"
-    content: |
-        Multi-format documents and images viewer API for Java. View some of the popular file formats below without any external viewers.
-    format: 
+    description: "Multi-format documents and images viewer API for Java. View some of the popular file formats below without any external viewers."
+    items: 
         # format loop 1
         - name: "Render DOCX"
           format: "DOCX"
@@ -160,7 +168,7 @@ more_formats:
           description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "Render Adobe Illustrator file"
+        - name: "Render AI"
           format: "AI"
           link: "/viewer/java/ai/"
           description: "Adobe Illustrator Artwork"
@@ -242,8 +250,6 @@ more_formats:
           format: "CSV"
           link: "/viewer/java/csv/"
           description: "Comma-Separated Values File" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+
+
 ---

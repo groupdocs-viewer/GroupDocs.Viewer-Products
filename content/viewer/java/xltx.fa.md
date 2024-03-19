@@ -1,122 +1,130 @@
 ---
 ############################# Static ############################
-layout: "auto-gen-viewer"
-date: 2022-02-23T12:00:00+02:00
+layout: "format"
+date: 2024-03-19T07:00:46
 draft: false
 lang: fa
+product: "Viewer"
+product_tag: "viewer"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head #############################
 head_title: "Java XLTX Viewer API - رندر و نمایش XLTX در برنامه‌های جاوا"
-head_description: "فایل‌های XLTX را در برنامه‌های Java، J2EE، J2SE مشاهده کنید. از مشاهده بیش از 170 فرمت سند و فایل تصویر در حالت HTML، PDF یا تصویر با ویژگی های پیشرفته برای مدیریت گزینه های مشاهده اسناد پشتیبانی می کند."
+head_description: "فایل‌های XLTX را در برنامه‌های Java، J2EE، J2SE مشاهده کنید. از مشاهده بیش از 180 فرمت سند و فایل تصویر در حالت HTML، PDF یا تصویر با ویژگی های پیشرفته برای مدیریت گزینه های مشاهده اسناد پشتیبانی می کند."
 
 ############################# Header ############################
 title: "رندر و مشاهده XLTX در جاوا" 
-description: "API نمایشگر فایل بومی و با کارایی بالا XLTX برای برنامه های کاربردی مبتنی بر جاوا، J2EE و J2SE، از طیف گسترده ای از ویژگی های اضافی برای سفارشی کردن ظاهر قالب سند خروجی پشتیبانی می کند." 
+description: "API نمایشگر فایل بومی و با کارایی بالا XLTX برای برنامه‌های مبتنی بر جاوا، J2EE و J2SE، که از طیف گسترده‌ای از ویژگی‌های اضافی برای سفارشی‌سازی ظاهر قالب سند خروجی پشتیبانی می‌کند." 
+subtitle: "راه حل ارائه سند" 
 
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "دانلود آزمایشی رایگان"
-    link: "https://releases.groupdocs.com/viewer/net"
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "دانلود رایگان Maven"
+      link: "https://releases.groupdocs.com/viewer/java/"
+
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "درباره GroupDocs.Viewer for Java API" 
+    title: "درباره GroupDocs.Viewer for Java API"
+    link: "/viewer/java/"
+    link_title: "بیشتر بدانید"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        برنامه های جاوا خود را فعال کنید تا بیش از 170 فرمت فایل را در حالت های HTML، PDF یا تصویر با استفاده از GroupDocs.Viewer برای API های جاوا بدون نصب نرم افزار اضافی نمایش دهند. مانند مایکروسافت آفیس، آپاچی اوپن آفیس، ادوبی آکروبات ریدر و غیره. توسعه دهندگان می توانند به راحتی تمامی تصاویر و انواع اسناد محبوب از جمله مایکروسافت آفیس، OpenDocument، HTML، PDF، آرشیو، نمودارها، فتوشاپ، اتوکد و فرمت های زبان برنامه نویسی را در داخل برنامه های جاوا مشاهده کنند. رندر سریع و با کیفیت
+      برنامه های جاوا خود را فعال کنید تا بیش از 180 فرمت فایل را در حالت های HTML، PDF یا تصویر با استفاده از GroupDocs.Viewer برای API های جاوا بدون نصب نرم افزار اضافی نمایش دهند. مانند مایکروسافت آفیس، آپاچی اوپن آفیس، Adobe Acrobat Reader و غیره. توسعه دهندگان به راحتی می توانند تمام تصاویر و انواع اسناد محبوب از جمله Microsoft Office، OpenDocument، HTML، PDF، Archive، Diagrams، Photoshop، AutoCAD و فرمت های زبان برنامه نویسی را در داخل برنامه های جاوا مشاهده کنند. رندر سریع و با کیفیت
 
-############################# SubMenu ############################
-submenu:
-    enable: true
 
-    left:
-        img_alt: "GroupDocs.Viewer for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-viewer-net.png"
-        product: "GroupDocs.Viewer"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/viewer/net"
-              text: "مرجع API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET"
-              text: "نمونه های کد"
-
-            # button loop
-            - link: "https://products.groupdocs.app/viewer/family"
-              text: "دموهای زنده"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/viewer/net"
-              text: "قیمت گذاری"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/viewer/net"
-        link_learn: "https://docs.groupdocs.com/viewer/net"
-        link_buy: "https://purchase.groupdocs.com"
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "مراحل رندر فایل XLTX در Java" 
-    content_left: |
-        با [GroupDocs.Viewer](https://products.groupdocs.com/viewer/java/) می‌توانید XLTX را در چند مرحله به HTML، JPEG، PNG یا PDF تبدیل کنید.
-
-        * [GroupDocs.Viewer for Java](https://releases.groupdocs.com/viewer/java/) را به عنوان یک وابستگی به پروژه خود اضافه کنید. 
-        * یک نمونه از کلاس Viewer ایجاد کنید و فایل XLTX را با مسیر کامل بارگذاری کنید. 
-        * گزینه هایی را برای رندر کردن فایل XLTX در قالب HTML، PNG، JPEG یا PDF تنظیم کنید. 
-        * فایل را رندر کنید و خروجی را در دایرکتوری فعلی بررسی کنید. 
-        
-    title_right: "سیستم مورد نیاز" 
-    content_right: |
-        GroupDocs.Viewer برای API های جاوا در همه سیستم عامل ها و سیستم عامل های اصلی پشتیبانی می شود. لطفا قبل از اجرای کد زیر، از نصب پیش نیازهای زیر بر روی سیستم خود اطمینان حاصل کنید.
-
-        * سیستم عامل: مایکروسافت ویندوز، لینوکس، MacOS 
-        * محیط های توسعه: NetBeans، IntelliJ IDEA، Eclipse و غیره. 
-        * چارچوب: J2SE 8.0 (1.8) یا بالاتر (به عنوان مثال جاوا 17) 
-    code: |
-        ```java
-                        
-            // Set up input XLTX file
-            String filePath = "input.xltx";
-        
-            // Instantiate Viewer
-            try (Viewer viewer = new Viewer(filePath))
-            {
-            	// Set view options 
-            	HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
-                    
-            	// Render XLTX file to HTML with embedded resources
-            	viewer.view(viewOptions);
-            }
-             
-        ```
-############################# Demos ############################
-demos:
-    enable: true
-    title: "XLTX نمایشگر زنده"
+    title: "مراحل ارائه فایل XLTX در Java" 
     content: |
-        فایل XLTX را هم اکنون با بازدید از وب سایت [GroupDocs.Viewer Online Apps](https://products.groupdocs.app/viewer/xltx) مشاهده کنید.
-    lang: "fa"
+      با <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> می‌توانید XLTX را در چند مرحله به HTML، JPEG، PNG یا PDF تبدیل کنید.
+      
+      1. <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer برای جاوا</a> را به عنوان وابستگی به پروژه خود اضافه کنید. 
+      2. یک نمونه از کلاس Viewer ایجاد کنید و فایل XLTX را با مسیر کامل بارگذاری کنید.  
+      3. گزینه هایی را برای رندر کردن فایل XLTX در قالب HTML، PNG، JPEG یا PDF تنظیم کنید. 
+      4. فایل را رندر کنید و خروجی را در دایرکتوری فعلی بررسی کنید. 
+   
+    code:
+      platform: "java"
+      copy_title: "کپی 🀄"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-viewer</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-############################# About Formats ####################
-about_formats:
-    enable: false
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "برای کپی کلیک کنید"
+        copy_done: "کپی شده است"
+      links:
+        #  loop
+        - title: "نمونه های بیشتر"
+          link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java"
+        #  loop
+        - title: "مستندات"
+          link: "https://docs.groupdocs.com/viewer/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // فایل ورودی XLTX را تنظیم کنید
+        String filePath = "input.xltx";
+
+        // Instantiate GroupDocs.Viewer
+        try (Viewer viewer = new Viewer(filePath))
+        {
+            // گزینه های مشاهده را تنظیم کنید
+            HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+                
+            // فایل XLTX را با منابع جاسازی شده به HTML ارائه دهید
+            viewer.view(viewOptions);
+        }
+
+        ```
+            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "برای شروع آماده اید؟"
+  description: "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+  items:
+    #  loop
+    - title: "Maven دانلود"
+      link: "https://releases.groupdocs.com/viewer/java/"
+      color: "red"
+        #  loop
+    - title: "صدور مجوز"
+      link: "https://purchase.groupdocs.com/pricing/viewer/java/"
+      color: "light"
+
+
 
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "سایر قالب‌های فایل رندر و مشاهده با استفاده از Java"
+    title: "سایر قالب‌های فایل را با استفاده از Java رندر کنید"
     exclude: "XLTX"
-    content: |
-        API نمایشگر اسناد و تصاویر چند فرمت برای جاوا. برخی از قالب‌های فایل محبوب را در زیر بدون هیچ بیننده خارجی مشاهده کنید.
-    format: 
+    description: "API نمایشگر اسناد و تصاویر چند فرمت برای جاوا. برخی از قالب‌های فایل محبوب را در زیر بدون هیچ بیننده خارجی مشاهده کنید."
+    items: 
         # format loop 1
         - name: "DOCX را رندر کنید"
           format: "DOCX"
@@ -127,123 +135,121 @@ more_formats:
         - name: "CDR را رندر کنید" 
           format: "CDR"
           link: "/viewer/java/cdr/"
-          description: "فایل کورل دراو" 
+          description: "CorelDRAW File" 
 
         # format loop 3
         - name: "رندر PPTX"
           format: "PPTX"
           link: "/viewer/java/pptx/"
-          description: "پاورپوینت ارائه XML را باز کنید" 
+          description: "PowerPoint Open XML Presentation" 
 
         # format loop 4
         - name: "رندر XLSX"
           format: "XLSX"
           link: "/viewer/java/xlsx/"
-          description: "مایکروسافت اکسل صفحه گسترده XML را باز کنید" 
+          description: "Microsoft Excel Open XML Spreadsheet" 
 
         # format loop 5
         - name: "رندر DWG"
           format: "DWG"
           link: "/viewer/java/dwg/"
-          description: "طراحی اتوکد"
+          description: "AutoCAD Drawing"
 
         # format loop 6
         - name: "XML را رندر کنید"
           format: "XML"
           link: "/viewer/java/xml/"
-          description: "فایل XML"
+          description: "XML File"
 
         # format loop 7
         - name: "رندر PSD"
           format: "PSD"
           link: "/viewer/java/psd/"
-          description: "سند Adobe Photoshop"
+          description: "Adobe Photoshop Document"
 
         # format loop 8
-        - name: "فایل Adobe Illustrator را رندر کنید"
+        - name: "رندر هوش مصنوعی"
           format: "AI"
           link: "/viewer/java/ai/"
-          description: "آثار هنری Adobe Illustrator"
+          description: "Adobe Illustrator Artwork"
 
         # format loop 9
         - name: "DOC را رندر کنید"
           format: "DOC"
           link: "/viewer/java/doc/"
-          description: "سند مایکروسافت ورد" 
+          description: "Microsoft Word Document" 
 
         # format loop 10
         - name: "رندر TXT" 
           format: "TXT"
           link: "/viewer/java/txt/"
-          description: "فایل متنی ساده" 
+          description: "Plain Text File" 
 
         # format loop 11
         - name: "رندر DXF" 
           format: "DXF"
           link: "/viewer/java/dxf/"
-          description: "در حال ترسیم فایل فرمت تبادل"  
+          description: "Drawing Exchange Format File"  
           
         # format loop 12
         - name: "VCF را رندر کنید"
           format: "VCF"
           link: "/viewer/java/vcf/"
-          description: "فایل کارت مجازی"  
+          description: "vCard File"  
               
         # format loop 13
         - name: "رندر SVG"
           format: "SVG"
           link: "/viewer/java/svg/"
-          description: "گرافیک برداری مقیاس پذیر" 
+          description: "Scalable Vector Graphic" 
           
         # format loop 14
         - name: "HTML را رندر کنید"
           format: "HTML"
           link: "/viewer/java/html/"
-          description: "فایل زبان نشانه گذاری فرامتن" 
+          description: "Hypertext Markup Language File" 
           
         # format loop 15
         - name: "رندر PDF"
           format: "PDF"
           link: "/viewer/java/pdf/"
-          description: "فایل فرمت سند قابل حمل"
+          description: "Portable Document Format File"
           
         # format loop 16
         - name: "رندر JPEG"
           format: "JPG"
           link: "/viewer/java/jpg/"
-          description: "تصویر JPEG"
+          description: "JPEG Image"
           
         # format loop 17
         - name: "رندر PNG"
           format: "PNG"
           link: "/viewer/java/png/"
-          description: "گرافیک شبکه قابل حمل" 
+          description: "Portable Network Graphic" 
           
         # format loop 18
         - name: "EML را رندر کنید"
           format: "EML"
           link: "/viewer/java/eml/"
-          description: "پیام ایمیل" 
+          description: "E-Mail Message" 
           
         # format loop 19
-        - name: "رندر RTF"
+        - name: "RTF را رندر کنید"
           format: "RTF"
           link: "/viewer/java/rtf/"
-          description: "فایل با فرمت متن غنی" 
+          description: "Rich Text Format File" 
           
         # format loop 20
         - name: "ODT را رندر کنید"
           format: "ODT"
           link: "/viewer/java/odt/"
-          description: "سند متنی OpenDocument" 
+          description: "OpenDocument Text Document" 
           
         # format loop 21
         - name: "CSV را رندر کنید"
           format: "CSV"
           link: "/viewer/java/csv/"
-          description: "فایل مقادیر جدا شده با کاما" 
-          
-############################# Back to top ###############################
-back_to_top:
-    enable: true
+          description: "Comma-Separated Values File" 
+
+
 ---
