@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-19T07:01:01
+date: 2024-04-10T11:55:56
 draft: false
 lang: es
 product: "Viewer"
@@ -23,7 +23,7 @@ header_actions:
   items:
     #  loop
     - title: "Descarga gratuita de Nuget"
-      link: "https://releases.groupdocs.com/viewer/net/"
+      link: "https://nuget.org/packages/GroupDocs.Viewer"
 
 
 

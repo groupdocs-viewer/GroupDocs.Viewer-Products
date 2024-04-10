@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-19T07:01:10
+date: 2024-04-10T11:56:04
 draft: false
 lang: zh
 product: "Viewer"
@@ -23,7 +23,7 @@ header_actions:
   items:
     #  loop
     - title: "免费 Nuget 下载"
-      link: "https://releases.groupdocs.com/viewer/net/"
+      link: "https://nuget.org/packages/GroupDocs.Viewer"
 
 
 
