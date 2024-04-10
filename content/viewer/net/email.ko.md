@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-04-10T11:55:43
+date: 2024-04-10T13:10:02
 draft: false
 lang: ko
 product: "Viewer"
@@ -94,7 +94,7 @@ actions:
   items:
     #  loop
     - title: "너겟 다운로드"
-      link: "https://releases.groupdocs.com/viewer/net/"
+      link: "https://nuget.org/packages/GroupDocs.Viewer"
       color: "red"
         #  loop
     - title: "라이선스"

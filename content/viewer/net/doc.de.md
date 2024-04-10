@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-04-10T11:55:55
+date: 2024-04-10T13:10:13
 draft: false
 lang: de
 product: "Viewer"
@@ -94,7 +94,7 @@ actions:
   items:
     #  loop
     - title: "Nuget-Download"
-      link: "https://releases.groupdocs.com/viewer/net/"
+      link: "https://nuget.org/packages/GroupDocs.Viewer"
       color: "red"
         #  loop
     - title: "Lizenzierung"
