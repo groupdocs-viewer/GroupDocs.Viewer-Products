@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "平台独立性"
+  title: "平台支持"
   description: "GroupDocs.Viewer for .NET 支持以下操作系统、框架和包管理器"
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Windows 专用包"
+      content: |
+        * 支持.NET Framework 4.6.2+ 和 .NET 6.0
+        * 最全面的文件格式支持
+        * 取决于 System.Drawing 和 System.Drawing.Common 
+      action: "NuGet下载"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "跨平台包" 
+      content: |
+        * 支持.NET 6.0及更高版本 
+        * 支持有限的文件格式 
+        * 适用于 Windows、Linux 和 macOS 
+      action: "NuGet下载" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

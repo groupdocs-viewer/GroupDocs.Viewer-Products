@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "플랫폼 독립성"
+  title: "플랫폼 지원"
   description: ".NET용 GroupDocs.Viewer는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다."
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Windows 전용 패키지"
+      content: |
+        * .NET Framework 4.6.2+ 및 .NET 6.0 지원
+        * 가장 포괄적인 파일 형식 지원
+        * System.드로잉 및 System.드로잉.Common에 따라 달라집니다. 
+      action: "NuGet 다운로드"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "크로스 플랫폼 패키지" 
+      content: |
+        * .NET 6.0 이상 버전 지원 
+        * 제한된 파일 형식 지원 
+        * Windows, Linux 및 macOS에서 작동 
+      action: "NuGet 다운로드" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

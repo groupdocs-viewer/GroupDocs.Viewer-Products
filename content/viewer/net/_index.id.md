@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Independensi platform"
+  title: "Dukungan platform"
   description: "GroupDocs.Viewer untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Paket khusus Windows"
+      content: |
+        * Mendukung .NET Framework 4.6.2+ dan .NET 6.0
+        * Dukungan format file terlengkap
+        * Tergantung pada System.Drawing dan System.Drawing.Common 
+      action: "Unduhan NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "Paket lintas platform" 
+      content: |
+        * Mendukung .NET 6.0 dan versi yang lebih tinggi 
+        * Dukungan format file terbatas 
+        * Bekerja di Windows, Linux dan macOS 
+      action: "Unduhan NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "ความเป็นอิสระของแพลตฟอร์ม"
+  title: "รองรับแพลตฟอร์ม"
   description: "GroupDocs.Viewer สำหรับ .NET รองรับระบบปฏิบัติการ เฟรมเวิร์ก และตัวจัดการแพ็คเกจต่อไปนี้"
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "แพ็คเกจเฉพาะของ Windows"
+      content: |
+        * รองรับ .NET Framework 4.6.2+ และ .NET 6.0
+        * รองรับรูปแบบไฟล์ที่ครอบคลุมที่สุด
+        * ขึ้นอยู่กับ System. Drawing และ System. Drawing.Common 
+      action: "ดาวน์โหลด NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "แพ็คเกจข้ามแพลตฟอร์ม" 
+      content: |
+        * รองรับ .NET 6.0 และเวอร์ชันที่สูงกว่า 
+        * รองรับรูปแบบไฟล์ที่จำกัด 
+        * ทำงานบน Windows, Linux และ macOS 
+      action: "ดาวน์โหลด NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

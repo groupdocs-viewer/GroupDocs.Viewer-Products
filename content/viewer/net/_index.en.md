@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Platform independence"
+  title: "Platforms support"
   description: "GroupDocs.Viewer for .NET supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Windows-specific package"
+      content: |
+        * Supports .NET Framework 4.6.2+ and .NET 6.0
+        * The most comprehensive file formats support
+        * Depends on System.Drawing and System.Drawing.Common 
+      action: "NuGet download"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "Cross-platform package" 
+      content: |
+        * Supports .NET 6.0 and higher versions 
+        * Limited file formats support 
+        * Works on Windows, Linux and macOS 
+      action: "NuGet download" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Nền tảng độc lập"
+  title: "Hỗ trợ nền tảng"
   description: "GroupDocs.Viewer cho .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Gói dành riêng cho Windows"
+      content: |
+        * Hỗ trợ .NET Framework 4.6.2+ và .NET 6.0
+        * Hỗ trợ định dạng tập tin toàn diện nhất
+        * Phụ thuộc vào System.draw và System.draw.common 
+      action: "Tải xuống NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "Gói đa nền tảng" 
+      content: |
+        * Hỗ trợ .NET 6.0 và các phiên bản cao hơn 
+        * Hỗ trợ định dạng tập tin hạn chế 
+        * Hoạt động trên Windows, Linux và macOS 
+      action: "Tải xuống NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

@@ -91,7 +91,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "استقلال سکو"
+  title: "پشتیبانی از پلتفرم ها"
   description: "GroupDocs.Viewer برای دات نت از سیستم عامل ها، فریمورک ها و مدیران بسته های زیر پشتیبانی می کند"
   items:
     # platform loop
@@ -118,6 +118,23 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "بسته مخصوص ویندوز"
+      content: |
+        * از .NET Framework 4.6.2+ و .NET 6.0 پشتیبانی می کند
+        * جامع ترین فرمت های فایل پشتیبانی می کند
+        * بستگی به System.Drawing و System.Drawing.Common دارد 
+      action: "دانلود NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
+    # packages loop
+    - title: "بسته کراس پلت فرم" 
+      content: |
+        * پشتیبانی از دات نت 6.0 و نسخه های بالاتر 
+        * پشتیبانی از فرمت های فایل محدود 
+        * روی ویندوز، لینوکس و macOS کار می کند 
+      action: "دانلود NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Viewer.CrossPlatform" 
 
 ############################# File formats ############################
 formats:
