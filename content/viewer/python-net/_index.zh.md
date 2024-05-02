@@ -246,7 +246,7 @@ code_samples:
     - title: "将 PPTX 导出为 PDF"
       content: |
         创建一个 `PdfViewOptions` 类实例并将其传递给 `Viewer.view` 方法，以将 PowerPoint PPTX 文件转换为 PDF。 `PdfViewOptions` 类属性可以让您控制转换过程。例如，您可以保护输出 PDF 文件，更改其页面顺序并指定文档图像质量。有关详细信息，请参阅 [文档的下一部分](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/).
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  

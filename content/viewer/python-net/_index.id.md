@@ -246,7 +246,7 @@ code_samples:
     - title: "Ekspor PPTX ke PDF"
       content: |
         Buat instance kelas `PdfViewOptions` dan berikan ke metode `Viewer.view` untuk mengonversi file PowerPoint PPTX ke PDF. Properti kelas `PdfViewOptions` memungkinkan Anda untuk mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) untuk detailnya.
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  

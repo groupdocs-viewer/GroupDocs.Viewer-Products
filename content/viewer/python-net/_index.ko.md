@@ -246,7 +246,7 @@ code_samples:
     - title: "PPTX를 PDF로 내보내기"
       content: |
         ``PdfViewOptions`` 클래스의 인스턴스를 만들어 ``Viewer.view`` 메서드에 전달하여 PowerPoint PPTX 파일을 PDF로 변환합니다. ``PdfViewOptions`` 클래스의 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어 출력 PDF 파일을 보호하거나, 페이지 순서를 변경하거나, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)을 참조하십시오.
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  

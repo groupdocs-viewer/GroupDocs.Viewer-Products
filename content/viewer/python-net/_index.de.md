@@ -246,7 +246,7 @@ code_samples:
     - title: "PPTX in PDF exportieren"
       content: |
         Erstellen Sie eine Instanz der `PdfViewOptions`-Klasse und übergeben Sie sie an die `Viewer.view`-Methode, um eine PowerPoint-PPTX-Datei in PDF zu konvertieren. Die Eigenschaften der `PdfViewOptions`-Klasse ermöglichen die Steuerung des Konvertierungsprozesses. Details finden Sie im folgenden Abschnitt der Dokumentation: [https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/).
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  

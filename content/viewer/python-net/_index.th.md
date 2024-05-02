@@ -246,7 +246,7 @@ code_samples:
     - title: "ส่งออก PPTX เป็น PDF"
       content: |
         สร้างอินสแตนซ์ของคลาส [PdfViewOptions](placeholder) และส่งผ่านไปยังเมธอด `Viewer.view` เพื่อแปลงไฟล์ PowerPoint PPTX เป็น PDF คุณสมบัติของคลาส [PdfViewOptions](placeholder) ช่วยให้คุณควบคุมกระบวนการแปลง ตัวอย่างเช่น คุณสามารถป้องกันไฟล์ PDF เอาต์พุต, เปลี่ยนลำดับหน้าของไฟล์ หรือระบุคุณภาพของรูปภาพในเอกสาร สำหรับข้อมูลเพิ่มเติม โปรดดู [ส่วนต่อไปนี้ของเอกสาร](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  

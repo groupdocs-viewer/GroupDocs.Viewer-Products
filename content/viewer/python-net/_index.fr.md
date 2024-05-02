@@ -246,7 +246,7 @@ code_samples:
     - title: "Exporter PPTX au format PDF"
       content: |
         Créez une instance de la classe `PdfViewOptions` et transmettez-la à la méthode `Viewer.view` pour convertir un fichier PowerPoint PPTX en PDF. Les propriétés de la classe `PdfViewOptions` vous permettent de contrôler le processus de conversion. Par exemple, vous pouvez protéger le fichier PDF de sortie, réorganiser ses pages et spécifier la qualité des images du document. Consultez la [section suivante de la documentation](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) pour plus de détails.
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  

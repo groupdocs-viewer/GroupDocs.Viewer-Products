@@ -246,7 +246,7 @@ code_samples:
     - title: "PPTXをPDFにエクスポート"
       content: |
         ``PdfViewOptions`` クラスのインスタンスを作成し、``Viewer.view`` メソッドに渡して、PowerPoint PPTXファイルをPDFに変換します。 ``PdfViewOptions`` クラスのプロパティを使用すると、変換プロセスを制御できます。たとえば、出力PDFファイルを保護したり、ページの順序を変更したり、ドキュメントの画像の品質を指定したりできます。詳細については、[次のドキュメントセクション](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)を参照してください。
-        {{< landing/code title="JavaScript">}}
+        {{< landing/code title="Python">}}
         ```python {style=abap}
         import groupdocs.viewer as gv
         import groupdocs.viewer.options as gvo  
