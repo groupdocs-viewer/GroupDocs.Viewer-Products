@@ -100,6 +100,29 @@ supported_platforms:
         - content:  "데모 - 곧 출시 예정"
           rows: "3" 
 
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Viewer for Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/viewer/python-net/"
+      features_link: "https://docs.groupdocs.com/viewer/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  and .Net 6+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, Linux, macOS"
+          rows: "1"
+        # features loop
+        - content:  "180개 이상의 파일 형식"
+          rows: "1"
+        # features loop
+        - content:  "UI 패키지 - 출시 예정"
+          rows: "1" 
+        # features loop
+        - content:  "데모 - 곧 출시 예정"
+          rows: "3" 
 
 ############################# Features ############################
 
@@ -179,6 +202,19 @@ code_samples:
             viewer.view(viewOptions)
             ```
 
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap} 
+            import groupdocs.viewer as gv
+            import groupdocs.viewer.options as gvo   
+            // 렌더링할 DOCX 파일 로드
+            with gv.Viewer("sample.docx") as viewer:
+            
+            // DOCX를 PDF 파일로 렌더링
+            viewOptions = gvo.PdfViewOptions("output.pdf")
+            viewer.view(viewOptions)
+            ```
 
 ############################# Formats ############################
 formats:
@@ -277,7 +313,10 @@ actions:
     - title: "Node.js"
       link: "/viewer/nodejs-java/"
       color: "green"
-
+        #  loop
+    - title: "Python"
+      link: "/viewer/python-net/"
+      color: "yellow"
 
 ############################# Faq ############################
 
