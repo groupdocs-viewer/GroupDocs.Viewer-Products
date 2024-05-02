@@ -211,9 +211,9 @@ code_samples:
             // Загрузите файл DOCX для рендеринга
             with gv.Viewer("sample.docx") as viewer:
             
-            // Преобразование DOCX в PDF-файл
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // Преобразование DOCX в PDF-файл
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

@@ -116,9 +116,6 @@ platforms:
     - title: "Linux"
       image: "linux"
     # platform loop
-    - title: "NPM"
-      image: "npm"
-    # platform loop
     - title: "PyPI"
       image: "pypi"
 

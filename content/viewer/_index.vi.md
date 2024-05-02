@@ -211,9 +211,9 @@ code_samples:
             // Tải tệp DOCX để kết xuất
             with gv.Viewer("sample.docx") as viewer:
             
-            // Kết xuất DOCX thành tệp PDF
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // Kết xuất DOCX thành tệp PDF
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

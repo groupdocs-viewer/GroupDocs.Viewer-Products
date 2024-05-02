@@ -211,9 +211,9 @@ code_samples:
             // فایل DOCX را برای رندر بارگیری کنید
             with gv.Viewer("sample.docx") as viewer:
             
-            // DOCX را به یک فایل PDF رندر کنید
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // DOCX را به یک فایل PDF رندر کنید
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

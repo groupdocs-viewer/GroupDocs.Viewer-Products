@@ -211,9 +211,9 @@ code_samples:
             // Завантажте файл DOCX для візуалізації
             with gv.Viewer("sample.docx") as viewer:
             
-            // Перетворення DOCX у файл PDF
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // Перетворення DOCX у файл PDF
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

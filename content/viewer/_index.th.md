@@ -211,9 +211,9 @@ code_samples:
             // โหลดไฟล์ DOCX เพื่อเรนเดอร์
             with gv.Viewer("sample.docx") as viewer:
             
-            // เรนเดอร์ DOCX เป็นไฟล์ PDF
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // เรนเดอร์ DOCX เป็นไฟล์ PDF
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

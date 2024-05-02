@@ -211,9 +211,9 @@ code_samples:
             // Charger le fichier DOCX à rendre
             with gv.Viewer("sample.docx") as viewer:
             
-            // Rendre DOCX dans un fichier PDF
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // Rendre DOCX dans un fichier PDF
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

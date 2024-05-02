@@ -211,9 +211,9 @@ code_samples:
             // レンダリングするDOCXファイルをロードします
             with gv.Viewer("sample.docx") as viewer:
             
-            // DOCX を PDF ファイルにレンダリングする
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // DOCX を PDF ファイルにレンダリングする
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

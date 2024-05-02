@@ -211,9 +211,9 @@ code_samples:
             // 加载 DOCX 文件进行渲染
             with gv.Viewer("sample.docx") as viewer:
             
-            // 将 DOCX 渲染为 PDF 文件
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // 将 DOCX 渲染为 PDF 文件
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################

@@ -211,9 +211,9 @@ code_samples:
             // 렌더링할 DOCX 파일 로드
             with gv.Viewer("sample.docx") as viewer:
             
-            // DOCX를 PDF 파일로 렌더링
-            viewOptions = gvo.PdfViewOptions("output.pdf")
-            viewer.view(viewOptions)
+                // DOCX를 PDF 파일로 렌더링
+                viewOptions = gvo.PdfViewOptions("output.pdf")
+                viewer.view(viewOptions)
             ```
 
 ############################# Formats ############################
