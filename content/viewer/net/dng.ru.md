@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-05-13T10:15:01
+date: 2024-05-14T11:12:53
 draft: false
 lang: ru
 product: "Viewer"
