@@ -55,7 +55,7 @@ code:
   title: "在 Python 中可视化 PDF 文件"
   more: "更多示例"
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET"
-  install: "pip install GroupDocs.Viewer"
+  install: "pip install groupdocs-viewer-net"
   content: |
     ```python {style=abap}
     import groupdocs.viewer as gv

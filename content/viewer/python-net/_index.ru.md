@@ -33,7 +33,7 @@ head_description: "Python API для просмотра и рендеринга 
 
 ############################# Header ############################
 title: "Мощный Python API для оптимизированного рендеринга документов"
-description: "Просматривайте и выполняйте рендеринг более 180+ форматов документов (PDF, HTML, Изображения) с помощью мощных API и гибких параметров конфигурации для разработки приложений на Python."
+description: "Просматривайте и выполняйте рендеринг более 180 форматов документов (PDF, HTML, Изображения) с помощью мощных API и гибких параметров конфигурации для разработки приложений на Python."
 words:
   for: "for"
 
@@ -55,7 +55,7 @@ code:
   title: "Рендеринг PDF-файла на Python"
   more: "Больше примеров"
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET"
-  install: "pip install GroupDocs.Viewer"
+  install: "pip install groupdocs-viewer-net"
   content: |
     ```python {style=abap}
     import groupdocs.viewer as gv

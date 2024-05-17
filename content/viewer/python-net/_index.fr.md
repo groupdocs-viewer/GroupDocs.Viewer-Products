@@ -55,7 +55,7 @@ code:
   title: "Rendu de fichiers PDF en Python"
   more: "Plus d'exemples"
   more_link: "https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET"
-  install: "pip install GroupDocs.Viewer"
+  install: "pip install groupdocs-viewer-net"
   content: |
     ```python {style=abap}
     import groupdocs.viewer as gv
