@@ -39,7 +39,7 @@ words:
 
 actions:
   main: "دانلود رایگان PyPI"
-  main_link: "https://pypi.org/project/groupdocs-viewer/"
+  main_link: "https://pypi.org/project/groupdocs-viewer-net/"
   alt: "صدور مجوز"
   alt_link: "https://purchase.groupdocs.com/pricing/viewer/python-net"
   title: "برای شروع آماده اید؟"

@@ -39,7 +39,7 @@ words:
 
 actions:
   main: "从 PyPI 免费下载"
-  main_link: "https://pypi.org/project/groupdocs-viewer/"
+  main_link: "https://pypi.org/project/groupdocs-viewer-net/"
   alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/viewer/python-net"
   title: "准备好开始了吗？"

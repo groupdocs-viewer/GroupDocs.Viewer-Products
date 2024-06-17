@@ -39,7 +39,7 @@ words:
 
 actions:
   main: "PyPI에서 무료 다운로드"
-  main_link: "https://pypi.org/project/groupdocs-viewer/"
+  main_link: "https://pypi.org/project/groupdocs-viewer-net/"
   alt: "라이선스"
   alt_link: "https://purchase.groupdocs.com/pricing/viewer/python-net"
   title: "시작할 준비가 되셨나요?"
