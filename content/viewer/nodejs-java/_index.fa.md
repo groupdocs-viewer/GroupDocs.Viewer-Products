@@ -38,6 +38,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "دانلود رایگان NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.viewer"
   alt: "صدور مجوز"

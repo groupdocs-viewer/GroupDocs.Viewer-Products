@@ -37,6 +37,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "무료 NuGet 다운로드"
   main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
   alt: "라이선스"

@@ -37,6 +37,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "Unduhan Maven Gratis"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/"
   alt: "Perizinan"

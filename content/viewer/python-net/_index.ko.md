@@ -38,6 +38,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "PyPI에서 무료 다운로드"
   main_link: "https://pypi.org/project/groupdocs-viewer-net/"
   alt: "라이선스"

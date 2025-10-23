@@ -38,6 +38,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "Tải xuống NPM miễn phí"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.viewer"
   alt: "Cấp phép"

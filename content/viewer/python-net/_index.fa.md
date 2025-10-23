@@ -38,6 +38,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "دانلود رایگان PyPI"
   main_link: "https://pypi.org/project/groupdocs-viewer-net/"
   alt: "صدور مجوز"

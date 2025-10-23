@@ -37,6 +37,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "Download grátis do NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
   alt: "Licenciamento"

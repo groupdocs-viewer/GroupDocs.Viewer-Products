@@ -37,6 +37,8 @@ words:
   for: "for"
 
 actions:
+  viewer_demo: true
+  viewer_demo_file_name: "quarterly-report.docx"
   main: "免费 NuGet 下载"
   main_link: "https://www.nuget.org/packages/GroupDocs.Viewer"
   alt: "许可"
