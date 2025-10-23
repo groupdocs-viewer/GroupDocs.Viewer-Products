@@ -8,13 +8,13 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "문서 API 렌더링 및 보기 | 온프레미스 API 및 온라인 서비스"
+head_title: "문서 렌더링 및 보기 API | 온프레미스 문서 뷰어 SDK 및 온라인 서비스"
 head_description: "Word, PDF, Excel, Powerpoint 또는 이미지 파일을 무료로 쉽게 렌더링 및 보기"
 
 ############################# Header ##########################
 title: "쉽게 문서를 렌더링하고 확인하세요"
 description: |
-  다양한 파일을 PDF, HTML 및 이미지로 렌더링하는 강력한 뷰어 API입니다.
+  다양한 파일을 PDF, HTML, 이미지 형식으로 렌더링하는 고성능 문서 뷰어 SDK
 
   파일, 스트림, URL, FTP 서버, Amazon S3, Azure Blob Storage 등을 포함한 다양한 소스에서 문서를 로드합니다.
 

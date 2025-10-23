@@ -8,13 +8,13 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "Render and View Documents API | On Premise API and online service"
+head_title: "Render and View Documents API | On Premise Document Viewer SDK and online service"
 head_description: "Render & view Word, PDF, Excel, Powerpoint or Image files easily and free"
 
 ############################# Header ##########################
 title: "Render and view documents with ease"
 description: |
-  Powerful Viewer API to Render different files to PDF, HTML, and Image.
+  Powerful Document Viewer SDK to Render different files to PDF, HTML, and Image.
 
   Load documents from various sources, including files, streams, URLs, FTP servers, Amazon S3, Azure Blob Storage, and more.
 

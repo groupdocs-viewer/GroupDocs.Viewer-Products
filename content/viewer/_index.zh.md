@@ -8,13 +8,13 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "渲染和查看文档 API |本地API和在线服务"
+head_title: "文档渲染与查看 API | 本地部署文档查看器 SDK 与在线服务"
 head_description: "轻松免费地渲染和查看 Word、PDF、Excel、Powerpoint 或图像文件"
 
 ############################# Header ##########################
 title: "轻松渲染和查看文档"
 description: |
-  强大的查看器 API 可将不同文件渲染为 PDF、HTML 和图像。
+  强大的文档查看器 SDK，支持将多种文件渲染为 PDF、HTML 和图像。
 
   从各种来源加载文档，包括文件、流、URL、FTP 服务器、Amazon S3、Azure Blob 存储等。
 

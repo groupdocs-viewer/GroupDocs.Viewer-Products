@@ -8,13 +8,13 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "API kết xuất và xem tài liệu | API tại chỗ và dịch vụ trực tuyến"
+head_title: "API Kết xuất và Xem Tài liệu | SDK Xem tài liệu On-Premise và dịch vụ trực tuyến"
 head_description: "Kết xuất và xem các tệp Word, PDF, Excel, Powerpoint hoặc Hình ảnh một cách dễ dàng và miễn phí"
 
 ############################# Header ##########################
 title: "Hiển thị và xem tài liệu một cách dễ dàng"
 description: |
-  API trình xem mạnh mẽ để hiển thị các tệp khác nhau thành PDF, HTML và Hình ảnh.
+  SDK Xem tài liệu mạnh mẽ để chuyển đổi các tệp khác nhau sang PDF, HTML và hình ảnh.
 
   Tải tài liệu từ nhiều nguồn khác nhau, bao gồm tệp, luồng, URL, máy chủ FTP, Amazon S3, Azure Blob Storage, v.v.
 

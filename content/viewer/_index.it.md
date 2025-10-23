@@ -8,13 +8,13 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "API di rendering e visualizzazione dei documenti | API on-premise e servizio online"
+head_title: "API di rendering e visualizzazione documenti | SDK per visualizzatore di documenti on‑premise e servizio online"
 head_description: "Esegui il rendering e visualizza file Word, PDF, Excel, Powerpoint o immagini in modo semplice e gratuito"
 
 ############################# Header ##########################
 title: "Esegui il rendering e visualizza i documenti con facilità"
 description: |
-  Potente API visualizzatore per eseguire il rendering di file diversi in PDF, HTML e immagini.
+  SDK potente per visualizzare documenti, convertendo vari formati in PDF, HTML e immagine.
 
   Carica documenti da varie origini, inclusi file, flussi, URL, server FTP, Amazon S3, archiviazione BLOB di Azure e altro ancora.
 

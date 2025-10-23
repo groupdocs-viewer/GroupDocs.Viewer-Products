@@ -8,13 +8,13 @@ product: "Viewer"
 product_tag: "viewer"
 
 ############################# Head ############################
-head_title: "Render dan Lihat Dokumen API | API Lokal dan layanan online"
+head_title: "API Render dan Lihat Dokumen | SDK Penampil Dokumen On Premise dan layanan online"
 head_description: "Render & lihat file Word, PDF, Excel, Powerpoint atau Gambar dengan mudah dan gratis"
 
 ############################# Header ##########################
 title: "Render dan lihat dokumen dengan mudah"
 description: |
-  API Penampil yang Kuat untuk Merender berbagai file ke PDF, HTML, dan Gambar.
+  SDK Penampil Dokumen yang kuat untuk merender berbagai file menjadi PDF, HTML, dan gambar.
 
   Memuat dokumen dari berbagai sumber, termasuk file, aliran, URL, server FTP, Amazon S3, Azure Blob Storage, dan banyak lagi.
 
