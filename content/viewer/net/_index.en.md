@@ -198,8 +198,8 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "View documents in HTML"
-      content: "Convert document of any type into a HTML document with CSS and SVG, which can be displayed in any modern web-browser."
+      title: "[View documents in HTML](https://blog.groupdocs.com/viewer/view-word-documents-as-html-responsive-page-using-csharp/)"
+      content: "Convert document of any type into a HTML document with CSS and SVG, which can be displayed in any modern web-browser. [article](https://blog.groupdocs.com/viewer/view-word-documents-as-html-responsive-page-using-csharp/)"
 
     # feature loop
     - icon: "rasterize"
@@ -207,18 +207,18 @@ features:
       content: "Rasterize any supportable document format to the raster image, with adjustable image format and compression quality."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Render and highlight programming codes"
-      content: "Support of all popular programming, scripting, and markup languages, with ability to parse and highlight their syntax."
+    - icon: "font"
+      title: "Control document fonts"
+      content: "Be informed which fonts are used in a document and replace missed."
 
     # feature loop
     - icon: "convertpdf"
       title: "Convert to PDF"
-      content: "Document of any supportable format can be easily converted and saved to the PDF with adjustable options."
+      content: "[Document of any supportable format can be easily converted and saved to the PDF with adjustable options.](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)"
 
     # feature loop
     - icon: "transform"
-      title: "Apply transformations"
+      title: "[Apply transformations](https://blog.groupdocs.com/viewer/protect-your-documents-with-watermarks-in-groupdocs-viewer-for-dot-net/)"
       content: "Output document can be transformed during rendering - pages can be rotated and/or rearranged, and text watermark may be placed atop of them."
 
     # feature loop
@@ -228,7 +228,7 @@ features:
 
     # feature loop
     - icon: "complex"
-      title: "Support of complex document structures"
+      title: "[Support of complex document structures](https://blog.groupdocs.com/viewer/process-microsoft-outlook-email-attachments-in-a-.net-viewer-application/)"
       content: "GroupDocs.Viewer supports not only the single documents, but also files, which internally contain a list or hierarchical structure of documents, like email messages with attachments, ZIP archives with internal files within folders, multi-page TIFF images, and so on."
 
     # feature loop
