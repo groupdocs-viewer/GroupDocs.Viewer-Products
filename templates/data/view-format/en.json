@@ -1,0 +1,173 @@
+{
+  "format-content-net": {
+    "meta_title": ".NET {{FILEFORMAT}} Viewer API - read, view, render in C# VB.NET",
+    "meta_description": ".NET document viewer API to read, render and display {{FILEFORMAT}} in any type of C#, ASP.NET, VB.NET & .NET Core applications.",
+    "title": "{{FILEFORMAT}} file viewer for C# .NET applications",
+    "description": ".NET document viewer API to read, render and display {{FILEFORMAT}} file in any type of C#, ASP.NET, VB.NET & .NET Core applications. View the rendered files with true formatting & layout in HTML5, PDF or as an image using a few lines of the code.",
+    "subtitle" : "Document rendering solution",
+    "download_button_label": "Free Nuget download",
+
+    "release_version" : "Version {0} released",
+    "release_news" : "See what’s new",
+    "release_downloads" : "Downloads",
+
+
+    "about_title": "About GroupDocs.Viewer for .NET API",
+    "about_content": "Start viewing 190+ popular document formats in your .NET applications using GroupDocs.Viewer for .NET APIs by adding a few lines of code. Developers can easily display PDF, Word Processing, Excel Spreadsheet, Presentation, Visio, Project, Outlook and many other popular document formats in HTML5, image or PDF modes. The document rendering is fast, identical to the original source file, and it does not require installing additional software or any other external libraries.",
+    "about_link_title" :  "Learn more",
+
+    "steps_title": "Steps to render {{FILEFORMAT}} file in {{PROGLANG}}",
+    "steps_content": "With <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a> you can render {{FILEFORMAT}} to HTML, JPEG, PNG or PDF in a few steps.",
+    "steps_content_step_1": "Install <a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer for .NET</a> using your favorite package manager.",
+    "steps_content_step_2": "Create an instance of Viewer class and load the {{FILEFORMAT}} file with full path.",
+    "steps_content_step_3": "Set options to render {{FILEFORMAT}} file into HTML, PNG, JPEG or PDF format.",
+    "steps_content_step_4": "Render file and check output in the current directory.",
+    "steps_copy_title":"Copy",
+    "steps_copy_tip":"click to copy",
+    "steps_copy_done":"copied",
+    "steps_link_examples":"More examples",
+    "steps_link_documentation":"Documentation",
+
+    "steps_code_comment_1":"Set up input {{FILEFORMAT}} file",
+    "steps_code_comment_2":"Instantiate GroupDocs.Viewer",
+    "steps_code_comment_3":"Set view options",
+    "steps_code_comment_4":"Render {{FILEFORMAT}} file to HTML with embedded resources",
+
+    "actions_title" :"Ready to get started?",
+    "actions_description" :"Try GroupDocs.Viewer features for free or request a license",
+    "actions_install" :"Nuget download",
+    "actions_licensing" :"Licensing",
+
+
+    "more_formats_title": "Render other file formats using {{PROGLANG}}",
+    "more_formats_description": "Multi-format documents and images viewer API for .NET. View some of the popular file formats below without any external viewers.",
+
+    "more_formats_name_docx": "Render DOCX",
+
+    "more_formats_name_cdr": "Render CDR",
+
+    "more_formats_name_pptx": "Render PPTX",
+
+    "more_formats_name_xlsx": "Render XLSX",
+
+    "more_formats_name_dwg": "Render DWG",
+
+    "more_formats_name_xml": "Render XML",
+
+    "more_formats_name_psd": "Render PSD",
+
+    "more_formats_name_ai": "Render AI",
+
+    "more_formats_name_doc": "Render DOC",
+
+    "more_formats_name_txt": "Render TXT",
+  
+    "more_formats_name_dxf": "Render DXF",
+
+    "more_formats_name_vcf": "Render VCF",
+
+    "more_formats_name_svg": "Render SVG",
+
+    "more_formats_name_html": "Render HTML",
+
+    "more_formats_name_pdf": "Render PDF",
+
+    "more_formats_name_jpg": "Render JPEG",
+
+    "more_formats_name_png": "Render PNG",
+
+    "more_formats_name_eml": "Render EML",
+
+    "more_formats_name_rtf": "Render RTF",
+
+    "more_formats_name_odt": "Render ODT",
+
+    "more_formats_name_csv": "Render CSV" 
+   
+  },
+  "format-content-java": {
+    "meta_title": "Java {{FILEFORMAT}} Viewer API - render & display {{FILEFORMAT}} in Java apps",
+    "meta_description": "View {{FILEFORMAT}} files in Java, J2EE, J2SE applications. Supports viewing 180+ document and image file formats in HTML, PDF or image mode with advanced features to manage document viewing options.",
+    "title": "Render & view {{FILEFORMAT}} in Java",
+    "description": "Native and high performance {{FILEFORMAT}} file viewer API for Java, J2EE and J2SE based applications, supporting a wide range of additional features to customize the appearance of the output document format.",
+    "subtitle" : "Document rendering solution",
+    "download_button_label": "Free Maven download",
+  
+
+    "release_version" : "Version {0} released",
+    "release_news" : "See what’s new",
+    "release_downloads" : "Downloads",
+
+    "about_title": "About GroupDocs.Viewer for Java API",
+    "about_content": "Enable your Java applications to display over 180+ file formats in HTML, PDF or image modes using GroupDocs.Viewer for Java APIs without any additional software installed; such as Microsoft Office, Apache Open Office, Adobe Acrobat Reader etc. Developers can easily view all popular images and document types including Microsoft Office, OpenDocument, HTML, PDF, Archive, Diagrams, Photoshop, AutoCAD and programming language formats inside the Java applications with fast and highest quality rendering.",
+    "about_link_title" :  "Learn more",
+
+    "steps_title": "Steps to render {{FILEFORMAT}} file in {{ProgLang}}",
+    "steps_content": "With <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> you can render {{FILEFORMAT}} to HTML, JPEG, PNG or PDF in a few steps.",
+    "steps_content_step_1": "Add <a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer for Java</a> as a dependency to your project.",
+    "steps_content_step_2": "Create an instance of Viewer class and load the {{FILEFORMAT}} file with full path.",
+    "steps_content_step_3": "Set options to render {{FILEFORMAT}} file into HTML, PNG, JPEG or PDF format.",
+    "steps_content_step_4": "Render file and check output in the current directory.",
+    "steps_copy_title":"Copy",
+    "steps_copy_tip":"click to copy",
+    "steps_copy_done":"copied",
+    "steps_link_examples":"More examples",
+    "steps_link_documentation":"Documentation",
+
+    "steps_code_comment_1":"Set up input {{FILEFORMAT}} file",
+    "steps_code_comment_2":"Instantiate GroupDocs.Viewer",
+    "steps_code_comment_3":"Set view options",
+    "steps_code_comment_4":"Render {{FILEFORMAT}} file to HTML with embedded resources",
+
+
+    "actions_title" :"Ready to get started?",
+    "actions_description" :"Try GroupDocs.Viewer features for free or request a license",
+    "actions_install" :"Maven download",
+    "actions_licensing" :"Licensing",
+
+    "more_formats_title": "Render other file formats using {{ProgLang}}",
+    "more_formats_description": "Multi-format documents and images viewer API for Java. View some of the popular file formats below without any external viewers.",
+
+    "more_formats_name_docx": "Render DOCX",
+
+    "more_formats_name_cdr": "Render CDR",
+
+    "more_formats_name_pptx": "Render PPTX",
+
+    "more_formats_name_xlsx": "Render XLSX",
+
+    "more_formats_name_dwg": "Render DWG",
+
+    "more_formats_name_xml": "Render XML",
+
+    "more_formats_name_psd": "Render PSD",
+
+    "more_formats_name_ai": "Render AI",
+
+    "more_formats_name_doc": "Render DOC",
+
+    "more_formats_name_txt": "Render TXT",
+  
+    "more_formats_name_dxf": "Render DXF",
+
+    "more_formats_name_vcf": "Render VCF",
+
+    "more_formats_name_svg": "Render SVG",
+
+    "more_formats_name_html": "Render HTML",
+
+    "more_formats_name_pdf": "Render PDF",
+
+    "more_formats_name_jpg": "Render JPEG",
+
+    "more_formats_name_png": "Render PNG",
+
+    "more_formats_name_eml": "Render EML",
+
+    "more_formats_name_rtf": "Render RTF",
+
+    "more_formats_name_odt": "Render ODT",
+
+    "more_formats_name_csv": "Render CSV" 
+  }
+}

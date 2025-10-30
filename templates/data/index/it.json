@@ -1,0 +1,331 @@
+{
+  "index-content": {
+    "head_title": "API di rendering e visualizzazione documenti | SDK per visualizzatore di documenti on‑premise e servizio online",
+    "head_description": "Esegui il rendering e visualizza file Word, PDF, Excel, Powerpoint o immagini in modo semplice e gratuito",
+    "title": "Esegui il rendering e visualizza i documenti con facilità",
+    "description_1": "SDK potente per visualizzare documenti, convertendo vari formati in PDF, HTML e immagine.",
+    "description_2": "Carica documenti da varie origini, inclusi file, flussi, URL, server FTP, Amazon S3, archiviazione BLOB di Azure e altro ancora.",
+    "description_3": "Genera pagine HTML reattive, proteggi i file PDF di output e riordina le loro pagine, ruota le pagine, visualizza note e commenti se necessario.",
+    "supported_platforms": {
+      "head_title": "Scegli la tua piattaforma",
+      "title": "Piattaforme supportate",
+      "description": "La libreria GroupDocs.Viewer supporta i seguenti sistemi operativi e framework",
+      "details_link_title": "Saperne di più",
+      "item_1_formats_count": "Oltre 180 formati di file",
+      "item_1_ui_package": "Pacchetto dell'interfaccia utente per ASP.NET Core",
+      "item_2_ui_package": "Pacchetto interfaccia utente per Spring e Dropwizard",
+      "item_3_ui_package": "Pacchetto UI: disponibile a breve",
+      "item_3_demo": "Demo - in arrivo"
+    },
+    "features": {
+      "title": "Set di funzionalità di GroupDocs.Viewer",
+      "description": "API per eseguire il rendering di file di diversi tipi come HTML, PDF, PNG e JPEG nelle applicazioni per visualizzarli senza software di terze parti.",
+      "item_1_title": "Visualizza documenti e immagini",
+      "item_1_content": "Visualizza i documenti visualizzandoli come file HTML, PDF, PNG e JPEG.",
+      "item_2_title": "Apri documenti protetti",
+      "item_2_content": "Specificare una password per aprire i documenti crittografati.",
+      "item_3_title": "Carica file da qualsiasi luogo",
+      "item_3_content": "Carica documenti da vari file, URL, server FTP, Amazon S3 e altro ancora.",
+      "item_4_title": "Visualizza tutte le pagine o pagine specifiche",
+      "item_4_content": "Specificare un intervallo di numeri di pagina di cui eseguire il rendering."
+    },
+    "code_samples": {
+      "title": "Esempi di codice GroupDocs.Viewer",
+      "description": "Alcuni casi d'uso delle tipiche operazioni GroupDocs.Viewer in C#, Java, TypeScript",
+      "item_1": {
+        "title": "Come convertire i file DOCX in PDF",
+        "content": "Trasforma i documenti DOCX in PDF senza Microsoft Word o altri software installati. Carica e visualizza facilmente i file DOCX all'interno della tua applicazione .NET, sia che si tratti di un'applicazione Web o desktop. Ecco un esempio di come convertire un file DOCX in PDF:",
+        "comment_1": "Carica il file DOCX da renderizzare",
+        "comment_2": "Renderizza DOCX in un file PDF"
+      }
+    },
+    "formats": {
+      "title": "Sono supportati oltre 180 formati di file",
+      "description": "GroupDocs.Viewer supporta le operazioni con i più popolari [formati di file](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
+    },
+    "metrics": {
+      "title": "Metriche approfondite e approfondimenti statistici",
+      "description": "Immergiti in un'analisi dettagliata delle nostre cifre chiave, fornendo metriche complete e approfondimenti statistici sui nostri risultati, impatto e crescita.",
+      "item_1": {
+        "title": "Formati supportati",
+        "content": "Visualizza facilmente oltre 180 formati di file inclusi documenti, immagini e disegni CAD senza problemi. Supera le barriere di compatibilità e accedi facilmente a file diversi con la nostra soluzione di visualizzazione completa."
+      },
+      "item_2": {
+        "title": "Download di NuGet",
+        "content": "La nostra soluzione di pacchetto NuGet è diventata una risorsa affidabile e ampiamente adottata nella comunità degli sviluppatori, fornendo un'integrazione perfetta e funzionalità preziose per innumerevoli progetti."
+      },
+      "item_3": {
+        "title": "Biblioteche",
+        "content": "Il nostro prodotto include oltre 10 librerie che offrono funzionalità avanzate per ottimizzare le prestazioni. Queste librerie sono progettate per soddisfare diverse esigenze di sviluppo con capacità senza precedenti."
+      },
+      "item_4": {
+        "title": "Clienti felici",
+        "content": "Al servizio dei marchi più iconici in tutto il mondo. Scopri perché centinaia di persone adorano GroupDocs.Viewer! Esplora la navigazione fluida, la collaborazione conveniente e la facilità d'uso senza precedenti. Iscriviti adesso!"
+      }
+    },
+    "customers": {
+      "title": "I nostri clienti felici",
+      "description": "Le librerie GroupDocs sono utilizzate da marchi distinti e rinomati a livello globale in tutto il mondo."
+    },
+    "actions": {
+      "title": "Pronti per iniziare?",
+      "description": "Prova gratuitamente le funzionalità di GroupDocs.Viewer o richiedi una licenza"
+    },
+    "faq": {
+      "title": "Domande e preoccupazioni comuni",
+      "description": "Trova le risposte alle domande più comuni nella nostra sezione FAQ per rispondere rapidamente alle tue domande e preoccupazioni.",
+      "question_1": "Posso valutare i prodotti GroupDocs prima dell'acquisto?",
+      "answer_1": "SÌ! Per tutti i prodotti GroupDocs è disponibile una versione di valutazione priva di rischi. Incoraggiamo vivamente gli sviluppatori a scaricare e provare le nostre API prima dell'acquisto per garantire che soddisfino le tue esigenze al 100%.",
+      "question_2": "GroupDocs esegue dimostrazioni dei prodotti?",
+      "answer_2": "No, il nostro focus è sulle nostre API e sulla realizzazione dei prodotti più funzionali e stabili possibili. Offriamo prove completamente funzionali e gratuite sotto forma di [licenza temporanea](https://purchase.groupdocs.com/temporary-license/) in modo che tu possa testare il prodotto tu stesso.",
+      "question_3": "Dove posso scaricare il prodotto?",
+      "answer_3": "Tutti i prodotti sono disponibili per il download dal [sito Web](https://releases.groupdocs.com). Non inviamo copie fisiche del nostro software tramite posta.",
+      "question_4": "Le licenze per sviluppatori di GroupDocs sono per utente o per utente nominato?",
+      "answer_4": "Le licenze per sviluppatori GroupDocs sono per utente, non per utente nominato. Comprendiamo che i membri di un team di codifica possono cambiare nel tempo e che non è pratico dover aggiornare la licenza ogni volta che ciò accade.",
+      "question_5": "Abbiamo bisogno di licenze solo per gli sviluppatori attivi? Ad esempio, abbiamo un team di due sviluppatori che lavorano nel turno A e un secondo team di due sviluppatori che lavorano nel turno B… in questa situazione, abbiamo bisogno di due o quattro licenze?",
+      "answer_5": "Tutti gli sviluppatori che stanno lavorando al progetto devono avere una licenza. In questa situazione, GroupDocs vede il tuo team come composto da quattro membri (anche se lavorano in momenti diversi)."
+    },
+    "cloud_links": {
+      "title": "API a basso codice GroupDocs.Viewer",
+      "description": "Accelera la visualizzazione di documenti o immagini in qualsiasi tipo di applicazione con la nostra API REST basata su cloud",
+      "item_1_content": "Utilizza l'API di visualizzazione documenti RESTful di cURL per eseguire il rendering e mostrare in modo efficiente Microsoft Office, PDF e vari altri formati di file standard nelle tue applicazioni.",
+      "item_2_content": "Migliora le funzionalità di visualizzazione dei documenti nelle applicazioni .NET con Cloud SDK per .NET. Visualizza documenti senza problemi nei formati HTML, PDF o immagine.",
+      "item_3_content": "Integra funzionalità avanzate di rendering dei documenti nelle tue applicazioni Java utilizzando un SDK per visualizzatore di documenti appositamente creato per Java."
+    },
+    "app_links": {
+      "title": "App GroupDocs.Viewer NoCode",
+      "description": "Applicazione online che ti consente di visualizzare oltre 180 formati di file popolari nel browser",
+      "item_1_content": "Esplora un'applicazione online gratuita per visualizzare oltre 180 formati di file direttamente dal tuo browser Web preferito.",
+      "item_2_content": "Strumento basato sul Web per visualizzare facilmente file Microsoft Word su vari dispositivi.",
+      "item_3_content": "Apri e visualizza file PDF online con il visualizzatore PDF gratuito."
+    }
+  },
+  "index-content-common": {
+    "actions_alt": "Licenza",
+    "actions_title": "Pronto per iniziare?",
+    "actions_description": "Prova gratuitamente le funzionalità di GroupDocs.Viewer o richiedi una licenza",
+    "release_title": "Versione {0} rilasciata",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Altri esempi",
+    "formats": {
+      "title": "Formati di file supportati",
+      "group1": "Microsoft Office, OpenDocument e formati di testo",
+      "group2": "Immagini, grafica e diagrammi",
+      "raster": "Immagini raster",
+      "group3": "Altro",
+      "web": "ragnatela",
+      "archives": "Archivi",
+      "supported_by_windows_specific_package": "Supportato dal pacchetto specifico di Windows"
+    },
+    "features": {
+      "title": "Funzionalità di GroupDocs.Viewer",
+      "description": "Esegue il rendering, la visualizzazione e la conversione di documenti PDF e Office senza problemi",
+      "feature1_title": "Visualizza i documenti in HTML",
+      "feature1_content": "Converti documenti di qualsiasi tipo in un documento HTML con CSS e SVG, che può essere visualizzato in qualsiasi browser web moderno.",
+      "feature2_title": "Rasterizzare i documenti",
+      "feature2_content": "Rasterizza qualsiasi formato di documento supportabile nell'immagine raster, con formato immagine e qualità di compressione regolabili.",
+      "feature3_title": "Restituisci ed evidenzia i codici di programmazione",
+      "feature3_content": "Supporto di tutti i linguaggi di programmazione, scripting e markup più diffusi, con capacità di analizzare ed evidenziare la loro sintassi.",
+      "feature4_title": "Converti in PDF",
+      "feature4_content": "I documenti di qualsiasi formato supportato possono essere facilmente convertiti e salvati nel PDF con opzioni regolabili.",
+      "feature5_title": "Applicare trasformazioni",
+      "feature5_content": "Il documento di output può essere trasformato durante il rendering: le pagine possono essere ruotate e/o riorganizzate e la filigrana di testo può essere posizionata sopra di esse.",
+      "feature6_title": "Regolazione dell'output HTML",
+      "feature6_content": "I documenti HTML di output, generati da GroupDocs.Viewer, possono essere ottimizzati in modo molto preciso: è consentito salvare nello stream o nel file, con risorse esterne o incorporate, callback e così via.",
+      "feature7_title": "Supporto di strutture documentali complesse",
+      "feature7_content": "GroupDocs.Viewer supporta non solo i singoli documenti, ma anche i file che contengono internamente un elenco o una struttura gerarchica di documenti, come messaggi di posta elettronica con allegati, archivi ZIP con file interni all'interno di cartelle, immagini TIFF multipagina e così via.",
+      "feature8_title": "Opzioni di ottimizzazione",
+      "feature8_content": "GroupDocs.Viewer contiene un sottosistema di cache regolabile, che può ridurre i tempi di caricamento utilizzando le versioni dei documenti memorizzate nella cache. Inoltre una serie di diverse opzioni per diversi formati consente di escludere alcune parti o aspetti non necessari dei documenti dal rendering (caratteri, fogli di lavoro nascosti, allegati e-mail) per ottimizzare le prestazioni complessive",
+      "feature9_title": "Supporto di documenti protetti da password",
+      "feature9_content": "GroupDocs.Viewer consente di aprire documenti crittografati di diversi tipi: PDF, elaborazione testi, fogli di calcolo, presentazioni e altri, specificando una password nelle opzioni di caricamento."
+    },
+    "reviews": {
+      "title": "Recensioni dei prodotti GroupDocs",
+      "description": "Non limitarti a crederci sulla parola. Scopri cosa dicono gli altri sviluppatori sulle nostre API",
+      "content1": "Servizio eccellente e prodotti eccellenti. Si sono rivelati estremamente utili e reattivi durante il processo di implementazione di GroupDocs.Viewer per .NET, non posso che consigliarli vivamente.",
+      "content2": "Dopo aver implementato e utilizzato GroupDocs.Viewer for .NET nel progetto sembra funzionare molto bene. Ho testato con molti documenti e finora tutto bene. Tutto ciò che ho inserito viene visualizzato bene e ha lo stesso aspetto di un visualizzatore PDF o MS Word."
+    }
+  },
+  "index-content-net": {
+    "head_title": "API per visualizzatore di documenti .NET, rendering di PDF Word Excel Immagine HTML Diagramma",
+    "head_description": "Visualizzatore di file C# ASP.NET e API di rendering. Aggiungi funzionalità di visualizzatore PDF, visualizzatore Word, visualizzatore Excel, visualizzatore immagini, visualizzatore HTML, visualizzatore e-mail nelle app .NET.",
+    "header_title": "Rendering e visualizzazione di documenti<br>utilizzando l'API .NET",
+    "header_description": "Potente API visualizzatore per eseguire il rendering di oltre 180 formati di documenti in PDF, HTML e immagini con opzioni di configurazione versatili.",
+    "actions_main": "Download gratuito di NuGet",
+    "code_title": "Rendering di file PDF in C#",
+    "code_comment_1": "Carica il file PDF di origine",
+    "code_comment_2": "Imposta le opzioni HTML di output, un file per pagina",
+    "code_comment_3": "Renderizza PDF in HTML con risorse incorporate",
+    "overview_title": "GroupDocs.Viewer in breve",
+    "overview_description": "API per eseguire il rendering, visualizzare, convertire documenti, diapositive, diagrammi e molti altri tipi di documenti nelle applicazioni .NET",
+    "overview_features": {
+      "feature1_title": "Visualizza i documenti in modo efficiente e affidabile",
+      "feature1_content": "Con l'API GroupDocs.Viewer puoi eseguire il rendering efficiente di documenti di qualsiasi formato supportato in HTML, JPEG, PNG e PDF con opzioni flessibili e potenti mantenendo l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer supporta .NET Framework 4.6.2 e .NET 6.0, funziona su piattaforme Windows e Linux.",
+      "feature2_title": "Sono supportati i formati di file e documenti più diffusi",
+      "feature2_content": "Supportiamo il rendering dei 180 formati di file e documenti più diffusi tra cui Word, Excel, PDF, PowerPoint, la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, e-book, linguaggi di programmazione e markup e molti altri tipi di file, inclusi quelli crittografati file protetti da password.",
+      "feature3_title": "Uscita personalizzabile",
+      "feature3_content": "GroupDocs.Viewer consente non solo di eseguire il rendering del documento, ma anche di controllare come esattamente, quali parti del documento dovrebbero essere renderizzate o ora, come dovrebbero essere renderizzate e di applicare diverse trasformazioni all'output renderizzato.",
+      "feature4_title": "Interfaccia utente per ASP.NET Core",
+      "feature4_content": "Forniamo un pacchetto di interfaccia utente open source per ASP.NET Core che può essere aggiunto al tuo progetto in un paio di minuti. Il pacchetto Viewer.UI contiene un'interfaccia utente Web basata su Angular e fornisce una serie di API utili e provider di archiviazione dati."
+    },
+    "platforms_title": "Supporto delle piattaforme",
+    "platforms_description": "GroupDocs.Viewer per .NET supporta i seguenti sistemi operativi, framework e gestori di pacchetti",
+    "formats": {
+      "description": "GroupDocs.Viewer per .NET supporta operazioni con i seguenti [formati di file](https://docs.groupdocs.com/viewer/net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "description": "Alcuni casi d'uso tipici di GroupDocs.Viewer per operazioni .NET",
+      "sample1_title": "Rendere DOCX in HTML",
+      "sample1_content1": "Le proprietà della classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) ti consentono di controllare il processo di conversione, maggiori informazioni [qui](https://docs.groupdocs.com/viewer/net/rendering-to-html/).",
+      "sample1_content2": "Ad esempio, puoi incorporare tutte le risorse esterne nel file HTML di output, minimizzare il file di output e ottimizzarlo per la stampa.",
+      "sample2_title": "Esporta PPTX in PDF",
+      "sample2_content1": "Crea un'istanza della classe [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) e passala al file [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) per convertire un file PowerPoint PPTX in PDF.",
+      "sample2_content2": "Le proprietà della classe PdfViewOptions consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [seguente sezione della documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) per i dettagli.",
+      "sample1_comment_1": "Visualizzatore di istanze",
+      "sample1_comment_2": "Imposta le opzioni HTML di output",
+      "sample1_comment_3": "Renderizza DOCX in HTML con risorse incorporate",
+      "sample2_comment_1": "Imposta le opzioni PDF di output",
+      "sample2_comment_2": "Esporta PPTX in PDF"
+    },
+    "platforms_packages_windows_title": "Pacchetto specifico per Windows",
+    "platforms_packages_windows_action": "Scarica NuGet",
+    "platforms_packages_windows_content_1": "Supporta .NET Framework 4.6.2+ e .NET 6.0",
+    "platforms_packages_windows_content_2": "Il supporto dei formati di file più completo",
+    "platforms_packages_windows_content_3": "Dipende da System.Drawing e System.Drawing.Common",
+    "platforms_packages_cross_platform_title": "Pacchetto multipiattaforma",
+    "platforms_packages_cross_platform_action": "Scarica NuGet",
+    "platforms_packages_cross_platform_content_1": "Supporta .NET 6.0 e versioni successive",
+    "platforms_packages_cross_platform_content_2": "Supporto di formati di file limitati",
+    "platforms_packages_cross_platform_content_3": "Funziona su Windows, Linux e macOS"
+  },
+  "index-content-java": {
+    "head_title": "API Java Document Viewer, rendering PDF Word Excel Image HTML Diagram",
+    "head_description": "Libreria Document Viewer per sviluppare applicazioni Java in grado di eseguire il rendering, visualizzare e manipolare in modo nativo documenti multiformato che supportano oltre 180 formati di file.",
+    "header_title": "Rendering e visualizzazione di documenti<br>utilizzando l'API Java",
+    "header_description": "Potente API visualizzatore per eseguire il rendering di oltre 180 formati di documenti in PDF, HTML e immagini con opzioni di configurazione versatili.",
+    "actions_main": "Scarica gratis Maven",
+    "code_title": "Rendering di file PDF in Java",
+    "code_comment_1": "Visualizzatore di istanze",
+    "code_comment_2": "Imposta le opzioni HTML di output, un file per pagina",
+    "code_comment_3": "Renderizza PDF in HTML con risorse incorporate",
+    "overview_title": "GroupDocs.Viewer in breve",
+    "overview_description": "API per eseguire il rendering, visualizzare, convertire documenti, diapositive, diagrammi e molti altri tipi di documenti nelle applicazioni Java",
+    "overview_features": {
+      "feature1_title": "Visualizza i documenti in modo efficiente e affidabile",
+      "feature1_content": "Con l'API GroupDocs.Viewer puoi eseguire il rendering efficiente di documenti di qualsiasi formato supportato in HTML, JPEG, PNG e PDF con opzioni flessibili e potenti mantenendo l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer funziona su piattaforme Windows e Linux.",
+      "feature2_title": "Sono supportati i formati di file e documenti più diffusi",
+      "feature2_content": "Supportiamo il rendering dei 180 formati di file e documenti più diffusi tra cui Word, Excel, PDF, PowerPoint, la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, e-book, linguaggi di programmazione e markup e molti altri tipi di file, inclusi quelli crittografati file protetti da password.",
+      "feature3_title": "Uscita personalizzabile",
+      "feature3_content": "GroupDocs.Viewer consente non solo di eseguire il rendering del documento, ma anche di controllare come esattamente, quali parti del documento dovrebbero essere renderizzate o ora, come dovrebbero essere renderizzate e di applicare diverse trasformazioni all'output renderizzato.",
+      "feature4_title": "Interfaccia utente Web per il framework Spring",
+      "feature4_content": "Forniamo un pacchetto di interfaccia utente open source per il framework Spring che può essere aggiunto al tuo progetto in un paio di minuti. Il pacchetto Viewer.UI contiene un'interfaccia utente Web basata su Angular e fornisce una serie di API utili e provider di archiviazione dati."
+    },
+    "platforms_title": "Indipendenza dalla piattaforma",
+    "platforms_description": "GroupDocs.Viewer per Java supporta i seguenti sistemi operativi, framework e gestori di pacchetti",
+    "formats": {
+      "description": "GroupDocs.Viewer per Java supporta operazioni con i seguenti [formati di file](https://docs.groupdocs.com/viewer/java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "description": "Alcuni casi d'uso tipici di GroupDocs.Viewer per operazioni Java",
+      "sample1_title": "Rendere DOCX in HTML",
+      "sample1_content1": "Le proprietà della classe [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) ti consentono di controllare il processo di conversione, maggiori informazioni [qui](https://docs.groupdocs.com/viewer/java/rendering-to-html/).",
+      "sample1_content2": "Ad esempio, puoi incorporare tutte le risorse esterne nel file HTML di output, minimizzare il file di output e ottimizzarlo per la stampa.",
+      "sample2_title": "Esporta PPTX in PDF",
+      "sample2_content1": "Crea un'istanza della classe [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) e passala al file [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) per convertire un file PowerPoint PPTX in PDF.",
+      "sample2_content2": "Le proprietà della classe PdfViewOptions consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [seguente sezione della documentazione](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) per i dettagli.",
+      "sample1_comment_1": "Visualizzatore di istanze",
+      "sample1_comment_2": "Imposta le opzioni HTML di output",
+      "sample1_comment_3": "Renderizza DOCX in HTML con risorse incorporate",
+      "sample2_comment_1": "Visualizzatore di istanze",
+      "sample2_comment_2": "Imposta le opzioni PDF di output",
+      "sample2_comment_3": "Esporta PPTX in PDF"
+    }
+  },
+  "index-content-nodejs": {
+    "head_title": "API del visualizzatore di documenti Node.js per immagini ed e-mail PDF Word Excel HTML",
+    "head_description": "Visualizzatore di documenti Node.js e API di rendering dei file. Aggiungi visualizzatore PDF, visualizzatore Word, visualizzatore Excel, visualizzatore immagini, visualizzatore HTML, visualizzatore e-mail nelle applicazioni JavaScript.",
+    "header_title": "API Node.js per eseguire il rendering e visualizzare i documenti",
+    "header_description": "Libreria Document Viewer per sviluppare applicazioni JavaScript in grado di eseguire il rendering, visualizzare e manipolare in modo nativo documenti multiformato che supportano oltre 180 formati di file.",
+    "actions_main": "Download gratuito di NPM",
+    "code_title": "Rendering di file PDF in JavaScript",
+    "code_comment_1": "Imposta le opzioni HTML di output, un file per pagina",
+    "code_comment_2": "Visualizzatore di istanze",
+    "code_comment_3": "Renderizza PDF in HTML con risorse incorporate",
+    "overview_title": "GroupDocs.Viewer in breve",
+    "overview_description": "API per eseguire il rendering, visualizzare, convertire documenti, diapositive, diagrammi e molti altri tipi di documenti nelle applicazioni Node.js",
+    "overview_features": {
+      "feature1_title": "Visualizza i documenti in modo efficiente e affidabile",
+      "feature1_content": "Con l'API GroupDocs.Viewer puoi eseguire il rendering efficiente di documenti di qualsiasi formato supportato in HTML, JPEG, PNG e PDF con opzioni flessibili e potenti mantenendo l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer per Node.js funziona su piattaforme Windows e Linux.",
+      "feature2_title": "Sono supportati i formati di file e documenti più diffusi",
+      "feature2_content": "Supportiamo il rendering dei 180 formati di file e documenti più diffusi tra cui Word, Excel, PDF, PowerPoint, la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, e-book, linguaggi di programmazione e markup e molti altri tipi di file, inclusi quelli crittografati file protetti da password.",
+      "feature3_title": "Uscita personalizzabile",
+      "feature3_content": "GroupDocs.Viewer consente non solo di eseguire il rendering del documento, ma anche di controllare come esattamente, quali parti del documento dovrebbero essere renderizzate o ora, come dovrebbero essere renderizzate e di applicare diverse trasformazioni all'output renderizzato."
+    },
+    "platforms_title": "Indipendenza dalla piattaforma",
+    "platforms_description": "GroupDocs.Viewer per Node.js supporta i seguenti sistemi operativi, framework e gestori di pacchetti",
+    "formats": {
+      "description": "GroupDocs.Viewer per Node.js tramite Java supporta operazioni con i seguenti [formati di file](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "description": "Alcuni casi d'uso tipici di GroupDocs.Viewer per Node.js tramite operazioni Java",
+      "sample1_title": "Rendere DOCX in HTML",
+      "sample1_content1": "Le proprietà della classe `HtmlViewOptions` ti consentono di controllare il processo di conversione, maggiori informazioni [qui](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/).",
+      "sample1_content2": "Ad esempio, puoi incorporare tutte le risorse esterne nel file HTML di output, minimizzare il file di output e ottimizzarlo per la stampa.",
+      "sample2_title": "Esporta PPTX in PDF",
+      "sample2_content1": "Crea un'istanza della classe PdfViewOptions e passala al metodo Viewer.view per convertire un file PowerPoint PPTX in PDF.",
+      "sample2_content2": "Le proprietà della classe PdfViewOptions ti consentono di controllare il processo di conversione. Ad esempio, puoi proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Fare riferimento alla [sezione della documentazione seguente](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) per i dettagli.",
+      "sample1_comment_1": "Imposta le opzioni HTML di output, un file per pagina",
+      "sample1_comment_2": "Visualizzatore di istanze",
+      "sample1_comment_3": "Renderizza DOCX in HTML con risorse incorporate",
+      "sample2_comment_1": "Imposta le opzioni PDF di output",
+      "sample2_comment_2": "Visualizzatore di istanze",
+      "sample2_comment_3": "Esporta PPTX in PDF"
+    }
+  },
+  "index-content-python": {
+    "head_title": "API di visualizzazione di documenti Python per PDF Word Excel HTML Immagini ed e-mail",
+    "head_description": "API di rendering file e visualizzatore documenti Python. Aggiungi visualizzatore PDF, visualizzatore Word, visualizzatore Excel, visualizzatore immagini, visualizzatore HTML e visualizzatore email alle applicazioni Python.",
+    "header_title": "Una potente API Python per il rendering ottimizzato dei documenti",
+    "header_description": "Esegui il rendering e visualizza oltre 180 formati di documento (PDF, HTML, immagine) con potenti API e opzioni di configurazione versatili per lo sviluppo di applicazioni Python.",
+    "actions_main": "Download gratuito da PyPI",
+    "code_title": "Rendering di file PDF in Python",
+    "code_comment_1": "Imposta le opzioni HTML di output, un file per pagina",
+    "code_comment_2": "Crea un'istanza del visualizzatore",
+    "code_comment_3": "Rendering di PDF in HTML con risorse incorporate",
+    "overview_title": "GroupDocs.Viewer in sintesi",
+    "overview_description": "API per il rendering, la visualizzazione e la conversione di documenti, diapositive, diagrammi e molti altri tipi di documenti nelle applicazioni Python",
+    "overview_features": {
+      "feature1_title": "Visualizza i documenti in modo efficiente e affidabile",
+      "feature1_content": "Con GroupDocs.Viewer API, puoi eseguire in modo efficiente il rendering di documenti di qualsiasi formato supportato in HTML, JPEG, PNG e PDF con opzioni flessibili e potenti, mantenendo al contempo l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer per Python funziona su piattaforme Windows e Linux.",
+      "feature2_title": "Supporta la maggior parte dei formati di file e documenti comuni",
+      "feature2_content": "Supportiamo il rendering di oltre 180 formati di file e documenti più diffusi, inclusi Word, Excel, PDF, PowerPoint, la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, eBook, linguaggi di programmazione e markup e molti altri tipi di file, inclusi file crittografati con protezione tramite password.",
+      "feature3_title": "Output personalizzabile",
+      "feature3_content": "GroupDocs.Viewer consente non solo di eseguire il rendering del documento, ma anche di controllare come esattamente, quali parti del documento devono essere renderizzate o meno, come devono essere renderizzate e di applicare diverse trasformazioni all'output renderizzato."
+    },
+    "platforms_title": "Indipendenza dalla piattaforma",
+    "platforms_description": "GroupDocs.Viewer per Python supporta i seguenti sistemi operativi, framework e gestori pacchetti",
+    "formats": {
+      "description": "GroupDocs.Viewer per Python tramite .NET supporta le operazioni con i seguenti formati di file: [formati di file supportati](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Esempi di codice",
+      "description": "Alcuni casi d'uso tipici delle operazioni di GroupDocs.Viewer per Python tramite .NET",
+      "sample1_title": "Rendering di DOCX in HTML",
+      "sample1_content1": "Le proprietà della classe `HtmlViewOptions` consentono di controllare il processo di conversione. Per ulteriori informazioni, consulta [qui](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/).",
+      "sample1_content2": "Ad esempio, è possibile incorporare tutte le risorse esterne nel file HTML di output, ridurre le dimensioni del file e ottimizzarlo per la stampa.",
+      "sample2_title": "Esportazione di PPTX in PDF",
+      "sample2_content1": "Creare un'istanza della classe `PdfViewOptions` e passarla al metodo `Viewer.view` per convertire un file PowerPoint PPTX in PDF.",
+      "sample2_content2": "Le proprietà della classe `PdfViewOptions` consentono di controllare il processo di conversione. Ad esempio, è possibile proteggere il file PDF di output, riordinarne le pagine e specificare la qualità delle immagini del documento. Consulta la [seguente sezione della documentazione](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) per i dettagli.",
+      "sample1_comment_1": "Crea un'istanza del visualizzatore",
+      "sample1_comment_2": "Imposta le opzioni HTML di output, un file per pagina",
+      "sample1_comment_3": "Rendering di PDF in HTML con risorse incorporate",
+      "sample2_comment_1": "Crea un'istanza del visualizzatore",
+      "sample2_comment_2": "Imposta le opzioni di output PDF (Set output PDF options)",
+      "sample2_comment_3": "Esporta PPTX in PDF (Export PPTX to PDF)"
+    }
+  }
+}

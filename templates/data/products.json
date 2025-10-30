@@ -1,0 +1,30 @@
+{
+    "products": {        
+        "net": {
+            "name": ".NET",
+            "fullName": "GroupDocs.Viewer for .NET",
+            "code": "net",
+            "progLang": "C#",
+            "srcFileExt": ".cs",
+            "syntax": "cs",
+            "devEnv": "Visual Studio, Visual Studio Code, Rider",
+            "runtime": "Frameworks: .NET Framework, .NET Core, .NET",
+            "repoName": "NuGet",
+            "repoUrl": "https://www.nuget.org/packages/groupdocs.viewer",
+            "url": "https://products.groupdocs.com/viewer/net/"
+        },
+        "java": {
+            "name": "Java",
+            "fullName": "GroupDocs.Viewer for Java",
+            "code": "java",
+            "progLang": "Java",
+            "srcFileExt": ".java",
+            "syntax": "java",
+            "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
+            "runtime": "Java runtime: J2SE 8.0 (1.8) or above (for example Java 17)",
+            "repoName": "Maven",
+            "repoUrl": "https://releases.groupdocs.com/viewer/java/",
+            "url": "https://products.groupdocs.com/viewer/java/"
+        }
+    }
+}

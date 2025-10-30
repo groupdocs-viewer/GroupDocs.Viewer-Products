@@ -1,0 +1,275 @@
+{
+  "read_more": {
+    "other": "Read More"
+  },
+  "no_download": {
+    "other": "No need to download API"
+  },
+  "no_code": {
+    "other": "No need to write any code"
+  },
+  "just_upload": {
+    "other": "Just upload the source file"
+  },
+  "get_download": {
+    "other": "Get download link to save the file"
+  },
+  "view_more_testimonials": {
+    "other": "View More Testimonials"
+  },
+  "what_people_are_saying": {
+    "other": "What People Are Saying"
+  },
+  "dont_take_our_words": {
+    "other": "Don't just take our word for it. See what other developers say about our APIs."
+  },
+  "at_a": {
+    "other": "At a"
+  },
+  "glance": {
+    "other": "Glance"
+  },
+  "supported": {
+    "other": "Supported"
+  },
+  "file_formats": {
+    "other": "File Formats"
+  },
+  "platform": {
+    "other": "Platform"
+  },
+  "independence": {
+    "other": "Independence"
+  },
+  "at_a_glance": {
+    "other": "At a Glance"
+  },
+  "supported_file_formats": {
+    "other": "Support File Formats"
+  },
+  "platform_independence": {
+    "other": "Platform Independence"
+  },
+  "support_learning_resources": {
+    "other": "Support and Learning Resources"
+  },
+  "support_learning": {
+    "other": "Learning Resources"
+  },
+  "learning_resources": {
+    "other": "Learning Resources"
+  },
+  "documentation": {
+    "other": "Documentation"
+  },
+  "source_code": {
+    "other": "Source Code"
+  },
+  "release_notes": {
+    "other": "Release Notes"
+  },
+  "download_examples": {
+    "other": "Download Examples"
+  },
+  "api_references": {
+    "other": "API References"
+  },
+  "video_tutorials": {
+    "other": "Video Tutorials"
+  },
+  "product_support": {
+    "other": "Product Support"
+  },
+  "free_support": {
+    "other": "Free Support"
+  },
+  "paid_support": {
+    "other": "Paid Support"
+  },
+  "blog": {
+    "other": "Blog"
+  },
+  "why_choose": {
+    "other": "Why Conholdate.Total Product Family?"
+  },
+  "customer_list": {
+    "other": "Customers List"
+  },
+  "success_stories": {
+    "other": "Success Stories"
+  },
+  "download_free_trial": {
+    "other": "Download Free Trial"
+  },
+  "pricing_information": {
+    "other": "Pricing Information"
+  },
+  "pricing": {
+    "other": "Pricing"
+  },
+  "support": {
+    "other": "Support"
+  },
+  "features": {
+    "other": "Features"
+  },
+  "overview": {
+    "other": "Overview"
+  },
+  "demo": {
+    "other": "Live Demos"
+  },
+  "buy": {
+    "other": "Buy"
+  },
+  "learn": {
+    "other": "Learn"
+  },
+  "download": {
+    "other": "Download"
+  },
+  "products": {
+    "other": "Products"
+  },
+  "home_url": {
+    "other": "/"
+  },
+  "popular": {
+    "other": "Popular"
+  },
+  "options": {
+    "other": "Options"
+  },
+  "to": {
+    "other": "to"
+  },
+  "redaction": {
+    "other": "Redaction"
+  },
+  "assembly": {
+    "other": "Report Generation"
+  },
+  "redact": {
+    "other": "Redact"
+  },
+  "conversion": {
+    "other": "Conversion"
+  },
+  "convert": {
+    "other": "Convert"
+  },
+  "signature": {
+    "other": "Signature"
+  },
+  "sign": {
+    "other": "Sign"
+  },
+  "watermark": {
+    "other": "Watermark"
+  },
+  "barcode": {
+    "other": "Barcode"
+  },
+  "merger": {
+    "other": "Merger"
+  },
+  "parser": {
+    "other": "Parser"
+  },
+  "merge_files": {
+    "other": "Merge {{ . }} Files"
+  },
+  "annotate_files": {
+    "other": "Annotate {{ . }} Files"
+  },
+  "view_files": {
+    "other": "View {{ . }} Files"
+  },
+  "compare_files": {
+    "other": "Compare {{ . }} Files"
+  },
+  "sign_files": {
+    "other": "Sign {{ . }} Files"
+  },
+  "assemble_files": {
+    "other": "Generate {{ . }} Files"
+  },
+  "inspect_files": {
+    "other": "Edit Metadata of {{ . }} Files"
+  },
+  "search_files": {
+    "other": "Find in {{ . }} Files"
+  },
+  "watermark_files": {
+    "other": "Add Watermark to {{ . }} Files"
+  },
+  "edit_files": {
+    "other": "Edit {{ . }} Files"
+  },
+  "redact_files": {
+    "other": "Redact {{ . }} Files"
+  },
+  "split_files": {
+    "other": "Split {{ . }} Files"
+  },
+  "compress_files": {
+    "other": "Compress {{ . }} Files"
+  },
+  "parse_files": {
+    "other": "Parse {{ . }} Files"
+  },
+  "barcode_files": {
+    "other": "Add Barcode to {{ . }} Files"
+  },
+  "extract_files": {
+    "other": "Extract Info from {{ . }} Files"
+  },
+  "convert_to_template": {
+    "other": "Convert %s to %s"
+  },
+  "sign_with_template": {
+    "other": "Sign %s with %s"
+  },
+  "search_in_template": {
+    "other": "Search %s in %s"
+  },
+  "verify_in_template": {
+    "other": "Verify %s in %s"
+  },
+  "update_in_template": {
+    "other": "Update %s in %s"
+  },
+  "delete_in_template": {
+    "other": "Delete %s in %s"
+  },
+  "merge_files_template": {
+    "other": "Merge %s Files"
+  },
+  "join_files_template": {
+    "other": "Join %s Files"
+  },
+  "combine_files_template": {
+    "other": "Combine %s Files"
+  },
+  "split_pages_template": {
+    "other": "Split %s Pages"
+  },
+  "extract_pages_template": {
+    "other": "Extract %s Pages"
+  },
+  "move_pages_template": {
+    "other": "Move %s Pages"
+  },
+  "remove_pages_template": {
+    "other": "Remove %s Pages"
+  },
+  "swap_pages_template": {
+    "other": "Swap %s Pages"
+  },
+  "rotate_pages_template": {
+    "other": "Rotate %s Pages"
+  },
+  "view_file": {
+    "other": "Scroll down or use the menu to navigate between pages"
+  }
+}

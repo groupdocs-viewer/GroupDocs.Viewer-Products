@@ -1,0 +1,6 @@
+dimensions: 
+- alias: lang  
+  values: [en, de, es, fa, fr, id, it, ja, ko, pt, ru, th, uk, vi, zh]
+  #values: [en]
+
+dictionaries: ["..\\data\\{operation}\\{lang}.json"]

@@ -1,0 +1,331 @@
+{
+  "index-content": {
+    "head_title": "API Render dan Lihat Dokumen | SDK Penampil Dokumen On Premise dan layanan online",
+    "head_description": "Render & lihat file Word, PDF, Excel, Powerpoint atau Gambar dengan mudah dan gratis",
+    "title": "Render dan lihat dokumen dengan mudah",
+    "description_1": "SDK Penampil Dokumen yang kuat untuk merender berbagai file menjadi PDF, HTML, dan gambar.",
+    "description_2": "Memuat dokumen dari berbagai sumber, termasuk file, aliran, URL, server FTP, Amazon S3, Azure Blob Storage, dan banyak lagi.",
+    "description_3": "Hasilkan halaman HTML responsif, lindungi file PDF keluaran dan susun ulang halamannya, putar halaman, render catatan dan komentar jika diperlukan.",
+    "supported_platforms": {
+      "head_title": "Pilih platform Anda",
+      "title": "Platform yang didukung",
+      "description": "Pustaka GroupDocs.Viewer mendukung sistem operasi dan kerangka kerja berikut",
+      "details_link_title": "Belajarlah lagi",
+      "item_1_formats_count": "180+ format file",
+      "item_1_ui_package": "Paket UI untuk ASP.NET Core",
+      "item_2_ui_package": "Paket UI untuk Spring dan Dropwizard",
+      "item_3_ui_package": "Paket UI - segera hadir",
+      "item_3_demo": "Demo - segera hadir"
+    },
+    "features": {
+      "title": "Kumpulan fitur GroupDocs.Viewer",
+      "description": "API untuk merender file dari berbagai jenis seperti HTML, PDF, PNG, dan JPEG dalam aplikasi untuk melihatnya tanpa perangkat lunak pihak ketiga.",
+      "item_1_title": "Lihat dokumen dan gambar",
+      "item_1_content": "Lihat dokumen dengan merendernya sebagai file HTML, PDF, PNG, dan JPEG.",
+      "item_2_title": "Buka dokumen aman",
+      "item_2_content": "Tentukan kata sandi untuk membuka dokumen terenkripsi.",
+      "item_3_title": "Muat file dari mana saja",
+      "item_3_content": "Muat dokumen dari berbagai file, URL, server FTP, Amazon S3, dan lainnya.",
+      "item_4_title": "Render semua atau halaman tertentu",
+      "item_4_content": "Tentukan rentang nomor halaman yang akan dirender."
+    },
+    "code_samples": {
+      "title": "Contoh kode GroupDocs.Viewer",
+      "description": "Beberapa kasus penggunaan operasi GroupDocs.Viewer yang umum di C#, Java, TypeScript",
+      "item_1": {
+        "title": "Cara merender file DOCX ke PDF",
+        "content": "Render dokumen DOCX ke PDF tanpa menginstal Microsoft Word atau perangkat lunak lain. Memuat dan melihat file DOCX dengan mudah dalam aplikasi .NET Anda, baik itu aplikasi web atau desktop. Berikut adalah contoh cara merender file DOCX ke PDF:",
+        "comment_1": "Muat file DOCX untuk dirender",
+        "comment_2": "Render DOCX ke file PDF"
+      }
+    },
+    "formats": {
+      "title": "180+ format file didukung",
+      "description": "GroupDocs.Viewer mendukung operasi dengan paling popule [format file](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
+    },
+    "metrics": {
+      "title": "Metrik mendalam dan wawasan statistik",
+      "description": "Pelajari rincian angka-angka penting kami, yang memberikan metrik komprehensif dan wawasan statistik mengenai pencapaian, dampak, dan pertumbuhan kami.",
+      "item_1": {
+        "title": "Format yang didukung",
+        "content": "Lihat lebih dari 180 format file termasuk dokumen, gambar, dan gambar CAD dengan mudah tanpa repot. Hancurkan hambatan kompatibilitas dan akses beragam file dengan mudah menggunakan solusi tampilan komprehensif kami."
+      },
+      "item_2": {
+        "title": "Unduhan NuGet",
+        "content": "Solusi paket NuGet kami telah menjadi sumber daya tepercaya dan diadopsi secara luas di komunitas pengembang, menyediakan integrasi tanpa batas dan fungsionalitas berharga untuk banyak proyek."
+      },
+      "item_3": {
+        "title": "Perpustakaan",
+        "content": "Produk kami mencakup 10+ perpustakaan, menawarkan fitur-fitur canggih untuk mengoptimalkan kinerja. Perpustakaan ini dirancang untuk memenuhi kebutuhan pengembangan yang berbeda dengan kemampuan yang tak tertandingi."
+      },
+      "item_4": {
+        "title": "Pelanggan yang senang",
+        "content": "Melayani merek paling ikonik di seluruh dunia. Temukan mengapa ratusan orang menyukai GroupDocs.Viewer! Jelajahi navigasi yang lancar, kolaborasi yang nyaman, dan kemudahan penggunaan yang tak tertandingi. Bergabung sekarang!"
+      }
+    },
+    "customers": {
+      "title": "Pelanggan kami yang bahagia",
+      "description": "Perpustakaan GroupDocs digunakan oleh merek-merek terkenal dan terkemuka secara global di seluruh dunia."
+    },
+    "actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur GroupDocs.Viewer secara gratis atau minta lisensi"
+    },
+    "faq": {
+      "title": "Pertanyaan dan kekhawatiran umum",
+      "description": "Temukan jawaban atas pertanyaan umum di bagian FAQ kami untuk menjawab pertanyaan dan kekhawatiran Anda dengan cepat.",
+      "question_1": "Bisakah saya mengevaluasi produk GroupDocs sebelum membeli?",
+      "answer_1": "Ya! Semua produk GroupDocs memiliki versi evaluasi yang bebas risiko. Kami sangat menganjurkan pengembang untuk mengunduh dan mencoba API kami sebelum membeli untuk memastikan bahwa API tersebut akan memenuhi kebutuhan Anda 100%.",
+      "question_2": "Apakah GroupDocs melakukan demonstrasi produk?",
+      "answer_2": "Tidak, fokus kami adalah pada API kami dan membuat produk yang paling fungsional dan stabil. Kami menawarkan uji coba yang berfungsi penuh dan gratis dalam bentuk [lisensi sementara](https://purchase.groupdocs.com/temporary-license/) sehingga Anda dapat menguji sendiri produk tersebut.",
+      "question_3": "Dimana saya bisa mendownload produknya?",
+      "answer_3": "Semua produk tersedia untuk diunduh dari [situs web](https://releases.groupdocs.com). Kami tidak mengirimkan salinan fisik perangkat lunak kami melalui surat.",
+      "question_4": "Apakah lisensi pengembang GroupDocs per pengguna, atau per pengguna yang disebutkan namanya?",
+      "answer_4": "Lisensi Pengembang GroupDocs adalah per pengguna, bukan per pengguna yang disebutkan namanya. Kami memahami bahwa anggota tim coding dapat berubah seiring berjalannya waktu dan tidak praktis jika harus memperbarui lisensi setiap kali hal tersebut terjadi.",
+      "question_5": "Apakah kita memerlukan lisensi hanya untuk pengembang aktif? Misalnya, kami memiliki tim yang terdiri dari dua pengembang yang mengerjakan shift A dan tim kedua yang terdiri dari dua pengembang yang mengerjakan shift B… dalam situasi ini, apakah kami memerlukan dua atau empat lisensi?",
+      "answer_5": "Semua pengembang yang mengerjakan proyek harus memiliki lisensi. Dalam situasi ini, GroupDocs melihat tim Anda memiliki empat anggota (meskipun mereka bekerja pada waktu yang berbeda)."
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Viewer API kode rendah",
+      "description": "Percepat tampilan dokumen atau gambar di semua jenis aplikasi dengan REST API kami yang berbasis cloud",
+      "item_1_content": "Gunakan API penampil dokumen cURL RESTful untuk merender dan menampilkan Microsoft Office, PDF, dan berbagai format file standar lainnya secara efisien dalam aplikasi Anda.",
+      "item_2_content": "Tingkatkan kemampuan melihat dokumen di aplikasi .NET dengan Cloud SDK untuk .NET. Lihat dokumen dengan lancar dalam format HTML, PDF, atau gambar.",
+      "item_3_content": "Integrasikan kemampuan rendering dokumen tingkat lanjut ke dalam aplikasi Java Anda menggunakan SDK Penampil Dokumen untuk Java yang dibuat khusus."
+    },
+    "app_links": {
+      "title": "Aplikasi NoCode GroupDocs.Viewer",
+      "description": "Aplikasi online memungkinkan Anda melihat 180+ format file populer di browser",
+      "item_1_content": "Jelajahi aplikasi online gratis untuk melihat lebih dari 180 format file langsung dari browser web pilihan Anda.",
+      "item_2_content": "Alat berbasis web untuk melihat file Microsoft Word dengan mudah di berbagai perangkat.",
+      "item_3_content": "Buka dan lihat file PDF online dengan penampil PDF gratis."
+    }
+  },
+  "index-content-common": {
+    "actions_alt": "Perizinan",
+    "actions_title": "Siap untuk memulai?",
+    "actions_description": "Coba fitur GroupDocs.Viewer secara gratis atau minta lisensi",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "formats": {
+      "title": "Format file yang didukung",
+      "group1": "Microsoft Office, OpenDocument dan format teks",
+      "group2": "Gambar, Grafik & Diagram",
+      "raster": "Gambar raster",
+      "group3": "Lainnya",
+      "web": "jaring",
+      "archives": "Arsip",
+      "supported_by_windows_specific_package": "Didukung oleh paket khusus Windows"
+    },
+    "features": {
+      "title": "Fitur GroupDocs.Viewer",
+      "description": "Render, tampilkan, dan konversi PDF dan Dokumen Office dengan lancar",
+      "feature1_title": "Lihat dokumen dalam HTML",
+      "feature1_content": "Ubah dokumen jenis apa pun menjadi dokumen HTML dengan CSS dan SVG, yang dapat ditampilkan di browser web modern mana pun.",
+      "feature2_title": "Rasterisasi dokumen",
+      "feature2_content": "Rasterisasi format dokumen apa pun yang didukung ke gambar raster, dengan format gambar dan kualitas kompresi yang dapat disesuaikan.",
+      "feature3_title": "Render dan sorot kode pemrograman",
+      "feature3_content": "Dukungan untuk semua bahasa pemrograman, skrip, dan markup populer, dengan kemampuan untuk mengurai dan menyorot sintaksisnya.",
+      "feature4_title": "Konversikan ke PDF",
+      "feature4_content": "Dokumen format apa pun yang didukung dapat dengan mudah dikonversi dan disimpan ke PDF dengan opsi yang dapat disesuaikan.",
+      "feature5_title": "Terapkan transformasi",
+      "feature5_content": "Dokumen keluaran dapat diubah selama rendering - halaman dapat diputar dan/atau disusun ulang, dan tanda air teks dapat ditempatkan di atasnya.",
+      "feature6_title": "Penyesuaian keluaran HTML",
+      "feature6_content": "Dokumen HTML keluaran, yang dihasilkan oleh GroupDocs.Viewer, dapat disetel dengan sangat baik: diperbolehkan untuk menyimpan ke aliran atau file, dengan sumber daya eksternal atau tertanam, panggilan balik, dan sebagainya.",
+      "feature7_title": "Dukungan struktur dokumen yang kompleks",
+      "feature7_content": "GroupDocs.Viewer tidak hanya mendukung satu dokumen, tetapi juga file, yang secara internal berisi daftar atau struktur hierarki dokumen, seperti pesan email dengan lampiran, arsip ZIP dengan file internal di dalam folder, gambar TIFF multi-halaman, dan sebagainya.",
+      "feature8_title": "Opsi pengoptimalan",
+      "feature8_content": "GroupDocs.Viewer berisi subsistem cache yang dapat disesuaikan, yang dapat mempercepat waktu pemuatan dengan menggunakan versi dokumen yang di-cache. Juga serangkaian opsi berbeda untuk format berbeda memungkinkan untuk mengecualikan beberapa bagian atau aspek dokumen yang tidak diperlukan dari rendering (font, lembar kerja tersembunyi, lampiran email) untuk mengoptimalkan kinerja keseluruhan",
+      "feature9_title": "Dukungan dokumen yang dilindungi kata sandi",
+      "feature9_content": "GroupDocs.Viewer memungkinkan untuk membuka dokumen terenkripsi dari berbagai jenis: PDF, WordProcessing, Spreadsheet, Presentasi, dan lainnya, dengan menentukan kata sandi dalam opsi pemuatan."
+    },
+    "reviews": {
+      "title": "Ulasan produk GroupDocs",
+      "description": "Jangan hanya percaya kata-kata kami begitu saja. Lihat apa yang dikatakan pengembang lain tentang API kami",
+      "content1": "Pelayanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama proses implementasi GroupDocs.Viewer untuk .NET, dan sangat merekomendasikannya.",
+      "content2": "Setelah mengimplementasikan dan menggunakan GroupDocs.Viewer untuk .NET dalam proyek tersebut tampaknya berfungsi dengan baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya berikan ditampilkan dengan baik dan terlihat sama bagusnya dengan penampil PDF atau MS Word."
+    }
+  },
+  "index-content-net": {
+    "head_title": "API penampil dokumen .NET, render Diagram HTML Gambar PDF Word Excel",
+    "head_description": "C# penampil file ASP.NET & API rendering. Tambahkan penampil PDF, penampil Word, penampil Excel, penampil gambar, penampil HTML, fitur penampil email di aplikasi .NET.",
+    "header_title": "Render & tampilkan dokumen<br>menggunakan .NET API",
+    "header_description": "API Penampil yang kuat untuk merender 180+ format dokumen menjadi PDF, HTML, dan Gambar dengan opsi konfigurasi serbaguna.",
+    "actions_main": "Unduh NuGet Gratis",
+    "code_title": "Render file PDF di C#",
+    "code_comment_1": "Muat file PDF sumber",
+    "code_comment_2": "Tetapkan opsi HTML keluaran, satu file per halaman",
+    "code_comment_3": "Render PDF ke HTML dengan sumber daya tertanam",
+    "overview_title": "Sekilas tentang GroupDocs.Viewer",
+    "overview_description": "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi .NET",
+    "overview_features": {
+      "feature1_title": "Lihat dokumen secara efisien & andal",
+      "feature1_content": "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer mendukung .NET Framework 4.6.2 dan .NET 6.0, berfungsi pada platform Windows dan Linux.",
+      "feature2_title": "Sebagian besar format file dan dokumen populer didukung",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi.",
+      "feature3_title": "Keluaran yang dapat disesuaikan",
+      "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender.",
+      "feature4_title": "UI untuk ASP.NET Inti",
+      "feature4_content": "Kami menyediakan paket UI sumber terbuka untuk ASP.NET Core yang dapat ditambahkan ke proyek Anda dalam beberapa menit. Paket Viewer.UI berisi UI web berbasis Angular dan memberikan serangkaian API dan penyedia penyimpanan data yang berguna."
+    },
+    "platforms_title": "Dukungan platform",
+    "platforms_description": "GroupDocs.Viewer untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats": {
+      "description": "GroupDocs.Viewer untuk .NET mendukung operasi dengan berikut [format file](https://docs.groupdocs.com/viewer/net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "description": "Beberapa kasus penggunaan GroupDocs.Viewer tipikal untuk operasi .NET",
+      "sample1_title": "Render DOCX ke HTML",
+      "sample1_content1": "Properti kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https://docs.groupdocs.com/viewer/net/rendering-to-html/).",
+      "sample1_content2": "Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.",
+      "sample2_title": "Ekspor PPTX ke PDF",
+      "sample2_content1": "Buat instance kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) dan teruskan ke [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) untuk mengonversi file PowerPoint PPTX ke PDF.",
+      "sample2_content2": "Properti kelas PdfViewOptions memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) untuk mengetahui detailnya.",
+      "sample1_comment_1": "Buat instance penampil",
+      "sample1_comment_2": "Tetapkan opsi HTML keluaran",
+      "sample1_comment_3": "Render DOCX ke HTML dengan sumber daya tertanam",
+      "sample2_comment_1": "Atur opsi keluaran PDF",
+      "sample2_comment_2": "Ekspor PPTX ke PDF"
+    },
+    "platforms_packages_windows_title": "Paket khusus Windows",
+    "platforms_packages_windows_action": "Unduhan NuGet",
+    "platforms_packages_windows_content_1": "Mendukung .NET Framework 4.6.2+ dan .NET 6.0",
+    "platforms_packages_windows_content_2": "Dukungan format file terlengkap",
+    "platforms_packages_windows_content_3": "Tergantung pada System.Drawing dan System.Drawing.Common",
+    "platforms_packages_cross_platform_title": "Paket lintas platform",
+    "platforms_packages_cross_platform_action": "Unduhan NuGet",
+    "platforms_packages_cross_platform_content_1": "Mendukung .NET 6.0 dan versi yang lebih tinggi",
+    "platforms_packages_cross_platform_content_2": "Dukungan format file terbatas",
+    "platforms_packages_cross_platform_content_3": "Bekerja di Windows, Linux dan macOS"
+  },
+  "index-content-java": {
+    "head_title": "API Penampil Dokumen Java, render Diagram HTML Gambar PDF Word Excel",
+    "head_description": "Pustaka Penampil Dokumen untuk mengembangkan aplikasi Java yang secara asli merender, melihat, dan memanipulasi dokumen multi-format yang mendukung 180+ format file.",
+    "header_title": "Render & tampilkan dokumen<br>menggunakan Java API",
+    "header_description": "API Penampil yang kuat untuk merender 180+ format dokumen menjadi PDF, HTML, dan Gambar dengan opsi konfigurasi serbaguna.",
+    "actions_main": "Unduhan Maven Gratis",
+    "code_title": "Render file PDF di Java",
+    "code_comment_1": "Buat Instansiasi Penampil",
+    "code_comment_2": "Tetapkan opsi HTML keluaran, satu file per halaman",
+    "code_comment_3": "Render PDF ke HTML dengan sumber daya tertanam",
+    "overview_title": "Sekilas tentang GroupDocs.Viewer",
+    "overview_description": "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi Java",
+    "overview_features": {
+      "feature1_title": "Lihat dokumen secara efisien & andal",
+      "feature1_content": "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer berfungsi pada platform Windows dan Linux.",
+      "feature2_title": "Sebagian besar format file dan dokumen populer didukung",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi.",
+      "feature3_title": "Keluaran yang dapat disesuaikan",
+      "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender.",
+      "feature4_title": "UI Web untuk kerangka Spring",
+      "feature4_content": "Kami menyediakan paket UI sumber terbuka untuk kerangka Spring yang dapat ditambahkan ke proyek Anda dalam beberapa menit. Paket Viewer.UI berisi UI web berbasis Angular dan memberikan serangkaian API dan penyedia penyimpanan data yang berguna."
+    },
+    "platforms_title": "Independensi platform",
+    "platforms_description": "GroupDocs.Viewer untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats": {
+      "description": "GroupDocs.Viewer untuk Java mendukung operasi dengan [format file](https://docs.groupdocs.com/viewer/java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "description": "Beberapa kasus penggunaan GroupDocs.Viewer khas untuk operasi Java",
+      "sample1_title": "Render DOCX ke HTML",
+      "sample1_content1": "Properti kelas [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https://docs.groupdocs.com/viewer/java/rendering-to-html/).",
+      "sample1_content2": "Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.",
+      "sample2_title": "Ekspor PPTX ke PDF",
+      "sample2_content1": "Buat instance kelas [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) dan teruskan ke [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) metode untuk mengonversi file PowerPoint PPTX ke PDF.",
+      "sample2_content2": "Properti kelas PdfViewOptions memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) untuk detailnya.",
+      "sample1_comment_1": "Buat Instansiasi Penampil",
+      "sample1_comment_2": "Tetapkan opsi HTML keluaran",
+      "sample1_comment_3": "Render DOCX ke HTML dengan sumber daya tertanam",
+      "sample2_comment_1": "Buat Instansiasi Penampil",
+      "sample2_comment_2": "Atur opsi keluaran PDF",
+      "sample2_comment_3": "Ekspor PPTX ke PDF"
+    }
+  },
+  "index-content-nodejs": {
+    "head_title": "API Penampil Dokumen Node.js untuk Gambar & Email PDF Word Excel HTML",
+    "head_description": "Penampil dokumen Node.js & API rendering file. Tambahkan penampil PDF, penampil Word, penampil Excel, penampil gambar, penampil HTML, penampil email dalam aplikasi JavaScript.",
+    "header_title": "Node.js API untuk merender & menampilkan Dokumen",
+    "header_description": "Pustaka Penampil Dokumen untuk mengembangkan aplikasi JavaScript yang secara asli merender, melihat, dan memanipulasi dokumen multi-format yang mendukung 180+ format file.",
+    "actions_main": "Unduh NPM Gratis",
+    "code_title": "Render file PDF dalam JavaScript",
+    "code_comment_1": "Tetapkan opsi HTML keluaran, satu file per halaman",
+    "code_comment_2": "Buat Instansiasi Penampil",
+    "code_comment_3": "Render PDF ke HTML dengan sumber daya tertanam",
+    "overview_title": "Sekilas tentang GroupDocs.Viewer",
+    "overview_description": "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya di aplikasi Node.js",
+    "overview_features": {
+      "feature1_title": "Lihat dokumen secara efisien & andal",
+      "feature1_content": "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer untuk Node.js berfungsi pada platform Windows dan Linux.",
+      "feature2_title": "Sebagian besar format file dan dokumen populer didukung",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi.",
+      "feature3_title": "Keluaran yang dapat disesuaikan",
+      "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender."
+    },
+    "platforms_title": "Independensi platform",
+    "platforms_description": "GroupDocs.Viewer untuk Node.js mendukung sistem operasi, kerangka kerja, dan manajer paket berikut",
+    "formats": {
+      "description": "GroupDocs.Viewer untuk Node.js melalui Java mendukung operasi dengan [format file](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "description": "Beberapa kasus penggunaan GroupDocs.Viewer khas untuk Node.js melalui operasi Java",
+      "sample1_title": "Render DOCX ke HTML",
+      "sample1_content1": "Properti kelas `HtmlViewOptions` memungkinkan Anda mengontrol proses konversi, lebih lanjut tentang itu [di sini](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/).",
+      "sample1_content2": "Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk dicetak.",
+      "sample2_title": "Ekspor PPTX ke PDF",
+      "sample2_content1": "Buat instance kelas `PdfViewOptions` dan teruskan ke metode `Viewer.view` untuk mengonversi file PowerPoint PPTX ke PDF.",
+      "sample2_content2": "Properti kelas `PdfViewOptions` memungkinkan Anda mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) untuk mengetahui detailnya.",
+      "sample1_comment_1": "Tetapkan opsi HTML keluaran, satu file per halaman",
+      "sample1_comment_2": "Buat Instansiasi Penampil",
+      "sample1_comment_3": "Render DOCX ke HTML dengan sumber daya tertanam",
+      "sample2_comment_1": "Atur opsi keluaran PDF",
+      "sample2_comment_2": "Buat Instansiasi Penampil",
+      "sample2_comment_3": "Ekspor PPTX ke PDF"
+    }
+  },
+  "index-content-python": {
+    "head_title": "API Penampil Dokumen Python untuk PDF, Word, Excel, HTML, Gambar & Email",
+    "head_description": "API rendering file dan penampil dokumen Python. Tambahkan penampil PDF, penampil Word, penampil Excel, penampil Gambar, penampil HTML, dan penampil Email ke aplikasi Python.",
+    "header_title": "API Python yang Kuat untuk Rendering Dokumen yang Dioptimalkan",
+    "header_description": "Render dan tampilkan lebih dari 180 format dokumen (PDF, HTML, Gambar) dengan API yang kuat dan opsi konfigurasi yang serbaguna untuk mengembangkan aplikasi Python.",
+    "actions_main": "Unduh Gratis dari PyPI",
+    "code_title": "Rendering File PDF di Python",
+    "code_comment_1": "Atur opsi HTML keluaran, satu file per halaman",
+    "code_comment_2": "Buat Instance Penampil",
+    "code_comment_3": "Render PDF ke HTML dengan sumber daya yang tertanam",
+    "overview_title": "GroupDocs.Viewer Sekilas",
+    "overview_description": "API untuk rendering, tampilan, dan konversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi Python",
+    "overview_features": {
+      "feature1_title": "Lihat dokumen secara efisien dan andal",
+      "feature1_content": "Dengan GroupDocs.Viewer API, Anda dapat dengan efisien membuat rendering dokumen dari semua format yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat, sambil mempertahankan integritas konten dan struktur dokumen. GroupDocs.Viewer untuk Python berfungsi pada platform Windows dan Linux.",
+      "feature2_title": "Mendukung sebagian besar format file dan dokumen umum",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen yang paling populer, termasuk Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, Gambar Raster dan Vektor, eBook, bahasa pemrograman dan markup, dan banyak lagi jenis file lainnya, termasuk file terenkripsi dengan perlindungan kata sandi.",
+      "feature3_title": "Keluaran yang Dapat Dikustomisasi",
+      "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk membuat rendering dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian mana dari dokumen yang harus dirender atau tidak, bagaimana mereka harus dirender, dan menerapkan transformasi yang berbeda ke keluaran yang dirender."
+    },
+    "platforms_title": "Independensi Platform",
+    "platforms_description": "GroupDocs.Viewer untuk Python mendukung sistem operasi, framework, dan pengelola paket berikut",
+    "formats": {
+      "description": "GroupDocs.Viewer untuk Python via .NET mendukung operasi dengan format file berikut: [format file yang didukung](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "description": "Beberapa kasus penggunaan operasi GroupDocs.Viewer khas untuk Python via .NET",
+      "sample1_title": "Render DOCX ke HTML",
+      "sample1_content1": "Properti kelas `HtmlViewOptions` memungkinkan Anda untuk mengontrol proses konversi, lebih lanjut tentang itu [di sini](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/).",
+      "sample1_content2": "Misalnya, Anda dapat menyematkan semua sumber daya eksternal dalam file HTML keluaran, memperkecil file keluaran, dan mengoptimalkannya untuk pencetakan.",
+      "sample2_title": "Ekspor PPTX ke PDF",
+      "sample2_content1": "Buat instance kelas `PdfViewOptions` dan berikan ke metode `Viewer.view` untuk mengonversi file PowerPoint PPTX ke PDF.",
+      "sample2_content2": "Properti kelas `PdfViewOptions` memungkinkan Anda untuk mengontrol proses konversi. Misalnya, Anda dapat melindungi file PDF keluaran, menyusun ulang halamannya, dan menentukan kualitas gambar dokumen. Lihat [bagian dokumentasi berikut](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) untuk detailnya.",
+      "sample1_comment_1": "Buat Instance Penampil",
+      "sample1_comment_2": "Atur opsi HTML keluaran, satu file per halaman",
+      "sample1_comment_3": "Render PDF ke HTML dengan sumber daya yang tertanam",
+      "sample2_comment_1": "Buat Instance Penampil",
+      "sample2_comment_2": "Set output PDF options (Atur opsi PDF keluaran)",
+      "sample2_comment_3": "Ekspor PPTX ke PDF (Export PPTX to PDF)"
+    }
+  }
+}

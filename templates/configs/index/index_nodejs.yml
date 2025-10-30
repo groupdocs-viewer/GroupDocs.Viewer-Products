@@ -1,0 +1,9 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+- alias: product
+  values: [nodejs]
+
+outputPath: "viewer\\nodejs-java\\_index.{lang}.md"

@@ -1,0 +1,9 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+- alias: product
+  values: [python]
+
+outputPath: "viewer\\python-net\\_index.{lang}.md"

@@ -1,0 +1,331 @@
+{
+  "index-content": {
+    "head_title": "문서 렌더링 및 보기 API | 온프레미스 문서 뷰어 SDK 및 온라인 서비스",
+    "head_description": "Word, PDF, Excel, Powerpoint 또는 이미지 파일을 무료로 쉽게 렌더링 및 보기",
+    "title": "쉽게 문서를 렌더링하고 확인하세요",
+    "description_1": "다양한 파일을 PDF, HTML, 이미지 형식으로 렌더링하는 고성능 문서 뷰어 SDK",
+    "description_2": "파일, 스트림, URL, FTP 서버, Amazon S3, Azure Blob Storage 등을 포함한 다양한 소스에서 문서를 로드합니다.",
+    "description_3": "반응형 HTML 페이지를 생성하고, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 페이지를 회전하고, 필요한 경우 메모와 설명을 렌더링합니다.",
+    "supported_platforms": {
+      "head_title": "플랫폼을 선택하세요",
+      "title": "지원되는 플랫폼",
+      "description": "GroupDocs.Viewer 라이브러리는 다음 운영 체제 및 프레임워크를 지원합니다.",
+      "details_link_title": "더 알아보기",
+      "item_1_formats_count": "180개 이상의 파일 형식",
+      "item_1_ui_package": "ASP.NET Core용 UI 패키지",
+      "item_2_ui_package": "Spring 및 Dropwizard용 UI 패키지",
+      "item_3_ui_package": "UI 패키지 - 출시 예정",
+      "item_3_demo": "데모 - 곧 출시 예정"
+    },
+    "features": {
+      "title": "GroupDocs.Viewer의 기능 세트",
+      "description": "타사 소프트웨어 없이 볼 수 있도록 애플리케이션에서 HTML, PDF, PNG 및 JPEG와 같은 다양한 유형의 파일을 렌더링하는 API입니다.",
+      "item_1_title": "문서 및 이미지 보기",
+      "item_1_content": "문서를 HTML, PDF, PNG 및 JPEG 파일로 렌더링하여 봅니다.",
+      "item_2_title": "보안 문서 열기",
+      "item_2_content": "암호화된 문서를 열려면 비밀번호를 지정하세요.",
+      "item_3_title": "어디서나 파일 로드",
+      "item_3_content": "다양한 파일, URL, FTP 서버, Amazon S3 등에서 문서를 로드하세요.",
+      "item_4_title": "전체 또는 특정 페이지 렌더링",
+      "item_4_content": "렌더링할 페이지 번호 범위를 지정합니다."
+    },
+    "code_samples": {
+      "title": "GroupDocs.Viewer 코드 샘플",
+      "description": "C#, Java, TypeScript의 일반적인 GroupDocs.Viewer 작업의 일부 사용 사례",
+      "item_1": {
+        "title": "DOCX 파일을 PDF로 렌더링하는 방법",
+        "content": "Microsoft Word나 기타 소프트웨어를 설치하지 않고도 DOCX 문서를 PDF로 렌더링할 수 있습니다. 웹 애플리케이션이든 데스크탑 애플리케이션이든 관계없이 .NET 애플리케이션 내에서 DOCX 파일을 쉽게 로드하고 볼 수 있습니다. 다음은 DOCX 파일을 PDF로 렌더링하는 방법의 예입니다.",
+        "comment_1": "렌더링할 DOCX 파일 로드",
+        "comment_2": "DOCX를 PDF 파일로 렌더링"
+      }
+    },
+    "formats": {
+      "title": "180개 이상의 파일 형식 지원",
+      "description": "GroupDocs.Viewer는 가장 널리 사용되는 [파일 형식](https://docs.groupdocs.com/viewer/net/supported-document-formats/) 작업을 지원합니다."
+    },
+    "metrics": {
+      "title": "심층적인 지표 및 통계적 통찰력",
+      "description": "당사의 성과, 영향 및 성장에 대한 포괄적인 지표와 통계적 통찰력을 제공하는 주요 수치에 대한 자세한 분석을 살펴보세요.",
+      "item_1": {
+        "title": "지원되는 형식",
+        "content": "문서, 이미지, CAD 도면을 포함한 180개 이상의 파일 형식을 번거로움 없이 쉽게 볼 수 있습니다. 포괄적인 보기 솔루션을 사용하여 호환성 장벽을 허물고 다양한 파일에 쉽게 액세스하세요."
+      },
+      "item_2": {
+        "title": "NuGet 다운로드",
+        "content": "NuGet 패키지 솔루션은 수많은 프로젝트에 원활한 통합과 귀중한 기능을 제공하여 개발자 커뮤니티에서 신뢰할 수 있고 널리 채택되는 리소스가 되었습니다."
+      },
+      "item_3": {
+        "title": "도서관",
+        "content": "우리 제품에는 성능 최적화를 위한 고급 기능을 제공하는 10개 이상의 라이브러리가 포함되어 있습니다. 이러한 라이브러리는 비교할 수 없는 기능으로 다양한 개발 요구 사항을 충족하도록 설계되었습니다."
+      },
+      "item_4": {
+        "title": "행복한 고객",
+        "content": "전 세계에서 가장 상징적인 브랜드에 서비스를 제공합니다. 수백 명이 GroupDocs.Viewer를 좋아하는 이유를 알아보세요! 원활한 탐색, 편리한 공동작업, 비교할 수 없는 사용 편의성을 살펴보세요. 지금 가입하세요!"
+      }
+    },
+    "customers": {
+      "title": "우리의 행복한 고객",
+      "description": "GroupDocs 라이브러리는 전 세계적으로 유명하고 뛰어난 브랜드에서 사용됩니다."
+    },
+    "actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "GroupDocs.Viewer 기능을 무료로 사용해 보거나 라이선스를 요청하세요"
+    },
+    "faq": {
+      "title": "일반적인 질문과 우려 사항",
+      "description": "자주 묻는 질문(FAQ) 섹션에서 일반적인 문의에 대한 답변을 찾아 문의 사항과 우려 사항을 빠르게 해결하세요.",
+      "question_1": "구매하기 전에 GroupDocs 제품을 평가할 수 있습니까?",
+      "answer_1": "예! 모든 GroupDocs 제품에는 위험이 없는 평가판이 제공됩니다. 우리는 개발자들이 귀하의 요구 사항을 100% 충족할 수 있도록 구매하기 전에 API를 다운로드하고 사용해 볼 것을 강력히 권장합니다.",
+      "question_2": "GroupDocs에서는 제품 시연을 합니까?",
+      "answer_2": "아니요, 우리의 초점은 API와 가장 기능적이고 안정적인 제품을 만드는 것입니다. 우리는 [임시 라이선스](https://purchase.groupdocs.com/temporary-license/) 형태로 모든 기능을 갖춘 무료 평가판을 제공하므로 직접 제품을 테스트해 볼 수 있습니다.",
+      "question_3": "제품은 어디서 다운로드할 수 있나요?",
+      "answer_3": "모든 제품은 [웹사이트](https://releases.groupdocs.com)에서 다운로드할 수 있습니다. 우리는 소프트웨어의 물리적 사본을 우편으로 보내지 않습니다.",
+      "question_4": "GroupDocs 개발자 라이센스는 사용자별인가요, 아니면 지정된 사용자별인가요?",
+      "answer_4": "GroupDocs 개발자 라이센스는 지정 사용자별이 아닌 사용자별입니다. 우리는 코딩 팀의 구성원이 시간이 지남에 따라 변경될 수 있으며 발생할 때마다 라이선스를 업데이트하는 것이 실용적이지 않다는 것을 알고 있습니다.",
+      "question_5": "활동 중인 개발자에게만 라이선스가 필요합니까? 예를 들어, 두 명의 개발자로 구성된 팀이 A 교대 근무를 하고 두 번째 개발자 두 팀이 교대 B 근무를 하고 있습니다. 이 상황에서 라이선스가 2개 또는 4개가 필요합니까?",
+      "answer_5": "프로젝트에 참여하는 모든 개발자는 라이선스를 취득해야 합니다. 이 상황에서 GroupDocs는 팀 구성원이 4명인 것으로 간주합니다(그들이 서로 다른 시간에 일하더라도)."
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Viewer 로우 코드 API",
+      "description": "클라우드 기반 REST API를 사용하여 모든 유형의 애플리케이션에서 문서 또는 이미지 보기를 가속화하세요.",
+      "item_1_content": "cURL RESTful 문서 뷰어 API를 사용하여 애플리케이션에서 Microsoft Office, PDF 및 기타 다양한 표준 파일 형식을 효율적으로 렌더링하고 선보일 수 있습니다.",
+      "item_2_content": ".NET용 Cloud SDK를 사용하여 .NET 애플리케이션의 문서 보기 기능을 향상하세요. HTML, PDF 또는 이미지 형식으로 문서를 원활하게 볼 수 있습니다.",
+      "item_3_content": "특별히 제작된 Java용 Document Viewer SDK를 사용하여 고급 문서 렌더링 기능을 Java 애플리케이션에 통합하세요."
+    },
+    "app_links": {
+      "title": "GroupDocs.Viewer NoCode 앱",
+      "description": "브라우저에서 180개 이상의 인기 있는 파일 형식을 볼 수 있는 온라인 애플리케이션",
+      "item_1_content": "무료 온라인 애플리케이션을 탐색하여 선호하는 웹 브라우저에서 직접 180개 이상의 파일 형식을 확인하세요.",
+      "item_2_content": "다양한 장치에서 Microsoft Word 파일을 쉽게 볼 수 있는 웹 기반 도구입니다.",
+      "item_3_content": "무료 PDF 뷰어를 사용하여 온라인으로 PDF 파일을 열고 봅니다."
+    }
+  },
+  "index-content-common": {
+    "actions_alt": "라이선스",
+    "actions_title": "시작할 준비가 되셨나요?",
+    "actions_description": "GroupDocs.Viewer 기능을 무료로 사용해 보거나 라이선스를 요청하세요",
+    "release_title": "버전 {0} 출시됨",
+    "release_notes": "새로운 소식 보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예시",
+    "formats": {
+      "title": "지원되는 파일 형식",
+      "group1": "Microsoft Office, OpenDocument 및 텍스트 형식",
+      "group2": "이미지, 그래픽 및 다이어그램",
+      "raster": "래스터 이미지",
+      "group3": "다른",
+      "web": "편물",
+      "archives": "아카이브",
+      "supported_by_windows_specific_package": "Windows 특정 패키지에서 지원됨"
+    },
+    "features": {
+      "title": "GroupDocs.Viewer 기능",
+      "description": "PDF 및 Office 문서를 원활하게 렌더링, 표시 및 변환합니다.",
+      "feature1_title": "HTML로 문서 보기",
+      "feature1_content": "모든 유형의 문서를 CSS 및 SVG를 사용하여 최신 웹 브라우저에서 표시할 수 있는 HTML 문서로 변환합니다.",
+      "feature2_title": "문서 래스터화",
+      "feature2_content": "조정 가능한 이미지 형식과 압축 품질을 사용하여 지원 가능한 모든 문서 형식을 래스터 이미지로 래스터화합니다.",
+      "feature3_title": "프로그래밍 코드 렌더링 및 강조 표시",
+      "feature3_content": "구문을 분석하고 강조 표시하는 기능을 통해 널리 사용되는 모든 프로그래밍, 스크립팅 및 마크업 언어를 지원합니다.",
+      "feature4_title": "PDF로 변환",
+      "feature4_content": "지원되는 모든 형식의 문서는 조정 가능한 옵션을 사용하여 쉽게 변환하고 PDF로 저장할 수 있습니다.",
+      "feature5_title": "변환 적용",
+      "feature5_content": "출력 문서는 렌더링 중에 변형될 수 있습니다. 페이지를 회전 및/또는 재배열할 수 있으며 텍스트 워터마크가 페이지 위에 배치될 수 있습니다.",
+      "feature6_title": "HTML 출력 조정",
+      "feature6_content": "GroupDocs.Viewer에 의해 생성된 출력 HTML 문서는 매우 세밀하게 조정될 수 있습니다. 외부 또는 내장 리소스, 콜백 등과 함께 스트림이나 파일에 저장할 수 있습니다.",
+      "feature7_title": "복잡한 문서 구조 지원",
+      "feature7_content": "GroupDocs.Viewer는 단일 문서뿐만 아니라 첨부 파일이 있는 이메일 메시지, 폴더 내에 내부 파일이 있는 ZIP 아카이브, 다중 페이지 TIFF 이미지 등과 같은 문서의 목록 또는 계층 구조를 내부적으로 포함하는 파일도 지원합니다.",
+      "feature8_title": "최적화 옵션",
+      "feature8_content": "GroupDocs.Viewer에는 캐시된 문서 버전을 사용하여 로딩 시간을 단축할 수 있는 조정 가능한 캐시 하위 시스템이 포함되어 있습니다. 또한 다양한 형식에 대한 다양한 옵션 세트를 사용하면 렌더링에서 문서의 불필요한 부분이나 측면(글꼴, 숨겨진 워크시트, 이메일 첨부 파일)을 제외하여 전반적인 성능을 최적화할 수 있습니다.",
+      "feature9_title": "비밀번호로 보호된 문서 지원",
+      "feature9_content": "GroupDocs.Viewer를 사용하면 로딩 옵션에 비밀번호를 지정하여 PDF, 워드프로세싱, 스프레드시트, 프리젠테이션 등 다양한 유형의 암호화된 문서를 열 수 있습니다."
+    },
+    "reviews": {
+      "title": "GroupDocs 제품 리뷰",
+      "description": "우리의 말만 받아들이지 마십시오. 다른 개발자가 우리 API에 대해 어떻게 말하는지 확인하세요.",
+      "content1": "우수한 서비스와 우수한 제품. .NET용 GroupDocs.Viewer 구현 프로세스 동안 매우 도움이 되고 응답이 빨랐기 때문에 충분히 추천할 수는 없습니다.",
+      "content2": "프로젝트에서 .NET용 GroupDocs.Viewer를 구현하고 사용한 후에는 매우 잘 작동하는 것으로 보입니다. 나는 많은 문서를 가지고 테스트해 보았는데 지금까지는 아주 좋았다. 내가 던진 모든 것은 PDF 뷰어나 MS Word에서와 마찬가지로 멋지게 렌더링되고 보기에도 좋습니다."
+    }
+  },
+  "index-content-net": {
+    "head_title": ".NET 문서 뷰어 API, PDF Word Excel 이미지 HTML 다이어그램 렌더링",
+    "head_description": "C# ASP.NET 파일 뷰어 및 렌더링 API. .NET 앱에 PDF 뷰어, Word 뷰어, Excel 뷰어, 이미지 뷰어, HTML 뷰어, 이메일 뷰어 기능을 추가합니다.",
+    "header_title": ".NET API를 사용하여<br>문서 렌더링 및 표시",
+    "header_description": "다양한 구성 옵션을 사용하여 180개 이상의 문서 형식을 PDF, HTML 및 이미지로 렌더링할 수 있는 강력한 뷰어 API입니다.",
+    "actions_main": "무료 NuGet 다운로드",
+    "code_title": "C#에서 PDF 파일 렌더링",
+    "code_comment_1": "소스 PDF 파일 로드",
+    "code_comment_2": "출력 HTML 옵션 설정(페이지당 파일 1개)",
+    "code_comment_3": "포함된 리소스를 사용하여 PDF를 HTML로 렌더링",
+    "overview_title": "GroupDocs.Viewer 개요",
+    "overview_description": ".NET 애플리케이션에서 문서, 슬라이드, 다이어그램 및 기타 다양한 문서 유형을 렌더링, 표시, 변환하는 API",
+    "overview_features": {
+      "feature1_title": "효율적이고 안정적으로 문서 보기",
+      "feature1_content": "GroupDocs.Viewer API를 사용하면 콘텐츠와 문서 구조 무결성을 유지하면서 유연하고 강력한 옵션을 사용하여 지원 가능한 모든 형식의 문서를 HTML, JPEG, PNG 및 PDF로 효율적으로 렌더링할 수 있습니다. GroupDocs.Viewer는 .NET Framework 4.6.2 및 .NET 6.0을 지원하며 Windows 및 Linux 플랫폼에서 작동합니다.",
+      "feature2_title": "가장 널리 사용되는 파일 및 문서 형식이 지원됩니다.",
+      "feature2_content": "우리는 Word, Excel, PDF, PowerPoint, OpenDocument 형식 제품군, 아카이브, 래스터 및 벡터 이미지, 전자책, 프로그래밍 언어 및 마크업, 암호화된 파일을 포함한 기타 다양한 파일 형식을 포함하는 180개 이상의 가장 널리 사용되는 파일 및 문서 형식의 렌더링을 지원합니다. 비밀번호로 보호된 파일.",
+      "feature3_title": "맞춤형 출력",
+      "feature3_content": "GroupDocs.Viewer를 사용하면 문서를 렌더링할 수 있을 뿐만 아니라 문서의 어느 부분을 정확히 렌더링해야 하는지, 렌더링해야 하는지, 어떻게 렌더링해야 하는지 제어하고 렌더링된 출력에 다양한 변환을 적용할 수 있습니다.",
+      "feature4_title": "ASP.NET Core용 UI",
+      "feature4_content": "우리는 몇 분 안에 프로젝트에 추가할 수 있는 ASP.NET Core용 오픈 소스 UI 패키지를 제공합니다. Viewer.UI 패키지에는 Angular 기반 웹 UI가 포함되어 있으며 유용한 API 및 데이터 저장소 공급자 세트를 제공합니다."
+    },
+    "platforms_title": "플랫폼 지원",
+    "platforms_description": ".NET용 GroupDocs.Viewer는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats": {
+      "description": ".NET용 GroupDocs.Viewer는 다음 [파일 형식](https://docs.groupdocs.com/viewer/net/supported-document-formats/)을 사용한 작업을 지원합니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "description": ".NET 작업을 위한 일반적인 GroupDocs.Viewer의 일부 사용 사례",
+      "sample1_title": "DOCX를 HTML로 렌더링",
+      "sample1_content1": "[HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 자세한 내용은 [여기](https://docs.groupdocs.com/viewer/net/rendering-to-html/).",
+      "sample1_content2": "예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.",
+      "sample2_title": "PPTX를 PDF로 내보내기",
+      "sample2_content1": "[PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 클래스 인스턴스를 만들고 이를 [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) 방법을 사용하여 PowerPoint PPTX 파일을 PDF로 변환합니다.",
+      "sample2_content2": "PdfViewOptions 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)을 참조하세요.",
+      "sample1_comment_1": "뷰어 인스턴스화",
+      "sample1_comment_2": "출력 HTML 옵션 설정",
+      "sample1_comment_3": "포함된 리소스를 사용하여 DOCX를 HTML로 렌더링",
+      "sample2_comment_1": "출력 PDF 옵션 설정",
+      "sample2_comment_2": "PPTX를 PDF로 내보내기"
+    },
+    "platforms_packages_windows_title": "Windows 전용 패키지",
+    "platforms_packages_windows_action": "NuGet 다운로드",
+    "platforms_packages_windows_content_1": ".NET Framework 4.6.2+ 및 .NET 6.0 지원",
+    "platforms_packages_windows_content_2": "가장 포괄적인 파일 형식 지원",
+    "platforms_packages_windows_content_3": "System.드로잉 및 System.드로잉.Common에 따라 달라집니다.",
+    "platforms_packages_cross_platform_title": "크로스 플랫폼 패키지",
+    "platforms_packages_cross_platform_action": "NuGet 다운로드",
+    "platforms_packages_cross_platform_content_1": ".NET 6.0 이상 버전 지원",
+    "platforms_packages_cross_platform_content_2": "제한된 파일 형식 지원",
+    "platforms_packages_cross_platform_content_3": "Windows, Linux 및 macOS에서 작동"
+  },
+  "index-content-java": {
+    "head_title": "Java 문서 뷰어 API, PDF Word Excel 이미지 HTML 다이어그램 렌더링",
+    "head_description": "180개 이상의 파일 형식을 지원하는 다중 형식 문서를 기본적으로 렌더링, 보기 및 조작하는 Java 애플리케이션을 개발하기 위한 문서 뷰어 라이브러리입니다.",
+    "header_title": "Java API를 사용하여<br>문서 렌더링 및 표시",
+    "header_description": "다양한 구성 옵션을 사용하여 180개 이상의 문서 형식을 PDF, HTML 및 이미지로 렌더링할 수 있는 강력한 뷰어 API입니다.",
+    "actions_main": "무료 메이븐 다운로드",
+    "code_title": "Java에서 PDF 파일 렌더링",
+    "code_comment_1": "인스턴스화 뷰어",
+    "code_comment_2": "출력 HTML 옵션 설정(페이지당 파일 1개)",
+    "code_comment_3": "포함된 리소스를 사용하여 PDF를 HTML로 렌더링",
+    "overview_title": "GroupDocs.Viewer 개요",
+    "overview_description": "Java 애플리케이션에서 문서, 슬라이드, 다이어그램 및 기타 다양한 문서 유형을 렌더링, 표시, 변환하는 API",
+    "overview_features": {
+      "feature1_title": "효율적이고 안정적으로 문서 보기",
+      "feature1_content": "GroupDocs.Viewer API를 사용하면 콘텐츠와 문서 구조 무결성을 유지하면서 유연하고 강력한 옵션을 사용하여 지원 가능한 모든 형식의 문서를 HTML, JPEG, PNG 및 PDF로 효율적으로 렌더링할 수 있습니다. GroupDocs.Viewer는 Windows 및 Linux 플랫폼에서 작동합니다.",
+      "feature2_title": "가장 널리 사용되는 파일 및 문서 형식이 지원됩니다.",
+      "feature2_content": "우리는 Word, Excel, PDF, PowerPoint, OpenDocument 형식 제품군, 아카이브, 래스터 및 벡터 이미지, 전자책, 프로그래밍 언어 및 마크업, 암호화된 파일을 포함한 기타 다양한 파일 형식을 포함하는 180개 이상의 가장 널리 사용되는 파일 및 문서 형식의 렌더링을 지원합니다. 비밀번호로 보호된 파일.",
+      "feature3_title": "맞춤형 출력",
+      "feature3_content": "GroupDocs.Viewer를 사용하면 문서를 렌더링할 수 있을 뿐만 아니라 문서의 어느 부분을 정확히 렌더링해야 하는지, 렌더링해야 하는지, 어떻게 렌더링해야 하는지 제어하고 렌더링된 출력에 다양한 변환을 적용할 수 있습니다.",
+      "feature4_title": "Spring 프레임워크용 웹 UI",
+      "feature4_content": "우리는 몇 분 안에 프로젝트에 추가할 수 있는 Spring 프레임워크용 오픈 소스 UI 패키지를 제공합니다. Viewer.UI 패키지에는 Angular 기반 웹 UI가 포함되어 있으며 유용한 API 및 데이터 저장소 공급자 세트를 제공합니다."
+    },
+    "platforms_title": "플랫폼 독립성",
+    "platforms_description": "Java용 GroupDocs.Viewer는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats": {
+      "description": "Java용 GroupDocs.Viewer는 다음 [파일 형식](https://docs.groupdocs.com/viewer/java/supported-document-formats/)을 사용하여 작업을 지원합니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "description": "Java 작업을 위한 일반적인 GroupDocs.Viewer의 일부 사용 사례",
+      "sample1_title": "DOCX를 HTML로 렌더링",
+      "sample1_content1": "[HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 이에 대한 자세한 내용은 [여기](https://docs.groupdocs.com/viewer/java/rendering-to-html/).",
+      "sample1_content2": "예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.",
+      "sample2_title": "PPTX를 PDF로 내보내기",
+      "sample2_content1": "[PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 클래스 인스턴스를 생성하고 이를 [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) 메서드를 사용하여 PowerPoint PPTX 파일을 PDF로 변환할 수 있습니다.",
+      "sample2_content2": "PdfViewOptions 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)을 참조하세요.",
+      "sample1_comment_1": "인스턴스화 뷰어",
+      "sample1_comment_2": "출력 HTML 옵션 설정",
+      "sample1_comment_3": "포함된 리소스를 사용하여 DOCX를 HTML로 렌더링",
+      "sample2_comment_1": "인스턴스화 뷰어",
+      "sample2_comment_2": "출력 PDF 옵션 설정",
+      "sample2_comment_3": "PPTX를 PDF로 내보내기"
+    }
+  },
+  "index-content-nodejs": {
+    "head_title": "PDF Word Excel HTML 이미지 및 이메일용 Node.js 문서 뷰어 API",
+    "head_description": "Node.js 문서 뷰어 및 파일 렌더링 API. JavaScript 애플리케이션에 PDF 뷰어, Word 뷰어, Excel 뷰어, 이미지 뷰어, HTML 뷰어, 이메일 뷰어를 추가합니다.",
+    "header_title": "문서를 렌더링하고 표시하는 Node.js API",
+    "header_description": "180개 이상의 파일 형식을 지원하는 다중 형식 문서를 기본적으로 렌더링, 보기 및 조작하는 JavaScript 애플리케이션을 개발하기 위한 문서 뷰어 라이브러리입니다.",
+    "actions_main": "무료 NPM 다운로드",
+    "code_title": "JavaScript로 PDF 파일 렌더링",
+    "code_comment_1": "출력 HTML 옵션 설정(페이지당 파일 1개)",
+    "code_comment_2": "인스턴스화 뷰어",
+    "code_comment_3": "포함된 리소스를 사용하여 PDF를 HTML로 렌더링",
+    "overview_title": "GroupDocs.Viewer 개요",
+    "overview_description": "Node.js 애플리케이션에서 문서, 슬라이드, 다이어그램 및 기타 다양한 문서 유형을 렌더링, 표시, 변환하는 API",
+    "overview_features": {
+      "feature1_title": "효율적이고 안정적으로 문서 보기",
+      "feature1_content": "GroupDocs.Viewer API를 사용하면 콘텐츠와 문서 구조 무결성을 유지하면서 유연하고 강력한 옵션을 사용하여 지원 가능한 모든 형식의 문서를 HTML, JPEG, PNG 및 PDF로 효율적으로 렌더링할 수 있습니다. Node.js용 GroupDocs.Viewer는 Windows 및 Linux 플랫폼에서 작동합니다.",
+      "feature2_title": "가장 널리 사용되는 파일 및 문서 형식이 지원됩니다.",
+      "feature2_content": "우리는 Word, Excel, PDF, PowerPoint, OpenDocument 형식 제품군, 아카이브, 래스터 및 벡터 이미지, 전자책, 프로그래밍 언어 및 마크업, 암호화된 파일을 포함한 기타 다양한 파일 형식을 포함하는 180개 이상의 가장 널리 사용되는 파일 및 문서 형식의 렌더링을 지원합니다. 비밀번호로 보호된 파일.",
+      "feature3_title": "맞춤형 출력",
+      "feature3_content": "GroupDocs.Viewer를 사용하면 문서를 렌더링할 수 있을 뿐만 아니라 문서의 어느 부분을 정확히 렌더링해야 하는지, 렌더링해야 하는지, 어떻게 렌더링해야 하는지 제어하고 렌더링된 출력에 다양한 변환을 적용할 수 있습니다."
+    },
+    "platforms_title": "플랫폼 독립성",
+    "platforms_description": "Node.js용 GroupDocs.Viewer는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats": {
+      "description": "Java를 통한 Node.js용 GroupDocs.Viewer는 다음 [파일 형식](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/)을 사용한 작업을 지원합니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "description": "Java 작업을 통한 Node.js용 일반적인 GroupDocs.Viewer의 일부 사용 사례",
+      "sample1_title": "DOCX를 HTML로 렌더링",
+      "sample1_content1": "`HtmlViewOptions` 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있으며, 이에 대한 자세한 내용은 [여기](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)에서 확인하세요.",
+      "sample1_content2": "예를 들어 출력 HTML 파일에 모든 외부 리소스를 포함하고, 출력 파일을 축소하고, 인쇄용으로 최적화할 수 있습니다.",
+      "sample2_title": "PPTX를 PDF로 내보내기",
+      "sample2_content1": "'PdfViewOptions' 클래스 인스턴스를 생성하고 이를 'Viewer.view' 메서드에 전달하여 PowerPoint PPTX 파일을 PDF로 변환합니다.",
+      "sample2_content2": "`PdfViewOptions` 클래스 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어, 출력 PDF 파일을 보호하고, 페이지 순서를 변경하고, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)을 참조하세요.",
+      "sample1_comment_1": "출력 HTML 옵션 설정(페이지당 파일 1개)",
+      "sample1_comment_2": "인스턴스화 뷰어",
+      "sample1_comment_3": "포함된 리소스를 사용하여 DOCX를 HTML로 렌더링",
+      "sample2_comment_1": "출력 PDF 옵션 설정",
+      "sample2_comment_2": "인스턴스화 뷰어",
+      "sample2_comment_3": "PPTX를 PDF로 내보내기"
+    }
+  },
+  "index-content-python": {
+    "head_title": "Python 문서 뷰어 API (PDF, Word, Excel, HTML, 이미지, 이메일)",
+    "head_description": "Python 파일 렌더링 및 문서 뷰어 API입니다. Python 애플리케이션에 PDF 뷰어, Word 뷰어, Excel 뷰어, 이미지 뷰어, HTML 뷰어, 이메일 뷰어를 추가하세요.",
+    "header_title": "최적화된 문서 렌더링을 위한 강력한 Python API",
+    "header_description": "강력한 API 및 다양한 구성 옵션을 사용하여 Python 애플리케이션에서 180개 이상의 문서 형식(PDF, HTML, 이미지)을 렌더링하고 표시하세요.",
+    "actions_main": "PyPI에서 무료 다운로드",
+    "code_title": "Python에서의 PDF 파일 렌더링",
+    "code_comment_1": "출력 HTML 옵션 설정 (1페이지당 1개 파일)",
+    "code_comment_2": "뷰어 인스턴스화",
+    "code_comment_3": "埋め込み 리소스를 사용한 PDF에서 HTML로의 렌더링",
+    "overview_title": "GroupDocs.Viewer 개요",
+    "overview_description": "Python 애플리케이션에서 문서, 슬라이드, 다이어그램 및 기타 여러 문서 유형의 렌더링, 표시, 변환을 위한 API",
+    "overview_features": {
+      "feature1_title": "문서를 효율적이고 안정적으로 보기",
+      "feature1_content": "GroupDocs.Viewer API를 사용하면 지원되는 모든 형식의 문서를 유연하고 강력한 옵션을 사용하여 HTML, JPEG, PNG 및 PDF로 효율적으로 렌더링할 수 있으며, 콘텐츠 및 문서 구조의 무결성을 유지할 수 있습니다. GroupDocs.Viewer for Python은 Windows 및 Linux 플랫폼에서 작동합니다.",
+      "feature2_title": "가장 인기 있는 파일 형식과 문서 형식이 지원됩니다",
+      "feature2_content": "Word, Excel, PDF, PowerPoint, OpenDocument 형식 제품군, 아카이브, 래스터 및 벡터 이미지, 전자책, 프로그래밍 언어 및 마크업, 암호 보호 암호화 파일을 포함하여 180개 이상의 가장 인기 있는 파일 형식과 문서 형식의 렌더링을 지원합니다.",
+      "feature3_title": "사용자 정의 가능한 출력",
+      "feature3_content": "GroupDocs.Viewer를 사용하면 문서 렌더링뿐만 아니라 렌더링해야 하는 문서 부분을 정확하게 제어하거나, 렌더링 방법을 제어하거나, 렌더링된 출력에 다양한 변환을 적용할 수도 있습니다."
+    },
+    "platforms_title": "플랫폼 독립성",
+    "platforms_description": "GroupDocs.Viewer for Python은 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다",
+    "formats": {
+      "description": "GroupDocs.Viewer for Python (via .NET)은 다음 파일 형식에 대한 작업을 지원합니다: [지원되는 파일 형식](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "description": "Python을 통한 .Net를 사용한 GroupDocs.Viewer 작업의 일반적인 사용 사례",
+      "sample1_title": "DOCX를 HTML로 변환",
+      "sample1_content1": "``HtmlViewOptions`` 클래스의 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 자세한 내용은 [여기](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)를 참조하십시오.",
+      "sample1_content2": "예를 들어 모든 외부 리소스를 출력 HTML 파일에 삽입하고, 출력 파일을 압축하며, 인쇄用に 최적화할 수 있습니다.",
+      "sample2_title": "PPTX를 PDF로 내보내기",
+      "sample2_content1": "``PdfViewOptions`` 클래스의 인스턴스를 만들어 ``Viewer.view`` 메서드에 전달하여 PowerPoint PPTX 파일을 PDF로 변환합니다.",
+      "sample2_content2": "``PdfViewOptions`` 클래스의 속성을 사용하면 변환 프로세스를 제어할 수 있습니다. 예를 들어 출력 PDF 파일을 보호하거나, 페이지 순서를 변경하거나, 문서 이미지의 품질을 지정할 수 있습니다. 자세한 내용은 [다음 문서 섹션](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)을 참조하십시오.",
+      "sample1_comment_1": "뷰어 인스턴스화",
+      "sample1_comment_2": "출력 HTML 옵션 설정 (1페이지당 1개 파일)",
+      "sample1_comment_3": "埋め込み 리소스를 사용한 PDF에서 HTML로의 렌더링",
+      "sample2_comment_1": "뷰어 인스턴스화",
+      "sample2_comment_2": "출력 PDF 옵션 설정 (Set output PDF options)",
+      "sample2_comment_3": "PPTX를 PDF로 내보내기 (Export PPTX to PDF)"
+    }
+  }
+}

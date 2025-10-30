@@ -1,0 +1,331 @@
+{
+  "index-content": {
+    "head_title": "API Kết xuất và Xem Tài liệu | SDK Xem tài liệu On-Premise và dịch vụ trực tuyến",
+    "head_description": "Kết xuất và xem các tệp Word, PDF, Excel, Powerpoint hoặc Hình ảnh một cách dễ dàng và miễn phí",
+    "title": "Hiển thị và xem tài liệu một cách dễ dàng",
+    "description_1": "SDK Xem tài liệu mạnh mẽ để chuyển đổi các tệp khác nhau sang PDF, HTML và hình ảnh.",
+    "description_2": "Tải tài liệu từ nhiều nguồn khác nhau, bao gồm tệp, luồng, URL, máy chủ FTP, Amazon S3, Azure Blob Storage, v.v.",
+    "description_3": "Tạo các trang HTML đáp ứng, bảo vệ các tệp PDF đầu ra và sắp xếp lại các trang của chúng, xoay trang, hiển thị ghi chú và nhận xét nếu cần.",
+    "supported_platforms": {
+      "head_title": "Chọn nền tảng của bạn",
+      "title": "Nền tảng được hỗ trợ",
+      "description": "Thư viện GroupDocs.Viewer hỗ trợ các hệ điều hành và framework sau",
+      "details_link_title": "Tìm hiểu thêm",
+      "item_1_formats_count": "Hơn 180 định dạng tệp",
+      "item_1_ui_package": "Gói giao diện người dùng cho ASP.NET Core",
+      "item_2_ui_package": "Gói giao diện người dùng cho Spring và Dropwizard",
+      "item_3_ui_package": "Gói giao diện người dùng - sắp ra mắt",
+      "item_3_demo": "Bản demo - sắp ra mắt"
+    },
+    "features": {
+      "title": "Bộ tính năng của GroupDocs.Viewer",
+      "description": "API để hiển thị các loại tệp khác nhau dưới dạng HTML, PDF, PNG và JPEG trong các ứng dụng để xem chúng mà không cần phần mềm của bên thứ ba.",
+      "item_1_title": "Xem tài liệu và hình ảnh",
+      "item_1_content": "Xem tài liệu bằng cách hiển thị chúng dưới dạng tệp HTML, PDF, PNG và JPEG.",
+      "item_2_title": "Mở tài liệu được bảo mật",
+      "item_2_content": "Chỉ định mật khẩu để mở tài liệu được mã hóa.",
+      "item_3_title": "Tải tập tin từ mọi nơi",
+      "item_3_content": "Tải tài liệu từ nhiều tệp, URL, máy chủ FTP, Amazon S3, v.v.",
+      "item_4_title": "Hiển thị tất cả hoặc các trang cụ thể",
+      "item_4_content": "Chỉ định một phạm vi số trang sẽ được hiển thị."
+    },
+    "code_samples": {
+      "title": "Mẫu mã GroupDocs.Viewer",
+      "description": "Một số trường hợp sử dụng các thao tác GroupDocs.Viewer điển hình trong C#, Java, TypeScript",
+      "item_1": {
+        "title": "Cách hiển thị tệp DOCX thành PDF",
+        "content": "Hiển thị tài liệu DOCX thành PDF mà không cần cài đặt Microsoft Word hoặc phần mềm khác. Dễ dàng tải và xem các tệp DOCX trong ứng dụng .NET của bạn, cho dù đó là ứng dụng web hay máy tính để bàn. Dưới đây là ví dụ về cách hiển thị tệp DOCX thành PDF:",
+        "comment_1": "Tải tệp DOCX để kết xuất",
+        "comment_2": "Kết xuất DOCX thành tệp PDF"
+      }
+    },
+    "formats": {
+      "title": "Hơn 180 định dạng tệp được hỗ trợ",
+      "description": "GroupDocs.Viewer hỗ trợ các thao tác với phổ biến nhất [định dạng tệp](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
+    },
+    "metrics": {
+      "title": "Số liệu chuyên sâu và hiểu biết thống kê",
+      "description": "Đi sâu vào phân tích chi tiết về các số liệu quan trọng của chúng tôi, cung cấp số liệu toàn diện và thông tin thống kê chuyên sâu về thành tích, tác động và sự phát triển của chúng tôi.",
+      "item_1": {
+        "title": "Các định dạng được hỗ trợ",
+        "content": "Dễ dàng xem hơn 180 định dạng tệp bao gồm tài liệu, hình ảnh và bản vẽ CAD một cách dễ dàng. Phá vỡ các rào cản tương thích và truy cập các tệp đa dạng một cách dễ dàng bằng giải pháp xem toàn diện của chúng tôi."
+      },
+      "item_2": {
+        "title": "Tải xuống NuGet",
+        "content": "Giải pháp gói NuGet của chúng tôi đã trở thành tài nguyên đáng tin cậy và được áp dụng rộng rãi trong cộng đồng nhà phát triển, cung cấp khả năng tích hợp liền mạch và chức năng có giá trị cho vô số dự án."
+      },
+      "item_3": {
+        "title": "Thư viện",
+        "content": "Sản phẩm của chúng tôi bao gồm hơn 10 thư viện, cung cấp các tính năng nâng cao để tối ưu hóa hiệu suất. Những thư viện này được thiết kế để đáp ứng các nhu cầu phát triển khác nhau với khả năng tuyệt vời."
+      },
+      "item_4": {
+        "title": "Khách hàng hạnh phúc",
+        "content": "Phục vụ các thương hiệu mang tính biểu tượng nhất trên toàn cầu. Khám phá lý do tại sao hàng trăm người yêu thích GroupDocs.Viewer! Khám phá khả năng điều hướng liền mạch, cộng tác thuận tiện và tính dễ sử dụng chưa từng có. Tham gia ngay!"
+      }
+    },
+    "customers": {
+      "title": "Khách hàng hạnh phúc của chúng tôi",
+      "description": "Thư viện GroupDocs được các thương hiệu nổi tiếng và nổi tiếng trên toàn thế giới sử dụng."
+    },
+    "actions": {
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Dùng thử miễn phí các tính năng của GroupDocs.Viewer hoặc yêu cầu giấy phép"
+    },
+    "faq": {
+      "title": "Các câu hỏi và mối quan tâm thường gặp",
+      "description": "Tìm câu trả lời cho các câu hỏi thường gặp trong phần Câu hỏi thường gặp của chúng tôi để nhanh chóng giải quyết các thắc mắc và mối quan tâm của bạn.",
+      "question_1": "Tôi có thể đánh giá các sản phẩm GroupDocs trước khi mua không?",
+      "answer_1": "Đúng! Tất cả các sản phẩm của GroupDocs đều có sẵn phiên bản đánh giá, không rủi ro. Chúng tôi đặc biệt khuyến khích các nhà phát triển tải xuống và dùng thử API của chúng tôi trước khi mua để đảm bảo rằng chúng sẽ đáp ứng 100% nhu cầu của bạn.",
+      "question_2": "GroupDocs có trình diễn sản phẩm không?",
+      "answer_2": "Không, trọng tâm của chúng tôi là các API và tạo ra những sản phẩm ổn định và có chức năng nhất có thể. Chúng tôi cung cấp các bản dùng thử miễn phí và đầy đủ chức năng dưới dạng [giấy phép tạm thời](https://purchase.groupdocs.com/temporary-license/) để bạn có thể tự mình dùng thử sản phẩm.",
+      "question_3": "Tôi có thể tải sản phẩm ở đâu?",
+      "answer_3": "Bạn có thể tải xuống tất cả sản phẩm từ [trang web](https://releases.groupdocs.com). Chúng tôi không gửi bản sao thực của phần mềm qua thư.",
+      "question_4": "Giấy phép nhà phát triển GroupDocs dành cho mỗi người dùng hay mỗi người dùng được đặt tên?",
+      "answer_4": "Giấy phép Nhà phát triển GroupDocs dành cho mỗi người dùng, không phải cho mỗi người dùng được đặt tên. Chúng tôi hiểu rằng các thành viên của nhóm viết mã có thể thay đổi theo thời gian và việc phải cập nhật giấy phép mỗi lần điều đó xảy ra là không thực tế.",
+      "question_5": "Chúng ta có cần cấp phép chỉ cho các nhà phát triển đang hoạt động không? Ví dụ: chúng tôi có một nhóm gồm hai nhà phát triển làm việc ở ca A và một nhóm thứ hai gồm hai nhà phát triển làm việc ở ca B… trong tình huống này, chúng tôi cần hai hay bốn giấy phép?",
+      "answer_5": "Tất cả các nhà phát triển đang làm việc trong dự án đều phải được cấp phép. Trong tình huống này, GroupDocs thấy nhóm của bạn có bốn thành viên (mặc dù họ làm việc vào những thời điểm khác nhau)."
+    },
+    "cloud_links": {
+      "title": "API mã thấp GroupDocs.Viewer",
+      "description": "Tăng tốc độ xem tài liệu hoặc hình ảnh trong bất kỳ loại ứng dụng nào với API REST dựa trên đám mây của chúng tôi",
+      "item_1_content": "Sử dụng API trình xem tài liệu cURL RESTful để hiển thị và hiển thị hiệu quả Microsoft Office, PDF và nhiều định dạng tệp tiêu chuẩn khác trong ứng dụng của bạn.",
+      "item_2_content": "Nâng cao khả năng xem tài liệu trong các ứng dụng .NET với Cloud SDK cho .NET. Xem tài liệu liền mạch ở định dạng HTML, PDF hoặc hình ảnh.",
+      "item_3_content": "Tích hợp khả năng hiển thị tài liệu nâng cao vào các ứng dụng Java của bạn bằng cách sử dụng SDK Trình xem Tài liệu được xây dựng có mục đích dành cho Java."
+    },
+    "app_links": {
+      "title": "Ứng dụng GroupDocs.Viewer NoCode",
+      "description": "Ứng dụng trực tuyến cho phép bạn xem hơn 180 định dạng tệp phổ biến trong trình duyệt",
+      "item_1_content": "Khám phá ứng dụng trực tuyến miễn phí để xem hơn 180 định dạng tệp trực tiếp từ trình duyệt web ưa thích của bạn.",
+      "item_2_content": "Công cụ dựa trên web để xem các tệp Microsoft Word một cách dễ dàng trên nhiều thiết bị khác nhau.",
+      "item_3_content": "Mở và xem tệp PDF trực tuyến bằng trình xem PDF miễn phí."
+    }
+  },
+  "index-content-common": {
+    "actions_alt": "Cấp phép",
+    "actions_title": "Sẵn sàng để bắt đầu?",
+    "actions_description": "Dùng thử miễn phí các tính năng của GroupDocs.Viewer hoặc yêu cầu giấy phép",
+    "release_title": "Đã phát hành phiên bản {0}",
+    "release_notes": "Xem có gì mới",
+    "release_downloads": "Tải xuống",
+    "code_more": "Thêm ví dụ",
+    "formats": {
+      "title": "Các định dạng tập tin được hỗ trợ",
+      "group1": "Microsoft Office, OpenDocument và các định dạng văn bản",
+      "group2": "Hình ảnh, Đồ họa & Sơ đồ",
+      "raster": "Hình ảnh raster",
+      "group3": "Khác",
+      "web": "Web",
+      "archives": "Lưu trữ",
+      "supported_by_windows_specific_package": "Được hỗ trợ bởi gói dành riêng cho Windows"
+    },
+    "features": {
+      "title": "Tính năng của GroupDocs.Viewer",
+      "description": "Hiển thị, hiển thị và chuyển đổi tài liệu PDF và Office một cách liền mạch",
+      "feature1_title": "Xem tài liệu bằng HTML",
+      "feature1_content": "Chuyển đổi bất kỳ loại tài liệu nào thành tài liệu HTML bằng CSS và SVG, có thể được hiển thị trong bất kỳ trình duyệt web hiện đại nào.",
+      "feature2_title": "Rasterize tài liệu",
+      "feature2_content": "Rasterize bất kỳ định dạng tài liệu nào có thể hỗ trợ thành hình ảnh raster, với định dạng hình ảnh có thể điều chỉnh và chất lượng nén.",
+      "feature3_title": "Hiển thị và đánh dấu mã lập trình",
+      "feature3_content": "Hỗ trợ tất cả các ngôn ngữ lập trình, viết kịch bản và đánh dấu phổ biến, với khả năng phân tích cú pháp và làm nổi bật cú pháp của chúng.",
+      "feature4_title": "Chuyển đổi sang PDF",
+      "feature4_content": "Tài liệu ở bất kỳ định dạng hỗ trợ nào đều có thể dễ dàng chuyển đổi và lưu thành PDF với các tùy chọn có thể điều chỉnh.",
+      "feature5_title": "Áp dụng các phép biến đổi",
+      "feature5_content": "Tài liệu đầu ra có thể được chuyển đổi trong quá trình hiển thị - các trang có thể được xoay và/hoặc sắp xếp lại và hình mờ văn bản có thể được đặt trên chúng.",
+      "feature6_title": "Điều chỉnh đầu ra HTML",
+      "feature6_content": "Các tài liệu HTML đầu ra do GroupDocs.Viewer tạo ra có thể được điều chỉnh rất tinh vi: nó được phép lưu vào luồng hoặc tệp, với các tài nguyên bên ngoài hoặc được nhúng, lệnh gọi lại, v.v.",
+      "feature7_title": "Hỗ trợ cấu trúc tài liệu phức tạp",
+      "feature7_content": "GroupDocs.Viewer không chỉ hỗ trợ các tài liệu đơn lẻ mà còn hỗ trợ các tệp chứa danh sách hoặc cấu trúc phân cấp của tài liệu, như email có tệp đính kèm, kho lưu trữ ZIP với các tệp nội bộ trong thư mục, hình ảnh TIFF nhiều trang, v.v.",
+      "feature8_title": "Tùy chọn tối ưu hóa",
+      "feature8_content": "GroupDocs.Viewer chứa một hệ thống con bộ nhớ đệm có thể điều chỉnh, hệ thống này có thể rút ngắn thời gian tải bằng cách sử dụng các phiên bản tài liệu được lưu trong bộ nhớ đệm. Ngoài ra, một tập hợp các tùy chọn khác nhau cho các định dạng khác nhau cho phép loại trừ một số phần hoặc khía cạnh không cần thiết của tài liệu khỏi quá trình hiển thị (phông chữ, bảng tính ẩn, tệp đính kèm email) để tối ưu hóa hiệu suất tổng thể",
+      "feature9_title": "Hỗ trợ các tài liệu được bảo vệ bằng mật khẩu",
+      "feature9_content": "GroupDocs.Viewer cho phép mở các tài liệu được mã hóa thuộc nhiều loại khác nhau: PDF, WordProcessing, Bảng tính, Bản trình bày và các loại khác bằng cách chỉ định mật khẩu trong các tùy chọn tải."
+    },
+    "reviews": {
+      "title": "Đánh giá sản phẩm GroupDocs",
+      "description": "Đừng chỉ tin lời chúng tôi. Xem những nhà phát triển khác nói gì về API của chúng tôi",
+      "content1": "Dịch vụ tuyệt vời và sản phẩm tuyệt vời. Chúng cực kỳ hữu ích và phản hồi nhanh trong quá trình triển khai GroupDocs.Viewer cho .NET, không thể giới thiệu chúng đủ cao.",
+      "content2": "Sau khi triển khai và sử dụng GroupDocs.Viewer cho .NET trong dự án, có vẻ như nó hoạt động rất tốt. Tôi đã thử nghiệm với rất nhiều tài liệu và cho đến nay vẫn tốt. Mọi thứ tôi đưa vào nó đều hiển thị độc đáo và trông đẹp như trong trình xem PDF hoặc MS Word."
+    }
+  },
+  "index-content-net": {
+    "head_title": "API trình xem tài liệu .NET, hiển thị PDF Sơ đồ HTML Hình ảnh Word Excel",
+    "head_description": "API kết xuất và xem tệp C# ASP.NET. Thêm tính năng xem PDF, xem Word, xem Excel, xem hình ảnh, xem HTML, xem email trong ứng dụng .NET.",
+    "header_title": "Kết xuất và hiển thị tài liệu<br>bằng .NET API",
+    "header_description": "API trình xem mạnh mẽ để hiển thị hơn 180 định dạng tài liệu thành PDF, HTML và Hình ảnh với các tùy chọn cấu hình linh hoạt.",
+    "actions_main": "Tải xuống NuGet miễn phí",
+    "code_title": "Hiển thị tệp PDF trong C#",
+    "code_comment_1": "Tải tệp PDF nguồn",
+    "code_comment_2": "Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang",
+    "code_comment_3": "Kết xuất PDF sang HTML",
+    "overview_title": "Tổng quan về GroupDocs.Viewer",
+    "overview_description": "API để kết xuất, hiển thị, chuyển đổi tài liệu, trang trình bày, sơ đồ và nhiều loại tài liệu khác trong ứng dụng .NET",
+    "overview_features": {
+      "feature1_title": "Xem tài liệu hiệu quả và đáng tin cậy",
+      "feature1_content": "Với API GroupDocs.Viewer, bạn có thể hiển thị hiệu quả các tài liệu thuộc mọi định dạng có thể hỗ trợ sang HTML, JPEG, PNG và PDF với các tùy chọn linh hoạt và mạnh mẽ trong khi vẫn duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer hỗ trợ .NET Framework 4.6.2 và .NET 6.0, nó hoạt động trên nền tảng Windows và Linux.",
+      "feature2_title": "Hỗ trợ hầu hết các định dạng tệp và tài liệu phổ biến",
+      "feature2_content": "Chúng tôi hỗ trợ hiển thị trên 180 định dạng tài liệu và tệp phổ biến nhất bao gồm Word, Excel, PDF, PowerPoint, nhóm định dạng OpenDocument, Lưu trữ, hình ảnh Raster và Vector, Sách điện tử, ngôn ngữ lập trình và đánh dấu cũng như nhiều loại tệp khác, bao gồm cả mã hóa tập tin có mật khẩu bảo vệ.",
+      "feature3_title": "Đầu ra có thể tùy chỉnh",
+      "feature3_content": "GroupDocs.Viewer không chỉ cho phép hiển thị tài liệu mà còn kiểm soát cách hiển thị chính xác, phần nào của tài liệu sẽ được hiển thị hoặc bây giờ, cách hiển thị chúng và áp dụng các phép biến đổi khác nhau cho đầu ra được hiển thị.",
+      "feature4_title": "Giao diện người dùng cho ASP.NET Core",
+      "feature4_content": "Chúng tôi cung cấp gói giao diện người dùng nguồn mở cho ASP.NET Core có thể được thêm vào dự án của bạn sau vài phút. Gói Viewer.UI chứa giao diện người dùng web dựa trên Angular và cung cấp một bộ API hữu ích và nhà cung cấp lưu trữ dữ liệu."
+    },
+    "platforms_title": "Hỗ trợ nền tảng",
+    "platforms_description": "GroupDocs.Viewer cho .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
+    "formats": {
+      "description": "GroupDocs.Viewer dành cho .NET hỗ trợ các thao tác với sau [định dạng tệp](https://docs.groupdocs.com/viewer/net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "description": "Một số trường hợp sử dụng GroupDocs.Viewer điển hình cho các hoạt động .NET",
+      "sample1_title": "Kết xuất DOCX sang HTML",
+      "sample1_content1": "Thuộc tính lớp [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) cho phép bạn kiểm soát quá trình chuyển đổi, tìm hiểu thêm về điều đó [tại đây](https://docs.groupdocs.com/viewer/net/rendering-to-html/).",
+      "sample1_content2": "Ví dụ: bạn có thể nhúng tất cả tài nguyên bên ngoài vào tệp HTML đầu ra, thu nhỏ tệp đầu ra và tối ưu hóa tệp để in.",
+      "sample2_title": "Xuất PPTX sang PDF",
+      "sample2_content1": "Tạo một phiên bản lớp [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) và chuyển nó tới [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) để chuyển đổi tệp PowerPoint PPTX sang PDF.",
+      "sample2_content2": "Thuộc tính lớp PdfViewOptions cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng của hình ảnh tài liệu. Hãy tham khảo [phần tài liệu sau](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) để biết thông tin chi tiết.",
+      "sample1_comment_1": "Khởi tạo trình xem",
+      "sample1_comment_2": "Đặt tùy chọn HTML đầu ra",
+      "sample1_comment_3": "Kết xuất DOCX sang HTML bằng tài nguyên được nhúng",
+      "sample2_comment_1": "Đặt tùy chọn PDF đầu ra",
+      "sample2_comment_2": "Xuất PPTX sang PDF"
+    },
+    "platforms_packages_windows_title": "Gói dành riêng cho Windows",
+    "platforms_packages_windows_action": "Tải xuống NuGet",
+    "platforms_packages_windows_content_1": "Hỗ trợ .NET Framework 4.6.2+ và .NET 6.0",
+    "platforms_packages_windows_content_2": "Hỗ trợ định dạng tập tin toàn diện nhất",
+    "platforms_packages_windows_content_3": "Phụ thuộc vào System.draw và System.draw.common",
+    "platforms_packages_cross_platform_title": "Gói đa nền tảng",
+    "platforms_packages_cross_platform_action": "Tải xuống NuGet",
+    "platforms_packages_cross_platform_content_1": "Hỗ trợ .NET 6.0 và các phiên bản cao hơn",
+    "platforms_packages_cross_platform_content_2": "Hỗ trợ định dạng tập tin hạn chế",
+    "platforms_packages_cross_platform_content_3": "Hoạt động trên Windows, Linux và macOS"
+  },
+  "index-content-java": {
+    "head_title": "API trình xem tài liệu Java, hiển thị Sơ đồ HTML hình ảnh PDF Word Excel",
+    "head_description": "Thư viện Trình xem Tài liệu để phát triển các ứng dụng Java có khả năng hiển thị, xem và thao tác nguyên bản, các tài liệu đa định dạng hỗ trợ hơn 180 định dạng tệp.",
+    "header_title": "Kết xuất và hiển thị tài liệu<br>sử dụng API Java",
+    "header_description": "API trình xem mạnh mẽ để hiển thị hơn 180 định dạng tài liệu thành PDF, HTML và Hình ảnh với các tùy chọn cấu hình linh hoạt.",
+    "actions_main": "Tải xuống Maven miễn phí",
+    "code_title": "Hiển thị tệp PDF trong Java",
+    "code_comment_1": "Trình xem tức thời",
+    "code_comment_2": "Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang",
+    "code_comment_3": "Kết xuất PDF sang HTML",
+    "overview_title": "Tổng quan về GroupDocs.Viewer",
+    "overview_description": "API để kết xuất, hiển thị, chuyển đổi tài liệu, trang trình bày, sơ đồ và nhiều loại tài liệu khác trong ứng dụng Java",
+    "overview_features": {
+      "feature1_title": "Xem tài liệu hiệu quả và đáng tin cậy",
+      "feature1_content": "Với API GroupDocs.Viewer, bạn có thể hiển thị hiệu quả các tài liệu thuộc mọi định dạng có thể hỗ trợ sang HTML, JPEG, PNG và PDF với các tùy chọn linh hoạt và mạnh mẽ trong khi vẫn duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer hoạt động trên nền tảng Windows và Linux.",
+      "feature2_title": "Hỗ trợ hầu hết các định dạng tệp và tài liệu phổ biến",
+      "feature2_content": "Chúng tôi hỗ trợ hiển thị trên 180 định dạng tài liệu và tệp phổ biến nhất bao gồm Word, Excel, PDF, PowerPoint, nhóm định dạng OpenDocument, Lưu trữ, hình ảnh Raster và Vector, Sách điện tử, ngôn ngữ lập trình và đánh dấu cũng như nhiều loại tệp khác, bao gồm cả mã hóa tập tin có mật khẩu bảo vệ.",
+      "feature3_title": "Đầu ra có thể tùy chỉnh",
+      "feature3_content": "GroupDocs.Viewer không chỉ cho phép hiển thị tài liệu mà còn kiểm soát cách hiển thị chính xác, phần nào của tài liệu sẽ được hiển thị hoặc bây giờ, cách hiển thị chúng và áp dụng các phép biến đổi khác nhau cho đầu ra được hiển thị.",
+      "feature4_title": "Giao diện người dùng web cho khung Spring",
+      "feature4_content": "Chúng tôi cung cấp gói giao diện người dùng nguồn mở cho khung Spring có thể được thêm vào dự án của bạn sau vài phút. Gói Viewer.UI chứa giao diện người dùng web dựa trên Angular và cung cấp một bộ API hữu ích và nhà cung cấp lưu trữ dữ liệu."
+    },
+    "platforms_title": "Nền tảng độc lập",
+    "platforms_description": "GroupDocs.Viewer cho Java hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
+    "formats": {
+      "description": "GroupDocs.Viewer dành cho Java hỗ trợ các thao tác với sau [định dạng tệp](https://docs.groupdocs.com/viewer/java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "description": "Một số trường hợp sử dụng GroupDocs.Viewer điển hình cho các hoạt động Java",
+      "sample1_title": "Kết xuất DOCX sang HTML",
+      "sample1_content1": "Thuộc tính lớp [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) cho phép bạn kiểm soát quá trình chuyển đổi, tìm hiểu thêm về điều đó [tại đây](https://docs.groupdocs.com/viewer/java/rendering-to-html/).",
+      "sample1_content2": "Ví dụ: bạn có thể nhúng tất cả tài nguyên bên ngoài vào tệp HTML đầu ra, thu nhỏ tệp đầu ra và tối ưu hóa tệp để in.",
+      "sample2_title": "Xuất PPTX sang PDF",
+      "sample2_content1": "Tạo một phiên bản lớp [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) và chuyển nó tới [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions-) để chuyển đổi tệp PowerPoint PPTX sang PDF.",
+      "sample2_content2": "Thuộc tính lớp PdfViewOptions cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng của hình ảnh tài liệu. Hãy tham khảo [phần tài liệu sau](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) để biết chi tiết.",
+      "sample1_comment_1": "Trình xem tức thời",
+      "sample1_comment_2": "Đặt tùy chọn HTML đầu ra",
+      "sample1_comment_3": "Kết xuất DOCX sang HTML bằng tài nguyên được nhúng",
+      "sample2_comment_1": "Trình xem tức thời",
+      "sample2_comment_2": "Đặt tùy chọn PDF đầu ra",
+      "sample2_comment_3": "Xuất PPTX sang PDF"
+    }
+  },
+  "index-content-nodejs": {
+    "head_title": "API trình xem tài liệu Node.js cho PDF Word Excel Hình ảnh HTML và email",
+    "head_description": "API kết xuất tệp và trình xem tài liệu của Node.js. Thêm trình xem PDF, trình xem Word, trình xem Excel, trình xem hình ảnh, trình xem HTML, trình xem Email trong các ứng dụng JavaScript.",
+    "header_title": "API Node.js để kết xuất và hiển thị Tài liệu",
+    "header_description": "Thư viện Trình xem Tài liệu để phát triển các ứng dụng JavaScript có khả năng hiển thị, xem và thao tác nguyên bản, các tài liệu đa định dạng hỗ trợ hơn 180 định dạng tệp.",
+    "actions_main": "Tải xuống NPM miễn phí",
+    "code_title": "Hiển thị tệp PDF bằng JavaScript",
+    "code_comment_1": "Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang",
+    "code_comment_2": "Trình xem tức thời",
+    "code_comment_3": "Kết xuất PDF sang HTML",
+    "overview_title": "Tổng quan về GroupDocs.Viewer",
+    "overview_description": "API để kết xuất, hiển thị, chuyển đổi tài liệu, trang trình bày, sơ đồ và nhiều loại tài liệu khác trong ứng dụng Node.js",
+    "overview_features": {
+      "feature1_title": "Xem tài liệu hiệu quả và đáng tin cậy",
+      "feature1_content": "Với API GroupDocs.Viewer, bạn có thể hiển thị hiệu quả các tài liệu thuộc mọi định dạng có thể hỗ trợ sang HTML, JPEG, PNG và PDF với các tùy chọn linh hoạt và mạnh mẽ trong khi vẫn duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer dành cho Node.js hoạt động trên nền tảng Windows và Linux.",
+      "feature2_title": "Hỗ trợ hầu hết các định dạng tệp và tài liệu phổ biến",
+      "feature2_content": "Chúng tôi hỗ trợ hiển thị trên 180 định dạng tài liệu và tệp phổ biến nhất bao gồm Word, Excel, PDF, PowerPoint, nhóm định dạng OpenDocument, Lưu trữ, hình ảnh Raster và Vector, Sách điện tử, ngôn ngữ lập trình và đánh dấu cũng như nhiều loại tệp khác, bao gồm cả mã hóa tập tin có mật khẩu bảo vệ.",
+      "feature3_title": "Đầu ra có thể tùy chỉnh",
+      "feature3_content": "GroupDocs.Viewer không chỉ cho phép hiển thị tài liệu mà còn kiểm soát cách hiển thị chính xác, phần nào của tài liệu sẽ được hiển thị hoặc bây giờ, cách hiển thị chúng và áp dụng các phép biến đổi khác nhau cho đầu ra được hiển thị."
+    },
+    "platforms_title": "Nền tảng độc lập",
+    "platforms_description": "GroupDocs.Viewer dành cho Node.js hỗ trợ các hệ điều hành, khung và trình quản lý gói sau",
+    "formats": {
+      "description": "GroupDocs.Viewer dành cho Node.js qua Java hỗ trợ các thao tác với sau [định dạng tệp](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Mẫu mã",
+      "description": "Một số trường hợp sử dụng GroupDocs.Viewer điển hình cho Node.js thông qua hoạt động Java",
+      "sample1_title": "Kết xuất DOCX sang HTML",
+      "sample1_content1": "Thuộc tính lớp `HtmlViewOptions` cho phép bạn kiểm soát quá trình chuyển đổi, tìm hiểu thêm về điều đó [tại đây](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/).",
+      "sample1_content2": "Ví dụ: bạn có thể nhúng tất cả tài nguyên bên ngoài vào tệp HTML đầu ra, thu nhỏ tệp đầu ra và tối ưu hóa tệp để in.",
+      "sample2_title": "Xuất PPTX sang PDF",
+      "sample2_content1": "Tạo một phiên bản lớp `PdfViewOptions` và chuyển nó sang phương thức `Viewer.view` để chuyển đổi tệp PowerPoint PPTX sang PDF.",
+      "sample2_content2": "Thuộc tính lớp `PdfViewOptions` cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng của hình ảnh tài liệu. Hãy tham khảo [phần tài liệu sau](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) để biết chi tiết.",
+      "sample1_comment_1": "Đặt tùy chọn HTML đầu ra, một tệp trên mỗi trang",
+      "sample1_comment_2": "Trình xem tức thời",
+      "sample1_comment_3": "Kết xuất DOCX sang HTML bằng tài nguyên được nhúng",
+      "sample2_comment_1": "Đặt tùy chọn PDF đầu ra",
+      "sample2_comment_2": "Trình xem tức thời",
+      "sample2_comment_3": "Xuất PPTX sang PDF"
+    }
+  },
+  "index-content-python": {
+    "head_title": "Python API để xem tài liệu (PDF, Word, Excel, HTML, hình ảnh và email)",
+    "head_description": "Python API để hiển thị và xem tài liệu. Thêm trình xem PDF, trình xem Word, trình xem Excel, trình xem hình ảnh, trình xem HTML và trình xem email vào các ứng dụng Python của bạn.",
+    "header_title": "Python API mạnh mẽ để hiển thị tài liệu được tối ưu hóa",
+    "header_description": "Hiển thị và xem hơn 180 định dạng tài liệu (PDF, HTML, hình ảnh) với các API mạnh mẽ và tùy chọn cấu hình linh hoạt để phát triển ứng dụng Python.",
+    "actions_main": "Tải xuống miễn phí từ PyPI",
+    "code_title": "Hiển thị tệp PDF trong Python",
+    "code_comment_1": "Cài đặt các tùy chọn đầu ra HTML (một tệp cho mỗi trang)",
+    "code_comment_2": "Tạo một phiên bản của trình xem",
+    "code_comment_3": "Hiển thị PDF sang HTML với các tài nguyên được nhúng",
+    "overview_title": "Tổng quan về GroupDocs.Viewer",
+    "overview_description": "API để hiển thị, xem và chuyển đổi tài liệu, slide, biểu đồ và nhiều loại tài liệu khác trong các ứng dụng Python",
+    "overview_features": {
+      "feature1_title": "Hiển thị tài liệu hiệu quả và đáng tin cậy",
+      "feature1_content": "Với GroupDocs.Viewer API, bạn có thể hiển thị hiệu quả các tài liệu của bất kỳ định dạng được hỗ trợ nào sang HTML, JPEG, PNG và PDF với các tùy chọn linh hoạt và mạnh mẽ, duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer cho Python hoạt động trên các nền tảng Windows và Linux.",
+      "feature2_title": "Hỗ trợ hầu hết các định dạng tệp và tài liệu phổ biến",
+      "feature2_content": "Chúng tôi hỗ trợ hiển thị hơn 180 định dạng tệp và tài liệu phổ biến nhất, bao gồm Word, Excel, PDF, PowerPoint, họ định dạng OpenDocument, αρχεία (archive), hình ảnh raster và vector, sách điện tử, ngôn ngữ lập trình và đánh dấu và nhiều loại tệp khác, bao gồm các tệp được mã hóa với bảo vệ bằng mật khẩu.",
+      "feature3_title": "Đầu ra có thể tùy chỉnh",
+      "feature3_content": "GroupDocs.Viewer không chỉ cho phép bạn hiển thị tài liệu mà còn cho phép bạn kiểm soát chính xác những phần nào của tài liệu cần được hiển thị hoặc không, cách chúng cần được hiển thị và áp dụng các chuyển đổi khác nhau cho đầu ra được hiển thị."
+    },
+    "platforms_title": "Không phụ thuộc nền tảng",
+    "platforms_description": "GroupDocs.Viewer cho Python hỗ trợ các hệ điều hành, framework và trình quản lý gói sau",
+    "formats": {
+      "description": "GroupDocs.Viewer cho Python (qua .NET) hỗ trợ các thao tác với các định dạng tệp sau: [định dạng tệp được hỗ trợ](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "Ví dụ mã",
+      "description": "Một số trường hợp sử dụng典型 (đặc trưng - diction) của các hoạt động GroupDocs.Viewer cho Python thông qua .NET",
+      "sample1_title": "Chuyển đổi DOCX sang HTML",
+      "sample1_content1": "Các thuộc tính của lớp `HtmlViewOptions` cho phép bạn kiểm soát quá trình chuyển đổi. Để biết thêm thông tin, vui lòng xem [ở đây](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/).",
+      "sample1_content2": "Ví dụ: bạn có thể nhúng tất cả các tài nguyên bên ngoài vào tệp HTML đầu ra, nén tệp đầu ra và tối ưu hóa nó để in.",
+      "sample2_title": "Xuất PPTX sang PDF",
+      "sample2_content1": "Tạo một phiên bản của lớp `PdfViewOptions` và truyền nó cho phương thức `Viewer.view` để chuyển đổi tệp PowerPoint PPTX sang PDF.",
+      "sample2_content2": "Các thuộc tính của lớp `PdfViewOptions` cho phép bạn kiểm soát quá trình chuyển đổi. Ví dụ: bạn có thể bảo vệ tệp PDF đầu ra, sắp xếp lại các trang của nó và chỉ định chất lượng hình ảnh của tài liệu. Để biết thêm thông tin, vui lòng xem [phần tiếp theo của tài liệu](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/).",
+      "sample1_comment_1": "Tạo một phiên bản của trình xem (already translated)",
+      "sample1_comment_2": "Cài đặt các tùy chọn đầu ra HTML (một tệp cho mỗi trang) (already translated)",
+      "sample1_comment_3": "Hiển thị PDF sang HTML với các tài nguyên được nhúng (already translated)",
+      "sample2_comment_1": "Tạo một phiên bản của trình xem (already translated)",
+      "sample2_comment_2": "Cài đặt các tùy chọn đầu ra PDF (Set output PDF options)",
+      "sample2_comment_3": "Xuất PPTX sang PDF (Export PPTX to PDF) (already translated)"
+    }
+  }
+}

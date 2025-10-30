@@ -1,0 +1,331 @@
+{
+  "index-content": {
+    "head_title": "文档渲染与查看 API | 本地部署文档查看器 SDK 与在线服务",
+    "head_description": "轻松免费地渲染和查看 Word、PDF、Excel、Powerpoint 或图像文件",
+    "title": "轻松渲染和查看文档",
+    "description_1": "强大的文档查看器 SDK，支持将多种文件渲染为 PDF、HTML 和图像。",
+    "description_2": "从各种来源加载文档，包括文件、流、URL、FTP 服务器、Amazon S3、Azure Blob 存储等。",
+    "description_3": "生成响应式 HTML 页面、保护输出 PDF 文件并重新排序其页面、旋转页面、渲染注释和注释（如果需要）。",
+    "supported_platforms": {
+      "head_title": "选择您的平台",
+      "title": "支持的平台",
+      "description": "GroupDocs.Viewer 库支持以下操作系统和框架",
+      "details_link_title": "了解更多",
+      "item_1_formats_count": "180 多种文件格式",
+      "item_1_ui_package": "ASP.NET Core 的 UI 包",
+      "item_2_ui_package": "Spring 和 Dropwizard 的 UI 包",
+      "item_3_ui_package": "UI 包 - 即将推出",
+      "item_3_demo": "演示 - 即将推出"
+    },
+    "features": {
+      "title": "GroupDocs.Viewer 的功能集",
+      "description": "API 可在应用程序中将不同类型的文件呈现为 HTML、PDF、PNG 和 JPEG，以便无需第三方软件即可查看它们。",
+      "item_1_title": "查看文档和图像",
+      "item_1_content": "通过将文档呈现为 HTML、PDF、PNG 和 JPEG 文件来查看文档。",
+      "item_2_title": "打开受保护的文档",
+      "item_2_content": "指定打开加密文档的密码。",
+      "item_3_title": "从任何地方加载文件",
+      "item_3_content": "从各种文件、URL、FTP 服务器、Amazon S3 等加载文档。",
+      "item_4_title": "渲染所有或特定页面",
+      "item_4_content": "指定要呈现的页码范围。"
+    },
+    "code_samples": {
+      "title": "GroupDocs.Viewer 代码示例",
+      "description": "C#、Java、TypeScript 中典型 GroupDocs.Viewer 操作的一些用例",
+      "item_1": {
+        "title": "如何将 DOCX 文件渲染为 PDF",
+        "content": "将 DOCX 文档渲染为 PDF，无需安装 Microsoft Word 或其他软件。在 .NET 应用程序中轻松加载和查看 DOCX 文件，无论是 Web 应用程序还是桌面应用程序。以下是如何将 DOCX 文件呈现为 PDF 的示例：",
+        "comment_1": "加载 DOCX 文件进行渲染",
+        "comment_2": "将 DOCX 渲染为 PDF 文件"
+      }
+    },
+    "formats": {
+      "title": "支持 180 多种文件格式",
+      "description": "GroupDocs.Viewer支持最流行的的操作[文件格式](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
+    },
+    "metrics": {
+      "title": "深入的指标和统计见解",
+      "description": "深入了解我们的关键数据的详细分类，提供有关我们的成就、影响和增长的全面指标和统计见解。",
+      "item_1": {
+        "title": "支持的格式",
+        "content": "轻松轻松查看 180 多种文件格式，包括文档、图像和 CAD 绘图。借助我们全面的查看解决方案，打破兼容性障碍并轻松访问各种文件。"
+      },
+      "item_2": {
+        "title": "NuGet 下载",
+        "content": "我们的 NuGet 包解决方案已成为开发人员社区中值得信赖且广泛采用的资源，为无数项目提供无缝集成和有价值的功能。"
+      },
+      "item_3": {
+        "title": "图书馆",
+        "content": "我们的产品包括 10 多个库，提供先进的功能来优化性能。这些库旨在以无与伦比的功能满足不同的开发需求。"
+      },
+      "item_4": {
+        "title": "快乐的顾客",
+        "content": "为全球最具标志性的品牌提供服务。了解为什么数百人喜欢 GroupDocs.Viewer！探索无缝导航、便捷协作和无与伦比的易用性。立即加入！"
+      }
+    },
+    "customers": {
+      "title": "我们满意的客户",
+      "description": "GroupDocs 库被世界各地的全球知名和杰出品牌所采用。"
+    },
+    "actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费试用 GroupDocs.Viewer 功能或申请许可证"
+    },
+    "faq": {
+      "title": "常见问题和疑虑",
+      "description": "在我们的常见问题解答部分查找常见问题的答案，以快速解决您的疑问和疑虑。",
+      "question_1": "我可以在购买前评估 GroupDocs 产品吗？",
+      "answer_1": "是的！所有 GroupDocs 产品均提供无风险评估版本。我们强烈鼓励开发人员在购买前下载并试用我们的 API，以确保它们 100% 满足您的需求。",
+      "question_2": "GroupDocs 是否进行产品演示？",
+      "answer_2": "不，我们的重点是 API 并打造功能最强大、最稳定的产品。我们确实以[临时许可证](https://purchase.groupdocs.com/temporary-license/)的形式提供功能齐全的免费试用版，以便您可以亲自测试该产品。",
+      "question_3": "我在哪里可以下载该产品？",
+      "answer_3": "所有产品都可以从[网站](https://releases.groupdocs.com)下载。我们不会通过邮件发送我们软件的物理副本。",
+      "question_4": "GroupDocs 开发人员许可证是按用户还是按指定用户授予的？",
+      "answer_4": "GroupDocs 开发人员许可证是按用户授予的，而不是按指定用户授予的。我们了解编码团队的成员可能会随着时间的推移而发生变化，并且每次发生时都必须更新许可是不切实际的。",
+      "question_5": "我们是否只需要为活跃的开发人员授予许可？例如，我们有一个由两名开发人员组成的团队从事 A 班次工作，而另一个由两名开发人员组成的团队从事 B 班次工作……在这种情况下，我们需要两个还是四个许可证？",
+      "answer_5": "所有从事该项目的开发人员都需要获得许可。在这种情况下，GroupDocs 会将您的团队视为有四名成员（即使他们在不同的时间工作）。"
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Viewer 低代码 API",
+      "description": "使用我们基于云的 REST API 加速任何类型应用程序中的文档或图像查看",
+      "item_1_content": "使用 cURL RESTful 文档查看器 API 在您的应用程序中高效地呈现和展示 Microsoft Office、PDF 和各种其他标准文件格式。",
+      "item_2_content": "使用 Cloud SDK for .NET 增强 .NET 应用程序中的文档查看功能。无缝查看 HTML、PDF 或图像格式的文档。",
+      "item_3_content": "使用专门构建的 Java 文档查看器 SDK 将高级文档呈现功能集成到您的 Java 应用程序中。"
+    },
+    "app_links": {
+      "title": "GroupDocs.Viewer NoCode 应用程序",
+      "description": "在线应用程序允许您在浏览器中查看 180 多种流行的文件格式",
+      "item_1_content": "探索免费的在线应用程序，直接从您喜欢的网络浏览器查看 180 多种文件格式。",
+      "item_2_content": "基于 Web 的工具，用于在各种设备上轻松查看 Microsoft Word 文件。",
+      "item_3_content": "使用免费的 PDF 查看器在线打开和查看 PDF 文件。"
+    }
+  },
+  "index-content-common": {
+    "actions_alt": "许可",
+    "actions_title": "准备好开始了吗？",
+    "actions_description": "免费试用 GroupDocs.Viewer 功能或申请许可证",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "看看有什么新鲜事",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "formats": {
+      "title": "支持的文件格式",
+      "group1": "Microsoft Office、OpenDocument 和文本格式",
+      "group2": "图像、图形和图表",
+      "raster": "光栅图像",
+      "group3": "其他",
+      "web": "网络",
+      "archives": "档案",
+      "supported_by_windows_specific_package": "由 Windows 特定包支持"
+    },
+    "features": {
+      "title": "GroupDocs.Viewer 功能",
+      "description": "无缝渲染、显示和转换 PDF 和 Office 文档",
+      "feature1_title": "查看 HTML 格式的文档",
+      "feature1_content": "使用 CSS 和 SVG 将任何类型的文档转换为 HTML 文档，可以在任何现代网络浏览器中显示。",
+      "feature2_title": "光栅化文档",
+      "feature2_content": "将任何支持的文档格式光栅化为光栅图像，并具有可调整的图像格式和压缩质量。",
+      "feature3_title": "渲染并突出显示编程代码",
+      "feature3_content": "支持所有流行的编程、脚本和标记语言，能够解析和突出显示其语法。",
+      "feature4_title": "转换为 PDF",
+      "feature4_content": "任何支持格式的文档都可以通过可调整的选项轻松转换并保存为 PDF。",
+      "feature5_title": "应用转换",
+      "feature5_content": "输出文档可以在渲染过程中进行转换 - 页面可以旋转和/或重新排列，并且文本水印可以放置在它们的顶部。",
+      "feature6_title": "HTML 输出调整",
+      "feature6_content": "由 GroupDocs.Viewer 生成的输出 HTML 文档可以进行非常精细的调整：允许使用外部或嵌入资源、回调等保存到流或文件。",
+      "feature7_title": "支持复杂的文档结构",
+      "feature7_content": "GroupDocs.Viewer 不仅支持单个文档，还支持内部包含文档列表或层次结构的文件，例如带有附件的电子邮件、文件夹内带有内部文件的 ZIP 存档、多页 TIFF 图像等。",
+      "feature8_title": "优化选项",
+      "feature8_content": "GroupDocs.Viewer 包含一个可调整的缓存子系统，它可以通过使用文档的缓存版本来缩短加载时间。此外，针对不同格式的一组不同选项允许从渲染中排除文档的一些不必要的部分或方面（字体、隐藏的工作表、电子邮件附件），以优化整体性能",
+      "feature9_title": "支持受密码保护的文档",
+      "feature9_content": "GroupDocs.Viewer 允许通过在加载选项中指定密码来打开不同类型的加密文档：PDF、WordProcessing、电子表格、演示文稿等。"
+    },
+    "reviews": {
+      "title": "GroupDocs 产品评论",
+      "description": "不要只相信我们的话。看看其他开发人员如何评价我们的 API",
+      "content1": "优质的服务和优质的产品。他们在 GroupDocs.Viewer for .NET 实施过程中提供了极大的帮助和响应，强烈推荐他们。",
+      "content2": "在项目中实现并使用 GroupDocs.Viewer for .NET 后，它看起来运行得很好。我已经用很多文档进行了测试，到目前为止一切顺利。我扔给它的所有内容都可以很好地呈现，并且看起来与在 PDF 查看器或 MS Word 中一样好。"
+    }
+  },
+  "index-content-net": {
+    "head_title": ".NET 文档查看器 API，渲染 PDF Word Excel 图像 HTML 图表",
+    "head_description": "C# ASP.NET 文件查看器和渲染 API。在 .NET 应用程序中添加 PDF 查看器、Word 查看器、Excel 查看器、图像查看器、HTML 查看器、电子邮件查看器功能。",
+    "header_title": "使用 .NET API 渲染和显示文档<br>",
+    "header_description": "强大的查看器 API，可通过多种配置选项将 180 多种文档格式呈现为 PDF、HTML 和图像。",
+    "actions_main": "免费 NuGet 下载",
+    "code_title": "在 C# 中渲染 PDF 文件",
+    "code_comment_1": "加载源 PDF 文件",
+    "code_comment_2": "设置输出 HTML 选项，每页一个文件",
+    "code_comment_3": "使用嵌入资源将 PDF 渲染为 HTML",
+    "overview_title": "GroupDocs.Viewer 概览",
+    "overview_description": "用于在 .NET 应用程序中渲染、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
+    "overview_features": {
+      "feature1_title": "高效可靠地查看文档",
+      "feature1_content": "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer支持.NET Framework 4.6.2和.NET 6.0，它可以在Windows和Linux平台上运行。",
+      "feature2_title": "支持最流行的文件和文档格式",
+      "feature2_content": "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。",
+      "feature3_title": "可定制的输出",
+      "feature3_content": "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。",
+      "feature4_title": "ASP.NET Core 的 UI",
+      "feature4_content": "我们为 ASP.NET Core 提供了一个开源 UI 包，可以在几分钟内将其添加到您的项目中。 Viewer.UI 包包含一个基于 Angular 的 Web UI，并提供了一组有用的 API 和数据存储提供程序。"
+    },
+    "platforms_title": "平台支持",
+    "platforms_description": "GroupDocs.Viewer for .NET 支持以下操作系统、框架和包管理器",
+    "formats": {
+      "description": "GroupDocs.Viewer for .NET 支持以下[文件格式](https://docs.groupdocs.com/viewer/net/supported-document-formats/) 的操作。"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "description": "用于 .NET 操作的典型 GroupDocs.Viewer 的一些用例",
+      "sample1_title": "将 DOCX 渲染为 HTML",
+      "sample1_content1": "[HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息[此处](https://docs.groupdocs.com/viewer/net/rendering-to-html/)。",
+      "sample1_content2": "例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。",
+      "sample2_title": "将 PPTX 导出为 PDF",
+      "sample2_content1": "创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) 方法将 PowerPoint PPTX 文件转换为 PDF。",
+      "sample2_content2": "PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/)。",
+      "sample1_comment_1": "实例化查看器",
+      "sample1_comment_2": "设置输出 HTML 选项",
+      "sample1_comment_3": "使用嵌入资源将 DOCX 渲染为 HTML",
+      "sample2_comment_1": "设置输出 PDF 选项",
+      "sample2_comment_2": "将 PPTX 导出为 PDF"
+    },
+    "platforms_packages_windows_title": "Windows 专用包",
+    "platforms_packages_windows_action": "NuGet下载",
+    "platforms_packages_windows_content_1": "支持.NET Framework 4.6.2+ 和 .NET 6.0",
+    "platforms_packages_windows_content_2": "最全面的文件格式支持",
+    "platforms_packages_windows_content_3": "取决于 System.Drawing 和 System.Drawing.Common",
+    "platforms_packages_cross_platform_title": "跨平台包",
+    "platforms_packages_cross_platform_action": "NuGet下载",
+    "platforms_packages_cross_platform_content_1": "支持.NET 6.0及更高版本",
+    "platforms_packages_cross_platform_content_2": "支持有限的文件格式",
+    "platforms_packages_cross_platform_content_3": "适用于 Windows、Linux 和 macOS"
+  },
+  "index-content-java": {
+    "head_title": "Java 文档查看器 API，渲染 PDF Word Excel 图像 HTML 图表",
+    "head_description": "文档查看器库，用于开发本地呈现、查看和操作支持 180 多种文件格式的多格式文档的 Java 应用程序。",
+    "header_title": "使用 Java API 渲染和显示文档<br>",
+    "header_description": "强大的查看器 API，可通过多种配置选项将 180 多种文档格式呈现为 PDF、HTML 和图像。",
+    "actions_main": "免费 Maven 下载",
+    "code_title": "在 Java 中渲染 PDF 文件",
+    "code_comment_1": "实例化查看器",
+    "code_comment_2": "设置输出 HTML 选项，每页一个文件",
+    "code_comment_3": "使用嵌入资源将 PDF 渲染为 HTML",
+    "overview_title": "GroupDocs.Viewer 概览",
+    "overview_description": "用于在 Java 应用程序中呈现、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
+    "overview_features": {
+      "feature1_title": "高效可靠地查看文档",
+      "feature1_content": "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer 适用于 Windows 和 Linux 平台。",
+      "feature2_title": "支持最流行的文件和文档格式",
+      "feature2_content": "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。",
+      "feature3_title": "可定制的输出",
+      "feature3_content": "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。",
+      "feature4_title": "Spring 框架的 Web UI",
+      "feature4_content": "我们为 Spring 框架提供了一个开源 UI 包，可以在几分钟内将其添加到您的项目中。 Viewer.UI 包包含一个基于 Angular 的 Web UI，并提供了一组有用的 API 和数据存储提供程序。"
+    },
+    "platforms_title": "平台独立性",
+    "platforms_description": "GroupDocs.Viewer for Java 支持以下操作系统、框架和包管理器",
+    "formats": {
+      "description": "GroupDocs.Viewer for Java 支持以下[文件格式](https://docs.groupdocs.com/viewer/java/supported-document-formats/) 的操作。"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "description": "Java 操作的典型 GroupDocs.Viewer 的一些用例",
+      "sample1_title": "将 DOCX 渲染为 HTML",
+      "sample1_content1": "[HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) 类属性允许您控制转换过程，更多信息 此处",
+      "sample1_content2": "例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。",
+      "sample2_title": "将 PPTX 导出为 PDF",
+      "sample2_content1": "创建一个 [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) 类实例并将其传递给 [Viewer.View](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer/viewer/#view-com.groupdocs.viewer.options.ViewOptions) 将 PowerPoint PPTX 文件转换为 PDF 的方法。",
+      "sample2_content2": "PdfViewOptions 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)。",
+      "sample1_comment_1": "实例化查看器",
+      "sample1_comment_2": "设置输出 HTML 选项",
+      "sample1_comment_3": "使用嵌入资源将 DOCX 渲染为 HTML",
+      "sample2_comment_1": "实例化查看器",
+      "sample2_comment_2": "设置输出 PDF 选项",
+      "sample2_comment_3": "将 PPTX 导出为 PDF"
+    }
+  },
+  "index-content-nodejs": {
+    "head_title": "用于 PDF、Word、Excel、HTML 图像和电子邮件的 Node.js 文档查看器 API",
+    "head_description": "Node.js 文档查看器和文件渲染 API。在 JavaScript 应用程序中添加 PDF 查看器、Word 查看器、Excel 查看器、图像查看器、HTML 查看器、电子邮件查看器。",
+    "header_title": "用于渲染和显示文档的 Node.js API",
+    "header_description": "文档查看器库，用于开发原生渲染、查看和操作支持 180 多种文件格式的多格式文档的 JavaScript 应用程序。",
+    "actions_main": "免费 NPM 下载",
+    "code_title": "在 JavaScript 中渲染 PDF 文件",
+    "code_comment_1": "设置输出 HTML 选项，每页一个文件",
+    "code_comment_2": "实例化查看器",
+    "code_comment_3": "使用嵌入资源将 PDF 渲染为 HTML",
+    "overview_title": "GroupDocs.Viewer 概览",
+    "overview_description": "用于在 Node.js 应用程序中渲染、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
+    "overview_features": {
+      "feature1_title": "高效可靠地查看文档",
+      "feature1_content": "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer for Node.js 适用于 Windows 和 Linux 平台。",
+      "feature2_title": "支持最流行的文件和文档格式",
+      "feature2_content": "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。",
+      "feature3_title": "可定制的输出",
+      "feature3_content": "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。"
+    },
+    "platforms_title": "平台独立性",
+    "platforms_description": "GroupDocs.Viewer for Node.js 支持以下操作系统、框架和包管理器",
+    "formats": {
+      "description": "GroupDocs.Viewer for Node.js via Java 支持以下[文件格式](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/) 的操作。"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "description": "通过 Java 操作用于 Node.js 的典型 GroupDocs.Viewer 的一些用例",
+      "sample1_title": "将 DOCX 渲染为 HTML",
+      "sample1_content1": "`HtmlViewOptions` 类属性允许您控制转换过程，更多信息请参见[此处](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)。",
+      "sample1_content2": "例如，您可以将所有外部资源嵌入到输出 HTML 文件中、缩小输出文件并优化其打印。",
+      "sample2_title": "将 PPTX 导出为 PDF",
+      "sample2_content1": "创建一个PdfViewOptions”类实例并将其传递给Viewer.view”方法以将 PowerPoint PPTX 文件转换为 PDF。",
+      "sample2_content2": "`PdfViewOptions` 类属性允许您控制转换过程。例如，您可以保护输出 PDF 文件、重新排序其页面以及指定文档图像的质量。有关详细信息，请参阅[以下文档部分](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)。",
+      "sample1_comment_1": "设置输出 HTML 选项，每页一个文件",
+      "sample1_comment_2": "实例化查看器",
+      "sample1_comment_3": "使用嵌入资源将 DOCX 渲染为 HTML",
+      "sample2_comment_1": "设置输出 PDF 选项",
+      "sample2_comment_2": "实例化查看器",
+      "sample2_comment_3": "将 PPTX 导出为 PDF"
+    }
+  },
+  "index-content-python": {
+    "head_title": "Python API 用于查看文档（PDF、Word、Excel、HTML、图像和电子邮件）",
+    "head_description": "Python API 用于文件可视化和文档查看。将 PDF 查看器、Word 查看器、Excel 查看器、图像查看器、HTML 查看器和电子邮件查看器添加到您的 Python 应用中。",
+    "header_title": "用于优化文档可视化的强大 Python API",
+    "header_description": "使用功能强大的 API 和灵活的配置选项，可视化和呈现超过 180 种文档格式（PDF、HTML、图像），用于开发 Python 应用。",
+    "actions_main": "从 PyPI 免费下载",
+    "code_title": "在 Python 中可视化 PDF 文件",
+    "code_comment_1": "设置 HTML 输出选项（每页一个文件）",
+    "code_comment_2": "创建查看器实例",
+    "code_comment_3": "使用嵌入资源将 PDF 渲染为 HTML",
+    "overview_title": "GroupDocs.Viewer 概述",
+    "overview_description": "用于在 Python 应用中可视化、查看和转换文档、幻灯片、图表和许多其他类型文档的 API",
+    "overview_features": {
+      "feature1_title": "高效可靠地呈现文档",
+      "feature1_content": "使用 GroupDocs.Viewer API，您可以使用灵活强大的选项，将任何受支持格式的文档高效可视化为 HTML、JPEG、PNG 和 PDF，同时保持文档内容和结构的完整性。GroupDocs.Viewer for Python 适用于 Windows 和 Linux 平台。",
+      "feature2_title": "支持大多数常用文件和文档格式",
+      "feature2_content": "我们支持可视化 180 多种最常用的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、存档文件、光栅和矢量图像、电子书、编程语言和标记语言以及许多其他类型的文件，包括使用密码保护进行加密的文件。",
+      "feature3_title": "可定制的输出",
+      "feature3_content": "GroupDocs.Viewer 不仅可以让您可视化文档，还可以精确控制需要可视化或不需可视化的文档部分、可视化方式以及将各种转换应用于可视化输出。"
+    },
+    "platforms_title": "与平台无关",
+    "platforms_description": "GroupDocs.Viewer for Python 支持以下操作系统、框架和包管理器",
+    "formats": {
+      "description": "GroupDocs.Viewer for Python (通过 .NET) 支持以下文件格式的操作: [受支持的文件格式](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "description": "通过 .NET 使用 Python 的 GroupDocs.Viewer 操作的一些典型用例",
+      "sample1_title": "将 DOCX 转换为 HTML",
+      "sample1_content1": "`HtmlViewOptions` 类属性可以让您控制转换过程。有关详细信息，请参阅 [此处](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/).",
+      "sample1_content2": "例如，您可以将所有外部资源嵌入输出 HTML 文件，压缩输出文件并将其优化为打印。",
+      "sample2_title": "将 PPTX 导出为 PDF",
+      "sample2_content1": "创建一个 `PdfViewOptions` 类实例并将其传递给 `Viewer.view` 方法，以将 PowerPoint PPTX 文件转换为 PDF。",
+      "sample2_content2": "`PdfViewOptions` 类属性可以让您控制转换过程。例如，您可以保护输出 PDF 文件，更改其页面顺序并指定文档图像质量。有关详细信息，请参阅 [文档的下一部分](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/).",
+      "sample1_comment_1": "创建查看器实例 (already translated)",
+      "sample1_comment_2": "设置 HTML 输出选项（每页一个文件） (already translated)",
+      "sample1_comment_3": "使用嵌入资源将 PDF 渲染为 HTML (already translated)",
+      "sample2_comment_1": "创建查看器实例 (already translated)",
+      "sample2_comment_2": "设置输出 PDF 选项 (Set output PDF options)",
+      "sample2_comment_3": "将 PPTX 导出为 PDF (Export PPTX to PDF) (already translated)"
+    }
+  }
+}

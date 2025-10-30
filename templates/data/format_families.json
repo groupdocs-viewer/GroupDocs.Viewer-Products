@@ -1,0 +1,96 @@
+{
+  "format_families": {
+    "cad": {
+      "name": "CAD",
+      "extension": "dwg",
+      "online_app_path": "cad"
+    },
+    "ebook": {
+      "name": "eBook",
+      "extension": "epub",
+      "online_app_path": "ebook"
+    },
+    "image": {
+      "name": "Image",
+      "extension": "tiff",
+      "online_app_path": "image"
+    },
+    "photoshop": {
+      "name": "Photoshop",
+      "extension": "psd",
+      "online_app_path": "photoshop"
+    },
+    "worksheet": {
+      "name": "Worksheet",
+      "extension": "xlsx",
+      "online_app_path": "excel"
+    },
+    "spreadsheet": {
+      "name": "Spreadsheet",
+      "extension": "xlsx",
+      "online_app_path": "excel"
+    },
+    "excel": {
+      "name": "Excel",
+      "extension": "xlsx",
+      "online_app_path": "excel"
+    },
+    "word": {
+      "name": "Word",
+      "extension": "docx",
+      "online_app_path": "excel"
+    },
+    "web": {
+      "name": "Web",
+      "extension": "html",
+      "online_app_path": "web"
+    },
+    "visio": {
+      "name": "Visio",
+      "extension": "vsdx",
+      "online_app_path": "visio"
+    },
+    "vcard":
+    {
+      "name": "vCard",
+      "extension": "vcf",
+      "online_app_path": "vcf"
+    }, 
+    "project":
+    {
+      "name": "Project",
+      "extension": "mpp",
+      "online_app_path": "project"
+    },
+    "presentation":
+    {
+      "name": "Presentation",
+      "extension": "pptx",
+      "online_app_path": "powerpoint"
+    },
+    "outlook":
+    {
+      "name": "Outlook",
+      "extension": "pst",
+      "online_app_path": "outlook"
+    },
+    "onenote":
+    {
+      "name": "OneNote",
+      "extension": "one",
+      "online_app_path": "one"
+    },    
+    "email":
+    {
+      "name": "eMail",
+      "extension": "msg",
+      "online_app_path": "email"
+    },
+    "archive":
+    {
+      "name": "Archive",
+      "extension": "zip",
+      "online_app_path": "archive"
+    }
+  }
+}

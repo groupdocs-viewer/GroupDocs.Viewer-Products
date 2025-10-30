@@ -1,0 +1,20 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias: product
+  values: [java]
+- alias:  operation
+  values: [view-format] 
+- alias:  fileformat
+  #values: [zip]
+  values: [7z, ai, apng, as, as3, asm, bat, bmp, bz2, c, cc, cdr, cf2, cgm, chm, cmake, cmx, cpp, cs, css, csv, cxx, dcm, dgn, dib, diff, djvu, dng, doc, docm, docx, dot, dotm, dotx, dwf, dwfx, dwg, dwt, dxf, emf, eml, emlx, emz, eps, epub, erb, fbx, fodg, fodp, fods, gif, groovy, gz, gzip, h, haml, hh, hpg, htm, html, ico, ifc, igs, j2c, j2k, java, jls, jp2, jpc, jpeg, jpf, jpg, jpm, jpx, js, json, less, log, m, make, mbox, md, mht, mhtml, ml, mm, mobi, mpp, mpt, mpx, msg, nsf, numbers, obj, odg, odp, ods, odt, one, ost, otg, otp, ots, ott, oxps, pcl, pdf, php, pl, plt, png, pot, potm, potx, pps, ppsm, ppsx, ppt, pptm, pptx, properties, ps, ps1, psb, psd, psd1, psm1, pst, py, rar, rb, rst, rtf, sass, scala, scm, script, sh, sml, sql, stl, svg, svgz, sxc, tar, targz, tarxz, tex, tga, tgz, tif, tiff, tsv, txt, txz, vb, vcf, vdw, vdx, vim, vsd, vsdm, vsdx, vss, vssm, vssx, vst, vstm, vstx, vsx, vtx, webp, wmf, wmz, xlam, xls, xlsb, xlsm, xlsx, xlt, xltm, xltx, xml, xps, xz, yaml, zip]
+  #version 23.4
+
+dictionaries: ["..\\..\\data\\{operation}\\{lang}.json"]
+
+generationRules:
+  include:
+  #- operation[view-format] + fileformat[zip]
+  - operation[view-format] + fileformat[7z, ai, apng, as, as3, asm, bat, bmp, bz2, c, cc, cdr, cf2, cgm, chm, cmake, cmx, cpp, cs, css, csv, cxx, dcm, dgn, dib, diff, djvu, dng, doc, docm, docx, dot, dotm, dotx, dwf, dwfx, dwg, dwt, dxf, emf, eml, emlx, emz, eps, epub, erb, fbx, fodg, fodp, fods, gif, groovy, gz, gzip, h, haml, hh, hpg, htm, html, ico, ifc, igs, j2c, j2k, java, jls, jp2, jpc, jpeg, jpf, jpg, jpm, jpx, js, json, less, log, m, make, mbox, md, mht, mhtml, ml, mm, mobi, mpp, mpt, mpx, msg, nsf, numbers, obj, odg, odp, ods, odt, one, ost, otg, otp, ots, ott, oxps, pcl, pdf, php, pl, plt, png, pot, potm, potx, pps, ppsm, ppsx, ppt, pptm, pptx, properties, ps, ps1, psb, psd, psd1, psm1, pst, py, rar, rb, rst, rtf, sass, scala, scm, script, sh, sml, sql, stl, svg, svgz, sxc, tar, targz, tarxz, tex, tga, tgz, tif, tiff, tsv, txt, txz, vb, vcf, vdw, vdx, vim, vsd, vsdm, vsdx, vss, vssm, vssx, vst, vstm, vstx, vsx, vtx, webp, wmf, wmz, xlam, xls, xlsb, xlsm, xlsx, xlt, xltm, xltx, xml, xps, xz, yaml, zip]
+  
+outputPath: "viewer\\java\\{fileformat}.{lang}.md"

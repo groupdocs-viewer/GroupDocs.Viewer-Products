@@ -1,0 +1,19 @@
+inherits: ..\\products.yml
+
+dimensions:  
+- alias: product
+  values: [net]
+- alias:  operation
+  values: [view-format]
+- alias:  fileformat
+  #values: [worksheet]
+  values: [archive, cad, ebook, email, excel, image, onenote, outlook, photoshop, presentation, project, spreadsheet, vcard, visio, web, word, worksheet]
+
+dictionaries: ["..\\..\\data\\{operation}\\{lang}.json", ..\\..\\data\\format_families.json]
+
+generationRules:
+  include:
+  #- operation[view-format] + fileformat[worksheet]
+  - operation[view-format] + fileformat[archive, cad, ebook, email, excel, image, onenote, outlook, photoshop, presentation, project, spreadsheet, vcard, visio, web, word, worksheet]
+
+outputPath: "viewer\\net\\{fileformat}.{lang}.md"

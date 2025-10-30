@@ -1,0 +1,114 @@
+{
+  "format-content-net": {
+    "meta_title": ".NET {{FILEFORMAT}} بیننده API - خواندن، مشاهده، رندر در C# VB.NET",
+    "meta_description": "API نمایشگر اسناد NET برای خواندن، رندر و نمایش {{FILEFORMAT}} در هر نوع برنامه‌های C#، ASP.NET، VB.NET و NET Core.",
+    "title": "نمایشگر فایل {{FILEFORMAT}} برای برنامه های C# .NET",
+    "description": ".NET document viewer API برای خواندن، رندر و نمایش فایل {{FILEFORMAT}} در هر نوع برنامه های C#، ASP.NET، VB.NET و NET Core. فایل های رندر شده را با قالب بندی و چیدمان واقعی در HTML5، PDF یا به صورت تصویر با استفاده از چند خط کد مشاهده کنید.",
+    "subtitle": "راه حل ارائه سند",
+    "download_button_label": "دانلود رایگان Nuget",
+    "release_version": "نسخه {0} منتشر شد",
+    "release_news": "ببینید چه چیز جدیدی است",
+    "release_downloads": "دانلودها",
+    "about_title": "درباره GroupDocs.Viewer برای NET API",
+    "about_content": "با افزودن چند خط کد، با استفاده از GroupDocs.Viewer برای API های NET، بیش از 190 قالب سند محبوب را در برنامه های NET خود مشاهده کنید. توسعه دهندگان به راحتی می توانند PDF، Word Processing، Excel Spreadsheet، Presentation، Visio، Project، Outlook و بسیاری دیگر از فرمت های سند محبوب را در حالت های HTML5، تصویر یا PDF نمایش دهند. رندر سند سریع، مشابه فایل منبع اصلی است و نیازی به نصب نرم افزار اضافی یا کتابخانه های خارجی دیگر ندارد.",
+    "about_link_title": "بیشتر بدانید",
+    "steps_title": "مراحل ارائه فایل {{FILEFORMAT}} در {{PROGLANG}}",
+    "steps_content": "با <a href='https://products.groupdocs.com/viewer/net/'>GroupDocs.Viewer</a> می‌توانید {{FILEFORMAT}} را در چند مرحله به HTML، JPEG، PNG یا PDF تبدیل کنید.",
+    "steps_content_step_1": "با استفاده از مدیر بسته مورد علاقه خود، <a href='https://www.nuget.org/packages/groupdocs.viewer'>GroupDocs.Viewer را برای دات نت</a> نصب کنید.",
+    "steps_content_step_2": "یک نمونه از کلاس Viewer ایجاد کنید و فایل {{FILEFORMAT}} را با مسیر کامل بارگذاری کنید.",
+    "steps_content_step_3": "گزینه هایی را برای رندر کردن فایل {{FILEFORMAT}} در قالب HTML، PNG، JPEG یا PDF تنظیم کنید.",
+    "steps_content_step_4": "فایل را رندر کنید و خروجی را در دایرکتوری فعلی بررسی کنید.",
+    "steps_copy_title": "کپی 🀄",
+    "steps_copy_tip": "برای کپی کلیک کنید",
+    "steps_copy_done": "کپی شده است",
+    "steps_link_examples": "نمونه های بیشتر",
+    "steps_link_documentation": "مستندات",
+    "steps_code_comment_1": "فایل ورودی {{FILEFORMAT}} را تنظیم کنید",
+    "steps_code_comment_2": "Instantiate GroupDocs.Viewer",
+    "steps_code_comment_3": "گزینه های مشاهده را تنظیم کنید",
+    "steps_code_comment_4": "فایل {{FILEFORMAT}} را با منابع جاسازی شده به HTML ارائه دهید",
+    "actions_title": "برای شروع آماده اید؟",
+    "actions_description": "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید",
+    "actions_install": "دانلود Nuget",
+    "actions_licensing": "صدور مجوز",
+    "more_formats_title": "سایر قالب‌های فایل را با استفاده از {{PROGLANG}} رندر کنید",
+    "more_formats_description": "API نمایشگر اسناد و تصاویر چند فرمتی برای دات نت. برخی از قالب‌های فایل محبوب را در زیر بدون هیچ بیننده خارجی مشاهده کنید.",
+    "more_formats_name_docx": "DOCX را رندر کنید",
+    "more_formats_name_cdr": "CDR را رندر کنید",
+    "more_formats_name_pptx": "رندر PPTX",
+    "more_formats_name_xlsx": "رندر XLSX",
+    "more_formats_name_dwg": "رندر DWG",
+    "more_formats_name_xml": "XML را رندر کنید",
+    "more_formats_name_psd": "رندر PSD",
+    "more_formats_name_ai": "رندر هوش مصنوعی",
+    "more_formats_name_doc": "DOC را رندر کنید",
+    "more_formats_name_txt": "رندر TXT",
+    "more_formats_name_dxf": "رندر DXF",
+    "more_formats_name_vcf": "VCF را رندر کنید",
+    "more_formats_name_svg": "رندر SVG",
+    "more_formats_name_html": "HTML را رندر کنید",
+    "more_formats_name_pdf": "رندر PDF",
+    "more_formats_name_jpg": "رندر JPEG",
+    "more_formats_name_png": "رندر PNG",
+    "more_formats_name_eml": "EML را رندر کنید",
+    "more_formats_name_rtf": "RTF را رندر کنید",
+    "more_formats_name_odt": "ODT را رندر کنید",
+    "more_formats_name_csv": "CSV را رندر کنید"
+  },
+  "format-content-java": {
+    "meta_title": "Java {{FILEFORMAT}} Viewer API - رندر و نمایش {{FILEFORMAT}} در برنامه‌های جاوا",
+    "meta_description": "فایل‌های {{FILEFORMAT}} را در برنامه‌های Java، J2EE، J2SE مشاهده کنید. از مشاهده بیش از 180 فرمت سند و فایل تصویر در حالت HTML، PDF یا تصویر با ویژگی های پیشرفته برای مدیریت گزینه های مشاهده اسناد پشتیبانی می کند.",
+    "title": "رندر و مشاهده {{FILEFORMAT}} در جاوا",
+    "description": "API نمایشگر فایل بومی و با کارایی بالا {{FILEFORMAT}} برای برنامه‌های مبتنی بر جاوا، J2EE و J2SE، که از طیف گسترده‌ای از ویژگی‌های اضافی برای سفارشی‌سازی ظاهر قالب سند خروجی پشتیبانی می‌کند.",
+    "subtitle": "راه حل ارائه سند",
+    "download_button_label": "دانلود رایگان Maven",
+    "release_version": "نسخه {0} منتشر شد",
+    "release_news": "ببینید چه چیز جدیدی است",
+    "release_downloads": "دانلودها",
+    "about_title": "درباره GroupDocs.Viewer for Java API",
+    "about_content": "برنامه های جاوا خود را فعال کنید تا بیش از 180 فرمت فایل را در حالت های HTML، PDF یا تصویر با استفاده از GroupDocs.Viewer برای API های جاوا بدون نصب نرم افزار اضافی نمایش دهند. مانند مایکروسافت آفیس، آپاچی اوپن آفیس، Adobe Acrobat Reader و غیره. توسعه دهندگان به راحتی می توانند تمام تصاویر و انواع اسناد محبوب از جمله Microsoft Office، OpenDocument، HTML، PDF، Archive، Diagrams، Photoshop، AutoCAD و فرمت های زبان برنامه نویسی را در داخل برنامه های جاوا مشاهده کنند. رندر سریع و با کیفیت",
+    "about_link_title": "بیشتر بدانید",
+    "steps_title": "مراحل ارائه فایل {{FILEFORMAT}} در {{ProgLang}}",
+    "steps_content": "با <a href='https://products.groupdocs.com/viewer/java/'>GroupDocs.Viewer</a> می‌توانید {{FILEFORMAT}} را در چند مرحله به HTML، JPEG، PNG یا PDF تبدیل کنید.",
+    "steps_content_step_1": "<a href='https://releases.groupdocs.com/viewer/java/'>GroupDocs.Viewer برای جاوا</a> را به عنوان وابستگی به پروژه خود اضافه کنید.",
+    "steps_content_step_2": "یک نمونه از کلاس Viewer ایجاد کنید و فایل {{FILEFORMAT}} را با مسیر کامل بارگذاری کنید.",
+    "steps_content_step_3": "گزینه هایی را برای رندر کردن فایل {{FILEFORMAT}} در قالب HTML، PNG، JPEG یا PDF تنظیم کنید.",
+    "steps_content_step_4": "فایل را رندر کنید و خروجی را در دایرکتوری فعلی بررسی کنید.",
+    "steps_copy_title": "کپی 🀄",
+    "steps_copy_tip": "برای کپی کلیک کنید",
+    "steps_copy_done": "کپی شده است",
+    "steps_link_examples": "نمونه های بیشتر",
+    "steps_link_documentation": "مستندات",
+    "steps_code_comment_1": "فایل ورودی {{FILEFORMAT}} را تنظیم کنید",
+    "steps_code_comment_2": "Instantiate GroupDocs.Viewer",
+    "steps_code_comment_3": "گزینه های مشاهده را تنظیم کنید",
+    "steps_code_comment_4": "فایل {{FILEFORMAT}} را با منابع جاسازی شده به HTML ارائه دهید",
+    "actions_title": "برای شروع آماده اید؟",
+    "actions_description": "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید",
+    "actions_install": "Maven دانلود",
+    "actions_licensing": "صدور مجوز",
+    "more_formats_title": "سایر قالب‌های فایل را با استفاده از {{ProgLang}} رندر کنید",
+    "more_formats_description": "API نمایشگر اسناد و تصاویر چند فرمت برای جاوا. برخی از قالب‌های فایل محبوب را در زیر بدون هیچ بیننده خارجی مشاهده کنید.",
+    "more_formats_name_docx": "DOCX را رندر کنید",
+    "more_formats_name_cdr": "CDR را رندر کنید",
+    "more_formats_name_pptx": "رندر PPTX",
+    "more_formats_name_xlsx": "رندر XLSX",
+    "more_formats_name_dwg": "رندر DWG",
+    "more_formats_name_xml": "XML را رندر کنید",
+    "more_formats_name_psd": "رندر PSD",
+    "more_formats_name_ai": "رندر هوش مصنوعی",
+    "more_formats_name_doc": "DOC را رندر کنید",
+    "more_formats_name_txt": "رندر TXT",
+    "more_formats_name_dxf": "رندر DXF",
+    "more_formats_name_vcf": "VCF را رندر کنید",
+    "more_formats_name_svg": "رندر SVG",
+    "more_formats_name_html": "HTML را رندر کنید",
+    "more_formats_name_pdf": "رندر PDF",
+    "more_formats_name_jpg": "رندر JPEG",
+    "more_formats_name_png": "رندر PNG",
+    "more_formats_name_eml": "EML را رندر کنید",
+    "more_formats_name_rtf": "RTF را رندر کنید",
+    "more_formats_name_odt": "ODT را رندر کنید",
+    "more_formats_name_csv": "CSV را رندر کنید"
+  }
+}

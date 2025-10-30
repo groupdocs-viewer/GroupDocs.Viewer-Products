@@ -1,0 +1,331 @@
+{
+  "index-content": {
+    "head_title": "API رندر و مشاهده اسناد | SDK نمایش اسناد در محل و سرویس آنلاین",
+    "head_description": "رندر و مشاهده فایل های Word، PDF، Excel، Powerpoint یا Image به راحتی و رایگان",
+    "title": "اسناد را به راحتی رندر و مشاهده کنید",
+    "description_1": "SDK قدرتمند نمایش اسناد برای رندر کردن انواع فایل‌ها به PDF، HTML و تصویر.",
+    "description_2": "اسناد را از منابع مختلف بارگیری کنید، از جمله فایل ها، جریان ها، URL ها، سرورهای FTP، Amazon S3، Azure Blob Storage و موارد دیگر.",
+    "description_3": "صفحات HTML پاسخگو ایجاد کنید، از فایل های PDF خروجی محافظت کنید و صفحات آنها را مجددا مرتب کنید، صفحات را بچرخانید، یادداشت ها و نظرات را در صورت نیاز ارائه دهید.",
+    "supported_platforms": {
+      "head_title": "پلتفرم خود را انتخاب کنید",
+      "title": "پلتفرم های پشتیبانی شده",
+      "description": "کتابخانه GroupDocs.Viewer از سیستم عامل ها و چارچوب های زیر پشتیبانی می کند",
+      "details_link_title": "بیشتر بدانید",
+      "item_1_formats_count": "بیش از 180 فرمت فایل",
+      "item_1_ui_package": "بسته UI برای ASP.NET Core",
+      "item_2_ui_package": "بسته UI برای Spring و Dropwizard",
+      "item_3_ui_package": "بسته UI - به زودی",
+      "item_3_demo": "نسخه ی نمایشی - به زودی"
+    },
+    "features": {
+      "title": "مجموعه ویژگی های GroupDocs.Viewer",
+      "description": "API برای ارائه فایل‌های مختلف به‌عنوان HTML، PDF، PNG و JPEG در برنامه‌ها برای مشاهده آنها بدون نرم‌افزار شخص ثالث.",
+      "item_1_title": "مشاهده اسناد و تصاویر",
+      "item_1_content": "اسناد را با رندر کردن آنها به صورت فایل های HTML، PDF، PNG و JPEG مشاهده کنید.",
+      "item_2_title": "اسناد ایمن را باز کنید",
+      "item_2_content": "رمز عبور را برای باز کردن اسناد رمزگذاری شده مشخص کنید.",
+      "item_3_title": "فایل ها را از هر کجا بارگیری کنید",
+      "item_3_content": "اسناد را از فایل های مختلف، URL ها، سرورهای FTP، Amazon S3 و موارد دیگر بارگیری کنید.",
+      "item_4_title": "همه یا صفحات خاص را رندر کنید",
+      "item_4_content": "محدوده‌ای از شماره‌های صفحه را برای ارائه مشخص کنید."
+    },
+    "code_samples": {
+      "title": "نمونه کد GroupDocs.Viewer",
+      "description": "برخی از موارد از عملیات معمولی GroupDocs.Viewer در C#، Java، TypeScript استفاده می کنند",
+      "item_1": {
+        "title": "نحوه رندر فایل های DOCX به PDF",
+        "content": "اسناد DOCX را بدون نصب Microsoft Word یا سایر نرم افزارها به PDF ارائه دهید. به راحتی فایل های DOCX را در برنامه دات نت خود بارگیری و مشاهده کنید، چه یک برنامه وب یا دسکتاپ. در اینجا مثالی از نحوه ارائه یک فایل DOCX به PDF آورده شده است:",
+        "comment_1": "فایل DOCX را برای رندر بارگیری کنید",
+        "comment_2": "DOCX را به یک فایل PDF رندر کنید"
+      }
+    },
+    "formats": {
+      "title": "180+ فرمت فایل پشتیبانی می شود",
+      "description": "GroupDocs.Viewer از عملیات با محبوب ترین پشتیبانی می کند [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)"
+    },
+    "metrics": {
+      "title": "معیارهای عمیق و بینش آماری",
+      "description": "در تجزیه و تحلیل دقیق ارقام کلیدی ما غوطه ور شوید و معیارهای جامع و بینش آماری را در مورد دستاوردها، تأثیر و رشد ما ارائه دهید.",
+      "item_1": {
+        "title": "فرمت های پشتیبانی شده",
+        "content": "به راحتی بیش از 180 فرمت فایل از جمله اسناد، تصاویر و نقشه های CAD را بدون دردسر مشاهده کنید. با راه حل جامع مشاهده ما موانع سازگاری را بشکنید و بدون زحمت به فایل های مختلف دسترسی پیدا کنید."
+      },
+      "item_2": {
+        "title": "دانلودهای NuGet",
+        "content": "راه حل بسته NuGet ما به یک منبع قابل اعتماد و پذیرفته شده در جامعه توسعه دهندگان تبدیل شده است که یکپارچه سازی یکپارچه و عملکرد ارزشمند را برای پروژه های بی شماری فراهم می کند."
+      },
+      "item_3": {
+        "title": "کتابخانه ها",
+        "content": "محصول ما شامل بیش از 10 کتابخانه است که ویژگی های پیشرفته ای را برای بهینه سازی عملکرد ارائه می دهد. این کتابخانه ها برای برآوردن نیازهای مختلف توسعه با قابلیت های بی نظیر طراحی شده اند."
+      },
+      "item_4": {
+        "title": "مشتریان خوشحال",
+        "content": "ارائه خدمات به نمادین ترین مارک ها در سراسر جهان. کشف کنید که چرا صدها نفر GroupDocs.Viewer را دوست دارند! ناوبری بی‌وقفه، همکاری راحت و سهولت استفاده بی‌نظیر را کاوش کنید. همین الان ملحق شوید، همین الان بپیوندید!"
+      }
+    },
+    "customers": {
+      "title": "مشتریان خوشحال ما",
+      "description": "کتابخانه های GroupDocs توسط برندهای مشهور و برجسته جهانی در سراسر جهان به کار گرفته می شوند."
+    },
+    "actions": {
+      "title": "برای شروع آماده اید؟",
+      "description": "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
+    },
+    "faq": {
+      "title": "سوالات و نگرانی های رایج",
+      "description": "پاسخ سوالات متداول را در بخش سوالات متداول ما بیابید تا به سرعت سوالات و نگرانی های خود را برطرف کنید.",
+      "question_1": "آیا می توانم محصولات GroupDocs را قبل از خرید ارزیابی کنم؟",
+      "answer_1": "آره! همه محصولات GroupDocs دارای یک نسخه ارزیابی بدون ریسک هستند. ما قویاً توسعه دهندگان را تشویق می کنیم تا قبل از خرید API های ما را دانلود و امتحان کنند تا مطمئن شوند که نیازهای شما را 100٪ برآورده می کنند.",
+      "question_2": "آیا GroupDocs نمایش محصول را انجام می دهد؟",
+      "answer_2": "خیر، تمرکز ما بر روی API های خود و ساختن کاربردی ترین و پایدارترین محصولات ممکن است. ما آزمایش‌های کاملاً کاربردی و رایگان را در قالب یک [license](https://purchase.groupdocs.com/temporary-license/) ارائه می‌کنیم تا بتوانید خودتان محصول را آزمایش کنید.",
+      "question_3": "از کجا می توانم محصول را دانلود کنم؟",
+      "answer_3": "همه محصولات برای دانلود از [releases](https://releases.groupdocs.com) در دسترس هستند. ما نسخه های فیزیکی نرم افزار خود را از طریق پست ارسال نمی کنیم.",
+      "question_4": "آیا مجوزهای برنامه‌نویس GroupDocs برای هر کاربر یا هر کاربر نام‌گذاری شده است؟",
+      "answer_4": "مجوزهای توسعه دهنده GroupDocs برای هر کاربر است، نه برای هر کاربر نامگذاری شده. ما می دانیم که اعضای یک تیم برنامه نویسی ممکن است در طول زمان تغییر کنند و اینکه هر بار که اتفاق می افتد به روز رسانی مجوز عملی نیست.",
+      "question_5": "آیا فقط برای توسعه دهندگان فعال نیاز به مجوز داریم؟ به عنوان مثال، ما یک تیم متشکل از دو توسعه دهنده داریم که روی شیفت A کار می کنند و یک تیم دوم متشکل از دو توسعه دهنده در شیفت B کار می کنند ... در این شرایط، آیا به دو یا چهار مجوز نیاز داریم؟",
+      "answer_5": "همه توسعه دهندگانی که روی پروژه کار می کنند نیاز به مجوز دارند. در این شرایط، GroupDocs تیم شما را چهار عضو می بیند (حتی اگر آنها در زمان های مختلف کار می کنند)."
+    },
+    "cloud_links": {
+      "title": "APIهای کم کد GroupDocs.Viewer",
+      "description": "با REST API مبتنی بر ابر ما، مشاهده سند یا تصویر را در هر نوع برنامه‌ای تسریع کنید",
+      "item_1_content": "از CURL RESTful document viewer API استفاده کنید تا مایکروسافت آفیس، پی دی اف، و فرمت های مختلف فایل استاندارد دیگر را به طور موثر در برنامه های خود رندر و نمایش دهید.",
+      "item_2_content": "با Cloud SDK برای دات‌نت، قابلیت‌های مشاهده اسناد را در برنامه‌های NET افزایش دهید. اسناد را به صورت یکپارچه در قالب‌های HTML، PDF یا تصویر مشاهده کنید.",
+      "item_3_content": "با استفاده از یک Document Viewer SDK برای جاوا، قابلیت‌های پیشرفته ارائه اسناد را در برنامه‌های جاوا خود ادغام کنید."
+    },
+    "app_links": {
+      "title": "برنامه های GroupDocs.Viewer NoCode",
+      "description": "برنامه آنلاین که به شما امکان می دهد 180 فرمت فایل محبوب را در مرورگر مشاهده کنید",
+      "item_1_content": "برای مشاهده بیش از 180 فرمت فایل مستقیماً از مرورگر وب دلخواه خود، یک برنامه آنلاین رایگان کاوش کنید.",
+      "item_2_content": "ابزار مبتنی بر وب برای مشاهده فایل های Microsoft Word بدون دردسر در دستگاه های مختلف.",
+      "item_3_content": "باز کردن و مشاهده فایل های PDF به صورت آنلاین با نمایشگر PDF رایگان."
+    }
+  },
+  "index-content-common": {
+    "actions_alt": "صدور مجوز",
+    "actions_title": "برای شروع آماده اید؟",
+    "actions_description": "ویژگی های GroupDocs.Viewer را به صورت رایگان امتحان کنید یا درخواست مجوز کنید",
+    "release_title": "نسخه {0} منتشر شد",
+    "release_notes": "ببینید چه چیزی جدید است",
+    "release_downloads": "دانلودها",
+    "code_more": "نمونه های بیشتر",
+    "formats": {
+      "title": "فرمت های فایل پشتیبانی شده",
+      "group1": "مایکروسافت آفیس، OpenDocument و فرمت های متنی",
+      "group2": "تصاویر، گرافیک و نمودارها",
+      "raster": "تصاویر شطرنجی",
+      "group3": "دیگر",
+      "web": "وب",
+      "archives": "آرشیوها",
+      "supported_by_windows_specific_package": "پشتیبانی شده توسط بسته ویژه ویندوز"
+    },
+    "features": {
+      "title": "ویژگی های GroupDocs.Viewer",
+      "description": "رندر، نمایش، و تبدیل یکپارچه PDF و اسناد آفیس",
+      "feature1_title": "مشاهده اسناد در HTML",
+      "feature1_content": "هر نوع سندی را با CSS و SVG به یک سند HTML تبدیل کنید، که می تواند در هر مرورگر وب مدرن نمایش داده شود.",
+      "feature2_title": "اسناد را شطرنجی کنید",
+      "feature2_content": "هر قالب سند قابل پشتیبانی را با فرمت تصویر قابل تنظیم و کیفیت فشرده سازی به تصویر شطرنجی تبدیل کنید.",
+      "feature3_title": "کدهای برنامه نویسی را رندر و برجسته کنید",
+      "feature3_content": "پشتیبانی از همه زبان‌های برنامه‌نویسی، اسکریپت‌نویسی و نشانه‌گذاری محبوب، با قابلیت تجزیه و برجسته کردن نحو آنها.",
+      "feature4_title": "تبدیل به PDF",
+      "feature4_content": "سند با هر فرمت قابل پشتیبانی را می توان به راحتی با گزینه های قابل تنظیم به PDF تبدیل و ذخیره کرد.",
+      "feature5_title": "تغییرات را اعمال کنید",
+      "feature5_content": "سند خروجی را می توان در حین رندر تبدیل کرد - صفحات را می توان چرخاند و/یا مرتب کرد و واترمارک متنی در بالای آنها قرار داد.",
+      "feature6_title": "تنظیم خروجی HTML",
+      "feature6_content": "اسناد HTML خروجی، تولید شده توسط GroupDocs.Viewer، را می توان بسیار دقیق تنظیم کرد: امکان ذخیره در جریان یا فایل، با منابع خارجی یا جاسازی شده، تماس های برگشتی و غیره وجود دارد.",
+      "feature7_title": "پشتیبانی از ساختارهای پیچیده سند",
+      "feature7_content": "GroupDocs.Viewer نه تنها از اسناد منفرد، بلکه از فایل‌هایی نیز پشتیبانی می‌کند که در داخل شامل فهرست یا ساختار سلسله مراتبی از اسناد هستند، مانند پیام‌های ایمیل با پیوست‌ها، آرشیوهای ZIP با فایل‌های داخلی درون پوشه‌ها، تصاویر TIFF چند صفحه‌ای و غیره.",
+      "feature8_title": "گزینه های بهینه سازی",
+      "feature8_content": "GroupDocs.Viewer حاوی یک زیرسیستم کش قابل تنظیم است که می تواند با استفاده از نسخه های ذخیره شده اسناد، زمان بارگذاری را تسریع بخشد. همچنین مجموعه ای از گزینه های مختلف برای فرمت های مختلف اجازه می دهد تا برخی از بخش ها یا جنبه های غیر ضروری اسناد را از رندر حذف کنید (فونت ها، کاربرگ های مخفی، پیوست های ایمیل) برای بهینه سازی عملکرد کلی.",
+      "feature9_title": "پشتیبانی از اسناد محافظت شده با رمز عبور",
+      "feature9_content": "GroupDocs.Viewer اجازه می دهد تا اسناد رمزگذاری شده را از انواع مختلف باز کنید: PDF، WordProcessing، Spreadsheet، Presentation و غیره، با تعیین رمز عبور در گزینه های بارگیری."
+    },
+    "reviews": {
+      "title": "بررسی محصولات GroupDocs",
+      "description": "فقط حرف ما را قبول نکنید. ببینید سایر توسعه دهندگان در مورد API های ما چه می گویند",
+      "content1": "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Viewer برای دات نت بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد.",
+      "content2": "پس از پیاده سازی و استفاده از GroupDocs.Viewer برای دات نت در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word به نظر می‌رسند."
+    }
+  },
+  "index-content-net": {
+    "head_title": "API نمایشگر اسناد دات نت، رندر PDF Word Excel Image HTML Diagram",
+    "head_description": "C# ASP.NET بیننده و API رندر فایل. نمایشگر PDF، نمایشگر Word، نمایشگر اکسل، نمایشگر تصویر، نمایشگر HTML، ویژگی های نمایش ایمیل را در برنامه های NET اضافه کنید.",
+    "header_title": "رندر و نمایش اسناد<br>با استفاده از NET API",
+    "header_description": "API نمایشگر قدرتمند برای ارائه بیش از 180 فرمت سند به PDF، HTML، و تصویر با گزینه های پیکربندی همه کاره.",
+    "actions_main": "دانلود رایگان NuGet",
+    "code_title": "رندر فایل های پی دی اف در سی شارپ",
+    "code_comment_1": "فایل PDF منبع را بارگیری کنید",
+    "code_comment_2": "گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه",
+    "code_comment_3": "PDF را با منابع تعبیه شده به HTML ارائه دهید",
+    "overview_title": "GroupDocs.Viewer در یک نگاه",
+    "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های NET",
+    "overview_features": {
+      "feature1_title": "اسناد را کارآمد و قابل اعتماد مشاهده کنید",
+      "feature1_content": "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer از .NET Framework 4.6.2 و .NET 6.0 پشتیبانی می کند، روی پلتفرم های ویندوز و لینوکس کار می کند.",
+      "feature2_title": "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند",
+      "feature2_content": "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور",
+      "feature3_title": "خروجی قابل تنظیم",
+      "feature3_content": "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند.",
+      "feature4_title": "UI برای ASP.NET Core",
+      "feature4_content": "ما یک بسته UI منبع باز برای ASP.NET Core ارائه می دهیم که می تواند در عرض چند دقیقه به پروژه شما اضافه شود. بسته Viewer.UI شامل یک web-UI مبتنی بر Angular است و مجموعه ای از APIهای مفید و ارائه دهندگان ذخیره سازی داده را ارائه می دهد."
+    },
+    "platforms_title": "پشتیبانی از پلتفرم ها",
+    "platforms_description": "GroupDocs.Viewer برای دات نت از سیستم عامل ها، فریمورک ها و مدیران بسته های زیر پشتیبانی می کند",
+    "formats": {
+      "description": "GroupDocs.Viewer برای NET از عملیات با زیر پشتیبانی می‌کند [formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "نمونه کد",
+      "description": "برخی از موارد معمولی GroupDocs.Viewer برای عملیات NET استفاده می کنند",
+      "sample1_title": "DOCX را به HTML رندر کنید",
+      "sample1_content1": "ویژگی های کلاس [HtmlViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/htmlviewoptions/) به شما امکان می دهد فرآیند تبدیل را کنترل کنید، در مورد آن اینجا[HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/).",
+      "sample1_content2": "به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.",
+      "sample2_title": "PPTX را به PDF صادر کنید",
+      "sample2_content1": "یک نمونه کلاس [PdfViewOptions](https://reference.groupdocs.com/viewer/net/groupdocs.viewer.options/pdfviewoptions/) ایجاد کنید و آن را به [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) ارسال کنید. ر برای تبدیل فایل پاورپوینت PPTX به PDF.",
+      "sample2_content2": "ویژگی های کلاس PdfViewOptions به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات به [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) مراجعه کنید.",
+      "sample1_comment_1": "بیننده فوری",
+      "sample1_comment_2": "گزینه های خروجی HTML را تنظیم کنید",
+      "sample1_comment_3": "DOCX را با منابع جاسازی شده به HTML ارائه دهید",
+      "sample2_comment_1": "گزینه های PDF خروجی را تنظیم کنید",
+      "sample2_comment_2": "PPTX را به PDF صادر کنید"
+    },
+    "platforms_packages_windows_title": "بسته مخصوص ویندوز",
+    "platforms_packages_windows_action": "دانلود NuGet",
+    "platforms_packages_windows_content_1": "از .NET Framework 4.6.2+ و .NET 6.0 پشتیبانی می کند",
+    "platforms_packages_windows_content_2": "جامع ترین فرمت های فایل پشتیبانی می کند",
+    "platforms_packages_windows_content_3": "بستگی به System.Drawing و System.Drawing.Common دارد",
+    "platforms_packages_cross_platform_title": "بسته کراس پلت فرم",
+    "platforms_packages_cross_platform_action": "دانلود NuGet",
+    "platforms_packages_cross_platform_content_1": "پشتیبانی از دات نت 6.0 و نسخه های بالاتر",
+    "platforms_packages_cross_platform_content_2": "پشتیبانی از فرمت های فایل محدود",
+    "platforms_packages_cross_platform_content_3": "روی ویندوز، لینوکس و macOS کار می کند"
+  },
+  "index-content-java": {
+    "head_title": "Java Document Viewer API، رندر PDF Word Excel Image HTML Diagram",
+    "head_description": "کتابخانه Document Viewer برای توسعه برنامه‌های جاوا که اسناد چند فرمتی را به‌طور بومی ارائه، مشاهده و دستکاری می‌کنند که از بیش از 180 فرمت فایل پشتیبانی می‌کنند.",
+    "header_title": "رندر و نمایش اسناد<br>با استفاده از Java API",
+    "header_description": "API نمایشگر قدرتمند برای ارائه بیش از 180 فرمت سند به PDF، HTML، و تصویر با گزینه های پیکربندی همه کاره.",
+    "actions_main": "دانلود رایگان Maven",
+    "code_title": "رندر فایل های پی دی اف در جاوا",
+    "code_comment_1": "Instantiate Viewer",
+    "code_comment_2": "گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه",
+    "code_comment_3": "PDF را با منابع تعبیه شده به HTML ارائه دهید",
+    "overview_title": "GroupDocs.Viewer در یک نگاه",
+    "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های جاوا",
+    "overview_features": {
+      "feature1_title": "اسناد را کارآمد و قابل اعتماد مشاهده کنید",
+      "feature1_content": "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer روی پلتفرم های ویندوز و لینوکس کار می کند.",
+      "feature2_title": "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند",
+      "feature2_content": "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور",
+      "feature3_title": "خروجی قابل تنظیم",
+      "feature3_content": "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند.",
+      "feature4_title": "رابط کاربری وب برای چارچوب Spring",
+      "feature4_content": "ما یک بسته UI منبع باز برای چارچوب Spring ارائه می دهیم که می تواند در عرض چند دقیقه به پروژه شما اضافه شود. بسته Viewer.UI شامل یک web-UI مبتنی بر Angular است و مجموعه ای از APIهای مفید و ارائه دهندگان ذخیره سازی داده را ارائه می دهد."
+    },
+    "platforms_title": "استقلال سکو",
+    "platforms_description": "GroupDocs.Viewer برای جاوا از سیستم عامل ها، چارچوب ها و مدیریت بسته های زیر پشتیبانی می کند",
+    "formats": {
+      "description": "GroupDocs.Viewer برای جاوا از عملیات با زیر پشتیبانی می‌کند [formats](https://docs.groupdocs.com/viewer/java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "نمونه کد",
+      "description": "برخی از موارد معمولی GroupDocs.Viewer برای عملیات جاوا استفاده می کنند",
+      "sample1_title": "DOCX را به HTML رندر کنید",
+      "sample1_content1": "ویژگی‌های کلاس [HtmlViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/htmlviewoptions/) به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، در مورد آن [اینجا](https://docs.groupdocs.com/viewer/java/rendering-to-html/).",
+      "sample1_content2": "به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.",
+      "sample2_title": "PPTX را به PDF صادر کنید",
+      "sample2_content1": "یک نمونه کلاس [PdfViewOptions](https://reference.groupdocs.com/viewer/java/com.groupdocs.viewer.options/pdfviewoptions/) ایجاد کنید و آن را به [Viewer.View](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/viewer/view/#view) ارسال کنید. روش برای تبدیل فایل پاورپوینت PPTX به PDF.",
+      "sample2_content2": "ویژگی های کلاس PdfViewOptions به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل  خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات به [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) مراجعه کنید.",
+      "sample1_comment_1": "Instantiate Viewer",
+      "sample1_comment_2": "گزینه های خروجی HTML را تنظیم کنید",
+      "sample1_comment_3": "DOCX را با منابع جاسازی شده به HTML ارائه دهید",
+      "sample2_comment_1": "Instantiate Viewer",
+      "sample2_comment_2": "گزینه های PDF خروجی را تنظیم کنید",
+      "sample2_comment_3": "PPTX را به PDF صادر کنید"
+    }
+  },
+  "index-content-nodejs": {
+    "head_title": "Node.js Document Viewer API برای تصاویر و ایمیل های PDF Word Excel HTML",
+    "head_description": "نمایشگر اسناد Node.js و API رندر فایل ها. نمایشگر PDF، نمایشگر Word، نمایشگر اکسل، نمایشگر تصویر، نمایشگر HTML، نمایشگر ایمیل را در برنامه های جاوا اسکریپت اضافه کنید.",
+    "header_title": "Node.js API برای ارائه و نمایش اسناد",
+    "header_description": "کتابخانه Document Viewer برای توسعه برنامه‌های جاوا اسکریپت که اسناد چند قالبی را به‌طور بومی رندر، مشاهده و دستکاری می‌کنند و بیش از 180 فرمت فایل را پشتیبانی می‌کنند.",
+    "actions_main": "دانلود رایگان NPM",
+    "code_title": "فایل های PDF را در جاوا اسکریپت رندر کنید",
+    "code_comment_1": "گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه",
+    "code_comment_2": "Instantiate Viewer",
+    "code_comment_3": "PDF را با منابع تعبیه شده به HTML ارائه دهید",
+    "overview_title": "GroupDocs.Viewer در یک نگاه",
+    "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های Node.js",
+    "overview_features": {
+      "feature1_title": "اسناد را کارآمد و قابل اعتماد مشاهده کنید",
+      "feature1_content": "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer برای Node.js روی پلتفرم های ویندوز و لینوکس کار می کند.",
+      "feature2_title": "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند",
+      "feature2_content": "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور",
+      "feature3_title": "خروجی قابل تنظیم",
+      "feature3_content": "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند."
+    },
+    "platforms_title": "استقلال سکو",
+    "platforms_description": "GroupDocs.Viewer برای Node.js از سیستم عامل ها، فریمورک ها و مدیریت بسته های زیر پشتیبانی می کند",
+    "formats": {
+      "description": "GroupDocs.Viewer برای Node.js از طریق جاوا از عملیات ب زیر پشتیبانی می‌کند [formats](https://docs.groupdocs.com/viewer/nodejs-java/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "نمونه کد",
+      "description": "برخی از موارد معمولی GroupDocs.Viewer برای Node.js از طریق عملیات جاوا استفاده می کنند",
+      "sample1_title": "DOCX را به HTML رندر کنید",
+      "sample1_content1": "ویژگی‌های کلاس  به شما امکان می‌دهد فرآیند تبدیل را کنترل کنید، بیشتر در مورد آن [HtmlViewOptions](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/).",
+      "sample1_content2": "به عنوان مثال، می توانید تمام منابع خارجی را در فایل HTML خروجی جاسازی کنید، فایل خروجی را کوچک کنید و آن را برای چاپ بهینه کنید.",
+      "sample2_title": "PPTX را به PDF صادر کنید",
+      "sample2_content1": "یک نمونه کلاس PdfViewOptions ایجاد کنید و آن را به روش Viewer.view منتقل کنید تا یک فایل پاورپوینت PPTX را به PDF تبدیل کنید.",
+      "sample2_content2": "ویژگی های کلاس `PdfViewOptions` به شما امکان می دهد فرآیند تبدیل را کنترل کنید. به عنوان مثال، می توانید از فایل PDF خروجی محافظت کنید، صفحات آن را مجددا مرتب کنید و کیفیت تصاویر سند را مشخص کنید. برای جزئیات بیشتر ب [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) مراجعه کنید.",
+      "sample1_comment_1": "گزینه های خروجی HTML را تنظیم کنید، یک فایل در هر صفحه",
+      "sample1_comment_2": "Instantiate Viewer",
+      "sample1_comment_3": "DOCX را با منابع جاسازی شده به HTML ارائه دهید",
+      "sample2_comment_1": "گزینه های PDF خروجی را تنظیم کنید",
+      "sample2_comment_2": "Instantiate Viewer",
+      "sample2_comment_3": "PPTX را به PDF صادر کنید"
+    }
+  },
+  "index-content-python": {
+    "head_title": "API نمایشگر اسناد پایتون برای PDF، Word، Excel، HTML، تصاویر و ایمیل‌ها",
+    "head_description": "API نمایشگر اسناد و رندر فایل پایتون. نمایشگر PDF، نمایشگر Word، نمایشگر Excel، نمایشگر تصویر، نمایشگر HTML و نمایشگر ایمیل را به برنامه‌های Python اضافه کنید.",
+    "header_title": "یک API قدرتمند پایتون برای نمایش بهینه اسناد",
+    "header_description": "رندر و نمایش بیش از 180 فرمت سند (PDF، HTML، تصویر) با API های قدرتمند و گزینه های پیکربندی متنوع برای توسعه برنامه های پایتون.",
+    "actions_main": "دانلود رایگان PyPI",
+    "code_title": "رندر فایل‌های PDF در پایتون",
+    "code_comment_1": "تنظیم گزینه‌های خروجی HTML، یک فایل در هر صفحه",
+    "code_comment_2": "ایجاد نمونه اولیه نمایشگر",
+    "code_comment_3": "رندر PDF به HTML با منابع جاسازی شده",
+    "overview_title": "GroupDocs.Viewer در یک نگاه",
+    "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع دیگر اسناد در برنامه های کاربردی پایتون",
+    "overview_features": {
+      "feature1_title": "اسناد را به طور کارآمد و قابل اعتماد مشاهده کنید",
+      "feature1_content": "با API GroupDocs.Viewer، می‌توانید اسناد با هر فرمت پشتیبانی‌شده را به طور کارآمد به HTML، JPEG، PNG و PDF با گزینه‌های انعطاف‌پذیر و قدرتمند رندر کنید، در حالی که یکپارچگی محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer برای پایتون روی پلتفرم‌های ویندوز و لینوکس کار می‌کند.",
+      "feature2_title": "پشتیبانی از محبوب‌ترین فرمت‌های فایل و سند",
+      "feature2_content": "ما از رندر بیش از 180 فرمت محبوب فایل و سند از جمله Word، Excel، PDF، PowerPoint، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و برداری، کتاب‌های الکترونیکی، زبان‌های برنامه‌نویسی و نشانه‌گذاری و بسیاری از انواع فایل‌های دیگر، از جمله فایل‌های رمزگذاری‌شده با رمز عبور پشتیبانی می‌کنیم.",
+      "feature3_title": "خروجی قابل تنظیم",
+      "feature3_content": "GroupDocs.Viewer نه تنها رندر سند را امکان پذیر می کند، بلکه کنترل اینکه دقیقاً کدام قسمت های سند رندر شوند یا نشوند، چگونه رندر شوند و اعمال تحولات مختلف روی خروجی رندر شده را نیز امکان پذیر می کند."
+    },
+    "platforms_title": "استقلال از پلتفرم",
+    "platforms_description": "GroupDocs.Viewer برای پایتون از سیستم‌عامل‌ها، فریم‌ورک‌ها و مدیریت بسته‌های زیر پشتیبانی می‌کند",
+    "formats": {
+      "description": "GroupDocs.Viewer برای پایتون از طریق .NET از عملیات با فرمت‌های فایل زیر پشتیبانی می‌کند: [لینک به فرمت‌های فایل پشتیبانی‌شده](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/)."
+    },
+    "code_samples": {
+      "title": "نمونه های کد",
+      "description": "برخی از موارد استفاده از GroupDocs معمولی.بیننده برای پایتون از طریق. net عملیات",
+      "sample1_title": "رندر DOCX به HTML",
+      "sample1_content1": "ویژگی های کلاس `HtmlViewOptions` به شما امکان کنترل فرآیند تبدیل را می دهد. برای اطلاعات بیشتر، [اینجا](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/) را ببینید.",
+      "sample1_content2": "برای مثال، می توانید تمام منابع خارجی را در فایل خروجی HTML جاسازی کنید، فایل خروجی را به حداقل برسانید و آن را برای چاپ بهینه کنید.",
+      "sample2_title": "خروجی گرفتن PPTX به PDF",
+      "sample2_content1": "یک نمونه از کلاس `PdfViewOptions` ایجاد کنید و آن را به متد `Viewer.view` برای تبدیل یک فایل پاورپوینت PPTX به PDF منتقل کنید.",
+      "sample2_content2": "ویژگی های کلاس `PdfViewOptions` به شما امکان کنترل فرآیند تبدیل را می دهد. برای جزئیات بیشتر، بخش بعدی اسناد را در [اینجا](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) ببینید.",
+      "sample1_comment_1": "ایجاد نمونه از Viewer",
+      "sample1_comment_2": "تنظیم گزینه های خروجی HTML، یک فایل در هر صفحه",
+      "sample1_comment_3": "رندر DOCX به HTML با منابع جاسازی شده",
+      "sample2_comment_1": "ایجاد نمونه از Viewer",
+      "sample2_comment_2": "تنظیم گزینه های خروجی PDF",
+      "sample2_comment_3": "خروجی گرفتن PPTX به PDF"
+    }
+  }
+}
