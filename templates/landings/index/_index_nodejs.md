@@ -185,7 +185,7 @@ features:
       content: "<% "{index-content-common.features.feature2_content}" %>"
 
     # feature loop
-    - icon: "sourcecode"
+    - icon: "font"
       title: "<% "{index-content-common.features.feature3_title}" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 

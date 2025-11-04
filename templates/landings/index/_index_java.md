@@ -205,13 +205,13 @@ features:
       content: "<% "{index-content-common.features.feature2_content}" %>"
 
     # feature loop
-    - icon: "sourcecode"
+    - icon: "font"
       title: "<% "{index-content-common.features.feature3_title}" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "{index-content-common.features.feature4_title}" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)" %>"
       content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
@@ -221,12 +221,12 @@ features:
 
     # feature loop
     - icon: "adjustment"
-      title: "<% "{index-content-common.features.feature6_title}" %>"
+      title: "<% "[{index-content-common.features.feature6_title}](https://blog.groupdocs.com/viewer/render-word-documents-as-minified-html-in-java/)" %>"
       content: "<% "{index-content-common.features.feature6_content}" %>"
 
     # feature loop
     - icon: "complex"
-      title: "<% "{index-content-common.features.feature7_title}" %>"
+      title: "<% "[{index-content-common.features.feature7_title}" %>](https://blog.groupdocs.com/viewer/view-files-and-folders-in-zip-and-tar-archives-using-java-api/)"
       content: "<% "{index-content-common.features.feature7_content}" %>"
 
     # feature loop

@@ -208,13 +208,13 @@ features:
 
     # feature loop
     - icon: "font"
-      title: "<% "{index-content-common.features.feature3_title}" %>"
+      title: "<% "[{index-content-common.features.feature3_title}](https://blog.groupdocs.com/viewer/working-with-fonts/)" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "{index-content-common.features.feature4_title}" %>"
-      content: "<% "[{index-content-common.features.feature4_content}](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)" %>"
+      content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
     - icon: "transform"
@@ -223,7 +223,7 @@ features:
 
     # feature loop
     - icon: "adjustment"
-      title: "<% "{index-content-common.features.feature6_title}" %>"
+      title: "<% "[{index-content-common.features.feature6_title}](https://blog.groupdocs.com/viewer/render-word-documents-as-clean-html-using-csharp/)"%>"
       content: "<% "{index-content-common.features.feature6_content}" %>"
 
     # feature loop
@@ -233,7 +233,7 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "<% "{index-content-common.features.feature8_title}" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://blog.groupdocs.com/viewer/exclude-specific-fonts-from-output-html-using-groupdocs.viewer-for-.net-18.10/)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop

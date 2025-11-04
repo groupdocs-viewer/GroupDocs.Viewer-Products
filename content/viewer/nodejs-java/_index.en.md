@@ -185,9 +185,9 @@ features:
       content: "Rasterize any supportable document format to the raster image, with adjustable image format and compression quality."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Render and highlight programming codes"
-      content: "Support of all popular programming, scripting, and markup languages, with ability to parse and highlight their syntax."
+    - icon: "font"
+      title: "Control document fonts"
+      content: "Identify which fonts are used in a document. Manage missing fonts by replacing them or excluding them from the output."
 
     # feature loop
     - icon: "convertpdf"
