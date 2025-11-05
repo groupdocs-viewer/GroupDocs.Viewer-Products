@@ -178,7 +178,7 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "<% "{index-content-common.features.feature1_title}" %>"
+      title: "<% "[{index-content-common.features.feature1_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_external_resources.py)" %>"
       content: "<% "{index-content-common.features.feature1_content}" %>"
 
     # feature loop
@@ -188,37 +188,37 @@ features:
 
     # feature loop
     - icon: "font"
-      title: "<% "{index-content-common.features.feature3_title}" %>"
+      title: "<% "[{index-content-common.features.feature3_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "{index-content-common.features.feature4_title}" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_pdf/render_to_pdf.py)" %>"
       content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
     - icon: "transform"
-      title: "<% "{index-content-common.features.feature5_title}" %>"
+      title: "<% "[{index-content-common.features.feature5_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/add_watermark.py)" %>"
       content: "<% "{index-content-common.features.feature5_content}" %>"
 
     # feature loop
     - icon: "adjustment"
-      title: "<% "{index-content-common.features.feature6_title}" %>"
+      title: "<% "[{index-content-common.features.feature6_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)" %>"
       content: "<% "{index-content-common.features.feature6_content}" %>"
 
     # feature loop
     - icon: "complex"
-      title: "<% "{index-content-common.features.feature7_title}" %>"
+      title: "<% "[{index-content-common.features.feature7_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/rendering_options_by_document_type/rendering_archive_files/rendering_rar.py)" %>"
       content: "<% "{index-content-common.features.feature7_content}" %>"
 
     # feature loop
     - icon: "optimization"
-      title: "<% "{index-content-common.features.feature8_title}" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/rendering_options_by_document_type/rendering_spreadsheets/skip_rendering_of_empty_columns.py)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "<% "{index-content-common.features.feature9_title}" %>"
+      title: "<% "[{index-content-common.features.feature9_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)" %>"
       content: "<% "{index-content-common.features.feature9_content}" %>"
 
 ############################# Code samples ############################

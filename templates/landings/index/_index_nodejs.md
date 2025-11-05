@@ -176,7 +176,7 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "<% "{index-content-common.features.feature1_title}" %>"
+      title: "<% "[{index-content-common.features.feature1_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToResponsiveHtml.js)" %>"
       content: "<% "{index-content-common.features.feature1_content}" %>"
 
     # feature loop
@@ -186,37 +186,37 @@ features:
 
     # feature loop
     - icon: "font"
-      title: "<% "{index-content-common.features.feature3_title}" %>"
+      title: "<% "[{index-content-common.features.feature3_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/replaceMissingFont.js)" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "{index-content-common.features.feature4_title}" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToPdf/renderToPdf.js)" %>"
       content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
     - icon: "transform"
-      title: "<% "{index-content-common.features.feature5_title}" %>"
+      title: "<% "[{index-content-common.features.feature5_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/addWatermark.js)" %>"
       content: "<% "{index-content-common.features.feature5_content}" %>"
 
     # feature loop
     - icon: "adjustment"
-      title: "<% "{index-content-common.features.feature6_title}" %>"
+      title: "<% "[{index-content-common.features.feature6_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToHtmlWithExternalResources.js)" %>"
       content: "<% "{index-content-common.features.feature6_content}" %>"
 
     # feature loop
     - icon: "complex"
-      title: "<% "{index-content-common.features.feature7_title}" %>"
+      title: "<% "[{index-content-common.features.feature7_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/RenderingOptionsByDocumentType/RenderingArchiveFiles/renderingRar.js)" %>"
       content: "<% "{index-content-common.features.feature7_content}" %>"
 
     # feature loop
     - icon: "optimization"
-      title: "<% "{index-content-common.features.feature8_title}" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/RenderingOptionsByDocumentType/RenderingSpreadsheets/skipRenderingOfEmptyRows.js)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "<% "{index-content-common.features.feature9_title}" %>"
+      title: "<% "[{index-content-common.features.feature9_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Loading/loadPasswordProtectedDocument.js)" %>"
       content: "<% "{index-content-common.features.feature9_content}" %>"
 
 ############################# Code samples ############################

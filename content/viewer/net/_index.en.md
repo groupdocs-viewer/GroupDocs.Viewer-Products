@@ -79,11 +79,11 @@ overview:
   features:
     # feature loop
     - title: "View documents efficiently & reliably"
-      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and PDF with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer supports .NET Framework 4.6.2 and .NET 6.0, it works on Windows and Linux platforms."
+      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-using-csharp/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer supports .NET Framework 4.6.2 and .NET 6.0, it works on Windows and Linux platforms."
 
     # feature loop
     - title: "Most popular file and document formats are supported"
-      content: "We support rendering over the 180 most popular file and document formats that include Word, Excel, PDF, PowerPoint, OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
+      content: "We support rendering over the 180 most popular file and document formats that include Word, [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), PDF, [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
 
     # feature loop
     - title: "Customizable output"
@@ -238,7 +238,7 @@ features:
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Support of password-protected documents"
+      title: "[Support of password-protected documents](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET/blob/master/Examples/GroupDocs.Viewer.Examples.CSharp/AdvancedUsage/Loading/LoadPasswordProtectedDocument.cs)"
       content: "GroupDocs.Viewer allows to open the encrypted documents of different types: PDF, WordProcessing, Spreadsheet, Presentation, and other, by specifying a password in the loading options."
 
 ############################# Code samples ############################

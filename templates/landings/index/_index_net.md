@@ -238,7 +238,7 @@ features:
 
     # feature loop
     - icon: "passwordprotected"
-      title: "<% "{index-content-common.features.feature9_title}" %>"
+      title: "<% "[{index-content-common.features.feature9_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET/blob/master/Examples/GroupDocs.Viewer.Examples.CSharp/AdvancedUsage/Loading/LoadPasswordProtectedDocument.cs)" %>"
       content: "<% "{index-content-common.features.feature9_content}" %>"
 
 ############################# Code samples ############################

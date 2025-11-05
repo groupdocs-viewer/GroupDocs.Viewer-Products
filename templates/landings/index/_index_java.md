@@ -196,7 +196,7 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "<% "{index-content-common.features.feature1_title}" %>"
+      title: "<% "[{index-content-common.features.feature1_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/basic_usage/render_document_to_html/MinifyHtmlDocument.java)" %>"
       content: "<% "{index-content-common.features.feature1_content}" %>"
 
     # feature loop
@@ -206,7 +206,7 @@ features:
 
     # feature loop
     - icon: "font"
-      title: "<% "{index-content-common.features.feature3_title}" %>"
+      title: "<% "[{index-content-common.features.feature3_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/rendering/common_rendering_options/RenderWithCustomFonts.java)" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 
     # feature loop
@@ -216,7 +216,7 @@ features:
 
     # feature loop
     - icon: "transform"
-      title: "<% "{index-content-common.features.feature5_title}" %>"
+      title: "<% "[{index-content-common.features.feature5_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/rendering/common_rendering_options/AddWatermark.java)" %>"
       content: "<% "{index-content-common.features.feature5_content}" %>"
 
     # feature loop
@@ -231,12 +231,12 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "<% "{index-content-common.features.feature8_title}" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/caching/UseCacheWhenProcessingDocuments.java)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "<% "{index-content-common.features.feature9_title}" %>"
+      title: "<% "[{index-content-common.features.feature9_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/loading/LoadPasswordProtectedDocument.java)" %>"
       content: "<% "{index-content-common.features.feature9_content}" %>"
 
 ############################# Code samples ############################

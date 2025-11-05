@@ -93,11 +93,11 @@ overview:
   features:
     # feature loop
     - title: "View documents efficiently & reliably"
-      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and PDF with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer works on Windows and Linux platforms."
+      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-in-java/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer works on Windows and Linux platforms."
 
     # feature loop
     - title: "Most popular file and document formats are supported"
-      content: "We support rendering over the 180 most popular file and document formats that include Word, Excel, PDF, PowerPoint, OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
+      content: "We support rendering over the 180 most popular file and document formats that include Word, [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), PDF, [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
 
     # feature loop
     - title: "Customizable output"
@@ -196,7 +196,7 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "View documents in HTML"
+      title: "[View documents in HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/basic_usage/render_document_to_html/MinifyHtmlDocument.java)"
       content: "Convert document of any type into a HTML document with CSS and SVG, which can be displayed in any modern web-browser."
 
     # feature loop
@@ -206,7 +206,7 @@ features:
 
     # feature loop
     - icon: "font"
-      title: "Control document fonts"
+      title: "[Control document fonts](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/rendering/common_rendering_options/RenderWithCustomFonts.java)"
       content: "Identify which fonts are used in a document. Manage missing fonts by replacing them or excluding them from the output."
 
     # feature loop
@@ -216,7 +216,7 @@ features:
 
     # feature loop
     - icon: "transform"
-      title: "Apply transformations"
+      title: "[Apply transformations](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/rendering/common_rendering_options/AddWatermark.java)"
       content: "Output document can be transformed during rendering - pages can be rotated and/or rearranged, and text watermark may be placed atop of them."
 
     # feature loop
@@ -231,12 +231,12 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "Optimization options"
+      title: "[Optimization options](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/caching/UseCacheWhenProcessingDocuments.java)"
       content: "GroupDocs.Viewer contains an adjustable cache subsystem, which can fasten the loading time by using the cached versions of the documents. Also a set of different options for different formats allows to exclude some unnecessary parts or aspects of documents from the rendering (fonts, hidded worksheets, email attachments) to optimize the overall performance"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Support of password-protected documents"
+      title: "[Support of password-protected documents](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/loading/LoadPasswordProtectedDocument.java)"
       content: "GroupDocs.Viewer allows to open the encrypted documents of different types: PDF, WordProcessing, Spreadsheet, Presentation, and other, by specifying a password in the loading options."
 
 ############################# Code samples ############################
