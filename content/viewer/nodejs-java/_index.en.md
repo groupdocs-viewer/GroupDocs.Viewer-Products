@@ -78,11 +78,11 @@ overview:
   features:
     # feature loop
     - title: "View documents efficiently & reliably"
-      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and PDF with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer for Node.js works on Windows and Linux platforms."
+      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/), JPEG, PNG, and [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer for Node.js works on Windows and Linux platforms."
 
     # feature loop
     - title: "Most popular file and document formats are supported"
-      content: "We support rendering over the 180 most popular file and document formats that include Word, Excel, PDF, PowerPoint, OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
+      content: "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
 
     # feature loop
     - title: "Customizable output"
@@ -176,12 +176,12 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "[View documents in HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToResponsiveHtml.js)"
+      title: "[View documents in HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)"
       content: "Convert document of any type into a HTML document with CSS and SVG, which can be displayed in any modern web-browser."
 
     # feature loop
     - icon: "rasterize"
-      title: "Rasterize documents"
+      title: "[Rasterize documents to Jpeg or PNG](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToImage/renderToJpg.js)"
       content: "Rasterize any supportable document format to the raster image, with adjustable image format and compression quality."
 
     # feature loop
@@ -191,12 +191,12 @@ features:
 
     # feature loop
     - icon: "convertpdf"
-      title: "[Convert to PDF](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToPdf/renderToPdf.js)"
+      title: "[Convert to PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)"
       content: "Document of any supportable format can be easily converted and saved to the PDF with adjustable options."
 
     # feature loop
     - icon: "transform"
-      title: "[Apply transformations](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/addWatermark.js)"
+      title: "[Apply transformations](https://docs.groupdocs.com/viewer/nodejs-java/add-text-watermark/)"
       content: "Output document can be transformed during rendering - pages can be rotated and/or rearranged, and text watermark may be placed atop of them."
 
     # feature loop
@@ -206,12 +206,12 @@ features:
 
     # feature loop
     - icon: "complex"
-      title: "[Support of complex document structures](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/RenderingOptionsByDocumentType/RenderingArchiveFiles/renderingRar.js)"
+      title: "[Support of complex document structures](https://docs.groupdocs.com/viewer/nodejs-java/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer supports not only the single documents, but also files, which internally contain a list or hierarchical structure of documents, like email messages with attachments, ZIP archives with internal files within folders, multi-page TIFF images, and so on."
 
     # feature loop
     - icon: "optimization"
-      title: "[Optimization options](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/RenderingOptionsByDocumentType/RenderingSpreadsheets/skipRenderingOfEmptyRows.js)"
+      title: "[Optimization options](https://docs.groupdocs.com/viewer/nodejs-java/caching-results/)"
       content: "GroupDocs.Viewer contains an adjustable cache subsystem, which can fasten the loading time by using the cached versions of the documents. Also a set of different options for different formats allows to exclude some unnecessary parts or aspects of documents from the rendering (fonts, hidded worksheets, email attachments) to optimize the overall performance"
 
     # feature loop

@@ -196,32 +196,32 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "<% "[{index-content-common.features.feature1_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/basic_usage/render_document_to_html/MinifyHtmlDocument.java)" %>"
+      title: "<% "[{index-content-common.features.feature1_title}](https://docs.groupdocs.com/viewer/java/rendering-to-html/)" %>"
       content: "<% "{index-content-common.features.feature1_content}" %>"
 
     # feature loop
     - icon: "rasterize"
-      title: "<% "{index-content-common.features.feature2_title}" %>"
+      title: "<% "[{index-content-common.features.feature2_title}](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/)" %>"
       content: "<% "{index-content-common.features.feature2_content}" %>"
 
     # feature loop
     - icon: "font"
-      title: "<% "[{index-content-common.features.feature3_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/rendering/common_rendering_options/RenderWithCustomFonts.java)" %>"
+      title: "<% "[{index-content-common.features.feature3_title}](https://docs.groupdocs.com/viewer/java/set-custom-fonts/)" %>"
       content: "<% "{index-content-common.features.feature3_content}" %>"
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "[{index-content-common.features.feature4_title}](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)" %>"
       content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
     - icon: "transform"
-      title: "<% "[{index-content-common.features.feature5_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/rendering/common_rendering_options/AddWatermark.java)" %>"
+      title: "<% "[{index-content-common.features.feature5_title}](https://docs.groupdocs.com/viewer/java/flip-or-rotate-pages/)" %>"
       content: "<% "{index-content-common.features.feature5_content}" %>"
 
     # feature loop
     - icon: "adjustment"
-      title: "<% "[{index-content-common.features.feature6_title}](https://blog.groupdocs.com/viewer/render-word-documents-as-minified-html-in-java/)" %>"
+      title: "<% "[{index-content-common.features.feature6_title}](https://docs.groupdocs.com/viewer/java/rendering-to-html/)" %>"
       content: "<% "{index-content-common.features.feature6_content}" %>"
 
     # feature loop
@@ -231,12 +231,12 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "<% "[{index-content-common.features.feature8_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/caching/UseCacheWhenProcessingDocuments.java)" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://docs.groupdocs.com/viewer/java/how-to-use-custom-cache-implementation/)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "<% "[{index-content-common.features.feature9_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Java/blob/master/Examples/src/main/java/com/groupdocs/viewer/examples/advanced_usage/loading/LoadPasswordProtectedDocument.java)" %>"
+      title: "<% "[{index-content-common.features.feature9_title}](https://docs.groupdocs.com/viewer/java/load-password-protected-document/)" %>"
       content: "<% "{index-content-common.features.feature9_content}" %>"
 
 ############################# Code samples ############################

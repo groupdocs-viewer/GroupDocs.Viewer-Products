@@ -178,12 +178,12 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "<% "[{index-content-common.features.feature1_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_external_resources.py)" %>"
+      title: "<% "[{index-content-common.features.feature1_title}](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)" %>"
       content: "<% "{index-content-common.features.feature1_content}" %>"
 
     # feature loop
     - icon: "rasterize"
-      title: "<% "{index-content-common.features.feature2_title}" %>"
+      title: "<% "[{index-content-common.features.feature2_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)" %>"
       content: "<% "{index-content-common.features.feature2_content}" %>"
 
     # feature loop
@@ -193,12 +193,12 @@ features:
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "[{index-content-common.features.feature4_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_pdf/render_to_pdf.py)" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)" %>"
       content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
     - icon: "transform"
-      title: "<% "[{index-content-common.features.feature5_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/add_watermark.py)" %>"
+      title: "<% "[{index-content-common.features.feature5_title}](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)" %>"
       content: "<% "{index-content-common.features.feature5_content}" %>"
 
     # feature loop
@@ -208,12 +208,12 @@ features:
 
     # feature loop
     - icon: "complex"
-      title: "<% "[{index-content-common.features.feature7_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/rendering_options_by_document_type/rendering_archive_files/rendering_rar.py)" %>"
+      title: "<% "[{index-content-common.features.feature7_title}](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)" %>"
       content: "<% "{index-content-common.features.feature7_content}" %>"
 
     # feature loop
     - icon: "optimization"
-      title: "<% "[{index-content-common.features.feature8_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/rendering_options_by_document_type/rendering_spreadsheets/skip_rendering_of_empty_columns.py)" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://docs.groupdocs.com/viewer/python-net/caching-results/)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop

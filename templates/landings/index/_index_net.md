@@ -203,7 +203,7 @@ features:
 
     # feature loop
     - icon: "rasterize"
-      title: "<% "{index-content-common.features.feature2_title}" %>"
+      title: "<% "[{index-content-common.features.feature2_title}](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)" %>"
       content: "<% "{index-content-common.features.feature2_content}" %>"
 
     # feature loop
@@ -238,7 +238,7 @@ features:
 
     # feature loop
     - icon: "passwordprotected"
-      title: "<% "[{index-content-common.features.feature9_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET/blob/master/Examples/GroupDocs.Viewer.Examples.CSharp/AdvancedUsage/Loading/LoadPasswordProtectedDocument.cs)" %>"
+      title: "<% "[{index-content-common.features.feature9_title}](https://docs.groupdocs.com/viewer/net/load-password-protected-document/)" %>"
       content: "<% "{index-content-common.features.feature9_content}" %>"
 
 ############################# Code samples ############################

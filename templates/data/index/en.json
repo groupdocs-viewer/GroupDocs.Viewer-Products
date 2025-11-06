@@ -123,7 +123,7 @@
       "description": "Seamlessly render, display, and convert PDF and Office Documents",
       "feature1_title": "View documents in HTML",
       "feature1_content": "Convert document of any type into a HTML document with CSS and SVG, which can be displayed in any modern web-browser.",
-      "feature2_title": "Rasterize documents",
+      "feature2_title": "Rasterize documents to Jpeg or PNG",
       "feature2_content": "Rasterize any supportable document format to the raster image, with adjustable image format and compression quality.",
       "feature3_title": "Control document fonts",
       "feature3_content": "Identify which fonts are used in a document. Manage missing fonts by replacing them or excluding them from the output.",
@@ -161,9 +161,9 @@
     "overview_description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
     "overview_features": {
       "feature1_title": "View documents efficiently & reliably",
-      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-using-csharp/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer supports .NET Framework 4.6.2 and .NET 6.0, it works on Windows and Linux platforms.",
+      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/), [JPEG](https://docs.groupdocs.com/viewer/net/image-viewer-adjust-quality-for-jpg/), [PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/), and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-using-csharp/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer supports .NET Framework 4.6.2 and .NET 6.0, it works on Windows and Linux platforms.",
       "feature2_title": "Most popular file and document formats are supported",
-      "feature2_content": "We support rendering over the 180 most popular file and document formats that include Word, [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), PDF, [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
+      "feature2_content": "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/), [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
       "feature3_title": "Customizable output",
       "feature3_content": "GroupDocs.Viewer allows not only to render the document, but also to control how exactly, which parts of the document should be rendered or now, how they should be rendered, and to apply different transformations to the rendered output.",
       "feature4_title": "UI for ASP.NET Core",
@@ -214,9 +214,9 @@
     "overview_description": "API to render, display, convert documents, slides, diagrams, and many other document types in Java applications",
     "overview_features": {
       "feature1_title": "View documents efficiently & reliably",
-      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-in-java/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer works on Windows and Linux platforms.",
+      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/), [JPEG](https://docs.groupdocs.com/viewer/java/image-viewer-adjust-quality-for-jpg/), [PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/), and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-in-java/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer works on Windows and Linux platforms.",
       "feature2_title": "Most popular file and document formats are supported",
-      "feature2_content": "We support rendering over the 180 most popular file and document formats that include Word, [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), PDF, [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
+      "feature2_content": "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/), [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
       "feature3_title": "Customizable output",
       "feature3_content": "GroupDocs.Viewer allows not only to render the document, but also to control how exactly, which parts of the document should be rendered or now, how they should be rendered, and to apply different transformations to the rendered output.",
       "feature4_title": "Web UI for Spring framework",
@@ -258,9 +258,9 @@
     "overview_description": "API to render, display, convert documents, slides, diagrams, and many other document types in Node.js applications",
     "overview_features": {
       "feature1_title": "View documents efficiently & reliably",
-      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and PDF with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer for Node.js works on Windows and Linux platforms.",
+      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/), JPEG, PNG, and [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer for Node.js works on Windows and Linux platforms.",
       "feature2_title": "Most popular file and document formats are supported",
-      "feature2_content": "We support rendering over the 180 most popular file and document formats that include Word, Excel, PDF, PowerPoint, OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
+      "feature2_content": "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
       "feature3_title": "Customizable output",
       "feature3_content": "GroupDocs.Viewer allows not only to render the document, but also to control how exactly, which parts of the document should be rendered or now, how they should be rendered, and to apply different transformations to the rendered output."
     },
@@ -300,9 +300,9 @@
     "overview_description": "API to render, display, convert documents, slides, diagrams, and many other document types in Python applications",
     "overview_features": {
       "feature1_title": "View documents efficiently & reliably",
-      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to HTML, JPEG, PNG, and PDF with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer for Python works on Windows and Linux platforms.",
+      "feature1_content": "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/), JPEG, PNG, and [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer for Python works on Windows and Linux platforms.",
       "feature2_title": "Most popular file and document formats are supported",
-      "feature2_content": "We support rendering over the 180 most popular file and document formats that include Word, Excel, PDF, PowerPoint, OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
+      "feature2_content": "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/), [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection.",
       "feature3_title": "Customizable output",
       "feature3_content": "GroupDocs.Viewer allows not only to render the document, but also to control how exactly, which parts of the document should be rendered or now, how they should be rendered, and to apply different transformations to the rendered output."
     },

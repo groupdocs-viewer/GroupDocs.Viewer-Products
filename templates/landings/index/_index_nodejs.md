@@ -176,12 +176,12 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "<% "[{index-content-common.features.feature1_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToResponsiveHtml.js)" %>"
+      title: "<% "[{index-content-common.features.feature1_title}](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)" %>"
       content: "<% "{index-content-common.features.feature1_content}" %>"
 
     # feature loop
     - icon: "rasterize"
-      title: "<% "{index-content-common.features.feature2_title}" %>"
+      title: "<% "[{index-content-common.features.feature2_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToImage/renderToJpg.js)" %>"
       content: "<% "{index-content-common.features.feature2_content}" %>"
 
     # feature loop
@@ -191,12 +191,12 @@ features:
 
     # feature loop
     - icon: "convertpdf"
-      title: "<% "[{index-content-common.features.feature4_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToPdf/renderToPdf.js)" %>"
+      title: "<% "[{index-content-common.features.feature4_title}](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)" %>"
       content: "<% "{index-content-common.features.feature4_content}" %>"
 
     # feature loop
     - icon: "transform"
-      title: "<% "[{index-content-common.features.feature5_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/addWatermark.js)" %>"
+      title: "<% "[{index-content-common.features.feature5_title}](https://docs.groupdocs.com/viewer/nodejs-java/add-text-watermark/)" %>"
       content: "<% "{index-content-common.features.feature5_content}" %>"
 
     # feature loop
@@ -206,12 +206,12 @@ features:
 
     # feature loop
     - icon: "complex"
-      title: "<% "[{index-content-common.features.feature7_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/RenderingOptionsByDocumentType/RenderingArchiveFiles/renderingRar.js)" %>"
+      title: "<% "[{index-content-common.features.feature7_title}](https://docs.groupdocs.com/viewer/nodejs-java/how-to-extract-and-save-attachments/)" %>"
       content: "<% "{index-content-common.features.feature7_content}" %>"
 
     # feature loop
     - icon: "optimization"
-      title: "<% "[{index-content-common.features.feature8_title}](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/RenderingOptionsByDocumentType/RenderingSpreadsheets/skipRenderingOfEmptyRows.js)" %>"
+      title: "<% "[{index-content-common.features.feature8_title}](https://docs.groupdocs.com/viewer/nodejs-java/caching-results/)" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop
