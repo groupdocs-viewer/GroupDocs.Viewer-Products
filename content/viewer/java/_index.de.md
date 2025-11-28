@@ -93,11 +93,11 @@ overview:
   features:
     # feature loop
     - title: "Dokumente effizient und zuverlässig einsehen"
-      content: "Mit der GroupDocs.Viewer-API können Sie Dokumente aller unterstützten Formate mit flexiblen und leistungsstarken Optionen effizient in HTML, JPEG, PNG und PDF rendern und dabei die Integrität von Inhalt und Dokumentstruktur bewahren. GroupDocs.Viewer funktioniert auf Windows- und Linux-Plattformen."
+      content: "Mit der GroupDocs.Viewer‑API können Sie Dokumente aller unterstützten Formate effizient in [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/), und [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) rendern. Flexible und leistungsstarke Optionen gewährleisten die Integrität von Inhalt und Dokumentenstruktur. GroupDocs.Viewer läuft unter Windows und Linux."
 
     # feature loop
     - title: "Die gängigsten Datei- und Dokumentformate werden unterstützt"
-      content: "Wir unterstützen das Rendern der 180 gängigsten Datei- und Dokumentformate, darunter Word, Excel, PDF, PowerPoint, die OpenDocument-Formatfamilie, Archive, Raster- und Vektorbilder, E-Books, Programmiersprachen und Markups sowie viele andere Dateitypen, einschließlich verschlüsselter Dateien Dateien mit Passwortschutz."
+      content: "Wir unterstützen das Rendern von mehr als 180 gängigen Datei‑ und Dokumentformaten, darunter [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), die OpenDocument‑Formate, Archive, Raster‑ und Vektorbilder, E‑Books, Programmiersprachen und Markups sowie zahlreiche weitere Dateitypen, einschließlich passwortgeschützter, verschlüsselter Dateien."
 
     # feature loop
     - title: "Anpassbare Ausgabe"
@@ -196,47 +196,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Dokumente in HTML anzeigen"
+      title: "[Dokumente in HTML anzeigen](https://docs.groupdocs.com/viewer/java/rendering-to-html/)"
       content: "Konvertieren Sie Dokumente jeglicher Art mit CSS und SVG in ein HTML-Dokument, das in jedem modernen Webbrowser angezeigt werden kann."
 
     # feature loop
     - icon: "rasterize"
-      title: "Dokumente rastern"
+      title: "[Dokumente rastern](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/)"
       content: "Rastern Sie jedes unterstützte Dokumentformat in ein Rasterbild, mit anpassbarem Bildformat und Komprimierungsqualität."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Programmiercodes rendern und hervorheben"
-      content: "Unterstützung aller gängigen Programmier-, Skript- und Auszeichnungssprachen mit der Möglichkeit, deren Syntax zu analysieren und hervorzuheben."
+    - icon: "font"
+      title: "[Steuerung von Dokumentschriftarten](https://docs.groupdocs.com/viewer/java/set-custom-fonts/)"
+      content: "Ermitteln Sie, welche Schriftarten in einem Dokument verwendet werden. Verwalten Sie fehlende Schriftarten, indem Sie sie ersetzen oder von der Ausgabe ausschließen."
 
     # feature loop
     - icon: "convertpdf"
-      title: "In PDF konvertieren"
+      title: "[In PDF konvertieren](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/)"
       content: "Dokumente in jedem unterstützten Format können mit anpassbaren Optionen einfach konvertiert und im PDF-Format gespeichert werden."
 
     # feature loop
     - icon: "transform"
-      title: "Wenden Sie Transformationen an"
+      title: "[Wenden Sie Transformationen an](https://docs.groupdocs.com/viewer/java/flip-or-rotate-pages/)"
       content: "Das Ausgabedokument kann während des Renderns transformiert werden – Seiten können gedreht und/oder neu angeordnet werden und Textwasserzeichen können darüber platziert werden."
 
     # feature loop
     - icon: "adjustment"
-      title: "Anpassung der HTML-Ausgabe"
+      title: "[Anpassung der HTML-Ausgabe](https://docs.groupdocs.com/viewer/java/rendering-to-html/)"
       content: "Ausgabe-HTML-Dokumente, die vom GroupDocs.Viewer generiert werden, können sehr fein abgestimmt werden: Sie können im Stream oder in der Datei gespeichert werden, mit externen oder eingebetteten Ressourcen, Rückrufen usw."
 
     # feature loop
     - icon: "complex"
-      title: "Unterstützung komplexer Dokumentenstrukturen"
+      title: "[Unterstützung komplexer Dokumentenstrukturen](https://blog.groupdocs.com/viewer/view-files-and-folders-in-zip-and-tar-archives-using-java-api/)"
       content: "GroupDocs.Viewer unterstützt nicht nur einzelne Dokumente, sondern auch Dateien, die intern eine Liste oder hierarchische Struktur von Dokumenten enthalten, wie E-Mail-Nachrichten mit Anhängen, ZIP-Archive mit internen Dateien in Ordnern, mehrseitige TIFF-Bilder usw."
 
     # feature loop
     - icon: "optimization"
-      title: "Optimierungsmöglichkeiten"
+      title: "[Optimierungsmöglichkeiten](https://docs.groupdocs.com/viewer/java/how-to-use-custom-cache-implementation/)"
       content: "GroupDocs.Viewer enthält ein anpassbares Cache-Subsystem, das die Ladezeit durch die Verwendung der zwischengespeicherten Versionen der Dokumente verkürzen kann. Außerdem ermöglicht eine Reihe verschiedener Optionen für verschiedene Formate, einige unnötige Teile oder Aspekte von Dokumenten aus der Darstellung auszuschließen (Schriftarten, ausgeblendete Arbeitsblätter, E-Mail-Anhänge), um die Gesamtleistung zu optimieren"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Unterstützung passwortgeschützter Dokumente"
+      title: "[Unterstützung passwortgeschützter Dokumente](https://docs.groupdocs.com/viewer/java/load-password-protected-document/)"
       content: "GroupDocs.Viewer ermöglicht das Öffnen verschlüsselter Dokumente verschiedener Typen: PDF, WordProcessing, Tabellenkalkulation, Präsentation und andere, indem in den Ladeoptionen ein Passwort angegeben wird."
 
 ############################# Code samples ############################

@@ -78,11 +78,11 @@ overview:
   features:
     # feature loop
     - title: "ドキュメントを効率的かつ確実に表示する"
-      content: "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを HTML、JPEG、PNG、PDF に効率的にレンダリングできます。 Node.js 用の GroupDocs.Viewer は、Windows および Linux プラットフォームで動作します。"
+      content: "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)、JPEG、PNG、[PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) に効率的にレンダリングできます。 Node.js 用の GroupDocs.Viewer は、Windows および Linux プラットフォームで動作します。"
 
     # feature loop
     - title: "最も一般的なファイルおよびドキュメント形式がサポートされています"
-      content: "Word、Excel、PDF、PowerPoint、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。"
+      content: "[Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/)、[PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/)、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。"
 
     # feature loop
     - title: "カスタマイズ可能な出力"
@@ -176,47 +176,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "HTML でドキュメントを表示する"
+      title: "[HTML でドキュメントを表示する](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)"
       content: "CSS と SVG を使用して、あらゆる種類のドキュメントを HTML ドキュメントに変換し、最新の Web ブラウザで表示できます。"
 
     # feature loop
     - icon: "rasterize"
-      title: "ドキュメントをラスタライズする"
+      title: "[ドキュメントをラスタライズする](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToImage/renderToJpg.js)"
       content: "サポート可能なドキュメント形式をラスター画像にラスター化し、画像形式と圧縮品質を調整できます。"
 
     # feature loop
-    - icon: "sourcecode"
-      title: "プログラミング コードのレンダリングとハイライト表示"
-      content: "すべての一般的なプログラミング、スクリプト、マークアップ言語をサポートし、構文を解析して強調表示する機能を備えています。"
+    - icon: "font"
+      title: "[文書フォントの制御](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/replaceMissingFont.js)"
+      content: "文書で使用されているフォントを特定します。欠落しているフォントは、置換するか出力から除外することで管理できます。"
 
     # feature loop
     - icon: "convertpdf"
-      title: "PDFに変換"
+      title: "[PDFに変換](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)"
       content: "サポート可能な形式のドキュメントは、調整可能なオプションを使用して簡単に PDF に変換して保存できます。"
 
     # feature loop
     - icon: "transform"
-      title: "変換を適用する"
+      title: "[変換を適用する](https://docs.groupdocs.com/viewer/nodejs-java/add-text-watermark/)"
       content: "出力ドキュメントはレンダリング中に変換できます。ページは回転および/または再配置でき、テキストの透かしをその上に配置できます。"
 
     # feature loop
     - icon: "adjustment"
-      title: "HTML出力調整"
+      title: "[HTML出力調整](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToHtmlWithExternalResources.js)"
       content: "GroupDocs.Viewer によって生成される出力 HTML ドキュメントは、非常に細かく調整できます。外部リソースまたは埋め込みリソース、コールバックなどを使用して、ストリームまたはファイルに保存できます。"
 
     # feature loop
     - icon: "complex"
-      title: "複雑な文書構造のサポート"
+      title: "[複雑な文書構造のサポート](https://docs.groupdocs.com/viewer/nodejs-java/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer は、単一のドキュメントだけでなく、添付ファイル付きの電子メール メッセージ、フォルダー内の内部ファイルを含む ZIP アーカイブ、複数ページの TIFF 画像など、ドキュメントのリストまたは階層構造を内部に含むファイルもサポートします。"
 
     # feature loop
     - icon: "optimization"
-      title: "最適化オプション"
+      title: "[最適化オプション](https://docs.groupdocs.com/viewer/nodejs-java/caching-results/)"
       content: "GroupDocs.Viewer には、ドキュメントのキャッシュされたバージョンを使用することで読み込み時間を短縮できる、調整可能なキャッシュ サブシステムが含まれています。また、さまざまな形式に対応するさまざまなオプションのセットにより、ドキュメントの一部の不必要な部分や側面 (フォント、非表示のワークシート、電子メールの添付ファイル) をレンダリングから除外して、全体的なパフォーマンスを最適化することができます。"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "パスワードで保護されたドキュメントのサポート"
+      title: "[パスワードで保護されたドキュメントのサポート](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Loading/loadPasswordProtectedDocument.js)"
       content: "GroupDocs.Viewer を使用すると、読み込みオプションでパスワードを指定することで、PDF、WordProcessing、スプレッドシート、プレゼンテーションなど、さまざまな種類の暗号化されたドキュメントを開くことができます。"
 
 ############################# Code samples ############################

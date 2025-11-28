@@ -79,11 +79,11 @@ overview:
   features:
     # feature loop
     - title: "高效可靠地查看文档"
-      content: "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer支持.NET Framework 4.6.2和.NET 6.0，它可以在Windows和Linux平台上运行。"
+      content: "使用 GroupDocs.Viewer API，您可以高效地将任何受支持格式的文档渲染为 [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/)、[JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)、以及 [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) ，具备灵活且功能强大的选项，同时保持内容与文档结构完整。GroupDocs.Viewer 支持 .NET Framework 4.6.2 与 .NET 6.0，兼容 Windows 与 Linux 平台。"
 
     # feature loop
     - title: "支持最流行的文件和文档格式"
-      content: "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。"
+      content: "我们支持渲染超过 180 种主流文件和文档格式，包括 [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/)、[Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/)、[PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)、OpenDocument 系列、压缩包、光栅与矢量图像、电子书、编程语言及标记等，并可处理受密码保护的加密文件。"
 
     # feature loop
     - title: "可定制的输出"
@@ -198,47 +198,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "查看 HTML 格式的文档"
+      title: "[查看 HTML 格式的文档](https://blog.groupdocs.com/viewer/view-word-documents-as-html-responsive-page-using-csharp/)"
       content: "使用 CSS 和 SVG 将任何类型的文档转换为 HTML 文档，可以在任何现代网络浏览器中显示。"
 
     # feature loop
     - icon: "rasterize"
-      title: "光栅化文档"
+      title: "[光栅化文档](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)"
       content: "将任何支持的文档格式光栅化为光栅图像，并具有可调整的图像格式和压缩质量。"
 
     # feature loop
-    - icon: "sourcecode"
-      title: "渲染并突出显示编程代码"
-      content: "支持所有流行的编程、脚本和标记语言，能够解析和突出显示其语法。"
+    - icon: "font"
+      title: "[控制文档字体](https://blog.groupdocs.com/viewer/working-with-fonts/)"
+      content: "识别文档中使用的字体。通过替换或从输出中排除来处理缺失的字体。"
 
     # feature loop
     - icon: "convertpdf"
-      title: "转换为 PDF"
+      title: "[转换为 PDF](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)"
       content: "任何支持格式的文档都可以通过可调整的选项轻松转换并保存为 PDF。"
 
     # feature loop
     - icon: "transform"
-      title: "应用转换"
+      title: "[应用转换](https://blog.groupdocs.com/viewer/protect-your-documents-with-watermarks-in-groupdocs-viewer-for-dot-net/)"
       content: "输出文档可以在渲染过程中进行转换 - 页面可以旋转和/或重新排列，并且文本水印可以放置在它们的顶部。"
 
     # feature loop
     - icon: "adjustment"
-      title: "HTML 输出调整"
+      title: "[HTML 输出调整](https://blog.groupdocs.com/viewer/render-word-documents-as-clean-html-using-csharp/)"
       content: "由 GroupDocs.Viewer 生成的输出 HTML 文档可以进行非常精细的调整：允许使用外部或嵌入资源、回调等保存到流或文件。"
 
     # feature loop
     - icon: "complex"
-      title: "支持复杂的文档结构"
+      title: "[支持复杂的文档结构](https://blog.groupdocs.com/viewer/process-microsoft-outlook-email-attachments-in-a-.net-viewer-application/)"
       content: "GroupDocs.Viewer 不仅支持单个文档，还支持内部包含文档列表或层次结构的文件，例如带有附件的电子邮件、文件夹内带有内部文件的 ZIP 存档、多页 TIFF 图像等。"
 
     # feature loop
     - icon: "optimization"
-      title: "优化选项"
+      title: "[优化选项](https://blog.groupdocs.com/viewer/exclude-specific-fonts-from-output-html-using-groupdocs.viewer-for-.net-18.10/)"
       content: "GroupDocs.Viewer 包含一个可调整的缓存子系统，它可以通过使用文档的缓存版本来缩短加载时间。此外，针对不同格式的一组不同选项允许从渲染中排除文档的一些不必要的部分或方面（字体、隐藏的工作表、电子邮件附件），以优化整体性能"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "支持受密码保护的文档"
+      title: "[支持受密码保护的文档](https://docs.groupdocs.com/viewer/net/load-password-protected-document/)"
       content: "GroupDocs.Viewer 允许通过在加载选项中指定密码来打开不同类型的加密文档：PDF、WordProcessing、电子表格、演示文稿等。"
 
 ############################# Code samples ############################

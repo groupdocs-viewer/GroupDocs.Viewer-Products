@@ -78,11 +78,11 @@ overview:
   features:
     # feature loop
     - title: "Просматривайте документы эффективно и надежно"
-      content: "С помощью API GroupDocs.Viewer вы можете эффективно отображать документы любых поддерживаемых форматов в HTML, JPEG, PNG и PDF с помощью гибких и мощных функций, сохраняя при этом целостность содержимого и структуры документа. GroupDocs.Viewer для Node.js работает на платформах Windows и Linux."
+      content: "С помощью API GroupDocs.Viewer вы можете эффективно рендерить документы любых поддерживаемых форматов в [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/), JPEG, PNG и [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) с гибкими и мощными параметрами, сохраняющими целостность содержимого и структуры документа. GroupDocs.Viewer for Node.js работает в Windows и Linux."
 
     # feature loop
     - title: "Поддерживаются большинство популярных форматов файлов и документов."
-      content: "Мы поддерживаем рендеринг более 180 наиболее популярных форматов файлов и документов, включая Word, Excel, PDF, PowerPoint, семейство форматов OpenDocument, архивы, растровые и векторные изображения, электронные книги, языки программирования и разметки, а также многие другие типы файлов, включая зашифрованные. файлы с защитой паролем."
+      content: "Мы поддерживаем рендеринг более 180 самых популярных форматов файлов и документов, включая [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/), семейство форматов OpenDocument, архивы, растровые и векторные изображения, электронные книги, языки программирования и разметки, а также множество других типов файлов, в том числе зашифрованные файлы с паролем."
 
     # feature loop
     - title: "Настраиваемый вывод"
@@ -176,47 +176,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Просмотр документов в формате HTML"
+      title: "[Просмотр документов в формате HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)"
       content: "Конвертируйте документ любого типа в документ HTML с помощью CSS и SVG, который можно отобразить в любом современном веб-браузере."
 
     # feature loop
     - icon: "rasterize"
-      title: "Растеризация документов"
+      title: "[Растеризация документов](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToImage/renderToJpg.js)"
       content: "Преобразуйте любой поддерживаемый формат документа в растровое изображение с настраиваемым форматом изображения и качеством сжатия."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Рендеринг и выделение программных кодов"
-      content: "Поддержка всех популярных языков программирования, сценариев и разметки с возможностью анализа и выделения их синтаксиса."
+    - icon: "font"
+      title: "[Управление шрифтами документа](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/replaceMissingFont.js)"
+      content: "Определяйте, какие шрифты использованы в документе. Управляйте отсутствующими шрифтами, заменяя их или исключая из вывода."
 
     # feature loop
     - icon: "convertpdf"
-      title: "Конвертировать в PDF"
+      title: "[Конвертировать в PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)"
       content: "Документ любого поддерживаемого формата можно легко преобразовать и сохранить в PDF с настраиваемыми параметрами."
 
     # feature loop
     - icon: "transform"
-      title: "Применить преобразования"
+      title: "[Применить преобразования](https://docs.groupdocs.com/viewer/nodejs-java/add-text-watermark/)"
       content: "Выходной документ можно трансформировать во время рендеринга — страницы можно поворачивать и/или переставлять, а поверх них можно размещать текстовый водяной знак."
 
     # feature loop
     - icon: "adjustment"
-      title: "Настройка вывода HTML"
+      title: "[Настройка вывода HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToHtmlWithExternalResources.js)"
       content: "Выходные HTML-документы, генерируемые GroupDocs.Viewer, можно очень тонко настроить: разрешено сохранение в поток или файл, с внешними или встроенными ресурсами, обратными вызовами и так далее."
 
     # feature loop
     - icon: "complex"
-      title: "Поддержка сложных структур документов"
+      title: "[Поддержка сложных структур документов](https://docs.groupdocs.com/viewer/nodejs-java/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer поддерживает не только отдельные документы, но и файлы, которые внутри содержат список или иерархическую структуру документов, например, сообщения электронной почты с вложениями, ZIP-архивы с внутренними файлами в папках, многостраничные изображения TIFF и т. д."
 
     # feature loop
     - icon: "optimization"
-      title: "Варианты оптимизации"
+      title: "[Варианты оптимизации](https://docs.groupdocs.com/viewer/nodejs-java/caching-results/)"
       content: "GroupDocs.Viewer содержит настраиваемую подсистему кэширования, которая может сократить время загрузки за счет использования кэшированных версий документов. Также набор различных опций для разных форматов позволяет исключить из рендеринга некоторые ненужные части или аспекты документов (шрифты, скрытые листы, вложения электронной почты) для оптимизации общей производительности."
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Поддержка документов, защищенных паролем"
+      title: "[Поддержка документов, защищенных паролем](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Loading/loadPasswordProtectedDocument.js)"
       content: "GroupDocs.Viewer позволяет открывать зашифрованные документы разных типов: PDF, WordProcessing, Spreadsheet, Presentation и другие, указав пароль в параметрах загрузки."
 
 ############################# Code samples ############################

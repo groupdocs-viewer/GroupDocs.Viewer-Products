@@ -78,11 +78,11 @@ overview:
   features:
     # feature loop
     - title: "Lihat dokumen secara efisien & andal"
-      content: "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer untuk Node.js berfungsi pada platform Windows dan Linux."
+      content: "Dengan API GroupDocs.Viewer, Anda dapat merender dokumen dalam semua format yang didukung ke [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/), JPEG, PNG, dan [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) dengan opsi yang fleksibel dan kuat, sambil menjaga integritas konten serta struktur dokumen. GroupDocs.Viewer untuk Node.js dapat dijalankan di platform Windows dan Linux."
 
     # feature loop
     - title: "Sebagian besar format file dan dokumen populer didukung"
-      content: "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi."
+      content: "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer, termasuk [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/), keluarga format OpenDocument, arsip, gambar raster dan vektor, e‑Book, bahasa pemrograman serta markup, dan banyak tipe file lainnya, termasuk file yang dienkripsi dengan proteksi kata sandi."
 
     # feature loop
     - title: "Keluaran yang dapat disesuaikan"
@@ -176,47 +176,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Lihat dokumen dalam HTML"
+      title: "[Lihat dokumen dalam HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)"
       content: "Ubah dokumen jenis apa pun menjadi dokumen HTML dengan CSS dan SVG, yang dapat ditampilkan di browser web modern mana pun."
 
     # feature loop
     - icon: "rasterize"
-      title: "Rasterisasi dokumen"
+      title: "[Rasterisasi dokumen](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToImage/renderToJpg.js)"
       content: "Rasterisasi format dokumen apa pun yang didukung ke gambar raster, dengan format gambar dan kualitas kompresi yang dapat disesuaikan."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Render dan sorot kode pemrograman"
-      content: "Dukungan untuk semua bahasa pemrograman, skrip, dan markup populer, dengan kemampuan untuk mengurai dan menyorot sintaksisnya."
+    - icon: "font"
+      title: "[Kontrol font dokumen](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Rendering/CommonRenderingOptions/replaceMissingFont.js)"
+      content: "Identifikasi font yang digunakan dalam dokumen. Kelola font yang hilang dengan menggantinya atau mengecualikannya dari output."
 
     # feature loop
     - icon: "convertpdf"
-      title: "Konversikan ke PDF"
+      title: "[Konversikan ke PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/)"
       content: "Dokumen format apa pun yang didukung dapat dengan mudah dikonversi dan disimpan ke PDF dengan opsi yang dapat disesuaikan."
 
     # feature loop
     - icon: "transform"
-      title: "Terapkan transformasi"
+      title: "[Terapkan transformasi](https://docs.groupdocs.com/viewer/nodejs-java/add-text-watermark/)"
       content: "Dokumen keluaran dapat diubah selama rendering - halaman dapat diputar dan/atau disusun ulang, dan tanda air teks dapat ditempatkan di atasnya."
 
     # feature loop
     - icon: "adjustment"
-      title: "Penyesuaian keluaran HTML"
+      title: "[Penyesuaian keluaran HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/BasicUsage/RenderDocumentToHtml/renderToHtmlWithExternalResources.js)"
       content: "Dokumen HTML keluaran, yang dihasilkan oleh GroupDocs.Viewer, dapat disetel dengan sangat baik: diperbolehkan untuk menyimpan ke aliran atau file, dengan sumber daya eksternal atau tertanam, panggilan balik, dan sebagainya."
 
     # feature loop
     - icon: "complex"
-      title: "Dukungan struktur dokumen yang kompleks"
+      title: "[Dukungan struktur dokumen yang kompleks](https://docs.groupdocs.com/viewer/nodejs-java/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer tidak hanya mendukung satu dokumen, tetapi juga file, yang secara internal berisi daftar atau struktur hierarki dokumen, seperti pesan email dengan lampiran, arsip ZIP dengan file internal di dalam folder, gambar TIFF multi-halaman, dan sebagainya."
 
     # feature loop
     - icon: "optimization"
-      title: "Opsi pengoptimalan"
+      title: "[Opsi pengoptimalan](https://docs.groupdocs.com/viewer/nodejs-java/caching-results/)"
       content: "GroupDocs.Viewer berisi subsistem cache yang dapat disesuaikan, yang dapat mempercepat waktu pemuatan dengan menggunakan versi dokumen yang di-cache. Juga serangkaian opsi berbeda untuk format berbeda memungkinkan untuk mengecualikan beberapa bagian atau aspek dokumen yang tidak diperlukan dari rendering (font, lembar kerja tersembunyi, lampiran email) untuk mengoptimalkan kinerja keseluruhan"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Dukungan dokumen yang dilindungi kata sandi"
+      title: "[Dukungan dokumen yang dilindungi kata sandi](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java/blob/master/Examples/AdvancedUsage/Loading/loadPasswordProtectedDocument.js)"
       content: "GroupDocs.Viewer memungkinkan untuk membuka dokumen terenkripsi dari berbagai jenis: PDF, WordProcessing, Spreadsheet, Presentasi, dan lainnya, dengan menentukan kata sandi dalam opsi pemuatan."
 
 ############################# Code samples ############################

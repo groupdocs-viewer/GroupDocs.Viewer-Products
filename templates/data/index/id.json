@@ -125,8 +125,8 @@
       "feature1_content": "Ubah dokumen jenis apa pun menjadi dokumen HTML dengan CSS dan SVG, yang dapat ditampilkan di browser web modern mana pun.",
       "feature2_title": "Rasterisasi dokumen",
       "feature2_content": "Rasterisasi format dokumen apa pun yang didukung ke gambar raster, dengan format gambar dan kualitas kompresi yang dapat disesuaikan.",
-      "feature3_title": "Render dan sorot kode pemrograman",
-      "feature3_content": "Dukungan untuk semua bahasa pemrograman, skrip, dan markup populer, dengan kemampuan untuk mengurai dan menyorot sintaksisnya.",
+      "feature3_title": "Kontrol font dokumen",
+      "feature3_content": "Identifikasi font yang digunakan dalam dokumen. Kelola font yang hilang dengan menggantinya atau mengecualikannya dari output.",
       "feature4_title": "Konversikan ke PDF",
       "feature4_content": "Dokumen format apa pun yang didukung dapat dengan mudah dikonversi dan disimpan ke PDF dengan opsi yang dapat disesuaikan.",
       "feature5_title": "Terapkan transformasi",
@@ -161,9 +161,9 @@
     "overview_description": "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi .NET",
     "overview_features": {
       "feature1_title": "Lihat dokumen secara efisien & andal",
-      "feature1_content": "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer mendukung .NET Framework 4.6.2 dan .NET 6.0, berfungsi pada platform Windows dan Linux.",
+      "feature1_content": "Dengan API GroupDocs.Viewer, Anda dapat merender dokumen dalam semua format yang didukung ke [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/), dan [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) dengan opsi yang fleksibel dan kuat, sambil menjaga integritas konten serta struktur dokumen. GroupDocs.Viewer mendukung .NET Framework 4.6.2 dan .NET 6.0, serta dapat dijalankan di platform Windows dan Linux.",
       "feature2_title": "Sebagian besar format file dan dokumen populer didukung",
-      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi.",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer, termasuk [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/), [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), keluarga format OpenDocument, arsip, gambar raster dan vektor, e‑Book, bahasa pemrograman serta markup, dan banyak tipe file lainnya, termasuk file yang dienkripsi dengan proteksi kata sandi.",
       "feature3_title": "Keluaran yang dapat disesuaikan",
       "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender.",
       "feature4_title": "UI untuk ASP.NET Inti",
@@ -214,9 +214,9 @@
     "overview_description": "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi Java",
     "overview_features": {
       "feature1_title": "Lihat dokumen secara efisien & andal",
-      "feature1_content": "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer berfungsi pada platform Windows dan Linux.",
+      "feature1_content": "Dengan API GroupDocs.Viewer, Anda dapat merender dokumen dalam semua format yang didukung ke [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/), dan [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) dengan opsi yang fleksibel dan kuat, sambil menjaga integritas konten serta struktur dokumen. GroupDocs.Viewer dapat dijalankan di platform Windows dan Linux.",
       "feature2_title": "Sebagian besar format file dan dokumen populer didukung",
-      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi.",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer, termasuk [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), keluarga format OpenDocument, arsip, gambar raster dan vektor, e‑Book, bahasa pemrograman serta markup, dan banyak tipe file lainnya, termasuk file yang dienkripsi dengan proteksi kata sandi.",
       "feature3_title": "Keluaran yang dapat disesuaikan",
       "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender.",
       "feature4_title": "UI Web untuk kerangka Spring",
@@ -258,9 +258,9 @@
     "overview_description": "API untuk merender, menampilkan, mengonversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya di aplikasi Node.js",
     "overview_features": {
       "feature1_title": "Lihat dokumen secara efisien & andal",
-      "feature1_content": "Dengan GroupDocs.Viewer API Anda dapat secara efisien merender dokumen dari format apa pun yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat dengan tetap menjaga integritas konten dan struktur dokumen. GroupDocs.Viewer untuk Node.js berfungsi pada platform Windows dan Linux.",
+      "feature1_content": "Dengan API GroupDocs.Viewer, Anda dapat merender dokumen dalam semua format yang didukung ke [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/), JPEG, PNG, dan [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) dengan opsi yang fleksibel dan kuat, sambil menjaga integritas konten serta struktur dokumen. GroupDocs.Viewer untuk Node.js dapat dijalankan di platform Windows dan Linux.",
       "feature2_title": "Sebagian besar format file dan dokumen populer didukung",
-      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer yang mencakup Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, gambar Raster dan Vektor, e-Book, bahasa pemrograman dan markup, dan banyak jenis file lainnya, termasuk terenkripsi file dengan perlindungan kata sandi.",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer, termasuk [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/), keluarga format OpenDocument, arsip, gambar raster dan vektor, e‑Book, bahasa pemrograman serta markup, dan banyak tipe file lainnya, termasuk file yang dienkripsi dengan proteksi kata sandi.",
       "feature3_title": "Keluaran yang dapat disesuaikan",
       "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk merender dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian dokumen mana yang harus dirender atau sekarang, bagaimana harus dirender, dan untuk menerapkan transformasi berbeda pada keluaran yang dirender."
     },
@@ -300,9 +300,9 @@
     "overview_description": "API untuk rendering, tampilan, dan konversi dokumen, slide, diagram, dan banyak jenis dokumen lainnya dalam aplikasi Python",
     "overview_features": {
       "feature1_title": "Lihat dokumen secara efisien dan andal",
-      "feature1_content": "Dengan GroupDocs.Viewer API, Anda dapat dengan efisien membuat rendering dokumen dari semua format yang didukung ke HTML, JPEG, PNG, dan PDF dengan opsi yang fleksibel dan kuat, sambil mempertahankan integritas konten dan struktur dokumen. GroupDocs.Viewer untuk Python berfungsi pada platform Windows dan Linux.",
+      "feature1_content": "Dengan API GroupDocs.Viewer, Anda dapat merender dokumen dalam semua format yang didukung ke [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/), JPEG, PNG, dan [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) dengan opsi yang fleksibel dan kuat, sambil menjaga integritas konten serta struktur dokumen. GroupDocs.Viewer untuk Python dapat dijalankan di platform Windows dan Linux.",
       "feature2_title": "Mendukung sebagian besar format file dan dokumen umum",
-      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen yang paling populer, termasuk Word, Excel, PDF, PowerPoint, keluarga format OpenDocument, Arsip, Gambar Raster dan Vektor, eBook, bahasa pemrograman dan markup, dan banyak lagi jenis file lainnya, termasuk file terenkripsi dengan perlindungan kata sandi.",
+      "feature2_content": "Kami mendukung rendering lebih dari 180 format file dan dokumen paling populer, termasuk [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/), [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/), keluarga format OpenDocument, arsip, gambar raster dan vektor, e‑Book, bahasa pemrograman serta markup, dan banyak tipe file lainnya, termasuk file yang dienkripsi dengan proteksi kata sandi.",
       "feature3_title": "Keluaran yang Dapat Dikustomisasi",
       "feature3_content": "GroupDocs.Viewer memungkinkan tidak hanya untuk membuat rendering dokumen, tetapi juga untuk mengontrol bagaimana tepatnya, bagian mana dari dokumen yang harus dirender atau tidak, bagaimana mereka harus dirender, dan menerapkan transformasi yang berbeda ke keluaran yang dirender."
     },

@@ -80,11 +80,11 @@ overview:
   features:
     # feature loop
     - title: "Hiển thị tài liệu hiệu quả và đáng tin cậy"
-      content: "Với GroupDocs.Viewer API, bạn có thể hiển thị hiệu quả các tài liệu của bất kỳ định dạng được hỗ trợ nào sang HTML, JPEG, PNG và PDF với các tùy chọn linh hoạt và mạnh mẽ, duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer cho Python hoạt động trên các nền tảng Windows và Linux."
+      content: "Với API GroupDocs.Viewer, bạn có thể nhanh chóng chuyển đổi tài liệu ở bất kỳ định dạng nào hỗ trợ sang [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/), JPEG, PNG, và [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) với các tùy chọn linh hoạt và mạnh mẽ, đồng thời duy trì tính toàn vẹn của nội dung và cấu trúc tài liệu. GroupDocs.Viewer cho Python hoạt động trên nền tảng Windows và Linux."
 
     # feature loop
     - title: "Hỗ trợ hầu hết các định dạng tệp và tài liệu phổ biến"
-      content: "Chúng tôi hỗ trợ hiển thị hơn 180 định dạng tệp và tài liệu phổ biến nhất, bao gồm Word, Excel, PDF, PowerPoint, họ định dạng OpenDocument, αρχεία (archive), hình ảnh raster và vector, sách điện tử, ngôn ngữ lập trình và đánh dấu và nhiều loại tệp khác, bao gồm các tệp được mã hóa với bảo vệ bằng mật khẩu."
+      content: "Chúng tôi hỗ trợ chuyển đổi hơn 180 định dạng tệp và tài liệu phổ biến, bao gồm [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/), [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/), họ định dạng OpenDocument, các tệp lưu trữ, hình ảnh raster và vector, sách điện tử, ngôn ngữ lập trình và markup, cùng nhiều loại tệp khác, bao gồm cả tệp được mã hóa bằng mật khẩu."
 
     # feature loop
     - title: "Đầu ra có thể tùy chỉnh"
@@ -178,47 +178,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Xem tài liệu bằng HTML"
+      title: "[Xem tài liệu bằng HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)"
       content: "Chuyển đổi bất kỳ loại tài liệu nào thành tài liệu HTML bằng CSS và SVG, có thể được hiển thị trong bất kỳ trình duyệt web hiện đại nào."
 
     # feature loop
     - icon: "rasterize"
-      title: "Rasterize tài liệu"
+      title: "[Rasterize tài liệu](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)"
       content: "Rasterize bất kỳ định dạng tài liệu nào có thể hỗ trợ thành hình ảnh raster, với định dạng hình ảnh có thể điều chỉnh và chất lượng nén."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Hiển thị và đánh dấu mã lập trình"
-      content: "Hỗ trợ tất cả các ngôn ngữ lập trình, viết kịch bản và đánh dấu phổ biến, với khả năng phân tích cú pháp và làm nổi bật cú pháp của chúng."
+    - icon: "font"
+      title: "[Kiểm soát phông chữ tài liệu](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)"
+      content: "Xác định các phông chữ được sử dụng trong tài liệu. Quản lý phông chữ thiếu bằng cách thay thế hoặc loại bỏ chúng khỏi đầu ra."
 
     # feature loop
     - icon: "convertpdf"
-      title: "Chuyển đổi sang PDF"
+      title: "[Chuyển đổi sang PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)"
       content: "Tài liệu ở bất kỳ định dạng hỗ trợ nào đều có thể dễ dàng chuyển đổi và lưu thành PDF với các tùy chọn có thể điều chỉnh."
 
     # feature loop
     - icon: "transform"
-      title: "Áp dụng các phép biến đổi"
+      title: "[Áp dụng các phép biến đổi](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)"
       content: "Tài liệu đầu ra có thể được chuyển đổi trong quá trình hiển thị - các trang có thể được xoay và/hoặc sắp xếp lại và hình mờ văn bản có thể được đặt trên chúng."
 
     # feature loop
     - icon: "adjustment"
-      title: "Điều chỉnh đầu ra HTML"
+      title: "[Điều chỉnh đầu ra HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)"
       content: "Các tài liệu HTML đầu ra do GroupDocs.Viewer tạo ra có thể được điều chỉnh rất tinh vi: nó được phép lưu vào luồng hoặc tệp, với các tài nguyên bên ngoài hoặc được nhúng, lệnh gọi lại, v.v."
 
     # feature loop
     - icon: "complex"
-      title: "Hỗ trợ cấu trúc tài liệu phức tạp"
+      title: "[Hỗ trợ cấu trúc tài liệu phức tạp](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer không chỉ hỗ trợ các tài liệu đơn lẻ mà còn hỗ trợ các tệp chứa danh sách hoặc cấu trúc phân cấp của tài liệu, như email có tệp đính kèm, kho lưu trữ ZIP với các tệp nội bộ trong thư mục, hình ảnh TIFF nhiều trang, v.v."
 
     # feature loop
     - icon: "optimization"
-      title: "Tùy chọn tối ưu hóa"
+      title: "[Tùy chọn tối ưu hóa](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
       content: "GroupDocs.Viewer chứa một hệ thống con bộ nhớ đệm có thể điều chỉnh, hệ thống này có thể rút ngắn thời gian tải bằng cách sử dụng các phiên bản tài liệu được lưu trong bộ nhớ đệm. Ngoài ra, một tập hợp các tùy chọn khác nhau cho các định dạng khác nhau cho phép loại trừ một số phần hoặc khía cạnh không cần thiết của tài liệu khỏi quá trình hiển thị (phông chữ, bảng tính ẩn, tệp đính kèm email) để tối ưu hóa hiệu suất tổng thể"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Hỗ trợ các tài liệu được bảo vệ bằng mật khẩu"
+      title: "[Hỗ trợ các tài liệu được bảo vệ bằng mật khẩu](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)"
       content: "GroupDocs.Viewer cho phép mở các tài liệu được mã hóa thuộc nhiều loại khác nhau: PDF, WordProcessing, Bảng tính, Bản trình bày và các loại khác bằng cách chỉ định mật khẩu trong các tùy chọn tải."
 
 ############################# Code samples ############################

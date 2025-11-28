@@ -80,11 +80,11 @@ overview:
   features:
     # feature loop
     - title: "ดูเอกสารอย่างมีประสิทธิภาพและเชื่อถือได้"
-      content: "ด้วย GroupDocs.Viewer API คุณสามารถเรนเดอร์เอกสารทุกรูปแบบที่รองรับเป็น HTML, JPEG, PNG และ PDF ได้อย่างมีประสิทธิภาพด้วยตัวเลือกที่ยืดหยุ่นและทรงพลัง ช่วยรักษาความสมบูรณ์ของเนื้อหาและโครงสร้างของเอกสาร GroupDocs.Viewer สำหรับ Python ทำงานบนแพลตฟอร์ม Windows และ Linux"
+      content: "ด้วย GroupDocs.Viewer API คุณสามารถแสดงผลเอกสารในรูปแบบที่รองรับทั้งหมดเป็น [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/), JPEG, PNG, และ [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) ด้วยตัวเลือกที่ยืดหยุ่นและทรงพลัง ขณะเดียวกันคงรักษาเนื้อหาและโครงสร้างของเอกสารไว้ครบถ้วน GroupDocs.Viewer for Python ทำงานบนแพลตฟอร์ม Windows และ Linux"
 
     # feature loop
     - title: "รองรับรูปแบบไฟล์และเอกสารส่วนใหญ่ที่นิยมใช้"
-      content: "รองรับการเรนเดอร์รูปแบบไฟล์และเอกสารมากกว่า 180 รูปแบบที่นิยมใช้มากที่สุด รวมถึง Word, Excel, PDF, PowerPoint, กลุ่มรูปแบบ OpenDocument, ไฟล์เก็บถาวร, รูปภาพแบบแรสเตอร์และเวกเตอร์, อีบุ๊ก, ภาษาโปรแกรมและมาร์กอัป และไฟล์ประเภทอื่นๆ อีกมากมาย รวมถึงไฟล์ที่เข้ารหัสด้วยการป้องกันด้วยรหัสผ่าน"
+      content: "เรารองรับการแสดงผลไฟล์และเอกสารกว่า 180 รูปแบบที่นิยมที่สุด ซึ่งรวมถึง [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/), [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/), ครอบครัวรูปแบบ OpenDocument, ไฟล์บีบอัด, ภาพแรสเตอร์และเวกเตอร์, e‑Books, ภาษาโปรแกรมและมาร์กอัป, รวมถึงไฟล์ที่เข้ารหัสด้วยการป้องกันด้วยรหัสผ่าน"
 
     # feature loop
     - title: "เอาต์พุตที่กำหนดเองได้"
@@ -178,47 +178,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "ดูเอกสารในรูปแบบ HTML"
+      title: "[ดูเอกสารในรูปแบบ HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)"
       content: "แปลงเอกสารทุกประเภทให้เป็นเอกสาร HTML ด้วย CSS และ SVG ซึ่งสามารถแสดงในเว็บเบราว์เซอร์สมัยใหม่"
 
     # feature loop
     - icon: "rasterize"
-      title: "แปลงเอกสารเป็นแรสเตอร์"
+      title: "[แปลงเอกสารเป็นแรสเตอร์](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)"
       content: "แรสเตอร์รูปแบบเอกสารที่รองรับให้เป็นภาพแรสเตอร์ พร้อมรูปแบบภาพที่ปรับได้และคุณภาพการบีบอัด"
 
     # feature loop
-    - icon: "sourcecode"
-      title: "เรนเดอร์และไฮไลต์โค้ดโปรแกรม"
-      content: "รองรับการเขียนโปรแกรม สคริปต์ และภาษามาร์กอัปยอดนิยมทั้งหมด พร้อมความสามารถในการแยกวิเคราะห์และเน้นไวยากรณ์ของภาษาเหล่านั้น"
+    - icon: "font"
+      title: "[ควบคุมแบบอักษรเอกสาร](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)"
+      content: "ระบุแบบอักษรที่ใช้ในเอกสาร จัดการแบบอักษรที่หายไปโดยการแทนที่หรือคัดออกจากผลลัพธ์"
 
     # feature loop
     - icon: "convertpdf"
-      title: "แปลงเป็น PDF"
+      title: "[แปลงเป็น PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)"
       content: "เอกสารในรูปแบบที่รองรับสามารถแปลงและบันทึกเป็น PDF ได้อย่างง่ายดายพร้อมตัวเลือกที่ปรับได้"
 
     # feature loop
     - icon: "transform"
-      title: "ใช้การแปลง"
+      title: "[ใช้การแปลง](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)"
       content: "เอกสารเอาต์พุตสามารถแปลงได้ในระหว่างการเรนเดอร์ - สามารถหมุนหน้าและ/หรือจัดเรียงหน้าใหม่ได้ และอาจวางลายน้ำข้อความไว้บนหน้าเหล่านั้นได้"
 
     # feature loop
     - icon: "adjustment"
-      title: "การปรับเอาต์พุต HTML"
+      title: "[การปรับเอาต์พุต HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)"
       content: "เอกสาร HTML เอาท์พุตที่สร้างโดย GroupDocs.Viewer สามารถปรับแต่งได้อย่างละเอียด: อนุญาตให้บันทึกลงในสตรีมหรือไฟล์ด้วยทรัพยากรภายนอกหรือแบบฝัง การเรียกกลับ และอื่นๆ"
 
     # feature loop
     - icon: "complex"
-      title: "รองรับโครงสร้างเอกสารที่ซับซ้อน"
+      title: "[รองรับโครงสร้างเอกสารที่ซับซ้อน](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer รองรับไม่เพียงแต่เอกสารเดียวเท่านั้น แต่ยังรวมถึงไฟล์ต่างๆ ที่ภายในประกอบด้วยรายการหรือโครงสร้างลำดับชั้นของเอกสาร เช่น ข้อความอีเมลพร้อมไฟล์แนบ ไฟล์ ZIP ที่มีไฟล์ภายในภายในโฟลเดอร์ รูปภาพ TIFF แบบหลายหน้า และอื่นๆ"
 
     # feature loop
     - icon: "optimization"
-      title: "ตัวเลือกการเพิ่มประสิทธิภาพ"
+      title: "[ตัวเลือกการเพิ่มประสิทธิภาพ](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
       content: "GroupDocs.Viewer มีระบบย่อยแคชที่ปรับได้ ซึ่งสามารถเร่งเวลาการโหลดให้เร็วขึ้นได้โดยใช้เอกสารเวอร์ชันแคช นอกจากนี้ ชุดของตัวเลือกที่แตกต่างกันสำหรับรูปแบบที่แตกต่างกันยังช่วยแยกส่วนหรือลักษณะที่ไม่จำเป็นของเอกสารออกจากการเรนเดอร์ (แบบอักษร แผ่นงานที่ซ่อน ไฟล์แนบในอีเมล) เพื่อเพิ่มประสิทธิภาพโดยรวม"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "รองรับเอกสารที่มีการป้องกันด้วยรหัสผ่าน"
+      title: "[รองรับเอกสารที่มีการป้องกันด้วยรหัสผ่าน](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)"
       content: "GroupDocs.Viewer อนุญาตให้เปิดเอกสารที่เข้ารหัสประเภทต่างๆ: PDF, WordProcessing, Spreadsheet, Presentation และอื่นๆ โดยระบุรหัสผ่านในตัวเลือกการโหลด"
 
 ############################# Code samples ############################

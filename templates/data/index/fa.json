@@ -125,8 +125,8 @@
       "feature1_content": "هر نوع سندی را با CSS و SVG به یک سند HTML تبدیل کنید، که می تواند در هر مرورگر وب مدرن نمایش داده شود.",
       "feature2_title": "اسناد را شطرنجی کنید",
       "feature2_content": "هر قالب سند قابل پشتیبانی را با فرمت تصویر قابل تنظیم و کیفیت فشرده سازی به تصویر شطرنجی تبدیل کنید.",
-      "feature3_title": "کدهای برنامه نویسی را رندر و برجسته کنید",
-      "feature3_content": "پشتیبانی از همه زبان‌های برنامه‌نویسی، اسکریپت‌نویسی و نشانه‌گذاری محبوب، با قابلیت تجزیه و برجسته کردن نحو آنها.",
+      "feature3_title": "کنترل فونت‌های سند",
+      "feature3_content": "فونت‌های استفاده شده در سند را شناسایی کنید. فونت‌های مفقود را با جایگزینی یا حذف از خروجی مدیریت کنید.",
       "feature4_title": "تبدیل به PDF",
       "feature4_content": "سند با هر فرمت قابل پشتیبانی را می توان به راحتی با گزینه های قابل تنظیم به PDF تبدیل و ذخیره کرد.",
       "feature5_title": "تغییرات را اعمال کنید",
@@ -161,9 +161,9 @@
     "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های NET",
     "overview_features": {
       "feature1_title": "اسناد را کارآمد و قابل اعتماد مشاهده کنید",
-      "feature1_content": "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer از .NET Framework 4.6.2 و .NET 6.0 پشتیبانی می کند، روی پلتفرم های ویندوز و لینوکس کار می کند.",
+      "feature1_content": "با استفاده از GroupDocs.Viewer API می‌توانید اسناد با هر قالب پشتیبانی‌شده را به‌صورت کارآمد به [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/)، [JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)، و [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) رندر کنید؛ این کار با گزینه‌های انعطاف‌پذیر و قدرتمند انجام می‌شود و محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer از .NET Framework 4.6.2 و .NET 6.0 پشتیبانی می‌کند و بر روی پلتفرم‌های Windows و Linux کار می‌کند.",
       "feature2_title": "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند",
-      "feature2_content": "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور",
+      "feature2_content": "ما بیش از ۱۸۰ فرمت فایل و سند پرکاربرد را پشتیبانی می‌کنیم که شامل [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/)، [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/)، [PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/)، [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و وکتور، کتاب‌های الکترونیکی، زبان‌ها و قالب‌های برنامه‌نویسی و بسیاری از انواع فایل‌های دیگر می‌شود، از جمله فایل‌های رمزگذاری‌شده با حفاظت رمزعبور.",
       "feature3_title": "خروجی قابل تنظیم",
       "feature3_content": "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند.",
       "feature4_title": "UI برای ASP.NET Core",
@@ -214,9 +214,9 @@
     "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های جاوا",
     "overview_features": {
       "feature1_title": "اسناد را کارآمد و قابل اعتماد مشاهده کنید",
-      "feature1_content": "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer روی پلتفرم های ویندوز و لینوکس کار می کند.",
+      "feature1_content": "با استفاده از GroupDocs.Viewer API می‌توانید اسناد با هر قالب پشتیبانی‌شده را به‌صورت کارآمد به [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/)، [JPEG, PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/)، و [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) رندر کنید؛ این کار با گزینه‌های انعطاف‌پذیر و قدرتمند انجام می‌شود و محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer بر روی پلتفرم‌های Windows و Linux کار می‌کند.",
       "feature2_title": "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند",
-      "feature2_content": "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور",
+      "feature2_content": "ما بیش از ۱۸۰ فرمت فایل و سند پرکاربرد را پشتیبانی می‌کنیم که شامل [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/)، [Excel](https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/)، [PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/)، [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و وکتور، کتاب‌های الکترونیکی، زبان‌ها و قالب‌های برنامه‌نویسی و بسیاری از انواع فایل‌های دیگر می‌شود، از جمله فایل‌های رمزگذاری‌شده با حفاظت رمزعبور.",
       "feature3_title": "خروجی قابل تنظیم",
       "feature3_content": "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند.",
       "feature4_title": "رابط کاربری وب برای چارچوب Spring",
@@ -258,9 +258,9 @@
     "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع اسناد دیگر در برنامه های Node.js",
     "overview_features": {
       "feature1_title": "اسناد را کارآمد و قابل اعتماد مشاهده کنید",
-      "feature1_content": "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer برای Node.js روی پلتفرم های ویندوز و لینوکس کار می کند.",
+      "feature1_content": "با استفاده از GroupDocs.Viewer API می‌توانید اسناد با هر قالب پشتیبانی‌شده را به‌صورت کارآمد به [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)، JPEG، PNG و [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) رندر کنید؛ این کار با گزینه‌های انعطاف‌پذیر و قدرتمند انجام می‌شود و محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer برای Node.js بر روی پلتفرم‌های Windows و Linux کار می‌کند.",
       "feature2_title": "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند",
-      "feature2_content": "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور",
+      "feature2_content": "ما بیش از ۱۸۰ فرمت فایل و سند پرکاربرد را پشتیبانی می‌کنیم که شامل [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/)، [Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/)، [PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/)، [PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/)، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و وکتور، کتاب‌های الکترونیکی، زبان‌ها و قالب‌های برنامه‌نویسی و بسیاری از انواع فایل‌های دیگر می‌شود، از جمله فایل‌های رمزگذاری‌شده با حفاظت رمزعبور.",
       "feature3_title": "خروجی قابل تنظیم",
       "feature3_content": "GroupDocs.Viewer نه تنها اجازه می دهد تا سند را رندر کند، بلکه کنترل کند که دقیقاً چه قسمت هایی از سند باید رندر شوند یا اکنون، چگونه باید رندر شوند و تبدیل های مختلف را در خروجی رندر شده اعمال می کند."
     },
@@ -300,9 +300,9 @@
     "overview_description": "API برای رندر، نمایش، تبدیل اسناد، اسلایدها، نمودارها و بسیاری از انواع دیگر اسناد در برنامه های کاربردی پایتون",
     "overview_features": {
       "feature1_title": "اسناد را به طور کارآمد و قابل اعتماد مشاهده کنید",
-      "feature1_content": "با API GroupDocs.Viewer، می‌توانید اسناد با هر فرمت پشتیبانی‌شده را به طور کارآمد به HTML، JPEG، PNG و PDF با گزینه‌های انعطاف‌پذیر و قدرتمند رندر کنید، در حالی که یکپارچگی محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer برای پایتون روی پلتفرم‌های ویندوز و لینوکس کار می‌کند.",
+      "feature1_content": "با استفاده از GroupDocs.Viewer API می‌توانید اسناد با هر قالب پشتیبانی‌شده را به‌صورت کارآمد به [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)، JPEG، PNG و [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) رندر کنید؛ این کار با گزینه‌های انعطاف‌پذیر و قدرتمند انجام می‌شود و محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer برای Python بر روی پلتفرم‌های Windows و Linux کار می‌کند.",
       "feature2_title": "پشتیبانی از محبوب‌ترین فرمت‌های فایل و سند",
-      "feature2_content": "ما از رندر بیش از 180 فرمت محبوب فایل و سند از جمله Word، Excel، PDF، PowerPoint، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و برداری، کتاب‌های الکترونیکی، زبان‌های برنامه‌نویسی و نشانه‌گذاری و بسیاری از انواع فایل‌های دیگر، از جمله فایل‌های رمزگذاری‌شده با رمز عبور پشتیبانی می‌کنیم.",
+      "feature2_content": "ما بیش از ۱۸۰ فرمت فایل و سند پرکاربرد را پشتیبانی می‌کنیم که شامل [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/)، [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/)، [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/)، [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/)، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و وکتور، کتاب‌های الکترونیکی، زبان‌ها و قالب‌های برنامه‌نویسی و بسیاری از انواع فایل‌های دیگر می‌شود، از جمله فایل‌های رمزگذاری‌شده با حفاظت رمزعبور.",
       "feature3_title": "خروجی قابل تنظیم",
       "feature3_content": "GroupDocs.Viewer نه تنها رندر سند را امکان پذیر می کند، بلکه کنترل اینکه دقیقاً کدام قسمت های سند رندر شوند یا نشوند، چگونه رندر شوند و اعمال تحولات مختلف روی خروجی رندر شده را نیز امکان پذیر می کند."
     },

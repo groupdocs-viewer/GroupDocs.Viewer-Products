@@ -80,11 +80,11 @@ overview:
   features:
     # feature loop
     - title: "ドキュメントを効率的かつ確実に表示"
-      content: "GroupDocs.Viewer APIを使用すると、サポートされているすべての形式のドキュメントを柔軟で強力なオプションを使用してHTML、JPEG、PNG、およびPDFに効率的にレンダリングでき、コンテンツとドキュメント構造の整合性を維持できます。GroupDocs.Viewer for Pythonは、WindowsおよびLinuxプラットフォームで動作します。"
+      content: "GroupDocs.Viewer APIを使用すると、サポートされているすべての形式のドキュメントを柔軟で強力なオプションを使用して[HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)、JPEG、PNG、および[PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)に効率的にレンダリングでき、コンテンツとドキュメント構造の整合性を維持できます。GroupDocs.Viewer for Pythonは、WindowsおよびLinuxプラットフォームで動作します。"
 
     # feature loop
     - title: "最も人気のあるファイル形式とドキュメント形式がサポートされています"
-      content: "Word、Excel、PDF、PowerPoint、OpenDocument形式ファミリ、アーカイブ、ラスターおよびベクター画像、電子ブック、プログラミング言語とマークアップ、およびパスワード保護による暗号化ファイルを含む、180を超える最も人気のあるファイル形式とドキュメント形式のレンダリングをサポートしています。"
+      content: "[Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/)、[PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/)、[PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/)、OpenDocument形式ファミリ、アーカイブ、ラスターおよびベクター画像、電子ブック、プログラミング言語とマークアップ、およびパスワード保護による暗号化ファイルを含む、180を超える最も人気のあるファイル形式とドキュメント形式のレンダリングをサポートしています。"
 
     # feature loop
     - title: "カスタマイズ可能な出力"
@@ -178,47 +178,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "HTML でドキュメントを表示する"
+      title: "[HTML でドキュメントを表示する](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)"
       content: "CSS と SVG を使用して、あらゆる種類のドキュメントを HTML ドキュメントに変換し、最新の Web ブラウザで表示できます。"
 
     # feature loop
     - icon: "rasterize"
-      title: "ドキュメントをラスタライズする"
+      title: "[ドキュメントをラスタライズする](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)"
       content: "サポート可能なドキュメント形式をラスター画像にラスター化し、画像形式と圧縮品質を調整できます。"
 
     # feature loop
-    - icon: "sourcecode"
-      title: "プログラミング コードのレンダリングとハイライト表示"
-      content: "すべての一般的なプログラミング、スクリプト、マークアップ言語をサポートし、構文を解析して強調表示する機能を備えています。"
+    - icon: "font"
+      title: "[文書フォントの制御](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)"
+      content: "文書で使用されているフォントを特定します。欠落しているフォントは、置換するか出力から除外することで管理できます。"
 
     # feature loop
     - icon: "convertpdf"
-      title: "PDFに変換"
+      title: "[PDFに変換](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)"
       content: "サポート可能な形式のドキュメントは、調整可能なオプションを使用して簡単に PDF に変換して保存できます。"
 
     # feature loop
     - icon: "transform"
-      title: "変換を適用する"
+      title: "[変換を適用する](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)"
       content: "出力ドキュメントはレンダリング中に変換できます。ページは回転および/または再配置でき、テキストの透かしをその上に配置できます。"
 
     # feature loop
     - icon: "adjustment"
-      title: "HTML出力調整"
+      title: "[HTML出力調整](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)"
       content: "GroupDocs.Viewer によって生成される出力 HTML ドキュメントは、非常に細かく調整できます。外部リソースまたは埋め込みリソース、コールバックなどを使用して、ストリームまたはファイルに保存できます。"
 
     # feature loop
     - icon: "complex"
-      title: "複雑な文書構造のサポート"
+      title: "[複雑な文書構造のサポート](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer は、単一のドキュメントだけでなく、添付ファイル付きの電子メール メッセージ、フォルダー内の内部ファイルを含む ZIP アーカイブ、複数ページの TIFF 画像など、ドキュメントのリストまたは階層構造を内部に含むファイルもサポートします。"
 
     # feature loop
     - icon: "optimization"
-      title: "最適化オプション"
+      title: "[最適化オプション](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
       content: "GroupDocs.Viewer には、ドキュメントのキャッシュされたバージョンを使用することで読み込み時間を短縮できる、調整可能なキャッシュ サブシステムが含まれています。また、さまざまな形式に対応するさまざまなオプションのセットにより、ドキュメントの一部の不必要な部分や側面 (フォント、非表示のワークシート、電子メールの添付ファイル) をレンダリングから除外して、全体的なパフォーマンスを最適化することができます。"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "パスワードで保護されたドキュメントのサポート"
+      title: "[パスワードで保護されたドキュメントのサポート](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)"
       content: "GroupDocs.Viewer を使用すると、読み込みオプションでパスワードを指定することで、PDF、WordProcessing、スプレッドシート、プレゼンテーションなど、さまざまな種類の暗号化されたドキュメントを開くことができます。"
 
 ############################# Code samples ############################

@@ -79,7 +79,7 @@ overview:
   features:
     # feature loop
     - title: "View documents efficiently & reliably"
-      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/), [JPEG](https://docs.groupdocs.com/viewer/net/image-viewer-adjust-quality-for-jpg/), [PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/), and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-using-csharp/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer supports .NET Framework 4.6.2 and .NET 6.0, it works on Windows and Linux platforms."
+      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/), and [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer supports .NET Framework 4.6.2 and .NET 6.0, it works on Windows and Linux platforms."
 
     # feature loop
     - title: "Most popular file and document formats are supported"

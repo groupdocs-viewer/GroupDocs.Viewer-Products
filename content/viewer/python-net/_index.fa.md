@@ -80,11 +80,11 @@ overview:
   features:
     # feature loop
     - title: "اسناد را به طور کارآمد و قابل اعتماد مشاهده کنید"
-      content: "با API GroupDocs.Viewer، می‌توانید اسناد با هر فرمت پشتیبانی‌شده را به طور کارآمد به HTML، JPEG، PNG و PDF با گزینه‌های انعطاف‌پذیر و قدرتمند رندر کنید، در حالی که یکپارچگی محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer برای پایتون روی پلتفرم‌های ویندوز و لینوکس کار می‌کند."
+      content: "با استفاده از GroupDocs.Viewer API می‌توانید اسناد با هر قالب پشتیبانی‌شده را به‌صورت کارآمد به [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)، JPEG، PNG و [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) رندر کنید؛ این کار با گزینه‌های انعطاف‌پذیر و قدرتمند انجام می‌شود و محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer برای Python بر روی پلتفرم‌های Windows و Linux کار می‌کند."
 
     # feature loop
     - title: "پشتیبانی از محبوب‌ترین فرمت‌های فایل و سند"
-      content: "ما از رندر بیش از 180 فرمت محبوب فایل و سند از جمله Word، Excel، PDF، PowerPoint، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و برداری، کتاب‌های الکترونیکی، زبان‌های برنامه‌نویسی و نشانه‌گذاری و بسیاری از انواع فایل‌های دیگر، از جمله فایل‌های رمزگذاری‌شده با رمز عبور پشتیبانی می‌کنیم."
+      content: "ما بیش از ۱۸۰ فرمت فایل و سند پرکاربرد را پشتیبانی می‌کنیم که شامل [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/)، [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/)، [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/)، [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/)، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و وکتور، کتاب‌های الکترونیکی، زبان‌ها و قالب‌های برنامه‌نویسی و بسیاری از انواع فایل‌های دیگر می‌شود، از جمله فایل‌های رمزگذاری‌شده با حفاظت رمزعبور."
 
     # feature loop
     - title: "خروجی قابل تنظیم"
@@ -178,47 +178,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "مشاهده اسناد در HTML"
+      title: "[مشاهده اسناد در HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)"
       content: "هر نوع سندی را با CSS و SVG به یک سند HTML تبدیل کنید، که می تواند در هر مرورگر وب مدرن نمایش داده شود."
 
     # feature loop
     - icon: "rasterize"
-      title: "اسناد را شطرنجی کنید"
+      title: "[اسناد را شطرنجی کنید](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)"
       content: "هر قالب سند قابل پشتیبانی را با فرمت تصویر قابل تنظیم و کیفیت فشرده سازی به تصویر شطرنجی تبدیل کنید."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "کدهای برنامه نویسی را رندر و برجسته کنید"
-      content: "پشتیبانی از همه زبان‌های برنامه‌نویسی، اسکریپت‌نویسی و نشانه‌گذاری محبوب، با قابلیت تجزیه و برجسته کردن نحو آنها."
+    - icon: "font"
+      title: "[کنترل فونت‌های سند](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)"
+      content: "فونت‌های استفاده شده در سند را شناسایی کنید. فونت‌های مفقود را با جایگزینی یا حذف از خروجی مدیریت کنید."
 
     # feature loop
     - icon: "convertpdf"
-      title: "تبدیل به PDF"
+      title: "[تبدیل به PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)"
       content: "سند با هر فرمت قابل پشتیبانی را می توان به راحتی با گزینه های قابل تنظیم به PDF تبدیل و ذخیره کرد."
 
     # feature loop
     - icon: "transform"
-      title: "تغییرات را اعمال کنید"
+      title: "[تغییرات را اعمال کنید](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)"
       content: "سند خروجی را می توان در حین رندر تبدیل کرد - صفحات را می توان چرخاند و/یا مرتب کرد و واترمارک متنی در بالای آنها قرار داد."
 
     # feature loop
     - icon: "adjustment"
-      title: "تنظیم خروجی HTML"
+      title: "[تنظیم خروجی HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)"
       content: "اسناد HTML خروجی، تولید شده توسط GroupDocs.Viewer، را می توان بسیار دقیق تنظیم کرد: امکان ذخیره در جریان یا فایل، با منابع خارجی یا جاسازی شده، تماس های برگشتی و غیره وجود دارد."
 
     # feature loop
     - icon: "complex"
-      title: "پشتیبانی از ساختارهای پیچیده سند"
+      title: "[پشتیبانی از ساختارهای پیچیده سند](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer نه تنها از اسناد منفرد، بلکه از فایل‌هایی نیز پشتیبانی می‌کند که در داخل شامل فهرست یا ساختار سلسله مراتبی از اسناد هستند، مانند پیام‌های ایمیل با پیوست‌ها، آرشیوهای ZIP با فایل‌های داخلی درون پوشه‌ها، تصاویر TIFF چند صفحه‌ای و غیره."
 
     # feature loop
     - icon: "optimization"
-      title: "گزینه های بهینه سازی"
+      title: "[گزینه های بهینه سازی](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
       content: "GroupDocs.Viewer حاوی یک زیرسیستم کش قابل تنظیم است که می تواند با استفاده از نسخه های ذخیره شده اسناد، زمان بارگذاری را تسریع بخشد. همچنین مجموعه ای از گزینه های مختلف برای فرمت های مختلف اجازه می دهد تا برخی از بخش ها یا جنبه های غیر ضروری اسناد را از رندر حذف کنید (فونت ها، کاربرگ های مخفی، پیوست های ایمیل) برای بهینه سازی عملکرد کلی."
 
     # feature loop
     - icon: "passwordprotected"
-      title: "پشتیبانی از اسناد محافظت شده با رمز عبور"
+      title: "[پشتیبانی از اسناد محافظت شده با رمز عبور](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)"
       content: "GroupDocs.Viewer اجازه می دهد تا اسناد رمزگذاری شده را از انواع مختلف باز کنید: PDF، WordProcessing، Spreadsheet، Presentation و غیره، با تعیین رمز عبور در گزینه های بارگیری."
 
 ############################# Code samples ############################

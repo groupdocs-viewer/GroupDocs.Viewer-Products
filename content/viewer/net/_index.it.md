@@ -79,11 +79,11 @@ overview:
   features:
     # feature loop
     - title: "Visualizza i documenti in modo efficiente e affidabile"
-      content: "Con l'API GroupDocs.Viewer puoi eseguire il rendering efficiente di documenti di qualsiasi formato supportato in HTML, JPEG, PNG e PDF con opzioni flessibili e potenti mantenendo l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer supporta .NET Framework 4.6.2 e .NET 6.0, funziona su piattaforme Windows e Linux."
+      content: "Con l'API GroupDocs.Viewer è possibile rendere in modo efficiente documenti di qualsiasi formato supportato in [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/), e [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) grazie a opzioni flessibili e potenti, preservando l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer è compatibile con .NET Framework 4.6.2 e .NET 6.0 e funziona su piattaforme Windows e Linux."
 
     # feature loop
     - title: "Sono supportati i formati di file e documenti più diffusi"
-      content: "Supportiamo il rendering dei 180 formati di file e documenti più diffusi tra cui Word, Excel, PDF, PowerPoint, la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, e-book, linguaggi di programmazione e markup e molti altri tipi di file, inclusi quelli crittografati file protetti da password."
+      content: "Supportiamo il rendering di oltre 180 formati di file e documenti più diffusi, tra cui [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/), [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, e‑Book, linguaggi di programmazione e markup, oltre a numerosi altri tipi di file, comprese le versioni crittografate protette da password."
 
     # feature loop
     - title: "Uscita personalizzabile"
@@ -198,47 +198,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Visualizza i documenti in HTML"
+      title: "[Visualizza i documenti in HTML](https://blog.groupdocs.com/viewer/view-word-documents-as-html-responsive-page-using-csharp/)"
       content: "Converti documenti di qualsiasi tipo in un documento HTML con CSS e SVG, che può essere visualizzato in qualsiasi browser web moderno."
 
     # feature loop
     - icon: "rasterize"
-      title: "Rasterizzare i documenti"
+      title: "[Rasterizzare i documenti](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)"
       content: "Rasterizza qualsiasi formato di documento supportabile nell'immagine raster, con formato immagine e qualità di compressione regolabili."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Restituisci ed evidenzia i codici di programmazione"
-      content: "Supporto di tutti i linguaggi di programmazione, scripting e markup più diffusi, con capacità di analizzare ed evidenziare la loro sintassi."
+    - icon: "font"
+      title: "[Controlla i caratteri del documento](https://blog.groupdocs.com/viewer/working-with-fonts/)"
+      content: "Identifica i caratteri usati in un documento. Gestisci i caratteri mancanti sostituendoli o escludendoli dall'output."
 
     # feature loop
     - icon: "convertpdf"
-      title: "Converti in PDF"
+      title: "[Converti in PDF](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)"
       content: "I documenti di qualsiasi formato supportato possono essere facilmente convertiti e salvati nel PDF con opzioni regolabili."
 
     # feature loop
     - icon: "transform"
-      title: "Applicare trasformazioni"
+      title: "[Applicare trasformazioni](https://blog.groupdocs.com/viewer/protect-your-documents-with-watermarks-in-groupdocs-viewer-for-dot-net/)"
       content: "Il documento di output può essere trasformato durante il rendering: le pagine possono essere ruotate e/o riorganizzate e la filigrana di testo può essere posizionata sopra di esse."
 
     # feature loop
     - icon: "adjustment"
-      title: "Regolazione dell'output HTML"
+      title: "[Regolazione dell'output HTML](https://blog.groupdocs.com/viewer/render-word-documents-as-clean-html-using-csharp/)"
       content: "I documenti HTML di output, generati da GroupDocs.Viewer, possono essere ottimizzati in modo molto preciso: è consentito salvare nello stream o nel file, con risorse esterne o incorporate, callback e così via."
 
     # feature loop
     - icon: "complex"
-      title: "Supporto di strutture documentali complesse"
+      title: "[Supporto di strutture documentali complesse](https://blog.groupdocs.com/viewer/process-microsoft-outlook-email-attachments-in-a-.net-viewer-application/)"
       content: "GroupDocs.Viewer supporta non solo i singoli documenti, ma anche i file che contengono internamente un elenco o una struttura gerarchica di documenti, come messaggi di posta elettronica con allegati, archivi ZIP con file interni all'interno di cartelle, immagini TIFF multipagina e così via."
 
     # feature loop
     - icon: "optimization"
-      title: "Opzioni di ottimizzazione"
+      title: "[Opzioni di ottimizzazione](https://blog.groupdocs.com/viewer/exclude-specific-fonts-from-output-html-using-groupdocs.viewer-for-.net-18.10/)"
       content: "GroupDocs.Viewer contiene un sottosistema di cache regolabile, che può ridurre i tempi di caricamento utilizzando le versioni dei documenti memorizzate nella cache. Inoltre una serie di diverse opzioni per diversi formati consente di escludere alcune parti o aspetti non necessari dei documenti dal rendering (caratteri, fogli di lavoro nascosti, allegati e-mail) per ottimizzare le prestazioni complessive"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Supporto di documenti protetti da password"
+      title: "[Supporto di documenti protetti da password](https://docs.groupdocs.com/viewer/net/load-password-protected-document/)"
       content: "GroupDocs.Viewer consente di aprire documenti crittografati di diversi tipi: PDF, elaborazione testi, fogli di calcolo, presentazioni e altri, specificando una password nelle opzioni di caricamento."
 
 ############################# Code samples ############################

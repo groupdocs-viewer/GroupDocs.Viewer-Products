@@ -125,8 +125,8 @@
       "feature1_content": "CSS と SVG を使用して、あらゆる種類のドキュメントを HTML ドキュメントに変換し、最新の Web ブラウザで表示できます。",
       "feature2_title": "ドキュメントをラスタライズする",
       "feature2_content": "サポート可能なドキュメント形式をラスター画像にラスター化し、画像形式と圧縮品質を調整できます。",
-      "feature3_title": "プログラミング コードのレンダリングとハイライト表示",
-      "feature3_content": "すべての一般的なプログラミング、スクリプト、マークアップ言語をサポートし、構文を解析して強調表示する機能を備えています。",
+      "feature3_title": "文書フォントの制御",
+      "feature3_content": "文書で使用されているフォントを特定します。欠落しているフォントは、置換するか出力から除外することで管理できます。",
       "feature4_title": "PDFに変換",
       "feature4_content": "サポート可能な形式のドキュメントは、調整可能なオプションを使用して簡単に PDF に変換して保存できます。",
       "feature5_title": "変換を適用する",
@@ -161,9 +161,9 @@
     "overview_description": ".NET アプリケーションでドキュメント、スライド、図、その他多くの種類のドキュメントをレンダリング、表示、変換するための API",
     "overview_features": {
       "feature1_title": "ドキュメントを効率的かつ確実に表示する",
-      "feature1_content": "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを HTML、JPEG、PNG、PDF に効率的にレンダリングできます。 GroupDocs.Viewer は .NET Framework 4.6.2 および .NET 6.0 をサポートしており、Windows および Linux プラットフォームで動作します。",
+      "feature1_content": "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/)、[JPEG、PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)、[PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) に効率的にレンダリングできます。 GroupDocs.Viewer は .NET Framework 4.6.2 および .NET 6.0 をサポートしており、Windows および Linux プラットフォームで動作します。",
       "feature2_title": "最も一般的なファイルおよびドキュメント形式がサポートされています",
-      "feature2_content": "Word、Excel、PDF、PowerPoint、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。",
+      "feature2_content": "[Word](https://docs.groupdocs.com/viewer/net/render-word-documents/)、[Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/)、[PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。",
       "feature3_title": "カスタマイズ可能な出力",
       "feature3_content": "GroupDocs.Viewer を使用すると、ドキュメントをレンダリングするだけでなく、ドキュメントのどの部分をレンダリングするか、現時点でどのようにレンダリングするかを正確に制御し、レンダリングされた出力にさまざまな変換を適用することもできます。",
       "feature4_title": "ASP.NET Core の UI",
@@ -214,9 +214,9 @@
     "overview_description": "Java アプリケーションでドキュメント、スライド、図、その他多くのドキュメント タイプをレンダリング、表示、変換するための API",
     "overview_features": {
       "feature1_title": "ドキュメントを効率的かつ確実に表示する",
-      "feature1_content": "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを HTML、JPEG、PNG、PDF に効率的にレンダリングできます。 GroupDocs.Viewer は、Windows および Linux プラットフォームで動作します。",
+      "feature1_content": "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/)、[JPEG、PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/)、[PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) に効率的にレンダリングできます。 GroupDocs.Viewer は、Windows および Linux プラットフォームで動作します。",
       "feature2_title": "最も一般的なファイルおよびドキュメント形式がサポートされています",
-      "feature2_content": "Word、Excel、PDF、PowerPoint、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。",
+      "feature2_content": "[Word](https://docs.groupdocs.com/viewer/java/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/)、[PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。",
       "feature3_title": "カスタマイズ可能な出力",
       "feature3_content": "GroupDocs.Viewer を使用すると、ドキュメントをレンダリングするだけでなく、ドキュメントのどの部分をレンダリングするか、現時点でどのようにレンダリングするかを正確に制御し、レンダリングされた出力にさまざまな変換を適用することもできます。",
       "feature4_title": "Spring フレームワークの Web UI",
@@ -258,9 +258,9 @@
     "overview_description": "Node.js アプリケーションでドキュメント、スライド、図、その他多くのドキュメント タイプをレンダリング、表示、変換するための API",
     "overview_features": {
       "feature1_title": "ドキュメントを効率的かつ確実に表示する",
-      "feature1_content": "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを HTML、JPEG、PNG、PDF に効率的にレンダリングできます。 Node.js 用の GroupDocs.Viewer は、Windows および Linux プラットフォームで動作します。",
+      "feature1_content": "GroupDocs.Viewer API を使用すると、コンテンツとドキュメント構造の整合性を維持しながら、柔軟で強力なオプションを使用して、サポート可能な形式のドキュメントを [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)、JPEG、PNG、[PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) に効率的にレンダリングできます。 Node.js 用の GroupDocs.Viewer は、Windows および Linux プラットフォームで動作します。",
       "feature2_title": "最も一般的なファイルおよびドキュメント形式がサポートされています",
-      "feature2_content": "Word、Excel、PDF、PowerPoint、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。",
+      "feature2_content": "[Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/)、[PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/)、OpenDocument 形式ファミリー、アーカイブ、ラスター画像とベクター画像、電子書籍、プログラミング言語とマークアップ、および暗号化されたファイルを含むその他の多くのファイル タイプを含む、180 を超える最も一般的なファイルおよびドキュメント形式のレンダリングをサポートしています。パスワードで保護されたファイル。",
       "feature3_title": "カスタマイズ可能な出力",
       "feature3_content": "GroupDocs.Viewer を使用すると、ドキュメントをレンダリングするだけでなく、ドキュメントのどの部分をレンダリングするか、現時点でどのようにレンダリングするかを正確に制御し、レンダリングされた出力にさまざまな変換を適用することもできます。"
     },
@@ -300,9 +300,9 @@
     "overview_description": "Pythonアプリケーションでドキュメント、スライド、図表、およびその他の多くのドキュメントタイプのレンダリング、表示、変換を行うためのAPI",
     "overview_features": {
       "feature1_title": "ドキュメントを効率的かつ確実に表示",
-      "feature1_content": "GroupDocs.Viewer APIを使用すると、サポートされているすべての形式のドキュメントを柔軟で強力なオプションを使用してHTML、JPEG、PNG、およびPDFに効率的にレンダリングでき、コンテンツとドキュメント構造の整合性を維持できます。GroupDocs.Viewer for Pythonは、WindowsおよびLinuxプラットフォームで動作します。",
+      "feature1_content": "GroupDocs.Viewer APIを使用すると、サポートされているすべての形式のドキュメントを柔軟で強力なオプションを使用して[HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)、JPEG、PNG、および[PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)に効率的にレンダリングでき、コンテンツとドキュメント構造の整合性を維持できます。GroupDocs.Viewer for Pythonは、WindowsおよびLinuxプラットフォームで動作します。",
       "feature2_title": "最も人気のあるファイル形式とドキュメント形式がサポートされています",
-      "feature2_content": "Word、Excel、PDF、PowerPoint、OpenDocument形式ファミリ、アーカイブ、ラスターおよびベクター画像、電子ブック、プログラミング言語とマークアップ、およびパスワード保護による暗号化ファイルを含む、180を超える最も人気のあるファイル形式とドキュメント形式のレンダリングをサポートしています。",
+      "feature2_content": "[Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/)、[PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/)、[PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/)、OpenDocument形式ファミリ、アーカイブ、ラスターおよびベクター画像、電子ブック、プログラミング言語とマークアップ、およびパスワード保護による暗号化ファイルを含む、180を超える最も人気のあるファイル形式とドキュメント形式のレンダリングをサポートしています。",
       "feature3_title": "カスタマイズ可能な出力",
       "feature3_content": "GroupDocs.Viewerを使用すると、ドキュメントのレンダリングだけでなく、レンダリングする必要のあるドキュメントの部分を正確に制御したり、レンダリング方法を制御したり、レンダリングされた出力にさまざまな変換を適用したりすることもできます。"
     },

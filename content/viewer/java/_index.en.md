@@ -93,11 +93,11 @@ overview:
   features:
     # feature loop
     - title: "View documents efficiently & reliably"
-      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/), [JPEG](https://docs.groupdocs.com/viewer/java/image-viewer-adjust-quality-for-jpg/), [PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/), and [PDF](https://blog.groupdocs.com/viewer/view-word-documents-as-pdf-in-java/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer works on Windows and Linux platforms."
+      content: "With GroupDocs.Viewer API you can efficiently render documents of any supportable formats to [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/), and [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) with flexible and powerful options while maintaining content and document structure integrity. GroupDocs.Viewer works on Windows and Linux platforms."
 
     # feature loop
     - title: "Most popular file and document formats are supported"
-      content: "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/), [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
+      content: "We support rendering over the 180 most popular file and document formats that include [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/), OpenDocument formats family, Archives, Raster and Vector images, e-Books, programming languages and markups, and many other file types, including encrypted files with password protection."
 
     # feature loop
     - title: "Customizable output"

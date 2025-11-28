@@ -79,11 +79,11 @@ overview:
   features:
     # feature loop
     - title: "효율적이고 안정적으로 문서 보기"
-      content: "GroupDocs.Viewer API를 사용하면 콘텐츠와 문서 구조 무결성을 유지하면서 유연하고 강력한 옵션을 사용하여 지원 가능한 모든 형식의 문서를 HTML, JPEG, PNG 및 PDF로 효율적으로 렌더링할 수 있습니다. GroupDocs.Viewer는 .NET Framework 4.6.2 및 .NET 6.0을 지원하며 Windows 및 Linux 플랫폼에서 작동합니다."
+      content: "GroupDocs.Viewer API를 사용하면 지원되는 모든 형식의 문서를 [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/), [JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/), 및 [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) 로 효율적으로 렌더링할 수 있습니다. 유연하고 강력한 옵션을 제공하며 콘텐츠와 문서 구조의 완전성을 유지합니다. GroupDocs.Viewer는 .NET Framework 4.6.2 및 .NET 6.0을 지원하고 Windows와 Linux 플랫폼에서 작동합니다."
 
     # feature loop
     - title: "가장 널리 사용되는 파일 및 문서 형식이 지원됩니다."
-      content: "우리는 Word, Excel, PDF, PowerPoint, OpenDocument 형식 제품군, 아카이브, 래스터 및 벡터 이미지, 전자책, 프로그래밍 언어 및 마크업, 암호화된 파일을 포함한 기타 다양한 파일 형식을 포함하는 180개 이상의 가장 널리 사용되는 파일 및 문서 형식의 렌더링을 지원합니다. 비밀번호로 보호된 파일."
+      content: "우리는 [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/), [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/), [PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/), [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/) 등 180개 이상의 가장 많이 사용되는 파일 및 문서 형식을 렌더링합니다. OpenDocument 형식군, 아카이브, 래스터 및 벡터 이미지, 전자책, 프로그래밍 언어 및 마크업 등 다양한 파일 유형을 지원하며, 비밀번호로 보호된 암호화 파일도 처리합니다."
 
     # feature loop
     - title: "맞춤형 출력"
@@ -198,47 +198,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "HTML로 문서 보기"
+      title: "[HTML로 문서 보기](https://blog.groupdocs.com/viewer/view-word-documents-as-html-responsive-page-using-csharp/)"
       content: "모든 유형의 문서를 CSS 및 SVG를 사용하여 최신 웹 브라우저에서 표시할 수 있는 HTML 문서로 변환합니다."
 
     # feature loop
     - icon: "rasterize"
-      title: "문서 래스터화"
+      title: "[문서 래스터화](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)"
       content: "조정 가능한 이미지 형식과 압축 품질을 사용하여 지원 가능한 모든 문서 형식을 래스터 이미지로 래스터화합니다."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "프로그래밍 코드 렌더링 및 강조 표시"
-      content: "구문을 분석하고 강조 표시하는 기능을 통해 널리 사용되는 모든 프로그래밍, 스크립팅 및 마크업 언어를 지원합니다."
+    - icon: "font"
+      title: "[문서 글꼴 제어](https://blog.groupdocs.com/viewer/working-with-fonts/)"
+      content: "문서에 사용된 글꼴을 확인하고, 누락된 글꼴을 교체하거나 출력에서 제외하여 관리합니다."
 
     # feature loop
     - icon: "convertpdf"
-      title: "PDF로 변환"
+      title: "[PDF로 변환](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)"
       content: "지원되는 모든 형식의 문서는 조정 가능한 옵션을 사용하여 쉽게 변환하고 PDF로 저장할 수 있습니다."
 
     # feature loop
     - icon: "transform"
-      title: "변환 적용"
+      title: "[변환 적용](https://blog.groupdocs.com/viewer/protect-your-documents-with-watermarks-in-groupdocs-viewer-for-dot-net/)"
       content: "출력 문서는 렌더링 중에 변형될 수 있습니다. 페이지를 회전 및/또는 재배열할 수 있으며 텍스트 워터마크가 페이지 위에 배치될 수 있습니다."
 
     # feature loop
     - icon: "adjustment"
-      title: "HTML 출력 조정"
+      title: "[HTML 출력 조정](https://blog.groupdocs.com/viewer/render-word-documents-as-clean-html-using-csharp/)"
       content: "GroupDocs.Viewer에 의해 생성된 출력 HTML 문서는 매우 세밀하게 조정될 수 있습니다. 외부 또는 내장 리소스, 콜백 등과 함께 스트림이나 파일에 저장할 수 있습니다."
 
     # feature loop
     - icon: "complex"
-      title: "복잡한 문서 구조 지원"
+      title: "[복잡한 문서 구조 지원](https://blog.groupdocs.com/viewer/process-microsoft-outlook-email-attachments-in-a-.net-viewer-application/)"
       content: "GroupDocs.Viewer는 단일 문서뿐만 아니라 첨부 파일이 있는 이메일 메시지, 폴더 내에 내부 파일이 있는 ZIP 아카이브, 다중 페이지 TIFF 이미지 등과 같은 문서의 목록 또는 계층 구조를 내부적으로 포함하는 파일도 지원합니다."
 
     # feature loop
     - icon: "optimization"
-      title: "최적화 옵션"
+      title: "[최적화 옵션](https://blog.groupdocs.com/viewer/exclude-specific-fonts-from-output-html-using-groupdocs.viewer-for-.net-18.10/)"
       content: "GroupDocs.Viewer에는 캐시된 문서 버전을 사용하여 로딩 시간을 단축할 수 있는 조정 가능한 캐시 하위 시스템이 포함되어 있습니다. 또한 다양한 형식에 대한 다양한 옵션 세트를 사용하면 렌더링에서 문서의 불필요한 부분이나 측면(글꼴, 숨겨진 워크시트, 이메일 첨부 파일)을 제외하여 전반적인 성능을 최적화할 수 있습니다."
 
     # feature loop
     - icon: "passwordprotected"
-      title: "비밀번호로 보호된 문서 지원"
+      title: "[비밀번호로 보호된 문서 지원](https://docs.groupdocs.com/viewer/net/load-password-protected-document/)"
       content: "GroupDocs.Viewer를 사용하면 로딩 옵션에 비밀번호를 지정하여 PDF, 워드프로세싱, 스프레드시트, 프리젠테이션 등 다양한 유형의 암호화된 문서를 열 수 있습니다."
 
 ############################# Code samples ############################

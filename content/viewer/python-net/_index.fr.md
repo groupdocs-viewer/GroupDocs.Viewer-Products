@@ -80,11 +80,11 @@ overview:
   features:
     # feature loop
     - title: "Afficher les documents de manière efficace et fiable"
-      content: "Avec l'API GroupDocs.Viewer, vous pouvez rendre efficacement des documents de tous les formats pris en charge au format HTML, JPEG, PNG et PDF avec des options flexibles et puissantes, tout en conservant l'intégrité du contenu et de la structure du document. GroupDocs.Viewer pour Python fonctionne sur les plateformes Windows et Linux."
+      content: "Avec l'API GroupDocs.Viewer, vous pouvez rendre efficacement des documents de tout format pris en charge en [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/), JPEG, PNG et [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) grâce à des options souples et puissantes, tout en conservant le contenu et l’intégrité de la structure du document. GroupDocs.Viewer pour Python fonctionne sur les plateformes Windows et Linux."
 
     # feature loop
     - title: "Prise en charge de la plupart des formats de fichiers et de documents courants"
-      content: "Nous prenons en charge le rendu de plus de 180 des formats de fichiers et de documents les plus courants, notamment Word, Excel, PDF, PowerPoint, les formats OpenDocument, les archives, les images matricielles et vectorielles, les livres électroniques, les langages de programmation et de balisage, ainsi que de nombreux autres types de fichiers, y compris les fichiers chiffrés protégés par mot de passe."
+      content: "Nous prenons en charge le rendu de plus de 180 formats de fichiers et de documents parmi les plus répandus, tels que [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/), [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/), la famille des formats OpenDocument, les archives, les images raster et vectorielles, les e‑books, les langages de programmation et les syntaxes de balisage, ainsi que de nombreux autres types de fichiers, y compris les fichiers chiffrés protégés par mot de passe."
 
     # feature loop
     - title: "Sortie personnalisable"
@@ -178,47 +178,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Afficher les documents en HTML"
+      title: "[Afficher les documents en HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)"
       content: "Convertissez un document de n'importe quel type en un document HTML avec CSS et SVG, qui peut être affiché dans n'importe quel navigateur Web moderne."
 
     # feature loop
     - icon: "rasterize"
-      title: "Pixelliser les documents"
+      title: "[Pixelliser les documents](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)"
       content: "Pixellisez n'importe quel format de document pris en charge sur l'image raster, avec un format d'image et une qualité de compression réglables."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Restituer et mettre en évidence les codes de programmation"
-      content: "Prise en charge de tous les langages de programmation, de script et de balisage populaires, avec possibilité d'analyser et de mettre en évidence leur syntaxe."
+    - icon: "font"
+      title: "[Contrôler les polices du document](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)"
+      content: "Identifier les polices utilisées dans un document. Gérer les polices manquantes en les remplaçant ou en les excluant du rendu."
 
     # feature loop
     - icon: "convertpdf"
-      title: "Convertir en PDF"
+      title: "[Convertir en PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)"
       content: "Les documents de n'importe quel format pris en charge peuvent être facilement convertis et enregistrés au format PDF avec des options réglables."
 
     # feature loop
     - icon: "transform"
-      title: "Appliquer des transformations"
+      title: "[Appliquer des transformations](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)"
       content: "Le document de sortie peut être transformé pendant le rendu - les pages peuvent être pivotées et/ou réorganisées et un filigrane de texte peut être placé dessus."
 
     # feature loop
     - icon: "adjustment"
-      title: "Ajustement de la sortie HTML"
+      title: "[Ajustement de la sortie HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)"
       content: "Les documents HTML de sortie, générés par GroupDocs.Viewer, peuvent être réglés très finement: il est permis de les enregistrer dans le flux ou dans un fichier, avec des ressources externes ou intégrées, des rappels, etc."
 
     # feature loop
     - icon: "complex"
-      title: "Prise en charge de structures de documents complexes"
+      title: "[Prise en charge de structures de documents complexes](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer prend en charge non seulement les documents uniques, mais également les fichiers qui contiennent en interne une liste ou une structure hiérarchique de documents, comme des messages électroniques avec pièces jointes, des archives ZIP avec des fichiers internes dans des dossiers, des images TIFF multipages, etc."
 
     # feature loop
     - icon: "optimization"
-      title: "Options d'optimisation"
+      title: "[Options d'optimisation](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
       content: "GroupDocs.Viewer contient un sous-système de cache réglable, qui peut réduire le temps de chargement en utilisant les versions mises en cache des documents. De plus, un ensemble d'options différentes pour différents formats permet d'exclure du rendu certaines parties ou aspects inutiles des documents (polices, feuilles de calcul masquées, pièces jointes aux e-mails) pour optimiser les performances globales."
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Prise en charge des documents protégés par mot de passe"
+      title: "[Prise en charge des documents protégés par mot de passe](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)"
       content: "GroupDocs.Viewer permet d'ouvrir les documents cryptés de différents types : PDF, WordProcessing, Spreadsheet, Présentation et autres, en spécifiant un mot de passe dans les options de chargement."
 
 ############################# Code samples ############################

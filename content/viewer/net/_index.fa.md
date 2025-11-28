@@ -79,11 +79,11 @@ overview:
   features:
     # feature loop
     - title: "اسناد را کارآمد و قابل اعتماد مشاهده کنید"
-      content: "با GroupDocs.Viewer API می‌توانید با حفظ یکپارچگی محتوا و ساختار سند، اسناد را با هر فرمت قابل پشتیبانی به HTML، JPEG، PNG، و PDF با گزینه‌های منعطف و قدرتمند ارائه کنید. GroupDocs.Viewer از .NET Framework 4.6.2 و .NET 6.0 پشتیبانی می کند، روی پلتفرم های ویندوز و لینوکس کار می کند."
+      content: "با استفاده از GroupDocs.Viewer API می‌توانید اسناد با هر قالب پشتیبانی‌شده را به‌صورت کارآمد به [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/)، [JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)، و [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) رندر کنید؛ این کار با گزینه‌های انعطاف‌پذیر و قدرتمند انجام می‌شود و محتوا و ساختار سند حفظ می‌شود. GroupDocs.Viewer از .NET Framework 4.6.2 و .NET 6.0 پشتیبانی می‌کند و بر روی پلتفرم‌های Windows و Linux کار می‌کند."
 
     # feature loop
     - title: "اکثر فرمت های فایل و سند محبوب پشتیبانی می شوند"
-      content: "ما از ارائه بیش از 180 فرمت فایل و سند محبوب پشتیبانی می کنیم که شامل Word، Excel، PDF، PowerPoint، خانواده فرمت های OpenDocument، آرشیو، تصاویر Raster و Vector، کتاب های الکترونیکی، زبان های برنامه نویسی و نشانه گذاری ها، و بسیاری از انواع فایل های دیگر، از جمله رمزگذاری شده است. فایل هایی با محافظت از رمز عبور"
+      content: "ما بیش از ۱۸۰ فرمت فایل و سند پرکاربرد را پشتیبانی می‌کنیم که شامل [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/)، [Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/)، [PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/)، [PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)، خانواده فرمت‌های OpenDocument، آرشیوها، تصاویر رستر و وکتور، کتاب‌های الکترونیکی، زبان‌ها و قالب‌های برنامه‌نویسی و بسیاری از انواع فایل‌های دیگر می‌شود، از جمله فایل‌های رمزگذاری‌شده با حفاظت رمزعبور."
 
     # feature loop
     - title: "خروجی قابل تنظیم"
@@ -198,47 +198,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "مشاهده اسناد در HTML"
+      title: "[مشاهده اسناد در HTML](https://blog.groupdocs.com/viewer/view-word-documents-as-html-responsive-page-using-csharp/)"
       content: "هر نوع سندی را با CSS و SVG به یک سند HTML تبدیل کنید، که می تواند در هر مرورگر وب مدرن نمایش داده شود."
 
     # feature loop
     - icon: "rasterize"
-      title: "اسناد را شطرنجی کنید"
+      title: "[اسناد را شطرنجی کنید](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)"
       content: "هر قالب سند قابل پشتیبانی را با فرمت تصویر قابل تنظیم و کیفیت فشرده سازی به تصویر شطرنجی تبدیل کنید."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "کدهای برنامه نویسی را رندر و برجسته کنید"
-      content: "پشتیبانی از همه زبان‌های برنامه‌نویسی، اسکریپت‌نویسی و نشانه‌گذاری محبوب، با قابلیت تجزیه و برجسته کردن نحو آنها."
+    - icon: "font"
+      title: "[کنترل فونت‌های سند](https://blog.groupdocs.com/viewer/working-with-fonts/)"
+      content: "فونت‌های استفاده شده در سند را شناسایی کنید. فونت‌های مفقود را با جایگزینی یا حذف از خروجی مدیریت کنید."
 
     # feature loop
     - icon: "convertpdf"
-      title: "تبدیل به PDF"
+      title: "[تبدیل به PDF](https://blog.groupdocs.com/viewer/rendering-documents-as-pdf/)"
       content: "سند با هر فرمت قابل پشتیبانی را می توان به راحتی با گزینه های قابل تنظیم به PDF تبدیل و ذخیره کرد."
 
     # feature loop
     - icon: "transform"
-      title: "تغییرات را اعمال کنید"
+      title: "[تغییرات را اعمال کنید](https://blog.groupdocs.com/viewer/protect-your-documents-with-watermarks-in-groupdocs-viewer-for-dot-net/)"
       content: "سند خروجی را می توان در حین رندر تبدیل کرد - صفحات را می توان چرخاند و/یا مرتب کرد و واترمارک متنی در بالای آنها قرار داد."
 
     # feature loop
     - icon: "adjustment"
-      title: "تنظیم خروجی HTML"
+      title: "[تنظیم خروجی HTML](https://blog.groupdocs.com/viewer/render-word-documents-as-clean-html-using-csharp/)"
       content: "اسناد HTML خروجی، تولید شده توسط GroupDocs.Viewer، را می توان بسیار دقیق تنظیم کرد: امکان ذخیره در جریان یا فایل، با منابع خارجی یا جاسازی شده، تماس های برگشتی و غیره وجود دارد."
 
     # feature loop
     - icon: "complex"
-      title: "پشتیبانی از ساختارهای پیچیده سند"
+      title: "[پشتیبانی از ساختارهای پیچیده سند](https://blog.groupdocs.com/viewer/process-microsoft-outlook-email-attachments-in-a-.net-viewer-application/)"
       content: "GroupDocs.Viewer نه تنها از اسناد منفرد، بلکه از فایل‌هایی نیز پشتیبانی می‌کند که در داخل شامل فهرست یا ساختار سلسله مراتبی از اسناد هستند، مانند پیام‌های ایمیل با پیوست‌ها، آرشیوهای ZIP با فایل‌های داخلی درون پوشه‌ها، تصاویر TIFF چند صفحه‌ای و غیره."
 
     # feature loop
     - icon: "optimization"
-      title: "گزینه های بهینه سازی"
+      title: "[گزینه های بهینه سازی](https://blog.groupdocs.com/viewer/exclude-specific-fonts-from-output-html-using-groupdocs.viewer-for-.net-18.10/)"
       content: "GroupDocs.Viewer حاوی یک زیرسیستم کش قابل تنظیم است که می تواند با استفاده از نسخه های ذخیره شده اسناد، زمان بارگذاری را تسریع بخشد. همچنین مجموعه ای از گزینه های مختلف برای فرمت های مختلف اجازه می دهد تا برخی از بخش ها یا جنبه های غیر ضروری اسناد را از رندر حذف کنید (فونت ها، کاربرگ های مخفی، پیوست های ایمیل) برای بهینه سازی عملکرد کلی."
 
     # feature loop
     - icon: "passwordprotected"
-      title: "پشتیبانی از اسناد محافظت شده با رمز عبور"
+      title: "[پشتیبانی از اسناد محافظت شده با رمز عبور](https://docs.groupdocs.com/viewer/net/load-password-protected-document/)"
       content: "GroupDocs.Viewer اجازه می دهد تا اسناد رمزگذاری شده را از انواع مختلف باز کنید: PDF، WordProcessing، Spreadsheet، Presentation و غیره، با تعیین رمز عبور در گزینه های بارگیری."
 
 ############################# Code samples ############################

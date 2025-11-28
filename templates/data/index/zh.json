@@ -125,8 +125,8 @@
       "feature1_content": "使用 CSS 和 SVG 将任何类型的文档转换为 HTML 文档，可以在任何现代网络浏览器中显示。",
       "feature2_title": "光栅化文档",
       "feature2_content": "将任何支持的文档格式光栅化为光栅图像，并具有可调整的图像格式和压缩质量。",
-      "feature3_title": "渲染并突出显示编程代码",
-      "feature3_content": "支持所有流行的编程、脚本和标记语言，能够解析和突出显示其语法。",
+      "feature3_title": "控制文档字体",
+      "feature3_content": "识别文档中使用的字体。通过替换或从输出中排除来处理缺失的字体。",
       "feature4_title": "转换为 PDF",
       "feature4_content": "任何支持格式的文档都可以通过可调整的选项轻松转换并保存为 PDF。",
       "feature5_title": "应用转换",
@@ -161,9 +161,9 @@
     "overview_description": "用于在 .NET 应用程序中渲染、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
     "overview_features": {
       "feature1_title": "高效可靠地查看文档",
-      "feature1_content": "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer支持.NET Framework 4.6.2和.NET 6.0，它可以在Windows和Linux平台上运行。",
+      "feature1_content": "使用 GroupDocs.Viewer API，您可以高效地将任何受支持格式的文档渲染为 [HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/)、[JPEG, PNG](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/)、以及 [PDF](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/) ，具备灵活且功能强大的选项，同时保持内容与文档结构完整。GroupDocs.Viewer 支持 .NET Framework 4.6.2 与 .NET 6.0，兼容 Windows 与 Linux 平台。",
       "feature2_title": "支持最流行的文件和文档格式",
-      "feature2_content": "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。",
+      "feature2_content": "我们支持渲染超过 180 种主流文件和文档格式，包括 [Word](https://docs.groupdocs.com/viewer/net/render-word-documents/)、[Excel](https://blog.groupdocs.com/viewer/working-with-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/net/render-pdf-documents/)、[PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)、OpenDocument 系列、压缩包、光栅与矢量图像、电子书、编程语言及标记等，并可处理受密码保护的加密文件。",
       "feature3_title": "可定制的输出",
       "feature3_content": "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。",
       "feature4_title": "ASP.NET Core 的 UI",
@@ -214,9 +214,9 @@
     "overview_description": "用于在 Java 应用程序中呈现、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
     "overview_features": {
       "feature1_title": "高效可靠地查看文档",
-      "feature1_content": "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer 适用于 Windows 和 Linux 平台。",
+      "feature1_content": "使用 GroupDocs.Viewer API，您可以高效地将任何受支持格式的文档渲染为 [HTML](https://docs.groupdocs.com/viewer/java/rendering-to-html/)、[JPEG, PNG](https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/)、以及 [PDF](https://docs.groupdocs.com/viewer/java/rendering-to-pdf/) ，具备灵活且功能强大的选项，同时保持内容与文档结构完整。GroupDocs.Viewer 在 Windows 与 Linux 平台上均可运行。",
       "feature2_title": "支持最流行的文件和文档格式",
-      "feature2_content": "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。",
+      "feature2_content": "我们支持渲染超过 180 种主流文件和文档格式，包括 [Word](https://docs.groupdocs.com/viewer/java/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/java/render-pdf-documents/)、[PowerPoint](https://blog.groupdocs.com/viewer/view-powerpoint-presentations/)、OpenDocument 系列、压缩包、光栅与矢量图像、电子书、编程语言及标记等，并可处理受密码保护的加密文件。",
       "feature3_title": "可定制的输出",
       "feature3_content": "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。",
       "feature4_title": "Spring 框架的 Web UI",
@@ -258,9 +258,9 @@
     "overview_description": "用于在 Node.js 应用程序中渲染、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
     "overview_features": {
       "feature1_title": "高效可靠地查看文档",
-      "feature1_content": "借助 GroupDocs.Viewer API，您可以使用灵活而强大的选项将任何支持格式的文档高效呈现为 HTML、JPEG、PNG 和 PDF，同时保持内容和文档结构的完整性。 GroupDocs.Viewer for Node.js 适用于 Windows 和 Linux 平台。",
+      "feature1_content": "使用 GroupDocs.Viewer API，您可以高效地将任何受支持格式的文档渲染为 [HTML](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-html/)、JPEG、PNG，以及 [PDF](https://docs.groupdocs.com/viewer/nodejs-java/rendering-to-pdf/) ，具备灵活且功能强大的选项，同时保持内容与文档结构完整。GroupDocs.Viewer for Node.js 在 Windows 与 Linux 平台上均可运行。",
       "feature2_title": "支持最流行的文件和文档格式",
-      "feature2_content": "我们支持渲染 180 多种最流行的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、档案、光栅和矢量图像、电子书、编程语言和标记以及许多其他文件类型，包括加密的文件类型受密码保护的文件。",
+      "feature2_content": "我们支持渲染超过 180 种主流文件和文档格式，包括 [Word](https://docs.groupdocs.com/viewer/nodejs-java/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/nodejs-java/render-excel-and-apple-numbers-spreadsheets/)、[PDF](https://docs.groupdocs.com/viewer/nodejs-java/render-pdf-documents/)、[PowerPoint](https://docs.groupdocs.com/viewer/nodejs-java/render-presentations/)、OpenDocument 系列、压缩包、光栅与矢量图像、电子书、编程语言及标记等，并可处理受密码保护的加密文件。",
       "feature3_title": "可定制的输出",
       "feature3_content": "GroupDocs.Viewer 不仅允许渲染文档，还可以控制渲染的准确方式、文档的哪些部分应该渲染或现在渲染、如何渲染，以及对渲染的输出应用不同的转换。"
     },
@@ -300,9 +300,9 @@
     "overview_description": "用于在 Python 应用中可视化、查看和转换文档、幻灯片、图表和许多其他类型文档的 API",
     "overview_features": {
       "feature1_title": "高效可靠地呈现文档",
-      "feature1_content": "使用 GroupDocs.Viewer API，您可以使用灵活强大的选项，将任何受支持格式的文档高效可视化为 HTML、JPEG、PNG 和 PDF，同时保持文档内容和结构的完整性。GroupDocs.Viewer for Python 适用于 Windows 和 Linux 平台。",
+      "feature1_content": "使用 GroupDocs.Viewer API，您可以高效地将任何受支持格式的文档渲染为 [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)、JPEG、PNG，以及 [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) ，具备灵活且功能强大的选项，同时保持内容与文档结构完整。GroupDocs.Viewer for Python 在 Windows 与 Linux 平台上均可运行。",
       "feature2_title": "支持大多数常用文件和文档格式",
-      "feature2_content": "我们支持可视化 180 多种最常用的文件和文档格式，包括 Word、Excel、PDF、PowerPoint、OpenDocument 格式系列、存档文件、光栅和矢量图像、电子书、编程语言和标记语言以及许多其他类型的文件，包括使用密码保护进行加密的文件。",
+      "feature2_content": "我们支持渲染超过 180 种主流文件和文档格式，包括 [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/)、[Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/)、[PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/)、[PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/)、OpenDocument 系列、压缩包、光栅与矢量图像、电子书、编程语言及标记等，并可处理受密码保护的加密文件。",
       "feature3_title": "可定制的输出",
       "feature3_content": "GroupDocs.Viewer 不仅可以让您可视化文档，还可以精确控制需要可视化或不需可视化的文档部分、可视化方式以及将各种转换应用于可视化输出。"
     },

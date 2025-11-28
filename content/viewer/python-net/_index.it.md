@@ -80,11 +80,11 @@ overview:
   features:
     # feature loop
     - title: "Visualizza i documenti in modo efficiente e affidabile"
-      content: "Con GroupDocs.Viewer API, puoi eseguire in modo efficiente il rendering di documenti di qualsiasi formato supportato in HTML, JPEG, PNG e PDF con opzioni flessibili e potenti, mantenendo al contempo l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer per Python funziona su piattaforme Windows e Linux."
+      content: "Con l'API GroupDocs.Viewer è possibile rendere in modo efficiente documenti di qualsiasi formato supportato in [HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/), JPEG, PNG e [PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/) grazie a opzioni flessibili e potenti, preservando l'integrità del contenuto e della struttura del documento. GroupDocs.Viewer per Python funziona su piattaforme Windows e Linux."
 
     # feature loop
     - title: "Supporta la maggior parte dei formati di file e documenti comuni"
-      content: "Supportiamo il rendering di oltre 180 formati di file e documenti più diffusi, inclusi Word, Excel, PDF, PowerPoint, la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, eBook, linguaggi di programmazione e markup e molti altri tipi di file, inclusi file crittografati con protezione tramite password."
+      content: "Supportiamo il rendering di oltre 180 formati di file e documenti più diffusi, tra cui [Word](https://docs.groupdocs.com/viewer/python-net/render-word-documents/), [Excel](https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/), [PDF](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/), [PowerPoint](https://docs.groupdocs.com/viewer/python-net/render-presentations/), la famiglia di formati OpenDocument, archivi, immagini raster e vettoriali, e‑Book, linguaggi di programmazione e markup, oltre a numerosi altri tipi di file, comprese le versioni crittografate protette da password."
 
     # feature loop
     - title: "Output personalizzabile"
@@ -178,47 +178,47 @@ features:
   items:
     # feature loop
     - icon: "viewhtml"
-      title: "Visualizza i documenti in HTML"
+      title: "[Visualizza i documenti in HTML](https://docs.groupdocs.com/viewer/python-net/rendering-to-html/)"
       content: "Converti documenti di qualsiasi tipo in un documento HTML con CSS e SVG, che può essere visualizzato in qualsiasi browser web moderno."
 
     # feature loop
     - icon: "rasterize"
-      title: "Rasterizzare i documenti"
+      title: "[Rasterizzare i documenti](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_image/render_to_png.py)"
       content: "Rasterizza qualsiasi formato di documento supportabile nell'immagine raster, con formato immagine e qualità di compressione regolabili."
 
     # feature loop
-    - icon: "sourcecode"
-      title: "Restituisci ed evidenzia i codici di programmazione"
-      content: "Supporto di tutti i linguaggi di programmazione, scripting e markup più diffusi, con capacità di analizzare ed evidenziare la loro sintassi."
+    - icon: "font"
+      title: "[Controlla i caratteri del documento](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/rendering/common_rendering_options/replace_missing_font.py)"
+      content: "Identifica i caratteri usati in un documento. Gestisci i caratteri mancanti sostituendoli o escludendoli dall'output."
 
     # feature loop
     - icon: "convertpdf"
-      title: "Converti in PDF"
+      title: "[Converti in PDF](https://docs.groupdocs.com/viewer/python-net/rendering-to-pdf/)"
       content: "I documenti di qualsiasi formato supportato possono essere facilmente convertiti e salvati nel PDF con opzioni regolabili."
 
     # feature loop
     - icon: "transform"
-      title: "Applicare trasformazioni"
+      title: "[Applicare trasformazioni](https://docs.groupdocs.com/viewer/python-net/add-text-watermark/)"
       content: "Il documento di output può essere trasformato durante il rendering: le pagine possono essere ruotate e/o riorganizzate e la filigrana di testo può essere posizionata sopra di esse."
 
     # feature loop
     - icon: "adjustment"
-      title: "Regolazione dell'output HTML"
+      title: "[Regolazione dell'output HTML](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/basic_usage/render_document_to_html/render_to_html_with_embedded_resources.py)"
       content: "I documenti HTML di output, generati da GroupDocs.Viewer, possono essere ottimizzati in modo molto preciso: è consentito salvare nello stream o nel file, con risorse esterne o incorporate, callback e così via."
 
     # feature loop
     - icon: "complex"
-      title: "Supporto di strutture documentali complesse"
+      title: "[Supporto di strutture documentali complesse](https://docs.groupdocs.com/viewer/python-net/how-to-extract-and-save-attachments/)"
       content: "GroupDocs.Viewer supporta non solo i singoli documenti, ma anche i file che contengono internamente un elenco o una struttura gerarchica di documenti, come messaggi di posta elettronica con allegati, archivi ZIP con file interni all'interno di cartelle, immagini TIFF multipagina e così via."
 
     # feature loop
     - icon: "optimization"
-      title: "Opzioni di ottimizzazione"
+      title: "[Opzioni di ottimizzazione](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
       content: "GroupDocs.Viewer contiene un sottosistema di cache regolabile, che può ridurre i tempi di caricamento utilizzando le versioni dei documenti memorizzate nella cache. Inoltre una serie di diverse opzioni per diversi formati consente di escludere alcune parti o aspetti non necessari dei documenti dal rendering (caratteri, fogli di lavoro nascosti, allegati e-mail) per ottimizzare le prestazioni complessive"
 
     # feature loop
     - icon: "passwordprotected"
-      title: "Supporto di documenti protetti da password"
+      title: "[Supporto di documenti protetti da password](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Python-via-.NET/blob/master/Examples/advanced_usage/loading/load_password_protected_document.py)"
       content: "GroupDocs.Viewer consente di aprire documenti crittografati di diversi tipi: PDF, elaborazione testi, fogli di calcolo, presentazioni e altri, specificando una password nelle opzioni di caricamento."
 
 ############################# Code samples ############################
