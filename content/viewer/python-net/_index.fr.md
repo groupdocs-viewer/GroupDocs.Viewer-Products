@@ -213,7 +213,7 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "[Options d'optimisation](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
+      title: "Options d'optimisation"
       content: "GroupDocs.Viewer contient un sous-système de cache réglable, qui peut réduire le temps de chargement en utilisant les versions mises en cache des documents. De plus, un ensemble d'options différentes pour différents formats permet d'exclure du rendu certaines parties ou aspects inutiles des documents (polices, feuilles de calcul masquées, pièces jointes aux e-mails) pour optimiser les performances globales."
 
     # feature loop

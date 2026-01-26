@@ -213,7 +213,7 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "[优化选项](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
+      title: "优化选项"
       content: "GroupDocs.Viewer 包含一个可调整的缓存子系统，它可以通过使用文档的缓存版本来缩短加载时间。此外，针对不同格式的一组不同选项允许从渲染中排除文档的一些不必要的部分或方面（字体、隐藏的工作表、电子邮件附件），以优化整体性能"
 
     # feature loop

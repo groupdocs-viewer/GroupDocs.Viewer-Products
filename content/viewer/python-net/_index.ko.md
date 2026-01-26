@@ -213,7 +213,7 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "[최적화 옵션](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
+      title: "최적화 옵션"
       content: "GroupDocs.Viewer에는 캐시된 문서 버전을 사용하여 로딩 시간을 단축할 수 있는 조정 가능한 캐시 하위 시스템이 포함되어 있습니다. 또한 다양한 형식에 대한 다양한 옵션 세트를 사용하면 렌더링에서 문서의 불필요한 부분이나 측면(글꼴, 숨겨진 워크시트, 이메일 첨부 파일)을 제외하여 전반적인 성능을 최적화할 수 있습니다."
 
     # feature loop

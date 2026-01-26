@@ -213,7 +213,7 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "[Tùy chọn tối ưu hóa](https://docs.groupdocs.com/viewer/python-net/caching-results/)"
+      title: "Tùy chọn tối ưu hóa"
       content: "GroupDocs.Viewer chứa một hệ thống con bộ nhớ đệm có thể điều chỉnh, hệ thống này có thể rút ngắn thời gian tải bằng cách sử dụng các phiên bản tài liệu được lưu trong bộ nhớ đệm. Ngoài ra, một tập hợp các tùy chọn khác nhau cho các định dạng khác nhau cho phép loại trừ một số phần hoặc khía cạnh không cần thiết của tài liệu khỏi quá trình hiển thị (phông chữ, bảng tính ẩn, tệp đính kèm email) để tối ưu hóa hiệu suất tổng thể"
 
     # feature loop

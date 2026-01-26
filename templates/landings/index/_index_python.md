@@ -213,7 +213,7 @@ features:
 
     # feature loop
     - icon: "optimization"
-      title: "<% "[{index-content-common.features.feature8_title}](https://docs.groupdocs.com/viewer/python-net/caching-results/)" %>"
+      title: "<% "{index-content-common.features.feature8_title}" %>"
       content: "<% "{index-content-common.features.feature8_content}" %>"
 
     # feature loop
